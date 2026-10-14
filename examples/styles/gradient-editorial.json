@@ -1,0 +1,221 @@
+{
+  "version": 1,
+  "name": "Field Lantern / Gradient Editorial",
+  "width": 256,
+  "height": 256,
+  "layers": [
+    {
+      "name": "Warm editorial field",
+      "type": "rectangle",
+      "x": 16,
+      "y": 16,
+      "width": 224,
+      "height": 224,
+      "color": "#EED8C8",
+      "radius": 28,
+      "fillGradient": {
+        "type": "linear",
+        "x1": 16,
+        "y1": 16,
+        "x2": 240,
+        "y2": 240,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#F7EBDA"
+          },
+          {
+            "offset": 1,
+            "color": "#DCAEA0"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Atmospheric halo",
+      "type": "ellipse",
+      "x": 38,
+      "y": 32,
+      "width": 180,
+      "height": 180,
+      "color": "#F8BD75",
+      "fillGradient": {
+        "type": "radial",
+        "cx": 128,
+        "cy": 122,
+        "r": 90,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#FFE6A4"
+          },
+          {
+            "offset": 0.65,
+            "color": "#F2B68190"
+          },
+          {
+            "offset": 1,
+            "color": "#F2B68100"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ground shadow",
+      "type": "ellipse",
+      "x": 66,
+      "y": 209,
+      "width": 125,
+      "height": 16,
+      "color": "#7D4C5B35"
+    },
+    {
+      "name": "Architectural handle",
+      "type": "path",
+      "d": "M 96 75 L 96 53 C 96 14 160 14 160 53 L 160 75",
+      "color": "#00000000",
+      "stroke": "#553D55",
+      "strokeWidth": 8,
+      "strokeLinecap": "round"
+    },
+    {
+      "name": "Lantern body",
+      "type": "path",
+      "d": "M 86 83 L 170 83 L 187 201 Q 188 213 175 213 L 81 213 Q 68 213 69 201 Z",
+      "color": "#5D4562",
+      "fillGradient": {
+        "type": "linear",
+        "x1": 74,
+        "y1": 87,
+        "x2": 184,
+        "y2": 208,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#8D627D"
+          },
+          {
+            "offset": 1,
+            "color": "#303B58"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Luminous glass",
+      "type": "path",
+      "d": "M 98 96 L 158 96 L 172 193 L 84 193 Z",
+      "color": "#F6BA75",
+      "fillGradient": {
+        "type": "linear",
+        "x1": 128,
+        "y1": 96,
+        "x2": 128,
+        "y2": 193,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#C77B8C"
+          },
+          {
+            "offset": 1,
+            "color": "#FFD48C"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Flame outer",
+      "type": "path",
+      "d": "M 129 113 C 152 139 158 152 149 168 C 141 185 115 184 107 168 C 100 155 107 142 115 134 C 111 150 122 154 126 141 C 130 131 122 121 129 113 Z",
+      "color": "#FFE3A1",
+      "fillGradient": {
+        "type": "linear",
+        "x1": 128,
+        "y1": 113,
+        "x2": 128,
+        "y2": 181,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#FFF0B8"
+          },
+          {
+            "offset": 1,
+            "color": "#F2AE66"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Flame heart",
+      "type": "path",
+      "d": "M 128 151 C 142 166 139 176 128 177 C 116 174 118 164 128 151 Z",
+      "color": "#FFF8DA"
+    },
+    {
+      "name": "Glass reflective edge",
+      "type": "path",
+      "d": "M 104 103 L 94 176",
+      "color": "#00000000",
+      "stroke": "#FFF4D680",
+      "strokeWidth": 3,
+      "strokeLinecap": "round"
+    },
+    {
+      "name": "Cap",
+      "type": "rectangle",
+      "x": 77,
+      "y": 72,
+      "width": 102,
+      "height": 16,
+      "color": "#6C4A64",
+      "radius": 7,
+      "fillGradient": {
+        "type": "linear",
+        "x1": 77,
+        "y1": 72,
+        "x2": 179,
+        "y2": 88,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#A16C85"
+          },
+          {
+            "offset": 1,
+            "color": "#403C57"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Foot",
+      "type": "rectangle",
+      "x": 65,
+      "y": 207,
+      "width": 126,
+      "height": 12,
+      "color": "#403C57",
+      "radius": 6
+    },
+    {
+      "name": "Editorial orbit",
+      "type": "path",
+      "d": "M 47 157 C 9 104 72 83 151 113 C 226 141 235 184 205 193",
+      "color": "#00000000",
+      "stroke": "#FFF6E0",
+      "strokeWidth": 2,
+      "strokeLinecap": "round"
+    },
+    {
+      "name": "Orbit accent",
+      "type": "ellipse",
+      "x": 198,
+      "y": 188,
+      "width": 11,
+      "height": 11,
+      "color": "#FFF6E0"
+    }
+  ]
+}

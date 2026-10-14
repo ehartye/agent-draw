@@ -1,0 +1,66 @@
+{
+  "version": 1,
+  "name": "Field Lantern / Monoline",
+  "width": 256,
+  "height": 256,
+  "layers": [
+    {
+      "name": "Open handle",
+      "type": "path",
+      "d": "M 98 65 L 98 55 C 98 14 158 14 158 55 L 158 65",
+      "color": "#00000000",
+      "stroke": "#183F48",
+      "strokeWidth": 6,
+      "strokeLinecap": "round",
+      "strokeLinejoin": "round"
+    },
+    {
+      "name": "Contour with round joins",
+      "type": "path",
+      "d": "M 88 82 L 70 204 Q 69 216 82 216 L 174 216 Q 187 216 186 204 L 168 82 M 78 75 L 178 75 M 65 227 L 191 227",
+      "color": "#00000000",
+      "stroke": "#183F48",
+      "strokeWidth": 6,
+      "strokeLinecap": "round",
+      "strokeLinejoin": "round"
+    },
+    {
+      "name": "Inner glass",
+      "type": "path",
+      "d": "M 101 96 L 88 193 L 168 193 L 155 96",
+      "color": "#00000000",
+      "stroke": "#183F48",
+      "strokeWidth": 4,
+      "strokeLinecap": "round",
+      "strokeLinejoin": "round"
+    },
+    {
+      "name": "Continuous flame contour",
+      "type": "path",
+      "d": "M 128 117 C 145 137 150 145 147 156 C 144 170 132 175 121 170 C 108 164 106 151 115 139 C 114 151 123 151 125 141 C 127 133 122 126 128 117 Z",
+      "color": "#00000000",
+      "stroke": "#D88A32",
+      "strokeWidth": 5,
+      "strokeLinecap": "round",
+      "strokeLinejoin": "round"
+    },
+    {
+      "name": "Open light strokes",
+      "type": "path",
+      "d": "M 44 100 L 33 94 M 39 131 L 23 131 M 212 100 L 223 94 M 217 131 L 233 131 M 53 70 L 46 60",
+      "color": "#00000000",
+      "stroke": "#D88A32",
+      "strokeWidth": 5,
+      "strokeLinecap": "round"
+    },
+    {
+      "name": "Glass reflection",
+      "type": "path",
+      "d": "M 112 107 L 109 126",
+      "color": "#00000000",
+      "stroke": "#183F48",
+      "strokeWidth": 4,
+      "strokeLinecap": "round"
+    }
+  ]
+}

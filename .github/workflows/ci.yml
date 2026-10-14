@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: '24'
       - name: Install distro vector renderer
-        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends inkscape fonts-dejavu-core
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends inkscape fonts-dejavu-core ffmpeg
       - name: Verify renderer is available
         run: node scripts/agent-draw.mjs doctor
       - name: Test runtime and real vector exports
@@ -28,4 +28,15 @@ jobs:
         run: |
           node scripts/setup.js --json
           node scripts/setup.js --check --json
+          node scripts/run-managed.js doctor --smoke
           node scripts/run-managed.js build examples/orbit-robot.json --out "${RUNNER_TEMP}/agent-draw-demo"
+          for project in examples/styles/*.json; do
+            style="$(basename "$project" .json)"
+            node scripts/run-managed.js build "$project" --out "${RUNNER_TEMP}/agent-draw-styles/$style"
+          done
+          node scripts/run-managed.js animate examples/waving-orbit.json --out "${RUNNER_TEMP}/agent-draw-animation" --gif --mp4 --background "#F4F0E8"
+          mkdir -p "${RUNNER_TEMP}/atlas-input"
+          cp "${RUNNER_TEMP}/agent-draw-animation/frames/frame-0000.png" "${RUNNER_TEMP}/atlas-input/first.png"
+          cp "${RUNNER_TEMP}/agent-draw-animation/frames/frame-0001.png" "${RUNNER_TEMP}/atlas-input/second.png"
+          node -e 'require("fs").writeFileSync(process.env.RUNNER_TEMP+"/atlas-input/manifest.json",JSON.stringify({version:1,name:"orbit-atlas",width:512,height:512,columns:2,pivot:{x:0.5,y:0.9},clips:[{id:"orbit-wave",character:"orbit",action:"wave",fps:12,loop:false,frames:["first.png","second.png"]}]}))'
+          node scripts/run-managed.js atlas "${RUNNER_TEMP}/atlas-input/manifest.json" --out "${RUNNER_TEMP}/agent-draw-atlas"

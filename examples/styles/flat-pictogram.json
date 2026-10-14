@@ -1,0 +1,57 @@
+{
+  "version": 1,
+  "name": "Field Lantern / Flat Pictogram",
+  "width": 256,
+  "height": 256,
+  "layers": [
+    {
+      "name": "Handle with transparent counter",
+      "type": "path",
+      "d": "M 94 73 L 94 56 A 34 34 0 0 1 162 56 L 162 73 L 149 73 L 149 56 A 21 21 0 0 0 107 56 L 107 73 Z",
+      "color": "#183F48",
+      "fillRule": "evenodd"
+    },
+    {
+      "name": "Body with true window cutout",
+      "type": "path",
+      "d": "M 83 80 L 173 80 L 189 203 Q 190 215 177 215 L 79 215 Q 66 215 67 203 Z M 97 100 L 85 195 L 171 195 L 159 100 Z",
+      "color": "#183F48",
+      "fillRule": "evenodd"
+    },
+    {
+      "name": "Flame silhouette",
+      "type": "path",
+      "d": "M 129 111 C 147 130 153 140 151 154 C 149 173 136 182 124 179 C 102 175 100 154 111 140 C 109 154 118 155 120 146 C 125 133 117 124 129 111 Z",
+      "color": "#F7B844"
+    },
+    {
+      "name": "Chimney cap",
+      "type": "rectangle",
+      "x": 75,
+      "y": 70,
+      "width": 106,
+      "height": 16,
+      "color": "#183F48",
+      "radius": 8
+    },
+    {
+      "name": "Foot",
+      "type": "rectangle",
+      "x": 63,
+      "y": 211,
+      "width": 130,
+      "height": 13,
+      "color": "#183F48",
+      "radius": 6
+    },
+    {
+      "name": "Light rays",
+      "type": "path",
+      "d": "M 43 104 L 28 97 M 40 139 L 21 139 M 213 104 L 228 97 M 216 139 L 235 139",
+      "color": "#00000000",
+      "stroke": "#F7B844",
+      "strokeWidth": 7,
+      "strokeLinecap": "round"
+    }
+  ]
+}

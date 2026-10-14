@@ -1,0 +1,134 @@
+{
+  "version": 1,
+  "name": "Field Lantern / Paper-Cut Night",
+  "width": 256,
+  "height": 256,
+  "layers": [
+    {
+      "name": "Night paper",
+      "type": "rectangle",
+      "x": 16,
+      "y": 16,
+      "width": 224,
+      "height": 224,
+      "color": "#142C45",
+      "radius": 28
+    },
+    {
+      "name": "Moon underlay",
+      "type": "ellipse",
+      "x": 163,
+      "y": 42,
+      "width": 43,
+      "height": 43,
+      "color": "#0C2339"
+    },
+    {
+      "name": "Moon paper",
+      "type": "ellipse",
+      "x": 159,
+      "y": 38,
+      "width": 43,
+      "height": 43,
+      "color": "#F7DFA2"
+    },
+    {
+      "name": "Distant paper ridge shadow",
+      "type": "path",
+      "d": "M 16 139 L 53 90 L 93 133 L 127 84 L 179 148 L 213 108 L 240 140 L 240 211 L 16 211 Z",
+      "color": "#10263C"
+    },
+    {
+      "name": "Distant paper ridge",
+      "type": "path",
+      "d": "M 16 132 L 53 83 L 93 126 L 127 77 L 179 141 L 213 101 L 240 133 L 240 205 L 16 205 Z",
+      "color": "#365878"
+    },
+    {
+      "name": "Middle paper hill shadow",
+      "type": "path",
+      "d": "M 16 159 Q 65 125 118 162 Q 176 197 240 148 L 240 219 L 16 219 Z",
+      "color": "#173D54"
+    },
+    {
+      "name": "Middle paper hill",
+      "type": "path",
+      "d": "M 16 154 Q 65 120 118 157 Q 176 192 240 143 L 240 214 L 16 214 Z",
+      "color": "#4D8290"
+    },
+    {
+      "name": "Foreground cut-paper shadow",
+      "type": "path",
+      "d": "M 16 199 Q 81 165 144 197 Q 198 216 240 177 L 240 212 Q 240 240 212 240 L 44 240 Q 16 240 16 212 Z",
+      "color": "#153F4B"
+    },
+    {
+      "name": "Foreground paper",
+      "type": "path",
+      "d": "M 16 193 Q 81 159 144 191 Q 198 210 240 171 L 240 212 Q 240 240 212 240 L 44 240 Q 16 240 16 212 Z",
+      "color": "#86ABA4"
+    },
+    {
+      "name": "Warm light pool",
+      "type": "path",
+      "d": "M 128 186 L 93 221 Q 128 229 165 218 Z",
+      "color": "#D9CA8E"
+    },
+    {
+      "name": "Lantern handle",
+      "type": "path",
+      "d": "M 118 152 L 118 145 Q 128 134 138 145 L 138 152",
+      "color": "#00000000",
+      "stroke": "#142C45",
+      "strokeWidth": 4,
+      "strokeLinecap": "round"
+    },
+    {
+      "name": "Lantern shell",
+      "type": "path",
+      "d": "M 115 154 L 141 154 L 146 190 L 110 190 Z",
+      "color": "#142C45"
+    },
+    {
+      "name": "Lantern window",
+      "type": "path",
+      "d": "M 119 159 L 137 159 L 140 185 L 116 185 Z",
+      "color": "#F4BF64"
+    },
+    {
+      "name": "Paper flame",
+      "type": "path",
+      "d": "M 129 163 Q 143 180 129 183 Q 116 180 129 163 Z",
+      "color": "#FFF0B5"
+    },
+    {
+      "name": "Lantern cap",
+      "type": "rectangle",
+      "x": 111,
+      "y": 150,
+      "width": 34,
+      "height": 5,
+      "color": "#142C45",
+      "radius": 2
+    },
+    {
+      "name": "Lantern base",
+      "type": "rectangle",
+      "x": 107,
+      "y": 189,
+      "width": 42,
+      "height": 5,
+      "color": "#142C45",
+      "radius": 2
+    },
+    {
+      "name": "Sparse stars",
+      "type": "path",
+      "d": "M 58 43 L 58 51 M 54 47 L 62 47 M 102 49 L 102 55 M 99 52 L 105 52",
+      "color": "#00000000",
+      "stroke": "#ADC6C5",
+      "strokeWidth": 2,
+      "strokeLinecap": "round"
+    }
+  ]
+}
