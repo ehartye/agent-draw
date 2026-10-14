@@ -1,0 +1,31 @@
+name: Agent Draw checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  vector-runtime:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install distro vector renderer
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends inkscape fonts-dejavu-core
+      - name: Verify renderer is available
+        run: node scripts/agent-draw.mjs doctor
+      - name: Test runtime and real vector exports
+        run: npm test
+      - name: Smoke-test managed plugin runtime
+        env:
+          AGENT_DRAW_HOME: ${{ runner.temp }}/agent-draw-runtime
+        run: |
+          node scripts/setup.js --json
+          node scripts/setup.js --check --json
+          node scripts/run-managed.js build examples/orbit-robot.json --out "${RUNNER_TEMP}/agent-draw-demo"
