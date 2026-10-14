@@ -8,7 +8,7 @@ Use broad color transitions to support a focal idea or atmospheric form while re
 
 1. Compose the illustration with flat masses first. Reserve a quiet area for any headline or labels.
 2. Assign the gradient a job: directional illumination, a colored atmosphere, or a focal glow. Choose linear for a directional transition, radial for a centered spread.
-3. Place gradient coordinates in canvas space. They are not percentages or coordinates local to a shape; moving geometry alone does not move its paint field.
+3. Place gradient coordinates in user space: canvas coordinates at the root, containing-group local coordinates when nested. They are not percentages or object-bounding-box coordinates. Moving leaf geometry alone does not move its paint field; transforming a containing group moves geometry and paint together.
 4. Begin with two or three stops. Add stops only to control a specific transition. Compare the silhouette against both ends of the gradient.
 5. Add a few solid accents or live text after the large transitions read correctly.
 
@@ -36,7 +36,7 @@ This second fragment is the `fillGradient` value only. Keep the containing layer
 
 Agent-draw emits internal paint IDs and `userSpaceOnUse` gradients. The [SVG paint-server specification](https://www.w3.org/TR/SVG2/pservers.html) defines the underlying coordinate and stop behavior. The supported contract is narrower: only linear/radial fill gradients, 2–16 sorted stops, finite coordinates -4096…8192, and radial radius greater than 0 and at most 8192. Stops use offsets 0…1 and hex colors with optional alpha. Layer opacity affects the whole result; the retained solid source color is not a rendered fallback, and its alpha is not an extra opacity multiplier on the gradient.
 
-No gradient strokes, mesh/conic gradients, focal-point controls, transforms, repeated spread modes, blur, blend modes, or imported paint servers are exposed. Do not supply `url(...)`, raw XML, or user-chosen paint IDs. Use validation and the Inkscape build; interpolation appearance and export fidelity need visual checking.
+No gradient strokes, mesh/conic gradients, focal-point controls, gradient-specific transforms, repeated spread modes, blur, blend modes, or imported paint servers are exposed. Do not supply `url(...)`, raw XML, or user-chosen paint IDs. Use validation and the Inkscape build; interpolation appearance and export fidelity need visual checking.
 
 ## Common mistakes and QA
 

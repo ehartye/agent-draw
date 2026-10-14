@@ -29,7 +29,7 @@ Three cube faces for a 256 × 256 canvas, sharing the same vertices:
 
 ## Supported tools and limits
 
-Use polygons or closed paths; no `transform`, perspective, extrusion, lighting, mesh, or triangulation tool is exposed. Polygons support fractional coordinates and 3–256 points. The Inkscape wiki's [tutorial index](https://wiki.inkscape.org/wiki/TutorialsAndHelp) includes isometric transformation resources for its GUI; those transforms are not JSON fields in agent-draw. Export with Inkscape and inspect the actual seams.
+Use polygons or closed paths; groups can translate, rotate, or scale the assembled facets, but there is no skew, perspective, extrusion, lighting, mesh, or triangulation tool. Polygons support fractional coordinates and 3–256 points. The Inkscape wiki's [tutorial index](https://wiki.inkscape.org/wiki/TutorialsAndHelp) includes isometric transformation resources for its GUI; those isometric/skew GUI transforms are not JSON fields in agent-draw; derive projected vertices explicitly. Export with Inkscape and inspect the actual seams.
 
 ## Common mistakes and QA
 

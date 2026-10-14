@@ -1,0 +1,509 @@
+{
+  "version": 1,
+  "name": "ORBIT / reusable wave loop",
+  "width": 512,
+  "height": 512,
+  "layers": [
+    {
+      "name": "Soft ground shadow",
+      "type": "ellipse",
+      "x": 112,
+      "y": 432,
+      "width": 288,
+      "height": 30,
+      "color": "#112E4F18"
+    },
+    {
+      "name": "Orbit trail",
+      "type": "path",
+      "d": "M 80 209 C 24 331 115 424 247 412 C 388 399 472 308 436 201",
+      "color": "#00000000",
+      "stroke": "#A4DCD9",
+      "strokeWidth": 3
+    },
+    {
+      "type": "group",
+      "id": "body",
+      "name": "Orbit character",
+      "children": [
+        {
+          "name": "Left boot",
+          "type": "rectangle",
+          "x": 169,
+          "y": 399,
+          "width": 77,
+          "height": 39,
+          "color": "#17364D",
+          "radius": 15
+        },
+        {
+          "name": "Right boot",
+          "type": "rectangle",
+          "x": 271,
+          "y": 399,
+          "width": 77,
+          "height": 39,
+          "color": "#17364D",
+          "radius": 15
+        },
+        {
+          "name": "Left shin",
+          "type": "rectangle",
+          "x": 186,
+          "y": 368,
+          "width": 42,
+          "height": 49,
+          "color": "#6ABDB5",
+          "radius": 10
+        },
+        {
+          "name": "Right shin",
+          "type": "rectangle",
+          "x": 288,
+          "y": 368,
+          "width": 42,
+          "height": 49,
+          "color": "#6ABDB5",
+          "radius": 10
+        },
+        {
+          "type": "group",
+          "id": "left-arm",
+          "name": "Left arm assembly",
+          "children": [
+            {
+              "name": "Left arm silhouette",
+              "type": "path",
+              "d": "M 174 289 C 137 280 122 313 111 349 L 132 361 C 149 325 155 323 180 329 Z",
+              "color": "#17364D"
+            },
+            {
+              "name": "Left arm enamel",
+              "type": "path",
+              "d": "M 168 299 C 145 298 135 323 124 347 L 130 350 C 144 324 151 314 171 318 Z",
+              "color": "#A0DDD2"
+            },
+            {
+              "name": "Left hand",
+              "type": "ellipse",
+              "x": 95,
+              "y": 337,
+              "width": 47,
+              "height": 47,
+              "color": "#F6BD76",
+              "stroke": "#17364D",
+              "strokeWidth": 7
+            }
+          ],
+          "transform": {
+            "pivotX": 173,
+            "pivotY": 305
+          }
+        },
+        {
+          "type": "group",
+          "id": "raised-arm",
+          "name": "Raised arm assembly",
+          "children": [
+            {
+              "name": "Raised arm silhouette",
+              "type": "path",
+              "d": "M 339 287 C 373 282 387 252 392 218 L 418 223 C 411 275 388 314 348 323 Z",
+              "color": "#17364D"
+            },
+            {
+              "name": "Raised arm enamel",
+              "type": "path",
+              "d": "M 350 296 C 378 284 394 258 401 233 L 407 234 C 400 270 382 298 351 312 Z",
+              "color": "#A0DDD2"
+            },
+            {
+              "name": "Raised hand",
+              "type": "ellipse",
+              "x": 380,
+              "y": 188,
+              "width": 48,
+              "height": 48,
+              "color": "#F6BD76",
+              "stroke": "#17364D",
+              "strokeWidth": 7
+            }
+          ],
+          "transform": {
+            "pivotX": 352,
+            "pivotY": 305
+          }
+        },
+        {
+          "name": "Body outline",
+          "type": "rectangle",
+          "x": 163,
+          "y": 272,
+          "width": 190,
+          "height": 111,
+          "color": "#17364D",
+          "radius": 33
+        },
+        {
+          "name": "Body enamel",
+          "type": "rectangle",
+          "x": 172,
+          "y": 279,
+          "width": 172,
+          "height": 94,
+          "color": "#83CEC3",
+          "radius": 25
+        },
+        {
+          "name": "Body highlight",
+          "type": "rectangle",
+          "x": 184,
+          "y": 286,
+          "width": 146,
+          "height": 12,
+          "color": "#D6F5E8",
+          "radius": 6
+        },
+        {
+          "name": "Chest inset",
+          "type": "rectangle",
+          "x": 217,
+          "y": 306,
+          "width": 82,
+          "height": 49,
+          "color": "#346679",
+          "radius": 12
+        },
+        {
+          "name": "Status lamp glow",
+          "type": "ellipse",
+          "x": 231,
+          "y": 318,
+          "width": 24,
+          "height": 24,
+          "color": "#A4EEE4"
+        },
+        {
+          "name": "Status lamp",
+          "type": "ellipse",
+          "x": 238,
+          "y": 325,
+          "width": 10,
+          "height": 10,
+          "color": "#FDF8DD"
+        },
+        {
+          "name": "Chest vent top",
+          "type": "rectangle",
+          "x": 267,
+          "y": 322,
+          "width": 19,
+          "height": 5,
+          "color": "#AACCC5",
+          "radius": 2
+        },
+        {
+          "name": "Chest vent bottom",
+          "type": "rectangle",
+          "x": 267,
+          "y": 334,
+          "width": 19,
+          "height": 5,
+          "color": "#AACCC5",
+          "radius": 2
+        },
+        {
+          "name": "Neck",
+          "type": "rectangle",
+          "x": 238,
+          "y": 246,
+          "width": 42,
+          "height": 39,
+          "color": "#346679",
+          "radius": 10
+        },
+        {
+          "type": "group",
+          "id": "head",
+          "name": "Head assembly",
+          "children": [
+            {
+              "type": "group",
+              "id": "antenna",
+              "name": "Antenna assembly",
+              "children": [
+                {
+                  "name": "Antenna stem",
+                  "type": "rectangle",
+                  "x": 250,
+                  "y": 100,
+                  "width": 12,
+                  "height": 46,
+                  "color": "#17364D",
+                  "radius": 6
+                },
+                {
+                  "name": "Antenna ring",
+                  "type": "ellipse",
+                  "x": 240,
+                  "y": 78,
+                  "width": 32,
+                  "height": 32,
+                  "color": "#17364D"
+                },
+                {
+                  "name": "Antenna signal",
+                  "type": "ellipse",
+                  "x": 246,
+                  "y": 84,
+                  "width": 20,
+                  "height": 20,
+                  "color": "#EFAD66"
+                },
+                {
+                  "name": "Antenna glint",
+                  "type": "ellipse",
+                  "x": 249,
+                  "y": 87,
+                  "width": 7,
+                  "height": 7,
+                  "color": "#FFF3D6"
+                }
+              ],
+              "transform": {
+                "pivotX": 256,
+                "pivotY": 142
+              }
+            },
+            {
+              "name": "Left ear",
+              "type": "rectangle",
+              "x": 115,
+              "y": 181,
+              "width": 40,
+              "height": 64,
+              "color": "#346679",
+              "radius": 13
+            },
+            {
+              "name": "Right ear",
+              "type": "rectangle",
+              "x": 358,
+              "y": 181,
+              "width": 39,
+              "height": 64,
+              "color": "#346679",
+              "radius": 13
+            },
+            {
+              "name": "Head outline",
+              "type": "rectangle",
+              "x": 137,
+              "y": 134,
+              "width": 238,
+              "height": 135,
+              "color": "#17364D",
+              "radius": 40
+            },
+            {
+              "name": "Head enamel",
+              "type": "rectangle",
+              "x": 145,
+              "y": 142,
+              "width": 222,
+              "height": 119,
+              "color": "#9BDDD0",
+              "radius": 33
+            },
+            {
+              "name": "Head rim highlight",
+              "type": "path",
+              "d": "M 160 174 Q 160 153 185 152 L 325 152 Q 348 152 352 171",
+              "color": "#00000000",
+              "stroke": "#E4F9E7",
+              "strokeWidth": 6
+            },
+            {
+              "name": "Face glass",
+              "type": "rectangle",
+              "x": 164,
+              "y": 170,
+              "width": 184,
+              "height": 72,
+              "color": "#17364D",
+              "radius": 24
+            },
+            {
+              "name": "Face glass reflection",
+              "type": "path",
+              "d": "M 182 179 L 301 179 L 269 190 L 179 190 Z",
+              "color": "#315567"
+            },
+            {
+              "name": "Left eye",
+              "type": "ellipse",
+              "x": 198,
+              "y": 190,
+              "width": 25,
+              "height": 25,
+              "color": "#F8E7B4"
+            },
+            {
+              "name": "Right eye",
+              "type": "ellipse",
+              "x": 289,
+              "y": 190,
+              "width": 25,
+              "height": 25,
+              "color": "#F8E7B4"
+            },
+            {
+              "name": "Left eye glint",
+              "type": "ellipse",
+              "x": 202,
+              "y": 193,
+              "width": 7,
+              "height": 7,
+              "color": "#FFFFFF"
+            },
+            {
+              "name": "Right eye glint",
+              "type": "ellipse",
+              "x": 293,
+              "y": 193,
+              "width": 7,
+              "height": 7,
+              "color": "#FFFFFF"
+            },
+            {
+              "name": "Happy mouth",
+              "type": "path",
+              "d": "M 241 218 Q 256 232 272 218",
+              "color": "#00000000",
+              "stroke": "#F8E7B4",
+              "strokeWidth": 5
+            }
+          ],
+          "transform": {
+            "pivotX": 256,
+            "pivotY": 255
+          }
+        }
+      ]
+    },
+    {
+      "name": "Studio sparkle",
+      "type": "path",
+      "d": "M 410 106 L 416 122 L 432 128 L 416 134 L 410 150 L 404 134 L 388 128 L 404 122 Z",
+      "color": "#EFAD66"
+    },
+    {
+      "name": "Orbit dot",
+      "type": "ellipse",
+      "x": 74,
+      "y": 274,
+      "width": 12,
+      "height": 12,
+      "color": "#EFAD66"
+    },
+    {
+      "name": "Little star",
+      "type": "ellipse",
+      "x": 99,
+      "y": 140,
+      "width": 8,
+      "height": 8,
+      "color": "#6ABDB5"
+    },
+    {
+      "name": "Signature",
+      "type": "text",
+      "x": 182,
+      "y": 482,
+      "text": "O R B I T  /  0 1",
+      "font": "DejaVu Sans",
+      "size": 14,
+      "color": "#346679"
+    }
+  ],
+  "animation": {
+    "fps": 12,
+    "frames": 24,
+    "loop": true,
+    "tracks": [
+      {
+        "target": "raised-arm",
+        "property": "rotation",
+        "easing": "smooth",
+        "keyframes": [
+          {
+            "frame": 0,
+            "value": 0
+          },
+          {
+            "frame": 6,
+            "value": 14
+          },
+          {
+            "frame": 12,
+            "value": -10
+          },
+          {
+            "frame": 18,
+            "value": 14
+          },
+          {
+            "frame": 24,
+            "value": 0
+          }
+        ]
+      },
+      {
+        "target": "body",
+        "property": "y",
+        "easing": "smooth",
+        "keyframes": [
+          {
+            "frame": 0,
+            "value": 0
+          },
+          {
+            "frame": 12,
+            "value": -3
+          },
+          {
+            "frame": 24,
+            "value": 0
+          }
+        ]
+      },
+      {
+        "target": "antenna",
+        "property": "rotation",
+        "easing": "smooth",
+        "keyframes": [
+          {
+            "frame": 0,
+            "value": 0
+          },
+          {
+            "frame": 6,
+            "value": -7
+          },
+          {
+            "frame": 12,
+            "value": 0
+          },
+          {
+            "frame": 18,
+            "value": 7
+          },
+          {
+            "frame": 24,
+            "value": 0
+          }
+        ]
+      }
+    ]
+  }
+}

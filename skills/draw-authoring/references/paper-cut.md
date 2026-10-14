@@ -32,7 +32,7 @@ This stylized offset shadow is a construction choice, not a blur or physical sha
 
 ## Supported tools and limits
 
-Use ordered layers, closed paths, `fillRule`, and explicit duplicate coordinates. There are no filters, blur, drop-shadow, clip, mask, texture, or automatic offset-path fields. Offset every relevant point/control point yourself; there is no transform field. The hole belongs to its own shape and does not punch through all lower layers. Validate and use actual Inkscape exports.
+Use ordered layers, closed paths, `fillRule`, and explicit duplicate coordinates. There are no filters, blur, drop-shadow, clip, mask, texture, or automatic offset-path fields. For an offset copy, either offset every relevant point/control point or wrap the copied contours in a translated group. Group translation moves paint with the contours; editing geometry alone does not move a gradient field. The hole belongs to its own shape and does not punch through all lower layers. Validate and use actual Inkscape exports.
 
 ## Common mistakes and QA
 

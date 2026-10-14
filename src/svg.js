@@ -3,7 +3,14 @@ export const escapeXml=value=>String(value).replaceAll('&','&amp;').replaceAll('
 function paint(color,kind){return `${kind}="${color.slice(0,7)}"${color.length===9?` ${kind}-opacity="${parseInt(color.slice(7),16)/255}"`:''}`;}
 export function renderSvg(project){
  const definitions=[];
- const layers=project.layers.map((l,index)=>{
+ let leafIndex=0;
+ const renderLayer=(l)=>{
+  if(l.type==='group'){
+   const t=l.transform,rotation=((t.rotation%360)+360)%360;
+   const transform=`translate(${t.x},${t.y}) translate(${t.pivotX},${t.pivotY}) rotate(${rotation}) scale(${t.scaleX},${t.scaleY}) translate(${-t.pivotX},${-t.pivotY})`;
+   return `  <g id="part-${l.id}" inkscape:groupmode="layer" inkscape:label="${escapeXml(l.name)}" opacity="${l.opacity/100}"${l.visible?'':' style="display:none"'} transform="${transform}">\n${l.children.map(renderLayer).join('\n')}\n  </g>`;
+  }
+  const index=leafIndex++;
   let fill=paint(l.color,'fill');
   if(l.fillGradient){
    const g=l.fillGradient,id=`gradient-layer-${index+1}`,tag=g.type==='linear'?'linearGradient':'radialGradient';
@@ -19,6 +26,7 @@ export function renderSvg(project){
   else if(l.type==='path')shape=`<path d="${escapeXml(l.d)}" ${attrs}/>`;
   else if(l.type==='text')shape=`<text x="${l.x}" y="${l.y}" font-family="${escapeXml(l.font)}" font-size="${l.size}" xml:space="preserve" ${attrs}>${l.text.split('\n').map((line,i)=>`<tspan x="${l.x}" dy="${i?l.size*1.2:0}">${escapeXml(line)}</tspan>`).join('')}</text>`;
   return `  <g id="layer-${index+1}" inkscape:groupmode="layer" inkscape:label="${escapeXml(l.name)}" opacity="${l.opacity/100}"${l.visible?'':' style="display:none"'}>\n    ${shape}\n  </g>`;
- });
+ };
+ const layers=project.layers.map(renderLayer);
  return `<?xml version="1.0" encoding="UTF-8"?>\n<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="${project.width}" height="${project.height}" viewBox="0 0 ${project.width} ${project.height}">\n  <title>${escapeXml(project.name)}</title>\n${definitions.length?`  <defs>\n${definitions.join('\n')}\n  </defs>\n`:''}${layers.join('\n')}\n</svg>\n`;
 }

@@ -1,6 +1,6 @@
 ---
 name: draw-authoring
-description: Author or revise vector-first 2D illustrations, icons, mascots, and diagrams in agent-draw project JSON. Use for drawing composition, art styles, editable shapes and paths, or project validation errors.
+description: Author or revise vector-first 2D illustrations, icons, mascots, and diagrams in agent-draw project JSON. Use for drawing composition, art styles, editable parts, pivots, keyframed waves or loops, or project validation errors.
 ---
 
 # Draw authoring
@@ -18,12 +18,14 @@ Establish the subject, use, canvas, transparency, and smallest viewing size. Rea
 - [Paper-cut](references/paper-cut.md): stacked contours, offset shadows, real holes
 - [Gradient editorial](references/gradient-editorial.md): focal hierarchy, bounded gradient fills
 
-Read the [project format](../../docs/project-format.md) for exact fields and limits. Recipes use the v0.2 runtime's additions while keeping project `version: 1`; older runtimes reject those fields. Never invent unsupported operations to imitate an Inkscape GUI technique.
+For reusable parts, nested motion, waves, or loops, read [parts and animation](references/parts-and-animation.md) before writing transforms or tracks.
+
+Read the [project format](../../docs/project-format.md) for exact fields and limits. Recipes use the v0.3 runtime's additions while keeping project `version: 1`; older runtimes reject those fields. Never invent unsupported operations to imitate an Inkscape GUI technique.
 
 ## Author, validate, review
 
 1. Save JSON in a durable user working directory outside both generated output and managed runtime. Name unique layers by function; array order is bottom to top.
-2. Block the silhouette and major masses before details. Use only rectangles, ellipses, polygons, paths, and text. Keep a coherent palette, edge treatment, and light direction for the selected style.
+2. Block the silhouette and major masses before details. Use rectangles, ellipses, polygons, paths, and text, with structured groups for parts that move together. Keep a coherent palette, edge treatment, and light direction for the selected style.
 3. Validate and inspect after editing:
 
 ```sh
@@ -35,6 +37,6 @@ node "<plugin-root>/scripts/run-managed.js" inspect /absolute/path/project.json
 
 ## Boundaries
 
-The canvas is transparent unless covered. For stroke-only paths use `color: "#00000000"`. Supported fill gradients are structured JSON, not URLs or arbitrary SVG. No raster import, filters, masks, clipping paths, groups, transforms, brushes, booleans, or animation are exposed. Author the final contours numerically instead. Text needs installed fonts and visual checking.
+The canvas is transparent unless covered. For stroke-only paths use `color: "#00000000"`. Supported fill gradients are structured JSON, not URLs or arbitrary SVG. Structured groups accept bounded local pivot transforms; timelines animate only group translation, rotation, scale, and opacity. No raster/SVG import, filters, masks, clipping paths, arbitrary transforms, brushes, booleans, path morphing, or physics are exposed. Author final contours numerically. Text needs installed fonts and visual checking.
 
 The JSON is the rebuildable source. Manual SVG edits are not imported; preserve a separate SVG copy for independent editing. Keep detailed schema limits in the linked format reference rather than guessing from style examples.

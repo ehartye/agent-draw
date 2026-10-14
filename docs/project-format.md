@@ -1,6 +1,6 @@
 # Project format, version 1
 
-This describes the v0.2 runtime, retaining project `version: 1`. Existing v0.1 projects remain valid; v0.1 runtimes reject the new paint fields.
+This describes the v0.3 runtime, retaining project `version: 1`. Existing v0.1 and v0.2 projects remain valid; older runtimes reject fields introduced after their release.
 
 Projects are UTF-8 JSON files of at most 2 MiB. Unknown fields are rejected, including fields that belong to another layer type. Run `validate` after every edit; a JSON parser alone cannot validate the project contract.
 
@@ -11,13 +11,13 @@ Projects are UTF-8 JSON files of at most 2 MiB. Unknown fields are rejected, inc
 | `version` | Yes | Exactly `1` |
 | `name` | Yes | Nonblank string, at most 128 characters |
 | `width`, `height` | Yes | Integer canvas dimensions, 1–4096 pixels each |
-| `layers` | Yes | Array of 1–128 layers, bottom to top |
+| `layers` | Yes | Array of 1–128 top-level nodes, bottom to top |
 
-The additional layer budget is `width × height × number of layers ≤ 134217728`. A large canvas therefore supports fewer layers than the absolute 128-layer limit. Hidden layers count toward this budget.
+Optional `animation` describes the timeline below. The entire tree allows at most 128 shape/text leaves, 64 groups, and 192 total nodes. Group nesting is at most four levels. The layer budget is `width × height × number of leaves ≤ 134217728`; hidden leaves count. A large canvas therefore supports fewer leaves than the absolute limit.
 
-Coordinates are pixels from the canvas's top-left origin: positive x goes right and positive y goes down. Shapes extending beyond the canvas are clipped in the flattened export. The canvas is transparent until layers cover it.
+Coordinates are pixels from the canvas's top-left origin at the root, or from the containing group's local origin when nested: positive x goes right and positive y goes down. Shapes extending beyond the canvas are clipped in the flattened export. The canvas is transparent until layers cover it.
 
-## Common layer fields
+## Common shape/text leaf fields
 
 | Field | Required | Meaning |
 | --- | --- | --- |
@@ -48,7 +48,7 @@ Use JSON booleans, not strings. Colors are `#RRGGBB` or `#RRGGBBAA`; the optiona
 ```
 
 - All listed geometry fields are required for the selected gradient type. Unknown fields are rejected.
-- Coordinates (`x1`, `y1`, `x2`, `y2`, `cx`, `cy`) are finite numbers from -4096 to 8192. They use absolute canvas units, not percentages or object-relative units.
+- Coordinates (`x1`, `y1`, `x2`, `y2`, `cx`, `cy`) are finite numbers from -4096 to 8192. They use absolute user-space units, not percentages or object-bounding-box units: canvas coordinates at the root, and the containing group’s local coordinate system when nested. Editing leaf geometry alone does not relocate its gradient; a group transform carries both geometry and paint together.
 - Linear endpoints must differ; coincident endpoints are rejected.
 - Radial `r` is finite, greater than zero, and at most 8192.
 - `stops` contains 2–16 objects, each with only `offset` and `color`. Offset is a finite number from 0 to 1, sorted in nondecreasing order; repeated offsets are allowed. Color is `#RRGGBB` or `#RRGGBBAA`.
@@ -112,9 +112,52 @@ Required: `d`, `color`. Do not provide `x`, `y`, `width`, or `height`.
 
 Absolute commands use canvas coordinates; relative commands offset from the current path point. Open paths with a visible fill follow SVG filling semantics. Use a transparent fill for open stroke-only curves. Bounds on individual numeric arguments do not guarantee the full path stays on canvas; review clipping visually.
 
+## Groups and local transforms
+
+A group accepts only `type`, `id`, `name`, `children`, `opacity`, `visible`, and `transform`. `type: "group"`, `id`, `name`, and `children` are required. Names are globally unique across leaves and groups. IDs are globally unique among groups and match `^[a-z][a-z0-9-]{0,63}$` (1–64 characters); generated SVG uses `id="part-<id>"`. Keep IDs stable when revising or targeting parts. Children are ordered bottom to top and may contain leaves or groups; an empty group is allowed. A child array permits at most 192 nodes, subject to the stricter project-wide budgets above.
+
+`opacity` defaults to 100 (range 0–100) and `visible` defaults to true. Group opacity applies to the composited group; ancestor opacity and visibility also affect descendants. Groups cannot carry color, stroke, gradient, path data, or other leaf paint fields. They do not provide paint inheritance.
+
+`transform` is optional; omitted components have these defaults and finite numeric bounds:
+
+| Component | Default | Range |
+| --- | --- | --- |
+| `x`, `y` | 0 | −8192…8192 |
+| `pivotX`, `pivotY` | 0 | −8192…8192 |
+| `rotation` | 0 degrees | −360…360 |
+| `scaleX`, `scaleY` | 1 | 0.01…10 |
+
+In the group's local coordinates, subtract the pivot, scale, rotate, restore the pivot, then translate by x/y. Positive rotation appears clockwise in the usual y-down canvas. Parent transforms compose around child transforms; they are not independent canvas offsets. There is no raw transform string, matrix, skew, reflection, or per-leaf transform field. Leaf coordinates and gradient coordinates retain their existing numeric bounds in the local system. Scaling also scales strokes; no non-scaling-stroke option is exposed.
+
+```json
+{"type":"group","id":"arm","name":"arm-part","transform":{"pivotX":64,"pivotY":80,"rotation":15},"children":[{"type":"rectangle","name":"arm-shape","x":60,"y":80,"width":16,"height":64,"color":"#187DAB"}]}
+```
+
+## Animation timeline
+
+Optional project `animation` accepts `fps`, `frames`, `loop`, and `tracks` only:
+
+- `fps`: required integer 1–30. `frames`: required integer 2–120. Duration is `frames / fps` seconds.
+- `loop`: boolean, defaults to true.
+- `width × height × frames ≤ 67108864` (64 Mi-pixels), in addition to the leaf budget.
+- `tracks`: 1–64 entries, targeting existing group IDs only. Each target/property pair is unique.
+- Each track has `target`, `property`, `keyframes`, and optional `easing` (`linear` default, `smooth`, or `step`). Properties are `x`, `y`, `rotation`, `scaleX`, `scaleY`, or `opacity`; pivots and visibility are not animatable.
+- Each track has 2–64 keyframes `{ "frame": integer, "value": number }` in strictly increasing frame order. Values use the corresponding group property's bounds. Values are **absolute**, replacing the base property, never deltas added to it. Untracked properties retain their base values.
+- Each track starts at frame 0. For loops it ends at virtual frame N (`frames`); for nonloops it ends at N−1. Loop start/end values must be equal, except rotations may differ by whole turns (multiples of 360).
+
+`linear` interpolates numeric values directly; `smooth` uses smoothstep `t*t*(3-2*t)` per segment; `step` holds the left key until the next key. Rotation does not automatically choose the shortest arc. For a full turn use 0→360; for a short wave explicitly specify intermediate angles.
+
+```json
+{"fps":12,"frames":24,"loop":true,"tracks":[{"target":"arm","property":"rotation","easing":"smooth","keyframes":[{"frame":0,"value":15},{"frame":12,"value":-20},{"frame":24,"value":15}]}]}
+```
+
+This is the `animation` object, not a standalone project. All frames 0…N−1 are exported; the virtual loop endpoint N is used to compare canonical SVG against sample 0, never encoded as a duplicate frame. Equality proves closed endpoint state, not smooth velocity or attractive motion. Check the last-to-first transition in actual playback. Nonloop duration still includes the final frame's display interval.
+
+`build` renders the base project state; it does not sample tracks or create animation files. `animate` samples the timeline, writes `master.svg` from sample 0, and preserves the timeline in `project.json`. All generated SVGs are static editable snapshots, not embedded SVG animations.
+
 ## Unsupported inputs
 
-There is no image layer, SVG-import field, raw XML, URL reference, or arbitrary script. This format authors vector geometry directly. It does not embed bitmap assets or trace them automatically. No filters, masks, clipping paths, arbitrary groups, transforms, boolean operations, brushes, or animation are exposed. Structured fill gradients are supported; arbitrary SVG paint-server input is not.
+There is no image layer, SVG-import field, raw XML, URL reference, or arbitrary script. This format authors vector geometry directly. It does not embed bitmap assets or trace them automatically. No filters, masks, clipping paths, arbitrary SVG groups/transforms, boolean operations, brushes, path morphing, skeletal constraints, or physics are exposed. Only the structured group and timeline fields above are accepted. Structured fill gradients are supported; arbitrary SVG paint-server input is not.
 
 ## Validation and inspection
 

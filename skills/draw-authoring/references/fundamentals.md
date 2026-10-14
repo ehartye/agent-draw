@@ -30,7 +30,7 @@ Place fragments inside a project object's `layers` array; they are not standalon
 
 ## Supported tools and limits
 
-Use project `validate` and `inspect`, followed by the managed Inkscape build. There are five layer types; curve handles are authored in path data, not through a node-editing command. Every object is a named layer; extra shadow facets consume the 128-layer budget and canvas-area budget. No path boolean, transform, clip, or mask command is exposed. Compute resulting vertices/contours before serialization. Inkscape's own UI has more tools than this format; its [glossary](https://wiki.inkscape.org/wiki/Inkscape_glossary) distinguishes paths, nodes, fill, and stroke. Do not assume every UI feature has a JSON equivalent.
+Use project `validate` and `inspect`, followed by the managed Inkscape build. There are five shape/text leaf types plus structured groups; curve handles are authored in path data, not through a node-editing command. Every object is named; extra shadow facets consume the 128-leaf budget and canvas-area budget. Groups have a separate 64-group budget and bounded local pivot transforms. No path boolean, arbitrary transform, clip, or mask command is exposed. Compute resulting vertices/contours before serialization. Inkscape's own UI has more tools than this format; its [glossary](https://wiki.inkscape.org/wiki/Inkscape_glossary) distinguishes paths, nodes, fill, and stroke. Do not assume every UI feature has a JSON equivalent.
 
 ## Common mistakes and QA
 

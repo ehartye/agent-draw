@@ -2,17 +2,19 @@
 
 Layered 2D authoring for coding agents, backed by **Inkscape**. Describe a drawing in a small, validated JSON project; build an editable SVG, transparent PNG, and PDF using Inkscape's headless export interface.
 
-This is the 0.2.0 craft-enabled implementation. It does not require a browser, an MCP server, or npm dependencies. It does require an existing Inkscape 1.2 or newer installation and Node.js 22 or newer. Linux is the initial verification target; macOS and Windows support is not yet established.
+This is the 0.3.1 craft-and-animation implementation. It does not require a browser, an MCP server, or npm dependencies. It does require an existing Inkscape 1.2 or newer installation and Node.js 22 or newer. Linux is the initial verification target; macOS and Windows support is not yet established.
 
 ## What it does
 
 - Creates named rectangle, ellipse, polygon, text, and path layers with solid or bounded gradient fills, true cutouts, and deliberate stroke caps/joins.
 - Preserves layer order, visibility, and opacity in an editable SVG with named Inkscape layers.
+- Groups reusable parts with stable IDs and bounded pivot transforms; samples short keyframed animations into editable SVG/PNG frames and a contact sheet.
+- Optionally encodes GIF or MP4 with a separately installed FFmpeg.
 - Exports a composited PNG with transparency, a PDF, and a machine-readable build receipt.
 - Validates projects before launching Inkscape, including bounded canvas/layer sizes and restricted path data.
 - Uses a version-matched managed runtime and a separate Inkscape profile for each build.
 
-It is deliberately a small authoring contract, not a general-purpose scripting interface. No arbitrary scripts, shell commands, embedded raster images, filters, masks, or animation are accepted in project data.
+It is deliberately a small authoring contract, not a general-purpose scripting interface. No arbitrary scripts, shell commands, embedded raster images, filters, masks, arbitrary transforms, or path morphing are accepted in project data.
 
 ## Quick start
 
@@ -150,8 +152,28 @@ node scripts/run-managed.js build examples/styles/monoline.json --out output/mon
 node scripts/run-managed.js build examples/styles/gradient-editorial.json --out output/gradient-editorial
 ```
 
-The JSON format adds bounded gradient fills, even-odd cutouts, and cap/join choices. It still does not import arbitrary SVG, animate, or expose arbitrary XML, filter effects, or scripts. Old version-1 projects remain accepted.
+The JSON format adds bounded gradient fills, even-odd cutouts, and cap/join choices. It still does not import arbitrary SVG or expose arbitrary XML, filter effects, scripts, or path morphing. Animation is limited to structured group transforms and opacity tracks. Old version-1 projects remain accepted.
 
 ### Verify or locate Inkscape
 
 Setup probes the selected executable and reports missing, too-old, broken, or unrecognized installations separately. `doctor --smoke` verifies actual temporary SVG/PNG/PDF export. An explicit `AGENT_DRAW_INKSCAPE` override is never silently ignored. Errors include the detected version, minimum version, attempted path, and [official installation advice](https://wiki.inkscape.org/wiki/Installing_Inkscape). Installation is not automatic. Only Linux has been exercised by this project.
+
+## Reusable parts and short animation
+
+Keep the original static `build` workflow for SVG/PNG/PDF. For a project with `animation`, use:
+
+```sh
+node scripts/run-managed.js animate examples/waving-orbit.json --out output/waving-orbit
+# Optional encodes, with an existing FFmpeg installation:
+node scripts/run-managed.js animate examples/waving-orbit.json --out output/waving-orbit-video --gif --mp4 --background '#FFFFFF' --timeout 120
+```
+
+The default needs only Inkscape and writes `master.svg` (sample 0), normalized `project.json`, `frames/frame-0000.svg` and `.png` through frame N−1, `contact-sheet.svg`, `contact-sheet.png`, and `receipt.json`. Requested encodes add `animation.gif` / `animation.mp4`. The SVG files are editable static poses; the JSON retains the timeline. The receipt records hashes, frame count, fps, duration, and canonical-SVG loop endpoint evidence. A contact sheet is pose evidence, not proof of playback quality.
+
+Animation supports 2–120 frames at 1–30 fps, within a 64 Mi-pixel frame budget. Tracks set absolute group translation, rotation, scale, or opacity. Loops have a virtual endpoint at N equal to frame 0; only frames 0…N−1 are exported, so the endpoint is not duplicated. See [project format](docs/project-format.md) and [animation export and review](skills/draw-export/references/animation-export.md).
+
+FFmpeg is optional and never installed automatically. `AGENT_DRAW_FFMPEG` selects its executable; an explicit invalid selection is not silently replaced. GIF has 1-bit alpha and centisecond timing, so soft transparency and some frame rates cannot survive exactly. MP4 requires an explicit opaque `#RRGGBB` background and even canvas dimensions; its playback loop behavior belongs to the player. Preserve SVG/PNG sources when those limitations matter.
+
+## Game atlas handoff
+
+Pack existing fixed-canvas PNG frames with `node scripts/run-managed.js atlas manifest.json --out output/actors`. Existing FFmpeg is required for this optional export. It retains exact anchors, semantic clip names and sources, emits Phaser JSON hash metadata, and uses transparent gutters. See [atlas format](docs/atlas-format.md). This does not generate directional poses or import raster images into vector drawings.

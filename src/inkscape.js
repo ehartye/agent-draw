@@ -11,7 +11,7 @@ export function installAdvice(platform = process.platform) {
 }
 
 // An explicit override is authoritative: a broken override is never silently ignored.
-export function inspectInkscape({ platform = process.platform, env = process.env } = {}) {
+export function inspectInkscape({ platform = process.platform, env = process.env, timeoutMs = 10000 } = {}) {
   const override = env.AGENT_DRAW_INKSCAPE;
   const candidates = override !== undefined ? [override] : platform === 'win32'
     ? ['inkscape.com', 'inkscape.exe']
@@ -21,7 +21,7 @@ export function inspectInkscape({ platform = process.platform, env = process.env
   const attempts = [];
   for (const command of candidates) {
     let result;
-    try { result = spawnSync(command, ['--version'], { env, encoding: 'utf8', timeout: 10000, maxBuffer: 1048576 }); }
+    try { result = spawnSync(command, ['--version'], { env, encoding: 'utf8', timeout: timeoutMs, killSignal: 'SIGKILL', maxBuffer: 1048576 }); }
     catch (error) { result = { error }; }
     const output = (result.stdout || '').trim();
     const match = /^Inkscape (\d+)\.(\d+)(?:\.(\d+))?\b/.exec(output);
@@ -48,8 +48,8 @@ export function inspectInkscape({ platform = process.platform, env = process.env
         : installAdvice(platform) };
 }
 
-export function findInkscape() {
-  const report = inspectInkscape();
+export function findInkscape(options) {
+  const report = inspectInkscape(options);
   if (!report.ok) {
     const reason = report.status === 'missing' ? 'Inkscape 1.2+ CLI not found.'
       : report.status === 'too-old' ? `Inkscape 1.2+ is required; found ${report.version}.`

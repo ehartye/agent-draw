@@ -2,7 +2,7 @@
 
 ## Declarative source, editable vector output
 
-Project JSON is the authoring source of truth. Strict validation narrows it to five declarative vector layer types. The serializer creates an SVG with named Inkscape layers containing rectangles, ellipses, polygons, text, or paths. Inkscape's actual headless export commands render PNG and PDF deliverables.
+Project JSON is the authoring source of truth. Strict validation narrows it to five declarative vector leaf types and bounded structured groups. The serializer creates an SVG with named Inkscape layers containing rectangles, ellipses, polygons, text, or paths. Inkscape's actual headless export commands render PNG and PDF deliverables.
 
 The SVG keeps real vector geometry and live text. PNG is the raster preview/export; it is not the source for tracing or for regenerating the SVG. No imported or embedded raster images are accepted. There is no browser, MCP server, or long-lived service, and the Node.js runtime has zero npm dependencies.
 
@@ -29,3 +29,17 @@ Named SVG layers preserve authoring structure in Inkscape. The JSON source is on
 ## Verification model
 
 Validation checks data before rendering. Export completion checks that the renderer produced its expected artifacts. Neither proves that the result satisfies the design brief. Review the PNG for composition, clipping, transparency, and text; inspect the SVG structure or open it in Inkscape when layer editability matters. Keep the receipt with the exports for provenance. Distinguish checks actually run from checks that remain unverified.
+
+## Group and animation boundary
+
+Group IDs become stable `part-<id>` SVG IDs. Local pivot translation/rotation/scale composes through at most four group levels. Paint stays on leaves; group transforms carry local geometry and paint together. Validation bounds nodes, leaves, groups, tracks, keyframes, values, and rendered pixel counts. The existing static project contract remains compatible.
+
+Animation sampling creates a fresh validated tree for each pose and replaces only targeted group properties with absolute track values. It does not mutate source geometry or import arbitrary SVG. Frames are static vector snapshots rendered to PNG by Inkscape. The native vector contact sheet reuses only generated SVG, namespaces its IDs, and is also rasterized by Inkscape; no extra raster library is required.
+
+`animate` stages outputs and checks completion before replacing a destination. Overwrite requires an existing agent-draw animation receipt and only recognized generated files; input protection and explicit authorization still apply. A single bounded timeout covers export and encoding. Optional FFmpeg receives fixed arguments to encode existing PNG frames, not project-supplied commands. `AGENT_DRAW_FFMPEG` is authoritative when set; setup never installs it. MP4 flattens onto an explicit background, while GIF reduces alpha to a binary threshold and quantizes timing.
+
+The animation receipt lists hashes, renderer/encoder versions, nominal fps and duration, sampled contact-sheet indexes, and canonical-SVG equality at a virtual loop endpoint. Structural seam equality cannot establish perceptual motion, velocity continuity, encoding fidelity, or player behavior. Review joints, hierarchy, crop, and the actual last-to-first playback transition separately; report unavailable playback as unverified.
+
+## Game atlas boundary
+
+The separate atlas manifest accepts bounded local static RGBA PNG frames beneath its own directory. It retains fixed canvas registration, semantic clip metadata and normalized anchors, copies inputs, then tiles with existing FFmpeg into a transparent sheet plus Phaser JSON hash metadata. Source SVG/project authoring is unchanged; raster inputs never enter vector renderSvg. No remote URLs, arbitrary XML, auto-generated directions or gameplay behavior are introduced. Frames and padded-sheet budgets, full deadline, source containment, output ownership, staged publication and receipts apply independently.
