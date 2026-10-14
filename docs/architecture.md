@@ -16,7 +16,7 @@ The SVG keeps real vector geometry and live text. PNG is the raster preview/expo
 
 Each build uses a separate Inkscape profile and bounded execution time. The output directory must be absent unless replacement is requested with `--overwrite`; input files must not be destroyed by output replacement. Keep the project JSON outside the output directory.
 
-The serializer treats names, colors, font names, and text as data. Text is escaped for XML, and path data is restricted to SVG path commands and numeric coordinates. There are no fields for raw SVG markup, scripts, URLs, arbitrary shell commands, or Inkscape extension calls. Unknown fields are rejected.
+The serializer treats names, colors, font names, and text as data. Text is escaped for XML, and path data is restricted to SVG path commands and numeric coordinates. Gradient fills generate internal IDs in a controlled defs block; projects cannot choose a URL or paint-server ID. Fill rules and stroke cap/join controls are enumerated. There are no fields for raw SVG markup, scripts, URLs, arbitrary shell commands, or Inkscape extension calls. Unknown fields are rejected.
 
 A separate profile is not an OS sandbox. Inkscape is a native application running under the current account. Use a trusted binary and retain host-level restrictions when handling untrusted content.
 

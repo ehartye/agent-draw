@@ -4,12 +4,9 @@ import { tmpdir } from 'node:os';
 import { resolve, join, dirname, basename, relative, isAbsolute } from 'node:path';
 import { createHash } from 'node:crypto';
 import { renderSvg } from './svg.js';
-export function findInkscape(){
- const command=process.env.AGENT_DRAW_INKSCAPE||'inkscape';
- const r=spawnSync(command,['--version'],{encoding:'utf8',timeout:10000,maxBuffer:1048576});const version=(r.stdout||'').trim(),match=/Inkscape (\d+)\.(\d+)/.exec(version);
- if(r.status===0&&match&&(Number(match[1])>1||(Number(match[1])===1&&Number(match[2])>=2)))return {command,version};
- throw new Error('Inkscape 1.2+ CLI not found. Install Inkscape from its official distribution or set AGENT_DRAW_INKSCAPE to an existing executable.');
-}
+import { findInkscape } from './inkscape.js';
+export { findInkscape } from './inkscape.js';
+const toolVersion=JSON.parse(readFileSync(new URL('../package.json',import.meta.url),'utf8')).version;
 const hash=file=>createHash('sha256').update(readFileSync(file)).digest('hex');
 const inside=(parent,child)=>{const r=relative(parent,child);return r===''||(!r.startsWith('..')&&!isAbsolute(r));};
 function canonical(path){return existsSync(path)?realpathSync(path):join(canonical(dirname(path)),basename(path));}
@@ -49,7 +46,7 @@ export function build(project,source,out,{overwrite=false,timeout=60}={}){
   }
   const png=readFileSync(join(stage,'drawing.png'));if(png.length<33||!png.subarray(0,8).equals(Buffer.from([137,80,78,71,13,10,26,10]))||png.readUInt32BE(16)!==project.width||png.readUInt32BE(20)!==project.height)throw new Error('PNG verification failed');
   if(readFileSync(join(stage,'drawing.pdf')).toString('ascii',0,5)!=='%PDF-')throw new Error('PDF verification failed');
-  const receipt={schemaVersion:1,tool:'agent-draw',version:'0.1.0',ok:true,name:project.name,width:project.width,height:project.height,inkscape:inkscape.version,layersBottomToTop:project.layers.map(l=>l.name),editable:'drawing.svg',source:source||null,sourceSha256:source?hash(source):null,artifacts:artifacts.map(name=>({name,sha256:hash(join(stage,name))})),warnings};
+  const receipt={schemaVersion:1,tool:'agent-draw',version:toolVersion,ok:true,name:project.name,width:project.width,height:project.height,inkscape:inkscape.version,layersBottomToTop:project.layers.map(l=>l.name),editable:'drawing.svg',source:source||null,sourceSha256:source?hash(source):null,artifacts:artifacts.map(name=>({name,sha256:hash(join(stage,name))})),warnings};
   writeFileSync(join(stage,'receipt.json'),JSON.stringify(receipt,null,2)+'\n');
   // Recheck after export to avoid deleting newly added unrelated files.
   checkOutput(target,source,overwrite);
@@ -60,3 +57,12 @@ export function build(project,source,out,{overwrite=false,timeout=60}={}){
  }finally{rmSync(work,{recursive:true,force:true});rmSync(stage,{recursive:true,force:true});}
 }
 function lstatSafe(p){try{return lstatSync(p);}catch(e){if(e.code==='ENOENT')return null;throw e;}}
+
+export function smokeTest(){
+ const root=mkdtempSync(join(tmpdir(),'agent-draw-smoke-'));
+ try{
+  const project={version:1,name:'CLI readiness smoke',width:16,height:16,layers:[{name:'test square',type:'rectangle',x:4,y:4,width:8,height:8,radius:0,color:'#22AA99',opacity:100,visible:true}]};
+  const receipt=build(project,null,join(root,'output'),{timeout:20});
+  return {ok:true,width:receipt.width,height:receipt.height,formats:receipt.artifacts.map(a=>a.name.split('.').at(-1)),warnings:receipt.warnings};
+ }finally{rmSync(root,{recursive:true,force:true});}
+}

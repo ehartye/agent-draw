@@ -1,0 +1,73 @@
+{
+  "skillMetadata": [
+    {
+      "skill": "draw-authoring",
+      "nameMatchesDirectory": true,
+      "descriptionCharacters": 202,
+      "lines": 40,
+      "words": 375,
+      "substitutionHazards": [],
+      "invisibleCodepoints": []
+    },
+    {
+      "skill": "draw-export",
+      "nameMatchesDirectory": true,
+      "descriptionCharacters": 204,
+      "lines": 35,
+      "words": 352,
+      "substitutionHazards": [],
+      "invisibleCodepoints": []
+    },
+    {
+      "skill": "draw-setup",
+      "nameMatchesDirectory": true,
+      "descriptionCharacters": 226,
+      "lines": 38,
+      "words": 504,
+      "substitutionHazards": [],
+      "invisibleCodepoints": []
+    }
+  ],
+  "allSkillMarkdownCodepointScan": [
+    {
+      "path": "skills/draw-authoring/SKILL.md",
+      "invisibleCodepoints": []
+    },
+    {
+      "path": "skills/draw-authoring/references/cel-shaded-mascot.md",
+      "invisibleCodepoints": []
+    },
+    {
+      "path": "skills/draw-authoring/references/flat-pictogram.md",
+      "invisibleCodepoints": []
+    },
+    {
+      "path": "skills/draw-authoring/references/fundamentals.md",
+      "invisibleCodepoints": []
+    },
+    {
+      "path": "skills/draw-authoring/references/gradient-editorial.md",
+      "invisibleCodepoints": []
+    },
+    {
+      "path": "skills/draw-authoring/references/isometric-low-poly.md",
+      "invisibleCodepoints": []
+    },
+    {
+      "path": "skills/draw-authoring/references/monoline.md",
+      "invisibleCodepoints": []
+    },
+    {
+      "path": "skills/draw-authoring/references/paper-cut.md",
+      "invisibleCodepoints": []
+    },
+    {
+      "path": "skills/draw-export/SKILL.md",
+      "invisibleCodepoints": []
+    },
+    {
+      "path": "skills/draw-setup/SKILL.md",
+      "invisibleCodepoints": []
+    }
+  ]
+}

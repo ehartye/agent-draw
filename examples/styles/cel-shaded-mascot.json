@@ -1,0 +1,160 @@
+{
+  "version": 1,
+  "name": "Field Lantern / Cel-Shaded Mascot",
+  "width": 256,
+  "height": 256,
+  "layers": [
+    {
+      "name": "Soft grounding shape",
+      "type": "ellipse",
+      "x": 57,
+      "y": 220,
+      "width": 142,
+      "height": 16,
+      "color": "#183F4818"
+    },
+    {
+      "name": "Arms and mitten hands",
+      "type": "path",
+      "d": "M 78 135 Q 45 124 41 150 M 176 135 Q 204 126 213 105",
+      "color": "#00000000",
+      "stroke": "#183F48",
+      "strokeWidth": 11,
+      "strokeLinecap": "round"
+    },
+    {
+      "name": "Left mitten",
+      "type": "ellipse",
+      "x": 28,
+      "y": 140,
+      "width": 25,
+      "height": 25,
+      "color": "#F7B844",
+      "stroke": "#183F48",
+      "strokeWidth": 5
+    },
+    {
+      "name": "Right mitten",
+      "type": "ellipse",
+      "x": 202,
+      "y": 91,
+      "width": 25,
+      "height": 25,
+      "color": "#F7B844",
+      "stroke": "#183F48",
+      "strokeWidth": 5
+    },
+    {
+      "name": "Feet",
+      "type": "path",
+      "d": "M 102 208 L 99 226 L 80 226 M 154 208 L 157 226 L 176 226",
+      "color": "#00000000",
+      "stroke": "#183F48",
+      "strokeWidth": 10,
+      "strokeLinecap": "round"
+    },
+    {
+      "name": "Handle",
+      "type": "path",
+      "d": "M 100 68 L 100 52 C 100 17 156 17 156 52 L 156 68",
+      "color": "#00000000",
+      "stroke": "#183F48",
+      "strokeWidth": 9,
+      "strokeLinecap": "round"
+    },
+    {
+      "name": "Outer shell",
+      "type": "path",
+      "d": "M 88 76 L 168 76 L 187 199 Q 189 213 173 213 L 83 213 Q 67 213 69 199 Z",
+      "color": "#56B7AE",
+      "stroke": "#183F48",
+      "strokeWidth": 5
+    },
+    {
+      "name": "Hard cel shadow",
+      "type": "path",
+      "d": "M 148 79 L 168 79 L 185 198 Q 188 211 173 211 L 144 211 Q 163 180 155 141 Z",
+      "color": "#27897F"
+    },
+    {
+      "name": "Amber glass",
+      "type": "path",
+      "d": "M 98 93 L 158 93 L 171 190 L 85 190 Z",
+      "color": "#FFE3A0",
+      "stroke": "#183F48",
+      "strokeWidth": 4
+    },
+    {
+      "name": "Hard glass shadow",
+      "type": "path",
+      "d": "M 145 95 L 156 95 L 169 188 L 135 188 Q 157 151 145 95 Z",
+      "color": "#F1B55B"
+    },
+    {
+      "name": "Glass glint",
+      "type": "path",
+      "d": "M 107 105 L 101 129",
+      "color": "#00000000",
+      "stroke": "#FFF8DD",
+      "strokeWidth": 6,
+      "strokeLinecap": "round"
+    },
+    {
+      "name": "Face eyes",
+      "type": "path",
+      "d": "M 108 144 L 108 149 M 148 144 L 148 149",
+      "color": "#00000000",
+      "stroke": "#183F48",
+      "strokeWidth": 7,
+      "strokeLinecap": "round"
+    },
+    {
+      "name": "Happy mouth",
+      "type": "path",
+      "d": "M 117 161 Q 128 174 139 161",
+      "color": "#00000000",
+      "stroke": "#183F48",
+      "strokeWidth": 4,
+      "strokeLinecap": "round"
+    },
+    {
+      "name": "Blush left",
+      "type": "ellipse",
+      "x": 95,
+      "y": 155,
+      "width": 13,
+      "height": 6,
+      "color": "#EE9377"
+    },
+    {
+      "name": "Blush right",
+      "type": "ellipse",
+      "x": 148,
+      "y": 155,
+      "width": 13,
+      "height": 6,
+      "color": "#EE9377"
+    },
+    {
+      "name": "Top cap",
+      "type": "rectangle",
+      "x": 79,
+      "y": 65,
+      "width": 98,
+      "height": 19,
+      "color": "#56B7AE",
+      "radius": 8,
+      "stroke": "#183F48",
+      "strokeWidth": 5
+    },
+    {
+      "name": "Cap shine",
+      "type": "path",
+      "d": "M 92 72 L 115 72",
+      "color": "#00000000",
+      "stroke": "#BDE8CE",
+      "strokeWidth": 4,
+      "strokeLinecap": "round"
+    }
+  ]
+}

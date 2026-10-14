@@ -13,4 +13,4 @@ Executed on 2026-10-14 with Node.js 24.19.0 and Inkscape 1.4 on Linux.
 
 Nonfatal Inkscape 1.4 PangoFT2FontMap/GtkRecentManager warnings are retained in build receipts. Profile/cache isolation avoids requiring a writable normal HOME; it is not a native-code sandbox. Font availability remains environmental.
 
-Agent Draw itself has not been published or registered in the marketplace. Linux was tested; no cross-platform support claim is made. The historical GIMP prototype is preserved separately and is outside the supported vector runtime/test coverage.
+This record was captured before publication. The initial implementation was subsequently merged through source PR #1 and marketplace PR #168; both links and source/main references are available in the repository history. Linux was tested; no cross-platform support claim is made. The historical GIMP prototype is preserved separately and is outside the supported vector runtime/test coverage.

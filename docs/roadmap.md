@@ -11,7 +11,7 @@ Vector-first 2D authoring for coding agents: rectangles, ellipses, polygons, tex
 - Canvas dimensions are limited to 4096 pixels per side, projects to 128 layers, and JSON input to 2 MiB.
 - No PNG/JPEG imports or embedded raster images. SVG outputs are authored geometry, not raster images wrapped in an SVG container.
 - No import or round-trip editing of arbitrary existing SVG documents.
-- No freehand brush engine, gradients, masks, filters, nested group authoring, custom blend modes, or animation.
+- No freehand brush engine, mesh gradients, masks, filters, nested group authoring, custom blend modes, or animation. Bounded linear/radial fills, fill rules, and stroke caps/joins are supported.
 - No arbitrary scripts, raw XML, URLs, or plug-in/extension procedure invocation in project data.
 - Typography is limited and depends on installed fonts; layout requires visual review.
 - No interactive editor, image generator, remote asset service, or publishing service.
@@ -23,7 +23,7 @@ These are possibilities, not implemented features or delivery commitments:
 
 1. Expand geometry, transparency, text, and PDF export regression coverage across Inkscape versions.
 2. Establish executable discovery and verification on macOS and Windows.
-3. Add bounded vector capabilities such as gradients, transforms, structured groups, and clipping.
+3. Consider bounded transforms, structured groups, and clipping after concrete workflows justify them.
 4. Add typography and layout controls with reproducible font handling.
 5. Define a safe existing-SVG editing contract that preserves manual edits.
 

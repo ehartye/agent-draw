@@ -28,4 +28,9 @@ jobs:
         run: |
           node scripts/setup.js --json
           node scripts/setup.js --check --json
+          node scripts/run-managed.js doctor --smoke
           node scripts/run-managed.js build examples/orbit-robot.json --out "${RUNNER_TEMP}/agent-draw-demo"
+          for project in examples/styles/*.json; do
+            style="$(basename "$project" .json)"
+            node scripts/run-managed.js build "$project" --out "${RUNNER_TEMP}/agent-draw-styles/$style"
+          done

@@ -1,0 +1,356 @@
+{
+  "version": 1,
+  "name": "Field Lantern / Isometric",
+  "width": 256,
+  "height": 256,
+  "layers": [
+    {
+      "name": "Ground shadow",
+      "type": "polygon",
+      "points": [
+        [
+          55,
+          211
+        ],
+        [
+          118,
+          244
+        ],
+        [
+          219,
+          195
+        ],
+        [
+          157,
+          164
+        ]
+      ],
+      "color": "#183F4820"
+    },
+    {
+      "name": "Extruded handle",
+      "type": "path",
+      "d": "M 106 66 L 106 44 L 132 29 L 159 44 L 159 66 L 152 70 L 152 49 L 132 38 L 113 49 L 113 70 Z",
+      "color": "#214957"
+    },
+    {
+      "name": "Rear roof",
+      "type": "polygon",
+      "points": [
+        [
+          78,
+          77
+        ],
+        [
+          128,
+          52
+        ],
+        [
+          182,
+          80
+        ],
+        [
+          131,
+          106
+        ]
+      ],
+      "color": "#8CB8BD"
+    },
+    {
+      "name": "Left glass plane",
+      "type": "polygon",
+      "points": [
+        [
+          85,
+          91
+        ],
+        [
+          128,
+          113
+        ],
+        [
+          128,
+          199
+        ],
+        [
+          75,
+          172
+        ]
+      ],
+      "color": "#F6C566"
+    },
+    {
+      "name": "Right glass plane",
+      "type": "polygon",
+      "points": [
+        [
+          128,
+          113
+        ],
+        [
+          174,
+          90
+        ],
+        [
+          185,
+          170
+        ],
+        [
+          128,
+          199
+        ]
+      ],
+      "color": "#DF953D"
+    },
+    {
+      "name": "Left flame facet",
+      "type": "polygon",
+      "points": [
+        [
+          115,
+          131
+        ],
+        [
+          103,
+          156
+        ],
+        [
+          116,
+          172
+        ],
+        [
+          128,
+          178
+        ],
+        [
+          128,
+          144
+        ],
+        [
+          122,
+          117
+        ]
+      ],
+      "color": "#FFF2BC"
+    },
+    {
+      "name": "Right flame facet",
+      "type": "polygon",
+      "points": [
+        [
+          128,
+          144
+        ],
+        [
+          136,
+          133
+        ],
+        [
+          150,
+          159
+        ],
+        [
+          140,
+          176
+        ],
+        [
+          128,
+          178
+        ]
+      ],
+      "color": "#F8D479"
+    },
+    {
+      "name": "Left roof edge",
+      "type": "polygon",
+      "points": [
+        [
+          75,
+          75
+        ],
+        [
+          131,
+          103
+        ],
+        [
+          131,
+          116
+        ],
+        [
+          75,
+          88
+        ]
+      ],
+      "color": "#32606B"
+    },
+    {
+      "name": "Right roof edge",
+      "type": "polygon",
+      "points": [
+        [
+          131,
+          103
+        ],
+        [
+          184,
+          77
+        ],
+        [
+          184,
+          90
+        ],
+        [
+          131,
+          116
+        ]
+      ],
+      "color": "#183F48"
+    },
+    {
+      "name": "Left outer post",
+      "type": "polygon",
+      "points": [
+        [
+          79,
+          90
+        ],
+        [
+          89,
+          95
+        ],
+        [
+          79,
+          171
+        ],
+        [
+          70,
+          175
+        ]
+      ],
+      "color": "#32606B"
+    },
+    {
+      "name": "Center outer post",
+      "type": "polygon",
+      "points": [
+        [
+          125,
+          112
+        ],
+        [
+          134,
+          108
+        ],
+        [
+          134,
+          199
+        ],
+        [
+          125,
+          203
+        ]
+      ],
+      "color": "#214957"
+    },
+    {
+      "name": "Right outer post",
+      "type": "polygon",
+      "points": [
+        [
+          173,
+          95
+        ],
+        [
+          182,
+          91
+        ],
+        [
+          194,
+          177
+        ],
+        [
+          184,
+          178
+        ]
+      ],
+      "color": "#183F48"
+    },
+    {
+      "name": "Base top",
+      "type": "polygon",
+      "points": [
+        [
+          70,
+          170
+        ],
+        [
+          128,
+          199
+        ],
+        [
+          189,
+          169
+        ],
+        [
+          199,
+          182
+        ],
+        [
+          128,
+          218
+        ],
+        [
+          59,
+          183
+        ]
+      ],
+      "color": "#77A8AF"
+    },
+    {
+      "name": "Base left edge",
+      "type": "polygon",
+      "points": [
+        [
+          59,
+          183
+        ],
+        [
+          128,
+          218
+        ],
+        [
+          128,
+          230
+        ],
+        [
+          59,
+          195
+        ]
+      ],
+      "color": "#32606B"
+    },
+    {
+      "name": "Base right edge",
+      "type": "polygon",
+      "points": [
+        [
+          128,
+          218
+        ],
+        [
+          199,
+          182
+        ],
+        [
+          199,
+          194
+        ],
+        [
+          128,
+          230
+        ]
+      ],
+      "color": "#183F48"
+    }
+  ]
+}

@@ -2,11 +2,11 @@
 
 Layered 2D authoring for coding agents, backed by **Inkscape**. Describe a drawing in a small, validated JSON project; build an editable SVG, transparent PNG, and PDF using Inkscape's headless export interface.
 
-This is the initial 0.1.0 implementation. It does not require a browser, an MCP server, or npm dependencies. It does require an existing Inkscape 1.2 or newer installation and Node.js 22 or newer. Linux is the initial verification target; macOS and Windows support is not yet established.
+This is the 0.2.0 craft-enabled implementation. It does not require a browser, an MCP server, or npm dependencies. It does require an existing Inkscape 1.2 or newer installation and Node.js 22 or newer. Linux is the initial verification target; macOS and Windows support is not yet established.
 
 ## What it does
 
-- Creates named rectangle, ellipse, polygon, text, and path layers.
+- Creates named rectangle, ellipse, polygon, text, and path layers with solid or bounded gradient fills, true cutouts, and deliberate stroke caps/joins.
 - Preserves layer order, visibility, and opacity in an editable SVG with named Inkscape layers.
 - Exports a composited PNG with transparency, a PDF, and a machine-readable build receipt.
 - Validates projects before launching Inkscape, including bounded canvas/layer sizes and restricted path data.
@@ -22,7 +22,7 @@ From this checkout:
 node scripts/setup.js --check --json
 # If the managed runtime is missing, install the local runtime:
 node scripts/setup.js --json
-node scripts/run-managed.js doctor
+node scripts/run-managed.js doctor --smoke
 node scripts/run-managed.js validate project.json
 node scripts/run-managed.js inspect project.json
 node scripts/run-managed.js build project.json --out ./output/my-drawing
@@ -105,7 +105,7 @@ The `.claude-plugin/` and `.codex-plugin/` metadata and `skills/` directory foll
 - [draw-authoring](skills/draw-authoring/SKILL.md): author and validate project data.
 - [draw-export](skills/draw-export/SKILL.md): build, inspect, and deliver SVG/PNG/PDF artifacts.
 
-The plugin is prepared for the [Hartye Plugins marketplace](https://github.com/ehartye/hartye-claude-plugins). Until its marketplace entry is merged, use the local-plugin mechanism supported by your agent host or invoke these scripts directly. Once listed:
+The plugin is prepared for the [Hartye Plugins marketplace](https://github.com/ehartye/hartye-claude-plugins). The initial release is listed; this checkout may contain a newer feature version pending review. Install the published version with:
 
 ```sh
 # Claude Code
@@ -137,3 +137,21 @@ npm run test:integration
 ```
 
 The tests use Node's built-in test runner and no npm packages. Integration tests invoke the actual installed Inkscape CLI, decode PNG pixels, and check SVG/PDF structure. They skip explicitly if Inkscape is absent; install it before claiming an integration pass. See [quality evidence](docs/quality/yoda-audit.md) for the skill audit and measured limitations.
+
+
+## Vector art craft
+
+The [draw-authoring skill](skills/draw-authoring/SKILL.md) selects direct references for six styles: flat pictograms, monoline illustration, isometric/low-poly geometry, cel-shaded mascots, hard-edged paper-cut landscapes, and gradient editorial illustration. References explain construction, visual tradeoffs, common mistakes, and size/background checks; they distinguish practical art heuristics from SVG mechanics.
+
+Six original, editable [style projects](examples/styles/) demonstrate the supported techniques. For example:
+
+```sh
+node scripts/run-managed.js build examples/styles/monoline.json --out output/monoline
+node scripts/run-managed.js build examples/styles/gradient-editorial.json --out output/gradient-editorial
+```
+
+The JSON format adds bounded gradient fills, even-odd cutouts, and cap/join choices. It still does not import arbitrary SVG, animate, or expose arbitrary XML, filter effects, or scripts. Old version-1 projects remain accepted.
+
+### Verify or locate Inkscape
+
+Setup probes the selected executable and reports missing, too-old, broken, or unrecognized installations separately. `doctor --smoke` verifies actual temporary SVG/PNG/PDF export. An explicit `AGENT_DRAW_INKSCAPE` override is never silently ignored. Errors include the detected version, minimum version, attempted path, and [official installation advice](https://wiki.inkscape.org/wiki/Installing_Inkscape). Installation is not automatic. Only Linux has been exercised by this project.

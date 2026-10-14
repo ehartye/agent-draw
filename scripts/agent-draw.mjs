@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 import { readProject } from '../src/project.js';
-import { build, findInkscape } from '../src/backend.js';
-const usage='agent-draw doctor | validate <project.json> | inspect <project.json> | build <project.json> --out <directory> [--overwrite] [--timeout <1..300>]';
+import { inspectInkscape } from '../src/inkscape.js';
+import { build, smokeTest } from '../src/backend.js';
+const usage='agent-draw doctor [--smoke] | validate <project.json> | inspect <project.json> | build <project.json> --out <directory> [--overwrite] [--timeout <1..300>]';
 try{
  const [command,...args]=process.argv.slice(2);
  if(!command||['--help','help','-h'].includes(command)){console.log(usage);}
- else if(command==='doctor'){if(args.length)throw new Error(usage);console.log(JSON.stringify({ok:true,node:process.versions.node,inkscape:findInkscape()},null,2));}
+ else if(command==='doctor'){if(args.length>1||(args.length===1&&args[0]!=='--smoke'))throw new Error(usage);const inkscape=inspectInkscape();const report={ok:inkscape.ok,node:process.versions.node,inkscape:{...inkscape,version:inkscape.versionText,detectedVersion:inkscape.version}};if(inkscape.ok&&args.includes('--smoke'))report.smoke=smokeTest();console.log(JSON.stringify(report,null,2));if(!report.ok)process.exitCode=1;}
  else if(['validate','inspect','build'].includes(command)){
   if(!args[0]||args[0].startsWith('--'))throw new Error(usage);
   const {path,project}=readProject(args[0]);
@@ -16,4 +17,4 @@ try{
    if(!out)throw new Error('--out is required');console.log(JSON.stringify(build(project,path,out,{overwrite,timeout}),null,2));
   }
  }else throw new Error(usage);
-}catch(e){console.error(JSON.stringify({ok:false,error:e.message}));process.exitCode=1;}
+}catch(e){console.error(JSON.stringify({ok:false,error:e.message,...(e.details?{details:e.details}:{})}));process.exitCode=1;}

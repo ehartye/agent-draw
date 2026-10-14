@@ -1,35 +1,40 @@
 ---
 name: draw-authoring
-description: Author or revise vector-first 2D drawings with named shapes, text, and paths for editable SVG and Inkscape PNG/PDF output. Use for agent-draw project JSON, layer composition, or project validation errors.
+description: Author or revise vector-first 2D illustrations, icons, mascots, and diagrams in agent-draw project JSON. Use for drawing composition, art styles, editable shapes and paths, or project validation errors.
 ---
 
 # Draw authoring
 
-Load `draw-setup` before the first command in a session. Read the [version 1 project format](../../docs/project-format.md); do not guess fields or invoke unsupported operations.
+Load `draw-setup` before the first command in a session. Confirm the Inkscape check succeeds before promising exports.
 
-## Workflow
+## Choose the construction before the geometry
 
-1. Establish the asset, canvas dimensions, transparency, and intended use. Use sensible defaults for reversible design choices.
-2. Save project JSON in a durable user working directory, outside the output directory and the managed runtime.
-3. Name layers by function: `background`, `badge`, `title`, `outline`. Names must be unique. Array order is bottom to top.
-4. Use only `rectangle`, `ellipse`, `polygon`, `text`, or `path`. Canvas coordinates start at the top left. A full-canvas rectangle creates an opaque background; otherwise the background is transparent.
-5. Validate, then inspect:
+Establish the subject, use, canvas, transparency, and smallest viewing size. Read [fundamentals](references/fundamentals.md), then the reference matching the requested visual language. These are starting recipes, not universal rules:
+
+- [Flat pictogram](references/flat-pictogram.md): silhouette, negative space, optical balance
+- [Monoline](references/monoline.md): centerlines, consistent weight, caps and joins
+- [Isometric / low-poly](references/isometric-low-poly.md): shared vertices, projected axes, face values
+- [Cel-shaded mascot](references/cel-shaded-mascot.md): silhouette, expression, contained hard shadows
+- [Paper-cut](references/paper-cut.md): stacked contours, offset shadows, real holes
+- [Gradient editorial](references/gradient-editorial.md): focal hierarchy, bounded gradient fills
+
+Read the [project format](../../docs/project-format.md) for exact fields and limits. Recipes use the v0.2 runtime's additions while keeping project `version: 1`; older runtimes reject those fields. Never invent unsupported operations to imitate an Inkscape GUI technique.
+
+## Author, validate, review
+
+1. Save JSON in a durable user working directory outside both generated output and managed runtime. Name unique layers by function; array order is bottom to top.
+2. Block the silhouette and major masses before details. Use only rectangles, ellipses, polygons, paths, and text. Keep a coherent palette, edge treatment, and light direction for the selected style.
+3. Validate and inspect after editing:
 
 ```sh
 node "<plugin-root>/scripts/run-managed.js" validate /absolute/path/project.json
 node "<plugin-root>/scripts/run-managed.js" inspect /absolute/path/project.json
 ```
 
-6. Fix every validation error before building. Load `draw-export` for output and visual review.
+4. Fix every validation error. Load `draw-export`, build with actual Inkscape, and visually check the selected style at full size and intended thumbnail size. Revise the source until both read correctly; successful export alone is not design approval.
 
-## Constraints
+## Boundaries
 
-- Canvas: 1–4096 pixels per side; 1–128 layers; input JSON at most 2 MiB.
-- Layers take a hex fill color, optional stroke/stroke width, opacity 0–100, and visibility. Use an alpha-zero fill for stroke-only artwork.
-- Polygon points are absolute canvas coordinates; polygons do not take `x` or `y`.
-- Path `d` is restricted SVG path data, not raw XML or executable code.
-- Text uses installed fonts and limited layout; review clipping and font appearance.
-- No raster imports or embedded images. This format creates actual editable vector shapes, paths, and live text.
-- Unknown fields fail. Do not add scripts, URLs, arbitrary XML, filters, gradients, brushes, masks, or unsupported groups.
+The canvas is transparent unless covered. For stroke-only paths use `color: "#00000000"`. Supported fill gradients are structured JSON, not URLs or arbitrary SVG. No raster import, filters, masks, clipping paths, groups, transforms, brushes, booleans, or animation are exposed. Author the final contours numerically instead. Text needs installed fonts and visual checking.
 
-The JSON is the rebuildable source. Manual edits in a generated SVG are not imported into it. Preserve a separate SVG copy if the user wants to continue manual editing independently.
+The JSON is the rebuildable source. Manual SVG edits are not imported; preserve a separate SVG copy for independent editing. Keep detailed schema limits in the linked format reference rather than guessing from style examples.

@@ -1,5 +1,7 @@
 # Project format, version 1
 
+This describes the v0.2 runtime, retaining project `version: 1`. Existing v0.1 projects remain valid; v0.1 runtimes reject the new paint fields.
+
 Projects are UTF-8 JSON files of at most 2 MiB. Unknown fields are rejected, including fields that belong to another layer type. Run `validate` after every edit; a JSON parser alone cannot validate the project contract.
 
 ## Project object
@@ -26,8 +28,35 @@ Coordinates are pixels from the canvas's top-left origin: positive x goes right 
 | `color` | Yes | Fill color: `#RRGGBB` or `#RRGGBBAA` |
 | `stroke` | No | Outline color in the same hex formats |
 | `strokeWidth` | No | Number from 0 to 128; defaults to 1 when `stroke` is set |
+| `fillRule` | No | `nonzero` (default) or `evenodd` |
+| `strokeLinecap` | No | `butt` (default), `round`, or `square`; requires `stroke` |
+| `strokeLinejoin` | No | `round` (default), `bevel`, or `miter`; requires `stroke` |
+| `fillGradient` | No | Structured linear or radial fill gradient; solid source `color` remains required |
 
-Use JSON booleans, not strings. Colors are `#RRGGBB` or `#RRGGBBAA`; the optional final pair is the alpha channel. Color alpha and layer opacity both affect the final composition. Use `#00000000` for a transparent fill when drawing a stroke-only shape. `strokeWidth` requires `stroke`. Outlines use round joins; the format does not expose cap/join controls.
+Use JSON booleans, not strings. Colors are `#RRGGBB` or `#RRGGBBAA`; the optional final pair is the alpha channel. Color alpha and layer opacity both affect the final composition. Use `#00000000` for a transparent fill when drawing a stroke-only shape. `strokeWidth`, `strokeLinecap`, and `strokeLinejoin` require `stroke`. The default round join preserves v0.1 output; the default butt cap matches its previous SVG behavior. There is no miter-limit setting. `fillRule` controls compound/intersecting contours; `evenodd` is useful for holes without relying on contour direction. It does not subtract one layer from another.
+
+### Gradient fills
+
+`fillGradient` accepts exactly one of these forms:
+
+```json
+{"type":"linear","x1":32,"y1":32,"x2":224,"y2":224,"stops":[{"offset":0,"color":"#FFE6A6"},{"offset":1,"color":"#6846B7"}]}
+```
+
+```json
+{"type":"radial","cx":96,"cy":88,"r":152,"stops":[{"offset":0,"color":"#FFE6A6"},{"offset":1,"color":"#6846B700"}]}
+```
+
+- All listed geometry fields are required for the selected gradient type. Unknown fields are rejected.
+- Coordinates (`x1`, `y1`, `x2`, `y2`, `cx`, `cy`) are finite numbers from -4096 to 8192. They use absolute canvas units, not percentages or object-relative units.
+- Linear endpoints must differ; coincident endpoints are rejected.
+- Radial `r` is finite, greater than zero, and at most 8192.
+- `stops` contains 2–16 objects, each with only `offset` and `color`. Offset is a finite number from 0 to 1, sorted in nondecreasing order; repeated offsets are allowed. Color is `#RRGGBB` or `#RRGGBBAA`.
+- The renderer creates internal SVG paint IDs and uses `gradientUnits="userSpaceOnUse"`. Do not supply IDs, URLs, XML, transforms, or another coordinate mode.
+- A gradient overrides the solid `color` completely in rendered SVG; `color` remains required as a retained solid source color, not an emitted paint fallback. Stop alpha controls gradient transparency, and layer opacity still applies. The source color's alpha is not multiplied into the gradient.
+- Strokes remain solid colors. There are no gradient stroke, focal-point, spread-mode, mesh, conic, or pattern fields.
+
+The technical basis is [SVG paint servers](https://www.w3.org/TR/SVG2/pservers.html); agent-draw deliberately exposes only the bounded subset above.
 
 ## Rectangle and ellipse
 
@@ -85,7 +114,7 @@ Absolute commands use canvas coordinates; relative commands offset from the curr
 
 ## Unsupported inputs
 
-There is no image layer, SVG-import field, raw XML, URL reference, or arbitrary script. This format authors vector geometry directly. It does not embed bitmap assets or trace them automatically.
+There is no image layer, SVG-import field, raw XML, URL reference, or arbitrary script. This format authors vector geometry directly. It does not embed bitmap assets or trace them automatically. No filters, masks, clipping paths, arbitrary groups, transforms, boolean operations, brushes, or animation are exposed. Structured fill gradients are supported; arbitrary SVG paint-server input is not.
 
 ## Validation and inspection
 

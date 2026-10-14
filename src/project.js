@@ -16,7 +16,7 @@ export function validateProject(input, baseDir=process.cwd()) {
   const at=`layers[${i}]`; obj(v,at);
   const allowed={rectangle:['x','y','width','height','radius'],ellipse:['x','y','width','height'],polygon:['points'],text:['x','y','text','font','size'],path:['d']}[v.type];
   if(!allowed) fail(`${at}: unsupported type`);
-  keys(v,['name','type','opacity','visible','color','stroke','strokeWidth',...allowed],at);
+  keys(v,['name','type','opacity','visible','color','stroke','strokeWidth','fillRule','strokeLinecap','strokeLinejoin','fillGradient',...allowed],at);
   const l={name:str(v.name,128,`${at}.name`),type:v.type,opacity:number(v.opacity??100,0,100,`${at}.opacity`),visible:v.visible??true};
   if(names.has(l.name)) fail(`${at}: duplicate layer name`); names.add(l.name);
   if(typeof l.visible!=='boolean') fail(`${at}.visible: expected boolean`);
@@ -30,6 +30,14 @@ export function validateProject(input, baseDir=process.cwd()) {
   if(v.type==='text'){l.text=str(v.text,4096,`${at}.text`);l.font=str(v.font??'DejaVu Sans',128,`${at}.font`);l.size=number(v.size??32,1,512,`${at}.size`);}
   if(v.type==='rectangle')l.radius=number(v.radius??0,0,4096,`${at}.radius`);
   if(v.stroke!==undefined){if(typeof v.stroke!=='string'||!/^#[a-fA-F0-9]{6}([a-fA-F0-9]{2})?$/.test(v.stroke))fail(`${at}.stroke: invalid color`);l.stroke=v.stroke;l.strokeWidth=number(v.strokeWidth??1,0,128,`${at}.strokeWidth`);}else if(v.strokeWidth!==undefined)fail(`${at}: strokeWidth requires stroke`);
+  for(const [field,choices] of Object.entries({fillRule:['nonzero','evenodd'],strokeLinecap:['butt','round','square'],strokeLinejoin:['round','bevel','miter']})){
+   if(v[field]!==undefined){
+    if(!choices.includes(v[field]))fail(`${at}.${field}: expected ${choices.join(' or ')}`);
+    if(field.startsWith('stroke')&&!l.stroke)fail(`${at}.${field}: requires stroke`);
+    l[field]=v[field];
+   }
+  }
+  if(v.fillGradient!==undefined)l.fillGradient=validateGradient(v.fillGradient,`${at}.fillGradient`);
   if(v.type==='path'){l.d=str(v.d,65536,`${at}.d`);validatePath(l.d,at);}
   p.layers.push(l);
  }
@@ -47,4 +55,24 @@ export function validatePath(d,at='path'){
   while(i<tokens.length&&!/^[A-Za-z]$/.test(tokens[i])){const value=Number(tokens[i++]);number(value,-16384,16384,`${at}.d`);if(cmd.toLowerCase()==='a'&&[3,4].includes(count%7)&&![0,1].includes(value))fail(`${at}: arc flags must be 0 or 1`);if(cmd.toLowerCase()==='a'&&[0,1].includes(count%7)&&value<0)fail(`${at}: arc radius must be nonnegative`);count++;}
   if(!count||count%n)fail(`${at}: invalid argument count for ${cmd}`);
  }
+}
+
+export function validateGradient(value,at='fillGradient'){
+ obj(value,at);
+ const fields=value.type==='linear'?['x1','y1','x2','y2']:value.type==='radial'?['cx','cy','r']:null;
+ if(!fields)fail(`${at}.type: expected linear or radial`);
+ keys(value,['type','stops',...fields],at);
+ const gradient={type:value.type};
+ for(const field of fields){gradient[field]=number(value[field],field==='r'?Number.MIN_VALUE:-4096,8192,`${at}.${field}`);}
+ if(value.type==='linear'&&value.x1===value.x2&&value.y1===value.y2)fail(`${at}: linear endpoints must differ`);
+ if(!Array.isArray(value.stops)||value.stops.length<2||value.stops.length>16)fail(`${at}.stops: expected 2..16 stops`);
+ let previous=-1;
+ gradient.stops=value.stops.map((stop,i)=>{
+  const where=`${at}.stops[${i}]`;obj(stop,where);keys(stop,['offset','color'],where);
+  const offset=number(stop.offset,0,1,`${where}.offset`);
+  if(offset<previous)fail(`${at}.stops: offsets must be nondecreasing`);previous=offset;
+  if(typeof stop.color!=='string'||!/^#[a-fA-F0-9]{6}([a-fA-F0-9]{2})?$/.test(stop.color))fail(`${where}.color: expected hex color`);
+  return {offset,color:stop.color};
+ });
+ return gradient;
 }
