@@ -1,0 +1,6 @@
+node_modules/
+output/
+*.log
+
+# Historical raster experiment is retained locally, not part of the vector release.
+prototypes/

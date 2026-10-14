@@ -1,0 +1,1 @@
+{"version":1,"name":"Smoke","width":32,"height":32,"layers":[{"name":"Pink square","type":"rectangle","x":8,"y":8,"width":16,"height":16,"color":"#ff3366"},{"name":"Blue orb","type":"ellipse","x":12,"y":12,"width":8,"height":8,"color":"#1133ff80"}]}

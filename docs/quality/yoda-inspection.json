@@ -1,0 +1,32 @@
+[
+  {
+    "skill": "draw-authoring",
+    "nameMatchesDirectory": true,
+    "descriptionCharacters": 204,
+    "descriptionUtf8Bytes": 204,
+    "lines": 35,
+    "words": 318,
+    "substitutionHazards": [],
+    "invisibleCodepoints": []
+  },
+  {
+    "skill": "draw-export",
+    "nameMatchesDirectory": true,
+    "descriptionCharacters": 204,
+    "descriptionUtf8Bytes": 204,
+    "lines": 35,
+    "words": 352,
+    "substitutionHazards": [],
+    "invisibleCodepoints": []
+  },
+  {
+    "skill": "draw-setup",
+    "nameMatchesDirectory": true,
+    "descriptionCharacters": 205,
+    "descriptionUtf8Bytes": 205,
+    "lines": 25,
+    "words": 311,
+    "substitutionHazards": [],
+    "invisibleCodepoints": []
+  }
+]

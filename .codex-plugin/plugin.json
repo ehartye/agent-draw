@@ -1,0 +1,25 @@
+{
+  "name": "agent-draw",
+  "version": "0.1.0",
+  "description": "Vector-first 2D authoring for coding agents: validate declarative JSON projects and build editable layered SVG, PNG, and PDF assets through headless Inkscape.",
+  "author": {
+    "name": "ehartye"
+  },
+  "license": "MIT",
+  "keywords": [
+    "2d",
+    "vector",
+    "drawing",
+    "inkscape",
+    "svg",
+    "pdf",
+    "agent-tools"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Draw",
+    "shortDescription": "Editable SVG drawings with Inkscape PNG and PDF exports.",
+    "developerName": "ehartye"
+  },
+  "repository": "https://github.com/ehartye/agent-draw"
+}
