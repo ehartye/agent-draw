@@ -2,6 +2,8 @@
 
 Use independently drawn frames when an action changes anatomy, perspective, silhouette, clothing folds or contact. A rigid arm rotated at its shoulder still has a straight elbow. It cannot become a convincing braced shot merely by adding more keys. Keep transform animation for parts that genuinely stay rigid or for a small secondary effect; do not substitute it for requested redrawing.
 
+For human/humanoid proportions, shoulder/hip placement, knee direction and boot or cape attachment, use [human action construction](human-action-construction.md). Establish the complete model and a few actual exported keys before filling the cycle. Correct contact and attachment in the drawings before tuning playback.
+
 ## Start from action and weight
 
 State the action as a physical verb and a clear intention: brace and aim, reach across the chest, recoil, drag a leg. Draw a gesture line through head, ribcage and pelvis before adding costume. Choose a dominant curve or counter-curve, rather than a vertical stack of symmetrical body parts. Tilt shoulders and pelvis in relation to the action; keep the head and gaze involved.

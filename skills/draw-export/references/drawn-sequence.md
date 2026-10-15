@@ -22,6 +22,8 @@ Require command success and the `kind: "sequence"` receipt. Inspect retained pro
 
 Review key drawings at actual engine size: line of action, bent elbow/knee, support foot, pelvis height, hand/weapon relationship, coat overlap and clipping. Compare frames in order, not just individually. Check anticipation, action and recovery read at the selected fps. A contact sheet reveals shape changes but cannot establish timing or a seamless live loop.
 
+For humanoids, inspect both boot cuffs against their calves, toe/heel direction through recovery, flat versus toe-off contact, and the finished ink's ground clearance including stroke. Check the neckpiece against the neck/jaw/shoulders and both cape-root overlaps. Include intermediate drawings and both half-strides in readable strips or individual images. Retain per-frame findings and keep a scoped attachment pass separate from full-motion acceptance.
+
 A sequence `loop: true` is playback intent only. It does not prove endpoint equality or a good last-to-first transition. The exporter records this limitation rather than forcing duplicate endpoints. Judge the final-to-first action and foot contact in playback before claiming a finished loop. For a hold, deliberately repeat a frame reference; do not create accidental extra holds by appending the first frame automatically.
 
 Use the existing atlas workflow for game packing. Preserve frame registration and semantic action/view names; packing cannot invent missing directional poses. For a horizontal strip, choose the clip's frame count as columns and padding 0 only when that matches the engine contract. Retain vector/project sources and receipts even when the game consumes only the final raster strip.

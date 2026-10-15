@@ -1,0 +1,831 @@
+{
+  "scope": "17 complete planar construction drafts, 34 boots. Original 17-action game atlas is outside this correction.",
+  "poses": [
+    {
+      "pose": "neutral",
+      "feet": [
+        {
+          "side": "near",
+          "phase": -1,
+          "airborne": false,
+          "ankle": [
+            310,
+            401
+          ],
+          "knee": [
+            326.83108100483616,
+            347.5891891822579
+          ],
+          "cuffAlignment": 0.9331589905051539,
+          "soleAngle": 0,
+          "calfFootAngle": 17.4909418284149,
+          "ankleFlexion": -17.49094182841486,
+          "bottom": 416,
+          "issues": [
+            "cuff misaligned with calf"
+          ]
+        },
+        {
+          "side": "far",
+          "phase": -1,
+          "airborne": false,
+          "ankle": [
+            335,
+            401
+          ],
+          "knee": [
+            338.0073827566783,
+            345.08081144227117
+          ],
+          "cuffAlignment": 0.9932624097238909,
+          "soleAngle": 0,
+          "calfFootAngle": 3.078451285975885,
+          "ankleFlexion": -3.078451285975916,
+          "bottom": 416,
+          "issues": [
+            "cuff misaligned with calf"
+          ]
+        }
+      ],
+      "collarNeckDot": 0.5626990603075396
+    },
+    {
+      "pose": "run-0",
+      "feet": [
+        {
+          "side": "near",
+          "phase": 0,
+          "airborne": false,
+          "ankle": [
+            354,
+            401
+          ],
+          "knee": [
+            354.9747951533945,
+            345.0084847998474
+          ],
+          "cuffAlignment": 0.996815536922411,
+          "soleAngle": 0,
+          "calfFootAngle": 0.9974012343646599,
+          "ankleFlexion": -0.9974012343647018,
+          "bottom": 416,
+          "issues": []
+        },
+        {
+          "side": "far",
+          "phase": 4,
+          "airborne": true,
+          "ankle": [
+            255.18586269233177,
+            300.819152044289
+          ],
+          "knee": [
+            287.30614312799037,
+            346.6916665244725
+          ],
+          "cuffAlignment": -0.9997462419959273,
+          "soleAngle": -29.98163936884933,
+          "calfFootAngle": 144.99999999999997,
+          "ankleFlexion": -174.9816393688493,
+          "bottom": 320.3,
+          "issues": [
+            "cuff misaligned with calf",
+            "airborne foot turns away from calf"
+          ]
+        }
+      ],
+      "collarNeckDot": 0.5626990603075396
+    },
+    {
+      "pose": "run-1",
+      "feet": [
+        {
+          "side": "near",
+          "phase": 1,
+          "airborne": false,
+          "ankle": [
+            328,
+            401
+          ],
+          "knee": [
+            357.1809852835237,
+            353.2038694256243
+          ],
+          "cuffAlignment": 0.8193355626956206,
+          "soleAngle": 0,
+          "calfFootAngle": 31.405329387475174,
+          "ankleFlexion": -31.40532938747515,
+          "bottom": 416,
+          "issues": [
+            "cuff misaligned with calf"
+          ]
+        },
+        {
+          "side": "far",
+          "phase": 5,
+          "airborne": true,
+          "ankle": [
+            288.88017109066016,
+            332.93749166281833
+          ],
+          "knee": [
+            334.7526855708437,
+            365.0577720984769
+          ],
+          "cuffAlignment": -0.853948487438937,
+          "soleAngle": -20.029678980257508,
+          "calfFootAngle": 124.99999999999999,
+          "ankleFlexion": -145.02967898025747,
+          "bottom": 351.5,
+          "issues": [
+            "cuff misaligned with calf",
+            "airborne foot turns away from calf"
+          ]
+        }
+      ],
+      "collarNeckDot": 0.5626990603075396
+    },
+    {
+      "pose": "run-2",
+      "feet": [
+        {
+          "side": "near",
+          "phase": 2,
+          "airborne": false,
+          "ankle": [
+            302,
+            401
+          ],
+          "knee": [
+            328.0512546546267,
+            351.4285149413517
+          ],
+          "cuffAlignment": 0.8544627832939666,
+          "soleAngle": 0,
+          "calfFootAngle": 27.723229643221938,
+          "ankleFlexion": -27.723229643221885,
+          "bottom": 416,
+          "issues": [
+            "cuff misaligned with calf"
+          ]
+        },
+        {
+          "side": "far",
+          "phase": 6,
+          "airborne": true,
+          "ankle": [
+            339.5392634254305,
+            364.96175539940344
+          ],
+          "knee": [
+            371.65954386108905,
+            319.0892409192199
+          ],
+          "cuffAlignment": 0.6607497343293538,
+          "soleAngle": -10.000084558344977,
+          "calfFootAngle": 34.999999999999986,
+          "ankleFlexion": -45.00008455834495,
+          "bottom": 382,
+          "issues": [
+            "cuff misaligned with calf",
+            "airborne foot turns away from calf"
+          ]
+        }
+      ],
+      "collarNeckDot": 0.5626990603075396
+    },
+    {
+      "pose": "run-3",
+      "feet": [
+        {
+          "side": "near",
+          "phase": 3,
+          "airborne": true,
+          "ankle": [
+            271.5025773880714,
+            372
+          ],
+          "knee": [
+            320,
+            344
+          ],
+          "cuffAlignment": 0.19839827369201482,
+          "soleAngle": -15.027992871941903,
+          "calfFootAngle": 60.00000000000001,
+          "ankleFlexion": -75.02799287194193,
+          "bottom": 389.9,
+          "issues": [
+            "cuff misaligned with calf",
+            "airborne foot turns away from calf"
+          ]
+        },
+        {
+          "side": "far",
+          "phase": 7,
+          "airborne": true,
+          "ankle": [
+            349.17066673204056,
+            377.73074002432054
+          ],
+          "knee": [
+            363.6645332577817,
+            323.63889375213273
+          ],
+          "cuffAlignment": 0.8341714616761776,
+          "soleAngle": -15.027992871941956,
+          "calfFootAngle": 15.000000000000012,
+          "ankleFlexion": -30.02799287194199,
+          "bottom": 395.6,
+          "issues": [
+            "cuff misaligned with calf"
+          ]
+        }
+      ],
+      "collarNeckDot": 0.5626990603075396
+    },
+    {
+      "pose": "run-4",
+      "feet": [
+        {
+          "side": "near",
+          "phase": 4,
+          "airborne": true,
+          "ankle": [
+            255.18586269233177,
+            300.819152044289
+          ],
+          "knee": [
+            287.30614312799037,
+            346.6916665244725
+          ],
+          "cuffAlignment": -0.9997462419959273,
+          "soleAngle": -29.98163936884933,
+          "calfFootAngle": 144.99999999999997,
+          "ankleFlexion": -174.9816393688493,
+          "bottom": 320.3,
+          "issues": [
+            "cuff misaligned with calf",
+            "airborne foot turns away from calf"
+          ]
+        },
+        {
+          "side": "far",
+          "phase": 0,
+          "airborne": false,
+          "ankle": [
+            354,
+            401
+          ],
+          "knee": [
+            354.9747951533945,
+            345.0084847998474
+          ],
+          "cuffAlignment": 0.996815536922411,
+          "soleAngle": 0,
+          "calfFootAngle": 0.9974012343646599,
+          "ankleFlexion": -0.9974012343647018,
+          "bottom": 416,
+          "issues": []
+        }
+      ],
+      "collarNeckDot": 0.5626990603075396
+    },
+    {
+      "pose": "run-5",
+      "feet": [
+        {
+          "side": "near",
+          "phase": 5,
+          "airborne": true,
+          "ankle": [
+            288.88017109066016,
+            332.93749166281833
+          ],
+          "knee": [
+            334.7526855708437,
+            365.0577720984769
+          ],
+          "cuffAlignment": -0.853948487438937,
+          "soleAngle": -20.029678980257508,
+          "calfFootAngle": 124.99999999999999,
+          "ankleFlexion": -145.02967898025747,
+          "bottom": 351.5,
+          "issues": [
+            "cuff misaligned with calf",
+            "airborne foot turns away from calf"
+          ]
+        },
+        {
+          "side": "far",
+          "phase": 1,
+          "airborne": false,
+          "ankle": [
+            328,
+            401
+          ],
+          "knee": [
+            357.1809852835237,
+            353.2038694256243
+          ],
+          "cuffAlignment": 0.8193355626956206,
+          "soleAngle": 0,
+          "calfFootAngle": 31.405329387475174,
+          "ankleFlexion": -31.40532938747515,
+          "bottom": 416,
+          "issues": [
+            "cuff misaligned with calf"
+          ]
+        }
+      ],
+      "collarNeckDot": 0.5626990603075396
+    },
+    {
+      "pose": "run-6",
+      "feet": [
+        {
+          "side": "near",
+          "phase": 6,
+          "airborne": true,
+          "ankle": [
+            339.5392634254305,
+            364.96175539940344
+          ],
+          "knee": [
+            371.65954386108905,
+            319.0892409192199
+          ],
+          "cuffAlignment": 0.6607497343293538,
+          "soleAngle": -10.000084558344977,
+          "calfFootAngle": 34.999999999999986,
+          "ankleFlexion": -45.00008455834495,
+          "bottom": 382,
+          "issues": [
+            "cuff misaligned with calf",
+            "airborne foot turns away from calf"
+          ]
+        },
+        {
+          "side": "far",
+          "phase": 2,
+          "airborne": false,
+          "ankle": [
+            302,
+            401
+          ],
+          "knee": [
+            328.0512546546267,
+            351.4285149413517
+          ],
+          "cuffAlignment": 0.8544627832939666,
+          "soleAngle": 0,
+          "calfFootAngle": 27.723229643221938,
+          "ankleFlexion": -27.723229643221885,
+          "bottom": 416,
+          "issues": [
+            "cuff misaligned with calf"
+          ]
+        }
+      ],
+      "collarNeckDot": 0.5626990603075396
+    },
+    {
+      "pose": "run-7",
+      "feet": [
+        {
+          "side": "near",
+          "phase": 7,
+          "airborne": true,
+          "ankle": [
+            349.17066673204056,
+            377.73074002432054
+          ],
+          "knee": [
+            363.6645332577817,
+            323.63889375213273
+          ],
+          "cuffAlignment": 0.8341714616761776,
+          "soleAngle": -15.027992871941956,
+          "calfFootAngle": 15.000000000000012,
+          "ankleFlexion": -30.02799287194199,
+          "bottom": 395.6,
+          "issues": [
+            "cuff misaligned with calf"
+          ]
+        },
+        {
+          "side": "far",
+          "phase": 3,
+          "airborne": true,
+          "ankle": [
+            271.5025773880714,
+            372
+          ],
+          "knee": [
+            320,
+            344
+          ],
+          "cuffAlignment": 0.19839827369201482,
+          "soleAngle": -15.027992871941903,
+          "calfFootAngle": 60.00000000000001,
+          "ankleFlexion": -75.02799287194193,
+          "bottom": 389.9,
+          "issues": [
+            "cuff misaligned with calf",
+            "airborne foot turns away from calf"
+          ]
+        }
+      ],
+      "collarNeckDot": 0.5626990603075396
+    },
+    {
+      "pose": "walk-0",
+      "feet": [
+        {
+          "side": "near",
+          "phase": 0,
+          "airborne": false,
+          "ankle": [
+            347,
+            401
+          ],
+          "knee": [
+            339.74053686754206,
+            345.47252756492077
+          ],
+          "cuffAlignment": 0.9977173198049606,
+          "soleAngle": 0,
+          "calfFootAngle": -7.448400926658851,
+          "ankleFlexion": 7.4484009266589055,
+          "bottom": 416,
+          "issues": []
+        },
+        {
+          "side": "far",
+          "phase": 4,
+          "airborne": true,
+          "ankle": [
+            247.88206506642604,
+            364.7156074110343
+          ],
+          "knee": [
+            300.5048518304369,
+            345.5624793847968
+          ],
+          "cuffAlignment": 0.026709153549652396,
+          "soleAngle": -15.027992871941956,
+          "calfFootAngle": 69.99999999999997,
+          "ankleFlexion": -85.02799287194193,
+          "bottom": 382.6,
+          "issues": [
+            "cuff misaligned with calf",
+            "airborne foot turns away from calf"
+          ]
+        }
+      ],
+      "collarNeckDot": 0.5626990603075396
+    },
+    {
+      "pose": "walk-1",
+      "feet": [
+        {
+          "side": "near",
+          "phase": 1,
+          "airborne": false,
+          "ankle": [
+            321,
+            401
+          ],
+          "knee": [
+            342.5939030714426,
+            349.33082785508225
+          ],
+          "cuffAlignment": 0.896813568255602,
+          "soleAngle": 0,
+          "calfFootAngle": 22.68133011959001,
+          "ankleFlexion": -22.68133011959003,
+          "bottom": 416,
+          "issues": [
+            "cuff misaligned with calf"
+          ]
+        },
+        {
+          "side": "far",
+          "phase": 5,
+          "airborne": true,
+          "ankle": [
+            287.8797195643414,
+            399.87251448018355
+          ],
+          "knee": [
+            320,
+            354
+          ],
+          "cuffAlignment": 0.6630251922272093,
+          "soleAngle": -10.023807364440076,
+          "calfFootAngle": 34.999999999999986,
+          "ankleFlexion": -45.023807364440074,
+          "bottom": 416.9,
+          "issues": [
+            "cuff misaligned with calf",
+            "airborne foot turns away from calf",
+            "airborne boot reaches through floor"
+          ]
+        }
+      ],
+      "collarNeckDot": 0.5626990603075396
+    },
+    {
+      "pose": "walk-2",
+      "feet": [
+        {
+          "side": "near",
+          "phase": 2,
+          "airborne": false,
+          "ankle": [
+            295,
+            401
+          ],
+          "knee": [
+            310.623020757697,
+            347.22341380856756
+          ],
+          "cuffAlignment": 0.9410236294809737,
+          "soleAngle": 0,
+          "calfFootAngle": 16.19948732990305,
+          "ankleFlexion": -16.199487329903036,
+          "bottom": 416,
+          "issues": [
+            "cuff misaligned with calf"
+          ]
+        },
+        {
+          "side": "far",
+          "phase": 6,
+          "airborne": true,
+          "ankle": [
+            333.5407288457722,
+            390.3144532884834
+          ],
+          "knee": [
+            352.69385687200963,
+            337.6916665244725
+          ],
+          "cuffAlignment": 0.7807651254567534,
+          "soleAngle": -15.063414593622765,
+          "calfFootAngle": 19.99999999999998,
+          "ankleFlexion": -35.063414593622724,
+          "bottom": 408.2,
+          "issues": [
+            "cuff misaligned with calf",
+            "airborne foot turns away from calf"
+          ]
+        }
+      ],
+      "collarNeckDot": 0.5626990603075396
+    },
+    {
+      "pose": "walk-3",
+      "feet": [
+        {
+          "side": "near",
+          "phase": 3,
+          "airborne": false,
+          "ankle": [
+            285.5,
+            386
+          ],
+          "knee": [
+            322.47926136688034,
+            343.94605572886235
+          ],
+          "cuffAlignment": 0.9962599604058685,
+          "soleAngle": 39.98014635798041,
+          "calfFootAngle": 41.32610987701295,
+          "ankleFlexion": -1.3459635190325798,
+          "bottom": 416.1,
+          "issues": []
+        },
+        {
+          "side": "far",
+          "phase": 7,
+          "airborne": true,
+          "ankle": [
+            339.4951481695631,
+            396.5624793847968
+          ],
+          "knee": [
+            339.4951481695631,
+            340.5624793847968
+          ],
+          "cuffAlignment": 0.9159643106871662,
+          "soleAngle": -20.029678980257582,
+          "calfFootAngle": 0,
+          "ankleFlexion": -20.029678980257586,
+          "bottom": 415.1,
+          "issues": [
+            "cuff misaligned with calf"
+          ]
+        }
+      ],
+      "collarNeckDot": 0.5626990603075396
+    },
+    {
+      "pose": "walk-4",
+      "feet": [
+        {
+          "side": "near",
+          "phase": 4,
+          "airborne": true,
+          "ankle": [
+            247.88206506642604,
+            364.7156074110343
+          ],
+          "knee": [
+            300.5048518304369,
+            345.5624793847968
+          ],
+          "cuffAlignment": 0.026709153549652396,
+          "soleAngle": -15.027992871941956,
+          "calfFootAngle": 69.99999999999997,
+          "ankleFlexion": -85.02799287194193,
+          "bottom": 382.6,
+          "issues": [
+            "cuff misaligned with calf",
+            "airborne foot turns away from calf"
+          ]
+        },
+        {
+          "side": "far",
+          "phase": 0,
+          "airborne": false,
+          "ankle": [
+            347,
+            401
+          ],
+          "knee": [
+            339.74053686754206,
+            345.47252756492077
+          ],
+          "cuffAlignment": 0.9977173198049606,
+          "soleAngle": 0,
+          "calfFootAngle": -7.448400926658851,
+          "ankleFlexion": 7.4484009266589055,
+          "bottom": 416,
+          "issues": []
+        }
+      ],
+      "collarNeckDot": 0.5626990603075396
+    },
+    {
+      "pose": "walk-5",
+      "feet": [
+        {
+          "side": "near",
+          "phase": 5,
+          "airborne": true,
+          "ankle": [
+            287.8797195643414,
+            399.87251448018355
+          ],
+          "knee": [
+            320,
+            354
+          ],
+          "cuffAlignment": 0.6630251922272093,
+          "soleAngle": -10.023807364440076,
+          "calfFootAngle": 34.999999999999986,
+          "ankleFlexion": -45.023807364440074,
+          "bottom": 416.9,
+          "issues": [
+            "cuff misaligned with calf",
+            "airborne foot turns away from calf",
+            "airborne boot reaches through floor"
+          ]
+        },
+        {
+          "side": "far",
+          "phase": 1,
+          "airborne": false,
+          "ankle": [
+            321,
+            401
+          ],
+          "knee": [
+            342.5939030714426,
+            349.33082785508225
+          ],
+          "cuffAlignment": 0.896813568255602,
+          "soleAngle": 0,
+          "calfFootAngle": 22.68133011959001,
+          "ankleFlexion": -22.68133011959003,
+          "bottom": 416,
+          "issues": [
+            "cuff misaligned with calf"
+          ]
+        }
+      ],
+      "collarNeckDot": 0.5626990603075396
+    },
+    {
+      "pose": "walk-6",
+      "feet": [
+        {
+          "side": "near",
+          "phase": 6,
+          "airborne": true,
+          "ankle": [
+            333.5407288457722,
+            390.3144532884834
+          ],
+          "knee": [
+            352.69385687200963,
+            337.6916665244725
+          ],
+          "cuffAlignment": 0.7807651254567534,
+          "soleAngle": -15.063414593622765,
+          "calfFootAngle": 19.99999999999998,
+          "ankleFlexion": -35.063414593622724,
+          "bottom": 408.2,
+          "issues": [
+            "cuff misaligned with calf",
+            "airborne foot turns away from calf"
+          ]
+        },
+        {
+          "side": "far",
+          "phase": 2,
+          "airborne": false,
+          "ankle": [
+            295,
+            401
+          ],
+          "knee": [
+            310.623020757697,
+            347.22341380856756
+          ],
+          "cuffAlignment": 0.9410236294809737,
+          "soleAngle": 0,
+          "calfFootAngle": 16.19948732990305,
+          "ankleFlexion": -16.199487329903036,
+          "bottom": 416,
+          "issues": [
+            "cuff misaligned with calf"
+          ]
+        }
+      ],
+      "collarNeckDot": 0.5626990603075396
+    },
+    {
+      "pose": "walk-7",
+      "feet": [
+        {
+          "side": "near",
+          "phase": 7,
+          "airborne": true,
+          "ankle": [
+            339.4951481695631,
+            396.5624793847968
+          ],
+          "knee": [
+            339.4951481695631,
+            340.5624793847968
+          ],
+          "cuffAlignment": 0.9159643106871662,
+          "soleAngle": -20.029678980257582,
+          "calfFootAngle": 0,
+          "ankleFlexion": -20.029678980257586,
+          "bottom": 415.1,
+          "issues": [
+            "cuff misaligned with calf"
+          ]
+        },
+        {
+          "side": "far",
+          "phase": 3,
+          "airborne": false,
+          "ankle": [
+            285.5,
+            386
+          ],
+          "knee": [
+            322.47926136688034,
+            343.94605572886235
+          ],
+          "cuffAlignment": 0.9962599604058685,
+          "soleAngle": 39.98014635798041,
+          "calfFootAngle": 41.32610987701295,
+          "ankleFlexion": -1.3459635190325798,
+          "bottom": 416.1,
+          "issues": []
+        }
+      ],
+      "collarNeckDot": 0.5626990603075396
+    }
+  ],
+  "summary": {
+    "poses": 17,
+    "boots": 34,
+    "bootIssues": 28,
+    "collarAxisIssues": 17
+  }
+}

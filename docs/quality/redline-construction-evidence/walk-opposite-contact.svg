@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="640" height="480" viewBox="0 0 640 480">
+  <title>redline-walk-4</title>
+  <g id="layer-1" inkscape:groupmode="layer" inkscape:label="scarf-tail" opacity="1">
+    <path d="M 325.5 201 Q 263 190 218 213.5 L 171 206.5 Q 217 246 320.1 205.8 Z" fill="#E84136" fill-rule="nonzero" stroke="#182534" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-2" inkscape:groupmode="layer" inkscape:label="far-leg" opacity="1">
+    <polygon points="310.6,295.5 316.7,320.6 332.9,347.1 333.7,368.9 341.5,401.7 352.5,400.3 351.6,366.5 346.5,343.8 341.1,311.6 329.4,288.5" fill="#193E50" fill-rule="nonzero" stroke="#182534" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+  </g>
+  <g id="layer-3" inkscape:groupmode="layer" inkscape:label="far-boot" opacity="1">
+    <polygon points="335.7,384.3 353.6,382 357,403 373,408 376,416 334,416" fill="#182534" fill-rule="nonzero" stroke="#182534" stroke-width="0" stroke-linejoin="round" stroke-linecap="butt"/>
+  </g>
+  <g id="layer-4" inkscape:groupmode="layer" inkscape:label="far-arm" opacity="1">
+    <path d="M 301.7 222.9 L 293.9 241.6 L 289.8 267.6 L 287.2 284.4 L 288.1 308.6 L 300.1 309.7 L 305.2 286 L 305.4 271 L 318.3 250.5 L 324.3 231.1 Q 319.2 210.1 301.7 222.9 Z" fill="#193E50" fill-rule="nonzero" stroke="#182534" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-5" inkscape:groupmode="layer" inkscape:label="far-arm-mitten" opacity="1">
+    <path d="M 294.5 304.4 L 294.1 309.1" fill="#000000" fill-opacity="0" fill-rule="nonzero" stroke="#182534" stroke-width="18" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-6" inkscape:groupmode="layer" inkscape:label="near-leg" opacity="1">
+    <polygon points="310.6,288.6 299,311.7 295.6,340.6 276.4,344.8 246,359.5 249.8,369.9 282.5,361.7 305.5,350.5 323.4,320.5 329.4,295.4" fill="#318B92" fill-rule="nonzero" stroke="#182534" stroke-width="4" stroke-linejoin="round" stroke-linecap="butt"/>
+  </g>
+  <g id="layer-7" inkscape:groupmode="layer" inkscape:label="near-boot" opacity="1">
+    <polygon points="261.7,350.1 267.9,367 251.2,374.4 254.8,390.7 249.4,397.3 228.4,361" fill="#182534" fill-rule="nonzero" stroke="#182534" stroke-width="0" stroke-linejoin="round" stroke-linecap="butt"/>
+  </g>
+  <g id="layer-8" inkscape:groupmode="layer" inkscape:label="coat" opacity="1">
+    <path d="M 310 209 Q 331 199 350 214 L 338 280 Q 346 298 354 316 L 325 308 L 305 325 L 286 309 Q 303 280 310 209 Z" fill="#318B92" fill-rule="nonzero" stroke="#182534" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-9" inkscape:groupmode="layer" inkscape:label="coat-shadow" opacity="1">
+    <path d="M 310 212 L 325 228 L 315 302 L 305 321 L 289 309 L 306 276 Z" fill="#193E50" fill-rule="nonzero"/>
+  </g>
+  <g id="layer-10" inkscape:groupmode="layer" inkscape:label="chest-stripe" opacity="1">
+    <path d="M 337 215 L 347 214 L 329 279 L 320 281 Z" fill="#FFF3D1" fill-rule="nonzero"/>
+  </g>
+  <g id="layer-11" inkscape:groupmode="layer" inkscape:label="near-arm" opacity="1">
+    <path d="M 301.7 231.1 L 307.7 250.5 L 321.3 273 L 330.2 287.6 L 346.4 305.5 L 356.2 298.6 L 344.9 277.2 L 335.5 265.6 L 332.1 241.6 L 324.3 222.9 Q 306.8 210.1 301.7 231.1 Z" fill="#318B92" fill-rule="nonzero" stroke="#182534" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-12" inkscape:groupmode="layer" inkscape:label="near-arm-mitten" opacity="1">
+    <path d="M 348.6 298.1 L 351.3 302.1" fill="#000000" fill-opacity="0" fill-rule="nonzero" stroke="#182534" stroke-width="18" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-13" inkscape:groupmode="layer" inkscape:label="neck" opacity="1">
+    <path d="M 323 196 L 347 208 L 341.6 218.5 L 323.1 206.6 Z" fill="#182534" fill-rule="nonzero"/>
+  </g>
+  <g id="layer-14" inkscape:groupmode="layer" inkscape:label="head-silhouette" opacity="1">
+    <path d="M 308 163 Q 303 140 330 132 L 344 124 L 352 133 Q 372 136 373 163 L 382 176 L 372 184 Q 371 210 347 215 Q 319 209 308 163 Z" fill="#182534" fill-rule="nonzero" stroke="#182534" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-15" inkscape:groupmode="layer" inkscape:label="face" opacity="1">
+    <path d="M 314 162 Q 337 148 366 158 L 369 171 L 377 177 L 366 180 Q 367 204 347 207 Q 324 203 314 162 Z" fill="#FFF3D1" fill-rule="nonzero"/>
+  </g>
+  <g id="layer-16" inkscape:groupmode="layer" inkscape:label="mask" opacity="1">
+    <path d="M 313 165 Q 340 159 370 170 L 368 186 L 346 189 L 320 182 Z" fill="#182534" fill-rule="nonzero"/>
+  </g>
+  <g id="layer-17" inkscape:groupmode="layer" inkscape:label="eye" opacity="1">
+    <path d="M 346 171 L 366 175 L 356 182 L 347 180 Z" fill="#FFF3D1" fill-rule="nonzero"/>
+  </g>
+  <g id="layer-18" inkscape:groupmode="layer" inkscape:label="scarf-knot" opacity="1">
+    <path d="M 321 196.9 Q 337.8 204.1 351.3 216.4 L 348.1 225 Q 328.6 218.4 314.5 203.4 Z" fill="#E84136" fill-rule="nonzero" stroke="#182534" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+</svg>

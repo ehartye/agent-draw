@@ -1,0 +1,49 @@
+{
+  "scope": "Three representative complete static drawings from the 17-drawing attachment review. Not a game atlas or animation acceptance.",
+  "artifacts": [
+    {
+      "file": "run-reception.json",
+      "sha256": "4afa1b08af843f130ef6c9f0be7b2d03d5471d163c401c562feeeb4084220dfa"
+    },
+    {
+      "file": "run-reception.svg",
+      "sha256": "058432cbb01c6401082b873df45a164b88cfad639c5a6d12ed2a92a550d57a8c"
+    },
+    {
+      "file": "run-reception.png",
+      "sha256": "453047a6929b27a14d60bc1846757373c127554c0cb0c6a9685b2af7c70a0178"
+    },
+    {
+      "file": "walk-opposite-contact.json",
+      "sha256": "553b8b4b777cc251c322c7cc9d03d3c32f1c9ac75780a10a1a48e33b8443872e"
+    },
+    {
+      "file": "walk-opposite-contact.svg",
+      "sha256": "8b25209dfd2387a63b24734c2d366dae0790edaabe35562ddf464934d41f02d9"
+    },
+    {
+      "file": "walk-opposite-contact.png",
+      "sha256": "31f349f5a29b24d4a798323a6b537db1bbe9ae1fd4e3ef410cb22a97c58627c6"
+    },
+    {
+      "file": "neutral.json",
+      "sha256": "7b1acafb248c13a08c06f348dbda685b204bd675d10118bd52f6321aae24ced1"
+    },
+    {
+      "file": "neutral.svg",
+      "sha256": "537136f6f9b069f573eb29fa332af4f28852e8fbbfc1f5ab543b14a7f49e8ba0"
+    },
+    {
+      "file": "neutral.png",
+      "sha256": "0abb9287d08678d7696a245eb776e808ca27a1a74158267f2bf1a3bc9a211a8b"
+    },
+    {
+      "file": "attachment-audit-before.json",
+      "sha256": "faa6161a11b948033b15ba81522d9eeef284727802e13ad1a44cdeee006ae916"
+    },
+    {
+      "file": "attachment-audit-after.json",
+      "sha256": "3951fb7adc869e71227c9ea8fe2c08880d4b832894c3f7737bc03fb8bcd210e9"
+    }
+  ]
+}
