@@ -2,7 +2,7 @@
 
 Layered 2D authoring for coding agents, backed by **Inkscape**. Describe a drawing in a small, validated JSON project; build an editable SVG, transparent PNG, and PDF using Inkscape's headless export interface.
 
-This is the 0.3.1 craft-and-animation implementation. It does not require a browser, an MCP server, or npm dependencies. It does require an existing Inkscape 1.2 or newer installation and Node.js 22 or newer. Linux is the initial verification target; macOS and Windows support is not yet established.
+This is the 0.4.0 craft-and-animation implementation. It does not require a browser, an MCP server, or npm dependencies. It does require an existing Inkscape 1.2 or newer installation and Node.js 22 or newer. Linux is the initial verification target; macOS and Windows support is not yet established.
 
 ## What it does
 
@@ -177,3 +177,7 @@ FFmpeg is optional and never installed automatically. `AGENT_DRAW_FFMPEG` select
 ## Game atlas handoff
 
 Pack existing fixed-canvas PNG frames with `node scripts/run-managed.js atlas manifest.json --out output/actors`. Existing FFmpeg is required for this optional export. It retains exact anchors, semantic clip names and sources, emits Phaser JSON hash metadata, and uses transparent gutters. See [atlas format](docs/atlas-format.md). This does not generate directional poses or import raster images into vector drawings.
+
+## Independently drawn poses
+
+Use `sequence` with an ordered manifest of complete static JSON drawings when elbows, knees, silhouettes, folds or overlaps change between frames. It renders actual SVG/PNG frames and an all-frame contact sheet, preserving source projects and receipts. See [sequence format](docs/sequence-format.md). Craft references cover gesture, contact, action spacing, material marks, color families and person/building scale. Loop intent does not prove playback quality.

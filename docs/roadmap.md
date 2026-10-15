@@ -29,3 +29,7 @@ These are possibilities, not implemented features or delivery commitments:
 5. Define a safe existing-SVG editing contract that preserves manual edits.
 
 Grow the format through explicit versioned operations and tests rather than unrestricted XML or script execution.
+
+## Drawn-pose craft
+
+Independent static project sequences support frame-specific contours and joints. Craft guidance covers gesture, contact, material/color separation and world scale. No automatic anatomy, eight-view generation, in-betweening or game state machine is claimed. Future tooling should address a demonstrated authoring gap rather than substituting rigid animation for requested pose drawing.

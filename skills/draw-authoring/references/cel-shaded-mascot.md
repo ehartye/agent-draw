@@ -6,7 +6,7 @@ Build an expressive character from a strong silhouette, readable facial features
 
 ## Construction order
 
-1. Choose the pose and expression. Block head, body, and major appendages in flat color; test the silhouette before the face.
+1. Establish gesture, support foot, shoulder/pelvis relationship and bent-joint landmarks before costume detail. Choose the pose and expression. Block head, body, and major appendages in flat color; test the silhouette before the face.
 2. Draw the main contour with intentional curve segments. Mirror coordinates initially if useful, then introduce asymmetry for the pose or expression.
 3. Pick a light direction. Add a contained shadow contour describing the volume; do not use a translated copy of the whole object as a substitute for form shading.
 4. Add eyes, brows, and mouth with enough space to survive reduction. Add highlights last and only where they reinforce the expression or material.

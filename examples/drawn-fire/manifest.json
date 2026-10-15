@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "name": "drawn-drifter-fire",
+  "fps": 12,
+  "loop": false,
+  "frames": [
+    "poses/frame-0000.json",
+    "poses/frame-0001.json",
+    "poses/frame-0002.json",
+    "poses/frame-0003.json"
+  ]
+}

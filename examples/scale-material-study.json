@@ -1,0 +1,901 @@
+{
+  "version": 1,
+  "name": "sunlit frontier scale and materials",
+  "width": 640,
+  "height": 360,
+  "layers": [
+    {
+      "name": "clear blue sky",
+      "type": "rectangle",
+      "x": 0,
+      "y": 0,
+      "width": 640,
+      "height": 360,
+      "color": "#8CBDE5"
+    },
+    {
+      "name": "distant sandstone mesas",
+      "type": "path",
+      "d": "M0 170L45 139L70 140L80 115L115 110L140 145L195 155L220 127L266 131L294 167L342 155L370 120L430 119L464 160L550 145L610 167L640 150V240H0Z",
+      "color": "#C8A78B"
+    },
+    {
+      "name": "sunlit dusty ground",
+      "type": "rectangle",
+      "x": 0,
+      "y": 210,
+      "width": 640,
+      "height": 150,
+      "color": "#DFC18D"
+    },
+    {
+      "name": "building cast shadow",
+      "type": "path",
+      "d": "M224 300L504 300L443 339L166 339Z",
+      "color": "#8D7963",
+      "opacity": 48
+    },
+    {
+      "name": "sandstone facade",
+      "type": "rectangle",
+      "x": 240,
+      "y": 100,
+      "width": 272,
+      "height": 200,
+      "color": "#DFB886"
+    },
+    {
+      "name": "recessed side wall",
+      "type": "path",
+      "d": "M512 100L560 126V276L512 300Z",
+      "color": "#AD805D"
+    },
+    {
+      "name": "roof cornice shadow",
+      "type": "rectangle",
+      "x": 240,
+      "y": 104,
+      "width": 272,
+      "height": 12,
+      "color": "#825F50"
+    },
+    {
+      "name": "upper painted cornice",
+      "type": "rectangle",
+      "x": 230,
+      "y": 80,
+      "width": 292,
+      "height": 22,
+      "color": "#7C4140"
+    },
+    {
+      "name": "cornice sun edge",
+      "type": "rectangle",
+      "x": 230,
+      "y": 80,
+      "width": 292,
+      "height": 5,
+      "color": "#E6B985"
+    },
+    {
+      "name": "lower cornice lip",
+      "type": "rectangle",
+      "x": 234,
+      "y": 101,
+      "width": 284,
+      "height": 7,
+      "color": "#A2674F"
+    },
+    {
+      "name": "door recess",
+      "type": "rectangle",
+      "x": 282,
+      "y": 220,
+      "width": 49,
+      "height": 80,
+      "color": "#493F40"
+    },
+    {
+      "name": "weathered indigo door",
+      "type": "rectangle",
+      "x": 289,
+      "y": 224,
+      "width": 34,
+      "height": 76,
+      "color": "#53687A"
+    },
+    {
+      "name": "door plank seams",
+      "type": "path",
+      "d": "M300 226V297M312 226V297",
+      "color": "#00000000",
+      "stroke": "#344756",
+      "strokeWidth": 1.3
+    },
+    {
+      "name": "door edge wear",
+      "type": "path",
+      "d": "M291 228V246M291 268V282M318 249V270",
+      "color": "#00000000",
+      "stroke": "#9BA9A9",
+      "strokeWidth": 1.7
+    },
+    {
+      "name": "brass door latch",
+      "type": "rectangle",
+      "x": 316,
+      "y": 260,
+      "width": 4,
+      "height": 3,
+      "color": "#DCAC51"
+    },
+    {
+      "name": "door lintel",
+      "type": "rectangle",
+      "x": 277,
+      "y": 212,
+      "width": 59,
+      "height": 10,
+      "color": "#F1D2A2"
+    },
+    {
+      "name": "left door stone",
+      "type": "rectangle",
+      "x": 276,
+      "y": 223,
+      "width": 8,
+      "height": 77,
+      "color": "#E9C695"
+    },
+    {
+      "name": "window recess",
+      "type": "rectangle",
+      "x": 375,
+      "y": 168,
+      "width": 83,
+      "height": 77,
+      "color": "#654D43"
+    },
+    {
+      "name": "glass shadow",
+      "type": "rectangle",
+      "x": 382,
+      "y": 175,
+      "width": 69,
+      "height": 61,
+      "color": "#536D87"
+    },
+    {
+      "name": "sky reflections",
+      "type": "path",
+      "d": "M387 180H416L387 207Z M420 181H445L420 206Z",
+      "color": "#A3BBD0"
+    },
+    {
+      "name": "window center mullion",
+      "type": "rectangle",
+      "x": 414,
+      "y": 174,
+      "width": 5,
+      "height": 65,
+      "color": "#C19365"
+    },
+    {
+      "name": "window sill",
+      "type": "rectangle",
+      "x": 369,
+      "y": 241,
+      "width": 95,
+      "height": 9,
+      "color": "#EFD0A0"
+    },
+    {
+      "name": "masonry mortar",
+      "type": "path",
+      "d": "M243 143H509M243 192H374M460 192H509M338 266H509M350 145V190M479 145V190M360 250V296M478 252V296",
+      "color": "#00000000",
+      "stroke": "#A77C59",
+      "strokeWidth": 1.5,
+      "opacity": 65
+    },
+    {
+      "name": "stone edge chips",
+      "type": "path",
+      "d": "M247 146L257 145L253 150Z M493 194L502 194L501 199Z M343 269L352 268L348 273Z M480 114L488 116L482 120Z",
+      "color": "#B68C65"
+    },
+    {
+      "name": "stone lit flecks",
+      "type": "path",
+      "d": "M258 179L269 178M345 153L358 153M468 274L480 274M481 232L489 230",
+      "color": "#00000000",
+      "stroke": "#F0D2A4",
+      "strokeWidth": 2
+    },
+    {
+      "name": "ground dusty marks",
+      "type": "path",
+      "d": "M34 319L70 318M91 336L139 336M369 348L414 347M575 312L612 314M184 276L207 274",
+      "color": "#00000000",
+      "stroke": "#C59C68",
+      "strokeWidth": 2
+    },
+    {
+      "name": "figure cast shadow",
+      "type": "path",
+      "d": "M132 300L155 300L125 312L103 312Z",
+      "color": "#665D54",
+      "opacity": 60
+    },
+    {
+      "name": "scale study actor",
+      "type": "group",
+      "id": "scale-study-actor",
+      "transform": {
+        "x": 108,
+        "y": 219,
+        "scaleX": 0.45,
+        "scaleY": 0.45
+      },
+      "children": [
+        {
+          "type": "path",
+          "name": "thigh-0",
+          "d": "M62.03 127.89 L65.53 149.55 L77.47 148.45 L76.97 126.51Z",
+          "color": "#3e5067",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "thigh-0-rim",
+          "d": "M74.35 126.75 L75.38 148.64",
+          "color": "#00000000",
+          "stroke": "#84909c",
+          "strokeWidth": 1.2,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "thigh-0-hatch",
+          "d": "M65.19 134.19 l5.05 1.08 M65.58 137.01 l4.92 1.09 M65.98 139.83 l4.78 1.10 M66.40 142.87 l4.64 1.11",
+          "color": "#00000000",
+          "stroke": "#2b2526",
+          "strokeWidth": 0.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "calf-0",
+          "d": "M65.52 148.48 L64.22 177.59 L73.78 178.41 L77.48 149.52Z",
+          "color": "#3e5067",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "calf-0-rim",
+          "d": "M75.39 149.33 L72.11 178.27",
+          "color": "#00000000",
+          "stroke": "#7e8e9f",
+          "strokeWidth": 1.2,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "calf-0-hatch",
+          "d": "M66.82 157.36 l3.76 2.37 M66.60 161.14 l3.65 2.36 M66.38 164.92 l3.54 2.35 M66.15 168.99 l3.42 2.34",
+          "color": "#00000000",
+          "stroke": "#2b2526",
+          "strokeWidth": 0.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "boot-0",
+          "d": "M64.00 170.00 L74.00 170.00 L83.00 177.00 L83.00 180.00 L62.00 180.00 L62.00 176.00Z",
+          "color": "#624a3f",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "boot-sole-0",
+          "d": "M63.00 179.00 L82.00 179.00",
+          "color": "#00000000",
+          "stroke": "#bca37c",
+          "strokeWidth": 1.2,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "thigh-1",
+          "d": "M73.03 126.51 L72.53 148.45 L84.47 149.55 L87.97 127.89Z",
+          "color": "#3e5067",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "thigh-1-rim",
+          "d": "M85.35 127.65 L82.38 149.36",
+          "color": "#00000000",
+          "stroke": "#84909c",
+          "strokeWidth": 1.2,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "thigh-1-hatch",
+          "d": "M74.99 133.29 l4.77 1.98 M74.86 136.14 l4.64 1.96 M74.74 138.98 l4.50 1.95 M74.60 142.05 l4.36 1.94",
+          "color": "#00000000",
+          "stroke": "#2b2526",
+          "strokeWidth": 0.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "calf-1",
+          "d": "M72.99 151.37 L86.59 179.90 L95.41 176.10 L84.01 146.63Z",
+          "color": "#3e5067",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "calf-1-rim",
+          "d": "M82.08 147.46 L93.87 176.77",
+          "color": "#00000000",
+          "stroke": "#7e8e9f",
+          "strokeWidth": 1.2,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "calf-1-hatch",
+          "d": "M78.62 159.26 l4.50 0.47 M80.35 162.99 l4.40 0.51 M82.08 166.72 l4.30 0.55 M83.93 170.73 l4.19 0.60",
+          "color": "#00000000",
+          "stroke": "#2b2526",
+          "strokeWidth": 0.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "boot-1",
+          "d": "M86.00 170.00 L96.00 170.00 L105.00 177.00 L105.00 180.00 L84.00 180.00 L84.00 176.00Z",
+          "color": "#624a3f",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "boot-sole-1",
+          "d": "M85.00 179.00 L104.00 179.00",
+          "color": "#00000000",
+          "stroke": "#bca37c",
+          "strokeWidth": 1.2,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "coat-skirt",
+          "d": "M58.00 115.20 L91.00 115.20 L101.00 149.20 L82.00 147.20 L76.00 134.20 L69.00 151.20 L50.00 146.20Z",
+          "color": "#354354",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "jacket",
+          "d": "M64.00 81.20 L69.00 77.20 L84.00 78.20 L93.00 83.20 L92.00 119.20 L88.00 131.20 L59.00 131.20 L55.00 114.20Z",
+          "color": "#58687c",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "jacket-shadow",
+          "d": "M59.00 85.20 L67.00 84.20 L68.00 127.20 L59.00 131.20 L55.00 114.20Z",
+          "color": "#354354"
+        },
+        {
+          "type": "path",
+          "name": "shirt",
+          "d": "M68.00 79.20 L83.00 79.20 L83.00 118.20 L70.00 121.20Z",
+          "color": "#d0c5a9",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "lapel-left",
+          "d": "M67.00 78.20 L57.00 84.20 L62.00 99.20 L69.00 103.20Z",
+          "color": "#95a6b5",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "lapel-right",
+          "d": "M83.00 78.20 L92.00 86.20 L86.00 97.20 L83.00 104.20Z",
+          "color": "#354354",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "shirt-buttons",
+          "d": "M77.00 92.20 L77.00 114.20",
+          "color": "#00000000",
+          "stroke": "#77634c",
+          "strokeWidth": 1.1,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "belt",
+          "d": "M58.00 120.20 L92.00 119.20 L91.00 126.20 L59.00 127.20Z",
+          "color": "#72503b",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "buckle",
+          "d": "M73.00 120.20 L80.00 120.20 L80.00 126.20 L73.00 126.20Z",
+          "color": "#c0a568",
+          "stroke": "#2b2526",
+          "strokeWidth": 1,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "pocket",
+          "d": "M58.00 104.20 L66.00 103.20 L66.00 111.20 L58.00 112.20Z",
+          "color": "#354354",
+          "stroke": "#2b2526",
+          "strokeWidth": 1,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "jacket-crosshatch",
+          "d": "M59.00 109.20 l-2 5 M61.00 109.20 l-2 5 M63.00 109.20 l-2 5 M87.00 109.20 l-2 5 M89.00 109.20 l-2 5 M91.00 109.20 l-2 5 M63.00 89.20 l-2 5 M65.00 89.20 l-2 5 M67.00 89.20 l-2 5 M88.00 89.20 l-2 5 M90.00 89.20 l-2 5 M92.00 89.20 l-2 5",
+          "color": "#00000000",
+          "stroke": "#2b2526",
+          "strokeWidth": 0.85,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "jacket-edge-chips",
+          "d": "M55.00 114.20 L57.00 118.20 L56.00 120.20",
+          "color": "#00000000",
+          "stroke": "#95a6b5",
+          "strokeWidth": 1.5,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "neck",
+          "d": "M76.00 68.20 L89.00 68.20 L82.00 82.20 L68.00 82.20Z",
+          "color": "#be936f",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "scarf",
+          "d": "M65.00 78.20 L85.00 78.20 L84.00 84.20 L69.00 86.20 L64.00 82.20Z",
+          "color": "#a74f48",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "scarf-tail",
+          "d": "M80.00 83.20 L87.00 86.20 L91.00 100.20 L83.00 95.20Z",
+          "color": "#874139",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "head",
+          "d": "M70.00 43.20 L84.00 40.20 L94.00 48.20 L95.00 55.20 L101.00 61.20 L95.00 64.20 L94.00 71.20 L86.00 75.20 L72.00 68.20 L68.00 56.20Z",
+          "color": "#be936f",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "face-shadow",
+          "d": "M70.00 50.20 L78.00 49.20 L79.00 63.20 L85.00 71.20 L77.00 73.20 L70.00 63.20Z",
+          "color": "#946b52"
+        },
+        {
+          "type": "path",
+          "name": "brow",
+          "d": "M85.00 55.20 L94.00 54.20",
+          "color": "#00000000",
+          "stroke": "#2b2526",
+          "strokeWidth": 2,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "eye-glint",
+          "d": "M89.00 56.20 L91.00 56.20",
+          "color": "#00000000",
+          "stroke": "#e5dfad",
+          "strokeWidth": 1.2,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "nose",
+          "d": "M85.00 58.20 L84.00 63.20 L88.00 63.20",
+          "color": "#00000000",
+          "stroke": "#52483b",
+          "strokeWidth": 1.1,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "mouth",
+          "d": "M81.00 68.20 L90.00 67.20",
+          "color": "#00000000",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "cheek",
+          "d": "M90.00 62.20 L93.00 60.20",
+          "color": "#00000000",
+          "stroke": "#e4ba8b",
+          "strokeWidth": 1.5,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "face-weather",
+          "d": "M75.00 66.20 l1 3 M78.00 66.20 l1 3 M81.00 66.20 l1 3",
+          "color": "#00000000",
+          "stroke": "#2b2526",
+          "strokeWidth": 0.7,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "hat-crown",
+          "d": "M68.00 43.20 L70.00 29.20 L78.00 26.20 L84.00 29.20 L93.00 27.20 L97.00 42.20Z",
+          "color": "#876746",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "hat-band",
+          "d": "M68.00 39.20 L96.00 38.20 L97.00 43.20 L68.00 44.20Z",
+          "color": "#4e3b32",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "hat-brim",
+          "d": "M57.00 42.20 L70.00 44.20 L94.00 42.20 L108.00 38.20 L104.00 45.20 L91.00 48.20 L68.00 48.20 L57.00 45.20Z",
+          "color": "#ad895c",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "hat-worn-edge",
+          "d": "M59.00 44.20 L68.00 46.20 L91.00 46.20 L103.00 43.20",
+          "color": "#00000000",
+          "stroke": "#dac392",
+          "strokeWidth": 1.3,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "hat-crease",
+          "d": "M74.00 31.20 L78.00 33.20 L87.00 31.20",
+          "color": "#00000000",
+          "stroke": "#c0a074",
+          "strokeWidth": 1.1,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "sleeve-upper-0",
+          "d": "M59.36 86.67 L78.52 111.55 L88.48 104.85 L72.64 77.73Z",
+          "color": "#58687c",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "sleeve-upper-0-rim",
+          "d": "M70.31 79.30 L86.74 106.02",
+          "color": "#00000000",
+          "stroke": "#95a6b5",
+          "strokeWidth": 1.2,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "sleeve-upper-0-hatch",
+          "d": "M66.95 92.89 l5.52 -1.07 M69.38 96.17 l5.37 -0.97 M71.80 99.45 l5.22 -0.87 M74.42 102.98 l5.06 -0.76",
+          "color": "#00000000",
+          "stroke": "#2b2526",
+          "strokeWidth": 0.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "sleeve-lower-0",
+          "d": "M87.88 112.30 L116.42 78.94 L110.58 73.46 L79.12 104.10Z",
+          "color": "#58687c",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "sleeve-lower-0-rim",
+          "d": "M80.65 105.53 L111.60 74.42",
+          "color": "#00000000",
+          "stroke": "#95a6b5",
+          "strokeWidth": 1.2,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "sleeve-lower-0-hatch",
+          "d": "M95.26 101.19 l-0.66 -4.83 M99.02 96.90 l-0.52 -4.70 M102.79 92.62 l-0.39 -4.58 M106.85 88.00 l-0.25 -4.44",
+          "color": "#00000000",
+          "stroke": "#2b2526",
+          "strokeWidth": 0.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "hand-0",
+          "d": "M109.50 73.20 L117.50 73.20 L118.50 81.20 L114.50 84.20 L109.50 80.20Z",
+          "color": "#be936f",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "sleeve-upper-1",
+          "d": "M85.07 89.50 L97.80 96.93 L105.20 87.47 L94.93 76.90Z",
+          "color": "#58687c",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "sleeve-upper-1-rim",
+          "d": "M93.20 79.10 L103.90 89.13",
+          "color": "#00000000",
+          "stroke": "#95a6b5",
+          "strokeWidth": 1.2,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "sleeve-upper-1-hatch",
+          "d": "M90.26 89.98 l4.00 -3.45 M91.86 91.01 l3.89 -3.31 M93.47 92.03 l3.77 -3.16 M95.20 93.14 l3.65 -3.01",
+          "color": "#00000000",
+          "stroke": "#2b2526",
+          "strokeWidth": 0.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "sleeve-lower-1",
+          "d": "M106.24 95.88 L118.66 76.66 L112.34 71.74 L96.76 88.52Z",
+          "color": "#58687c",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "sleeve-lower-1-rim",
+          "d": "M98.42 89.81 L113.45 72.60",
+          "color": "#00000000",
+          "stroke": "#95a6b5",
+          "strokeWidth": 1.2,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "sleeve-lower-1-hatch",
+          "d": "M108.68 89.12 l-2.00 -3.58 M110.36 86.67 l-1.86 -3.47 M112.04 84.22 l-1.72 -3.36 M113.84 81.58 l-1.56 -3.24",
+          "color": "#00000000",
+          "stroke": "#2b2526",
+          "strokeWidth": 0.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "hand-1",
+          "d": "M111.50 71.20 L119.50 71.20 L120.50 79.20 L116.50 82.20 L111.50 78.20Z",
+          "color": "#be936f",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "revolver",
+          "d": "M113.50 76.20 L116.50 83.20 L121.50 83.20 L120.50 75.20 L135.50 75.20 L135.50 70.20 L119.50 70.20 L117.50 68.20 L112.50 69.20Z",
+          "color": "#505966",
+          "stroke": "#2b2526",
+          "strokeWidth": 1.8,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "gun-barrel-light",
+          "d": "M121.50 71.20 L134.50 71.20",
+          "color": "#00000000",
+          "stroke": "#c1c5c2",
+          "strokeWidth": 1.3,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "muzzle-flash",
+          "d": "M133.50 72.20 L130.50 63.20 L136.50 66.20 L140.50 54.20 L143.50 66.20 L150.50 64.20 L145.50 72.20 L149.50 77.20 L140.50 75.20Z",
+          "color": "#f2d389",
+          "stroke": "#bb7946",
+          "strokeWidth": 1,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        }
+      ]
+    },
+    {
+      "name": "crate front",
+      "type": "rectangle",
+      "x": 563,
+      "y": 270,
+      "width": 47,
+      "height": 30,
+      "color": "#A65C45"
+    },
+    {
+      "name": "crate top",
+      "type": "path",
+      "d": "M563 270L576 261L623 261L610 270Z",
+      "color": "#CD8E61"
+    },
+    {
+      "name": "crate side",
+      "type": "path",
+      "d": "M610 270L623 261V291L610 300Z",
+      "color": "#75483B"
+    },
+    {
+      "name": "crate plank grain",
+      "type": "path",
+      "d": "M567 279H604M568 291H601M577 273L585 276M592 286L605 285",
+      "color": "#00000000",
+      "stroke": "#6E493A",
+      "strokeWidth": 1.4
+    },
+    {
+      "name": "crate edge chips",
+      "type": "path",
+      "d": "M565 272L572 272M599 297H608M614 274L618 270",
+      "color": "#00000000",
+      "stroke": "#E0AE73",
+      "strokeWidth": 2
+    },
+    {
+      "name": "scale study label",
+      "type": "text",
+      "x": 24,
+      "y": 34,
+      "text": "DRAW AT GAME SCALE",
+      "size": 17,
+      "color": "#26384A"
+    },
+    {
+      "name": "scale study sublabel",
+      "type": "text",
+      "x": 24,
+      "y": 57,
+      "text": "Blue cloth, sunlit stone, fixed feet, readable materials",
+      "size": 12,
+      "color": "#334A61"
+    }
+  ]
+}

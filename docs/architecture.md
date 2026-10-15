@@ -43,3 +43,7 @@ The animation receipt lists hashes, renderer/encoder versions, nominal fps and d
 ## Game atlas boundary
 
 The separate atlas manifest accepts bounded local static RGBA PNG frames beneath its own directory. It retains fixed canvas registration, semantic clip metadata and normalized anchors, copies inputs, then tiles with existing FFmpeg into a transparent sheet plus Phaser JSON hash metadata. Source SVG/project authoring is unchanged; raster inputs never enter vector renderSvg. No remote URLs, arbitrary XML, auto-generated directions or gameplay behavior are introduced. Frames and padded-sheet budgets, full deadline, source containment, output ownership, staged publication and receipts apply independently.
+
+## Drawn-pose sequence boundary
+
+The sequence manifest references bounded local static drawing projects. Each is validated independently, must share a canvas and omit timeline animation, and is rendered through isolated headless Inkscape. Retained original inputs, SVG/PNG frames, all-pose contact sheet and hashes preserve provenance. This is drawing replacement per frame, not path morphing or a new arbitrary SVG/script channel. Loop quality, joint anatomy and ground registration require art/engine review.

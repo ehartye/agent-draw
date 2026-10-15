@@ -1,13 +1,15 @@
 ---
 name: draw-export
-description: Build and review agent-draw vector projects as editable layered SVG plus PNG and PDF exports, with receipts and safe output handling. Use to render, export, verify, or deliver an existing drawing project, animation frames, contact sheet, GIF, MP4, or a game sprite atlas.
+description: Build and review agent-draw vector projects as editable layered SVG plus PNG and PDF exports, with receipts and safe output handling. Use to render, export, verify, or deliver an existing drawing project, drawn pose sequences, animation frames, contact sheets, GIF, MP4, or game sprite atlases.
 ---
 
 # Draw export
 
 Load `draw-setup` and validate the project before building. Use the managed launcher resolved from the plugin root, not a guessed PATH binary.
 
-For animation output, read [animation export](references/animation-export.md) and use `animate`; the static `build` below renders base transforms, not timeline sample 0. Load `draw-authoring` to create or repair groups/tracks.
+For independently redrawn pose projects, read [drawn sequence export](references/drawn-sequence.md) and use `sequence`. Check actual pose geometry and engine-scale scene context, not just file generation.
+
+For transform-track animation output, read [animation export](references/animation-export.md) and use `animate`; the static `build` below renders base transforms, not timeline sample 0. Load `draw-authoring` to create or repair groups/tracks.
 
 For existing PNG frames needing a Phaser atlas, foot anchor, or action/direction clip manifest, read [game atlas handoff](references/game-atlas.md). Use `atlas`; do not treat packing as generating missing poses.
 

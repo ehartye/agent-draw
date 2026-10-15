@@ -40,3 +40,5 @@ jobs:
           cp "${RUNNER_TEMP}/agent-draw-animation/frames/frame-0001.png" "${RUNNER_TEMP}/atlas-input/second.png"
           node -e 'require("fs").writeFileSync(process.env.RUNNER_TEMP+"/atlas-input/manifest.json",JSON.stringify({version:1,name:"orbit-atlas",width:512,height:512,columns:2,pivot:{x:0.5,y:0.9},clips:[{id:"orbit-wave",character:"orbit",action:"wave",fps:12,loop:false,frames:["first.png","second.png"]}]}))'
           node scripts/run-managed.js atlas "${RUNNER_TEMP}/atlas-input/manifest.json" --out "${RUNNER_TEMP}/agent-draw-atlas"
+          node scripts/run-managed.js sequence examples/drawn-fire/manifest.json --out "${RUNNER_TEMP}/agent-draw-poses"
+          node scripts/run-managed.js build examples/scale-material-study.json --out "${RUNNER_TEMP}/agent-draw-scale-study"

@@ -1,0 +1,24 @@
+{
+  "metadata": [
+    {
+      "skill": "draw-setup",
+      "descriptionCharacters": 278,
+      "lines": 44,
+      "placeholderHits": 0
+    },
+    {
+      "skill": "draw-export",
+      "descriptionCharacters": 294,
+      "lines": 41,
+      "placeholderHits": 0
+    },
+    {
+      "skill": "draw-authoring",
+      "descriptionCharacters": 269,
+      "lines": 44,
+      "placeholderHits": 0
+    }
+  ],
+  "invisibleCodepointFindings": [],
+  "scope": "All skill/reference Markdown; inspection is not safety certification."
+}

@@ -1,7 +1,7 @@
 {
   "name": "agent-draw",
-  "version": "0.3.1",
-  "description": "Vector-first 2D authoring for coding agents: editable layered SVG, PNG/PDF exports, and bounded named-part animation through headless Inkscape.",
+  "version": "0.4.0",
+  "description": "Vector-first art craft and authoring for agents: editable SVG, PNG/PDF, independently drawn pose sequences, named-part animation and game atlases.",
   "author": {
     "name": "ehartye"
   },
@@ -18,7 +18,7 @@
   "skills": "./skills/",
   "interface": {
     "displayName": "Agent Draw",
-    "shortDescription": "Editable vector art and named-part animation with Inkscape.",
+    "shortDescription": "Editable vector art, drawn poses and game asset exports.",
     "developerName": "ehartye"
   },
   "repository": "https://github.com/ehartye/agent-draw"
