@@ -1,5 +1,7 @@
 # Reusable parts and bounded animation
 
+For anatomy or silhouette changes, use independently drawn pose projects and `sequence`. Transform tracks are appropriate for truly rigid parts or secondary motion; more rotation keys do not create a bent elbow.
+
 ## Plan the moving assembly
 
 Choose the intended pose, smallest viewing size, duration, and whether playback loops. Keep the subject readable before adding movement. Group shapes that should move together: an arm plus its highlight and hand, not unrelated objects that merely share a color. Preserve stable group IDs and globally unique names so future edits target the same parts.

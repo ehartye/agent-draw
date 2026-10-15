@@ -1,6 +1,6 @@
 ---
 name: draw-authoring
-description: Author or revise vector-first 2D illustrations, icons, mascots, and diagrams in agent-draw project JSON. Use for drawing composition, art styles, editable parts, pivots, keyframed waves or loops, or project validation errors.
+description: Author or revise vector-first 2D illustrations, icons, mascots, and diagrams in agent-draw project JSON. Use for drawing composition, art styles, editable parts, pivots, drawn pose sequences, material texture, world scale, keyframed loops, or project validation errors.
 ---
 
 # Draw authoring
@@ -18,9 +18,11 @@ Establish the subject, use, canvas, transparency, and smallest viewing size. Rea
 - [Paper-cut](references/paper-cut.md): stacked contours, offset shadows, real holes
 - [Gradient editorial](references/gradient-editorial.md): focal hierarchy, bounded gradient fills
 
-For reusable parts, nested motion, waves, or loops, read [parts and animation](references/parts-and-animation.md) before writing transforms or tracks.
+For dynamic characters, bent joints or frame-by-frame action, read [drawn poses](references/drawn-poses.md). For material texture, varied color and believable person/building scale, read [materials, color and scale](references/materials-color-scale.md). Review those choices at actual engine size before adding fine detail.
 
-Read the [project format](../../docs/project-format.md) for exact fields and limits. Recipes use the v0.3 runtime's additions while keeping project `version: 1`; older runtimes reject those fields. Never invent unsupported operations to imitate an Inkscape GUI technique.
+For genuinely rigid reusable parts, nested motion, waves, or loops, read [parts and animation](references/parts-and-animation.md) before writing transforms or tracks.
+
+Read the [project format](../../docs/project-format.md) for exact fields and limits. Recipes use the v0.4 runtime's additions while keeping project `version: 1`; older runtimes reject those fields. Never invent unsupported operations to imitate an Inkscape GUI technique.
 
 ## Author, validate, review
 
