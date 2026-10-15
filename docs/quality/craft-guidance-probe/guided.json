@@ -1,0 +1,14 @@
+{
+  "recovery": {"cuff": [152.728,292.728], "toe": [108.887,289.899], "heel": [138.586,260.201]},
+  "support": {"cuff": [227.664,384.713], "toe": [249,416], "heel": [207,416]},
+  "neckpiece": [[210.259,176.65],[234.663,190.377],[230.741,197.35],[206.337,183.623]],
+  "capeRoots": [[211.294,182.969],[216.523,185.91]],
+  "review": [
+    "Compare neutral and complete action keys for consistent proportions, limb lengths, masses and support.",
+    "Inspect both anatomical sides for connected shoulders and hips, readable knee direction, tapered contours and clear silhouettes.",
+    "Check calf entry into each cuff, deliberate airborne ankle flexion, planted soles and clearance; inspect neckpiece and cape-root overlap.",
+    "Open every exported drawing at readable size, including intermediates and opposing half-strides; identify defects by frame and side.",
+    "Check rebuilt assets at actual game size against a ground line, including visible ink extent and attachment gaps.",
+    "For animation claims, inspect normal and slow playback, transitions, loop seam and foot travel against movement speed; static drawings alone leave motion unverified."
+  ]
+}

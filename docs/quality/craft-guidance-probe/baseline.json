@@ -1,0 +1,14 @@
+{
+  "recovery": {"cuff": [152.728,292.728], "toe": [108.887,289.899], "heel": [138.586,260.201]},
+  "support": {"cuff": [227.664,384.713], "toe": [249,416], "heel": [207,416]},
+  "neckpiece": [[209.878,175.288],[236.025,189.996],[231.122,198.712],[204.975,184.004]],
+  "capeRoots": [[210.804,183.841],[228.235,193.646]],
+  "review": [
+    "Check joint locations, limb lengths and attachment continuity across poses.",
+    "Keep planted soles on the floor; inspect airborne foot angles against the calves.",
+    "Check silhouettes and overlaps at thumbnail size and full size.",
+    "Compare body proportions, costume construction and drawing style across the set.",
+    "Verify neckwear follows the neck and cape roots stay inside their attachment band.",
+    "Inspect consecutive poses for contact changes, weight shifts and abrupt attachment jumps."
+  ]
+}

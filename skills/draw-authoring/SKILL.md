@@ -1,6 +1,6 @@
 ---
 name: draw-authoring
-description: Author or revise vector-first 2D illustrations, icons, mascots, and diagrams in agent-draw project JSON. Use for drawing composition, art styles, editable parts, pivots, drawn pose sequences, material texture, world scale, keyframed loops, or project validation errors.
+description: Author or revise vector-first 2D illustrations, icons, mascots, and diagrams in agent-draw project JSON. Use for drawing composition, art styles, character anatomy and attachments, editable parts, pivots, drawn pose sequences, material texture, world scale, keyframed loops, or project validation errors.
 ---
 
 # Draw authoring
@@ -19,6 +19,8 @@ Establish the subject, use, canvas, transparency, and smallest viewing size. Rea
 - [Gradient editorial](references/gradient-editorial.md): focal hierarchy, bounded gradient fills
 
 For dynamic characters, bent joints or frame-by-frame action, read [drawn poses](references/drawn-poses.md). For material texture, varied color and believable person/building scale, read [materials, color and scale](references/materials-color-scale.md). Review those choices at actual engine size before adding fine detail.
+
+For human or stylized humanoid proportions, backwards knees, misplaced shoulders, boot rotation or cape/neckpiece attachment, read [human action construction](references/human-action-construction.md) before extending the pose set. Establish a few complete drawings and inspect their actual exports before filling a cycle.
 
 For genuinely rigid reusable parts, nested motion, waves, or loops, read [parts and animation](references/parts-and-animation.md) before writing transforms or tracks.
 
