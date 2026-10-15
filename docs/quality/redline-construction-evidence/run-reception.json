@@ -1,0 +1,292 @@
+{
+  "version": 1,
+  "name": "redline-run-0",
+  "width": 640,
+  "height": 480,
+  "layers": [
+    {
+      "name": "scarf-tail",
+      "type": "path",
+      "d": "M 341.5 209 Q 279 198 234 218.5 L 187 217.5 Q 233 254 336.1 213.8 Z",
+      "color": "#E84136",
+      "stroke": "#182534",
+      "strokeWidth": 4,
+      "strokeLinejoin": "round",
+      "strokeLinecap": "round"
+    },
+    {
+      "name": "far-leg",
+      "type": "polygon",
+      "points": [
+        [
+          311.8,
+          294.3
+        ],
+        [
+          294.6,
+          313.6
+        ],
+        [
+          287.3,
+          339.7
+        ],
+        [
+          281.8,
+          323.2
+        ],
+        [
+          259.7,
+          297.7
+        ],
+        [
+          250.7,
+          304
+        ],
+        [
+          267.1,
+          333.5
+        ],
+        [
+          287.3,
+          353.7
+        ],
+        [
+          315.9,
+          328.5
+        ],
+        [
+          328.2,
+          305.7
+        ]
+      ],
+      "color": "#193E50",
+      "stroke": "#182534",
+      "strokeWidth": 4,
+      "strokeLinejoin": "round"
+    },
+    {
+      "name": "far-boot",
+      "type": "polygon",
+      "points": [
+        [
+          272.9,
+          310.4
+        ],
+        [
+          258.1,
+          320.7
+        ],
+        [
+          247.2,
+          307.2
+        ],
+        [
+          233.1,
+          316.2
+        ],
+        [
+          225.1,
+          313.4
+        ],
+        [
+          252.1,
+          281.2
+        ]
+      ],
+      "color": "#182534",
+      "stroke": "#182534",
+      "strokeWidth": 0,
+      "strokeLinejoin": "round"
+    },
+    {
+      "name": "far-arm",
+      "type": "path",
+      "d": "M 319.8 242.7 L 332.1 258.9 L 357.2 277.4 L 376 266.1 L 392.4 248.4 L 384.7 239.2 L 364.4 252.3 L 358.6 261.5 L 352 242.2 L 338.2 227.3 Q 317.4 221.2 319.8 242.7 Z",
+      "color": "#193E50",
+      "stroke": "#182534",
+      "strokeWidth": 4,
+      "strokeLinejoin": "round",
+      "strokeLinecap": "round"
+    },
+    {
+      "name": "far-arm-mitten",
+      "type": "path",
+      "d": "M 384.9 246.8 L 388.6 243.8",
+      "color": "#00000000",
+      "stroke": "#182534",
+      "strokeWidth": 18,
+      "strokeLinecap": "round",
+      "strokeLinejoin": "round"
+    },
+    {
+      "name": "near-leg",
+      "type": "polygon",
+      "points": [
+        [
+          312.1,
+          306.1
+        ],
+        [
+          325.5,
+          328.2
+        ],
+        [
+          348.3,
+          347.2
+        ],
+        [
+          345.6,
+          367.2
+        ],
+        [
+          348.5,
+          400.9
+        ],
+        [
+          359.5,
+          401.1
+        ],
+        [
+          363.6,
+          367.6
+        ],
+        [
+          361.6,
+          342.8
+        ],
+        [
+          346,
+          312.3
+        ],
+        [
+          327.9,
+          293.9
+        ]
+      ],
+      "color": "#318B92",
+      "stroke": "#182534",
+      "strokeWidth": 4,
+      "strokeLinejoin": "round"
+    },
+    {
+      "name": "near-boot",
+      "type": "polygon",
+      "points": [
+        [
+          345.3,
+          382.8
+        ],
+        [
+          363.3,
+          383.2
+        ],
+        [
+          364,
+          403
+        ],
+        [
+          380,
+          408
+        ],
+        [
+          383,
+          416
+        ],
+        [
+          341,
+          416
+        ]
+      ],
+      "color": "#182534",
+      "stroke": "#182534",
+      "strokeWidth": 0,
+      "strokeLinejoin": "round"
+    },
+    {
+      "name": "coat",
+      "type": "path",
+      "d": "M 326 217 Q 347 207 366 222 L 338 288 Q 346 306 354 324 L 325 316 L 305 333 L 286 317 Q 303 288 326 217 Z",
+      "color": "#318B92",
+      "stroke": "#182534",
+      "strokeWidth": 5,
+      "strokeLinejoin": "round",
+      "strokeLinecap": "round"
+    },
+    {
+      "name": "coat-shadow",
+      "type": "path",
+      "d": "M 326 220 L 341 236 L 315 310 L 305 329 L 289 317 L 306 284 Z",
+      "color": "#193E50"
+    },
+    {
+      "name": "chest-stripe",
+      "type": "path",
+      "d": "M 353 223 L 363 222 L 329 287 L 320 289 Z",
+      "color": "#FFF3D1"
+    },
+    {
+      "name": "near-arm",
+      "type": "path",
+      "d": "M 319.8 227.3 L 306 242.2 L 292.1 270.2 L 306.5 286.7 L 326.9 299.8 L 334.6 290.6 L 318.1 272.9 L 308 268.8 L 325.9 258.9 L 338.2 242.7 Q 340.6 221.2 319.8 227.3 Z",
+      "color": "#318B92",
+      "stroke": "#182534",
+      "strokeWidth": 4,
+      "strokeLinejoin": "round",
+      "strokeLinecap": "round"
+    },
+    {
+      "name": "near-arm-mitten",
+      "type": "path",
+      "d": "M 327 292.1 L 330.7 295.2",
+      "color": "#00000000",
+      "stroke": "#182534",
+      "strokeWidth": 18,
+      "strokeLinecap": "round",
+      "strokeLinejoin": "round"
+    },
+    {
+      "name": "neck",
+      "type": "path",
+      "d": "M 339 204 L 363 216 L 357.6 226.5 L 339.1 214.6 Z",
+      "color": "#182534"
+    },
+    {
+      "name": "head-silhouette",
+      "type": "path",
+      "d": "M 324 171 Q 319 148 346 140 L 360 132 L 368 141 Q 388 144 389 171 L 398 184 L 388 192 Q 387 218 363 223 Q 335 217 324 171 Z",
+      "color": "#182534",
+      "stroke": "#182534",
+      "strokeWidth": 4,
+      "strokeLinejoin": "round",
+      "strokeLinecap": "round"
+    },
+    {
+      "name": "face",
+      "type": "path",
+      "d": "M 330 170 Q 353 156 382 166 L 385 179 L 393 185 L 382 188 Q 383 212 363 215 Q 340 211 330 170 Z",
+      "color": "#FFF3D1"
+    },
+    {
+      "name": "mask",
+      "type": "path",
+      "d": "M 329 173 Q 356 167 386 178 L 384 194 L 362 197 L 336 190 Z",
+      "color": "#182534"
+    },
+    {
+      "name": "eye",
+      "type": "path",
+      "d": "M 362 179 L 382 183 L 372 190 L 363 188 Z",
+      "color": "#FFF3D1"
+    },
+    {
+      "name": "scarf-knot",
+      "type": "path",
+      "d": "M 337 204.9 Q 353.8 212.1 367.3 224.4 L 364.1 233 Q 344.6 226.4 330.5 211.4 Z",
+      "color": "#E84136",
+      "stroke": "#182534",
+      "strokeWidth": 3,
+      "strokeLinejoin": "round",
+      "strokeLinecap": "round"
+    }
+  ]
+}

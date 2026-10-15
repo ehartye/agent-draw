@@ -1,6 +1,6 @@
 {
   "name": "agent-draw",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Vector-first art craft and authoring for agents: editable SVG, PNG/PDF, independently drawn pose sequences, named-part animation and game atlases.",
   "author": {
     "name": "ehartye"

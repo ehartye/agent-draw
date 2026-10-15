@@ -125,6 +125,7 @@ Setup requires an already installed Inkscape 1.2+ and Node 22+. It never downloa
 
 ## Documentation
 
+- [Human action construction and attachment craft](skills/draw-authoring/references/human-action-construction.md)
 - [Project format](docs/project-format.md)
 - [Architecture and safety boundaries](docs/architecture.md)
 - [Roadmap and limitations](docs/roadmap.md)
