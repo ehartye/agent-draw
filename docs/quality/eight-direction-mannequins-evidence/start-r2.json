@@ -1,0 +1,30 @@
+{
+  "id": "28325b04-99c4-4983-8534-abf844529d90",
+  "status": "running",
+  "runDir": "C:\\Users\\ehart\\AppData\\Local\\agent-workflow\\runs-v2\\28325b04-99c4-4983-8534-abf844529d90",
+  "generation": 1,
+  "pid": 28760,
+  "resultPath": "C:\\Users\\ehart\\AppData\\Local\\agent-workflow\\runs-v2\\28325b04-99c4-4983-8534-abf844529d90\\finish-cc4fdb99-22dc-4922-83bd-3c25d7a302a3.json",
+  "watch": {
+    "required": true,
+    "attached": false,
+    "sessionId": "01a13fad-1eea-72d1-9381-8f3212703467",
+    "generation": 1,
+    "after": 0,
+    "argv": [
+      "C:\\Users\\ehart\\AppData\\Roaming\\fnm\\node-versions\\v24.21.0\\installation\\node.exe",
+      "C:\\Users\\ehart\\AppData\\Local\\agent-workflow\\runtime-v2\\0.4.5-b4ef61d3ae030180-node24.21.0\\bin\\launch.mjs",
+      "watch",
+      "28325b04-99c4-4983-8534-abf844529d90",
+      "--session",
+      "01a13fad-1eea-72d1-9381-8f3212703467",
+      "--generation",
+      "1",
+      "--after",
+      "0",
+      "--jsonl",
+      "--data-dir",
+      "C:\\Users\\ehart\\AppData\\Local\\agent-workflow"
+    ]
+  }
+}

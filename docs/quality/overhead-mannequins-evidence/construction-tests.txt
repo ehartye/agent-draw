@@ -1,0 +1,19 @@
+✔ eight-direction catalogue keeps accepted profiles and gives every build every pose and two real loops (116.9351ms)
+✔ spatial anatomy preserves measured bones, forward knee flexion, planted soles and alternating swing (1.0552ms)
+✔ turned drawings foreshorten, rear skulls have no front facial marks, and profile far arm stays behind torso (20.9281ms)
+✔ rear supporting feet expose a complete heel wall and an upper forefoot pointing away (12.1851ms)
+✔ both distinct models provide eight complete poses in both directions with editable guides (16.305ms)
+✔ actual paired limb contours keep model dimensions and anatomical bending in every pose and view (9.254ms)
+✔ left templates are actual reflected geometry and support feet register to the same ground (8.2424ms)
+✔ overhead projection ignores height and follows all compass facings (0.7518ms)
+✔ full overhead set has distinct complete drawings and fixed anatomical sides (187.749ms)
+✔ existing guide amendments preserve every visible contour and map legacy sides (112.3794ms)
+✔ overhead running separates the returning arm and preserves measured lengths (15.1325ms)
+ℹ tests 11
+ℹ suites 0
+ℹ pass 11
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 383.6928

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="640" height="640" viewBox="0 0 640 640">
+  <title>human-walk-E-00</title>
+  <g id="part-right-leg" inkscape:groupmode="layer" inkscape:label="right-leg" opacity="1" transform="translate(0,0) translate(0,0) rotate(0) scale(1,1) translate(0,0)">
+  <g id="layer-1" inkscape:groupmode="layer" inkscape:label="right-leg-mass" opacity="1">
+    <polygon points="309.86,366.67 314.51,412.67 333.87,462.11 309.84,488.65 280.33,539.87 290.07,546.88 329.31,502.68 351.11,465.62 345.73,405.62 330.14,362.08" fill="#9DA8A9" fill-rule="nonzero" stroke="#293943" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="butt"/>
+  </g>
+  <g id="layer-2" inkscape:groupmode="layer" inkscape:label="right-foot" opacity="1">
+    <polygon points="274.2,558.82 279.2,533.94 303.2,539.94 321.2,555.94 321.2,558.82" fill="#9DA8A9" fill-rule="nonzero" stroke="#293943" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="butt"/>
+  </g>
+  <g id="layer-3" inkscape:groupmode="layer" inkscape:label="right-foot-toe" opacity="1">
+    <path d="M 313.28 554.82 L 313.28 551.94" fill="#000000" fill-opacity="0" fill-rule="nonzero" stroke="#293943" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  </g>
+  <g id="part-left-leg" inkscape:groupmode="layer" inkscape:label="left-leg" opacity="1" transform="translate(0,0) translate(0,0) rotate(0) scale(1,1) translate(0,0)">
+  <g id="layer-4" inkscape:groupmode="layer" inkscape:label="left-leg-mass" opacity="1">
+    <polygon points="311.73,375.93 335.13,415.82 373.5,453.35 368.34,489.39 372,548.39 384,548.86 392.33,490.35 390.28,448.05 360.57,396.4 328.27,363.31" fill="#D0B99B" fill-rule="nonzero" stroke="#293943" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="butt"/>
+  </g>
+  <g id="layer-5" inkscape:groupmode="layer" inkscape:label="left-foot" opacity="1">
+    <polygon points="367,564.06 372,539.18 396,545.18 414,561.18 414,564.06" fill="#D0B99B" fill-rule="nonzero" stroke="#293943" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="butt"/>
+  </g>
+  <g id="layer-6" inkscape:groupmode="layer" inkscape:label="left-foot-toe" opacity="1">
+    <path d="M 406.08 560.06 L 406.08 557.18" fill="#000000" fill-opacity="0" fill-rule="nonzero" stroke="#293943" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  </g>
+  <g id="part-right-arm" inkscape:groupmode="layer" inkscape:label="right-arm" opacity="1" transform="translate(0,0) translate(0,0) rotate(0) scale(1,1) translate(0,0)">
+  <g id="layer-7" inkscape:groupmode="layer" inkscape:label="right-arm-mass" opacity="1">
+    <path d="M 315.93 270.81 L 325.65 301.12 L 348.5 334.33 L 366.38 353.57 L 396.94 375.23 L 403.63 367.79 L 378.9 339.66 L 359.92 325.72 L 349.02 289.72 L 331.12 263.4 Q 318.39 256.59 315.93 270.81 Z" fill="#9DA8A9" fill-rule="nonzero" stroke="#293943" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-8" inkscape:groupmode="layer" inkscape:label="right-hand" opacity="1">
+    <polygon points="396.94,375.23 399.28,380.02 403.78,384.07 407.71,386.27 413.96,389.2 419.31,383.26 415.74,377.36 413.14,373.67 408.65,369.62 403.63,367.79" fill="#9DA8A9" fill-rule="nonzero" stroke="#293943" stroke-width="2" stroke-linejoin="round" stroke-linecap="butt"/>
+  </g>
+  </g>
+  <g id="part-torso" inkscape:groupmode="layer" inkscape:label="torso" opacity="1" transform="translate(0,0) translate(0,0) rotate(0) scale(1,1) translate(0,0)">
+  <g id="layer-9" inkscape:groupmode="layer" inkscape:label="neck" opacity="1">
+    <path d="M 319.58 244.3 L 337.58 244.3 L 339.42 275.22 L 313.42 275.22 Z" fill="#D0B99B" fill-rule="nonzero" stroke="#293943" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-10" inkscape:groupmode="layer" inkscape:label="abdomen" opacity="1">
+    <path d="M 304.23 302.16 L 344.83 302.16 L 339.55 376.98 Q 317.98 395.93 299.05 376.98 Z" fill="#D0B99B" fill-rule="nonzero" stroke="#293943" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-11" inkscape:groupmode="layer" inkscape:label="ribcage" opacity="1">
+    <path d="M 306.75 266.25 Q 327.81 255.27 347.35 266.25 Q 357.62 285.2 346.6 310.14 Q 322.3 334.08 301.36 310.14 Q 293.82 285.2 306.75 266.25 Z" fill="#DCC9AB" fill-rule="nonzero" stroke="#293943" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-12" inkscape:groupmode="layer" inkscape:label="pelvis" opacity="1">
+    <path d="M 294.19 350.04 Q 321.88 340.07 348.19 350.04 L 339.53 384.96 Q 317.98 395.93 297.95 384.96 Z" fill="#DCC9AB" fill-rule="nonzero" stroke="#293943" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  </g>
+  <g id="part-head" inkscape:groupmode="layer" inkscape:label="head" opacity="1" transform="translate(0,0) translate(0,0) rotate(0) scale(1,1) translate(0,0)">
+  <g id="layer-13" inkscape:groupmode="layer" inkscape:label="skull-and-jaw" opacity="1">
+    <path d="M 308.2 212.55 Q 308.2 196.35 330.04 196.35 Q 351.88 196.35 351.88 212.55 L 348.61 236.85 Q 330.04 253.05 311.48 236.85 Z" fill="#DCC9AB" fill-rule="nonzero" stroke="#293943" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-14" inkscape:groupmode="layer" inkscape:label="nose-plane" opacity="1">
+    <polygon points="348.61,221.35 357.61,229.56 348.61,233.07" fill="#DCC9AB" fill-rule="nonzero" stroke="#293943" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="butt"/>
+  </g>
+  <g id="layer-15" inkscape:groupmode="layer" inkscape:label="right-brow" opacity="1">
+    <path d="M 353.61 220.11 L 342.06 220.11" fill="#000000" fill-opacity="0" fill-rule="nonzero" stroke="#293943" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  </g>
+  <g id="part-left-arm" inkscape:groupmode="layer" inkscape:label="left-arm" opacity="1" transform="translate(0,0) translate(0,0) rotate(0) scale(1,1) translate(0,0)">
+  <g id="layer-16" inkscape:groupmode="layer" inkscape:label="left-arm-mass" opacity="1">
+    <path d="M 315.93 276.6 L 298.03 302.92 L 285.93 341.37 L 281.77 367.31 L 283.52 404.72 L 293.5 405.42 L 300.44 368.61 L 299.74 345.07 L 321.4 314.32 L 331.12 284.01 Q 328.65 269.79 315.93 276.6 Z" fill="#D0B99B" fill-rule="nonzero" stroke="#293943" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-17" inkscape:groupmode="layer" inkscape:label="left-hand" opacity="1">
+    <polygon points="283.52,404.72 281.18,409.52 280.76,415.56 281.45,420.02 282.99,426.74 290.97,427.3 293.42,420.85 294.73,416.53 295.15,410.5 293.5,405.42" fill="#D0B99B" fill-rule="nonzero" stroke="#293943" stroke-width="2" stroke-linejoin="round" stroke-linecap="butt"/>
+  </g>
+  </g>
+  <g id="part-construction-guides" inkscape:groupmode="layer" inkscape:label="construction-guides" opacity="1" style="display:none" transform="translate(0,0) translate(0,0) rotate(0) scale(1,1) translate(0,0)">
+  <g id="layer-18" inkscape:groupmode="layer" inkscape:label="guide-left-hip-knee" opacity="1">
+    <path d="M 320 369.62 L 381.89 450.7" fill="#000000" fill-opacity="0" fill-rule="nonzero" stroke="#CC4B4B" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-19" inkscape:groupmode="layer" inkscape:label="guide-left-knee-ankle" opacity="1">
+    <path d="M 381.89 450.7 L 378 548.62" fill="#000000" fill-opacity="0" fill-rule="nonzero" stroke="#CC4B4B" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-20" inkscape:groupmode="layer" inkscape:label="guide-left-shoulder-elbow" opacity="1">
+    <path d="M 323.52 280.31 L 292.84 343.22" fill="#000000" fill-opacity="0" fill-rule="nonzero" stroke="#CC4B4B" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-21" inkscape:groupmode="layer" inkscape:label="guide-left-elbow-wrist" opacity="1">
+    <path d="M 292.84 343.22 L 288.51 405.07" fill="#000000" fill-opacity="0" fill-rule="nonzero" stroke="#CC4B4B" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-22" inkscape:groupmode="layer" inkscape:label="guide-left-wrist-hand" opacity="1">
+    <path d="M 288.51 405.07 L 286.98 427.02" fill="#000000" fill-opacity="0" fill-rule="nonzero" stroke="#CC4B4B" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-23" inkscape:groupmode="layer" inkscape:label="joint-left-hip" opacity="1">
+    <ellipse cx="320" cy="370" rx="2" ry="2" fill="#CC4B4B" fill-rule="nonzero"/>
+  </g>
+  <g id="layer-24" inkscape:groupmode="layer" inkscape:label="joint-left-shoulder" opacity="1">
+    <ellipse cx="324" cy="280" rx="2" ry="2" fill="#CC4B4B" fill-rule="nonzero"/>
+  </g>
+  <g id="layer-25" inkscape:groupmode="layer" inkscape:label="joint-left-knee" opacity="1">
+    <ellipse cx="382" cy="451" rx="2" ry="2" fill="#CC4B4B" fill-rule="nonzero"/>
+  </g>
+  <g id="layer-26" inkscape:groupmode="layer" inkscape:label="joint-left-ankle" opacity="1">
+    <ellipse cx="378" cy="549" rx="2" ry="2" fill="#CC4B4B" fill-rule="nonzero"/>
+  </g>
+  <g id="layer-27" inkscape:groupmode="layer" inkscape:label="joint-left-elbow" opacity="1">
+    <ellipse cx="293" cy="343" rx="2" ry="2" fill="#CC4B4B" fill-rule="nonzero"/>
+  </g>
+  <g id="layer-28" inkscape:groupmode="layer" inkscape:label="joint-left-wrist" opacity="1">
+    <ellipse cx="289" cy="405" rx="2" ry="2" fill="#CC4B4B" fill-rule="nonzero"/>
+  </g>
+  <g id="layer-29" inkscape:groupmode="layer" inkscape:label="joint-left-hand" opacity="1">
+    <ellipse cx="287" cy="427" rx="2" ry="2" fill="#CC4B4B" fill-rule="nonzero"/>
+  </g>
+  <g id="layer-30" inkscape:groupmode="layer" inkscape:label="guide-right-hip-knee" opacity="1">
+    <path d="M 320 364.38 L 342.49 463.87" fill="#000000" fill-opacity="0" fill-rule="nonzero" stroke="#2879C7" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-31" inkscape:groupmode="layer" inkscape:label="guide-right-knee-ankle" opacity="1">
+    <path d="M 342.49 463.87 L 285.2 543.38" fill="#000000" fill-opacity="0" fill-rule="nonzero" stroke="#2879C7" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-32" inkscape:groupmode="layer" inkscape:label="guide-right-shoulder-elbow" opacity="1">
+    <path d="M 323.52 267.11 L 354.21 330.02" fill="#000000" fill-opacity="0" fill-rule="nonzero" stroke="#2879C7" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-33" inkscape:groupmode="layer" inkscape:label="guide-right-elbow-wrist" opacity="1">
+    <path d="M 354.21 330.02 L 400.28 371.51" fill="#000000" fill-opacity="0" fill-rule="nonzero" stroke="#2879C7" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-34" inkscape:groupmode="layer" inkscape:label="guide-right-wrist-hand" opacity="1">
+    <path d="M 400.28 371.51 L 416.63 386.23" fill="#000000" fill-opacity="0" fill-rule="nonzero" stroke="#2879C7" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-35" inkscape:groupmode="layer" inkscape:label="joint-right-hip" opacity="1">
+    <ellipse cx="320" cy="364" rx="2" ry="2" fill="#2879C7" fill-rule="nonzero"/>
+  </g>
+  <g id="layer-36" inkscape:groupmode="layer" inkscape:label="joint-right-shoulder" opacity="1">
+    <ellipse cx="324" cy="267" rx="2" ry="2" fill="#2879C7" fill-rule="nonzero"/>
+  </g>
+  <g id="layer-37" inkscape:groupmode="layer" inkscape:label="joint-right-knee" opacity="1">
+    <ellipse cx="342" cy="464" rx="2" ry="2" fill="#2879C7" fill-rule="nonzero"/>
+  </g>
+  <g id="layer-38" inkscape:groupmode="layer" inkscape:label="joint-right-ankle" opacity="1">
+    <ellipse cx="285" cy="543" rx="2" ry="2" fill="#2879C7" fill-rule="nonzero"/>
+  </g>
+  <g id="layer-39" inkscape:groupmode="layer" inkscape:label="joint-right-elbow" opacity="1">
+    <ellipse cx="354" cy="330" rx="2" ry="2" fill="#2879C7" fill-rule="nonzero"/>
+  </g>
+  <g id="layer-40" inkscape:groupmode="layer" inkscape:label="joint-right-wrist" opacity="1">
+    <ellipse cx="400" cy="372" rx="2" ry="2" fill="#2879C7" fill-rule="nonzero"/>
+  </g>
+  <g id="layer-41" inkscape:groupmode="layer" inkscape:label="joint-right-hand" opacity="1">
+    <ellipse cx="417" cy="386" rx="2" ry="2" fill="#2879C7" fill-rule="nonzero"/>
+  </g>
+  <g id="layer-42" inkscape:groupmode="layer" inkscape:label="guide-spine" opacity="1">
+    <path d="M 320 367 L 326.98 267.24" fill="#000000" fill-opacity="0" fill-rule="nonzero" stroke="#19877B" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-43" inkscape:groupmode="layer" inkscape:label="guide-head" opacity="1">
+    <path d="M 326.98 267.24 L 330.04 223.35" fill="#000000" fill-opacity="0" fill-rule="nonzero" stroke="#B88016" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+  </g>
+  <g id="layer-44" inkscape:groupmode="layer" inkscape:label="guide-pelvis-axis" opacity="1">
+    <path d="M 320 370 L 320 364" fill="#000000" fill-opacity="0" fill-rule="nonzero" stroke="#8A57AE" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="butt"/>
+  </g>
+  </g>
+</svg>

@@ -1,0 +1,159 @@
+{
+  "result": {
+    "tasks": [
+      {
+        "id": "review-human",
+        "model": "human",
+        "result": {
+          "verdict": "GAP",
+          "imagesViewed": [
+            "examples/human-mannequins/review/human-crouch.png",
+            "examples/human-mannequins/review/human-jump.png",
+            "examples/human-mannequins/review/human-neutral.png",
+            "examples/human-mannequins/review/human-reach.png",
+            "examples/human-mannequins/review/human-run-flight.png",
+            "examples/human-mannequins/review/human-run-push.png",
+            "examples/human-mannequins/review/human-walk-contact.png",
+            "examples/human-mannequins/review/human-walk-pass.png",
+            "examples/human-mannequins/comparison.png",
+            "output/comparison-pdf.png",
+            "output/gallery-browser/human-guides.png",
+            "output/gallery-browser/gallery-desktop.png",
+            "output/gallery-browser/gallery-mobile-drawings.png"
+          ],
+          "poses": [
+            {
+              "pose": "neutral",
+              "verdict": "PASS",
+              "observation": "Both directions show connected shoulder, ribcage and pelvis masses, relaxed knees, continuous limbs and grounded feet."
+            },
+            {
+              "pose": "walk-contact",
+              "verdict": "PASS",
+              "observation": "Both feet meet the ground; opposing arms and separated legs retain readable near/far overlap and consistent reflection."
+            },
+            {
+              "pose": "walk-pass",
+              "verdict": "PASS",
+              "observation": "The supporting foot is grounded and the passing foot clears it; bent-knee volume and overlap read consistently in both directions."
+            },
+            {
+              "pose": "run-push",
+              "verdict": "PASS",
+              "observation": "Grounded support and lifted opposite leg are clear; knees, bent elbows and torso connections remain coherent when reflected."
+            },
+            {
+              "pose": "run-flight",
+              "verdict": "PASS",
+              "observation": "Both feet clear the ground; forward thigh, folded trailing leg and opposing arms have continuous volume and readable depth."
+            },
+            {
+              "pose": "jump",
+              "verdict": "PASS",
+              "observation": "Both drawings are visibly airborne, with coherent knee folds and readable near/far raised-arm attachment at the shoulders."
+            },
+            {
+              "pose": "crouch",
+              "verdict": "PASS",
+              "observation": "Lowered pelvis, forward torso and flexed knees form a coherent crouch; overlapping limbs remain traceable and feet meet the ground."
+            },
+            {
+              "pose": "reach",
+              "verdict": "PASS",
+              "observation": "The visible raised arm connects continuously across the shoulder, with coherent elbow flexion and grounded stance in both directions."
+            }
+          ],
+          "findings": [
+            "All 13 images were viewed at original resolution; all supplied SHA-256 hashes match.",
+            "No concrete anatomical defect found across the 16 human drawings. Chosen proportions and directional reflection remain consistent.",
+            "Visible near-side and far-side guides follow the neutral figure's shoulder, elbow, wrist, knee and ankle locations.",
+            "Comparison image and independent PDF raster preserve the same human silhouette and deliberate build differences.",
+            "Minor presentation gap: the mobile heading visibly joins “figure” and “starters” as “figurestarters.” This is the sole reason for the overall GAP."
+          ],
+          "limitations": [
+            "Guide coverage is limited to neutral/right; guides for other poses and left-facing drawings are unverified.",
+            "Static captures do not establish gallery interaction, source editability, motion or automatic rigging.",
+            "Hash verification completed despite shell-profile errors: fnm cache access was denied under C:/Users/ehart/AppData/Local/Packages/sandbox.{7e223853-5465-4305-816c-6e59fdb545f5}/AC/fnm_multishells/29092_1792097636765, and C:/Users/ehart/AppData/Local/Microsoft/WindowsApps/oh-my-posh.exe could not start. No retry was attempted."
+          ]
+        }
+      },
+      {
+        "id": "review-rpg",
+        "model": "rpg",
+        "result": {
+          "verdict": "PASS",
+          "imagesViewed": [
+            "examples/human-mannequins/review/rpg-crouch.png",
+            "examples/human-mannequins/review/rpg-jump.png",
+            "examples/human-mannequins/review/rpg-neutral.png",
+            "examples/human-mannequins/review/rpg-reach.png",
+            "examples/human-mannequins/review/rpg-run-flight.png",
+            "examples/human-mannequins/review/rpg-run-push.png",
+            "examples/human-mannequins/review/rpg-walk-contact.png",
+            "examples/human-mannequins/review/rpg-walk-pass.png",
+            "examples/human-mannequins/comparison.png",
+            "output/comparison-pdf.png",
+            "output/gallery-browser/rpg-guides.png",
+            "output/gallery-browser/gallery-desktop.png",
+            "output/gallery-browser/gallery-mobile-drawings.png"
+          ],
+          "poses": [
+            {
+              "pose": "neutral",
+              "verdict": "PASS",
+              "observation": "Both directions preserve the compact proportions, connected torso masses, relaxed knees and planted feet. Near/far limbs remain distinguishable."
+            },
+            {
+              "pose": "walk-contact",
+              "verdict": "PASS",
+              "observation": "Both reflected drawings show separated front/back legs, continuous limb volume and feet meeting the ground line. Arm and knee bends read coherently."
+            },
+            {
+              "pose": "walk-pass",
+              "verdict": "PASS",
+              "observation": "The supporting foot is planted and the passing foot lifted. Bent far leg and crossing arm remain readable in both directions."
+            },
+            {
+              "pose": "run-push",
+              "verdict": "PASS",
+              "observation": "Forward torso lean, grounded supporting foot and folded lifted leg read clearly. Shoulder attachment and elbow flexion remain coherent in both reflections."
+            },
+            {
+              "pose": "run-flight",
+              "verdict": "PASS",
+              "observation": "Both feet clear the ground. Forward thigh, folded trailing calf and opposing arms retain connected volume and readable overlap in both directions."
+            },
+            {
+              "pose": "jump",
+              "verdict": "PASS",
+              "observation": "Both drawings are visibly airborne, with coherent knee bends and foot orientation. Raised arms connect to the shoulder mass; their overlap with the head remains readable."
+            },
+            {
+              "pose": "crouch",
+              "verdict": "PASS",
+              "observation": "Lowered pelvis, forward torso and flexed knees form a coherent crouch over grounded feet. Compressed limb overlaps remain connected in both directions."
+            },
+            {
+              "pose": "reach",
+              "verdict": "PASS",
+              "observation": "Raised arm has a readable shoulder attachment, bent elbow and continuous forearm. Planted legs and torso proportions remain consistent across reflections."
+            }
+          ],
+          "findings": [
+            "Viewed all 13 supplied images, including all 16 native RPG drawings. No concrete visible anatomical or reflection defects found.",
+            "The comparison image and independent PDF raster preserve the deliberately broader, shorter-limbed RPG build.",
+            "The neutral-right guide capture places visible near/far limb landmarks coherently within the figure, including partially occluded segments."
+          ],
+          "limitations": [
+            "Guide alignment for other poses and the left-facing figure is UNVERIFIED; the supplied guide capture shows neutral-right only.",
+            "The desktop capture shows Human drawing cards; the mobile capture ends before drawing cards. RPG card coverage beyond the neutral guide modal is UNVERIFIED.",
+            "Static images do not verify editability, gallery interactions, motion or automatic rigging."
+          ]
+        }
+      }
+    ],
+    "rootAcceptanceRequired": true,
+    "ownerAcceptanceNotInferred": true
+  },
+  "error": null
+}

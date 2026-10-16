@@ -1,0 +1,6 @@
+{"kind":"attached","generation":1,"cursor":0,"status":"running"}
+{"kind":"worker-progress","generation":1,"cursor":0,"position":0,"attempt":1,"progress":{"seq":84,"kind":"command","at":"2026-10-15T22:57:07.853Z"}}
+{"kind":"worker-progress","generation":1,"cursor":0,"position":1,"attempt":1,"progress":{"seq":95,"kind":"command","at":"2026-10-15T22:57:08.439Z"}}
+{"seq":1,"generation":1,"kind":"worker-terminal","position":1,"attempt":1,"status":"completed","at":"2026-10-15T22:57:45.572Z","cleanup":{"serverExited":true,"jobEmpty":true,"forced":false,"descendants":"notVerified","ownershipScope":"windows-job-members","nativeInventoryEmpty":true}}
+{"seq":2,"generation":1,"kind":"worker-terminal","position":0,"attempt":1,"status":"completed","at":"2026-10-15T22:57:46.128Z","cleanup":{"serverExited":true,"jobEmpty":true,"forced":false,"descendants":"notVerified","ownershipScope":"windows-job-members","nativeInventoryEmpty":true}}
+{"seq":3,"generation":1,"kind":"run-terminal","status":"completed","at":"2026-10-15T22:57:46.140Z","cleanup":{"serverExited":true,"jobEmpty":true,"forced":false,"descendants":"notVerified","ownershipScope":"windows-job-members"}}

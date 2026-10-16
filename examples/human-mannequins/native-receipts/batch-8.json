@@ -1,0 +1,1621 @@
+{
+  "schemaVersion": 1,
+  "tool": "agent-draw",
+  "version": "0.4.1",
+  "kind": "sequence",
+  "ok": true,
+  "name": "eight-direction-rear-feet-1",
+  "width": 640,
+  "height": 640,
+  "fps": 8,
+  "frames": 69,
+  "durationSeconds": 8.625,
+  "loop": false,
+  "seam": {
+    "closed": null,
+    "method": "not automatically proven for independently drawn poses",
+    "requiresVisualReview": true
+  },
+  "formats": [
+    "svg",
+    "png"
+  ],
+  "source": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\sequence-eight-rear-fixes-1.json",
+  "sourceSha256": "a9b30995d018e27e7edcb39a77c659415f5827f51ed3307ea1e63e82899f6fc9",
+  "sourceFrames": [
+    {
+      "index": 0,
+      "path": "projects/rpg-neutral-NE.json",
+      "project": "projects/frame-0000.json",
+      "svg": "frames/frame-0000.svg",
+      "png": "frames/frame-0000.png",
+      "sha256": "4cf1f9b6872a6ead04b3e52dd89a845f83839af17729985ceb88451528a61990",
+      "bytes": 18683
+    },
+    {
+      "index": 1,
+      "path": "projects/rpg-walk-contact-NE.json",
+      "project": "projects/frame-0001.json",
+      "svg": "frames/frame-0001.svg",
+      "png": "frames/frame-0001.png",
+      "sha256": "508da8b779a57c001ceccd37b6c6d5f0dcd5ba7397006cea677376c6cd3b6307",
+      "bytes": 18739
+    },
+    {
+      "index": 2,
+      "path": "projects/rpg-walk-pass-NE.json",
+      "project": "projects/frame-0002.json",
+      "svg": "frames/frame-0002.svg",
+      "png": "frames/frame-0002.png",
+      "sha256": "5776f10ceeccc75dfdd61f6d56a533a6758468b59ebeb50aeb8c0dfb3e68a6a4",
+      "bytes": 18760
+    },
+    {
+      "index": 3,
+      "path": "projects/rpg-run-push-NE.json",
+      "project": "projects/frame-0003.json",
+      "svg": "frames/frame-0003.svg",
+      "png": "frames/frame-0003.png",
+      "sha256": "a20fc6c6bdbf835cc9ce2f760a33db114d1270abf99a0f8dcb2b58bd46a1298c",
+      "bytes": 18754
+    },
+    {
+      "index": 4,
+      "path": "projects/rpg-run-flight-NE.json",
+      "project": "projects/frame-0004.json",
+      "svg": "frames/frame-0004.svg",
+      "png": "frames/frame-0004.png",
+      "sha256": "881865e22377fa32aaf578b7adde49a38df241b3e7ca45f2bb68e1223a0016a3",
+      "bytes": 18757
+    },
+    {
+      "index": 5,
+      "path": "projects/rpg-jump-NE.json",
+      "project": "projects/frame-0005.json",
+      "svg": "frames/frame-0005.svg",
+      "png": "frames/frame-0005.png",
+      "sha256": "e5e15aeff0e213307f5f8fbcf800a103eb3af87b2e071501e2834d3d20c4737a",
+      "bytes": 18750
+    },
+    {
+      "index": 6,
+      "path": "projects/rpg-crouch-NE.json",
+      "project": "projects/frame-0006.json",
+      "svg": "frames/frame-0006.svg",
+      "png": "frames/frame-0006.png",
+      "sha256": "209a83ccd7fed5dd7d4865aea8168e1d2d6e95293561598d3063afab74267443",
+      "bytes": 18737
+    },
+    {
+      "index": 7,
+      "path": "projects/rpg-reach-NE.json",
+      "project": "projects/frame-0007.json",
+      "svg": "frames/frame-0007.svg",
+      "png": "frames/frame-0007.png",
+      "sha256": "1ecad50d32121caa396559734c115a6a9a3b2fed6246ec156aad29bb400aba87",
+      "bytes": 18746
+    },
+    {
+      "index": 8,
+      "path": "projects/rpg-walk-NE-00.json",
+      "project": "projects/frame-0008.json",
+      "svg": "frames/frame-0008.svg",
+      "png": "frames/frame-0008.png",
+      "sha256": "9acacc092c145c47fe31c37f17ab374da87e6a1047e1a24f28e691acd5eb8e23",
+      "bytes": 18755
+    },
+    {
+      "index": 9,
+      "path": "projects/rpg-walk-NE-01.json",
+      "project": "projects/frame-0009.json",
+      "svg": "frames/frame-0009.svg",
+      "png": "frames/frame-0009.png",
+      "sha256": "5e39d9e31f273a9490e83b6e626c329b711dfc2d27008bb36f385a0b0c48a5a3",
+      "bytes": 18751
+    },
+    {
+      "index": 10,
+      "path": "projects/rpg-walk-NE-02.json",
+      "project": "projects/frame-0010.json",
+      "svg": "frames/frame-0010.svg",
+      "png": "frames/frame-0010.png",
+      "sha256": "59525209880fdd84033d60c277d3e61dca19f384fd14dd29c9df69dff2293bc2",
+      "bytes": 18736
+    },
+    {
+      "index": 11,
+      "path": "projects/rpg-walk-NE-03.json",
+      "project": "projects/frame-0011.json",
+      "svg": "frames/frame-0011.svg",
+      "png": "frames/frame-0011.png",
+      "sha256": "c7c271c57cbf10d14dbb3336d072e718f7651d3d9c29024059a08ccc2d24f7fe",
+      "bytes": 18734
+    },
+    {
+      "index": 12,
+      "path": "projects/rpg-walk-NE-04.json",
+      "project": "projects/frame-0012.json",
+      "svg": "frames/frame-0012.svg",
+      "png": "frames/frame-0012.png",
+      "sha256": "e56a029bceaedd88988b3ca9ceed9ffe25068b9e13d55c71e1fa1bc15a5acd5e",
+      "bytes": 18748
+    },
+    {
+      "index": 13,
+      "path": "projects/rpg-walk-NE-05.json",
+      "project": "projects/frame-0013.json",
+      "svg": "frames/frame-0013.svg",
+      "png": "frames/frame-0013.png",
+      "sha256": "98edb71cf7ea06a5ccc4a71bf3e6845422341c36702a3394076ce32c0f46d7eb",
+      "bytes": 18752
+    },
+    {
+      "index": 14,
+      "path": "projects/rpg-walk-NE-06.json",
+      "project": "projects/frame-0014.json",
+      "svg": "frames/frame-0014.svg",
+      "png": "frames/frame-0014.png",
+      "sha256": "1bf88232b86598a68d6e6225d35289b7d59bff5bf1d7075c41285689150472ce",
+      "bytes": 18747
+    },
+    {
+      "index": 15,
+      "path": "projects/rpg-walk-NE-07.json",
+      "project": "projects/frame-0015.json",
+      "svg": "frames/frame-0015.svg",
+      "png": "frames/frame-0015.png",
+      "sha256": "6069c81a0152db3fa3c04b9f85c101b92a6c46c1e431d460fc386de1899faa87",
+      "bytes": 18756
+    },
+    {
+      "index": 16,
+      "path": "projects/rpg-run-NE-01.json",
+      "project": "projects/frame-0016.json",
+      "svg": "frames/frame-0016.svg",
+      "png": "frames/frame-0016.png",
+      "sha256": "bfe83fa78b04a5f54271155baa8c8e2c0e7f237a31c60c18ee2006f833651a0a",
+      "bytes": 18758
+    },
+    {
+      "index": 17,
+      "path": "projects/rpg-run-NE-02.json",
+      "project": "projects/frame-0017.json",
+      "svg": "frames/frame-0017.svg",
+      "png": "frames/frame-0017.png",
+      "sha256": "b467eaed2b490ef488b2258d22dbcd8a606adc5d73d4e347837b0bffc23c454a",
+      "bytes": 18755
+    },
+    {
+      "index": 18,
+      "path": "projects/rpg-run-NE-03.json",
+      "project": "projects/frame-0018.json",
+      "svg": "frames/frame-0018.svg",
+      "png": "frames/frame-0018.png",
+      "sha256": "f7871f2659c5d3971a06031b27fa0d34971a2e75ea2b99bfb0c8f994995b5b66",
+      "bytes": 18747
+    },
+    {
+      "index": 19,
+      "path": "projects/rpg-run-NE-04.json",
+      "project": "projects/frame-0019.json",
+      "svg": "frames/frame-0019.svg",
+      "png": "frames/frame-0019.png",
+      "sha256": "504f6fb3074cc4ef017c3f196aecfe561f1f645ad63135eb42eef01352f39503",
+      "bytes": 18765
+    },
+    {
+      "index": 20,
+      "path": "projects/rpg-run-NE-05.json",
+      "project": "projects/frame-0020.json",
+      "svg": "frames/frame-0020.svg",
+      "png": "frames/frame-0020.png",
+      "sha256": "ed3773254f86f9908271e0e37a200a72143c1504207147b2b5fcb81de16f8a64",
+      "bytes": 18749
+    },
+    {
+      "index": 21,
+      "path": "projects/rpg-run-NE-06.json",
+      "project": "projects/frame-0021.json",
+      "svg": "frames/frame-0021.svg",
+      "png": "frames/frame-0021.png",
+      "sha256": "392bae11c06bdf102c3e2bbe6fdf79c3d228087c9f7a9a05dcfce338dcc2d957",
+      "bytes": 18760
+    },
+    {
+      "index": 22,
+      "path": "projects/rpg-run-NE-07.json",
+      "project": "projects/frame-0022.json",
+      "svg": "frames/frame-0022.svg",
+      "png": "frames/frame-0022.png",
+      "sha256": "52332b1ea2cfd7b7e9078432370435f2b6367781c92fdc74d8370af203ef01fd",
+      "bytes": 18758
+    },
+    {
+      "index": 23,
+      "path": "projects/rpg-neutral-N.json",
+      "project": "projects/frame-0023.json",
+      "svg": "frames/frame-0023.svg",
+      "png": "frames/frame-0023.png",
+      "sha256": "9aa2258bec79deab21b004073337325bba5ec3c3e6ea781dfb0a9a250d6208b3",
+      "bytes": 18251
+    },
+    {
+      "index": 24,
+      "path": "projects/rpg-walk-contact-N.json",
+      "project": "projects/frame-0024.json",
+      "svg": "frames/frame-0024.svg",
+      "png": "frames/frame-0024.png",
+      "sha256": "324b233965c1e9affcfba127641a0773940b3b46a92ceda8087e18acb4439117",
+      "bytes": 18265
+    },
+    {
+      "index": 25,
+      "path": "projects/rpg-walk-pass-N.json",
+      "project": "projects/frame-0025.json",
+      "svg": "frames/frame-0025.svg",
+      "png": "frames/frame-0025.png",
+      "sha256": "be4003f9a9cb23151476626e88efb732960502bccaac68435ac1dbb92f61586d",
+      "bytes": 18263
+    },
+    {
+      "index": 26,
+      "path": "projects/rpg-run-push-N.json",
+      "project": "projects/frame-0026.json",
+      "svg": "frames/frame-0026.svg",
+      "png": "frames/frame-0026.png",
+      "sha256": "0ce89d37a551197270ceacf697276ab9b19a6d0efcfec18bca89c3bb30234e0f",
+      "bytes": 19504
+    },
+    {
+      "index": 27,
+      "path": "projects/rpg-run-flight-N.json",
+      "project": "projects/frame-0027.json",
+      "svg": "frames/frame-0027.svg",
+      "png": "frames/frame-0027.png",
+      "sha256": "390d26eccde79fb6034fec11e480413fa66356bc777aebaa96d78d87d9968e04",
+      "bytes": 20203
+    },
+    {
+      "index": 28,
+      "path": "projects/rpg-jump-N.json",
+      "project": "projects/frame-0028.json",
+      "svg": "frames/frame-0028.svg",
+      "png": "frames/frame-0028.png",
+      "sha256": "78e8563dfd1d224444e34e2e372e9b14419cfc90eb6a259305bef8042723d191",
+      "bytes": 19481
+    },
+    {
+      "index": 29,
+      "path": "projects/rpg-crouch-N.json",
+      "project": "projects/frame-0029.json",
+      "svg": "frames/frame-0029.svg",
+      "png": "frames/frame-0029.png",
+      "sha256": "4e09781a5915669aff7af1f60fcb6955c71ef89e222b4cab846220435e7e95af",
+      "bytes": 19499
+    },
+    {
+      "index": 30,
+      "path": "projects/rpg-reach-N.json",
+      "project": "projects/frame-0030.json",
+      "svg": "frames/frame-0030.svg",
+      "png": "frames/frame-0030.png",
+      "sha256": "23da47bfba01e83540fbdde714bd800baf1ade2810322df70dc58396702e473b",
+      "bytes": 18257
+    },
+    {
+      "index": 31,
+      "path": "projects/rpg-walk-N-00.json",
+      "project": "projects/frame-0031.json",
+      "svg": "frames/frame-0031.svg",
+      "png": "frames/frame-0031.png",
+      "sha256": "20f5f0b781af0715a2723c1eaef3d85c454c7a79299fdd988281ca02a30c0c55",
+      "bytes": 18278
+    },
+    {
+      "index": 32,
+      "path": "projects/rpg-walk-N-01.json",
+      "project": "projects/frame-0032.json",
+      "svg": "frames/frame-0032.svg",
+      "png": "frames/frame-0032.png",
+      "sha256": "07e902ba3f9a64f3c2eac28614dca9fd2888e96fc4b693e112631aa1a4f25cdf",
+      "bytes": 18259
+    },
+    {
+      "index": 33,
+      "path": "projects/rpg-walk-N-02.json",
+      "project": "projects/frame-0033.json",
+      "svg": "frames/frame-0033.svg",
+      "png": "frames/frame-0033.png",
+      "sha256": "d42b6cc8411a8897c11b126fdb4d56f577a20f7820349b49d1c459efab48ffd3",
+      "bytes": 18280
+    },
+    {
+      "index": 34,
+      "path": "projects/rpg-walk-N-03.json",
+      "project": "projects/frame-0034.json",
+      "svg": "frames/frame-0034.svg",
+      "png": "frames/frame-0034.png",
+      "sha256": "f54994dda739bd1eb543e17cdf98a76618d30d1a49d57f60fc58ff923362d3ae",
+      "bytes": 18257
+    },
+    {
+      "index": 35,
+      "path": "projects/rpg-walk-N-04.json",
+      "project": "projects/frame-0035.json",
+      "svg": "frames/frame-0035.svg",
+      "png": "frames/frame-0035.png",
+      "sha256": "df8a2ece2bfce314416fde13266fd0f12452413758e9927ebe75eddf074cb862",
+      "bytes": 18278
+    },
+    {
+      "index": 36,
+      "path": "projects/rpg-walk-N-05.json",
+      "project": "projects/frame-0036.json",
+      "svg": "frames/frame-0036.svg",
+      "png": "frames/frame-0036.png",
+      "sha256": "e851fb3c6ca4c3717da15f87c76401389d1d14b1fde2dd3fb6250095a4f1f7d4",
+      "bytes": 18259
+    },
+    {
+      "index": 37,
+      "path": "projects/rpg-walk-N-06.json",
+      "project": "projects/frame-0037.json",
+      "svg": "frames/frame-0037.svg",
+      "png": "frames/frame-0037.png",
+      "sha256": "b265c386fedf6573f4476d2ae5cfa111f1494d1e6f23749e6d2a3faad3420436",
+      "bytes": 18280
+    },
+    {
+      "index": 38,
+      "path": "projects/rpg-walk-N-07.json",
+      "project": "projects/frame-0038.json",
+      "svg": "frames/frame-0038.svg",
+      "png": "frames/frame-0038.png",
+      "sha256": "c33a6e4dc0d3dc40982492842dcb8ed266340df3fe96fd771e7793f2ea381dd8",
+      "bytes": 18257
+    },
+    {
+      "index": 39,
+      "path": "projects/rpg-run-N-01.json",
+      "project": "projects/frame-0039.json",
+      "svg": "frames/frame-0039.svg",
+      "png": "frames/frame-0039.png",
+      "sha256": "e06b1739a300006a061d20a2cd3a14c4f6557d4e79350f8cf4bc9d0203392cd0",
+      "bytes": 19510
+    },
+    {
+      "index": 40,
+      "path": "projects/rpg-run-N-02.json",
+      "project": "projects/frame-0040.json",
+      "svg": "frames/frame-0040.svg",
+      "png": "frames/frame-0040.png",
+      "sha256": "a2466d5cc2cabdfbc16fc273978be5f1b64e151c4874fc069d2342400c3bd6ae",
+      "bytes": 18241
+    },
+    {
+      "index": 41,
+      "path": "projects/rpg-run-N-03.json",
+      "project": "projects/frame-0041.json",
+      "svg": "frames/frame-0041.svg",
+      "png": "frames/frame-0041.png",
+      "sha256": "090c796853b97a6dee3bdf062cf813bd019867561911a97f1ef4a95c5ef47f21",
+      "bytes": 19506
+    },
+    {
+      "index": 42,
+      "path": "projects/rpg-run-N-04.json",
+      "project": "projects/frame-0042.json",
+      "svg": "frames/frame-0042.svg",
+      "png": "frames/frame-0042.png",
+      "sha256": "4be453589d5dbd5abe72159b3dd9140c6b20f4eb6c87bb829783a57516aca6bb",
+      "bytes": 19487
+    },
+    {
+      "index": 43,
+      "path": "projects/rpg-run-N-05.json",
+      "project": "projects/frame-0043.json",
+      "svg": "frames/frame-0043.svg",
+      "png": "frames/frame-0043.png",
+      "sha256": "8592e16bb049f229096edf0d5e7f8e2c6e1da9e0d1637697a535998f21ac4d5e",
+      "bytes": 19509
+    },
+    {
+      "index": 44,
+      "path": "projects/rpg-run-N-06.json",
+      "project": "projects/frame-0044.json",
+      "svg": "frames/frame-0044.svg",
+      "png": "frames/frame-0044.png",
+      "sha256": "9b480837d8dfff65fa0817233b958cd1d7db81e85e6e8ee5bb9aa9abaa0b8b06",
+      "bytes": 18241
+    },
+    {
+      "index": 45,
+      "path": "projects/rpg-run-N-07.json",
+      "project": "projects/frame-0045.json",
+      "svg": "frames/frame-0045.svg",
+      "png": "frames/frame-0045.png",
+      "sha256": "742d0e17cce6a161754b137f16efee0cc9580ef075518c756986635a6b050092",
+      "bytes": 19507
+    },
+    {
+      "index": 46,
+      "path": "projects/rpg-neutral-NW.json",
+      "project": "projects/frame-0046.json",
+      "svg": "frames/frame-0046.svg",
+      "png": "frames/frame-0046.png",
+      "sha256": "fef42e455231bbf8dc39f6d0312d0ba0b2c0200c075b4db9b0973162b8d036e7",
+      "bytes": 18705
+    },
+    {
+      "index": 47,
+      "path": "projects/rpg-walk-contact-NW.json",
+      "project": "projects/frame-0047.json",
+      "svg": "frames/frame-0047.svg",
+      "png": "frames/frame-0047.png",
+      "sha256": "62e3e109f3713402d633ca352a1a9dbc6c0c18712c49d238ec53cc3195228da1",
+      "bytes": 18743
+    },
+    {
+      "index": 48,
+      "path": "projects/rpg-walk-pass-NW.json",
+      "project": "projects/frame-0048.json",
+      "svg": "frames/frame-0048.svg",
+      "png": "frames/frame-0048.png",
+      "sha256": "f8f4bb7aa7f983a2c93fe0ee81f7e2b4d2f9311bf0a062cb7dddcaa43de106e2",
+      "bytes": 18756
+    },
+    {
+      "index": 49,
+      "path": "projects/rpg-run-push-NW.json",
+      "project": "projects/frame-0049.json",
+      "svg": "frames/frame-0049.svg",
+      "png": "frames/frame-0049.png",
+      "sha256": "1da46ed4ac2c8ddc23393a926410ec9645681a01b74e4f72fcf5a02a2af90fc5",
+      "bytes": 18746
+    },
+    {
+      "index": 50,
+      "path": "projects/rpg-run-flight-NW.json",
+      "project": "projects/frame-0050.json",
+      "svg": "frames/frame-0050.svg",
+      "png": "frames/frame-0050.png",
+      "sha256": "3741c3264488f8d639edc2289d4ab696cac177ec437bae9f8823a6f7922b970a",
+      "bytes": 18744
+    },
+    {
+      "index": 51,
+      "path": "projects/rpg-jump-NW.json",
+      "project": "projects/frame-0051.json",
+      "svg": "frames/frame-0051.svg",
+      "png": "frames/frame-0051.png",
+      "sha256": "25e5a31f6a2ba6af543f58273c389658dbde46049163188c01c2cd21f66408a4",
+      "bytes": 18744
+    },
+    {
+      "index": 52,
+      "path": "projects/rpg-crouch-NW.json",
+      "project": "projects/frame-0052.json",
+      "svg": "frames/frame-0052.svg",
+      "png": "frames/frame-0052.png",
+      "sha256": "d19d32a393863446dd136699d00500aec65b674226a3f56317cff073694fac47",
+      "bytes": 18751
+    },
+    {
+      "index": 53,
+      "path": "projects/rpg-reach-NW.json",
+      "project": "projects/frame-0053.json",
+      "svg": "frames/frame-0053.svg",
+      "png": "frames/frame-0053.png",
+      "sha256": "50c32c0608bcb9bf0a26d916701f25878e2d8817adcc90964147175881e7f66c",
+      "bytes": 18758
+    },
+    {
+      "index": 54,
+      "path": "projects/rpg-walk-NW-00.json",
+      "project": "projects/frame-0054.json",
+      "svg": "frames/frame-0054.svg",
+      "png": "frames/frame-0054.png",
+      "sha256": "e0c748307c0bc91e5ea606868cdf25c9df2aebf02576d137b94b7e832cd4ad7d",
+      "bytes": 18749
+    },
+    {
+      "index": 55,
+      "path": "projects/rpg-walk-NW-01.json",
+      "project": "projects/frame-0055.json",
+      "svg": "frames/frame-0055.svg",
+      "png": "frames/frame-0055.png",
+      "sha256": "6325a13a24dfc7879189b8098e595960d43ed4e8be129a15591e16c62cc19de3",
+      "bytes": 18752
+    },
+    {
+      "index": 56,
+      "path": "projects/rpg-walk-NW-02.json",
+      "project": "projects/frame-0056.json",
+      "svg": "frames/frame-0056.svg",
+      "png": "frames/frame-0056.png",
+      "sha256": "d6439d27615547d859b9f08de3fd82cd0a6b83141971ba173165375461c15ac8",
+      "bytes": 18747
+    },
+    {
+      "index": 57,
+      "path": "projects/rpg-walk-NW-03.json",
+      "project": "projects/frame-0057.json",
+      "svg": "frames/frame-0057.svg",
+      "png": "frames/frame-0057.png",
+      "sha256": "c7592573c27addc08367a82709bcc574f7bbeecc394e327f8dce330d620c567b",
+      "bytes": 18756
+    },
+    {
+      "index": 58,
+      "path": "projects/rpg-walk-NW-04.json",
+      "project": "projects/frame-0058.json",
+      "svg": "frames/frame-0058.svg",
+      "png": "frames/frame-0058.png",
+      "sha256": "4c8ff6b854e83cdea5a498d9f7d9bcafdd7ec3fab7cf332f8670263dace132dd",
+      "bytes": 18756
+    },
+    {
+      "index": 59,
+      "path": "projects/rpg-walk-NW-05.json",
+      "project": "projects/frame-0059.json",
+      "svg": "frames/frame-0059.svg",
+      "png": "frames/frame-0059.png",
+      "sha256": "7d12ba8775c98f104717e01cdc301e9bb0cfd4e09ea7ece23fd18ee452b67187",
+      "bytes": 18752
+    },
+    {
+      "index": 60,
+      "path": "projects/rpg-walk-NW-06.json",
+      "project": "projects/frame-0060.json",
+      "svg": "frames/frame-0060.svg",
+      "png": "frames/frame-0060.png",
+      "sha256": "9e6ab789a1436bd69d258dccfb73dccecdbdc4d9085bb4550fab9fa150e2a548",
+      "bytes": 18737
+    },
+    {
+      "index": 61,
+      "path": "projects/rpg-walk-NW-07.json",
+      "project": "projects/frame-0061.json",
+      "svg": "frames/frame-0061.svg",
+      "png": "frames/frame-0061.png",
+      "sha256": "890e6a75cfcdf345d1d237012789cbfdffed52c8ddf0ff6665879876b9e2cb85",
+      "bytes": 18733
+    },
+    {
+      "index": 62,
+      "path": "projects/rpg-run-NW-01.json",
+      "project": "projects/frame-0062.json",
+      "svg": "frames/frame-0062.svg",
+      "png": "frames/frame-0062.png",
+      "sha256": "a55cbc9891500d7aa07ab9a49093df98ca0a64be27d58cb4c73489fa341f0ea3",
+      "bytes": 18749
+    },
+    {
+      "index": 63,
+      "path": "projects/rpg-run-NW-02.json",
+      "project": "projects/frame-0063.json",
+      "svg": "frames/frame-0063.svg",
+      "png": "frames/frame-0063.png",
+      "sha256": "ac37a5074cb0d834580d5fede4845e8c72f38ea0e56a06cbd99da4613b10a9ad",
+      "bytes": 18761
+    },
+    {
+      "index": 64,
+      "path": "projects/rpg-run-NW-03.json",
+      "project": "projects/frame-0064.json",
+      "svg": "frames/frame-0064.svg",
+      "png": "frames/frame-0064.png",
+      "sha256": "da6ecc69fd5734b2928c7502ee76f143ed6a4310b9595c9122adefbc38426c47",
+      "bytes": 18759
+    },
+    {
+      "index": 65,
+      "path": "projects/rpg-run-NW-04.json",
+      "project": "projects/frame-0065.json",
+      "svg": "frames/frame-0065.svg",
+      "png": "frames/frame-0065.png",
+      "sha256": "37db3230645097608b3e9d0453f2fd51bb5771795f0715724054b8533410ca76",
+      "bytes": 18755
+    },
+    {
+      "index": 66,
+      "path": "projects/rpg-run-NW-05.json",
+      "project": "projects/frame-0066.json",
+      "svg": "frames/frame-0066.svg",
+      "png": "frames/frame-0066.png",
+      "sha256": "4ffe27d2d4c9fba4ea0c26ccf7262de5bf630241ea161bf01552e03bc48c7a5b",
+      "bytes": 18759
+    },
+    {
+      "index": 67,
+      "path": "projects/rpg-run-NW-06.json",
+      "project": "projects/frame-0067.json",
+      "svg": "frames/frame-0067.svg",
+      "png": "frames/frame-0067.png",
+      "sha256": "3fa5fb96e002ab5423847906b27fe01155550e62072f6d727a6f38443474e127",
+      "bytes": 18755
+    },
+    {
+      "index": 68,
+      "path": "projects/rpg-run-NW-07.json",
+      "project": "projects/frame-0068.json",
+      "svg": "frames/frame-0068.svg",
+      "png": "frames/frame-0068.png",
+      "sha256": "d7418e7cc5fbc79ee8ecf5d4c1b1b85b6622689e35a72f56bc0693da1596cbf9",
+      "bytes": 18748
+    }
+  ],
+  "manifest": "manifest.json",
+  "sourceManifest": "source-manifest.json",
+  "inputBytes": 1296846,
+  "contactSheetFrames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68
+  ],
+  "contactSheet": {
+    "width": 1644,
+    "height": 2064,
+    "columns": 8,
+    "rows": 9
+  },
+  "inkscape": "Inkscape 1.4.3 (0d15f75, 2025-12-25)",
+  "limitations": [
+    "Each frame uses its authored geometry. No interpolation, generated in-betweens, or automatic pose/foot registration.",
+    "Loop is playback intent; review the last-to-first transition visually. Matching first and last drawings is not required."
+  ],
+  "artifacts": [
+    {
+      "name": "projects/frame-0000.json",
+      "sha256": "4cf1f9b6872a6ead04b3e52dd89a845f83839af17729985ceb88451528a61990"
+    },
+    {
+      "name": "frames/frame-0000.svg",
+      "sha256": "36bab52dfd4cb35bda0b9a378ed732cc9914706b53a1d893e596275474aef49b"
+    },
+    {
+      "name": "frames/frame-0000.png",
+      "sha256": "8493859121c57431fa07de4d37ae75b94557d0a07d98938676241f1417f609f4"
+    },
+    {
+      "name": "projects/frame-0001.json",
+      "sha256": "508da8b779a57c001ceccd37b6c6d5f0dcd5ba7397006cea677376c6cd3b6307"
+    },
+    {
+      "name": "frames/frame-0001.svg",
+      "sha256": "1a400e0d522eff42d4f83e1ede6d42de78dbb46990e4a0513503bd768736b58a"
+    },
+    {
+      "name": "frames/frame-0001.png",
+      "sha256": "3bdc69e216f6f009235d0b4b0f3bf6c4b7ff7a087b2fbd3200b3d71246fa34af"
+    },
+    {
+      "name": "projects/frame-0002.json",
+      "sha256": "5776f10ceeccc75dfdd61f6d56a533a6758468b59ebeb50aeb8c0dfb3e68a6a4"
+    },
+    {
+      "name": "frames/frame-0002.svg",
+      "sha256": "b9c3c90b74e5c5b54324610e8e8b6f5ae91e80a9f5b568bce817a52bcf937c50"
+    },
+    {
+      "name": "frames/frame-0002.png",
+      "sha256": "8101048184a209eaaa8e1ab55eb895a147639ff05d2f4a161a1a75852d3c1351"
+    },
+    {
+      "name": "projects/frame-0003.json",
+      "sha256": "a20fc6c6bdbf835cc9ce2f760a33db114d1270abf99a0f8dcb2b58bd46a1298c"
+    },
+    {
+      "name": "frames/frame-0003.svg",
+      "sha256": "6ae47dda98d35ba10dc6788f2ccae8f939df1c01c6e8c8797f4499d370aa591f"
+    },
+    {
+      "name": "frames/frame-0003.png",
+      "sha256": "5ed78ff6b96cd890fa32c1a17feaddc437be21d07d10c792619f5d993cf1f639"
+    },
+    {
+      "name": "projects/frame-0004.json",
+      "sha256": "881865e22377fa32aaf578b7adde49a38df241b3e7ca45f2bb68e1223a0016a3"
+    },
+    {
+      "name": "frames/frame-0004.svg",
+      "sha256": "cc704d813fc6786102e3c64f8bbc5b51a2199d1550679be908169397dd19c009"
+    },
+    {
+      "name": "frames/frame-0004.png",
+      "sha256": "54414a60cf1c92a992cc191d6df81008f4254e56f5fd665d134af9082fa1c994"
+    },
+    {
+      "name": "projects/frame-0005.json",
+      "sha256": "e5e15aeff0e213307f5f8fbcf800a103eb3af87b2e071501e2834d3d20c4737a"
+    },
+    {
+      "name": "frames/frame-0005.svg",
+      "sha256": "aa557735003caa30c34cdba53de104c0993c99f2a4b047d12e96340c5dd7fb2c"
+    },
+    {
+      "name": "frames/frame-0005.png",
+      "sha256": "c12c66b40fde378117930ab252563b95e47f8320816d5fe222cd5e9d1bf870bb"
+    },
+    {
+      "name": "projects/frame-0006.json",
+      "sha256": "209a83ccd7fed5dd7d4865aea8168e1d2d6e95293561598d3063afab74267443"
+    },
+    {
+      "name": "frames/frame-0006.svg",
+      "sha256": "561e09e3dd219dfcd9dd5ae836cfad40208faede27018892e4b422a034e100aa"
+    },
+    {
+      "name": "frames/frame-0006.png",
+      "sha256": "67e8fcdeef3fb8d053b8f280f12656c7ed9e10039352a2cef554a1b57c3d3f18"
+    },
+    {
+      "name": "projects/frame-0007.json",
+      "sha256": "1ecad50d32121caa396559734c115a6a9a3b2fed6246ec156aad29bb400aba87"
+    },
+    {
+      "name": "frames/frame-0007.svg",
+      "sha256": "008edba33d11e2fb12bf4ae99d774213d793995560467e4c8288db12376d06f1"
+    },
+    {
+      "name": "frames/frame-0007.png",
+      "sha256": "c1d949e3943a97da5f53d20ba13e61ad2d89c86d55138ea356e5d034301cd201"
+    },
+    {
+      "name": "projects/frame-0008.json",
+      "sha256": "9acacc092c145c47fe31c37f17ab374da87e6a1047e1a24f28e691acd5eb8e23"
+    },
+    {
+      "name": "frames/frame-0008.svg",
+      "sha256": "20835fb2b326c30ec091f05e58aa495664e131f746eab8f428e9e755e1f6c9e6"
+    },
+    {
+      "name": "frames/frame-0008.png",
+      "sha256": "36cfabfacd9d2d272bc4066a81dbfc42d548297a63d41c4566ae22cb55aa9136"
+    },
+    {
+      "name": "projects/frame-0009.json",
+      "sha256": "5e39d9e31f273a9490e83b6e626c329b711dfc2d27008bb36f385a0b0c48a5a3"
+    },
+    {
+      "name": "frames/frame-0009.svg",
+      "sha256": "f9a537e1ae8b7c50b7f2a14e102f7d613dbb704abaec9aa73075fe1557551c15"
+    },
+    {
+      "name": "frames/frame-0009.png",
+      "sha256": "8b8201f7c41ae2b1755db48c0fe55dfe4f6e9130f0fbaaecae3a0ea999bf7fb3"
+    },
+    {
+      "name": "projects/frame-0010.json",
+      "sha256": "59525209880fdd84033d60c277d3e61dca19f384fd14dd29c9df69dff2293bc2"
+    },
+    {
+      "name": "frames/frame-0010.svg",
+      "sha256": "d287d18797dad858b25dc95db603ecacbf0449da2de5c633ef72fe571d657091"
+    },
+    {
+      "name": "frames/frame-0010.png",
+      "sha256": "f7d0c394b70d757caa7bb30f855fb575ae027b4c9002ba58ae86a2968eaa2c7f"
+    },
+    {
+      "name": "projects/frame-0011.json",
+      "sha256": "c7c271c57cbf10d14dbb3336d072e718f7651d3d9c29024059a08ccc2d24f7fe"
+    },
+    {
+      "name": "frames/frame-0011.svg",
+      "sha256": "7e78cad53473bd885692a36334d67b1d8085cc3a842cfbc9c416d66777bdc6b5"
+    },
+    {
+      "name": "frames/frame-0011.png",
+      "sha256": "cf8b449aaae97a2844f8fcdbaf7d542dbfa06d028541d335a954d056a5b5fead"
+    },
+    {
+      "name": "projects/frame-0012.json",
+      "sha256": "e56a029bceaedd88988b3ca9ceed9ffe25068b9e13d55c71e1fa1bc15a5acd5e"
+    },
+    {
+      "name": "frames/frame-0012.svg",
+      "sha256": "1e3381f4a28dd7c463c2aa8b29d1a4fb14d4cea6f74fe8001a15fbb1c50532ab"
+    },
+    {
+      "name": "frames/frame-0012.png",
+      "sha256": "c95956548d11a8d566694ced3871e291c19717fc384fb1daed69940cfef3d25f"
+    },
+    {
+      "name": "projects/frame-0013.json",
+      "sha256": "98edb71cf7ea06a5ccc4a71bf3e6845422341c36702a3394076ce32c0f46d7eb"
+    },
+    {
+      "name": "frames/frame-0013.svg",
+      "sha256": "f4d1551564906b24cf8abc4b52a76af9e76a8ede3551c587f9db5545f6459e7b"
+    },
+    {
+      "name": "frames/frame-0013.png",
+      "sha256": "692f4c472f03bd606ae2b6044bcfdb010ad7d8af43011eca39d919dea2016dd2"
+    },
+    {
+      "name": "projects/frame-0014.json",
+      "sha256": "1bf88232b86598a68d6e6225d35289b7d59bff5bf1d7075c41285689150472ce"
+    },
+    {
+      "name": "frames/frame-0014.svg",
+      "sha256": "13eed06ccad57ea9f27a59fd9fc4b2e5a22108baeb4c208d979e7c8cea75c27d"
+    },
+    {
+      "name": "frames/frame-0014.png",
+      "sha256": "9c53fcf677682127570a007685360afd51cb77ac7a3956fa90005e5b33587115"
+    },
+    {
+      "name": "projects/frame-0015.json",
+      "sha256": "6069c81a0152db3fa3c04b9f85c101b92a6c46c1e431d460fc386de1899faa87"
+    },
+    {
+      "name": "frames/frame-0015.svg",
+      "sha256": "dcb9f27f953c0d4f19b12b339f8cb854c1b0c955c3c3e44b268b42428a59b3a1"
+    },
+    {
+      "name": "frames/frame-0015.png",
+      "sha256": "ed4a521e8385cee958f4504d063fbd683194cd7c641b53d5dbee28621ae1dc0c"
+    },
+    {
+      "name": "projects/frame-0016.json",
+      "sha256": "bfe83fa78b04a5f54271155baa8c8e2c0e7f237a31c60c18ee2006f833651a0a"
+    },
+    {
+      "name": "frames/frame-0016.svg",
+      "sha256": "806a5cd26d0cff2d387d84b36942ce5b93be5a368a288845da423f71aa70f097"
+    },
+    {
+      "name": "frames/frame-0016.png",
+      "sha256": "9f4d2f06f135560f85c2cd72f173cc01555a78160f6b49204a4f62b0da983ae2"
+    },
+    {
+      "name": "projects/frame-0017.json",
+      "sha256": "b467eaed2b490ef488b2258d22dbcd8a606adc5d73d4e347837b0bffc23c454a"
+    },
+    {
+      "name": "frames/frame-0017.svg",
+      "sha256": "7ae94eaf69813387447df93aebd1247e4793959451f8170c036185500484340a"
+    },
+    {
+      "name": "frames/frame-0017.png",
+      "sha256": "8837aaff6d588dc64b6017f4cfeaa3d72fded61745a6e35d4a4771a79f223b74"
+    },
+    {
+      "name": "projects/frame-0018.json",
+      "sha256": "f7871f2659c5d3971a06031b27fa0d34971a2e75ea2b99bfb0c8f994995b5b66"
+    },
+    {
+      "name": "frames/frame-0018.svg",
+      "sha256": "66b6718276b9b85dae1409c506686ebdd8ccdd2f0b309a7c6a6e2296e9974c2a"
+    },
+    {
+      "name": "frames/frame-0018.png",
+      "sha256": "f31ccabdf45f2b689a060a4b3cf5aa6a764de43ff52d7112630d7965141a8f12"
+    },
+    {
+      "name": "projects/frame-0019.json",
+      "sha256": "504f6fb3074cc4ef017c3f196aecfe561f1f645ad63135eb42eef01352f39503"
+    },
+    {
+      "name": "frames/frame-0019.svg",
+      "sha256": "e436d9d8d2a884eadb76355591ded181b575e4d80c57293a005e85f8363a5b69"
+    },
+    {
+      "name": "frames/frame-0019.png",
+      "sha256": "759fc9face9ae495ff611ce39e308e5e89baa308a1900272ba7853656cdf449f"
+    },
+    {
+      "name": "projects/frame-0020.json",
+      "sha256": "ed3773254f86f9908271e0e37a200a72143c1504207147b2b5fcb81de16f8a64"
+    },
+    {
+      "name": "frames/frame-0020.svg",
+      "sha256": "bfac527d6915efec2423ad1396bada6a64088feb1ae0dc88c34daa70f29614df"
+    },
+    {
+      "name": "frames/frame-0020.png",
+      "sha256": "8d35733be9fe0b52a291185416f0b44e07ff24750b4f4aaf6e6f7897db51590e"
+    },
+    {
+      "name": "projects/frame-0021.json",
+      "sha256": "392bae11c06bdf102c3e2bbe6fdf79c3d228087c9f7a9a05dcfce338dcc2d957"
+    },
+    {
+      "name": "frames/frame-0021.svg",
+      "sha256": "638e27cede4bce8c9dc23eb64418c1bc2c63d7232ce06a0a4ae9aa3170ee9136"
+    },
+    {
+      "name": "frames/frame-0021.png",
+      "sha256": "756e98a1f63b011f951338f26ba8a372d0142d975b9585cff3e8b6853e87691c"
+    },
+    {
+      "name": "projects/frame-0022.json",
+      "sha256": "52332b1ea2cfd7b7e9078432370435f2b6367781c92fdc74d8370af203ef01fd"
+    },
+    {
+      "name": "frames/frame-0022.svg",
+      "sha256": "d57132cf62383b0ef27f521e32fd87b612d7bd066500268f43ed35b1e863b75d"
+    },
+    {
+      "name": "frames/frame-0022.png",
+      "sha256": "3ec212f3b474d8d05df19de77eb1d9a24da4c4d95433d14f5f8b9216bb1e18c1"
+    },
+    {
+      "name": "projects/frame-0023.json",
+      "sha256": "9aa2258bec79deab21b004073337325bba5ec3c3e6ea781dfb0a9a250d6208b3"
+    },
+    {
+      "name": "frames/frame-0023.svg",
+      "sha256": "91180794779c0d1be41c760424a1c8fef8ab1d21cee1aba955135684a843e5a9"
+    },
+    {
+      "name": "frames/frame-0023.png",
+      "sha256": "b883667c642a145a517c821b303d4b1c678710057ae1693fd881dbb25aa8b8ab"
+    },
+    {
+      "name": "projects/frame-0024.json",
+      "sha256": "324b233965c1e9affcfba127641a0773940b3b46a92ceda8087e18acb4439117"
+    },
+    {
+      "name": "frames/frame-0024.svg",
+      "sha256": "82097ed535a5e77432ffaccfb2a201feb6b86821ee5a91ac66d3f99a1ddd9e20"
+    },
+    {
+      "name": "frames/frame-0024.png",
+      "sha256": "10efeb9cb11f94dc07a973b6cbcefc8d5feedc9151c5e46b206f3390bf9e559e"
+    },
+    {
+      "name": "projects/frame-0025.json",
+      "sha256": "be4003f9a9cb23151476626e88efb732960502bccaac68435ac1dbb92f61586d"
+    },
+    {
+      "name": "frames/frame-0025.svg",
+      "sha256": "0b3c080952ca656f7721340cda9b49c1fc54d613f32ec59bbc0dceec823cc84a"
+    },
+    {
+      "name": "frames/frame-0025.png",
+      "sha256": "2b9ab7e1b809759c5a21a3df645043e29c0f21fd5a7e360d2ab5eec44e3f5425"
+    },
+    {
+      "name": "projects/frame-0026.json",
+      "sha256": "0ce89d37a551197270ceacf697276ab9b19a6d0efcfec18bca89c3bb30234e0f"
+    },
+    {
+      "name": "frames/frame-0026.svg",
+      "sha256": "1eedb3d2f9b199a77cff15120133b8661f7e77e3aeda3d02a5e6e77265c82e1e"
+    },
+    {
+      "name": "frames/frame-0026.png",
+      "sha256": "d952a897b2bff9dfa473ed33b6f90bca77d8ea61ce94c97571fb79b1f5808c19"
+    },
+    {
+      "name": "projects/frame-0027.json",
+      "sha256": "390d26eccde79fb6034fec11e480413fa66356bc777aebaa96d78d87d9968e04"
+    },
+    {
+      "name": "frames/frame-0027.svg",
+      "sha256": "1359c58a5a2d0f99f332576454907ed26b799b459c086099554e183b4a6cde2d"
+    },
+    {
+      "name": "frames/frame-0027.png",
+      "sha256": "948b46439ab3186e29b1b2e6d09d4e7360de46a506c5f137061a67d9b128de78"
+    },
+    {
+      "name": "projects/frame-0028.json",
+      "sha256": "78e8563dfd1d224444e34e2e372e9b14419cfc90eb6a259305bef8042723d191"
+    },
+    {
+      "name": "frames/frame-0028.svg",
+      "sha256": "5f6e3b2ef8049cb1eaf2ebb959295975e13f518c87ecb31aa4ba27e4a4ff45e0"
+    },
+    {
+      "name": "frames/frame-0028.png",
+      "sha256": "255350c557d1bb7ab0ecc20abb9175b8a13018883e399155e249ae56e75599f8"
+    },
+    {
+      "name": "projects/frame-0029.json",
+      "sha256": "4e09781a5915669aff7af1f60fcb6955c71ef89e222b4cab846220435e7e95af"
+    },
+    {
+      "name": "frames/frame-0029.svg",
+      "sha256": "d9f9996041202e80ad724ade4de42bf7e916c221cf7d8bf9697f2d617e3f4bcf"
+    },
+    {
+      "name": "frames/frame-0029.png",
+      "sha256": "8b41afdb482afb4120fe5ee076529a0a5d792aaa415c067d9d32fdb64e7c6bce"
+    },
+    {
+      "name": "projects/frame-0030.json",
+      "sha256": "23da47bfba01e83540fbdde714bd800baf1ade2810322df70dc58396702e473b"
+    },
+    {
+      "name": "frames/frame-0030.svg",
+      "sha256": "0884d6ca2c071c53647b398a82f6deded8a483788a9bb054ceccfdfe1b4bb496"
+    },
+    {
+      "name": "frames/frame-0030.png",
+      "sha256": "414666bc655bf22b2e3da3c6014a5b2bc8630d08d309c826e0ebb08b1c930967"
+    },
+    {
+      "name": "projects/frame-0031.json",
+      "sha256": "20f5f0b781af0715a2723c1eaef3d85c454c7a79299fdd988281ca02a30c0c55"
+    },
+    {
+      "name": "frames/frame-0031.svg",
+      "sha256": "c70a3ee37df3151f1c8a97fbbc87a99edc4d659860471c68cd5baafb4a4a2a7a"
+    },
+    {
+      "name": "frames/frame-0031.png",
+      "sha256": "2688bacf9c6aab87f001f9e0587bd1f94fb27af8f1948726786ed438bb402acb"
+    },
+    {
+      "name": "projects/frame-0032.json",
+      "sha256": "07e902ba3f9a64f3c2eac28614dca9fd2888e96fc4b693e112631aa1a4f25cdf"
+    },
+    {
+      "name": "frames/frame-0032.svg",
+      "sha256": "9e8e21a92cdc8722c894f91d3d246df8c63a7ce6dfed461d83f69cafedc19760"
+    },
+    {
+      "name": "frames/frame-0032.png",
+      "sha256": "bc86491d337e345c79e369eb299124c7c87ac39e093f24fd1456c8995e5736d5"
+    },
+    {
+      "name": "projects/frame-0033.json",
+      "sha256": "d42b6cc8411a8897c11b126fdb4d56f577a20f7820349b49d1c459efab48ffd3"
+    },
+    {
+      "name": "frames/frame-0033.svg",
+      "sha256": "1e16df10f0bcee9e01cf891f4b5f2381258bc1dae669c70e917a605c37f39d47"
+    },
+    {
+      "name": "frames/frame-0033.png",
+      "sha256": "d34ee680ecfb1161d95509cd18aab5f556bc46b216a4113e2f3e47370acbd18f"
+    },
+    {
+      "name": "projects/frame-0034.json",
+      "sha256": "f54994dda739bd1eb543e17cdf98a76618d30d1a49d57f60fc58ff923362d3ae"
+    },
+    {
+      "name": "frames/frame-0034.svg",
+      "sha256": "32220db37aa7f3889b97132f2330a864b21437be4b23a175f1fefdd259ccb3e5"
+    },
+    {
+      "name": "frames/frame-0034.png",
+      "sha256": "74b7a393c31613c9ceda90d40e35e65b7c7c7d2528e769ae461f1c0ae888acef"
+    },
+    {
+      "name": "projects/frame-0035.json",
+      "sha256": "df8a2ece2bfce314416fde13266fd0f12452413758e9927ebe75eddf074cb862"
+    },
+    {
+      "name": "frames/frame-0035.svg",
+      "sha256": "cd82788bfab14310751b449cbc0b66af18116d6c023c747d924ea9344273ac54"
+    },
+    {
+      "name": "frames/frame-0035.png",
+      "sha256": "e38077ba0a25760967d87169e3d6813bb24f459ba14a22ad2ed15506000553a1"
+    },
+    {
+      "name": "projects/frame-0036.json",
+      "sha256": "e851fb3c6ca4c3717da15f87c76401389d1d14b1fde2dd3fb6250095a4f1f7d4"
+    },
+    {
+      "name": "frames/frame-0036.svg",
+      "sha256": "7248482207ce2305a0ad028d0669803eddd2b462f2aa4b198af5709a85c1b3f0"
+    },
+    {
+      "name": "frames/frame-0036.png",
+      "sha256": "7145043ad2880812aed9f333ea220472be2460348fe3a8fcc7566512ea7a01e7"
+    },
+    {
+      "name": "projects/frame-0037.json",
+      "sha256": "b265c386fedf6573f4476d2ae5cfa111f1494d1e6f23749e6d2a3faad3420436"
+    },
+    {
+      "name": "frames/frame-0037.svg",
+      "sha256": "26b6984485d787c902a88f206ede2efd9286d6303dfd087e8db1bb63a245670f"
+    },
+    {
+      "name": "frames/frame-0037.png",
+      "sha256": "ce012280b9e3b15f1683397988baf39841854ecea853ff345eaa0e2bbc1f0ddc"
+    },
+    {
+      "name": "projects/frame-0038.json",
+      "sha256": "c33a6e4dc0d3dc40982492842dcb8ed266340df3fe96fd771e7793f2ea381dd8"
+    },
+    {
+      "name": "frames/frame-0038.svg",
+      "sha256": "2f0050b8b9a762524b32bfc7c561da38a49e6ccb402b0a793f389dd753a3f1e2"
+    },
+    {
+      "name": "frames/frame-0038.png",
+      "sha256": "b78ba298affbd8aa905227a6e1af793e2bb2fe17c3ec7e344f97b0a5bacc5696"
+    },
+    {
+      "name": "projects/frame-0039.json",
+      "sha256": "e06b1739a300006a061d20a2cd3a14c4f6557d4e79350f8cf4bc9d0203392cd0"
+    },
+    {
+      "name": "frames/frame-0039.svg",
+      "sha256": "713a17bee3c9fbcc5ae6d7fc0e0c67a8788dad373972ffe1d8c111f024ccf3e9"
+    },
+    {
+      "name": "frames/frame-0039.png",
+      "sha256": "dc61d81cfdd7b6082ad6fc9c957a3d779b3e312c2a8ac1889c21bb0ff104c5e0"
+    },
+    {
+      "name": "projects/frame-0040.json",
+      "sha256": "a2466d5cc2cabdfbc16fc273978be5f1b64e151c4874fc069d2342400c3bd6ae"
+    },
+    {
+      "name": "frames/frame-0040.svg",
+      "sha256": "b366a178f97a1a9e6c42c326541ff9bc99e346a5ecbee39f25e0af061f3ca932"
+    },
+    {
+      "name": "frames/frame-0040.png",
+      "sha256": "d5a30f0d19dc10a897f4cffebfe3876c146745ebc4e48f807b4d01107cdac756"
+    },
+    {
+      "name": "projects/frame-0041.json",
+      "sha256": "090c796853b97a6dee3bdf062cf813bd019867561911a97f1ef4a95c5ef47f21"
+    },
+    {
+      "name": "frames/frame-0041.svg",
+      "sha256": "3a605bf6b456211b192e57979d86a086815e9a48f640c41546971b15a3104632"
+    },
+    {
+      "name": "frames/frame-0041.png",
+      "sha256": "48ca8c2650a74158c1f9a9d5cc9127f763bf8cecc04f60463d12714426a075a8"
+    },
+    {
+      "name": "projects/frame-0042.json",
+      "sha256": "4be453589d5dbd5abe72159b3dd9140c6b20f4eb6c87bb829783a57516aca6bb"
+    },
+    {
+      "name": "frames/frame-0042.svg",
+      "sha256": "1b910022f4ffafd7649ac79558eac2934cebaee789305aea2bfeb755338d4add"
+    },
+    {
+      "name": "frames/frame-0042.png",
+      "sha256": "b5679c60b700b9b029ec83548b4d2bc00300d3c94ec5909c7ca3633bc6eccaa7"
+    },
+    {
+      "name": "projects/frame-0043.json",
+      "sha256": "8592e16bb049f229096edf0d5e7f8e2c6e1da9e0d1637697a535998f21ac4d5e"
+    },
+    {
+      "name": "frames/frame-0043.svg",
+      "sha256": "05534da11d73b4ececefeb8efdf21903b04d14594a709c3cda344e8c59b786ce"
+    },
+    {
+      "name": "frames/frame-0043.png",
+      "sha256": "675ad1cc50b5b24886a09b4e10d51303a67617d372ece9e35d2e77e4f59f58ec"
+    },
+    {
+      "name": "projects/frame-0044.json",
+      "sha256": "9b480837d8dfff65fa0817233b958cd1d7db81e85e6e8ee5bb9aa9abaa0b8b06"
+    },
+    {
+      "name": "frames/frame-0044.svg",
+      "sha256": "436364c5db121d01441a5d7e7bd8765252e8dacf0796fd0730a676db71bd76b2"
+    },
+    {
+      "name": "frames/frame-0044.png",
+      "sha256": "e53d198f83dd03fddb59225fc5f2e3ecce6549574731d97c33596bfc0a177ecf"
+    },
+    {
+      "name": "projects/frame-0045.json",
+      "sha256": "742d0e17cce6a161754b137f16efee0cc9580ef075518c756986635a6b050092"
+    },
+    {
+      "name": "frames/frame-0045.svg",
+      "sha256": "d38f6a49db3aaab51a1f49294ba78545a7e6da5acbe550efef5738195e22100d"
+    },
+    {
+      "name": "frames/frame-0045.png",
+      "sha256": "df93b8e91bbb1693bacbe48360a0fa0f5155cf068c165c6e71322ca9730bfd34"
+    },
+    {
+      "name": "projects/frame-0046.json",
+      "sha256": "fef42e455231bbf8dc39f6d0312d0ba0b2c0200c075b4db9b0973162b8d036e7"
+    },
+    {
+      "name": "frames/frame-0046.svg",
+      "sha256": "182569dbd018e641b688febb17b894c60bb3a94243402828a5b3e8e9c7919245"
+    },
+    {
+      "name": "frames/frame-0046.png",
+      "sha256": "8ac1215bd790f400045f414a87f1e937e3347b9d7fdcd1e55f4486711f2911d1"
+    },
+    {
+      "name": "projects/frame-0047.json",
+      "sha256": "62e3e109f3713402d633ca352a1a9dbc6c0c18712c49d238ec53cc3195228da1"
+    },
+    {
+      "name": "frames/frame-0047.svg",
+      "sha256": "5b98812c576b385edb8a498693d1f4776fe0b41ac5ee60242fcaddf8d127aa8e"
+    },
+    {
+      "name": "frames/frame-0047.png",
+      "sha256": "777345d8976710772526b7e193e1f218d82a0d6e3876458e92634e54c85b308a"
+    },
+    {
+      "name": "projects/frame-0048.json",
+      "sha256": "f8f4bb7aa7f983a2c93fe0ee81f7e2b4d2f9311bf0a062cb7dddcaa43de106e2"
+    },
+    {
+      "name": "frames/frame-0048.svg",
+      "sha256": "64528f9f4df69b0a83b77e4b410855ce2405769d9daa2c80d17fea52f1d9eddb"
+    },
+    {
+      "name": "frames/frame-0048.png",
+      "sha256": "dfe961650cbac5a8f2a76e35d152336e5703a8ab868b501f5ba22207452d78b2"
+    },
+    {
+      "name": "projects/frame-0049.json",
+      "sha256": "1da46ed4ac2c8ddc23393a926410ec9645681a01b74e4f72fcf5a02a2af90fc5"
+    },
+    {
+      "name": "frames/frame-0049.svg",
+      "sha256": "9010c0923018518bca66dbb43855830c0e37ce4b3b04341a7bd2155968c4995c"
+    },
+    {
+      "name": "frames/frame-0049.png",
+      "sha256": "83821e6ae9f171d069a625ec2c3125f04f872f1b78a00fac1b15c7bb4baee271"
+    },
+    {
+      "name": "projects/frame-0050.json",
+      "sha256": "3741c3264488f8d639edc2289d4ab696cac177ec437bae9f8823a6f7922b970a"
+    },
+    {
+      "name": "frames/frame-0050.svg",
+      "sha256": "205dbfd87a75128f672f779958cb07f38ebba4f42f8c677003b073bccdc22c3c"
+    },
+    {
+      "name": "frames/frame-0050.png",
+      "sha256": "69dc4ffc669fb3220e194b4157419c3e6fcd19f507ecc589a9ee25f09380ac0d"
+    },
+    {
+      "name": "projects/frame-0051.json",
+      "sha256": "25e5a31f6a2ba6af543f58273c389658dbde46049163188c01c2cd21f66408a4"
+    },
+    {
+      "name": "frames/frame-0051.svg",
+      "sha256": "3b74d77b9a8745a5b41ac53015a8a7dbd6a639dbbd565067bcd92a50dd6b4899"
+    },
+    {
+      "name": "frames/frame-0051.png",
+      "sha256": "b8b53ef0a34ac50e8c6b5010eda4a7c36c4f9732c50cc28038c52542231f72c8"
+    },
+    {
+      "name": "projects/frame-0052.json",
+      "sha256": "d19d32a393863446dd136699d00500aec65b674226a3f56317cff073694fac47"
+    },
+    {
+      "name": "frames/frame-0052.svg",
+      "sha256": "c43621214bcc0eff64ad128bf4a36328cd0e0ea5adb493102ba69247d56fa2d3"
+    },
+    {
+      "name": "frames/frame-0052.png",
+      "sha256": "137e7226ae895ff7f98577a629d4741be46b8c828fcffc2ff4d5514dd664faf0"
+    },
+    {
+      "name": "projects/frame-0053.json",
+      "sha256": "50c32c0608bcb9bf0a26d916701f25878e2d8817adcc90964147175881e7f66c"
+    },
+    {
+      "name": "frames/frame-0053.svg",
+      "sha256": "a450156aafed1430c1bef60d65e40313abbd9eb66ff83607bb484596a49686fa"
+    },
+    {
+      "name": "frames/frame-0053.png",
+      "sha256": "8caed012ffe46db4f6816138fd544c90cce39599de07b539aa985701015e0098"
+    },
+    {
+      "name": "projects/frame-0054.json",
+      "sha256": "e0c748307c0bc91e5ea606868cdf25c9df2aebf02576d137b94b7e832cd4ad7d"
+    },
+    {
+      "name": "frames/frame-0054.svg",
+      "sha256": "2242a13e46cd44ac08dc4c8fb9de9ddbc9dc2ce31fe62f6b9b15abede3d38d43"
+    },
+    {
+      "name": "frames/frame-0054.png",
+      "sha256": "6b2b57ea9e3364daffff38c4c6f8ee44993b4f92fb0b7418764469f7c8aa508d"
+    },
+    {
+      "name": "projects/frame-0055.json",
+      "sha256": "6325a13a24dfc7879189b8098e595960d43ed4e8be129a15591e16c62cc19de3"
+    },
+    {
+      "name": "frames/frame-0055.svg",
+      "sha256": "365b482f06142e82b7d5b49e265eafab938458a292cb3d7d70ea5b53d8e001e9"
+    },
+    {
+      "name": "frames/frame-0055.png",
+      "sha256": "e0d5b6790eaef611af90f8473fdf519a0ddcbb4658acda357f4fd137107b1ec4"
+    },
+    {
+      "name": "projects/frame-0056.json",
+      "sha256": "d6439d27615547d859b9f08de3fd82cd0a6b83141971ba173165375461c15ac8"
+    },
+    {
+      "name": "frames/frame-0056.svg",
+      "sha256": "5ce4186f2cb9ff5f9cca0a0e2b52b0cd530e1e9667ad4b019fbe786069db499a"
+    },
+    {
+      "name": "frames/frame-0056.png",
+      "sha256": "d5a6ebe18cca4f74542519551027f8ea4a9804b44d972ec6819bdb0aaee4999f"
+    },
+    {
+      "name": "projects/frame-0057.json",
+      "sha256": "c7592573c27addc08367a82709bcc574f7bbeecc394e327f8dce330d620c567b"
+    },
+    {
+      "name": "frames/frame-0057.svg",
+      "sha256": "7428be04318517b1a3d3acfcc3f7970fba14e1767ea4296c41711ac8128ffd59"
+    },
+    {
+      "name": "frames/frame-0057.png",
+      "sha256": "87c21ef400ab1f2cea8caa796f22bf929010a6913eab39b9beaa24c3575b57f0"
+    },
+    {
+      "name": "projects/frame-0058.json",
+      "sha256": "4c8ff6b854e83cdea5a498d9f7d9bcafdd7ec3fab7cf332f8670263dace132dd"
+    },
+    {
+      "name": "frames/frame-0058.svg",
+      "sha256": "bfc099f0e918d06af831e17051b50ce8b42cf16a94ccf18b2e5da25a2b66ed22"
+    },
+    {
+      "name": "frames/frame-0058.png",
+      "sha256": "6c628d209a8226add311b680f4d552059d31e3ffc294f7052690276d54e30e0e"
+    },
+    {
+      "name": "projects/frame-0059.json",
+      "sha256": "7d12ba8775c98f104717e01cdc301e9bb0cfd4e09ea7ece23fd18ee452b67187"
+    },
+    {
+      "name": "frames/frame-0059.svg",
+      "sha256": "165db667e7654787dc56c5da170d25081cfc97aacfafbc8b7c5f4887df873450"
+    },
+    {
+      "name": "frames/frame-0059.png",
+      "sha256": "5ed6db2b1fbcdd457ed1130450888672dad04b1d50f7db34cd8301d640b86535"
+    },
+    {
+      "name": "projects/frame-0060.json",
+      "sha256": "9e6ab789a1436bd69d258dccfb73dccecdbdc4d9085bb4550fab9fa150e2a548"
+    },
+    {
+      "name": "frames/frame-0060.svg",
+      "sha256": "a1517033b9f05a83e7559e8c6632f3cd12b352c2374d70f85beb51fe6418e38f"
+    },
+    {
+      "name": "frames/frame-0060.png",
+      "sha256": "fc67fbf388f0adecb4b32a000e21b03c008b0481771f1c23f50c924beb32513c"
+    },
+    {
+      "name": "projects/frame-0061.json",
+      "sha256": "890e6a75cfcdf345d1d237012789cbfdffed52c8ddf0ff6665879876b9e2cb85"
+    },
+    {
+      "name": "frames/frame-0061.svg",
+      "sha256": "12b00dcce0425d28ef718c5a639b1110f5a8fe617d7b289d55003db99c1cee7f"
+    },
+    {
+      "name": "frames/frame-0061.png",
+      "sha256": "716645803d20006d90e339c73157d93ae54a8bb9ad8ff41abf11c0da1bd50039"
+    },
+    {
+      "name": "projects/frame-0062.json",
+      "sha256": "a55cbc9891500d7aa07ab9a49093df98ca0a64be27d58cb4c73489fa341f0ea3"
+    },
+    {
+      "name": "frames/frame-0062.svg",
+      "sha256": "d7e992f9d86d730d61de6d6f924f345d4b56109041cd649e6d0678307249e721"
+    },
+    {
+      "name": "frames/frame-0062.png",
+      "sha256": "61d107a6990e537bdbbecf0e06211d7ae84c99a6798404f47ebef6ae12dd3fed"
+    },
+    {
+      "name": "projects/frame-0063.json",
+      "sha256": "ac37a5074cb0d834580d5fede4845e8c72f38ea0e56a06cbd99da4613b10a9ad"
+    },
+    {
+      "name": "frames/frame-0063.svg",
+      "sha256": "f54b796b2f1bc30fd45aede0afb9925764602ffdd92fa914e64bb66a99faecdd"
+    },
+    {
+      "name": "frames/frame-0063.png",
+      "sha256": "21dfcf4165ef0f8aa4df1a84626f07a9fa4d2eb65972f98b7937a98867fda323"
+    },
+    {
+      "name": "projects/frame-0064.json",
+      "sha256": "da6ecc69fd5734b2928c7502ee76f143ed6a4310b9595c9122adefbc38426c47"
+    },
+    {
+      "name": "frames/frame-0064.svg",
+      "sha256": "85032aa5ca954ed67d9897464d12abc9b937e5b607fa98d7af5abc127510db40"
+    },
+    {
+      "name": "frames/frame-0064.png",
+      "sha256": "0f104d84547dbff06e7f2b2f53b0523cb0163fdb36d3ebb78f577b35a51112f3"
+    },
+    {
+      "name": "projects/frame-0065.json",
+      "sha256": "37db3230645097608b3e9d0453f2fd51bb5771795f0715724054b8533410ca76"
+    },
+    {
+      "name": "frames/frame-0065.svg",
+      "sha256": "48dd7d4729e2022b5b2320700f143c72b898972d5453a90080fb787644a8a5d9"
+    },
+    {
+      "name": "frames/frame-0065.png",
+      "sha256": "498dfb84fe5ded51f01edd32383f2abc5a58ab601fdaf4a7ca6d37edd284c9e5"
+    },
+    {
+      "name": "projects/frame-0066.json",
+      "sha256": "4ffe27d2d4c9fba4ea0c26ccf7262de5bf630241ea161bf01552e03bc48c7a5b"
+    },
+    {
+      "name": "frames/frame-0066.svg",
+      "sha256": "2af21091ebcc1699bef785ade5e515a63f8a505ccba4b0a477a6f8b1ddd8cae1"
+    },
+    {
+      "name": "frames/frame-0066.png",
+      "sha256": "aafb55ea4a4cbc7d0ced80e46f4ec41622c883427fd240288ad2447a225f9482"
+    },
+    {
+      "name": "projects/frame-0067.json",
+      "sha256": "3fa5fb96e002ab5423847906b27fe01155550e62072f6d727a6f38443474e127"
+    },
+    {
+      "name": "frames/frame-0067.svg",
+      "sha256": "e9f41cf95e8a55154687c40d9820c1c7fcc61faab57bf396749dedf946aad0ef"
+    },
+    {
+      "name": "frames/frame-0067.png",
+      "sha256": "efcce8fe0c21c05129ce129bf087aeacdcca9413438dfc59d5f0c0b2db13a4e3"
+    },
+    {
+      "name": "projects/frame-0068.json",
+      "sha256": "d7418e7cc5fbc79ee8ecf5d4c1b1b85b6622689e35a72f56bc0693da1596cbf9"
+    },
+    {
+      "name": "frames/frame-0068.svg",
+      "sha256": "179aa5cd024ecaa623d6f82d16930a5df71660c0639c961499c3ecd286e3bd51"
+    },
+    {
+      "name": "frames/frame-0068.png",
+      "sha256": "771cfd9a862510cda02c0119f507ad373634f767b3101bd249285e3c14a9ee0f"
+    },
+    {
+      "name": "source-manifest.json",
+      "sha256": "a9b30995d018e27e7edcb39a77c659415f5827f51ed3307ea1e63e82899f6fc9"
+    },
+    {
+      "name": "manifest.json",
+      "sha256": "19d6b76be7e1ce3a3bb5eb0d5723ac2fd241aa94c40ddbf90ee5621310155b69"
+    },
+    {
+      "name": "contact-sheet.svg",
+      "sha256": "2ff4aa57625c38fc30a555c976138be1f48f56efcc09647fe8fa9ab435d64cdd"
+    },
+    {
+      "name": "contact-sheet.png",
+      "sha256": "733146d0d29c450cfb7f413486c92a93e16c84697116e082bc0c01588d5998c0"
+    }
+  ],
+  "warnings": [
+    {
+      "file": "frames/frame-0000.svg",
+      "message": "(inkscape.com:31408): Gdk-CRITICAL **: 17:57:22.677: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:31408): Gdk-CRITICAL **: 17:57:22.809: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0001.svg",
+      "message": "(inkscape.com:15824): Gdk-CRITICAL **: 17:57:24.933: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:15824): Gdk-CRITICAL **: 17:57:25.066: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0002.svg",
+      "message": "(inkscape.com:17436): Gdk-CRITICAL **: 17:57:27.179: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:17436): Gdk-CRITICAL **: 17:57:27.311: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0003.svg",
+      "message": "(inkscape.com:37180): Gdk-CRITICAL **: 17:57:29.405: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:37180): Gdk-CRITICAL **: 17:57:29.537: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0004.svg",
+      "message": "(inkscape.com:8172): Gdk-CRITICAL **: 17:57:31.646: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:8172): Gdk-CRITICAL **: 17:57:31.776: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0005.svg",
+      "message": "(inkscape.com:10548): Gdk-CRITICAL **: 17:57:33.884: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:10548): Gdk-CRITICAL **: 17:57:34.014: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0006.svg",
+      "message": "(inkscape.com:10028): Gdk-CRITICAL **: 17:57:36.139: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:10028): Gdk-CRITICAL **: 17:57:36.269: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0007.svg",
+      "message": "(inkscape.com:31716): Gdk-CRITICAL **: 17:57:38.373: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:31716): Gdk-CRITICAL **: 17:57:38.504: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0008.svg",
+      "message": "(inkscape.com:25704): Gdk-CRITICAL **: 17:57:40.603: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:25704): Gdk-CRITICAL **: 17:57:40.733: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0009.svg",
+      "message": "(inkscape.com:4004): Gdk-CRITICAL **: 17:57:42.832: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:4004): Gdk-CRITICAL **: 17:57:42.962: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    }
+  ]
+}

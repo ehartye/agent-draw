@@ -1,0 +1,1621 @@
+{
+  "schemaVersion": 1,
+  "tool": "agent-draw",
+  "version": "0.4.1",
+  "kind": "sequence",
+  "ok": true,
+  "name": "eight-direction-rear-feet-0",
+  "width": 640,
+  "height": 640,
+  "fps": 8,
+  "frames": 69,
+  "durationSeconds": 8.625,
+  "loop": false,
+  "seam": {
+    "closed": null,
+    "method": "not automatically proven for independently drawn poses",
+    "requiresVisualReview": true
+  },
+  "formats": [
+    "svg",
+    "png"
+  ],
+  "source": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\sequence-eight-rear-fixes-0.json",
+  "sourceSha256": "b07bc28e5710db0f54b390bf0f78767df8ff49b6829e50e506e6bbb4236a9ed9",
+  "sourceFrames": [
+    {
+      "index": 0,
+      "path": "projects/human-neutral-NE.json",
+      "project": "projects/frame-0000.json",
+      "svg": "frames/frame-0000.svg",
+      "png": "frames/frame-0000.png",
+      "sha256": "e1b1567a992c0a8f587dd3790f89c423c1cb225a38e5849e7a54d62e52e5a301",
+      "bytes": 18590
+    },
+    {
+      "index": 1,
+      "path": "projects/human-walk-contact-NE.json",
+      "project": "projects/frame-0001.json",
+      "svg": "frames/frame-0001.svg",
+      "png": "frames/frame-0001.png",
+      "sha256": "2c08910657fa995e7e770fe1f973d4c3cb60e3736e28b5da47988267e39fc94e",
+      "bytes": 18764
+    },
+    {
+      "index": 2,
+      "path": "projects/human-walk-pass-NE.json",
+      "project": "projects/frame-0002.json",
+      "svg": "frames/frame-0002.svg",
+      "png": "frames/frame-0002.png",
+      "sha256": "bcc09d1a8bf13ee8ce5820dd2ec8c48854ef2c65a28dac9a436ef995388b3d23",
+      "bytes": 18745
+    },
+    {
+      "index": 3,
+      "path": "projects/human-run-push-NE.json",
+      "project": "projects/frame-0003.json",
+      "svg": "frames/frame-0003.svg",
+      "png": "frames/frame-0003.png",
+      "sha256": "661d29a350f2abc371978d392d61580aad3cde714ccc14697cc8d20fbd621828",
+      "bytes": 18766
+    },
+    {
+      "index": 4,
+      "path": "projects/human-run-flight-NE.json",
+      "project": "projects/frame-0004.json",
+      "svg": "frames/frame-0004.svg",
+      "png": "frames/frame-0004.png",
+      "sha256": "e044d2f0e916986be76b1a8200d25bd9255df65bb4db9112214599102e5d3b44",
+      "bytes": 18758
+    },
+    {
+      "index": 5,
+      "path": "projects/human-jump-NE.json",
+      "project": "projects/frame-0005.json",
+      "svg": "frames/frame-0005.svg",
+      "png": "frames/frame-0005.png",
+      "sha256": "e5402fd528110f07cf4dace50e0b921e73208355b18a07e623de7823cea37fbc",
+      "bytes": 18744
+    },
+    {
+      "index": 6,
+      "path": "projects/human-crouch-NE.json",
+      "project": "projects/frame-0006.json",
+      "svg": "frames/frame-0006.svg",
+      "png": "frames/frame-0006.png",
+      "sha256": "51bad0a723dfca8db0458290f09dec503b241e4469f3553322019ba9211cc4ce",
+      "bytes": 18747
+    },
+    {
+      "index": 7,
+      "path": "projects/human-reach-NE.json",
+      "project": "projects/frame-0007.json",
+      "svg": "frames/frame-0007.svg",
+      "png": "frames/frame-0007.png",
+      "sha256": "7b5e1b30595f9bceb20aeface6ee9926bfb2d17814f195c4404dabd07cdf3602",
+      "bytes": 18740
+    },
+    {
+      "index": 8,
+      "path": "projects/human-walk-NE-00.json",
+      "project": "projects/frame-0008.json",
+      "svg": "frames/frame-0008.svg",
+      "png": "frames/frame-0008.png",
+      "sha256": "9cab51905f841c8065e9fd4f9c6599e97449e779ce96145a75ddce9d1adf4ace",
+      "bytes": 18770
+    },
+    {
+      "index": 9,
+      "path": "projects/human-walk-NE-01.json",
+      "project": "projects/frame-0009.json",
+      "svg": "frames/frame-0009.svg",
+      "png": "frames/frame-0009.png",
+      "sha256": "65b0c0b45a7297db4197b7ba86b0752edc913ee7dc1cc88ad7bcb8fad912504f",
+      "bytes": 18771
+    },
+    {
+      "index": 10,
+      "path": "projects/human-walk-NE-02.json",
+      "project": "projects/frame-0010.json",
+      "svg": "frames/frame-0010.svg",
+      "png": "frames/frame-0010.png",
+      "sha256": "6c8df1fbed243e9c66795cb54960e658ce0464401ed242ec22c61e608d8b916e",
+      "bytes": 18747
+    },
+    {
+      "index": 11,
+      "path": "projects/human-walk-NE-03.json",
+      "project": "projects/frame-0011.json",
+      "svg": "frames/frame-0011.svg",
+      "png": "frames/frame-0011.png",
+      "sha256": "a09b09ac3805e8efd1ab944ef6108bf64fb13bac6142f568f7b7a82f55dc70ea",
+      "bytes": 18754
+    },
+    {
+      "index": 12,
+      "path": "projects/human-walk-NE-04.json",
+      "project": "projects/frame-0012.json",
+      "svg": "frames/frame-0012.svg",
+      "png": "frames/frame-0012.png",
+      "sha256": "c6756342e6cd1958fa56cdf0ce31f6ff831daa8422685a2e6b512086ce7d9aaf",
+      "bytes": 18750
+    },
+    {
+      "index": 13,
+      "path": "projects/human-walk-NE-05.json",
+      "project": "projects/frame-0013.json",
+      "svg": "frames/frame-0013.svg",
+      "png": "frames/frame-0013.png",
+      "sha256": "3160387149ad153822e288a63f4532891e1fddc497688eff9595215488eab47b",
+      "bytes": 18765
+    },
+    {
+      "index": 14,
+      "path": "projects/human-walk-NE-06.json",
+      "project": "projects/frame-0014.json",
+      "svg": "frames/frame-0014.svg",
+      "png": "frames/frame-0014.png",
+      "sha256": "922e1e74c88c4cd27e6853567b4be88b893cea2b482f1b358e79f789e52b081b",
+      "bytes": 18752
+    },
+    {
+      "index": 15,
+      "path": "projects/human-walk-NE-07.json",
+      "project": "projects/frame-0015.json",
+      "svg": "frames/frame-0015.svg",
+      "png": "frames/frame-0015.png",
+      "sha256": "f467c42c7bb4f3ef4c91eb18316fc7926e29ac010fccdef5ea7730fb078bb1b4",
+      "bytes": 18764
+    },
+    {
+      "index": 16,
+      "path": "projects/human-run-NE-01.json",
+      "project": "projects/frame-0016.json",
+      "svg": "frames/frame-0016.svg",
+      "png": "frames/frame-0016.png",
+      "sha256": "1cc0b22ecbf99e89a9de869f37b947cdb696c06c155622d4e4a8aefb72dc39fe",
+      "bytes": 18756
+    },
+    {
+      "index": 17,
+      "path": "projects/human-run-NE-02.json",
+      "project": "projects/frame-0017.json",
+      "svg": "frames/frame-0017.svg",
+      "png": "frames/frame-0017.png",
+      "sha256": "cb55f0f50c2233f51b85a827f0dda922598a3eaa2466ed035c3cfe7a903cdb28",
+      "bytes": 18765
+    },
+    {
+      "index": 18,
+      "path": "projects/human-run-NE-03.json",
+      "project": "projects/frame-0018.json",
+      "svg": "frames/frame-0018.svg",
+      "png": "frames/frame-0018.png",
+      "sha256": "11d1723d47de11ef0b8839dbfcf222ff2d1130c823fd82da6f10e2a312ed4d7d",
+      "bytes": 18748
+    },
+    {
+      "index": 19,
+      "path": "projects/human-run-NE-04.json",
+      "project": "projects/frame-0019.json",
+      "svg": "frames/frame-0019.svg",
+      "png": "frames/frame-0019.png",
+      "sha256": "a6769f72de6e9cf7df1064c1297bb5431896e0fb865013be2c1cbc9df44fac52",
+      "bytes": 18758
+    },
+    {
+      "index": 20,
+      "path": "projects/human-run-NE-05.json",
+      "project": "projects/frame-0020.json",
+      "svg": "frames/frame-0020.svg",
+      "png": "frames/frame-0020.png",
+      "sha256": "e7c93f965622238232bc2a90f319ca016aa89b797e49b5040a078ee5806d22b4",
+      "bytes": 18761
+    },
+    {
+      "index": 21,
+      "path": "projects/human-run-NE-06.json",
+      "project": "projects/frame-0021.json",
+      "svg": "frames/frame-0021.svg",
+      "png": "frames/frame-0021.png",
+      "sha256": "7e1567920c045c99c5ed721e40ca804993fdc2997d57e82b2fe2005d11b3ac7d",
+      "bytes": 18753
+    },
+    {
+      "index": 22,
+      "path": "projects/human-run-NE-07.json",
+      "project": "projects/frame-0022.json",
+      "svg": "frames/frame-0022.svg",
+      "png": "frames/frame-0022.png",
+      "sha256": "bbae5c3c1c9354fcfaf7c4e473231af047888e8dd6781ebcd466bd78fb2e5eab",
+      "bytes": 18760
+    },
+    {
+      "index": 23,
+      "path": "projects/human-neutral-N.json",
+      "project": "projects/frame-0023.json",
+      "svg": "frames/frame-0023.svg",
+      "png": "frames/frame-0023.png",
+      "sha256": "30529089da45fbc62b67c4c86ad9c4caf8ab0e2a9d823affe6bc7ab8866b9974",
+      "bytes": 18126
+    },
+    {
+      "index": 24,
+      "path": "projects/human-walk-contact-N.json",
+      "project": "projects/frame-0024.json",
+      "svg": "frames/frame-0024.svg",
+      "png": "frames/frame-0024.png",
+      "sha256": "e10967aacc9123c4b88971b96497bb212ddfaf4f1c9ab0c874b8c7109276932d",
+      "bytes": 18262
+    },
+    {
+      "index": 25,
+      "path": "projects/human-walk-pass-N.json",
+      "project": "projects/frame-0025.json",
+      "svg": "frames/frame-0025.svg",
+      "png": "frames/frame-0025.png",
+      "sha256": "9d883d372ed44fae3dc048b69f9593e839d7f99baa619273e764f90162b36578",
+      "bytes": 18246
+    },
+    {
+      "index": 26,
+      "path": "projects/human-run-push-N.json",
+      "project": "projects/frame-0026.json",
+      "svg": "frames/frame-0026.svg",
+      "png": "frames/frame-0026.png",
+      "sha256": "6ee78de832be5fee6dcbbcbb26901fbbdb279f81a95cf2cfaf31e53b16b0ca04",
+      "bytes": 19474
+    },
+    {
+      "index": 27,
+      "path": "projects/human-run-flight-N.json",
+      "project": "projects/frame-0027.json",
+      "svg": "frames/frame-0027.svg",
+      "png": "frames/frame-0027.png",
+      "sha256": "d31df7845ac4e75891d955e7d380bd4e9dde195d2b617266fc000d5107e8ad7b",
+      "bytes": 20183
+    },
+    {
+      "index": 28,
+      "path": "projects/human-jump-N.json",
+      "project": "projects/frame-0028.json",
+      "svg": "frames/frame-0028.svg",
+      "png": "frames/frame-0028.png",
+      "sha256": "2bea3fe5e9d9a61c69cca1b9ae3466d4c0a9676ca714ff4e95726ce74e9fa37d",
+      "bytes": 19476
+    },
+    {
+      "index": 29,
+      "path": "projects/human-crouch-N.json",
+      "project": "projects/frame-0029.json",
+      "svg": "frames/frame-0029.svg",
+      "png": "frames/frame-0029.png",
+      "sha256": "e8d43ae9305181c1bdac2272deb36c518265089e7f7f4e49b08c3e419cc42828",
+      "bytes": 19471
+    },
+    {
+      "index": 30,
+      "path": "projects/human-reach-N.json",
+      "project": "projects/frame-0030.json",
+      "svg": "frames/frame-0030.svg",
+      "png": "frames/frame-0030.png",
+      "sha256": "0ffbf432c1dfbf826fc7771276495ee192a2504251b9bfaa5c140e61703f51b3",
+      "bytes": 18234
+    },
+    {
+      "index": 31,
+      "path": "projects/human-walk-N-00.json",
+      "project": "projects/frame-0031.json",
+      "svg": "frames/frame-0031.svg",
+      "png": "frames/frame-0031.png",
+      "sha256": "27c20ac1b6a590dc25a693d19f19e0af56bf303d2445a9b62b8b82da7f14768b",
+      "bytes": 18261
+    },
+    {
+      "index": 32,
+      "path": "projects/human-walk-N-01.json",
+      "project": "projects/frame-0032.json",
+      "svg": "frames/frame-0032.svg",
+      "png": "frames/frame-0032.png",
+      "sha256": "de92da9356c6a12b1cfaf8b5c1807dda123f98054b31de61002f9d1c601180ca",
+      "bytes": 18260
+    },
+    {
+      "index": 33,
+      "path": "projects/human-walk-N-02.json",
+      "project": "projects/frame-0033.json",
+      "svg": "frames/frame-0033.svg",
+      "png": "frames/frame-0033.png",
+      "sha256": "b4f94e58a0aa620235a5dcf90c3c4df4a39fc14311506791dfc1fb724d616a5e",
+      "bytes": 18261
+    },
+    {
+      "index": 34,
+      "path": "projects/human-walk-N-03.json",
+      "project": "projects/frame-0034.json",
+      "svg": "frames/frame-0034.svg",
+      "png": "frames/frame-0034.png",
+      "sha256": "325aaff2c98dc15343522178d3b462c5f24bcbec054561e830796b21f22767d3",
+      "bytes": 18265
+    },
+    {
+      "index": 35,
+      "path": "projects/human-walk-N-04.json",
+      "project": "projects/frame-0035.json",
+      "svg": "frames/frame-0035.svg",
+      "png": "frames/frame-0035.png",
+      "sha256": "b577875b75a48ad11a25992feaaa8f5afb3b9a979e907bfee0981060e93c8ee6",
+      "bytes": 18261
+    },
+    {
+      "index": 36,
+      "path": "projects/human-walk-N-05.json",
+      "project": "projects/frame-0036.json",
+      "svg": "frames/frame-0036.svg",
+      "png": "frames/frame-0036.png",
+      "sha256": "a73b4bfcc45d4bdb9807ac10f4f882d898149743baa8039e5f1adfbdcc8d29b2",
+      "bytes": 18260
+    },
+    {
+      "index": 37,
+      "path": "projects/human-walk-N-06.json",
+      "project": "projects/frame-0037.json",
+      "svg": "frames/frame-0037.svg",
+      "png": "frames/frame-0037.png",
+      "sha256": "2af024d2baf53ade41064e66534029b97d79445793b309433dadf0027825bea3",
+      "bytes": 18261
+    },
+    {
+      "index": 38,
+      "path": "projects/human-walk-N-07.json",
+      "project": "projects/frame-0038.json",
+      "svg": "frames/frame-0038.svg",
+      "png": "frames/frame-0038.png",
+      "sha256": "62f0b2463f40e697841026dce906a0b6d519a616e250bc418a5707563131101d",
+      "bytes": 18265
+    },
+    {
+      "index": 39,
+      "path": "projects/human-run-N-01.json",
+      "project": "projects/frame-0039.json",
+      "svg": "frames/frame-0039.svg",
+      "png": "frames/frame-0039.png",
+      "sha256": "89afc49734d39f694bda18aeb83fd0a57bec299ae023b0c2142b662db849c6fd",
+      "bytes": 19474
+    },
+    {
+      "index": 40,
+      "path": "projects/human-run-N-02.json",
+      "project": "projects/frame-0040.json",
+      "svg": "frames/frame-0040.svg",
+      "png": "frames/frame-0040.png",
+      "sha256": "cc06bfe20bda3ddade081b7c0ee73eb6964c93d486a05e809d67c0ab0db0c3ed",
+      "bytes": 18250
+    },
+    {
+      "index": 41,
+      "path": "projects/human-run-N-03.json",
+      "project": "projects/frame-0041.json",
+      "svg": "frames/frame-0041.svg",
+      "png": "frames/frame-0041.png",
+      "sha256": "e4b07b5c7f832cd617edb4a3f9a1788ed7443b5d22d8e9bb4c1387fad704c256",
+      "bytes": 19494
+    },
+    {
+      "index": 42,
+      "path": "projects/human-run-N-04.json",
+      "project": "projects/frame-0042.json",
+      "svg": "frames/frame-0042.svg",
+      "png": "frames/frame-0042.png",
+      "sha256": "b049361e0a49f10025a2e00bd83f75ead7d6e4e786833ab1f787e8cb0e6b02e8",
+      "bytes": 19484
+    },
+    {
+      "index": 43,
+      "path": "projects/human-run-N-05.json",
+      "project": "projects/frame-0043.json",
+      "svg": "frames/frame-0043.svg",
+      "png": "frames/frame-0043.png",
+      "sha256": "1c3a5725968ad92cbf970feefe8026cd62482b4154e6645761584128ac76744a",
+      "bytes": 19473
+    },
+    {
+      "index": 44,
+      "path": "projects/human-run-N-06.json",
+      "project": "projects/frame-0044.json",
+      "svg": "frames/frame-0044.svg",
+      "png": "frames/frame-0044.png",
+      "sha256": "6ab8ea9d032edeb5f6bafcf769f194f8002c91b303bb7f83127a7845807a5740",
+      "bytes": 18250
+    },
+    {
+      "index": 45,
+      "path": "projects/human-run-N-07.json",
+      "project": "projects/frame-0045.json",
+      "svg": "frames/frame-0045.svg",
+      "png": "frames/frame-0045.png",
+      "sha256": "f47cdc372f0d840238985c49fe8254bdedc3010b76afddefcd1d7ef4d2438135",
+      "bytes": 19495
+    },
+    {
+      "index": 46,
+      "path": "projects/human-neutral-NW.json",
+      "project": "projects/frame-0046.json",
+      "svg": "frames/frame-0046.svg",
+      "png": "frames/frame-0046.png",
+      "sha256": "ff32d1cc442c8aaca8fbd3ec6311fc4f38bf2dbbf1c19f368a87161c817cd026",
+      "bytes": 18592
+    },
+    {
+      "index": 47,
+      "path": "projects/human-walk-contact-NW.json",
+      "project": "projects/frame-0047.json",
+      "svg": "frames/frame-0047.svg",
+      "png": "frames/frame-0047.png",
+      "sha256": "d7335a043eed67fda1f3a6c867e2b5f215b5dd30389867f6c8e8beb93eafdc5c",
+      "bytes": 18759
+    },
+    {
+      "index": 48,
+      "path": "projects/human-walk-pass-NW.json",
+      "project": "projects/frame-0048.json",
+      "svg": "frames/frame-0048.svg",
+      "png": "frames/frame-0048.png",
+      "sha256": "4580647b896facdb4571c8cab462b5022f0e37f4d2b83a54db1be67dc7c76fbb",
+      "bytes": 18753
+    },
+    {
+      "index": 49,
+      "path": "projects/human-run-push-NW.json",
+      "project": "projects/frame-0049.json",
+      "svg": "frames/frame-0049.svg",
+      "png": "frames/frame-0049.png",
+      "sha256": "ee77acf2d1d4c42da189d2cc13c9f3509750b10377c210069a9cbb10c368a574",
+      "bytes": 18767
+    },
+    {
+      "index": 50,
+      "path": "projects/human-run-flight-NW.json",
+      "project": "projects/frame-0050.json",
+      "svg": "frames/frame-0050.svg",
+      "png": "frames/frame-0050.png",
+      "sha256": "8177915ea4d7a46e1bc6c8903e8b62048a7f9adaad2f170a0007e5178f42dcc4",
+      "bytes": 18767
+    },
+    {
+      "index": 51,
+      "path": "projects/human-jump-NW.json",
+      "project": "projects/frame-0051.json",
+      "svg": "frames/frame-0051.svg",
+      "png": "frames/frame-0051.png",
+      "sha256": "9d5db0f841e9b119e8ed430c87179749928116eda6d60fb3a71765c1a6482a7c",
+      "bytes": 18752
+    },
+    {
+      "index": 52,
+      "path": "projects/human-crouch-NW.json",
+      "project": "projects/frame-0052.json",
+      "svg": "frames/frame-0052.svg",
+      "png": "frames/frame-0052.png",
+      "sha256": "ce565c7552bd26fb3c8c5b85e4a8c4972ad72e2a0cf99d8cbe391af54499880a",
+      "bytes": 18737
+    },
+    {
+      "index": 53,
+      "path": "projects/human-reach-NW.json",
+      "project": "projects/frame-0053.json",
+      "svg": "frames/frame-0053.svg",
+      "png": "frames/frame-0053.png",
+      "sha256": "cd7cb17ce74a76dfb75e62afdbc2c7db0ffc259df30890bc128fef013e8f6a75",
+      "bytes": 18727
+    },
+    {
+      "index": 54,
+      "path": "projects/human-walk-NW-00.json",
+      "project": "projects/frame-0054.json",
+      "svg": "frames/frame-0054.svg",
+      "png": "frames/frame-0054.png",
+      "sha256": "b025ad066a6a9f4a6aad55665ddd35f047ba2479ec9618c77431edda986e1b4e",
+      "bytes": 18749
+    },
+    {
+      "index": 55,
+      "path": "projects/human-walk-NW-01.json",
+      "project": "projects/frame-0055.json",
+      "svg": "frames/frame-0055.svg",
+      "png": "frames/frame-0055.png",
+      "sha256": "acdf49efb94279af661993b7ef22f7217151df4acdace504fc389332a6df9226",
+      "bytes": 18765
+    },
+    {
+      "index": 56,
+      "path": "projects/human-walk-NW-02.json",
+      "project": "projects/frame-0056.json",
+      "svg": "frames/frame-0056.svg",
+      "png": "frames/frame-0056.png",
+      "sha256": "de673c47fe1d738541160ba9087ff3727a160317311b9e22ebcbef9041d70b63",
+      "bytes": 18751
+    },
+    {
+      "index": 57,
+      "path": "projects/human-walk-NW-03.json",
+      "project": "projects/frame-0057.json",
+      "svg": "frames/frame-0057.svg",
+      "png": "frames/frame-0057.png",
+      "sha256": "99fac4d803aa252c2613360ca4da153bbc8df9570cf4c83abc9823d2211f18e3",
+      "bytes": 18764
+    },
+    {
+      "index": 58,
+      "path": "projects/human-walk-NW-04.json",
+      "project": "projects/frame-0058.json",
+      "svg": "frames/frame-0058.svg",
+      "png": "frames/frame-0058.png",
+      "sha256": "f779e9f3030150c793b07ee391111bbac0d332118292e5b2ae18dbbbc2d76061",
+      "bytes": 18767
+    },
+    {
+      "index": 59,
+      "path": "projects/human-walk-NW-05.json",
+      "project": "projects/frame-0059.json",
+      "svg": "frames/frame-0059.svg",
+      "png": "frames/frame-0059.png",
+      "sha256": "677bd50d104903169c95f6152cfa38d2f6353c5da8e9a596dbb9e91ce54c2688",
+      "bytes": 18769
+    },
+    {
+      "index": 60,
+      "path": "projects/human-walk-NW-06.json",
+      "project": "projects/frame-0060.json",
+      "svg": "frames/frame-0060.svg",
+      "png": "frames/frame-0060.png",
+      "sha256": "1f718c50f12113ce4187016dc891de8db8793bac3568d40074b8a7b691f6b4db",
+      "bytes": 18745
+    },
+    {
+      "index": 61,
+      "path": "projects/human-walk-NW-07.json",
+      "project": "projects/frame-0061.json",
+      "svg": "frames/frame-0061.svg",
+      "png": "frames/frame-0061.png",
+      "sha256": "ac9ff33af9605c5f72b8dc3ce18a9d6a92f6e479577ac1a2b479a00800fb38ec",
+      "bytes": 18755
+    },
+    {
+      "index": 62,
+      "path": "projects/human-run-NW-01.json",
+      "project": "projects/frame-0062.json",
+      "svg": "frames/frame-0062.svg",
+      "png": "frames/frame-0062.png",
+      "sha256": "906b64d76d8dd0fe19ad9810ac834b66fea5cfbe20823271c256cd828f424019",
+      "bytes": 18832
+    },
+    {
+      "index": 63,
+      "path": "projects/human-run-NW-02.json",
+      "project": "projects/frame-0063.json",
+      "svg": "frames/frame-0063.svg",
+      "png": "frames/frame-0063.png",
+      "sha256": "e59a5c6151732b89f6acfb1fff626779688043e46b5b6fc1940f5a540981dfb7",
+      "bytes": 18751
+    },
+    {
+      "index": 64,
+      "path": "projects/human-run-NW-03.json",
+      "project": "projects/frame-0064.json",
+      "svg": "frames/frame-0064.svg",
+      "png": "frames/frame-0064.png",
+      "sha256": "70880aaf3aea76fbb12885d0cefd953f9494c750b2d54c83b44b9c963a426ea2",
+      "bytes": 18759
+    },
+    {
+      "index": 65,
+      "path": "projects/human-run-NW-04.json",
+      "project": "projects/frame-0065.json",
+      "svg": "frames/frame-0065.svg",
+      "png": "frames/frame-0065.png",
+      "sha256": "986a71b05d8d414c9e7f4d918c62516b1e31a132285c0494ded506a3cc34040b",
+      "bytes": 18836
+    },
+    {
+      "index": 66,
+      "path": "projects/human-run-NW-05.json",
+      "project": "projects/frame-0066.json",
+      "svg": "frames/frame-0066.svg",
+      "png": "frames/frame-0066.png",
+      "sha256": "7e47c62f15448e2d1dd7f03be057e593799e03ac20591f9f097ff2c6296fbb51",
+      "bytes": 18826
+    },
+    {
+      "index": 67,
+      "path": "projects/human-run-NW-06.json",
+      "project": "projects/frame-0067.json",
+      "svg": "frames/frame-0067.svg",
+      "png": "frames/frame-0067.png",
+      "sha256": "1fbc71038fcef1f7a53c94fd0922b6f18cdf5197aacea5cf0c9545c80d2ff561",
+      "bytes": 18764
+    },
+    {
+      "index": 68,
+      "path": "projects/human-run-NW-07.json",
+      "project": "projects/frame-0068.json",
+      "svg": "frames/frame-0068.svg",
+      "png": "frames/frame-0068.png",
+      "sha256": "12d3dc2fe85ef702d940cbe8e9ad6c372792efbbdf5e47684086ead36c8d6bba",
+      "bytes": 18745
+    }
+  ],
+  "manifest": "manifest.json",
+  "sourceManifest": "source-manifest.json",
+  "inputBytes": 1296846,
+  "contactSheetFrames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68
+  ],
+  "contactSheet": {
+    "width": 1644,
+    "height": 2064,
+    "columns": 8,
+    "rows": 9
+  },
+  "inkscape": "Inkscape 1.4.3 (0d15f75, 2025-12-25)",
+  "limitations": [
+    "Each frame uses its authored geometry. No interpolation, generated in-betweens, or automatic pose/foot registration.",
+    "Loop is playback intent; review the last-to-first transition visually. Matching first and last drawings is not required."
+  ],
+  "artifacts": [
+    {
+      "name": "projects/frame-0000.json",
+      "sha256": "e1b1567a992c0a8f587dd3790f89c423c1cb225a38e5849e7a54d62e52e5a301"
+    },
+    {
+      "name": "frames/frame-0000.svg",
+      "sha256": "3994638f61ecc30b5b78a626f384f347a9e713ca4185fcc2d53d58360b6a1f37"
+    },
+    {
+      "name": "frames/frame-0000.png",
+      "sha256": "2bf3d7ebddb9281a865ce3b68a2816d9e56e95aad3dae03e795f705206e4b3cf"
+    },
+    {
+      "name": "projects/frame-0001.json",
+      "sha256": "2c08910657fa995e7e770fe1f973d4c3cb60e3736e28b5da47988267e39fc94e"
+    },
+    {
+      "name": "frames/frame-0001.svg",
+      "sha256": "aaf464c4c4510800efaf0beaf7b20f459a68bcb6cf2659304f2d4d3b4264d263"
+    },
+    {
+      "name": "frames/frame-0001.png",
+      "sha256": "b7b0867536556d3e9e7874bbf85763e6d34b39164249aff4187b7bf08995ecc9"
+    },
+    {
+      "name": "projects/frame-0002.json",
+      "sha256": "bcc09d1a8bf13ee8ce5820dd2ec8c48854ef2c65a28dac9a436ef995388b3d23"
+    },
+    {
+      "name": "frames/frame-0002.svg",
+      "sha256": "e4edb3a0d803674a7ca0c30cf05fae4e8a85a818252ebc0a69738b724bb9260e"
+    },
+    {
+      "name": "frames/frame-0002.png",
+      "sha256": "ca3e62f052540981503d3cd59cae25dfd12119342b63e26dfbf168e9044536cd"
+    },
+    {
+      "name": "projects/frame-0003.json",
+      "sha256": "661d29a350f2abc371978d392d61580aad3cde714ccc14697cc8d20fbd621828"
+    },
+    {
+      "name": "frames/frame-0003.svg",
+      "sha256": "093b87b9f1e4b0400ea39b361993e79577f8b57275e024cddbf273cf9e145528"
+    },
+    {
+      "name": "frames/frame-0003.png",
+      "sha256": "35302618ca252faacf2508a60a7c77f97024a56cf4e77ee41d3da7df179c22b9"
+    },
+    {
+      "name": "projects/frame-0004.json",
+      "sha256": "e044d2f0e916986be76b1a8200d25bd9255df65bb4db9112214599102e5d3b44"
+    },
+    {
+      "name": "frames/frame-0004.svg",
+      "sha256": "a0b1326e7f60f584c31684e99e6b7ca300d9a063e763bee7d0004d86bb75bb71"
+    },
+    {
+      "name": "frames/frame-0004.png",
+      "sha256": "b96da1d885ed4c3c0b0888731a5f95da10b2ae6ab6f48e0fc6508bba200fdf07"
+    },
+    {
+      "name": "projects/frame-0005.json",
+      "sha256": "e5402fd528110f07cf4dace50e0b921e73208355b18a07e623de7823cea37fbc"
+    },
+    {
+      "name": "frames/frame-0005.svg",
+      "sha256": "919645390ff8a34095bc1fb6c7988897760eb90d0ab5a5ad5dc8c6ab7b85cc67"
+    },
+    {
+      "name": "frames/frame-0005.png",
+      "sha256": "b68d995cade7305e6439aba22bcd800a5238d666f68864fcad2a279ca8dc9128"
+    },
+    {
+      "name": "projects/frame-0006.json",
+      "sha256": "51bad0a723dfca8db0458290f09dec503b241e4469f3553322019ba9211cc4ce"
+    },
+    {
+      "name": "frames/frame-0006.svg",
+      "sha256": "9b153859ccec351e417d78d8619c3a36ba72d4e49562f248be7d9e3f6b295a8a"
+    },
+    {
+      "name": "frames/frame-0006.png",
+      "sha256": "ab4b5d9791fe72b0f528ceaac0718a33a17cf0bc1014d4953319388453d4d9e1"
+    },
+    {
+      "name": "projects/frame-0007.json",
+      "sha256": "7b5e1b30595f9bceb20aeface6ee9926bfb2d17814f195c4404dabd07cdf3602"
+    },
+    {
+      "name": "frames/frame-0007.svg",
+      "sha256": "8f2ba5f1cdfc102f1c81f26bcb292a7c440e92aa9558e05faf5479bcb12967dc"
+    },
+    {
+      "name": "frames/frame-0007.png",
+      "sha256": "29b6c5a1ad0670196a2319cea3ada841eaa6b8cc28155be307052c6651c5a156"
+    },
+    {
+      "name": "projects/frame-0008.json",
+      "sha256": "9cab51905f841c8065e9fd4f9c6599e97449e779ce96145a75ddce9d1adf4ace"
+    },
+    {
+      "name": "frames/frame-0008.svg",
+      "sha256": "ee5b8a9eeea2f98458608ea6ac3640241592acdf8a50e90e591cce81a2e7a356"
+    },
+    {
+      "name": "frames/frame-0008.png",
+      "sha256": "cd3def1ef369e204f43602f0d38454c9228953378b228b48fafa0b5a2c0f1c85"
+    },
+    {
+      "name": "projects/frame-0009.json",
+      "sha256": "65b0c0b45a7297db4197b7ba86b0752edc913ee7dc1cc88ad7bcb8fad912504f"
+    },
+    {
+      "name": "frames/frame-0009.svg",
+      "sha256": "f914ca1c24b14bb43f8bc3ddc2012e96f3a63349efb823a5e578114ec56dbcc5"
+    },
+    {
+      "name": "frames/frame-0009.png",
+      "sha256": "4283019c2297a9a1d3c3aefa8af5583f39d03e78eb18b799aa6d6d23c2aed22a"
+    },
+    {
+      "name": "projects/frame-0010.json",
+      "sha256": "6c8df1fbed243e9c66795cb54960e658ce0464401ed242ec22c61e608d8b916e"
+    },
+    {
+      "name": "frames/frame-0010.svg",
+      "sha256": "15b166958cf274d228e0654c83d0e9864674427d711cf1e606870a8b0089f9b6"
+    },
+    {
+      "name": "frames/frame-0010.png",
+      "sha256": "56838ae3a21f54eab0a0f75c7621df034d0c4648d881079f2ba77b3f39e57697"
+    },
+    {
+      "name": "projects/frame-0011.json",
+      "sha256": "a09b09ac3805e8efd1ab944ef6108bf64fb13bac6142f568f7b7a82f55dc70ea"
+    },
+    {
+      "name": "frames/frame-0011.svg",
+      "sha256": "70aa7064d76eb129642f5c390bbe1d6ba2260e8f370bfdf250bf30a0426c338f"
+    },
+    {
+      "name": "frames/frame-0011.png",
+      "sha256": "48750bfed46cd6b5ba937fdf9ce58586353e41c3127be82c2042c25ee986e3bc"
+    },
+    {
+      "name": "projects/frame-0012.json",
+      "sha256": "c6756342e6cd1958fa56cdf0ce31f6ff831daa8422685a2e6b512086ce7d9aaf"
+    },
+    {
+      "name": "frames/frame-0012.svg",
+      "sha256": "e5cd72825e3a930f7c39f656ccd45577ba06f096d0262f1def6cc63f067c0fea"
+    },
+    {
+      "name": "frames/frame-0012.png",
+      "sha256": "1a94993902e30dae94e1c2802fbdc28386d03abcba361ef6fb7f59844c7a5ba3"
+    },
+    {
+      "name": "projects/frame-0013.json",
+      "sha256": "3160387149ad153822e288a63f4532891e1fddc497688eff9595215488eab47b"
+    },
+    {
+      "name": "frames/frame-0013.svg",
+      "sha256": "88e40f7096285d6beb71b8b8dd1729c028f4198a0eba5955140676b9052bb26f"
+    },
+    {
+      "name": "frames/frame-0013.png",
+      "sha256": "530ca5680eb06474d55bd6be34dab9b7acbf9d0e6da9b26e475119a79c864ad5"
+    },
+    {
+      "name": "projects/frame-0014.json",
+      "sha256": "922e1e74c88c4cd27e6853567b4be88b893cea2b482f1b358e79f789e52b081b"
+    },
+    {
+      "name": "frames/frame-0014.svg",
+      "sha256": "4af193f8f454265424c0a662982017ebdf9660a18bbb91f50bbd50fe07b5f81d"
+    },
+    {
+      "name": "frames/frame-0014.png",
+      "sha256": "830b1ced4bd5232c26e0c8534e278a131e7084effbdf3458a27ce229ca780f68"
+    },
+    {
+      "name": "projects/frame-0015.json",
+      "sha256": "f467c42c7bb4f3ef4c91eb18316fc7926e29ac010fccdef5ea7730fb078bb1b4"
+    },
+    {
+      "name": "frames/frame-0015.svg",
+      "sha256": "39c2aa6d46fb85ba6583b766340d36ee0b6519e9d80243ab1f6f1e589e45becd"
+    },
+    {
+      "name": "frames/frame-0015.png",
+      "sha256": "20cebe62ef90cf693f2a188d5643a59d51c901a3320f0024348c079ed6d84b20"
+    },
+    {
+      "name": "projects/frame-0016.json",
+      "sha256": "1cc0b22ecbf99e89a9de869f37b947cdb696c06c155622d4e4a8aefb72dc39fe"
+    },
+    {
+      "name": "frames/frame-0016.svg",
+      "sha256": "7346f37ce74e29962f4d11364234a3ace64f9d77572a0bf77c238f9be6507223"
+    },
+    {
+      "name": "frames/frame-0016.png",
+      "sha256": "28a979f5e37ac88708aec1b8c211a463a4c479e0265b502b0f8c2776deaddd25"
+    },
+    {
+      "name": "projects/frame-0017.json",
+      "sha256": "cb55f0f50c2233f51b85a827f0dda922598a3eaa2466ed035c3cfe7a903cdb28"
+    },
+    {
+      "name": "frames/frame-0017.svg",
+      "sha256": "dbb1b9d78a28e9098beb8fe0afb74fc0f04ad8e263e1e13ae5e3399bec52545c"
+    },
+    {
+      "name": "frames/frame-0017.png",
+      "sha256": "e5b29bdd0a6940d633b4660f4769e34a50a80519b6d07c1cf126509a7b387f3d"
+    },
+    {
+      "name": "projects/frame-0018.json",
+      "sha256": "11d1723d47de11ef0b8839dbfcf222ff2d1130c823fd82da6f10e2a312ed4d7d"
+    },
+    {
+      "name": "frames/frame-0018.svg",
+      "sha256": "634676ca25f886fb933dcab8f855cdd62baca46dabebd8d13be02d7305f4bba1"
+    },
+    {
+      "name": "frames/frame-0018.png",
+      "sha256": "9bba1e9e7b0248a1f3e352feed9fee58e47eada101bfe2ac958f2bd98e2916a9"
+    },
+    {
+      "name": "projects/frame-0019.json",
+      "sha256": "a6769f72de6e9cf7df1064c1297bb5431896e0fb865013be2c1cbc9df44fac52"
+    },
+    {
+      "name": "frames/frame-0019.svg",
+      "sha256": "4773e5fed68ed851f83ebd1435ba03dd8142e929238f9f8f177d88a091c6eda1"
+    },
+    {
+      "name": "frames/frame-0019.png",
+      "sha256": "35eadfb247cd6bc8cb3577d2589bb6b89de1e8fbf5874a3cb1638294959a709f"
+    },
+    {
+      "name": "projects/frame-0020.json",
+      "sha256": "e7c93f965622238232bc2a90f319ca016aa89b797e49b5040a078ee5806d22b4"
+    },
+    {
+      "name": "frames/frame-0020.svg",
+      "sha256": "ddae91c7db9931f509f29542620e5383b4d28702d7425d73a1861d5a35086883"
+    },
+    {
+      "name": "frames/frame-0020.png",
+      "sha256": "226e06e636af28b730d59a1272506eaf5bcffb6f3e65ff587b08f3b8ed3abd94"
+    },
+    {
+      "name": "projects/frame-0021.json",
+      "sha256": "7e1567920c045c99c5ed721e40ca804993fdc2997d57e82b2fe2005d11b3ac7d"
+    },
+    {
+      "name": "frames/frame-0021.svg",
+      "sha256": "9c5cba14cc8ced5e602149a35656d9035715f55733ef542c46a30f1520e74c01"
+    },
+    {
+      "name": "frames/frame-0021.png",
+      "sha256": "11cbc78f4b8fba5d44dcf178543e425a9d52d6fbd4dc67f8619f0eaec40d44f2"
+    },
+    {
+      "name": "projects/frame-0022.json",
+      "sha256": "bbae5c3c1c9354fcfaf7c4e473231af047888e8dd6781ebcd466bd78fb2e5eab"
+    },
+    {
+      "name": "frames/frame-0022.svg",
+      "sha256": "cab89f946972fcbbb258e03efe5ccc1132f47e456c7f981b627db4e0286c1682"
+    },
+    {
+      "name": "frames/frame-0022.png",
+      "sha256": "51cb08ef3183f01fdd36365d6115b16c740d13b1fcb95699d41ff4b421b8da56"
+    },
+    {
+      "name": "projects/frame-0023.json",
+      "sha256": "30529089da45fbc62b67c4c86ad9c4caf8ab0e2a9d823affe6bc7ab8866b9974"
+    },
+    {
+      "name": "frames/frame-0023.svg",
+      "sha256": "70c2a49d0176cbba4beea58463ee2e2128abe59faed760b4b6dc159166616826"
+    },
+    {
+      "name": "frames/frame-0023.png",
+      "sha256": "787959453abcaa29551aa7b83d333336798a08ccfa25a17538141364ab197f8b"
+    },
+    {
+      "name": "projects/frame-0024.json",
+      "sha256": "e10967aacc9123c4b88971b96497bb212ddfaf4f1c9ab0c874b8c7109276932d"
+    },
+    {
+      "name": "frames/frame-0024.svg",
+      "sha256": "20c31d10c60f3f7dcda53adf37dbe369a848c0d9d62cc61df0d4f4af002ff49c"
+    },
+    {
+      "name": "frames/frame-0024.png",
+      "sha256": "55fad4b3ad02a7d424f6d8d711d3c78649c83b8f4f336d70fd3a147b3e318843"
+    },
+    {
+      "name": "projects/frame-0025.json",
+      "sha256": "9d883d372ed44fae3dc048b69f9593e839d7f99baa619273e764f90162b36578"
+    },
+    {
+      "name": "frames/frame-0025.svg",
+      "sha256": "0b7a2ea995b7930df7703ca38abe322b3e7d462f1d95c7a256c9703e5d9c02be"
+    },
+    {
+      "name": "frames/frame-0025.png",
+      "sha256": "c8c649fbec2693112c98c9de76bc6a3b79783a56b3fb7ffb6d91911e7c4ae6a9"
+    },
+    {
+      "name": "projects/frame-0026.json",
+      "sha256": "6ee78de832be5fee6dcbbcbb26901fbbdb279f81a95cf2cfaf31e53b16b0ca04"
+    },
+    {
+      "name": "frames/frame-0026.svg",
+      "sha256": "b2f14c9f3255242e3ba54ae2926303eeace61d23426551f0f0e54a58effd9022"
+    },
+    {
+      "name": "frames/frame-0026.png",
+      "sha256": "61c8c1515b09aa2f0cde09014b198efc8d1b34dbbd00a3a6fc6820ea23049ff8"
+    },
+    {
+      "name": "projects/frame-0027.json",
+      "sha256": "d31df7845ac4e75891d955e7d380bd4e9dde195d2b617266fc000d5107e8ad7b"
+    },
+    {
+      "name": "frames/frame-0027.svg",
+      "sha256": "4d2812f53e69db961b89c748b5783621aa75d4497fdcba05d202c350d4de783f"
+    },
+    {
+      "name": "frames/frame-0027.png",
+      "sha256": "e9d352006c800e4e331ee47d081a8e6093b74ca7a0a978cd240fa11a9c54a438"
+    },
+    {
+      "name": "projects/frame-0028.json",
+      "sha256": "2bea3fe5e9d9a61c69cca1b9ae3466d4c0a9676ca714ff4e95726ce74e9fa37d"
+    },
+    {
+      "name": "frames/frame-0028.svg",
+      "sha256": "7f68f803a91b8398a412533b3c0d45820f0db02fba35daea910add87634e2b64"
+    },
+    {
+      "name": "frames/frame-0028.png",
+      "sha256": "849f7fc9b1a9519fdc0b63c002d1e90dcd5662b9c6a38153c42ea3e11b50fefe"
+    },
+    {
+      "name": "projects/frame-0029.json",
+      "sha256": "e8d43ae9305181c1bdac2272deb36c518265089e7f7f4e49b08c3e419cc42828"
+    },
+    {
+      "name": "frames/frame-0029.svg",
+      "sha256": "53e626fd72a9598aefca97152f6eb2a46e3f4f3c8e5c2f0ca38ed1b112532106"
+    },
+    {
+      "name": "frames/frame-0029.png",
+      "sha256": "7d28983a3511d3dbbfcd4ebe7cc248b26d1568e6c7569a9966e61e2f6cebaf09"
+    },
+    {
+      "name": "projects/frame-0030.json",
+      "sha256": "0ffbf432c1dfbf826fc7771276495ee192a2504251b9bfaa5c140e61703f51b3"
+    },
+    {
+      "name": "frames/frame-0030.svg",
+      "sha256": "6b69fc1b30152b7b91506993bcd2ded9ab60e2bf92ee4dc8005b9a4458b60bfd"
+    },
+    {
+      "name": "frames/frame-0030.png",
+      "sha256": "c9ec516d217218fb07e25918bbf799bcb9532bfb844a44fd1fdfab1728172535"
+    },
+    {
+      "name": "projects/frame-0031.json",
+      "sha256": "27c20ac1b6a590dc25a693d19f19e0af56bf303d2445a9b62b8b82da7f14768b"
+    },
+    {
+      "name": "frames/frame-0031.svg",
+      "sha256": "98f6e2b6ab378c3c5f7bcb52ea9ddfe23d0f5adcbf7fb1982cc8c7bae4f1ec21"
+    },
+    {
+      "name": "frames/frame-0031.png",
+      "sha256": "2966f79d84018cf70bb1e63fc9a0238116ac5c90434940a4c23b604a9031e453"
+    },
+    {
+      "name": "projects/frame-0032.json",
+      "sha256": "de92da9356c6a12b1cfaf8b5c1807dda123f98054b31de61002f9d1c601180ca"
+    },
+    {
+      "name": "frames/frame-0032.svg",
+      "sha256": "3e89f36f727baacb54bceaa1b29f67cb7591164676849dc9aad109cdec6a888c"
+    },
+    {
+      "name": "frames/frame-0032.png",
+      "sha256": "aa57eb991d353c7337e191a7f69f94d29875cd26a176934c398822d0aab85e28"
+    },
+    {
+      "name": "projects/frame-0033.json",
+      "sha256": "b4f94e58a0aa620235a5dcf90c3c4df4a39fc14311506791dfc1fb724d616a5e"
+    },
+    {
+      "name": "frames/frame-0033.svg",
+      "sha256": "2a8fd95edb2991ea4088c5a6a8a9f00a48229ac4e7774f1619111c1929ff8357"
+    },
+    {
+      "name": "frames/frame-0033.png",
+      "sha256": "21b8592eb8428927b6bafa3e5baf25fb841173e99e496567c5f29c71a8bcf748"
+    },
+    {
+      "name": "projects/frame-0034.json",
+      "sha256": "325aaff2c98dc15343522178d3b462c5f24bcbec054561e830796b21f22767d3"
+    },
+    {
+      "name": "frames/frame-0034.svg",
+      "sha256": "f0554b439238124775412c38104f6df8533f319089d39ec3fbdd294904ae276e"
+    },
+    {
+      "name": "frames/frame-0034.png",
+      "sha256": "eb5f0f9f0a5cf21aaa6deab98aa8de0bdec8d8d85a8043e94d2987537efe054c"
+    },
+    {
+      "name": "projects/frame-0035.json",
+      "sha256": "b577875b75a48ad11a25992feaaa8f5afb3b9a979e907bfee0981060e93c8ee6"
+    },
+    {
+      "name": "frames/frame-0035.svg",
+      "sha256": "7ac5e06d2faab6100fd70cad86666c7cef06bdd368decb31e3ee389655f4171e"
+    },
+    {
+      "name": "frames/frame-0035.png",
+      "sha256": "14590069cadf3094a353bfe4fa0098a0ec6c817b8d566de7a0c36d4d8378b320"
+    },
+    {
+      "name": "projects/frame-0036.json",
+      "sha256": "a73b4bfcc45d4bdb9807ac10f4f882d898149743baa8039e5f1adfbdcc8d29b2"
+    },
+    {
+      "name": "frames/frame-0036.svg",
+      "sha256": "6944ea7c14c6268b6c5a2d14c2082310d20ba34aa6e981a55ce75c845568f2f6"
+    },
+    {
+      "name": "frames/frame-0036.png",
+      "sha256": "39891dfb36f4d8382dfac36bb553175f563339805cb8bcce4aa5c3d9aedc326c"
+    },
+    {
+      "name": "projects/frame-0037.json",
+      "sha256": "2af024d2baf53ade41064e66534029b97d79445793b309433dadf0027825bea3"
+    },
+    {
+      "name": "frames/frame-0037.svg",
+      "sha256": "2f36ce2280c41ac390641d0fcc239b44105a8bdfbedecccd3a26e323ca6f1528"
+    },
+    {
+      "name": "frames/frame-0037.png",
+      "sha256": "a39f06742e8944825dba8b4d63f4d30f8db61c65b53b8fe92c91092c836cb438"
+    },
+    {
+      "name": "projects/frame-0038.json",
+      "sha256": "62f0b2463f40e697841026dce906a0b6d519a616e250bc418a5707563131101d"
+    },
+    {
+      "name": "frames/frame-0038.svg",
+      "sha256": "d6bd473deb417972b31f860d872380c52a58567e199ed33f3141e0f7f7fdf168"
+    },
+    {
+      "name": "frames/frame-0038.png",
+      "sha256": "96338c7a3de5d4c0305859abaed41b5d5442c0d3525d75742a2cfba5d3742034"
+    },
+    {
+      "name": "projects/frame-0039.json",
+      "sha256": "89afc49734d39f694bda18aeb83fd0a57bec299ae023b0c2142b662db849c6fd"
+    },
+    {
+      "name": "frames/frame-0039.svg",
+      "sha256": "59546d0c58b0cdbfb57abf236a557e345130642ed9b03e71df6cd34dddad9f07"
+    },
+    {
+      "name": "frames/frame-0039.png",
+      "sha256": "dcbd7df9bc9b316c2c52868489895ef49207e97495c34d86c4b5142f5acbb44a"
+    },
+    {
+      "name": "projects/frame-0040.json",
+      "sha256": "cc06bfe20bda3ddade081b7c0ee73eb6964c93d486a05e809d67c0ab0db0c3ed"
+    },
+    {
+      "name": "frames/frame-0040.svg",
+      "sha256": "72b5f0e1036f3103a1e739765027fd5337f05794ffffbb0abd93d28e4b217ba7"
+    },
+    {
+      "name": "frames/frame-0040.png",
+      "sha256": "7d85f70b4046a40e357dad82f88a329379c93eab03e73061fdd86168063829c1"
+    },
+    {
+      "name": "projects/frame-0041.json",
+      "sha256": "e4b07b5c7f832cd617edb4a3f9a1788ed7443b5d22d8e9bb4c1387fad704c256"
+    },
+    {
+      "name": "frames/frame-0041.svg",
+      "sha256": "1a9d38c9c8593bfce42a70ee2dde9456cee2cb6a7721b7c07ac4a0fcf7d890b3"
+    },
+    {
+      "name": "frames/frame-0041.png",
+      "sha256": "c5eb787bd5ceb712de66e7b9a13bb1ec9317b7c03635cc1b528c10b7eac600af"
+    },
+    {
+      "name": "projects/frame-0042.json",
+      "sha256": "b049361e0a49f10025a2e00bd83f75ead7d6e4e786833ab1f787e8cb0e6b02e8"
+    },
+    {
+      "name": "frames/frame-0042.svg",
+      "sha256": "9c083799f73c8180887588b59d1932b952b6daee4fcafb2dcf10319198a8830a"
+    },
+    {
+      "name": "frames/frame-0042.png",
+      "sha256": "9653d21f2cc186d9273320b28600a16675ec52bda7609c4cc6fc0b674113fcd1"
+    },
+    {
+      "name": "projects/frame-0043.json",
+      "sha256": "1c3a5725968ad92cbf970feefe8026cd62482b4154e6645761584128ac76744a"
+    },
+    {
+      "name": "frames/frame-0043.svg",
+      "sha256": "3e14b1d169f20b97f59685967ab1ebcd6d89f2504655ee0040b937d73345edb7"
+    },
+    {
+      "name": "frames/frame-0043.png",
+      "sha256": "da4c41c91470f0408782e780fb45005ad4de715606e177f407bc470b66462c68"
+    },
+    {
+      "name": "projects/frame-0044.json",
+      "sha256": "6ab8ea9d032edeb5f6bafcf769f194f8002c91b303bb7f83127a7845807a5740"
+    },
+    {
+      "name": "frames/frame-0044.svg",
+      "sha256": "dbcc8f6e094964ea56388ab6c99d8e3dc7fc397c4390be033e9755e88b11b3ff"
+    },
+    {
+      "name": "frames/frame-0044.png",
+      "sha256": "7605d63c65352c48f4ce781efb9eec2cc7be1ec475b6fe474b1faf4cac0130ad"
+    },
+    {
+      "name": "projects/frame-0045.json",
+      "sha256": "f47cdc372f0d840238985c49fe8254bdedc3010b76afddefcd1d7ef4d2438135"
+    },
+    {
+      "name": "frames/frame-0045.svg",
+      "sha256": "3b56754e7c3025c8d857f7af6f7ac2d119d550e2934cb1094ea802cbc7149a38"
+    },
+    {
+      "name": "frames/frame-0045.png",
+      "sha256": "7959d0dce834be3ebaf835389143df94fa28798b01b664a695fc6a0b2e30ba33"
+    },
+    {
+      "name": "projects/frame-0046.json",
+      "sha256": "ff32d1cc442c8aaca8fbd3ec6311fc4f38bf2dbbf1c19f368a87161c817cd026"
+    },
+    {
+      "name": "frames/frame-0046.svg",
+      "sha256": "864355579f280b599fff0acfa573aad67c813e276e59f7f8c439ddeb6ba0325e"
+    },
+    {
+      "name": "frames/frame-0046.png",
+      "sha256": "0d71538093326b5808a0dbaf0c8ed9a3bd1041a698f939e848c856212bfdccf8"
+    },
+    {
+      "name": "projects/frame-0047.json",
+      "sha256": "d7335a043eed67fda1f3a6c867e2b5f215b5dd30389867f6c8e8beb93eafdc5c"
+    },
+    {
+      "name": "frames/frame-0047.svg",
+      "sha256": "610aeb266d0535a663cfc217d3515bae532828d525437b7e144d58a2a1d25cb0"
+    },
+    {
+      "name": "frames/frame-0047.png",
+      "sha256": "4ad469a157b33104c0c757a44d7ef63b629c36126bc6b582e284a4b6f2fd8ac9"
+    },
+    {
+      "name": "projects/frame-0048.json",
+      "sha256": "4580647b896facdb4571c8cab462b5022f0e37f4d2b83a54db1be67dc7c76fbb"
+    },
+    {
+      "name": "frames/frame-0048.svg",
+      "sha256": "e514417cccf35a9f3bffeee79e140e82c687ae169d85abb16617e59c6aa2bb42"
+    },
+    {
+      "name": "frames/frame-0048.png",
+      "sha256": "9448e35f4cf6f2596df910ae98061f6816dc9541c4a2526e182d26544a13c1c9"
+    },
+    {
+      "name": "projects/frame-0049.json",
+      "sha256": "ee77acf2d1d4c42da189d2cc13c9f3509750b10377c210069a9cbb10c368a574"
+    },
+    {
+      "name": "frames/frame-0049.svg",
+      "sha256": "ab6cc855c06455826517ab5006e2a5c3abbdb2c4b16208c6cae3323ddb24228c"
+    },
+    {
+      "name": "frames/frame-0049.png",
+      "sha256": "653877d1642b1628e7654855f770417568f2077213d67b5e4c1199cecda3385f"
+    },
+    {
+      "name": "projects/frame-0050.json",
+      "sha256": "8177915ea4d7a46e1bc6c8903e8b62048a7f9adaad2f170a0007e5178f42dcc4"
+    },
+    {
+      "name": "frames/frame-0050.svg",
+      "sha256": "964fa0c0755749feb9f1835eaacc37391136bd5734b88f84ee6f31ce6ccb6179"
+    },
+    {
+      "name": "frames/frame-0050.png",
+      "sha256": "f87e536ec460fa1d036a4b97b635895b33fda0c1057a54aee35990899ad8440b"
+    },
+    {
+      "name": "projects/frame-0051.json",
+      "sha256": "9d5db0f841e9b119e8ed430c87179749928116eda6d60fb3a71765c1a6482a7c"
+    },
+    {
+      "name": "frames/frame-0051.svg",
+      "sha256": "5b69f57cc0f356292364db61764f16982fb32ec4f0b652d9e53770b3164102ac"
+    },
+    {
+      "name": "frames/frame-0051.png",
+      "sha256": "fb3cbcd87a376b97ab8ae2e956d7a17852423d1a4828fd7bd66f2704d7bbdffc"
+    },
+    {
+      "name": "projects/frame-0052.json",
+      "sha256": "ce565c7552bd26fb3c8c5b85e4a8c4972ad72e2a0cf99d8cbe391af54499880a"
+    },
+    {
+      "name": "frames/frame-0052.svg",
+      "sha256": "7f291cc4a8e8551bceebac754739b115ef3277e377576582585644b18b8dda1c"
+    },
+    {
+      "name": "frames/frame-0052.png",
+      "sha256": "7f7be0b529290d5cbef0cdc442d1672e0f896c67aafab1bba881a7d18feb97d9"
+    },
+    {
+      "name": "projects/frame-0053.json",
+      "sha256": "cd7cb17ce74a76dfb75e62afdbc2c7db0ffc259df30890bc128fef013e8f6a75"
+    },
+    {
+      "name": "frames/frame-0053.svg",
+      "sha256": "ea8239380481d06c31afff9498a29be370bf81b95d8ff4ac92d0aabd32daecc1"
+    },
+    {
+      "name": "frames/frame-0053.png",
+      "sha256": "1877aaaecf7b287d76ca617e5ceb6622e585987cc0a2afe339beb32a2e6e04e5"
+    },
+    {
+      "name": "projects/frame-0054.json",
+      "sha256": "b025ad066a6a9f4a6aad55665ddd35f047ba2479ec9618c77431edda986e1b4e"
+    },
+    {
+      "name": "frames/frame-0054.svg",
+      "sha256": "2a5e12622ab92709fc05143a550aeed86479f61440de37155cca82da603225ef"
+    },
+    {
+      "name": "frames/frame-0054.png",
+      "sha256": "0c39a081c1a848cabb5fdea2d63d156bc5b697b1d89fa6d0b427902551caee7c"
+    },
+    {
+      "name": "projects/frame-0055.json",
+      "sha256": "acdf49efb94279af661993b7ef22f7217151df4acdace504fc389332a6df9226"
+    },
+    {
+      "name": "frames/frame-0055.svg",
+      "sha256": "d73acb6cbc8d682d39082a032aaa6fb85180f2524bb71fd3f8f127a11331830d"
+    },
+    {
+      "name": "frames/frame-0055.png",
+      "sha256": "792fa4ae255070ba83cc8b3bb0493d2b57f8a756458a657b97a2370ba45a31fc"
+    },
+    {
+      "name": "projects/frame-0056.json",
+      "sha256": "de673c47fe1d738541160ba9087ff3727a160317311b9e22ebcbef9041d70b63"
+    },
+    {
+      "name": "frames/frame-0056.svg",
+      "sha256": "628ef819c0e5ef796d3d0b43fa4291e7828b44c7b1a94727b124362a7f905f51"
+    },
+    {
+      "name": "frames/frame-0056.png",
+      "sha256": "26eb31aa1fe2875ee2b08fd8a430a628df6df161f3b5679f055536bdcd6d0d16"
+    },
+    {
+      "name": "projects/frame-0057.json",
+      "sha256": "99fac4d803aa252c2613360ca4da153bbc8df9570cf4c83abc9823d2211f18e3"
+    },
+    {
+      "name": "frames/frame-0057.svg",
+      "sha256": "63854a5eb8a0c2dd9fa3780143a491a5d3b2d91e19b0205798c55f485a53db51"
+    },
+    {
+      "name": "frames/frame-0057.png",
+      "sha256": "2434e169adde321b619c54d2dfb79407d17f2de4db0e5303c73cf12b1f138843"
+    },
+    {
+      "name": "projects/frame-0058.json",
+      "sha256": "f779e9f3030150c793b07ee391111bbac0d332118292e5b2ae18dbbbc2d76061"
+    },
+    {
+      "name": "frames/frame-0058.svg",
+      "sha256": "427d63d2ce511487cfb7526d407a57f74c788dc43071e40176a58ef4a090cf2b"
+    },
+    {
+      "name": "frames/frame-0058.png",
+      "sha256": "20ca21d9a6e9cb3bcab32c3440afc38c2c3276cf86e13f057080d915ff6585b6"
+    },
+    {
+      "name": "projects/frame-0059.json",
+      "sha256": "677bd50d104903169c95f6152cfa38d2f6353c5da8e9a596dbb9e91ce54c2688"
+    },
+    {
+      "name": "frames/frame-0059.svg",
+      "sha256": "acc86cbcbc5fa6048cfc7a0641595c2ac9469e636e92e9e6f9e53e98251114d1"
+    },
+    {
+      "name": "frames/frame-0059.png",
+      "sha256": "df30cc67479ef60cf81dda7571a2b7309993e3e4594eed9e5a550e98ba86a019"
+    },
+    {
+      "name": "projects/frame-0060.json",
+      "sha256": "1f718c50f12113ce4187016dc891de8db8793bac3568d40074b8a7b691f6b4db"
+    },
+    {
+      "name": "frames/frame-0060.svg",
+      "sha256": "1b54a8650da08ea140ad763e679d06b341a399a02010d8097e80fe0b48a7c64d"
+    },
+    {
+      "name": "frames/frame-0060.png",
+      "sha256": "87c2f46b5182fac073399d1781feeb274b0062a7740f0287b5cdfd6cc19b41cf"
+    },
+    {
+      "name": "projects/frame-0061.json",
+      "sha256": "ac9ff33af9605c5f72b8dc3ce18a9d6a92f6e479577ac1a2b479a00800fb38ec"
+    },
+    {
+      "name": "frames/frame-0061.svg",
+      "sha256": "833ab7896418083e0ef63a02a0dfeba3bbc84cb6a5a8f977eaa159f3e6be7342"
+    },
+    {
+      "name": "frames/frame-0061.png",
+      "sha256": "8d431a97462b76da7fc0df1471728fa75e1daa4b7907cde72b313c6f56c75620"
+    },
+    {
+      "name": "projects/frame-0062.json",
+      "sha256": "906b64d76d8dd0fe19ad9810ac834b66fea5cfbe20823271c256cd828f424019"
+    },
+    {
+      "name": "frames/frame-0062.svg",
+      "sha256": "0f142de10ee9ad9116b77efa9b33b79c6b92ad2f27fa523d30f38e776a5d92db"
+    },
+    {
+      "name": "frames/frame-0062.png",
+      "sha256": "993de43acfd4482f4c5eed477e49c6f653e6fa9041706fc52c83b2d8d8148a6d"
+    },
+    {
+      "name": "projects/frame-0063.json",
+      "sha256": "e59a5c6151732b89f6acfb1fff626779688043e46b5b6fc1940f5a540981dfb7"
+    },
+    {
+      "name": "frames/frame-0063.svg",
+      "sha256": "440550198e272def3391195f740985e07fcfeeb11cf1e82557635fcb984d3515"
+    },
+    {
+      "name": "frames/frame-0063.png",
+      "sha256": "fe52d98840b2d3bf9442d9f6b5eadad92d2ee7d92f5c9f88cd9e10f3136f30e2"
+    },
+    {
+      "name": "projects/frame-0064.json",
+      "sha256": "70880aaf3aea76fbb12885d0cefd953f9494c750b2d54c83b44b9c963a426ea2"
+    },
+    {
+      "name": "frames/frame-0064.svg",
+      "sha256": "8d449ff49c8b547c0e6fe52cf8b949c43bfd535699d13f25b1dca0e871b65fd6"
+    },
+    {
+      "name": "frames/frame-0064.png",
+      "sha256": "4b47688b5a2a6d40658a78b23e45d08215d08f2265afb35189a792625704c6f4"
+    },
+    {
+      "name": "projects/frame-0065.json",
+      "sha256": "986a71b05d8d414c9e7f4d918c62516b1e31a132285c0494ded506a3cc34040b"
+    },
+    {
+      "name": "frames/frame-0065.svg",
+      "sha256": "97aa9d4720c37aa305ef85eb2c0f99268f86c77f5f8033e3306e129d6fee7a8c"
+    },
+    {
+      "name": "frames/frame-0065.png",
+      "sha256": "dc0829788a8a641f94ca81f4568c8a5ce03420a851206fa27f22ba9427e5b9fa"
+    },
+    {
+      "name": "projects/frame-0066.json",
+      "sha256": "7e47c62f15448e2d1dd7f03be057e593799e03ac20591f9f097ff2c6296fbb51"
+    },
+    {
+      "name": "frames/frame-0066.svg",
+      "sha256": "0e8de551b6a2131ed1380120809076620258647ae213c76404b2f1dd52577826"
+    },
+    {
+      "name": "frames/frame-0066.png",
+      "sha256": "a3d118fa123be84b7528f480187574fec095b8a17682d5e10912b42ba9fbea7b"
+    },
+    {
+      "name": "projects/frame-0067.json",
+      "sha256": "1fbc71038fcef1f7a53c94fd0922b6f18cdf5197aacea5cf0c9545c80d2ff561"
+    },
+    {
+      "name": "frames/frame-0067.svg",
+      "sha256": "560fa48852d4f4884c0ba9a6150c371c6fdd11dc6572b1fe5653130a4e3a1615"
+    },
+    {
+      "name": "frames/frame-0067.png",
+      "sha256": "747364bc212e2e2e4c7ba9d2582b5739eacf3ae1a0a1524e1a9a8e7a8a26521c"
+    },
+    {
+      "name": "projects/frame-0068.json",
+      "sha256": "12d3dc2fe85ef702d940cbe8e9ad6c372792efbbdf5e47684086ead36c8d6bba"
+    },
+    {
+      "name": "frames/frame-0068.svg",
+      "sha256": "dab94efa8b11577d5ada67fc21b988f49367244b5e08c9eb8fa1cfd2c7332d99"
+    },
+    {
+      "name": "frames/frame-0068.png",
+      "sha256": "ca37db0a4e3a606605acaa1b398eeae0e15747f0530aa49aa4cf9189d0101ca6"
+    },
+    {
+      "name": "source-manifest.json",
+      "sha256": "b07bc28e5710db0f54b390bf0f78767df8ff49b6829e50e506e6bbb4236a9ed9"
+    },
+    {
+      "name": "manifest.json",
+      "sha256": "4a52d13b0cb0d8a4df1cd2cdbf86f938fdb406a094cb98e67fc5fad4df21caf7"
+    },
+    {
+      "name": "contact-sheet.svg",
+      "sha256": "66ece0d5f56406ecfc5506dc855ad3f23e7b3b81e872bf99d55b1096c9aa1698"
+    },
+    {
+      "name": "contact-sheet.png",
+      "sha256": "02949ceef369281afca228209cd933fcc5eba5fb570f3745fe23df4652fcbf0d"
+    }
+  ],
+  "warnings": [
+    {
+      "file": "frames/frame-0000.svg",
+      "message": "(inkscape.com:37228): Gdk-CRITICAL **: 17:54:41.535: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:37228): Gdk-CRITICAL **: 17:54:41.666: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0001.svg",
+      "message": "(inkscape.com:13724): Gdk-CRITICAL **: 17:54:43.841: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:13724): Gdk-CRITICAL **: 17:54:43.972: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0002.svg",
+      "message": "(inkscape.com:30020): Gdk-CRITICAL **: 17:54:46.098: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:30020): Gdk-CRITICAL **: 17:54:46.229: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0003.svg",
+      "message": "(inkscape.com:35616): Gdk-CRITICAL **: 17:54:48.392: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:35616): Gdk-CRITICAL **: 17:54:48.524: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0004.svg",
+      "message": "(inkscape.com:20544): Gdk-CRITICAL **: 17:54:50.637: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:20544): Gdk-CRITICAL **: 17:54:50.768: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0005.svg",
+      "message": "(inkscape.com:30940): Gdk-CRITICAL **: 17:54:52.896: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:30940): Gdk-CRITICAL **: 17:54:53.027: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0006.svg",
+      "message": "(inkscape.com:22468): Gdk-CRITICAL **: 17:54:55.136: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:22468): Gdk-CRITICAL **: 17:54:55.268: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0007.svg",
+      "message": "(inkscape.com:30844): Gdk-CRITICAL **: 17:54:57.394: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:30844): Gdk-CRITICAL **: 17:54:57.526: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0008.svg",
+      "message": "(inkscape.com:21732): Gdk-CRITICAL **: 17:54:59.631: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:21732): Gdk-CRITICAL **: 17:54:59.760: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0009.svg",
+      "message": "(inkscape.com:36992): Gdk-CRITICAL **: 17:55:01.873: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:36992): Gdk-CRITICAL **: 17:55:02.003: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    }
+  ]
+}

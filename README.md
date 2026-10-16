@@ -2,7 +2,7 @@
 
 Layered 2D authoring for coding agents, backed by **Inkscape**. Describe a drawing in a small, validated JSON project; build an editable SVG, transparent PNG, and PDF using Inkscape's headless export interface.
 
-This is the 0.4.0 craft-and-animation implementation. It does not require a browser, an MCP server, or npm dependencies. It does require an existing Inkscape 1.2 or newer installation and Node.js 22 or newer. Linux is the initial verification target; macOS and Windows support is not yet established.
+Version 0.5.0 adds native bitmap lettering, human figure starters and expanded character/perspective craft. Authoring and export require no browser, MCP server or npm dependencies: use Node.js 22+ and an existing Inkscape 1.2+ installation. Linux is the CI verification platform. Native Windows exports have been checked with an explicit Inkscape executable; automatic Windows discovery and macOS support remain unverified.
 
 ## What it does
 
@@ -13,6 +13,13 @@ This is the 0.4.0 craft-and-animation implementation. It does not require a brow
 - Exports a composited PNG with transparency, a PDF, and a machine-readable build receipt.
 - Validates projects before launching Inkscape, including bounded canvas/layer sizes and restricted path data.
 - Uses a version-matched managed runtime and a separate Inkscape profile for each build.
+- Exports editable glyph sheets and fixed-cell BMFont XML for game lettering through [font-atlas](docs/font-atlas.md).
+
+## Human figure starters
+
+The [mannequin library](examples/human-mannequins/README.md) includes human and compact RPG builds in eight facings, with elevated and true overhead views: 768 complete drawings across static poses and eight-frame walk/run loops. Editable JSON/SVG, PNG, construction guides, timing and native/crop provenance are retained. The browser galleries provide paused playback, stepping and quarter speed. Copy a project and design its costume around the connected body masses.
+
+For high-contrast characters and environments, the [graphic-noir reference](skills/draw-authoring/references/graphic-noir.md) covers value masses, selective edges, view-specific poses, support registration and a shared camera for the character and path. The gameplay experiments that informed the guidance are separate from this plugin release.
 
 It is deliberately a small authoring contract, not a general-purpose scripting interface. No arbitrary scripts, shell commands, embedded raster images, filters, masks, arbitrary transforms, or path morphing are accepted in project data.
 

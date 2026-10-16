@@ -1,11 +1,13 @@
 ---
 name: draw-export
-description: Build and review agent-draw vector projects as editable layered SVG plus PNG and PDF exports, with receipts and safe output handling. Use to render, export, verify, or deliver an existing drawing project, drawn pose sequences, animation frames, contact sheets, GIF, MP4, or game sprite atlases.
+description: Build and review agent-draw vector projects as editable layered SVG plus PNG and PDF exports, with receipts and safe output handling. Use to render, export, verify, or deliver an existing drawing project, drawn pose sequences, animation frames, contact sheets, GIF, MP4, game sprite atlases, bitmap lettering or BMFont fonts for Phaser.
 ---
 
 # Draw export
 
 Load `draw-setup` and validate the project before building. Use the managed launcher resolved from the plugin root, not a guessed PATH binary.
+
+For bitmap lettering or Phaser bitmap fonts, read [font-atlas](../../docs/font-atlas.md) and use `font-atlas`, not sprite `atlas`. Run `node "<plugin-root>/scripts/run-managed.js" font-atlas /absolute/path/manifest.json --out /absolute/path/output/font`. Require its receipt and six hashed artifacts, then inspect actual glyph ink, transparency and cell fit. It exports fixed-cell printable ASCII with no measured bearings or kerning; requested family names do not prove which installed font Inkscape selected.
 
 For independently redrawn pose projects, read [drawn sequence export](references/drawn-sequence.md) and use `sequence`. Check actual pose geometry and engine-scale scene context, not just file generation.
 

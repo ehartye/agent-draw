@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "name": "eight-direction-crash-remainder",
+  "fps": 8,
+  "loop": false,
+  "frames": [
+    "projects/rpg-run-NE-01.json",
+    "projects/rpg-run-NE-02.json",
+    "projects/rpg-run-NE-03.json",
+    "projects/rpg-run-NE-04.json",
+    "projects/rpg-run-NE-05.json",
+    "projects/rpg-run-NE-06.json",
+    "projects/rpg-run-NE-07.json"
+  ]
+}

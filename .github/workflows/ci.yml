@@ -22,6 +22,8 @@ jobs:
         run: node scripts/agent-draw.mjs doctor
       - name: Test runtime and real vector exports
         run: npm test
+      - name: Check mannequin construction and directional sets
+        run: npm run test:mannequins
       - name: Smoke-test managed plugin runtime
         env:
           AGENT_DRAW_HOME: ${{ runner.temp }}/agent-draw-runtime
@@ -42,3 +44,4 @@ jobs:
           node scripts/run-managed.js atlas "${RUNNER_TEMP}/atlas-input/manifest.json" --out "${RUNNER_TEMP}/agent-draw-atlas"
           node scripts/run-managed.js sequence examples/drawn-fire/manifest.json --out "${RUNNER_TEMP}/agent-draw-poses"
           node scripts/run-managed.js build examples/scale-material-study.json --out "${RUNNER_TEMP}/agent-draw-scale-study"
+          node scripts/run-managed.js font-atlas examples/bitmap-lettering/manifest.json --out "${RUNNER_TEMP}/agent-draw-lettering"

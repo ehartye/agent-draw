@@ -1,0 +1,72 @@
+{
+  "result": {
+    "tasks": [
+      {
+        "id": "human-keys",
+        "result": {
+          "verdict": "GAP",
+          "imagesViewed": [
+            "human-neutral-keys",
+            "human-run-keys"
+          ],
+          "coverage": [
+            {
+              "id": "human-neutral-keys",
+              "verdict": "PASS",
+              "observation": "Inspected S,E,N,W. Crown heads, small forward noses, connected shoulders and foreshortened limbs read coherently overhead. No concrete attachment defect observed."
+            },
+            {
+              "id": "human-run-keys",
+              "verdict": "GAP",
+              "observation": "Inspected S,SE,N,NE at frame 2. Silhouettes remain connected, but both arms reach forward together in every supplied facing, despite the opposing leg positions."
+            }
+          ],
+          "findings": [
+            "Both SHA-256 hashes match the supplied values; verification used exec login:false.",
+            "human-run-keys, run frame 2, S and N: both arms extend parallel toward the nose direction, with hands nearly level. The pose lacks opposing arm swing.",
+            "human-run-keys, run frame 2, SE and NE: both arms likewise extend toward the facing diagonal; neither provides the rearward counter-swing."
+          ],
+          "limitations": [
+            "Checkpoint contains four cells per page. Other facings and poses remain unverified.",
+            "Only run frame 2 is supplied; half-stride alternation, timing, last-to-first adjacency, continuous playback and engine movement remain unverified."
+          ]
+        },
+        "missing": false
+      },
+      {
+        "id": "rpg-keys",
+        "result": {
+          "verdict": "GAP",
+          "imagesViewed": [
+            "rpg-neutral-keys",
+            "rpg-run-keys"
+          ],
+          "coverage": [
+            {
+              "id": "rpg-neutral-keys",
+              "verdict": "PASS",
+              "observation": "SHA-256 matches. Inspected S/E/N/W: connected silhouettes, crown-shaped heads, small directional noses and shoulders beneath. Squat proportions and end-on limb occlusion suit the overhead view; no definite attachment defect visible."
+            },
+            {
+              "id": "rpg-run-keys",
+              "verdict": "GAP",
+              "observation": "SHA-256 matches. Inspected S/SE/N/NE at frame 2: shoulder-to-hand contours remain connected, but both arms extend forward together in every supplied key; opposing arm placement is absent."
+            }
+          ],
+          "findings": [
+            "rpg-run-keys, frame 2, S/N: both hands reach approximately the same forward position with matching arm extension. SE/NE repeat this bilateral forward reach, weakening the running pose."
+          ],
+          "limitations": [
+            "Only four keys per page were assessed.",
+            "Hidden hip and limb attachments cannot be fully inspected through occlusion.",
+            "Opposite half-strides, last-to-first adjacency, full strides, timing, continuous playback and engine movement remain unverified."
+          ]
+        },
+        "missing": false
+      }
+    ],
+    "rootAcceptanceRequired": true,
+    "ownerAcceptanceNotInferred": true
+  },
+  "error": null
+}

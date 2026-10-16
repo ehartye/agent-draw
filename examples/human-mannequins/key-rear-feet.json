@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "name": "rear-heel-and-forefoot-check",
+  "fps": 8,
+  "loop": false,
+  "frames": [
+    "projects/human-run-NE-00.json",
+    "projects/human-run-N-00.json",
+    "projects/human-run-NW-00.json",
+    "projects/rpg-run-NE-00.json",
+    "projects/rpg-run-N-00.json",
+    "projects/rpg-run-NW-00.json"
+  ]
+}

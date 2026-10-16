@@ -1,0 +1,17 @@
+{
+  "planRevision": 2,
+  "images": [
+    {
+      "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\output\\gallery-browser-final\\gallery-mobile.png",
+      "sha256": "dd320a0bfe672b2bad8bf84bb5065b4e26c7d0e9d24dff6dc84eeac851f5d8be"
+    },
+    {
+      "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\output\\gallery-browser-final\\gallery-mobile-drawings.png",
+      "sha256": "cdb8f7069c7c99690ac72e6a7ef5a6cda1b815f7553faa1485557a5a994b0d5b"
+    },
+    {
+      "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\output\\gallery-browser-final\\human-guides.png",
+      "sha256": "d3792efe4aa68894ceffed0a509931541bceafff49235542d5b0fdeb0b057ade"
+    }
+  ]
+}

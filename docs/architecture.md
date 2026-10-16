@@ -28,6 +28,8 @@ Named SVG layers preserve authoring structure in Inkscape. The JSON source is on
 
 ## Verification model
 
+`font-atlas` converts a bounded printable-ASCII manifest into ordinary white text leaves, then uses the same native Inkscape selection for a transparent RGBA PNG. It emits editable Draw JSON/SVG, single-page BMFont XML, normalized/original manifests and artifact hashes. Fixed cells define advances and baseline; no font measurement, kerning, glyph-coverage guarantee or raster tracing is added. Input/output identity checks and owned staging guard publication and recognized overwrite. See [the lettering contract](font-atlas.md).
+
 Validation checks data before rendering. Export completion checks that the renderer produced its expected artifacts. Neither proves that the result satisfies the design brief. Review the PNG for composition, clipping, transparency, and text; inspect the SVG structure or open it in Inkscape when layer editability matters. Keep the receipt with the exports for provenance. Distinguish checks actually run from checks that remain unverified.
 
 ## Group and animation boundary

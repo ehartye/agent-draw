@@ -1,0 +1,145 @@
+{
+  "planRevision": 1,
+  "tasks": [
+    {
+      "id": "review-human",
+      "label": "Review Human profile starters",
+      "model": "human",
+      "poses": [
+        "neutral",
+        "walk-contact",
+        "walk-pass",
+        "run-push",
+        "run-flight",
+        "jump",
+        "crouch",
+        "reach"
+      ],
+      "images": [
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\review\\human-crouch.png",
+          "sha256": "32e0ac059ab2d8e9967986a5608f95d74ab37b0b57bb85b30a928ff47c5a73b3"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\review\\human-jump.png",
+          "sha256": "bd21ef143a48592895fc63da3f4dce51345f1b7219bb6ef479f8e59fcebe9bf8"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\review\\human-neutral.png",
+          "sha256": "6f874dd76ea57452e591af65acc031ae40e1d791c60ed846487a6418b37f4af5"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\review\\human-reach.png",
+          "sha256": "a38c4cb8224683f087e3e87a8644f3876b61bf93c3e60b4283e71381351162db"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\review\\human-run-flight.png",
+          "sha256": "ce884aaf3726d93569fdc28d20c106ccb44323cace8c6ee723e64a9c3fe175d0"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\review\\human-run-push.png",
+          "sha256": "cb087d2c34a843081c537258aa4de966e171d1bdb3f49ded27cc3ae201204dec"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\review\\human-walk-contact.png",
+          "sha256": "552983bf9b33146523a5f2fa1228e3e71179c12aa938859239384aca23ffb42a"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\review\\human-walk-pass.png",
+          "sha256": "3047c9b93d241972cb2b61dbc256a96ceaecd84778f4e190c8c9bc99694a0b13"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\comparison.png",
+          "sha256": "c656930111d1ea8fb8ccb99f0646ef04ec7e4161531aaf9069fb2b67084dfaa6"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\output\\comparison-pdf.png",
+          "sha256": "49141eb7a4a579eeaed07e1b7ac8ff54f742fd1894b17ed054586a59a5942eb9"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\output\\gallery-browser\\human-guides.png",
+          "sha256": "5efe50179f464bfa46ddf9bba621c269d341652435f0e831f4457b90822a227d"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\output\\gallery-browser\\gallery-desktop.png",
+          "sha256": "e49e9b43bed07dba042125025b697e7e9316d2458bc9df294e00b03d7d96a4dd"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\output\\gallery-browser\\gallery-mobile-drawings.png",
+          "sha256": "19fa42b1e4eea9bcf92e8efdccf49bc3ebd33ba8a389bc51acdc01e1f9e9bbb6"
+        }
+      ],
+      "scope": "All 16 native drawings for this model (eight directional pairs), independent comparison PDF raster, actual gallery/guide captures. Guides are hidden in source by default and exposed in the gallery. Catalogue of starter poses, not a motion cycle."
+    },
+    {
+      "id": "review-rpg",
+      "label": "Review Compact RPG profile starters",
+      "model": "rpg",
+      "poses": [
+        "neutral",
+        "walk-contact",
+        "walk-pass",
+        "run-push",
+        "run-flight",
+        "jump",
+        "crouch",
+        "reach"
+      ],
+      "images": [
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\review\\rpg-crouch.png",
+          "sha256": "f673e7314b2e718a80e2044b55ac113bc66a7a8114d700128c26d2f66170e957"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\review\\rpg-jump.png",
+          "sha256": "e0600709dbdd44f0b698c6d300eb71688bc0afbd835b1d14a20c9bd62c2ee5db"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\review\\rpg-neutral.png",
+          "sha256": "d1b118ca37536c3d40799478b8432fec64d429accf9b3831d0355cba43a61782"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\review\\rpg-reach.png",
+          "sha256": "44b22f402c06f8b1a2e686e7cd0edc2fa8bb7d8d2293eb02941deb3ddaee8c73"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\review\\rpg-run-flight.png",
+          "sha256": "a11c41837ac1c8ea9bac713cfea7adf48d6432ddabc09ce7922cdb3bb5824a7b"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\review\\rpg-run-push.png",
+          "sha256": "916cca3189c91a6303678ef46066235422027200368df0770232b3fd8d61ed2c"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\review\\rpg-walk-contact.png",
+          "sha256": "f04eabd4dcb250e6eb87831c003b964ebb39e041d5378a6f16f4b854a864ca99"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\review\\rpg-walk-pass.png",
+          "sha256": "688e40541a5154eca173978b0f7c3eb08482a89961cc1bb09bad7712c15642e9"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\comparison.png",
+          "sha256": "c656930111d1ea8fb8ccb99f0646ef04ec7e4161531aaf9069fb2b67084dfaa6"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\output\\comparison-pdf.png",
+          "sha256": "49141eb7a4a579eeaed07e1b7ac8ff54f742fd1894b17ed054586a59a5942eb9"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\output\\gallery-browser\\rpg-guides.png",
+          "sha256": "6fa1f3edba1735e885fcc14545a2823ce1c882fd23d03c9ac920edb3bf2a3d5f"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\output\\gallery-browser\\gallery-desktop.png",
+          "sha256": "e49e9b43bed07dba042125025b697e7e9316d2458bc9df294e00b03d7d96a4dd"
+        },
+        {
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\output\\gallery-browser\\gallery-mobile-drawings.png",
+          "sha256": "19fa42b1e4eea9bcf92e8efdccf49bc3ebd33ba8a389bc51acdc01e1f9e9bbb6"
+        }
+      ],
+      "scope": "All 16 native drawings for this model (eight directional pairs), independent comparison PDF raster, actual gallery/guide captures. Guides are hidden in source by default and exposed in the gallery. Catalogue of starter poses, not a motion cycle."
+    }
+  ]
+}

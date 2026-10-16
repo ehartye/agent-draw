@@ -17,12 +17,15 @@ Establish the subject, use, canvas, transparency, and smallest viewing size. Rea
 - [Cel-shaded mascot](references/cel-shaded-mascot.md): silhouette, expression, contained hard shadows
 - [Paper-cut](references/paper-cut.md): stacked contours, offset shadows, real holes
 - [Gradient editorial](references/gradient-editorial.md): focal hierarchy, bounded gradient fills
+- [Graphic noir](references/graphic-noir.md): black/white masses, selective edges, dramatic views and shared perspective for characters and playable paths
 
 For dynamic characters, bent joints or frame-by-frame action, read [drawn poses](references/drawn-poses.md). For material texture, varied color and believable person/building scale, read [materials, color and scale](references/materials-color-scale.md). Review those choices at actual engine size before adding fine detail.
 
 For human or stylized humanoid proportions, backwards knees, misplaced shoulders, boot rotation or cape/neckpiece attachment, read [human action construction](references/human-action-construction.md) before extending the pose set. Establish a few complete drawings and inspect their actual exports before filling a cycle.
 
 For genuinely rigid reusable parts, nested motion, waves, or loops, read [parts and animation](references/parts-and-animation.md) before writing transforms or tracks.
+
+For bitmap lettering or a Phaser bitmap font, read [font-atlas](../../docs/font-atlas.md). Its printable-ASCII manifest produces fixed-cell glyphs through native Inkscape; advances are not measured font metrics. Use `draw-export` for rendering and review.
 
 Read the [project format](../../docs/project-format.md) for exact fields and limits. Recipes use the v0.4 runtime's additions while keeping project `version: 1`; older runtimes reject those fields. Never invent unsupported operations to imitate an Inkscape GUI technique.
 

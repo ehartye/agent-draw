@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "name": "overhead-keys",
+  "fps": 8,
+  "loop": false,
+  "frames": [
+    "pages/key-human-neutral.json",
+    "pages/key-human-run.json",
+    "pages/key-rpg-neutral.json",
+    "pages/key-rpg-run.json"
+  ]
+}

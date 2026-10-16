@@ -1,0 +1,802 @@
+{
+  "version": 1,
+  "name": "rpg-walk-NE-02",
+  "width": 640,
+  "height": 640,
+  "layers": [
+    {
+      "type": "group",
+      "id": "right-leg",
+      "name": "right-leg",
+      "children": [
+        {
+          "type": "polygon",
+          "name": "right-leg-mass",
+          "points": [
+            [
+              296.65,
+              439.32
+            ],
+            [
+              300.47,
+              462.56
+            ],
+            [
+              319.16,
+              478.19
+            ],
+            [
+              306.55,
+              486.72
+            ],
+            [
+              295.31,
+              515.3
+            ],
+            [
+              304.94,
+              522.44
+            ],
+            [
+              329.03,
+              503.4
+            ],
+            [
+              339.97,
+              480.17
+            ],
+            [
+              334.7,
+              446.06
+            ],
+            [
+              318.91,
+              428.6
+            ]
+          ],
+          "color": "#9DA8A9",
+          "stroke": "#293943",
+          "strokeWidth": 2.5,
+          "strokeLinejoin": "round"
+        },
+        {
+          "type": "polygon",
+          "name": "right-foot",
+          "points": [
+            [
+              286.69,
+              525.4
+            ],
+            [
+              290.23,
+              512
+            ],
+            [
+              308.61,
+              508.68
+            ],
+            [
+              331.95,
+              514.72
+            ],
+            [
+              334.07,
+              523.54
+            ],
+            [
+              298,
+              541.83
+            ],
+            [
+              286.69,
+              539.8
+            ]
+          ],
+          "color": "#9DA8A9",
+          "stroke": "#293943",
+          "strokeWidth": 2.5,
+          "strokeLinejoin": "round"
+        },
+        {
+          "type": "polygon",
+          "name": "right-foot-upper-plane",
+          "points": [
+            [
+              298,
+              527.43
+            ],
+            [
+              286.69,
+              525.4
+            ],
+            [
+              320.63,
+              512.68
+            ],
+            [
+              331.95,
+              514.72
+            ]
+          ],
+          "color": "#B6C0BC",
+          "stroke": "#293943",
+          "strokeWidth": 1,
+          "strokeLinejoin": "round"
+        },
+        {
+          "type": "polygon",
+          "name": "right-heel-wall",
+          "points": [
+            [
+              298,
+              527.43
+            ],
+            [
+              286.69,
+              525.4
+            ],
+            [
+              286.69,
+              539.8
+            ],
+            [
+              298,
+              541.83
+            ]
+          ],
+          "color": "#9DA8A9",
+          "stroke": "#293943",
+          "strokeWidth": 1,
+          "strokeLinejoin": "round"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "id": "left-leg",
+      "name": "left-leg",
+      "children": [
+        {
+          "type": "polygon",
+          "name": "left-leg-mass",
+          "points": [
+            [
+              320.37,
+              441.85
+            ],
+            [
+              320.79,
+              466.78
+            ],
+            [
+              336.88,
+              490.06
+            ],
+            [
+              329.38,
+              508.41
+            ],
+            [
+              330.92,
+              542.22
+            ],
+            [
+              342.7,
+              544.52
+            ],
+            [
+              356.86,
+              513.77
+            ],
+            [
+              357.76,
+              489.08
+            ],
+            [
+              357.24,
+              456.03
+            ],
+            [
+              344.06,
+              434.87
+            ]
+          ],
+          "color": "#D0B99B",
+          "stroke": "#293943",
+          "strokeWidth": 2.5,
+          "strokeLinejoin": "round"
+        },
+        {
+          "type": "polygon",
+          "name": "left-foot",
+          "points": [
+            [
+              323.38,
+              547.35
+            ],
+            [
+              326.91,
+              535.12
+            ],
+            [
+              345.3,
+              537.81
+            ],
+            [
+              368.63,
+              547.78
+            ],
+            [
+              370.75,
+              557.3
+            ],
+            [
+              334.69,
+              563.79
+            ],
+            [
+              323.38,
+              561.75
+            ]
+          ],
+          "color": "#D0B99B",
+          "stroke": "#293943",
+          "strokeWidth": 2.5,
+          "strokeLinejoin": "round"
+        },
+        {
+          "type": "polygon",
+          "name": "left-foot-upper-plane",
+          "points": [
+            [
+              334.69,
+              549.39
+            ],
+            [
+              323.38,
+              547.35
+            ],
+            [
+              357.32,
+              545.75
+            ],
+            [
+              368.63,
+              547.78
+            ]
+          ],
+          "color": "#F0DFC3",
+          "stroke": "#293943",
+          "strokeWidth": 1,
+          "strokeLinejoin": "round"
+        },
+        {
+          "type": "polygon",
+          "name": "left-heel-wall",
+          "points": [
+            [
+              334.69,
+              549.39
+            ],
+            [
+              323.38,
+              547.35
+            ],
+            [
+              323.38,
+              561.75
+            ],
+            [
+              334.69,
+              563.79
+            ]
+          ],
+          "color": "#D0B99B",
+          "stroke": "#293943",
+          "strokeWidth": 1,
+          "strokeLinejoin": "round"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "id": "right-arm",
+      "name": "right-arm",
+      "children": [
+        {
+          "type": "path",
+          "name": "right-arm-mass",
+          "d": "M 282.13 364.97 L 276.88 385.67 L 283.72 412.18 L 285.78 428.16 L 297.69 447.6 L 307.27 444.71 L 306.46 421.93 L 300.04 409.77 L 306.88 385.67 L 301.63 364.97 Q 291.88 351.47 282.13 364.97 Z",
+          "color": "#9DA8A9",
+          "stroke": "#293943",
+          "strokeWidth": 2.5,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "polygon",
+          "name": "right-hand",
+          "points": [
+            [
+              297.69,
+              447.6
+            ],
+            [
+              296.97,
+              452.13
+            ],
+            [
+              298.42,
+              456.97
+            ],
+            [
+              300.44,
+              460.2
+            ],
+            [
+              303.95,
+              464.9
+            ],
+            [
+              311.61,
+              462.59
+            ],
+            [
+              311.93,
+              456.74
+            ],
+            [
+              311.83,
+              452.93
+            ],
+            [
+              310.37,
+              448.09
+            ],
+            [
+              307.27,
+              444.71
+            ]
+          ],
+          "color": "#9DA8A9",
+          "stroke": "#293943",
+          "strokeWidth": 2,
+          "strokeLinejoin": "round"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "id": "torso",
+      "name": "torso",
+      "children": [
+        {
+          "type": "path",
+          "name": "neck",
+          "d": "M 315.64 341.55 L 333.64 341.55 L 336.3 368.73 L 310.3 368.73 Z",
+          "color": "#D0B99B",
+          "stroke": "#293943",
+          "strokeWidth": 2.5,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "abdomen",
+          "d": "M 295.78 395.9 L 348.16 395.9 L 347.61 446.22 Q 318.57 465.35 291.4 446.22 Z",
+          "color": "#D0B99B",
+          "stroke": "#293943",
+          "strokeWidth": 2.5,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "ribcage",
+          "d": "M 297.56 359.67 Q 324.29 348.6 349.94 359.67 Q 363.97 378.79 350.76 403.95 Q 320.39 428.11 292.4 403.95 Q 281.66 378.79 297.56 359.67 Z",
+          "color": "#DCC9AB",
+          "stroke": "#293943",
+          "strokeWidth": 2.5,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "pelvis",
+          "d": "M 283.37 419.05 Q 321.33 408.99 358.31 419.05 L 347.97 454.28 Q 318.57 465.35 290.26 454.28 Z",
+          "color": "#DCC9AB",
+          "stroke": "#293943",
+          "strokeWidth": 2.5,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "spine",
+          "d": "M 305.08 368.73 L 305.08 405.97",
+          "color": "#00000000",
+          "stroke": "#9A8269",
+          "strokeWidth": 1.3,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "left-scapula",
+          "d": "M 298.74 373.76 L 300.08 389.86",
+          "color": "#00000000",
+          "stroke": "#9A8269",
+          "strokeWidth": 1,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "right-scapula",
+          "d": "M 310.08 389.86 L 347.38 373.76",
+          "color": "#00000000",
+          "stroke": "#9A8269",
+          "strokeWidth": 1,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "id": "head",
+      "name": "head",
+      "children": [
+        {
+          "type": "path",
+          "name": "skull-and-jaw",
+          "d": "M 295.61 294.15 Q 295.61 271.35 326.21 271.35 Q 356.82 271.35 356.82 294.15 L 352.23 328.35 Q 326.21 351.15 300.2 328.35 Z",
+          "color": "#DCC9AB",
+          "stroke": "#293943",
+          "strokeWidth": 2.5,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "occiput-and-nape",
+          "d": "M 312.44 330.25 Q 326.21 336.71 339.99 330.25",
+          "color": "#00000000",
+          "stroke": "#293943",
+          "strokeWidth": 1.2,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "id": "left-arm",
+      "name": "left-arm",
+      "children": [
+        {
+          "type": "path",
+          "name": "left-arm-mass",
+          "d": "M 340.62 375.5 L 335.37 396.2 L 342.21 422.7 L 344.27 438.69 L 356.18 458.12 L 365.76 455.24 L 364.95 432.46 L 358.54 420.3 L 365.37 396.2 L 360.12 375.5 Q 350.37 362 340.62 375.5 Z",
+          "color": "#D0B99B",
+          "stroke": "#293943",
+          "strokeWidth": 2.5,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "polygon",
+          "name": "left-hand",
+          "points": [
+            [
+              356.18,
+              458.12
+            ],
+            [
+              355.46,
+              462.66
+            ],
+            [
+              356.92,
+              467.5
+            ],
+            [
+              358.93,
+              470.73
+            ],
+            [
+              362.44,
+              475.43
+            ],
+            [
+              370.1,
+              473.12
+            ],
+            [
+              370.42,
+              467.26
+            ],
+            [
+              370.32,
+              463.46
+            ],
+            [
+              368.86,
+              458.62
+            ],
+            [
+              365.76,
+              455.24
+            ]
+          ],
+          "color": "#D0B99B",
+          "stroke": "#293943",
+          "strokeWidth": 2,
+          "strokeLinejoin": "round"
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "id": "construction-guides",
+      "name": "construction-guides",
+      "children": [
+        {
+          "type": "path",
+          "name": "guide-left-hip-knee",
+          "d": "M 332.22 438.36 L 347.32 489.57",
+          "color": "#00000000",
+          "stroke": "#CC4B4B",
+          "strokeWidth": 1.5,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "guide-left-knee-ankle",
+          "d": "M 347.32 489.57 L 336.81 543.37",
+          "color": "#00000000",
+          "stroke": "#CC4B4B",
+          "strokeWidth": 1.5,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "guide-left-shoulder-elbow",
+          "d": "M 350.37 375.5 L 350.37 421.5",
+          "color": "#00000000",
+          "stroke": "#CC4B4B",
+          "strokeWidth": 1.5,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "guide-left-elbow-wrist",
+          "d": "M 350.37 421.5 L 360.97 456.68",
+          "color": "#00000000",
+          "stroke": "#CC4B4B",
+          "strokeWidth": 1.5,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "guide-left-wrist-hand",
+          "d": "M 360.97 456.68 L 366.27 474.27",
+          "color": "#00000000",
+          "stroke": "#CC4B4B",
+          "strokeWidth": 1.5,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "ellipse",
+          "name": "joint-left-hip",
+          "x": 330,
+          "y": 436,
+          "width": 4,
+          "height": 4,
+          "color": "#CC4B4B"
+        },
+        {
+          "type": "ellipse",
+          "name": "joint-left-shoulder",
+          "x": 348,
+          "y": 374,
+          "width": 4,
+          "height": 4,
+          "color": "#CC4B4B"
+        },
+        {
+          "type": "ellipse",
+          "name": "joint-left-knee",
+          "x": 345,
+          "y": 488,
+          "width": 4,
+          "height": 4,
+          "color": "#CC4B4B"
+        },
+        {
+          "type": "ellipse",
+          "name": "joint-left-ankle",
+          "x": 335,
+          "y": 541,
+          "width": 4,
+          "height": 4,
+          "color": "#CC4B4B"
+        },
+        {
+          "type": "ellipse",
+          "name": "joint-left-elbow",
+          "x": 348,
+          "y": 420,
+          "width": 4,
+          "height": 4,
+          "color": "#CC4B4B"
+        },
+        {
+          "type": "ellipse",
+          "name": "joint-left-wrist",
+          "x": 359,
+          "y": 455,
+          "width": 4,
+          "height": 4,
+          "color": "#CC4B4B"
+        },
+        {
+          "type": "ellipse",
+          "name": "joint-left-hand",
+          "x": 364,
+          "y": 472,
+          "width": 4,
+          "height": 4,
+          "color": "#CC4B4B"
+        },
+        {
+          "type": "path",
+          "name": "guide-right-hip-knee",
+          "d": "M 307.78 433.96 L 329.57 479.18",
+          "color": "#00000000",
+          "stroke": "#2879C7",
+          "strokeWidth": 1.5,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "guide-right-knee-ankle",
+          "d": "M 329.57 479.18 L 300.13 518.87",
+          "color": "#00000000",
+          "stroke": "#2879C7",
+          "strokeWidth": 1.5,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "guide-right-shoulder-elbow",
+          "d": "M 291.88 364.97 L 291.88 410.97",
+          "color": "#00000000",
+          "stroke": "#2879C7",
+          "strokeWidth": 1.5,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "guide-right-elbow-wrist",
+          "d": "M 291.88 410.97 L 302.48 446.15",
+          "color": "#00000000",
+          "stroke": "#2879C7",
+          "strokeWidth": 1.5,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "guide-right-wrist-hand",
+          "d": "M 302.48 446.15 L 307.78 463.74",
+          "color": "#00000000",
+          "stroke": "#2879C7",
+          "strokeWidth": 1.5,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "ellipse",
+          "name": "joint-right-hip",
+          "x": 306,
+          "y": 432,
+          "width": 4,
+          "height": 4,
+          "color": "#2879C7"
+        },
+        {
+          "type": "ellipse",
+          "name": "joint-right-shoulder",
+          "x": 290,
+          "y": 363,
+          "width": 4,
+          "height": 4,
+          "color": "#2879C7"
+        },
+        {
+          "type": "ellipse",
+          "name": "joint-right-knee",
+          "x": 328,
+          "y": 477,
+          "width": 4,
+          "height": 4,
+          "color": "#2879C7"
+        },
+        {
+          "type": "ellipse",
+          "name": "joint-right-ankle",
+          "x": 298,
+          "y": 517,
+          "width": 4,
+          "height": 4,
+          "color": "#2879C7"
+        },
+        {
+          "type": "ellipse",
+          "name": "joint-right-elbow",
+          "x": 290,
+          "y": 409,
+          "width": 4,
+          "height": 4,
+          "color": "#2879C7"
+        },
+        {
+          "type": "ellipse",
+          "name": "joint-right-wrist",
+          "x": 300,
+          "y": 444,
+          "width": 4,
+          "height": 4,
+          "color": "#2879C7"
+        },
+        {
+          "type": "ellipse",
+          "name": "joint-right-hand",
+          "x": 306,
+          "y": 462,
+          "width": 4,
+          "height": 4,
+          "color": "#2879C7"
+        },
+        {
+          "type": "path",
+          "name": "guide-spine",
+          "d": "M 320 436.16 L 323.7 360.68",
+          "color": "#00000000",
+          "stroke": "#19877B",
+          "strokeWidth": 1.5,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "guide-head",
+          "d": "M 323.7 360.68 L 326.21 309.35",
+          "color": "#00000000",
+          "stroke": "#B88016",
+          "strokeWidth": 1.5,
+          "strokeLinejoin": "round",
+          "strokeLinecap": "round"
+        },
+        {
+          "type": "path",
+          "name": "guide-pelvis-axis",
+          "d": "M 332 438 L 308 434",
+          "color": "#00000000",
+          "stroke": "#8A57AE",
+          "strokeWidth": 2.5
+        }
+      ],
+      "visible": false
+    }
+  ]
+}

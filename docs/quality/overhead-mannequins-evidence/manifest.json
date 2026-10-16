@@ -1,0 +1,476 @@
+{
+  "version": 1,
+  "scope": "Retained frozen review inputs, results, observer events, setup/readiness and root browser/source checks. No dashboard authentication tokens included.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "args-final.json",
+      "bytes": 17171,
+      "sha256": "f4c777092443e005be1bb284f15f557e3d11fcaff4499294f24c121f1be23160"
+    },
+    {
+      "path": "args-keys.json",
+      "bytes": 2616,
+      "sha256": "d78e471592face08efb6cc2327f70152fee2d91a0523368f2d32d8e82993d093"
+    },
+    {
+      "path": "construction-tests.txt",
+      "bytes": 1255,
+      "sha256": "4e2395caafc925ddd53e200898e45f95a719c9e005e2c768c1db9c696fc3cb84"
+    },
+    {
+      "path": "delivery-verification.json",
+      "bytes": 116,
+      "sha256": "0c07b9fbfa38195343d7f03276b85c22cbe2342a6a4d9defdbd85c3b1bfbc577"
+    },
+    {
+      "path": "guide-native-receipt.json",
+      "bytes": 1726,
+      "sha256": "85cf8a954155175dbfd1085d43c1d6e39939bc835c7e6a015f09630668f4ff4e"
+    },
+    {
+      "path": "inputs-final/guide-key.png",
+      "bytes": 16623,
+      "sha256": "a67ccb24da059db80e859227f243495fb1fcd0e0bce5931d9d1127d97800c34c"
+    },
+    {
+      "path": "inputs-final/human-crouch.png",
+      "bytes": 97901,
+      "sha256": "cd3c9b319a9f9682ebed62b37a194aa224adb25579f3c32520bcfbcbb18b5e9e"
+    },
+    {
+      "path": "inputs-final/human-jump.png",
+      "bytes": 117157,
+      "sha256": "30aebdb76f9728d254d55e8d21108532da632f4751105abdd0d4914bb26bc12a"
+    },
+    {
+      "path": "inputs-final/human-neutral.png",
+      "bytes": 69392,
+      "sha256": "6c6e320997450a7194d1a1960c8c723941159ab215730f83b7510b5ddd5ac8ae"
+    },
+    {
+      "path": "inputs-final/human-reach.png",
+      "bytes": 83079,
+      "sha256": "290c6f1a2e54d21363cbb6386ab1ae969f25d4630028e9cb8046382a9bcb8b47"
+    },
+    {
+      "path": "inputs-final/human-run-E.png",
+      "bytes": 56389,
+      "sha256": "864608b153f94fa9113c76daea51438a969546c9d0187dc56f027fb3a379e098"
+    },
+    {
+      "path": "inputs-final/human-run-flight.png",
+      "bytes": 118404,
+      "sha256": "b64b8a337942a59badf74d5bc54dd4e3cc8207a3f42c6e9e710d539967e6af98"
+    },
+    {
+      "path": "inputs-final/human-run-N.png",
+      "bytes": 64460,
+      "sha256": "109843e0032fab01a068a047aa1b0d257e21302fcb47816f0a9376aa812bc315"
+    },
+    {
+      "path": "inputs-final/human-run-NE.png",
+      "bytes": 80501,
+      "sha256": "d6540735641a2e6845d217751883a908a955371ea5a28e037471794216c00703"
+    },
+    {
+      "path": "inputs-final/human-run-NW.png",
+      "bytes": 81303,
+      "sha256": "e8395547e6ecba975423d5766e4a4aee051abed0d589f57ee81b1e4f795c5ffc"
+    },
+    {
+      "path": "inputs-final/human-run-push.png",
+      "bytes": 105256,
+      "sha256": "26b32559eaa908bab1a38484e9dc16c7870506cbe740875f738b9153413af647"
+    },
+    {
+      "path": "inputs-final/human-run-S.png",
+      "bytes": 64476,
+      "sha256": "682daf08fba01b29fcdf789887ba44abe2f0ace89febcc4c1e1301994b8a84bb"
+    },
+    {
+      "path": "inputs-final/human-run-SE.png",
+      "bytes": 81445,
+      "sha256": "90545d62dc3c7f7ae3391ce56eb75e50e1d8ecfdec61ea0575ca87708a9ca0a8"
+    },
+    {
+      "path": "inputs-final/human-run-SW.png",
+      "bytes": 81199,
+      "sha256": "d4d2c4e51e8820700d1e1979740b71bd7562ff7000d0e4ad4fcf61ee123a9943"
+    },
+    {
+      "path": "inputs-final/human-run-W.png",
+      "bytes": 56875,
+      "sha256": "3623bff5db61bfac9299956186996d4259338ebe728d14e9043de466d7844c9b"
+    },
+    {
+      "path": "inputs-final/human-walk-contact.png",
+      "bytes": 103090,
+      "sha256": "e05094a8e74fae18137946981db95cda4b56d29ef63436a11cda8dbb16e23278"
+    },
+    {
+      "path": "inputs-final/human-walk-E.png",
+      "bytes": 51219,
+      "sha256": "a3a5d504b719d75b0ef8caf31b7986afd3250ca406f69b5a8ce4afd67fab6357"
+    },
+    {
+      "path": "inputs-final/human-walk-N.png",
+      "bytes": 55283,
+      "sha256": "f1c7e5cbe2939c33a48c8e6176bf56859465f60d550c4560453f6c2882a19001"
+    },
+    {
+      "path": "inputs-final/human-walk-NE.png",
+      "bytes": 64608,
+      "sha256": "1cf2b911a46720cf62c996ac45f365eeec0e34ed48ff1b6ee8ac785652962aae"
+    },
+    {
+      "path": "inputs-final/human-walk-NW.png",
+      "bytes": 64764,
+      "sha256": "2650265304b55d49d760938d29deefe19f382b2b05a97f32ba7a86370f4e1e17"
+    },
+    {
+      "path": "inputs-final/human-walk-pass.png",
+      "bytes": 83244,
+      "sha256": "bc22b4413032319d2fa030e43b40dd5e36e77d21778995f9cf07e6e6cee2cc79"
+    },
+    {
+      "path": "inputs-final/human-walk-S.png",
+      "bytes": 55540,
+      "sha256": "b2649aa81b2b52ae2b99200b731a3a0a90b5a0596a31560df80d73947c281a4b"
+    },
+    {
+      "path": "inputs-final/human-walk-SE.png",
+      "bytes": 64757,
+      "sha256": "e5a2ad61a170204352bbc556b8adff070998d63bc393089db6c0437e6a485913"
+    },
+    {
+      "path": "inputs-final/human-walk-SW.png",
+      "bytes": 64625,
+      "sha256": "983d7b11b8d6ff61cbf6d463c5c0d9831610565b5c4081dfe1d1819d9dac0c44"
+    },
+    {
+      "path": "inputs-final/human-walk-W.png",
+      "bytes": 51527,
+      "sha256": "ce0a9f1fc5d17afe5abf03628af2e1a899025745472d4ba607b5ce58ac67def9"
+    },
+    {
+      "path": "inputs-final/rpg-crouch.png",
+      "bytes": 94089,
+      "sha256": "87d1a25a43015077a5224c70ea3b3c255bc3bf4446f0bbc42f6d579e4c6d0a64"
+    },
+    {
+      "path": "inputs-final/rpg-jump.png",
+      "bytes": 99905,
+      "sha256": "10ba67cd4b123cd466437a9958f6848fd39f3265445d3f00e35edf932a510c06"
+    },
+    {
+      "path": "inputs-final/rpg-neutral.png",
+      "bytes": 66662,
+      "sha256": "f5055c11653ba2e06629f6992e433fe09c0b627b477fd2a9b37d555c90d64240"
+    },
+    {
+      "path": "inputs-final/rpg-reach.png",
+      "bytes": 77612,
+      "sha256": "ed51133775206e8ac1d0d3b3cff12529cc9070a6d8fd9064bd3845d596881248"
+    },
+    {
+      "path": "inputs-final/rpg-run-E.png",
+      "bytes": 50748,
+      "sha256": "03401081525379e3f6f4b410d87e1ed49e2b20469a26ed7a35976186397915f8"
+    },
+    {
+      "path": "inputs-final/rpg-run-flight.png",
+      "bytes": 104571,
+      "sha256": "a03a859c8c607198fcdb08f00367f91c30e5561d06238f572382aad98035fdde"
+    },
+    {
+      "path": "inputs-final/rpg-run-N.png",
+      "bytes": 55008,
+      "sha256": "791e9105d9ab70572e7cef932933755dc0930ba30710ff10e276d57f9bf1f6d1"
+    },
+    {
+      "path": "inputs-final/rpg-run-NE.png",
+      "bytes": 60836,
+      "sha256": "4b68580963b473962e90625cdc34c8be349662c50ab60ef1ffe8bfcfb40a56c0"
+    },
+    {
+      "path": "inputs-final/rpg-run-NW.png",
+      "bytes": 60878,
+      "sha256": "f7a59375953c4dff00b6874089b76e7d8379eb38a37a1d36a3512cc915cbac0d"
+    },
+    {
+      "path": "inputs-final/rpg-run-push.png",
+      "bytes": 95656,
+      "sha256": "b7d191138d4e02c05ee81c269b6c39e2e2146ee4892a548461c56d6474a22cff"
+    },
+    {
+      "path": "inputs-final/rpg-run-S.png",
+      "bytes": 55178,
+      "sha256": "357e573bd393871fd1d1e430e70da70c3172157c8ced71f1e35df2f6b9a92b45"
+    },
+    {
+      "path": "inputs-final/rpg-run-SE.png",
+      "bytes": 61092,
+      "sha256": "b38c0cc368b80686cc4a7e3462f413774152d31e28b0c83eaf88001577083e3a"
+    },
+    {
+      "path": "inputs-final/rpg-run-SW.png",
+      "bytes": 60843,
+      "sha256": "9f095403d7eb02c33959fa85546d77ffb38285b0d0921c17e685cd2e830ba880"
+    },
+    {
+      "path": "inputs-final/rpg-run-W.png",
+      "bytes": 50604,
+      "sha256": "d73c7810a0027f69097bb6c26dc722c50f451cd48f5233a6ed6dc0dda6f43d25"
+    },
+    {
+      "path": "inputs-final/rpg-walk-contact.png",
+      "bytes": 89908,
+      "sha256": "737991359e66d9f08a2e2fb7910d0433d5392f4ac5da6e575c38acac0d7d16a7"
+    },
+    {
+      "path": "inputs-final/rpg-walk-E.png",
+      "bytes": 45717,
+      "sha256": "315d847bb292cfafef127a7b4d79c14d3375b1fab4a4142b4d97f7b8b9620faa"
+    },
+    {
+      "path": "inputs-final/rpg-walk-N.png",
+      "bytes": 47852,
+      "sha256": "8557e6f83844576a17a10516c5e4b92252c71b909f47beaa0eb18d5273011022"
+    },
+    {
+      "path": "inputs-final/rpg-walk-NE.png",
+      "bytes": 51395,
+      "sha256": "0f2e5a7fe3eea46fd9af5ae3c17cb226a6f93e02e1e35fcca4914b013b6d9041"
+    },
+    {
+      "path": "inputs-final/rpg-walk-NW.png",
+      "bytes": 50941,
+      "sha256": "9c5a99f46f42c10667106b823e7eed8249213595a005cb1293848e05e344fac6"
+    },
+    {
+      "path": "inputs-final/rpg-walk-pass.png",
+      "bytes": 74610,
+      "sha256": "76c94d9178285bc2e91dd328fd86d86e01f56313edbfd91928f583d90f711b88"
+    },
+    {
+      "path": "inputs-final/rpg-walk-S.png",
+      "bytes": 47896,
+      "sha256": "2f26a50fa9d7a3c46bb33f2ff4ff55f436aa529acf9b3696f23a2044a848b43a"
+    },
+    {
+      "path": "inputs-final/rpg-walk-SE.png",
+      "bytes": 51345,
+      "sha256": "6b0093b167cbb735057bf8c8b6c3252e64eabac9b2840176f145ea6ce76c0bda"
+    },
+    {
+      "path": "inputs-final/rpg-walk-SW.png",
+      "bytes": 51308,
+      "sha256": "64cba9a7384b99aa3ae0cfe4e78947e9d48b84ccde3861b1da6cccfeaaec9157"
+    },
+    {
+      "path": "inputs-final/rpg-walk-W.png",
+      "bytes": 45615,
+      "sha256": "a72a5049dee468ec6e7fed70282aa580e43fbf27ed376ebe677cee65cc1f2eb2"
+    },
+    {
+      "path": "inputs-keys/human-neutral.png",
+      "bytes": 37418,
+      "sha256": "521ed19f9ae6a4c634d7959d643230fb3eb14a57cb21a2620307d6689bf3ece0"
+    },
+    {
+      "path": "inputs-keys/human-run.png",
+      "bytes": 56103,
+      "sha256": "70c887e28442f2a781c4fa260fa54db1f37930bbb682964bc3976543648a5458"
+    },
+    {
+      "path": "inputs-keys/rpg-neutral.png",
+      "bytes": 36337,
+      "sha256": "e4ef2fbd240853430a956262bf045846c8131480f12f3ec4fe676e99a93ab98a"
+    },
+    {
+      "path": "inputs-keys/rpg-run.png",
+      "bytes": 49176,
+      "sha256": "10bd0e1a3d8307059bc1a512d3bb8fbde8c2b4b4ba314805e0bcf5167ca499d0"
+    },
+    {
+      "path": "observer-final.jsonl",
+      "bytes": 1597,
+      "sha256": "cf3f4d084315df7e95db7455980bcdedbe12d6ffd668c9f18c0844e2f00e91aa"
+    },
+    {
+      "path": "observer-keys.jsonl",
+      "bytes": 1171,
+      "sha256": "20a9f4c7d6e47b533c312e39222d5a7ff73cbb1f1c7bf9a553f4af6293522bb5"
+    },
+    {
+      "path": "overhead-browser/gallery-desktop.png",
+      "bytes": 118662,
+      "sha256": "0b0087e26264f9a26a3ce49c845727b41c9594c2897fb747ba666bf8ecaa82d7"
+    },
+    {
+      "path": "overhead-browser/gallery-mobile-drawings.png",
+      "bytes": 42260,
+      "sha256": "cd61ef86a023583e8020b436419288fe8b8c5c3106c7ee8638fad86f6fc7a710"
+    },
+    {
+      "path": "overhead-browser/gallery-mobile-final.png",
+      "bytes": 40410,
+      "sha256": "a47243038b151cd8c6b358bafc2728f31800fae5cc8b6b1f90dd5c044a6f063f"
+    },
+    {
+      "path": "overhead-browser/gallery-mobile.png",
+      "bytes": 40831,
+      "sha256": "4bd59667d4a49d9662df2988a947512739100bb1a2e6284b9c39771f91931b65"
+    },
+    {
+      "path": "overhead-browser/human-neutral-S.png",
+      "bytes": 9417,
+      "sha256": "3f1197cacb982b4b6552e1f9700b9c07ce09cb7f8dd79d81065d9c7415e4571b"
+    },
+    {
+      "path": "overhead-browser/human-run-NE-guides.png",
+      "bytes": 107733,
+      "sha256": "a201913baef845059b7a202d3de921de5ac443d405e18e11591d98268a774eff"
+    },
+    {
+      "path": "overhead-browser/human-run-S-guides.png",
+      "bytes": 97639,
+      "sha256": "2cca86737e17573e44d27791079a5535b85dd0ff41e1d37d9bd4c8dfc2d36ed5"
+    },
+    {
+      "path": "overhead-browser/human-walk-NE-guides.png",
+      "bytes": 100275,
+      "sha256": "04bd8f4a83d642d8accc35d1d97482d18971d73f302cf63862ed423c599c3e91"
+    },
+    {
+      "path": "overhead-browser/human-walk-S-guides.png",
+      "bytes": 92997,
+      "sha256": "fe0ecccd36f88ffa4249a2a5f4303d0efcf2b81e7262707bf7abcc99ce2e6f2a"
+    },
+    {
+      "path": "overhead-browser/playback-progress.json",
+      "bytes": 102505,
+      "sha256": "483db87332bf30f7cbfd2dc0e4afd6b125454753226af7efe7ab4fa265728561"
+    },
+    {
+      "path": "overhead-browser/receipt.json",
+      "bytes": 219381,
+      "sha256": "75dff5b4a469d02467f9634d5abb00d7a1dcf17867d683630e6059843a48ef97"
+    },
+    {
+      "path": "overhead-browser/rpg-run-NE-guides.png",
+      "bytes": 102918,
+      "sha256": "0af561e1f1c904ce95bf119d16fd3061e797e2e274a64a9d27cc1b7cb3fe06a3"
+    },
+    {
+      "path": "overhead-browser/rpg-run-S-guides.png",
+      "bytes": 97241,
+      "sha256": "651698086f46a26fbc67482e6536ab0f679ce8e127f137a89aea7cab650dc537"
+    },
+    {
+      "path": "overhead-browser/rpg-walk-NE-guides.png",
+      "bytes": 97705,
+      "sha256": "a8e9be4396c044d3f540b189ccd25b620a97e933878d5e000cdfeb27befbe0b3"
+    },
+    {
+      "path": "overhead-browser/rpg-walk-S-guides.png",
+      "bytes": 93480,
+      "sha256": "129a7f0cdc8bf01df02db343a92ddf3a8a59e619c7d9746c4217017fe46139ec"
+    },
+    {
+      "path": "parent-browser/gallery-desktop.png",
+      "bytes": 126560,
+      "sha256": "538d9cf3bfe5327b5979431cfd5f170ebfc5ca5b91f2f7f5e831810c414559c0"
+    },
+    {
+      "path": "parent-browser/gallery-mobile-drawings.png",
+      "bytes": 44965,
+      "sha256": "dadbc33902a2e66451fe2ba295974a6fc4ce19a7bc1d8831cfe9b7841ad675a2"
+    },
+    {
+      "path": "parent-browser/gallery-mobile.png",
+      "bytes": 40417,
+      "sha256": "4f77e3feae2ca2b31497a479f601a1f0bfdcf9821ee911599a488265867629be"
+    },
+    {
+      "path": "parent-browser/human-neutral-S.png",
+      "bytes": 22701,
+      "sha256": "195dfe640d7c111776be29393792e26477a82e95871551efe50cb62f0c629dc1"
+    },
+    {
+      "path": "parent-browser/human-run-NE-guides.png",
+      "bytes": 101569,
+      "sha256": "3badfaa6ab4d10fbe0af4aa31c3c84503e1f7706f392dc683da502f2b526e235"
+    },
+    {
+      "path": "parent-browser/human-run-S-guides.png",
+      "bytes": 87006,
+      "sha256": "e2ed791bf5db5724d54263c72a51d7f121ef0322f9d030360e4a0848f34f527c"
+    },
+    {
+      "path": "parent-browser/human-walk-NE-guides.png",
+      "bytes": 100791,
+      "sha256": "31c3befd3b5bf654d50396ae2ceb501fe00462d31adf899069fe8d2f22c72402"
+    },
+    {
+      "path": "parent-browser/human-walk-S-guides.png",
+      "bytes": 90572,
+      "sha256": "62c9a9a46324043895e62115d96a5e10c464e94d910282a2b058f3fba3a90771"
+    },
+    {
+      "path": "parent-browser/receipt.json",
+      "bytes": 117336,
+      "sha256": "2344541b770d5c8a2bc6c759c88fbed68b8e400b11c395f04b0359c8a668278e"
+    },
+    {
+      "path": "parent-browser/rpg-run-NE-guides.png",
+      "bytes": 95514,
+      "sha256": "6e6b2b32cbc1a5211ea0ce025ea6f86505f45e108152b48f66c840480252e4c7"
+    },
+    {
+      "path": "parent-browser/rpg-run-S-guides.png",
+      "bytes": 86642,
+      "sha256": "5673b20e30a0c63fe31773b6e61f6b1c79505326a662296368388c81dfb3c284"
+    },
+    {
+      "path": "parent-browser/rpg-walk-NE-guides.png",
+      "bytes": 96431,
+      "sha256": "f5c0bd55ffa346cbb465554b816ed7864a6d7e0f1f72b8accbbe951e5c8213fe"
+    },
+    {
+      "path": "parent-browser/rpg-walk-S-guides.png",
+      "bytes": 89155,
+      "sha256": "90a2bb8cd373bb277a44c483d83e7ba3535986c4a009730a2d9bb1fc6676c93d"
+    },
+    {
+      "path": "post-text-change-verification.json",
+      "bytes": 258918,
+      "sha256": "6c7b829f8ebfbe604537efb995e69cfd39b87aef98d19e4afb1c0e2cc5906442"
+    },
+    {
+      "path": "result-final.json",
+      "bytes": 15365,
+      "sha256": "24f3f0062ab0dea7039dfd70610d3945a28d945990736a2b203b6d90ba392363"
+    },
+    {
+      "path": "result-keys.json",
+      "bytes": 3255,
+      "sha256": "e340dbd8a04b4c99c5809d2098572ec6e7271e762c715a8f5ea14ee2ff3cc11a"
+    },
+    {
+      "path": "workflow-doctor.json",
+      "bytes": 4191,
+      "sha256": "b78b4519ceec4d972d26cdf8f54985d172484a3f075127de9994dffb035d41b2"
+    },
+    {
+      "path": "workflow-setup.json",
+      "bytes": 685,
+      "sha256": "f91d0bd548696d0f93f910e979e149f5a33fa5dcabf1bafa48cd5cde4a5cf206"
+    }
+  ]
+}

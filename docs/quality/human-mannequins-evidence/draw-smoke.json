@@ -1,0 +1,62 @@
+{
+  "ok": true,
+  "node": "24.21.0",
+  "inkscape": {
+    "ok": true,
+    "command": "C:/Program Files/Inkscape/bin/inkscape.com",
+    "status": "ready",
+    "version": "Inkscape 1.4.3 (0d15f75, 2025-12-25)",
+    "versionText": "Inkscape 1.4.3 (0d15f75, 2025-12-25)",
+    "error": null,
+    "minimumVersion": "1.2",
+    "explicitOverride": true,
+    "attempts": [
+      {
+        "command": "C:/Program Files/Inkscape/bin/inkscape.com",
+        "status": "ready",
+        "version": "1.4.3",
+        "versionText": "Inkscape 1.4.3 (0d15f75, 2025-12-25)",
+        "error": null
+      }
+    ],
+    "platform": "win32",
+    "verifiedPlatforms": [
+      "linux"
+    ],
+    "installUrl": "https://inkscape.org/release/",
+    "installGuide": "https://wiki.inkscape.org/wiki/Installing_Inkscape",
+    "advice": "CLI version probe passed. Run doctor --smoke to verify real SVG, PNG, and PDF export.",
+    "detectedVersion": "1.4.3"
+  },
+  "ffmpeg": {
+    "ok": false,
+    "command": "ffmpeg",
+    "status": "missing",
+    "version": null,
+    "explicitOverride": false,
+    "optional": true,
+    "installUrl": "https://ffmpeg.org/download.html",
+    "advice": "Frames-only export needs no FFmpeg. Install FFmpeg from its official download page or your distribution package manager; no automatic installation was attempted. An explicit AGENT_DRAW_FFMPEG selection is authoritative and will not be silently replaced.",
+    "error": "spawnSync ffmpeg ENOENT"
+  },
+  "smoke": {
+    "ok": true,
+    "width": 16,
+    "height": 16,
+    "formats": [
+      "svg",
+      "png",
+      "pdf"
+    ],
+    "warnings": [
+      {
+        "format": "png",
+        "message": "(inkscape.com:27220): Gdk-CRITICAL **: 16:40:40.249: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:27220): Gdk-CRITICAL **: 16:40:40.508: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+      },
+      {
+        "format": "pdf",
+        "message": "(inkscape.com:28288): Gdk-CRITICAL **: 16:40:42.610: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:28288): Gdk-CRITICAL **: 16:40:42.741: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+      }
+    ]
+  }
+}

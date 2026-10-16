@@ -1,0 +1,11 @@
+{
+  "schema": 2,
+  "version": "0.4.5",
+  "digest": "b4ef61d3ae030180e96acf27559365d5892be35bc189fd609d3c4fc6f2454bc6",
+  "node": "v24.21.0",
+  "id": "0.4.5-b4ef61d3ae030180-node24.21.0",
+  "path": "C:\\Users\\ehart\\AppData\\Local\\agent-workflow\\runtime-v2\\0.4.5-b4ef61d3ae030180-node24.21.0",
+  "codex": "C:\\Users\\ehart\\AppData\\Local\\agent-workflow\\runtime-v2\\0.4.5-b4ef61d3ae030180-node24.21.0\\node_modules\\@openai\\codex-win32-x64\\vendor\\x86_64-pc-windows-msvc\\bin\\codex.exe",
+  "codexDigest": "dd13bdb162a184fa04039488b234a8258ef9b76f84e926c505d5742b19249a6a",
+  "dependenciesDigest": "dc9607053732d4536c32bf72e7962b27c6fb831d7e435a9ee6c030361632af8d"
+}

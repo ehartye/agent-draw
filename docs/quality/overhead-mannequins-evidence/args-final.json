@@ -1,0 +1,282 @@
+{
+  "plan": {
+    "maxWorkersWholePlan": 4,
+    "toolsRequired": [],
+    "skillsRequired": [],
+    "objective": "Accepted guide palette and complete overhead mannequin set",
+    "owner": "root",
+    "deadline": "timeoutMs null",
+    "maxWorkersThisRun": 2,
+    "verification": "Root-owned source/native crop binding, 32 browser loops at two speeds, served files, parent route and game preserved",
+    "output": "bounded schema JSON",
+    "input": "snapshotted args-file, exact immutable PNG hashes",
+    "scope": "Two final full-set read-only visual reviewers",
+    "revision": 2
+  },
+  "tasks": [
+    {
+      "label": "Review all human overhead poses and strides",
+      "id": "human-full",
+      "images": [
+        {
+          "sha256": "a67ccb24da059db80e859227f243495fb1fcd0e0bce5931d9d1127d97800c34c",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\guide-key.png",
+          "id": "guide-key"
+        },
+        {
+          "sha256": "cd3c9b319a9f9682ebed62b37a194aa224adb25579f3c32520bcfbcbb18b5e9e",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-crouch.png",
+          "id": "human-crouch"
+        },
+        {
+          "sha256": "30aebdb76f9728d254d55e8d21108532da632f4751105abdd0d4914bb26bc12a",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-jump.png",
+          "id": "human-jump"
+        },
+        {
+          "sha256": "6c6e320997450a7194d1a1960c8c723941159ab215730f83b7510b5ddd5ac8ae",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-neutral.png",
+          "id": "human-neutral"
+        },
+        {
+          "sha256": "290c6f1a2e54d21363cbb6386ab1ae969f25d4630028e9cb8046382a9bcb8b47",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-reach.png",
+          "id": "human-reach"
+        },
+        {
+          "sha256": "864608b153f94fa9113c76daea51438a969546c9d0187dc56f027fb3a379e098",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-run-E.png",
+          "id": "human-run-E"
+        },
+        {
+          "sha256": "b64b8a337942a59badf74d5bc54dd4e3cc8207a3f42c6e9e710d539967e6af98",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-run-flight.png",
+          "id": "human-run-flight"
+        },
+        {
+          "sha256": "109843e0032fab01a068a047aa1b0d257e21302fcb47816f0a9376aa812bc315",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-run-N.png",
+          "id": "human-run-N"
+        },
+        {
+          "sha256": "d6540735641a2e6845d217751883a908a955371ea5a28e037471794216c00703",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-run-NE.png",
+          "id": "human-run-NE"
+        },
+        {
+          "sha256": "e8395547e6ecba975423d5766e4a4aee051abed0d589f57ee81b1e4f795c5ffc",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-run-NW.png",
+          "id": "human-run-NW"
+        },
+        {
+          "sha256": "26b32559eaa908bab1a38484e9dc16c7870506cbe740875f738b9153413af647",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-run-push.png",
+          "id": "human-run-push"
+        },
+        {
+          "sha256": "682daf08fba01b29fcdf789887ba44abe2f0ace89febcc4c1e1301994b8a84bb",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-run-S.png",
+          "id": "human-run-S"
+        },
+        {
+          "sha256": "90545d62dc3c7f7ae3391ce56eb75e50e1d8ecfdec61ea0575ca87708a9ca0a8",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-run-SE.png",
+          "id": "human-run-SE"
+        },
+        {
+          "sha256": "d4d2c4e51e8820700d1e1979740b71bd7562ff7000d0e4ad4fcf61ee123a9943",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-run-SW.png",
+          "id": "human-run-SW"
+        },
+        {
+          "sha256": "3623bff5db61bfac9299956186996d4259338ebe728d14e9043de466d7844c9b",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-run-W.png",
+          "id": "human-run-W"
+        },
+        {
+          "sha256": "e05094a8e74fae18137946981db95cda4b56d29ef63436a11cda8dbb16e23278",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-walk-contact.png",
+          "id": "human-walk-contact"
+        },
+        {
+          "sha256": "a3a5d504b719d75b0ef8caf31b7986afd3250ca406f69b5a8ce4afd67fab6357",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-walk-E.png",
+          "id": "human-walk-E"
+        },
+        {
+          "sha256": "f1c7e5cbe2939c33a48c8e6176bf56859465f60d550c4560453f6c2882a19001",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-walk-N.png",
+          "id": "human-walk-N"
+        },
+        {
+          "sha256": "1cf2b911a46720cf62c996ac45f365eeec0e34ed48ff1b6ee8ac785652962aae",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-walk-NE.png",
+          "id": "human-walk-NE"
+        },
+        {
+          "sha256": "2650265304b55d49d760938d29deefe19f382b2b05a97f32ba7a86370f4e1e17",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-walk-NW.png",
+          "id": "human-walk-NW"
+        },
+        {
+          "sha256": "bc22b4413032319d2fa030e43b40dd5e36e77d21778995f9cf07e6e6cee2cc79",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-walk-pass.png",
+          "id": "human-walk-pass"
+        },
+        {
+          "sha256": "b2649aa81b2b52ae2b99200b731a3a0a90b5a0596a31560df80d73947c281a4b",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-walk-S.png",
+          "id": "human-walk-S"
+        },
+        {
+          "sha256": "e5a2ad61a170204352bbc556b8adff070998d63bc393089db6c0437e6a485913",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-walk-SE.png",
+          "id": "human-walk-SE"
+        },
+        {
+          "sha256": "983d7b11b8d6ff61cbf6d463c5c0d9831610565b5c4081dfe1d1819d9dac0c44",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-walk-SW.png",
+          "id": "human-walk-SW"
+        },
+        {
+          "sha256": "ce0a9f1fc5d17afe5abf03628af2e1a899025745472d4ba607b5ce58ac67def9",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\human-walk-W.png",
+          "id": "human-walk-W"
+        }
+      ],
+      "scope": "FINAL COMPLETE SET. Eight static sheets contain all eight facings in compass order S,SE,E,NE,N,NW,W,SW (four columns then second row). Sixteen movement sheets contain eight consecutive frames per view/action. One shared guide image is human-run-S-02, single figure, true anatomical left on screen-right blue circles and right on screen-left red diamonds. Judge the entire motion sequence and both half-strides, not a single crossover pose. No prior review verdicts are supplied."
+    },
+    {
+      "label": "Review all rpg overhead poses and strides",
+      "id": "rpg-full",
+      "images": [
+        {
+          "sha256": "a67ccb24da059db80e859227f243495fb1fcd0e0bce5931d9d1127d97800c34c",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\guide-key.png",
+          "id": "guide-key"
+        },
+        {
+          "sha256": "87d1a25a43015077a5224c70ea3b3c255bc3bf4446f0bbc42f6d579e4c6d0a64",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-crouch.png",
+          "id": "rpg-crouch"
+        },
+        {
+          "sha256": "10ba67cd4b123cd466437a9958f6848fd39f3265445d3f00e35edf932a510c06",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-jump.png",
+          "id": "rpg-jump"
+        },
+        {
+          "sha256": "f5055c11653ba2e06629f6992e433fe09c0b627b477fd2a9b37d555c90d64240",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-neutral.png",
+          "id": "rpg-neutral"
+        },
+        {
+          "sha256": "ed51133775206e8ac1d0d3b3cff12529cc9070a6d8fd9064bd3845d596881248",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-reach.png",
+          "id": "rpg-reach"
+        },
+        {
+          "sha256": "03401081525379e3f6f4b410d87e1ed49e2b20469a26ed7a35976186397915f8",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-run-E.png",
+          "id": "rpg-run-E"
+        },
+        {
+          "sha256": "a03a859c8c607198fcdb08f00367f91c30e5561d06238f572382aad98035fdde",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-run-flight.png",
+          "id": "rpg-run-flight"
+        },
+        {
+          "sha256": "791e9105d9ab70572e7cef932933755dc0930ba30710ff10e276d57f9bf1f6d1",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-run-N.png",
+          "id": "rpg-run-N"
+        },
+        {
+          "sha256": "4b68580963b473962e90625cdc34c8be349662c50ab60ef1ffe8bfcfb40a56c0",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-run-NE.png",
+          "id": "rpg-run-NE"
+        },
+        {
+          "sha256": "f7a59375953c4dff00b6874089b76e7d8379eb38a37a1d36a3512cc915cbac0d",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-run-NW.png",
+          "id": "rpg-run-NW"
+        },
+        {
+          "sha256": "b7d191138d4e02c05ee81c269b6c39e2e2146ee4892a548461c56d6474a22cff",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-run-push.png",
+          "id": "rpg-run-push"
+        },
+        {
+          "sha256": "357e573bd393871fd1d1e430e70da70c3172157c8ced71f1e35df2f6b9a92b45",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-run-S.png",
+          "id": "rpg-run-S"
+        },
+        {
+          "sha256": "b38c0cc368b80686cc4a7e3462f413774152d31e28b0c83eaf88001577083e3a",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-run-SE.png",
+          "id": "rpg-run-SE"
+        },
+        {
+          "sha256": "9f095403d7eb02c33959fa85546d77ffb38285b0d0921c17e685cd2e830ba880",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-run-SW.png",
+          "id": "rpg-run-SW"
+        },
+        {
+          "sha256": "d73c7810a0027f69097bb6c26dc722c50f451cd48f5233a6ed6dc0dda6f43d25",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-run-W.png",
+          "id": "rpg-run-W"
+        },
+        {
+          "sha256": "737991359e66d9f08a2e2fb7910d0433d5392f4ac5da6e575c38acac0d7d16a7",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-walk-contact.png",
+          "id": "rpg-walk-contact"
+        },
+        {
+          "sha256": "315d847bb292cfafef127a7b4d79c14d3375b1fab4a4142b4d97f7b8b9620faa",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-walk-E.png",
+          "id": "rpg-walk-E"
+        },
+        {
+          "sha256": "8557e6f83844576a17a10516c5e4b92252c71b909f47beaa0eb18d5273011022",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-walk-N.png",
+          "id": "rpg-walk-N"
+        },
+        {
+          "sha256": "0f2e5a7fe3eea46fd9af5ae3c17cb226a6f93e02e1e35fcca4914b013b6d9041",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-walk-NE.png",
+          "id": "rpg-walk-NE"
+        },
+        {
+          "sha256": "9c5a99f46f42c10667106b823e7eed8249213595a005cb1293848e05e344fac6",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-walk-NW.png",
+          "id": "rpg-walk-NW"
+        },
+        {
+          "sha256": "76c94d9178285bc2e91dd328fd86d86e01f56313edbfd91928f583d90f711b88",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-walk-pass.png",
+          "id": "rpg-walk-pass"
+        },
+        {
+          "sha256": "2f26a50fa9d7a3c46bb33f2ff4ff55f436aa529acf9b3696f23a2044a848b43a",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-walk-S.png",
+          "id": "rpg-walk-S"
+        },
+        {
+          "sha256": "6b0093b167cbb735057bf8c8b6c3252e64eabac9b2840176f145ea6ce76c0bda",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-walk-SE.png",
+          "id": "rpg-walk-SE"
+        },
+        {
+          "sha256": "64cba9a7384b99aa3ae0cfe4e78947e9d48b84ccde3861b1da6cccfeaaec9157",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-walk-SW.png",
+          "id": "rpg-walk-SW"
+        },
+        {
+          "sha256": "a72a5049dee468ec6e7fed70282aa580e43fbf27ed376ebe677cee65cc1f2eb2",
+          "path": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\docs\\quality\\overhead-mannequins-evidence\\inputs-final\\rpg-walk-W.png",
+          "id": "rpg-walk-W"
+        }
+      ],
+      "scope": "FINAL COMPLETE SET. Eight static sheets contain all eight facings in compass order S,SE,E,NE,N,NW,W,SW (four columns then second row). Sixteen movement sheets contain eight consecutive frames per view/action. One shared guide image is human-run-S-02, single figure, true anatomical left on screen-right blue circles and right on screen-left red diamonds. Judge the entire motion sequence and both half-strides, not a single crossover pose. No prior review verdicts are supplied."
+    }
+  ]
+}

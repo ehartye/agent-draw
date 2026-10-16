@@ -1,0 +1,1027 @@
+{
+  "schemaVersion": 1,
+  "tool": "agent-draw",
+  "version": "0.4.1",
+  "kind": "sequence",
+  "ok": true,
+  "name": "eight-direction-frontal-folded-contour-fixes",
+  "width": 640,
+  "height": 640,
+  "fps": 8,
+  "frames": 42,
+  "durationSeconds": 5.25,
+  "loop": false,
+  "seam": {
+    "closed": null,
+    "method": "not automatically proven for independently drawn poses",
+    "requiresVisualReview": true
+  },
+  "formats": [
+    "svg",
+    "png"
+  ],
+  "source": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\sequence-eight-fixes-r2.json",
+  "sourceSha256": "1628430189745040975b736a159bacc92a079f00ca500ce2573745befa3684d0",
+  "sourceFrames": [
+    {
+      "index": 0,
+      "path": "projects/human-run-push-S.json",
+      "project": "projects/frame-0000.json",
+      "svg": "frames/frame-0000.svg",
+      "png": "frames/frame-0000.png",
+      "sha256": "80deff6413c6dec2bd91440935b7faeef002b6ce6eab8b9805f8305892d52564",
+      "bytes": 18502
+    },
+    {
+      "index": 1,
+      "path": "projects/human-run-flight-S.json",
+      "project": "projects/frame-0001.json",
+      "svg": "frames/frame-0001.svg",
+      "png": "frames/frame-0001.png",
+      "sha256": "5a128ebc7e649b69965f33287947fdd323a36bc421378fc11a9df4793021b665",
+      "bytes": 19191
+    },
+    {
+      "index": 2,
+      "path": "projects/human-jump-S.json",
+      "project": "projects/frame-0002.json",
+      "svg": "frames/frame-0002.svg",
+      "png": "frames/frame-0002.png",
+      "sha256": "6d5680b267663b3128fc8e49643822ba151dd5bc64a140ae3e64e13275f0c1b0",
+      "bytes": 19198
+    },
+    {
+      "index": 3,
+      "path": "projects/human-crouch-S.json",
+      "project": "projects/frame-0003.json",
+      "svg": "frames/frame-0003.svg",
+      "png": "frames/frame-0003.png",
+      "sha256": "b3a785fc9f8b16c1ca91bcc55568f41fbd3a7598a5ba52b4989642f65b93c36d",
+      "bytes": 18488
+    },
+    {
+      "index": 4,
+      "path": "projects/human-reach-S.json",
+      "project": "projects/frame-0004.json",
+      "svg": "frames/frame-0004.svg",
+      "png": "frames/frame-0004.png",
+      "sha256": "e234480923d84270540333554f6554921c457031f4e28c06accf075945a30b70",
+      "bytes": 18513
+    },
+    {
+      "index": 5,
+      "path": "projects/human-run-S-00.json",
+      "project": "projects/frame-0005.json",
+      "svg": "frames/frame-0005.svg",
+      "png": "frames/frame-0005.png",
+      "sha256": "12ab67a1baa80e88d92bdbd66ec08ad522efe653c919d4c8943ad3fe6104e94e",
+      "bytes": 18506
+    },
+    {
+      "index": 6,
+      "path": "projects/human-run-S-01.json",
+      "project": "projects/frame-0006.json",
+      "svg": "frames/frame-0006.svg",
+      "png": "frames/frame-0006.png",
+      "sha256": "e2aafb6ba534eb70dc62efb35d7f350bbf282c1efd9fb42648cf0ccc6122aee6",
+      "bytes": 18515
+    },
+    {
+      "index": 7,
+      "path": "projects/human-run-S-03.json",
+      "project": "projects/frame-0007.json",
+      "svg": "frames/frame-0007.svg",
+      "png": "frames/frame-0007.png",
+      "sha256": "e2502e478b278a1301d8f624b6b238ca33cb98755fbbed4e93b6a462a3d6e4fb",
+      "bytes": 18510
+    },
+    {
+      "index": 8,
+      "path": "projects/human-run-S-04.json",
+      "project": "projects/frame-0008.json",
+      "svg": "frames/frame-0008.svg",
+      "png": "frames/frame-0008.png",
+      "sha256": "6c316af8184e7a97fa4305fc23ae5f3432c28ff863fc82b45479a5391b2acaf9",
+      "bytes": 18505
+    },
+    {
+      "index": 9,
+      "path": "projects/human-run-S-05.json",
+      "project": "projects/frame-0009.json",
+      "svg": "frames/frame-0009.svg",
+      "png": "frames/frame-0009.png",
+      "sha256": "52b5c66b4af3700a47339ff1ccc5d45b4e7ceadf9448c5baae505f5142f00382",
+      "bytes": 18514
+    },
+    {
+      "index": 10,
+      "path": "projects/human-run-S-07.json",
+      "project": "projects/frame-0010.json",
+      "svg": "frames/frame-0010.svg",
+      "png": "frames/frame-0010.png",
+      "sha256": "826042493a1ff89056653d8fc9d4b2fd267c4b55c5ed6454cdde8f6c51ada872",
+      "bytes": 18511
+    },
+    {
+      "index": 11,
+      "path": "projects/human-run-push-N.json",
+      "project": "projects/frame-0011.json",
+      "svg": "frames/frame-0011.svg",
+      "png": "frames/frame-0011.png",
+      "sha256": "80ed6e0c62b26a66c7ad7b4b8ba61a9932b991a9d5fc4664131f963b29a80d5e",
+      "bytes": 17917
+    },
+    {
+      "index": 12,
+      "path": "projects/human-run-flight-N.json",
+      "project": "projects/frame-0012.json",
+      "svg": "frames/frame-0012.svg",
+      "png": "frames/frame-0012.png",
+      "sha256": "cb0795062ae46501866e529b8d86cb5d005206aea6a0a5d2650f32ae1a9dd6ab",
+      "bytes": 18630
+    },
+    {
+      "index": 13,
+      "path": "projects/human-jump-N.json",
+      "project": "projects/frame-0013.json",
+      "svg": "frames/frame-0013.svg",
+      "png": "frames/frame-0013.png",
+      "sha256": "9a73f06e68a68f565f0f6467873bc22acba552155d0addc6d98bbf210e7ab97c",
+      "bytes": 17923
+    },
+    {
+      "index": 14,
+      "path": "projects/human-crouch-N.json",
+      "project": "projects/frame-0014.json",
+      "svg": "frames/frame-0014.svg",
+      "png": "frames/frame-0014.png",
+      "sha256": "317755b389dfebd12f3e5e0f6347497a65d1308bce3daf4adc1525d3ba076503",
+      "bytes": 17914
+    },
+    {
+      "index": 15,
+      "path": "projects/human-run-N-00.json",
+      "project": "projects/frame-0015.json",
+      "svg": "frames/frame-0015.svg",
+      "png": "frames/frame-0015.png",
+      "sha256": "edcdb0bd48e634882a0388ebadaac1ead3e5a50ff5b63958afbb0835a145fd31",
+      "bytes": 17931
+    },
+    {
+      "index": 16,
+      "path": "projects/human-run-N-01.json",
+      "project": "projects/frame-0016.json",
+      "svg": "frames/frame-0016.svg",
+      "png": "frames/frame-0016.png",
+      "sha256": "b0801a3a93ecad6b609dfb5f8849e996c038ba5b5c883deb10ea6ab51b49943d",
+      "bytes": 17934
+    },
+    {
+      "index": 17,
+      "path": "projects/human-run-N-03.json",
+      "project": "projects/frame-0017.json",
+      "svg": "frames/frame-0017.svg",
+      "png": "frames/frame-0017.png",
+      "sha256": "4252b6501f26b7fe8679a203fac95401a7b308382aa6648f6b0e95eea31791ae",
+      "bytes": 17937
+    },
+    {
+      "index": 18,
+      "path": "projects/human-run-N-04.json",
+      "project": "projects/frame-0018.json",
+      "svg": "frames/frame-0018.svg",
+      "png": "frames/frame-0018.png",
+      "sha256": "13c5d0fc1e98a701f5cfe3ea4bdf37bf8b1c6080e9da53077cbd4db82756dbf0",
+      "bytes": 17930
+    },
+    {
+      "index": 19,
+      "path": "projects/human-run-N-05.json",
+      "project": "projects/frame-0019.json",
+      "svg": "frames/frame-0019.svg",
+      "png": "frames/frame-0019.png",
+      "sha256": "9318a0286cddf7d92b6ceb699b90b1babb001a2b158a76bab383908e9e33041d",
+      "bytes": 17933
+    },
+    {
+      "index": 20,
+      "path": "projects/human-run-N-07.json",
+      "project": "projects/frame-0020.json",
+      "svg": "frames/frame-0020.svg",
+      "png": "frames/frame-0020.png",
+      "sha256": "6d6a26891e66c937ef7fb11462bdfd43e0f6ccbf839ccba1eb1a8d421aa3f281",
+      "bytes": 17938
+    },
+    {
+      "index": 21,
+      "path": "projects/rpg-run-push-S.json",
+      "project": "projects/frame-0021.json",
+      "svg": "frames/frame-0021.svg",
+      "png": "frames/frame-0021.png",
+      "sha256": "bb5c22f92bd2fe20650c3eb08ea079f2ae8d2de8a7061bedf0edd69a50b7f0cc",
+      "bytes": 18509
+    },
+    {
+      "index": 22,
+      "path": "projects/rpg-run-flight-S.json",
+      "project": "projects/frame-0022.json",
+      "svg": "frames/frame-0022.svg",
+      "png": "frames/frame-0022.png",
+      "sha256": "e2ffe0ee3186539827924251a137a883cc42d5651b8f6c2ba951c0da26bd7965",
+      "bytes": 19232
+    },
+    {
+      "index": 23,
+      "path": "projects/rpg-jump-S.json",
+      "project": "projects/frame-0023.json",
+      "svg": "frames/frame-0023.svg",
+      "png": "frames/frame-0023.png",
+      "sha256": "46006dc2ecd7f5fe13257b9ad12a863f9ded407e901948271f937d4fddcb1e17",
+      "bytes": 19209
+    },
+    {
+      "index": 24,
+      "path": "projects/rpg-crouch-S.json",
+      "project": "projects/frame-0024.json",
+      "svg": "frames/frame-0024.svg",
+      "png": "frames/frame-0024.png",
+      "sha256": "37dde74aebd9df308e7b83c217bc4b5f47c86598d9257e3d0ff0e63e63cabff4",
+      "bytes": 18496
+    },
+    {
+      "index": 25,
+      "path": "projects/rpg-reach-S.json",
+      "project": "projects/frame-0025.json",
+      "svg": "frames/frame-0025.svg",
+      "png": "frames/frame-0025.png",
+      "sha256": "ae96c9bf29918e193148e39546f5a37ab54064e55d0b9c4354286861055e8c54",
+      "bytes": 18491
+    },
+    {
+      "index": 26,
+      "path": "projects/rpg-run-S-00.json",
+      "project": "projects/frame-0026.json",
+      "svg": "frames/frame-0026.svg",
+      "png": "frames/frame-0026.png",
+      "sha256": "4e50666bf28c9041db5343898ac92278f7834e418cdda1b167fafc28abdfe122",
+      "bytes": 18522
+    },
+    {
+      "index": 27,
+      "path": "projects/rpg-run-S-01.json",
+      "project": "projects/frame-0027.json",
+      "svg": "frames/frame-0027.svg",
+      "png": "frames/frame-0027.png",
+      "sha256": "b7aa3d7cc0f6ed53b7ee735bc22ea034ed5c63018536467cfa8251477a0b2cf5",
+      "bytes": 18510
+    },
+    {
+      "index": 28,
+      "path": "projects/rpg-run-S-03.json",
+      "project": "projects/frame-0028.json",
+      "svg": "frames/frame-0028.svg",
+      "png": "frames/frame-0028.png",
+      "sha256": "a8ca8485926144e51a09a15e518c8d2f1274ffad602a6038c7fe4fb8008dee2d",
+      "bytes": 18510
+    },
+    {
+      "index": 29,
+      "path": "projects/rpg-run-S-04.json",
+      "project": "projects/frame-0029.json",
+      "svg": "frames/frame-0029.svg",
+      "png": "frames/frame-0029.png",
+      "sha256": "d194e28443e5c9b7f824511cb67c1437bbddcdc289c9d604b5652830b9b7385f",
+      "bytes": 18521
+    },
+    {
+      "index": 30,
+      "path": "projects/rpg-run-S-05.json",
+      "project": "projects/frame-0030.json",
+      "svg": "frames/frame-0030.svg",
+      "png": "frames/frame-0030.png",
+      "sha256": "4f124fdc100cd73f9422aeca9fc9fc34f56247eb7f36b1eb94b5d2727766baca",
+      "bytes": 18509
+    },
+    {
+      "index": 31,
+      "path": "projects/rpg-run-S-07.json",
+      "project": "projects/frame-0031.json",
+      "svg": "frames/frame-0031.svg",
+      "png": "frames/frame-0031.png",
+      "sha256": "a5d2a4c3f7b11bcd28ec59985bccf9a07d1397f55a147b684f3f306eeabd3da4",
+      "bytes": 18511
+    },
+    {
+      "index": 32,
+      "path": "projects/rpg-run-push-N.json",
+      "project": "projects/frame-0032.json",
+      "svg": "frames/frame-0032.svg",
+      "png": "frames/frame-0032.png",
+      "sha256": "15932879b3b51d5156c5214f2a2206974ab21ef206bfbb16fd76a9d1799e0e08",
+      "bytes": 17947
+    },
+    {
+      "index": 33,
+      "path": "projects/rpg-run-flight-N.json",
+      "project": "projects/frame-0033.json",
+      "svg": "frames/frame-0033.svg",
+      "png": "frames/frame-0033.png",
+      "sha256": "4a2f094dceb4eb4adcfa912e50adac9b43d33eae07f66d2f27336fe4fde4f474",
+      "bytes": 18646
+    },
+    {
+      "index": 34,
+      "path": "projects/rpg-jump-N.json",
+      "project": "projects/frame-0034.json",
+      "svg": "frames/frame-0034.svg",
+      "png": "frames/frame-0034.png",
+      "sha256": "0ea8162fbab70d8179d4cd64ea28aaa8f18d08084ec72993301ff314afff488f",
+      "bytes": 17923
+    },
+    {
+      "index": 35,
+      "path": "projects/rpg-crouch-N.json",
+      "project": "projects/frame-0035.json",
+      "svg": "frames/frame-0035.svg",
+      "png": "frames/frame-0035.png",
+      "sha256": "6b328b8bb9d60d7262971e474a3025ebf9499010380108cde061d9e125690c4a",
+      "bytes": 17944
+    },
+    {
+      "index": 36,
+      "path": "projects/rpg-run-N-00.json",
+      "project": "projects/frame-0036.json",
+      "svg": "frames/frame-0036.svg",
+      "png": "frames/frame-0036.png",
+      "sha256": "a2d9a3ba31db4b0b154aa41fe44bcc98b571ba92e8eb1c0bef5db8b119ee1526",
+      "bytes": 17931
+    },
+    {
+      "index": 37,
+      "path": "projects/rpg-run-N-01.json",
+      "project": "projects/frame-0037.json",
+      "svg": "frames/frame-0037.svg",
+      "png": "frames/frame-0037.png",
+      "sha256": "d663c2214d17b543ff5528b0a42c056226e128deab2f7d38f732e8f10aec990d",
+      "bytes": 17953
+    },
+    {
+      "index": 38,
+      "path": "projects/rpg-run-N-03.json",
+      "project": "projects/frame-0038.json",
+      "svg": "frames/frame-0038.svg",
+      "png": "frames/frame-0038.png",
+      "sha256": "014a54141250054a95a258369c8e8c1297e1663fd963be62b2e1a760afa84ae0",
+      "bytes": 17951
+    },
+    {
+      "index": 39,
+      "path": "projects/rpg-run-N-04.json",
+      "project": "projects/frame-0039.json",
+      "svg": "frames/frame-0039.svg",
+      "png": "frames/frame-0039.png",
+      "sha256": "54cffe8dbbc0f3ebde553691d33bd1b61f550be8e6ed106f8d4b28b17681e4c2",
+      "bytes": 17930
+    },
+    {
+      "index": 40,
+      "path": "projects/rpg-run-N-05.json",
+      "project": "projects/frame-0040.json",
+      "svg": "frames/frame-0040.svg",
+      "png": "frames/frame-0040.png",
+      "sha256": "938eeaf23d8049f00a04654752943b0ae995158a27cc98f1e1f3e21c1a209516",
+      "bytes": 17952
+    },
+    {
+      "index": 41,
+      "path": "projects/rpg-run-N-07.json",
+      "project": "projects/frame-0041.json",
+      "svg": "frames/frame-0041.svg",
+      "png": "frames/frame-0041.png",
+      "sha256": "cee5a1d1cd7063e1b39732e0daba6a49793c53396ddb088c5a25a693c26fd928",
+      "bytes": 17952
+    }
+  ],
+  "manifest": "manifest.json",
+  "sourceManifest": "source-manifest.json",
+  "inputBytes": 771697,
+  "contactSheetFrames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41
+  ],
+  "contactSheet": {
+    "width": 1644,
+    "height": 1380,
+    "columns": 8,
+    "rows": 6
+  },
+  "inkscape": "Inkscape 1.4.3 (0d15f75, 2025-12-25)",
+  "limitations": [
+    "Each frame uses its authored geometry. No interpolation, generated in-betweens, or automatic pose/foot registration.",
+    "Loop is playback intent; review the last-to-first transition visually. Matching first and last drawings is not required."
+  ],
+  "artifacts": [
+    {
+      "name": "projects/frame-0000.json",
+      "sha256": "80deff6413c6dec2bd91440935b7faeef002b6ce6eab8b9805f8305892d52564"
+    },
+    {
+      "name": "frames/frame-0000.svg",
+      "sha256": "279ac2516f6a7fbe2f2b5ef0dc5a5eba8de4202523391f1e1ecdb51687c5c92b"
+    },
+    {
+      "name": "frames/frame-0000.png",
+      "sha256": "f3d1381ae9d8f55e4059ebb8d286a44945301673f504a35963951ee08719e625"
+    },
+    {
+      "name": "projects/frame-0001.json",
+      "sha256": "5a128ebc7e649b69965f33287947fdd323a36bc421378fc11a9df4793021b665"
+    },
+    {
+      "name": "frames/frame-0001.svg",
+      "sha256": "c10853eb69bbc1d14aa88882b427c61aa40e25877a6b6391035141ba2884c61b"
+    },
+    {
+      "name": "frames/frame-0001.png",
+      "sha256": "dfd370ef635115a158f69e6045e65850c5457c40d1bbb4a639ac4ace4714f85d"
+    },
+    {
+      "name": "projects/frame-0002.json",
+      "sha256": "6d5680b267663b3128fc8e49643822ba151dd5bc64a140ae3e64e13275f0c1b0"
+    },
+    {
+      "name": "frames/frame-0002.svg",
+      "sha256": "e358df0ac3fbe57e01c6295581609d476fc9d4a5ea3d61c75eb2acb78c4cf2f1"
+    },
+    {
+      "name": "frames/frame-0002.png",
+      "sha256": "34e06068ee2642e3de8e2e742f81eee1d05c423424df35caff881733bef45390"
+    },
+    {
+      "name": "projects/frame-0003.json",
+      "sha256": "b3a785fc9f8b16c1ca91bcc55568f41fbd3a7598a5ba52b4989642f65b93c36d"
+    },
+    {
+      "name": "frames/frame-0003.svg",
+      "sha256": "efe3b94171f9c907dc0a78a7d66fdb4e07dac3ed97f897841ff12c1ecc21cbf3"
+    },
+    {
+      "name": "frames/frame-0003.png",
+      "sha256": "b22af5329fd34fa5985eaf4f231de078cfcea89c4942aac6ea9533e6a897c2c1"
+    },
+    {
+      "name": "projects/frame-0004.json",
+      "sha256": "e234480923d84270540333554f6554921c457031f4e28c06accf075945a30b70"
+    },
+    {
+      "name": "frames/frame-0004.svg",
+      "sha256": "ead47ca7377517119b94463cff093c5bb5227e494eab15d3ead9e3472d0c6bec"
+    },
+    {
+      "name": "frames/frame-0004.png",
+      "sha256": "4cea49b31d74c5e27d06aa6b2c307f8a3fa875f997edbdca76c9c50d9085b757"
+    },
+    {
+      "name": "projects/frame-0005.json",
+      "sha256": "12ab67a1baa80e88d92bdbd66ec08ad522efe653c919d4c8943ad3fe6104e94e"
+    },
+    {
+      "name": "frames/frame-0005.svg",
+      "sha256": "14367786b4ce8e207c73b5016c5409130783243f08cf0c607c05aab298eb5d44"
+    },
+    {
+      "name": "frames/frame-0005.png",
+      "sha256": "741709effc0a99d7fd5183f54a54c58c76eb292fcfa190fdf98ec0e5637442a8"
+    },
+    {
+      "name": "projects/frame-0006.json",
+      "sha256": "e2aafb6ba534eb70dc62efb35d7f350bbf282c1efd9fb42648cf0ccc6122aee6"
+    },
+    {
+      "name": "frames/frame-0006.svg",
+      "sha256": "8e84ff6d233acd55a3d1eb9fb7576c70545fb91e31470615e73622aae51d7cb2"
+    },
+    {
+      "name": "frames/frame-0006.png",
+      "sha256": "a279113bbd32779d1b187d02d19c620a53ca87fe1eaff460ba717839e7bb3c09"
+    },
+    {
+      "name": "projects/frame-0007.json",
+      "sha256": "e2502e478b278a1301d8f624b6b238ca33cb98755fbbed4e93b6a462a3d6e4fb"
+    },
+    {
+      "name": "frames/frame-0007.svg",
+      "sha256": "63e260da79c2b00890a2abae3aa108488f0f5323724b6a28392714a013da61d7"
+    },
+    {
+      "name": "frames/frame-0007.png",
+      "sha256": "73b4c1582a1b78e59cb26cf20ee969cfc3ea8c5d971d2990c8fba71b57ad55aa"
+    },
+    {
+      "name": "projects/frame-0008.json",
+      "sha256": "6c316af8184e7a97fa4305fc23ae5f3432c28ff863fc82b45479a5391b2acaf9"
+    },
+    {
+      "name": "frames/frame-0008.svg",
+      "sha256": "02ca9786432e2fab5b6cd921e55fcb7f3e639c7c8c2a532d04a4f5cbf9d0ed33"
+    },
+    {
+      "name": "frames/frame-0008.png",
+      "sha256": "d8c1a8b044a0765140f79a23afd38302ef2e5203652ba13a71dcac4a5f4088c5"
+    },
+    {
+      "name": "projects/frame-0009.json",
+      "sha256": "52b5c66b4af3700a47339ff1ccc5d45b4e7ceadf9448c5baae505f5142f00382"
+    },
+    {
+      "name": "frames/frame-0009.svg",
+      "sha256": "7037fc245ff1fed77eec15e616982e335399901b66c522dc844c5220d51bbc15"
+    },
+    {
+      "name": "frames/frame-0009.png",
+      "sha256": "9b63480b97413d2f5fa39157ce1a281b92e3b0a16d61c535da38861393582dd5"
+    },
+    {
+      "name": "projects/frame-0010.json",
+      "sha256": "826042493a1ff89056653d8fc9d4b2fd267c4b55c5ed6454cdde8f6c51ada872"
+    },
+    {
+      "name": "frames/frame-0010.svg",
+      "sha256": "607e118e26df20086fd1ec874564a24a9f4c38ffad8d1927ac1c2016487f7872"
+    },
+    {
+      "name": "frames/frame-0010.png",
+      "sha256": "d60edb868c19279e1aef6d1aaa9fcaffaf567abfee6ae30afa0040f77c5fa3bc"
+    },
+    {
+      "name": "projects/frame-0011.json",
+      "sha256": "80ed6e0c62b26a66c7ad7b4b8ba61a9932b991a9d5fc4664131f963b29a80d5e"
+    },
+    {
+      "name": "frames/frame-0011.svg",
+      "sha256": "30506ac1d45243f17921a32910f4b5cc6c78d4025f5f731a8716e72e10ed191a"
+    },
+    {
+      "name": "frames/frame-0011.png",
+      "sha256": "d7469610de97cdf1b3d3aeb0c0611d1982e1004cfd21afe24f7dd833fbf8fd97"
+    },
+    {
+      "name": "projects/frame-0012.json",
+      "sha256": "cb0795062ae46501866e529b8d86cb5d005206aea6a0a5d2650f32ae1a9dd6ab"
+    },
+    {
+      "name": "frames/frame-0012.svg",
+      "sha256": "63e61c3faf40fc01888e8ddcc00da96decf49faef4414045ede784e3c2b09df5"
+    },
+    {
+      "name": "frames/frame-0012.png",
+      "sha256": "76fc381b1c62d058a6cdc0177f6ad066d1b5d5f82ab7e26f2074daf8e7091866"
+    },
+    {
+      "name": "projects/frame-0013.json",
+      "sha256": "9a73f06e68a68f565f0f6467873bc22acba552155d0addc6d98bbf210e7ab97c"
+    },
+    {
+      "name": "frames/frame-0013.svg",
+      "sha256": "ab9f322ec13f17f87ca3cbb6a5ad36bfe54b2ebf05cd2e0898f127a5e92423d4"
+    },
+    {
+      "name": "frames/frame-0013.png",
+      "sha256": "49ce19f2da12d3845a0b4bd2a1c92c0bf149c70d0ae2c241361788bcdd60304e"
+    },
+    {
+      "name": "projects/frame-0014.json",
+      "sha256": "317755b389dfebd12f3e5e0f6347497a65d1308bce3daf4adc1525d3ba076503"
+    },
+    {
+      "name": "frames/frame-0014.svg",
+      "sha256": "bc360ec8a1f97aa6877868391004a7342967919cc7a62cc3820c107277ecfbf0"
+    },
+    {
+      "name": "frames/frame-0014.png",
+      "sha256": "7bf4cf0c1ca092276d31546bb5385b04eb96ce34d439c603d88ec2eb35ef8f36"
+    },
+    {
+      "name": "projects/frame-0015.json",
+      "sha256": "edcdb0bd48e634882a0388ebadaac1ead3e5a50ff5b63958afbb0835a145fd31"
+    },
+    {
+      "name": "frames/frame-0015.svg",
+      "sha256": "6453f208fee704f81752d01eebabc5ebc43b73eb8f862af80d9736297f0cda02"
+    },
+    {
+      "name": "frames/frame-0015.png",
+      "sha256": "32c44d42d5c97bdd575bba13fb67bfc1e5216691edcfaf2f9b2176584231af70"
+    },
+    {
+      "name": "projects/frame-0016.json",
+      "sha256": "b0801a3a93ecad6b609dfb5f8849e996c038ba5b5c883deb10ea6ab51b49943d"
+    },
+    {
+      "name": "frames/frame-0016.svg",
+      "sha256": "92e78f8bfe7cdb904e58ee778055f1280bf119150620422a23e31acf0ae9cffe"
+    },
+    {
+      "name": "frames/frame-0016.png",
+      "sha256": "725251a43ae0a47294c8dab0c0387e0537ad1ad2e11e6eaf3c956ab1244596bf"
+    },
+    {
+      "name": "projects/frame-0017.json",
+      "sha256": "4252b6501f26b7fe8679a203fac95401a7b308382aa6648f6b0e95eea31791ae"
+    },
+    {
+      "name": "frames/frame-0017.svg",
+      "sha256": "b9ce6fc754128be8e12116ad623ec418bcb9468397573028f7e0418b316d8919"
+    },
+    {
+      "name": "frames/frame-0017.png",
+      "sha256": "4b08d45d11ee9a4fd2d8ca4ce10e2446b71238bf1b82c8bcbbcfdf7368306f5a"
+    },
+    {
+      "name": "projects/frame-0018.json",
+      "sha256": "13c5d0fc1e98a701f5cfe3ea4bdf37bf8b1c6080e9da53077cbd4db82756dbf0"
+    },
+    {
+      "name": "frames/frame-0018.svg",
+      "sha256": "da6f492660769919c2a445aa9fb6279e20d615f6220d77c45bb5501f6546c273"
+    },
+    {
+      "name": "frames/frame-0018.png",
+      "sha256": "52e9f80f387a5f16d497348438567a1f85ee909809b11e49db010183102cc765"
+    },
+    {
+      "name": "projects/frame-0019.json",
+      "sha256": "9318a0286cddf7d92b6ceb699b90b1babb001a2b158a76bab383908e9e33041d"
+    },
+    {
+      "name": "frames/frame-0019.svg",
+      "sha256": "33f9aecf18aa9a2ed19fa72cd456605b4ab97efda1d29293055d8a1814a38432"
+    },
+    {
+      "name": "frames/frame-0019.png",
+      "sha256": "ea7af7106580732b2cce51539bf3d18ca72c903e403d8e8da98ce2224b128906"
+    },
+    {
+      "name": "projects/frame-0020.json",
+      "sha256": "6d6a26891e66c937ef7fb11462bdfd43e0f6ccbf839ccba1eb1a8d421aa3f281"
+    },
+    {
+      "name": "frames/frame-0020.svg",
+      "sha256": "9eccc345fafbbe468f3c3c9c15b714f9d0c4d3f4afc257650b7754997c352bd0"
+    },
+    {
+      "name": "frames/frame-0020.png",
+      "sha256": "115d021c08c02c644e6348a84a1708e53149017d265c0ed1947e1326fe7ce6d5"
+    },
+    {
+      "name": "projects/frame-0021.json",
+      "sha256": "bb5c22f92bd2fe20650c3eb08ea079f2ae8d2de8a7061bedf0edd69a50b7f0cc"
+    },
+    {
+      "name": "frames/frame-0021.svg",
+      "sha256": "3526c96caff1fc7cbce7daa727fa9912457f4a4d756986266e0bae22e481912a"
+    },
+    {
+      "name": "frames/frame-0021.png",
+      "sha256": "1c6ec5d7e8b2c354776c2311aefb613715f1f60ac10e22faacba6c0263af3b19"
+    },
+    {
+      "name": "projects/frame-0022.json",
+      "sha256": "e2ffe0ee3186539827924251a137a883cc42d5651b8f6c2ba951c0da26bd7965"
+    },
+    {
+      "name": "frames/frame-0022.svg",
+      "sha256": "20db99d9312b640a4b94b7aa9f5cfef5099a33bb8271c989cfd749572e94c7c0"
+    },
+    {
+      "name": "frames/frame-0022.png",
+      "sha256": "2f9134a180048c98e608f12a579e63ab7c370f0dfb1017608a3e61db7453d4c4"
+    },
+    {
+      "name": "projects/frame-0023.json",
+      "sha256": "46006dc2ecd7f5fe13257b9ad12a863f9ded407e901948271f937d4fddcb1e17"
+    },
+    {
+      "name": "frames/frame-0023.svg",
+      "sha256": "563abfc57a0fef5c69545d070c3a7cd5762c7d3d9c1948a4a159318725554149"
+    },
+    {
+      "name": "frames/frame-0023.png",
+      "sha256": "17e526010edfc857816cf9eefdb3901a074e2b79f871c78564d78b65eb8f5f8a"
+    },
+    {
+      "name": "projects/frame-0024.json",
+      "sha256": "37dde74aebd9df308e7b83c217bc4b5f47c86598d9257e3d0ff0e63e63cabff4"
+    },
+    {
+      "name": "frames/frame-0024.svg",
+      "sha256": "f4692c34af9c9cd8a8bcceb816b8f303a47320aa72ad70cbc1c10d00edc26bef"
+    },
+    {
+      "name": "frames/frame-0024.png",
+      "sha256": "ca0f38d445e59e09308df395ef6d274db49515ee68b9abf1c0ad4496591536b9"
+    },
+    {
+      "name": "projects/frame-0025.json",
+      "sha256": "ae96c9bf29918e193148e39546f5a37ab54064e55d0b9c4354286861055e8c54"
+    },
+    {
+      "name": "frames/frame-0025.svg",
+      "sha256": "c4fc392bbe4623b620ed43398c3ca136876168bca62b8c3c66ce26bd9c0ea013"
+    },
+    {
+      "name": "frames/frame-0025.png",
+      "sha256": "d42ea4e860c06149623cbf5102c5b79f9c87a5ad0482fa777c464c6b82427532"
+    },
+    {
+      "name": "projects/frame-0026.json",
+      "sha256": "4e50666bf28c9041db5343898ac92278f7834e418cdda1b167fafc28abdfe122"
+    },
+    {
+      "name": "frames/frame-0026.svg",
+      "sha256": "b657e534694206fd6dcbada6d1fdc0ac6b9a8588765bf1803d08cacfe563238b"
+    },
+    {
+      "name": "frames/frame-0026.png",
+      "sha256": "5aaed85a0adcabfcf713e41804acec516601c760dcf8b3634d4e41d11dd3de3d"
+    },
+    {
+      "name": "projects/frame-0027.json",
+      "sha256": "b7aa3d7cc0f6ed53b7ee735bc22ea034ed5c63018536467cfa8251477a0b2cf5"
+    },
+    {
+      "name": "frames/frame-0027.svg",
+      "sha256": "5e24117c68596104a8c85bd07934cdf2baec0e6b02414c25c21f1785a1820cfe"
+    },
+    {
+      "name": "frames/frame-0027.png",
+      "sha256": "6cf022236a3f5985a2baf8deed7b4d0816677f0e1da6f4c42c738331d19371a6"
+    },
+    {
+      "name": "projects/frame-0028.json",
+      "sha256": "a8ca8485926144e51a09a15e518c8d2f1274ffad602a6038c7fe4fb8008dee2d"
+    },
+    {
+      "name": "frames/frame-0028.svg",
+      "sha256": "e4c6dcb74dd394e9e42ba6591da8c666b326daf2f2d2908b19700c7c735c8d35"
+    },
+    {
+      "name": "frames/frame-0028.png",
+      "sha256": "d5e631c599116ac70b83804ed87f8ed6fec931864d837818ae6a8e47b0ddf93b"
+    },
+    {
+      "name": "projects/frame-0029.json",
+      "sha256": "d194e28443e5c9b7f824511cb67c1437bbddcdc289c9d604b5652830b9b7385f"
+    },
+    {
+      "name": "frames/frame-0029.svg",
+      "sha256": "318e85953dca9384d691542739621e8cc0d71d31f6cc2a0225b7fd7a27e36215"
+    },
+    {
+      "name": "frames/frame-0029.png",
+      "sha256": "1969bc51dde22514c01c7956d90a18df0a8faa97be4e5e144ca6bd25a1151e31"
+    },
+    {
+      "name": "projects/frame-0030.json",
+      "sha256": "4f124fdc100cd73f9422aeca9fc9fc34f56247eb7f36b1eb94b5d2727766baca"
+    },
+    {
+      "name": "frames/frame-0030.svg",
+      "sha256": "4e4a2ce0cea101b73e314645fa330b90b6bc789e2cc1a9229cffc9eb172e27af"
+    },
+    {
+      "name": "frames/frame-0030.png",
+      "sha256": "d7ce98c892bd2db58cdea30d8083a7ef0dd64b183370598dd0726267e96205e7"
+    },
+    {
+      "name": "projects/frame-0031.json",
+      "sha256": "a5d2a4c3f7b11bcd28ec59985bccf9a07d1397f55a147b684f3f306eeabd3da4"
+    },
+    {
+      "name": "frames/frame-0031.svg",
+      "sha256": "d0b18bc3b109433b9b22ecef94583e332a5cbdc07e67d607bed2b938fbaf4e2c"
+    },
+    {
+      "name": "frames/frame-0031.png",
+      "sha256": "484f1b593f377b7a85aa9122284b240b016a9fe9d57f09819b31838c5cfcafba"
+    },
+    {
+      "name": "projects/frame-0032.json",
+      "sha256": "15932879b3b51d5156c5214f2a2206974ab21ef206bfbb16fd76a9d1799e0e08"
+    },
+    {
+      "name": "frames/frame-0032.svg",
+      "sha256": "c79b4ac2a503eeb4e12703f4e6d01406baaa77b504054467f1f651f9a39df512"
+    },
+    {
+      "name": "frames/frame-0032.png",
+      "sha256": "380952301ea5b40c876febae56fd4f2cdca3fb2d220d4037c7c9290272adc4d1"
+    },
+    {
+      "name": "projects/frame-0033.json",
+      "sha256": "4a2f094dceb4eb4adcfa912e50adac9b43d33eae07f66d2f27336fe4fde4f474"
+    },
+    {
+      "name": "frames/frame-0033.svg",
+      "sha256": "a7a4374df8af27c03cc021c2927943e3361d292d499e4de38566916c9674f19b"
+    },
+    {
+      "name": "frames/frame-0033.png",
+      "sha256": "83b3eb9bc18cc9e9518fbdd44c8435d43e0efacb8e619d378645cca17e4e831c"
+    },
+    {
+      "name": "projects/frame-0034.json",
+      "sha256": "0ea8162fbab70d8179d4cd64ea28aaa8f18d08084ec72993301ff314afff488f"
+    },
+    {
+      "name": "frames/frame-0034.svg",
+      "sha256": "1210634e11d765ad12c333d66dea6b11814b1890f1ef12fd8ebfc85cbf27a225"
+    },
+    {
+      "name": "frames/frame-0034.png",
+      "sha256": "420124199d4a594c3e43aaba095800d73b3a415e761b094dbafc8deca225e862"
+    },
+    {
+      "name": "projects/frame-0035.json",
+      "sha256": "6b328b8bb9d60d7262971e474a3025ebf9499010380108cde061d9e125690c4a"
+    },
+    {
+      "name": "frames/frame-0035.svg",
+      "sha256": "16079c39281129d75cca1994b86f77aae94180034bd71cfde3861d96e49ce3f8"
+    },
+    {
+      "name": "frames/frame-0035.png",
+      "sha256": "aaf88a5b785923aa3e08e19f3111cad30742b672ab25d582a203fbfc6fff6dea"
+    },
+    {
+      "name": "projects/frame-0036.json",
+      "sha256": "a2d9a3ba31db4b0b154aa41fe44bcc98b571ba92e8eb1c0bef5db8b119ee1526"
+    },
+    {
+      "name": "frames/frame-0036.svg",
+      "sha256": "5066527a9c44eb87773e05714b59b27da6ecb8ad0723d0a54f4b8324113ea904"
+    },
+    {
+      "name": "frames/frame-0036.png",
+      "sha256": "9c4e3f7ad58b53b80f5d6b0c24a576129515d83458090bc05b074e4b2855413c"
+    },
+    {
+      "name": "projects/frame-0037.json",
+      "sha256": "d663c2214d17b543ff5528b0a42c056226e128deab2f7d38f732e8f10aec990d"
+    },
+    {
+      "name": "frames/frame-0037.svg",
+      "sha256": "fcff0562f85ce274d46b6a055676af7d2934fcd99d38087ccd7dad5088954c4f"
+    },
+    {
+      "name": "frames/frame-0037.png",
+      "sha256": "38f68ee014a6ae65702cae08613a115bbba97c93080a5d6863c900337e1fde53"
+    },
+    {
+      "name": "projects/frame-0038.json",
+      "sha256": "014a54141250054a95a258369c8e8c1297e1663fd963be62b2e1a760afa84ae0"
+    },
+    {
+      "name": "frames/frame-0038.svg",
+      "sha256": "ede5620f9b4410677fb06c4944b48e249189930f0fd9ba8a99023e64f1118d7b"
+    },
+    {
+      "name": "frames/frame-0038.png",
+      "sha256": "9aa21fe276a7f62fae6e771a41c2d8f7c1fdb070d41b985b8c6f7cf4765b4a4d"
+    },
+    {
+      "name": "projects/frame-0039.json",
+      "sha256": "54cffe8dbbc0f3ebde553691d33bd1b61f550be8e6ed106f8d4b28b17681e4c2"
+    },
+    {
+      "name": "frames/frame-0039.svg",
+      "sha256": "4bc50f6f00974134f5176dea8c03e5dbb820529c0537cf5f475aea08ca93e8a8"
+    },
+    {
+      "name": "frames/frame-0039.png",
+      "sha256": "9e194d7f8c617c9fa8c2853b82be24491838d8a3fc1111fbf8e62e1f9f9da5ec"
+    },
+    {
+      "name": "projects/frame-0040.json",
+      "sha256": "938eeaf23d8049f00a04654752943b0ae995158a27cc98f1e1f3e21c1a209516"
+    },
+    {
+      "name": "frames/frame-0040.svg",
+      "sha256": "f2ee876e2ffe6dac5ad721769acb54974011aa70639fd6b27362cdcc5b7a5fc6"
+    },
+    {
+      "name": "frames/frame-0040.png",
+      "sha256": "86e553b210f5c04fcc679cfd9d27db2d0c92ac9992b74237f75c8bda44a56a81"
+    },
+    {
+      "name": "projects/frame-0041.json",
+      "sha256": "cee5a1d1cd7063e1b39732e0daba6a49793c53396ddb088c5a25a693c26fd928"
+    },
+    {
+      "name": "frames/frame-0041.svg",
+      "sha256": "8a443b6640fd5df21d2e40d1331d8242ac0bdb1446e7033df43f83babcabc4dc"
+    },
+    {
+      "name": "frames/frame-0041.png",
+      "sha256": "c084a791202dd9dd3d47cb493c45689a7e4159f6bf8f35f736a91e6a4b1509b1"
+    },
+    {
+      "name": "source-manifest.json",
+      "sha256": "1628430189745040975b736a159bacc92a079f00ca500ce2573745befa3684d0"
+    },
+    {
+      "name": "manifest.json",
+      "sha256": "390b59378983f9d0de8ccbafbbe19a0a2fbbae017aad0a5583a816de02fba2c0"
+    },
+    {
+      "name": "contact-sheet.svg",
+      "sha256": "7d9d7da6479b1dbcdbc7b453894399ac5ef35b80cb3d060aeeee0f04fd5941b6"
+    },
+    {
+      "name": "contact-sheet.png",
+      "sha256": "569cc8b2f8daf9334b4d07fd55d23716f720e85981fd6e4c7cedec8cac1bfbfa"
+    }
+  ],
+  "warnings": [
+    {
+      "file": "frames/frame-0000.svg",
+      "message": "(inkscape.com:33912): Gdk-CRITICAL **: 17:49:40.344: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:33912): Gdk-CRITICAL **: 17:49:40.477: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0001.svg",
+      "message": "(inkscape.com:34152): Gdk-CRITICAL **: 17:49:42.664: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:34152): Gdk-CRITICAL **: 17:49:42.796: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0002.svg",
+      "message": "(inkscape.com:26172): Gdk-CRITICAL **: 17:49:44.978: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:26172): Gdk-CRITICAL **: 17:49:45.111: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0003.svg",
+      "message": "(inkscape.com:6016): Gdk-CRITICAL **: 17:49:47.279: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:6016): Gdk-CRITICAL **: 17:49:47.410: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0004.svg",
+      "message": "(inkscape.com:33796): Gdk-CRITICAL **: 17:49:49.531: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:33796): Gdk-CRITICAL **: 17:49:49.663: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0005.svg",
+      "message": "(inkscape.com:35708): Gdk-CRITICAL **: 17:49:51.986: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:35708): Gdk-CRITICAL **: 17:49:52.118: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0006.svg",
+      "message": "(inkscape.com:29916): Gdk-CRITICAL **: 17:49:54.267: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:29916): Gdk-CRITICAL **: 17:49:54.397: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0007.svg",
+      "message": "(inkscape.com:30124): Gdk-CRITICAL **: 17:49:56.539: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:30124): Gdk-CRITICAL **: 17:49:56.670: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0008.svg",
+      "message": "(inkscape.com:17252): Gdk-CRITICAL **: 17:49:58.807: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:17252): Gdk-CRITICAL **: 17:49:58.937: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0009.svg",
+      "message": "(inkscape.com:37644): Gdk-CRITICAL **: 17:50:01.072: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:37644): Gdk-CRITICAL **: 17:50:01.202: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    }
+  ]
+}

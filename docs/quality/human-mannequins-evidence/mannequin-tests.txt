@@ -1,0 +1,11 @@
+✔ both distinct models provide eight complete poses in both directions with editable guides (16.8471ms)
+✔ actual paired limb contours keep model dimensions and anatomical bending in every pose and view (9.5081ms)
+✔ left templates are actual reflected geometry and support feet register to the same ground (9.0602ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 89.6825

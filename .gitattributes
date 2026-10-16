@@ -1,0 +1,6 @@
+# Keep managed source fingerprints stable in Windows and Linux checkouts.
+package.json text eol=lf
+scripts/** text eol=lf
+src/** text eol=lf
+skills/** text eol=lf
+docs/quality/*mannequins-evidence/** whitespace=cr-at-eol

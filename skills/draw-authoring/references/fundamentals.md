@@ -4,6 +4,8 @@
 
 Make a deliberately composed image that remains editable and readable at its intended size. The construction and review suggestions here are practical starting points, not rules established by SVG or requirements of every art style. Technical claims below follow the linked standards; the JSON limits come from agent-draw's validator.
 
+For high-contrast comic scenes, inked characters, dramatic framing or weather-led noir, read [graphic noir](graphic-noir.md) before laying out the shot. It connects value masses and selective edges to drawn anatomy, gameplay readability and actual-size review.
+
 ## Construction order
 
 1. Write a one-sentence visual brief and identify the smallest delivery size. Choose a dominant silhouette and an area of quiet space before adding detail.

@@ -1,0 +1,14 @@
+{
+  "runId": "1c664a5c-9773-4393-ad60-dda836ed36e4",
+  "generation": 1,
+  "attachedWhileRunning": true,
+  "exactReturnedWatchArgvUsed": true,
+  "lastConsumedSeq": 2,
+  "status": "completed",
+  "cleanup": {
+    "serverExited": true,
+    "jobEmpty": true,
+    "forced": false,
+    "descendants": "notVerified"
+  }
+}

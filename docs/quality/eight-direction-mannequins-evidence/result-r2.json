@@ -1,0 +1,345 @@
+{
+  "result": {
+    "tasks": [
+      {
+        "id": "cardinals-r2",
+        "result": {
+          "verdict": "PASS",
+          "imagesViewed": [
+            "docs/quality/eight-direction-mannequins-evidence/review-r2/human-crouch-cardinals.png",
+            "docs/quality/eight-direction-mannequins-evidence/review-r2/human-jump-cardinals.png",
+            "docs/quality/eight-direction-mannequins-evidence/review-r2/human-neutral-cardinals.png",
+            "docs/quality/eight-direction-mannequins-evidence/review-r2/human-reach-cardinals.png",
+            "docs/quality/eight-direction-mannequins-evidence/review-r2/human-run-flight-cardinals.png",
+            "docs/quality/eight-direction-mannequins-evidence/review-r2/human-run-push-cardinals.png",
+            "docs/quality/eight-direction-mannequins-evidence/review-r2/human-walk-contact-cardinals.png",
+            "docs/quality/eight-direction-mannequins-evidence/review-r2/human-walk-pass-cardinals.png",
+            "docs/quality/eight-direction-mannequins-evidence/review-r2/rpg-crouch-cardinals.png",
+            "docs/quality/eight-direction-mannequins-evidence/review-r2/rpg-jump-cardinals.png",
+            "docs/quality/eight-direction-mannequins-evidence/review-r2/rpg-neutral-cardinals.png",
+            "docs/quality/eight-direction-mannequins-evidence/review-r2/rpg-reach-cardinals.png",
+            "docs/quality/eight-direction-mannequins-evidence/review-r2/rpg-run-flight-cardinals.png",
+            "docs/quality/eight-direction-mannequins-evidence/review-r2/rpg-run-push-cardinals.png",
+            "docs/quality/eight-direction-mannequins-evidence/review-r2/rpg-walk-contact-cardinals.png",
+            "docs/quality/eight-direction-mannequins-evidence/review-r2/rpg-walk-pass-cardinals.png"
+          ],
+          "coverage": [
+            {
+              "id": "human-crouch-cardinals",
+              "verdict": "PASS",
+              "observation": "Profile thighs, bent knees and supporting feet connect coherently; S/N limb shortening is consistent with depth projection."
+            },
+            {
+              "id": "human-jump-cardinals",
+              "verdict": "PASS",
+              "observation": "Raised arms remain attached; profile trailing knees and ankles bend plausibly. Rear skull has no front face marks."
+            },
+            {
+              "id": "human-neutral-cardinals",
+              "verdict": "PASS",
+              "observation": "Human proportions are coherent; front chest, rear shoulder blades and profile planes read clearly, with continuous limbs."
+            },
+            {
+              "id": "human-reach-cardinals",
+              "verdict": "PASS",
+              "observation": "Raised shoulder and elbow connect continuously; profile reaching forearm and S/N foreshortening remain readable."
+            },
+            {
+              "id": "human-run-flight-cardinals",
+              "verdict": "PASS",
+              "observation": "Profile forward thigh, folded trailing leg and opposing arms read coherently; airborne feet have plausible ankle orientation."
+            },
+            {
+              "id": "human-run-push-cardinals",
+              "verdict": "PASS",
+              "observation": "Profiles distinguish extended support from forward knee recovery; limb crossings and opposing arm placement are coherent."
+            },
+            {
+              "id": "human-walk-contact-cardinals",
+              "verdict": "PASS",
+              "observation": "Profiles show separated forward/rear legs and opposing arms; S/N foot-height differences fit projected ground depth."
+            },
+            {
+              "id": "human-walk-pass-cardinals",
+              "verdict": "PASS",
+              "observation": "Recovering knee and lifted foot remain distinguishable from the support leg; visible hip, calf and ankle connections are continuous."
+            },
+            {
+              "id": "rpg-crouch-cardinals",
+              "verdict": "PASS",
+              "observation": "Compact proportions remain consistent; compressed profile limbs retain readable knee bends and foot connections."
+            },
+            {
+              "id": "rpg-jump-cardinals",
+              "verdict": "PASS",
+              "observation": "Raised arms, forward knee and trailing folded leg read coherently at the chosen squat proportions."
+            },
+            {
+              "id": "rpg-neutral-cardinals",
+              "verdict": "PASS",
+              "observation": "Large head and short limbs form a consistent model; front/back planes differ clearly and rear skull stays unmarked."
+            },
+            {
+              "id": "rpg-reach-cardinals",
+              "verdict": "PASS",
+              "observation": "Reaching arm maintains shoulder/elbow continuity; body planes and supporting legs remain readable."
+            },
+            {
+              "id": "rpg-run-flight-cardinals",
+              "verdict": "PASS",
+              "observation": "Profiles preserve forward-knee/trailing-leg separation and opposing arms; hovering feet are appropriate for flight."
+            },
+            {
+              "id": "rpg-run-push-cardinals",
+              "verdict": "PASS",
+              "observation": "Support leg and folded recovery leg remain identifiable despite compact overlap; feet follow the profile facing."
+            },
+            {
+              "id": "rpg-walk-contact-cardinals",
+              "verdict": "PASS",
+              "observation": "Forward/rear leg separation, foot direction and opposing arm placement remain coherent across the shown facings."
+            },
+            {
+              "id": "rpg-walk-pass-cardinals",
+              "verdict": "PASS",
+              "observation": "Profiles show a recovering bent knee behind the foreground support leg with a connected lifted ankle and foot."
+            }
+          ],
+          "findings": [
+            "All 16 actual PNGs were viewed, and every SHA-256 matches its supplied value.",
+            "No concrete anatomical, attachment, overlap or toe-direction defect identified in the supplied cardinal poses."
+          ],
+          "limitations": [
+            "PASS covers the visible cardinal drawings. Every supplied PNG contains four labeled facings, not eight sequential frames; both half-strides and final-to-first adjacency remain UNVERIFIED.",
+            "Browser playback and real timing were not assessed.",
+            "The hash command completed successfully despite shell-profile access errors involving fnm_multishells and C:/Users/ehart/AppData/Local/Microsoft/WindowsApps/oh-my-posh.exe; no retry or configuration change was made."
+          ]
+        },
+        "missing": false
+      },
+      {
+        "id": "diagonals-r2",
+        "result": {
+          "verdict": "UNVERIFIED",
+          "imagesViewed": [
+            "human-crouch-diagonals",
+            "human-jump-diagonals",
+            "human-neutral-diagonals",
+            "human-reach-diagonals",
+            "human-run-flight-diagonals",
+            "human-run-push-diagonals",
+            "human-walk-contact-diagonals",
+            "human-walk-pass-diagonals",
+            "rpg-crouch-diagonals",
+            "rpg-jump-diagonals",
+            "rpg-neutral-diagonals",
+            "rpg-reach-diagonals",
+            "rpg-run-flight-diagonals",
+            "rpg-run-push-diagonals",
+            "rpg-walk-contact-diagonals",
+            "rpg-walk-pass-diagonals"
+          ],
+          "coverage": [
+            {
+              "id": "human-crouch-diagonals",
+              "verdict": "PASS",
+              "observation": "Four facings viewed. Crouched knees, hip attachment and overlapping limbs remain readable; rear skulls lack front face marks."
+            },
+            {
+              "id": "human-jump-diagonals",
+              "verdict": "PASS",
+              "observation": "Four facings viewed. Raised arms remain attached; extended and folded legs retain continuous mass and coherent ankle connections."
+            },
+            {
+              "id": "human-neutral-diagonals",
+              "verdict": "PASS",
+              "observation": "Four facings viewed. Consistent elongated proportions, distinct chest/back planes and credible shoulder, hip and foot placement."
+            },
+            {
+              "id": "human-reach-diagonals",
+              "verdict": "PASS",
+              "observation": "Four facings viewed. Reaching shoulders and bent elbows connect coherently; foreground arms appropriately obscure torso portions."
+            },
+            {
+              "id": "human-run-flight-diagonals",
+              "verdict": "PASS",
+              "observation": "Visible phase passes: opposing arm/leg poses, folded trailing calves and hovering feet read coherently across four facings."
+            },
+            {
+              "id": "human-run-push-diagonals",
+              "verdict": "PASS",
+              "observation": "Visible phase passes: supporting and recovering legs are distinguishable; recovering knees bend forward with feet folded underneath."
+            },
+            {
+              "id": "human-walk-contact-diagonals",
+              "verdict": "PASS",
+              "observation": "Visible phase passes: separated feet occupy different projected depths; arm opposition and leg overlaps remain readable."
+            },
+            {
+              "id": "human-walk-pass-diagonals",
+              "verdict": "PASS",
+              "observation": "Visible phase passes: lifted bent leg passes the supporting leg with continuous knee/calf mass and credible foot attachment."
+            },
+            {
+              "id": "rpg-crouch-diagonals",
+              "verdict": "PASS",
+              "observation": "Four facings viewed. Squat proportions remain consistent; compressed knees, pelvis and overlapping arms form readable crouches."
+            },
+            {
+              "id": "rpg-jump-diagonals",
+              "verdict": "PASS",
+              "observation": "Four facings viewed. Compact raised-arm poses and folded legs remain connected; rear heads remain free of front face marks."
+            },
+            {
+              "id": "rpg-neutral-diagonals",
+              "verdict": "PASS",
+              "observation": "Four facings viewed. Large-headed proportions are coherent; chest/back cues, limb attachments and directional feet remain recognizable."
+            },
+            {
+              "id": "rpg-reach-diagonals",
+              "verdict": "PASS",
+              "observation": "Four facings viewed. Short reaching arms retain shoulder/elbow continuity; head and torso planes distinguish front from rear."
+            },
+            {
+              "id": "rpg-run-flight-diagonals",
+              "verdict": "PASS",
+              "observation": "Visible phase passes: tightly folded trailing legs remain traceable, opposing arms read clearly and hovering feet suit flight."
+            },
+            {
+              "id": "rpg-run-push-diagonals",
+              "verdict": "PASS",
+              "observation": "Visible phase passes: supporting legs and folded recovery legs remain distinguishable despite deliberately compact overlap."
+            },
+            {
+              "id": "rpg-walk-contact-diagonals",
+              "verdict": "PASS",
+              "observation": "Visible phase passes: staggered feet, opposing arms and compact knee bends remain anatomically coherent."
+            },
+            {
+              "id": "rpg-walk-pass-diagonals",
+              "verdict": "PASS",
+              "observation": "Visible phase passes: raised recovery feet overlap the supporting legs coherently; calf-to-foot connections remain readable."
+            }
+          ],
+          "findings": [
+            "Opened every assigned PNG. No concrete anatomical defect established in the visible poses; color was treated as fixed body-side identification.",
+            "Every PNG contains one row of four labeled facings: SE, NE, NW, SW. The walk/run sheets show named phases, not eight sequential frames. Both half-strides and frame 7-to-0 adjacency therefore remain unverified."
+          ],
+          "limitations": [
+            "Coverage PASS refers only to visible pose anatomy. File identity and full motion-sequence validation remain unverified.",
+            "The PowerShell Get-FileHash batch executed and exited 1 without producing hashes. Startup reported denied writes beneath C:\\Users\\ehart\\AppData\\Local\\Packages\\sandbox.{1eada611-7193-4d46-9cee-67d2234dd62c}\\AC\\fnm_multishells\\28360_1792101712652 and an inaccessible C:\\Users\\ehart\\AppData\\Local\\Microsoft\\WindowsApps\\oh-my-posh.exe; the command also reported an empty-pipe parser error. No retry was attempted because startup had attempted filesystem mutations; coordinator reconciliation is required.",
+            "Static sheets cannot establish timing, browser playback or a seamless live loop."
+          ]
+        },
+        "missing": false
+      },
+      {
+        "id": "motion-r2",
+        "result": {
+          "verdict": "PASS",
+          "imagesViewed": [
+            "human-run-N",
+            "human-run-NE",
+            "human-run-NW",
+            "human-run-S",
+            "human-walk-N",
+            "human-walk-NE",
+            "human-walk-NW",
+            "rpg-run-N",
+            "rpg-run-NE",
+            "rpg-run-NW",
+            "rpg-run-S",
+            "rpg-walk-N",
+            "rpg-walk-NE",
+            "rpg-walk-NW"
+          ],
+          "coverage": [
+            {
+              "id": "human-run-N",
+              "verdict": "PASS",
+              "observation": "Rear planes remain readable. Frames 0–3 and 4–7 exchange shortened recovery legs and opposing arms without broken attachments."
+            },
+            {
+              "id": "human-run-NE",
+              "verdict": "PASS",
+              "observation": "Both half-strides show continuous folded recovery limbs, readable support legs and consistent near/far overlap. Ankle changes follow the recovering calves."
+            },
+            {
+              "id": "human-run-NW",
+              "verdict": "PASS",
+              "observation": "Recovery knees advance toward the facing in frames 1–3 and 5–7. Bent shins, feet and alternating arm silhouettes remain coherent."
+            },
+            {
+              "id": "human-run-S",
+              "verdict": "PASS",
+              "observation": "Front facial and chest marks distinguish the facing. Both halves retain continuous shortened recovery limbs, opposing arms and aligned support ankles."
+            },
+            {
+              "id": "human-walk-N",
+              "verdict": "PASS",
+              "observation": "Frames 2–3 and 6–7 visibly shorten and raise alternate recovery legs. Rear skull, shoulder attachments and restrained opposing arms read consistently."
+            },
+            {
+              "id": "human-walk-NE",
+              "verdict": "PASS",
+              "observation": "Both half-strides distinguish extended support from bent recovery. Crossings preserve limb continuity and body-side identity; feet occupy plausible different ground depths."
+            },
+            {
+              "id": "human-walk-NW",
+              "verdict": "PASS",
+              "observation": "Frames 2–3 and 6–7 show alternate forward knee recovery with attached calves and feet. Three-quarter back planes and arm opposition remain readable."
+            },
+            {
+              "id": "rpg-run-N",
+              "verdict": "PASS",
+              "observation": "Large-headed compact proportions remain consistent. Both halves alternate compressed recovery legs and extended support legs with readable rear anatomy and opposing arms."
+            },
+            {
+              "id": "rpg-run-NE",
+              "verdict": "PASS",
+              "observation": "Squat limb masses remain connected through tight knee folds. Both recovery sequences preserve near/far overlap, ankle attachment and opposing arm movement."
+            },
+            {
+              "id": "rpg-run-NW",
+              "verdict": "PASS",
+              "observation": "Both half-strides retain readable advancing knees despite compact overlap. Folded calves and feet connect coherently; the rear head has no front facial marks."
+            },
+            {
+              "id": "rpg-run-S",
+              "verdict": "PASS",
+              "observation": "Front planes remain recognizable. Alternating recovery legs shorten coherently, support feet align beneath their calves, and arms oppose across both halves."
+            },
+            {
+              "id": "rpg-walk-N",
+              "verdict": "PASS",
+              "observation": "Alternate recovery legs lift in frames 2–3 and 6–7 without losing hip attachment. Rear planes and compact proportions remain stable."
+            },
+            {
+              "id": "rpg-walk-NE",
+              "verdict": "PASS",
+              "observation": "Both half-strides preserve connected knee–calf–foot masses through close crossings. Ground-depth differences and opposing arms remain legible at the chosen proportions."
+            },
+            {
+              "id": "rpg-walk-NW",
+              "verdict": "PASS",
+              "observation": "Alternate forward knee folds remain readable in frames 2–3 and 6–7. Foot overlap, shoulder attachment and three-quarter back planes remain coherent."
+            }
+          ],
+          "findings": [
+            "All 14 actual PNGs were viewed; every SHA-256 matches the supplied value.",
+            "No concrete visible defect found under the bare anatomical mannequin criteria. Body-side paint remains consistent through crossings.",
+            "Frame 7-to-0 pose adjacency is plausible on all sheets."
+          ],
+          "limitations": [
+            "Sheet inspection establishes neither playback timing nor a seamless live loop; browser playback was not tested.",
+            "PowerShell startup reported denied fnm cache operations and could not start C:\\Users\\ehart\\AppData\\Local\\Microsoft\\WindowsApps\\oh-my-posh.exe because the file could not be accessed. The hash command nevertheless executed and completed with exit code 0; no retry was performed."
+          ]
+        },
+        "missing": false
+      }
+    ],
+    "rootAcceptanceRequired": true,
+    "ownerAcceptanceNotInferred": true
+  },
+  "error": null
+}

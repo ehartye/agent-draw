@@ -1,0 +1,889 @@
+{
+  "version": 1,
+  "method": "Coordinator Python hashlib read-only; PowerShell profile disabled; no worker replay or permission change",
+  "images": [
+    {
+      "round": "r1",
+      "role": "cardinals",
+      "id": "human-crouch-cardinals",
+      "sha256": "48bbb87d71b478c7fa76f5a1cc81572122416084e1d89d1e4353707f291737b5",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "cardinals",
+      "id": "human-jump-cardinals",
+      "sha256": "7fc95d10995150d90517c61c01d804d3f17fed169435d5c5bd17cb955c0c1903",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "cardinals",
+      "id": "human-neutral-cardinals",
+      "sha256": "2f394cb3c93fca7e92996f804230ae88d4c2d4a550d14655399c40ff6bc615b9",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "cardinals",
+      "id": "human-reach-cardinals",
+      "sha256": "d1b7a83ec8b1be43c69618db64e12facc8f20e5c15c35229840638f580777da3",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "cardinals",
+      "id": "human-run-flight-cardinals",
+      "sha256": "b455dd955536284790ef5a877f359b3d495e955a818c6865abe7e45a685505eb",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "cardinals",
+      "id": "human-run-push-cardinals",
+      "sha256": "f7bb0a3b6bfeda210f52c2d75e507e5fe92a87217bb3e90bc9b1527f544dbdc4",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "cardinals",
+      "id": "human-walk-contact-cardinals",
+      "sha256": "1822fe442303c70c8f9d793a0feb6b2934d422a6a8d432c60b7fbf00222e6f30",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "cardinals",
+      "id": "human-walk-pass-cardinals",
+      "sha256": "f975a36187bec1b4dd34dcda8a123ab690475b2d0f3aee3a8a18ee55f6725128",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "cardinals",
+      "id": "rpg-crouch-cardinals",
+      "sha256": "2eaea9dadbe6901a5b4904914dfa9739933ec65896cd85e7417c1dbd10647412",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "cardinals",
+      "id": "rpg-jump-cardinals",
+      "sha256": "866ea6819251da8a3f6db401c640fcd4a6e872cb97b22321c8b97f841d3770ac",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "cardinals",
+      "id": "rpg-neutral-cardinals",
+      "sha256": "0859834940aabb0de99f911d3141899237afe61dfa08650a36bac31223d37d01",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "cardinals",
+      "id": "rpg-reach-cardinals",
+      "sha256": "390aa3648f1c868fa101468881e4005243cf4607197a8e792f37fe75661aa625",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "cardinals",
+      "id": "rpg-run-flight-cardinals",
+      "sha256": "4f9bf576e78e30016afb98379ae69eef2f33d63f885393538f19833e2943addd",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "cardinals",
+      "id": "rpg-run-push-cardinals",
+      "sha256": "2c77aba5c52d12dd913c1f52bf2efaeee8c7a0ef91f9665955f8bf81de8f4177",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "cardinals",
+      "id": "rpg-walk-contact-cardinals",
+      "sha256": "621a0200c082894231ecd185bac2c169d278c1da401333caae0b536fea2cf1d3",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "cardinals",
+      "id": "rpg-walk-pass-cardinals",
+      "sha256": "acc0b9ed1ee62f781b153159a38f4debf87fb5e8086e6d51cb798aa535ebba75",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "diagonals",
+      "id": "human-crouch-diagonals",
+      "sha256": "a9066c62baf0d1a8424445f29861414c71591cb26b7d29940a9f287e10ac8fb3",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "diagonals",
+      "id": "human-jump-diagonals",
+      "sha256": "10efad4670a8845a4218c815aef57c77cf5df9bb3a6afb36ed8ffd04df7c92b8",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "diagonals",
+      "id": "human-neutral-diagonals",
+      "sha256": "3e9519389bb5130a703adbbe0bb8b6bf2805a403a9ce410dfb080e22e9c83152",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "diagonals",
+      "id": "human-reach-diagonals",
+      "sha256": "eb02af22d0c38be55d300a01fa212aa17dcd65c9210501c844e2cd1d79dda7bb",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "diagonals",
+      "id": "human-run-flight-diagonals",
+      "sha256": "91a10549ccd688899e0b7bb6465a3c7ff5a9ec8c3a80d2cb932e794fbafca867",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "diagonals",
+      "id": "human-run-push-diagonals",
+      "sha256": "df3d96cd6bfe0644fb7e82c849bf4afc6b3d64d3eefc513d78d4426acc319b6e",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "diagonals",
+      "id": "human-walk-contact-diagonals",
+      "sha256": "a40fcb79e54593249994f475250c22134875f5109efbe83b19109b11e96d84a7",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "diagonals",
+      "id": "human-walk-pass-diagonals",
+      "sha256": "c584e296376fba0d7d24639ad770080eb01d8a712af310e28a87f600b57c50e2",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "diagonals",
+      "id": "rpg-crouch-diagonals",
+      "sha256": "cac6596f27972a34c383b64e2869921d97e4941f2545cbed10c61aaa136731be",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "diagonals",
+      "id": "rpg-jump-diagonals",
+      "sha256": "107860fb37be6dc9ec90471a00b3b5a45e214d587dbfa7f51cf5ec05aca07a2c",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "diagonals",
+      "id": "rpg-neutral-diagonals",
+      "sha256": "026ee586c2c3039bc7bbe89b78faeba7eef80df965c6d8cedbfb9510190c21c4",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "diagonals",
+      "id": "rpg-reach-diagonals",
+      "sha256": "904164c336985d38fae437312a2811cc722913e1d04681b0630eb26ef3324692",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "diagonals",
+      "id": "rpg-run-flight-diagonals",
+      "sha256": "95b559e38c94ca5fd6f0441926488e98b6a6856b2709f9bca9ad3903a534deea",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "diagonals",
+      "id": "rpg-run-push-diagonals",
+      "sha256": "a7bdb0b01f476c394c404ea4aaf05dc0cd7dbbe905d17ec7e46dda70207992c4",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "diagonals",
+      "id": "rpg-walk-contact-diagonals",
+      "sha256": "1c95db0b9acf45b672007281507bbb602bf7116f79ceb736558e76676a0b40c9",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "diagonals",
+      "id": "rpg-walk-pass-diagonals",
+      "sha256": "8485768f531032c58e1309f6911cc4f543e29683cae7578e9e6b792f0ba490b6",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "human-run-E",
+      "sha256": "3f6f7e438455345b41ff27b9902d05007dfbed26d5a788b057dbc91e7e657da2",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "human-run-N",
+      "sha256": "60c890839b8a92aed9f80c21c5c275a1b4fcd996e739b1916ca8a67c2a2d679b",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "human-run-NE",
+      "sha256": "3bfcab6c48473031586f884482afa336881c7bb429e0287c6cd5ae03bce1893b",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "human-run-NW",
+      "sha256": "35bee089a0bba8a0a1004857fbde9c20c7b01b2168dde1df5de9f8c8d05d4172",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "human-run-S",
+      "sha256": "67b410993d911c0cf4c64de2f7c918cf5c4bfe08efd37af23aed7ba84315b332",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "human-run-SE",
+      "sha256": "27bc8a67ee9d78ca6a288a0558395d8b8e8d9a7556d09ee457d530b4c6cc3800",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "human-run-SW",
+      "sha256": "889b924a375491d47a98da41f141d43d831ce6da26cab70451e182ec093b42fb",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "human-run-W",
+      "sha256": "0aee282d7b94f92650f0b64979787d6f19ff4af6a2533ba063629e04d38db0fd",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "human-walk-E",
+      "sha256": "11606d44dd98258c0daf90948e7cc14565d57231db5f4d2c3a34a638b2867f2f",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "human-walk-N",
+      "sha256": "c67d0df846a09e6e8fd92f8f89b83d95d196ac1d163bd7beb670572b08451e65",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "human-walk-NE",
+      "sha256": "0bcd8de7d364ea7b0c4c5c61e1a0fd2479a6a4e7eef7274584d9082567b3c767",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "human-walk-NW",
+      "sha256": "87fa6ac21f8e22b7941f33d2ebf1d64e5e1568087013d8494cc93ff0fbc7a989",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "human-walk-S",
+      "sha256": "ba857e07194920d7e5833ca9e671a75a56c11e08e44170912adcd6ca35a9cc84",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "human-walk-SE",
+      "sha256": "c3562d10ba8103cc4b05d104470a33c7d11c27ad5167a41938ff81e8e1399387",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "human-walk-SW",
+      "sha256": "1c022e78f699d9ea512c2be8ba711640fd88a2d85f4b2279b2196bee4f294129",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "human-walk-W",
+      "sha256": "c28fee82b9d4c5c65971350589a46f8816923752bf1bfb8f270e97b1d0c306ec",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "rpg-run-E",
+      "sha256": "6aaee3e5cfcf3077cee0e304082b5572b125dc39599bd99c76a6d41afd042b0e",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "rpg-run-N",
+      "sha256": "a8c0fbc7769c566ce42b3ec6242f764fe138a5116a792ec9bd56e8aa7283976a",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "rpg-run-NE",
+      "sha256": "775fd251d598d67cc3722ad80fc439d1c584dbf9320581f7ca0ffae5a4a0ccc7",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "rpg-run-NW",
+      "sha256": "61f704a6ae1ad5eceede31dced9d4bf4e6474b16e64ec210bf31d20b3317829e",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "rpg-run-S",
+      "sha256": "1dc0cdac986c19b909109d7c8da66ed539675422915a4041c733b81fa2d7847e",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "rpg-run-SE",
+      "sha256": "e6c8e405a72d97a581ebc83ea587127281ab59bc88077f2f7b54b98b63f17ccf",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "rpg-run-SW",
+      "sha256": "01e4d5408f8bcd302e42d173a4b3529715890223e14e3df9791ecea3fbbe8d07",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "rpg-run-W",
+      "sha256": "d89fe61a3aad4d582a8e0357ab5f78d08050cebf725fa7abbdc8166a8d557b75",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "rpg-walk-E",
+      "sha256": "ea63d8042651ee0b1a8ab841f2a9975ec9eeac09efa96209428df8ae55afa08b",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "rpg-walk-N",
+      "sha256": "acfdd614fee3b1b5c76137baa1ed867809b832eb951e306de07b94193e7d846b",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "rpg-walk-NE",
+      "sha256": "93ecc8b6aea10da9a69ea26d32484eb4359a9fcda023c6b7c45a145471492d4c",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "rpg-walk-NW",
+      "sha256": "e8f9171f3c8a2726c3c8bb463c08f28319c512480a8a190ce862040b241ba085",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "rpg-walk-S",
+      "sha256": "fa6618e69920e223fcf5b1a792f426dc126b08094a3c934161a5897219543b5b",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "rpg-walk-SE",
+      "sha256": "b83bc70438c66cb8a031a966e39cac187a2330c19332b57d5c944e11189ffe1a",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "rpg-walk-SW",
+      "sha256": "5223c2f930a5d50e99e03851c8af7bf72cb04f891ec7f9d0c15e525aa5e0f563",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r1",
+      "role": "motion",
+      "id": "rpg-walk-W",
+      "sha256": "c0b1d9297edcf562791b1ec856082e59f69a0aea4ed7f31bd36b50ebc37a5f00",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": false
+    },
+    {
+      "round": "r2",
+      "role": "cardinals-r2",
+      "id": "human-crouch-cardinals",
+      "sha256": "1506190afefb97d88b40ceceec3790a4c7970beb5e590fba5b0507fb044a6826",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "cardinals-r2",
+      "id": "human-jump-cardinals",
+      "sha256": "4a55c19f64fa4a0056aef7f8ca3d4f11ce5adc3827b0554abdf5834f981d368b",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "cardinals-r2",
+      "id": "human-neutral-cardinals",
+      "sha256": "f080435df44a3ae49bfe8a5fcd31a06cabf6b4897e56a333313c9a8c3860b708",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "cardinals-r2",
+      "id": "human-reach-cardinals",
+      "sha256": "49460bf94426df621a252282ec10a2b72a41a9fe4a23743502fa8ca9762829df",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "cardinals-r2",
+      "id": "human-run-flight-cardinals",
+      "sha256": "595236c6879b17fd0ce7f4beb40f7d96f51789bcf833778dd9816a52564a2705",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "cardinals-r2",
+      "id": "human-run-push-cardinals",
+      "sha256": "165995b0b719539fcb0aa64b4259d59cfaa38acf8e101ce47451f41d302f7783",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "cardinals-r2",
+      "id": "human-walk-contact-cardinals",
+      "sha256": "e0c0c2bb0fe75a94babbc5dd9167d05d1d9c84c36074775ffa617514a52c0672",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "cardinals-r2",
+      "id": "human-walk-pass-cardinals",
+      "sha256": "f7939aef6a8165fd7cdec9e2e5469d80fbbad445487b1ff7617da600adb8c83a",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "cardinals-r2",
+      "id": "rpg-crouch-cardinals",
+      "sha256": "ce08e8f23d795875587aca64118f8709268054032b5e6bef61df0d119f23fa88",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "cardinals-r2",
+      "id": "rpg-jump-cardinals",
+      "sha256": "afaac06bd51d2c78033505b76d2ed228e2958ba57b97f5114b4e0d4191f3a583",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "cardinals-r2",
+      "id": "rpg-neutral-cardinals",
+      "sha256": "835dc153fe8e3b686bce37857084ea8c3c7ab55dd06f091d9f2ba996a0a7f646",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "cardinals-r2",
+      "id": "rpg-reach-cardinals",
+      "sha256": "e961d9ec69413718dd833c5f146888abe8a1a4c267a152e9622318afec5b681b",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "cardinals-r2",
+      "id": "rpg-run-flight-cardinals",
+      "sha256": "40bcfd9a87b93c42144ff07276afbb92e366cf4ad256ae476786bd1a9579cebe",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "cardinals-r2",
+      "id": "rpg-run-push-cardinals",
+      "sha256": "d056c9e8f7234000e2d28073d9a7941d4fc36971e04b6895ccc5b1f3e7f01372",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "cardinals-r2",
+      "id": "rpg-walk-contact-cardinals",
+      "sha256": "e68016ebbd06ade8977f9aa97c71f24c50403850aa8930ba59cadee876080065",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "cardinals-r2",
+      "id": "rpg-walk-pass-cardinals",
+      "sha256": "f91ba631f1cd7691b0d155692cb87a75dd128f76bc8dd8ddc2e11b25aca2710a",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "diagonals-r2",
+      "id": "human-crouch-diagonals",
+      "sha256": "5cea07d1e8b47264843e7577a5d6691dffa81816df3270934357e92da231998e",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "diagonals-r2",
+      "id": "human-jump-diagonals",
+      "sha256": "3fdc985eed003be396ce3da609845d8421601658bfb447f01a49c9bc5d43ab96",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "diagonals-r2",
+      "id": "human-neutral-diagonals",
+      "sha256": "e749646413363cee43aaabcb9f41f37427f33e222bf7eed7e7c1dc4c59d0e5ba",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "diagonals-r2",
+      "id": "human-reach-diagonals",
+      "sha256": "d478dd8be94ca1fad5bb7c2e628a78bed8fac2fff95c5a10a4378c9b5f0f2ddc",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "diagonals-r2",
+      "id": "human-run-flight-diagonals",
+      "sha256": "793fa8d695a5dfd7e867b4565759f47f3773b00249f8179aada534c6bfa45872",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "diagonals-r2",
+      "id": "human-run-push-diagonals",
+      "sha256": "b4e54a2b3b5c96c7b62c4a3763e85fe09f09100c5f26ca9ac3520245cd3cf42b",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "diagonals-r2",
+      "id": "human-walk-contact-diagonals",
+      "sha256": "c78bc15f3df45d398ea71453fe648668da4338e5ad9658027a7a0e0f44b04c7e",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "diagonals-r2",
+      "id": "human-walk-pass-diagonals",
+      "sha256": "616e398099ccd0844ac86abb5551de3d66f112e93eaaaaf682a82e0569a21291",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "diagonals-r2",
+      "id": "rpg-crouch-diagonals",
+      "sha256": "609d040e36e5e0433c2bee02e97e965c423b68d1eec879d42725d9cc884d4f98",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "diagonals-r2",
+      "id": "rpg-jump-diagonals",
+      "sha256": "93f8fb477c51cda56e611036286a457a6322b3cd2146e60736c2a7cf810377d1",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "diagonals-r2",
+      "id": "rpg-neutral-diagonals",
+      "sha256": "362b6fbbae94a8ef64ae0d24a5b10cffda3f0ea16cbc8aa142f21d561a00c53e",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "diagonals-r2",
+      "id": "rpg-reach-diagonals",
+      "sha256": "92b57ef5733fdfbe9f92aee571622d84fdab4aa615f63e11b977139398977d37",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "diagonals-r2",
+      "id": "rpg-run-flight-diagonals",
+      "sha256": "b4c080c8ae6084134c8336da73c332de0984a2a990c2439ac1b74803b88a3f9c",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "diagonals-r2",
+      "id": "rpg-run-push-diagonals",
+      "sha256": "db42b27bfa51d54023df46dd897ba6c36b416b93c9115a95ddf2f33f334e80ab",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "diagonals-r2",
+      "id": "rpg-walk-contact-diagonals",
+      "sha256": "5c0c3a24c5fe87fbaeb7ee675a1811e9e08fbc8b7e0b1d8640f9f9214e5d53a9",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "diagonals-r2",
+      "id": "rpg-walk-pass-diagonals",
+      "sha256": "8ed21b28d71c340fad44ac9dd6e58dbd837edfad124ee8c0d06cd9f4dd2a2090",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "motion-r2",
+      "id": "human-run-N",
+      "sha256": "f4ac71eee4942add4e993029505bdee6d9a00a486df9952b9c7e7b5edf8725d8",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "motion-r2",
+      "id": "human-run-NE",
+      "sha256": "336f28a967ff6cd76efc3146a041ae5d2f8fdd72b323cb9da4879b70a6812556",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "motion-r2",
+      "id": "human-run-NW",
+      "sha256": "3f48018a05431e43a2f7ba43a040cfba8b0e7c0a9f7f0d9743f272ff0a702b14",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "motion-r2",
+      "id": "human-run-S",
+      "sha256": "69c82c56a36d99e86486aebe2617d660cd41d63c48295f52f0ba0ca991bf80ca",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "motion-r2",
+      "id": "human-walk-N",
+      "sha256": "126487ba23a71d452cbadb76060e8b72c0f03b78d60b23b8a66902c08920a192",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "motion-r2",
+      "id": "human-walk-NE",
+      "sha256": "9ad4a53e63b82dc2c8a37e77141d68694d238c3354b6cbddc5aa70e42a65c463",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "motion-r2",
+      "id": "human-walk-NW",
+      "sha256": "c65434e5d239a275a0246779a99f813f2d83e58b297d41adfec74bec66b26203",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "motion-r2",
+      "id": "rpg-run-N",
+      "sha256": "b78bcaaddee3090400495d2f2f218829be407b0ea21a5050994acdee3a6f47b9",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "motion-r2",
+      "id": "rpg-run-NE",
+      "sha256": "6c1fbda3ca1d965063940a0a36bdf2bdb8fe64a57218620400df8099c655ec67",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "motion-r2",
+      "id": "rpg-run-NW",
+      "sha256": "4a622b3a1295b5ef6d85c2fb7ee9b482f5d37009b950de8940df45cff5f59336",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "motion-r2",
+      "id": "rpg-run-S",
+      "sha256": "0c2d84090a71148dd9506dec549cc7bc9c892cf861f4abf64dc92ad6d27864fc",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "motion-r2",
+      "id": "rpg-walk-N",
+      "sha256": "185ddb65891e3c8b253748a44fd524b7c1004544fae6f0c12765915f95898a33",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "motion-r2",
+      "id": "rpg-walk-NE",
+      "sha256": "e9111c1c1f44e09abb658f44673bb373b224225511fbbe4b9de5bf11ba7a2ac8",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    },
+    {
+      "round": "r2",
+      "role": "motion-r2",
+      "id": "rpg-walk-NW",
+      "sha256": "09636731711aa338f10339672a869f0791f2ebab19f70e785c6c0b8350a8844a",
+      "matchesArgs": true,
+      "matchesCurrentReviewSheet": true
+    }
+  ],
+  "allFrozenHashesMatch": true,
+  "freshCurrentRound2Sheets": 46,
+  "historicalWorkerOutcomePreserved": "diagonals-r2 overall UNVERIFIED; all 16 visible-pose rows PASS; independent worker hash command failed before producing hashes"
+}

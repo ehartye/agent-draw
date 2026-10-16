@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "tool": "agent-draw",
+  "version": "0.5.0",
+  "kind": "font-atlas",
+  "ok": true,
+  "name": "Bitmap lettering starter",
+  "font": "monospace",
+  "size": 24,
+  "characters": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~",
+  "columns": 16,
+  "rows": 6,
+  "cellWidth": 32,
+  "cellHeight": 48,
+  "width": 512,
+  "height": 288,
+  "lineHeight": 48,
+  "base": 26,
+  "xadvance": 32,
+  "source": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\release-0.5.0\\examples\\bitmap-lettering\\manifest.json",
+  "sourceSha256": "359c9696da539384678276d0d21c0c59126f21506dd79614a9384ca52f20df35",
+  "sourceManifest": "source-manifest.json",
+  "manifest": "manifest.json",
+  "project": "project.json",
+  "projectSha256": "48b0333a0b78ddff17bc436e60ca1aec5507e99758c77247d87364fc5fd54e0a",
+  "editable": "font.svg",
+  "image": "font.png",
+  "bmfont": "font.fnt",
+  "inkscape": "Inkscape 1.4.3 (0d15f75, 2025-12-25)",
+  "artifacts": [
+    {
+      "name": "source-manifest.json",
+      "sha256": "359c9696da539384678276d0d21c0c59126f21506dd79614a9384ca52f20df35"
+    },
+    {
+      "name": "manifest.json",
+      "sha256": "9137da1f7a209285620b639d666aa4826ee4761be8289b67425eab5ee7b2465b"
+    },
+    {
+      "name": "project.json",
+      "sha256": "48b0333a0b78ddff17bc436e60ca1aec5507e99758c77247d87364fc5fd54e0a"
+    },
+    {
+      "name": "font.svg",
+      "sha256": "815341110298d9288b1d1cdc2c1d040602149480f560b52ffe573cf10e43f6f6"
+    },
+    {
+      "name": "font.fnt",
+      "sha256": "2a8c0d986e1e63a4a89a7cb2a608e4a14b95059d862782a9951399b350e5600e"
+    },
+    {
+      "name": "font.png",
+      "sha256": "0dff1e3400ad06672751531568ad6ca20fe8a219241d148fdafa0b96e2521ee4"
+    }
+  ],
+  "warnings": [
+    "(inkscape.com:3936): Gdk-CRITICAL **: 09:50:52.458: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:3936): Gdk-CRITICAL **: 09:50:52.591: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+  ],
+  "limitations": [
+    "Fixed-cell advances, no measured glyph bearings or kerning. Font selection/fallback and ink fit require native visual review."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "result": {
+    "verdict": "PASS",
+    "imagesViewed": [
+      "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\output\\gallery-browser-final\\gallery-mobile.png",
+      "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\output\\gallery-browser-final\\gallery-mobile-drawings.png",
+      "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\output\\gallery-browser-final\\human-guides.png"
+    ],
+    "findings": [
+      "Mobile heading clearly separates “figure” and “starters” across lines.",
+      "Visible controls and cards fit the viewport; card and download labels are readable.",
+      "Detail view shows singular “1 template” behind the modal.",
+      "All three image hashes match the supplied values."
+    ],
+    "limitations": [
+      "Static presentation only; anatomy and interactions were not reviewed.",
+      "Hash verification completed despite shell-profile access-denied errors."
+    ]
+  },
+  "error": null
+}

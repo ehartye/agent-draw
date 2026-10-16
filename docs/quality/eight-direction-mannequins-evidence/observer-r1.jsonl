@@ -1,0 +1,11 @@
+{"kind":"attached","generation":1,"cursor":0,"status":"running"}
+{"kind":"worker-progress","generation":1,"cursor":0,"position":0,"attempt":1,"progress":{"seq":95,"kind":"command","at":"2026-10-15T21:48:04.347Z"}}
+{"kind":"worker-progress","generation":1,"cursor":0,"position":1,"attempt":1,"progress":{"seq":156,"kind":"command","at":"2026-10-15T21:48:05.035Z"}}
+{"kind":"idle-warning","generation":1,"cursor":0,"position":0,"attempt":1,"idleMs":60406,"basis":"no-completed-command-or-file-change"}
+{"kind":"idle-warning","generation":1,"cursor":0,"position":1,"attempt":1,"idleMs":60409,"basis":"no-completed-command-or-file-change"}
+{"seq":1,"generation":1,"kind":"worker-terminal","position":1,"attempt":1,"status":"completed","at":"2026-10-15T21:49:21.383Z","cleanup":{"serverExited":true,"jobEmpty":true,"forced":false,"descendants":"notVerified","ownershipScope":"windows-job-members","nativeInventoryEmpty":true}}
+{"seq":2,"generation":1,"kind":"worker-terminal","position":0,"attempt":1,"status":"completed","at":"2026-10-15T21:49:22.943Z","cleanup":{"serverExited":true,"jobEmpty":true,"forced":false,"descendants":"notVerified","ownershipScope":"windows-job-members","nativeInventoryEmpty":true}}
+{"kind":"worker-progress","generation":1,"cursor":2,"position":2,"attempt":1,"progress":{"seq":2680,"kind":"command","at":"2026-10-15T21:49:34.381Z"}}
+{"kind":"idle-warning","generation":1,"cursor":2,"position":2,"attempt":1,"idleMs":60442,"basis":"no-completed-command-or-file-change"}
+{"seq":3,"generation":1,"kind":"worker-terminal","position":2,"attempt":1,"status":"completed","at":"2026-10-15T21:51:42.765Z","cleanup":{"serverExited":true,"jobEmpty":true,"forced":false,"descendants":"notVerified","ownershipScope":"windows-job-members","nativeInventoryEmpty":true}}
+{"seq":4,"generation":1,"kind":"run-terminal","status":"completed","at":"2026-10-15T21:51:42.778Z","cleanup":{"serverExited":true,"jobEmpty":true,"forced":false,"descendants":"notVerified","ownershipScope":"windows-job-members"}}
