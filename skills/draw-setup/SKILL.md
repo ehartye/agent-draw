@@ -1,11 +1,13 @@
 ---
 name: draw-setup
-description: Check and prepare the version-matched agent-draw runtime for headless Inkscape vector exports. Use before the first draw command, after plugin updates, or for missing, outdated, or broken Inkscape and runtime discovery errors, or missing FFmpeg during optional GIF/MP4 encoding.
+description: Check and prepare the version-matched agent-draw runtime for headless Inkscape vector exports. Use before the first draw command, after plugin updates, or for missing, outdated, or broken Inkscape and runtime discovery errors, missing FFmpeg during optional GIF/MP4 encoding, or Inkscape CLI/Python API usage.
 ---
 
 # Draw setup
 
 Resolve `<plugin-root>` from this loaded skill: it is two directory levels above the `draw-setup` directory. Confirm that `scripts/setup.js` exists there. Use its absolute path; do not assume the current working directory is the plugin checkout.
+
+For native Inkscape flags, actions, geometry queries, shell mode or the Python `inkex` API, read the [CLI and API quick reference](../draw-export/references/inkscape-automation.md). It includes runnable SVG and Python examples.
 
 Requirements: Node.js 22 or newer and an existing Inkscape 1.2 or newer installation. Linux is the initial verification target. Setup copies local runtime files into the user cache; it does not install Inkscape, launch a browser, or install npm packages.
 

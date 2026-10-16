@@ -1,0 +1,9 @@
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <name>Draw sample: tint selected</name>
+  <id>org.agent-draw.sample.tint-selected</id>
+  <effect>
+    <object-type>all</object-type>
+    <effects-menu><submenu name="Draw samples"/></effects-menu>
+  </effect>
+  <script><command location="inx" interpreter="python">tint_selected.py</command></script>
+</inkscape-extension>

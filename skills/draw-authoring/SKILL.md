@@ -27,6 +27,8 @@ For genuinely rigid reusable parts, nested motion, waves, or loops, read [parts 
 
 For bitmap lettering or a Phaser bitmap font, read [font-atlas](../../docs/font-atlas.md). Its printable-ASCII manifest produces fixed-cell glyphs through native Inkscape; advances are not measured font metrics. Use `draw-export` for rendering and review.
 
+For native SVG editing or Python extension work, read the [Inkscape CLI and API quick reference](../draw-export/references/inkscape-automation.md).
+
 Read the [project format](../../docs/project-format.md) for exact fields and limits. Recipes use the v0.4 runtime's additions while keeping project `version: 1`; older runtimes reject those fields. Never invent unsupported operations to imitate an Inkscape GUI technique.
 
 ## Author, validate, review
