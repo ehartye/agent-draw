@@ -4,11 +4,21 @@ Use this for human and stylized humanoid action drawings, especially collapsing 
 
 ## Establish a model, then a few complete drawings
 
+For an editable starting figure, use the [human mannequin library](../../../examples/human-mannequins/README.md): a longer-limbed human and a broad compact RPG build, each with eight poses and eight-frame walk/run cycles in all eight facings. Copy a project to a durable working directory, expose its named construction-guide layer when needed, then design the costume around connected body masses. These are chosen stylized proportions and bare movement references. Turned views retain measured spatial limbs while allowing projected foreshortening; rear views use back planes and omit front facial marks. Validate and inspect actual exports after changing their model, then review alternating support, limb overlap and the final-to-first transition in playback.
+
 Choose the camera and the character's proportions explicitly. Draw neutral beside a few action keys: weight reception, folded recovery, forward knee lift and flight. Compare head, ribcage, pelvis, hands and boots before adding small details. A large head, compact cloak and small limbs can be a deliberate design; do not impose a realistic head-count on a cartoon.
 
 Set physical upper/lower limb lengths, thickness and attachment locations for the paired limbs. Keep those dimensions coherent through the action. Screen-space lengths may shorten with a constructed turn or foreshortening; an otherwise planar profile cannot explain a thigh almost disappearing as perspective. Compare alignments, negative spaces and masses as well as measurements.
 
 Use a gesture through the head, ribcage and pelvis to explain the action. Place the supporting foot, then establish weight and the next recovery. Keep the construction simple enough to redraw repeatedly. For requested frame-by-frame animation, make every frame a complete drawing with changed contours and overlaps; do not substitute rotations of rigid limb pieces for bent anatomy.
+
+## Anatomical guide identity and overhead cameras
+
+Use an explicit guide legend. This library's convention is anatomical left blue, right red, head gold, torso teal and pelvis purple; these are project choices, not universal animation colors. Left and right belong to the character through every turn. Lighting, distance and near/far overlap are separate cues. Add labels or marker shapes so identity does not depend on color alone. The overhead example uses circular left joints and diamond right joints. Map historical screen-side or near/far keys before recoloring; mirroring screen geometry alone does not preserve anatomical names.
+
+For a true orthographic overhead view, project lateral/forward position onto the picture plane and use height for occlusion. Do not keep a front-view face or force the full lengths of vertically hanging limbs into view. Show the head crown, shoulder width, forward nose projection and the body masses visible around them. The lean exposes a continuous lower back between rib cage and pelvis; a detached flat pelvic bar reads as an accessory. Review complete standing, crouched, passing and flight keys before filling all facings. A rotation of the entire overhead viewing direction is geometrically coherent; bent-limb contours and overlaps still change for each action drawing.
+
+The [overhead mannequin set](../../../examples/human-mannequins/overhead/README.md) documents its camera, guide mapping and native-page crop provenance. Exact integer crops can batch export startup cost without resizing artwork; they must retain complete page sources, native receipts, crop coordinates and source/export hashes. Such a crop is not a separate native process receipt or evidence of motion quality.
 
 ## Connect the figure before cleaning the contour
 
@@ -17,6 +27,8 @@ Locate the shoulder girdle over the ribcage and the upper-arm socket beneath the
 Locate the hip articulation inside the chosen pelvis/seat mass. Keep the thigh root proportionate to that mass. Establish hip–knee–ankle and shoulder–elbow–wrist chains before drawing around them. Judge knee direction with the thigh, patella/front of knee, heel and toe; it is not universally a screen-left or screen-right test. Reflection changes screen-space polarity, and turned or collapsed poses need their own construction.
 
 Draw continuous tapered contours with readable thigh, calf, upper-arm and forearm masses. Measure thickness across each segment's direction. Fixed horizontal offsets can collapse or swell a rotated limb. Compress the inside joint and extend the outside edge; avoid a visible circular hinge or a uniform strip with an arbitrary sharp corner.
+
+A front/back projection can fold a calf or forearm over its upper segment. Do not outline a self-intersecting envelope: crossed interior ink can look like a broken joint. Construct the visible combined volume and its occlusion instead. The mannequin example uses consistently wound overlapping mass paths, then removes internal stroke crossings with the same union fill; this is an offline drawing technique, not a native anatomy feature.
 
 In side view, establish the far arm behind the torso and the near arm in front. Alternate the two legs and opposite arms through both half-strides. Show the knee advancing and the rear heel recovering on each anatomical side. Layer order and a half-cycle offset are necessary construction choices, but cannot certify readable motion. Hide internal detail and remove color cues: if the limbs merge into an ambiguous knot, change the gesture, gap or overlap.
 
@@ -38,6 +50,8 @@ cuffEdges = cuffCenter ± t * cuffHalfWidth
 These are construction coordinates, not required schema fields. Author the cuff around that calf frame. For an airborne foot, orient the sole/toe from the same frame with deliberately chosen ankle flexion. During support, draw the foot around its heel/ball/toe contact on the ground plane while the cuff follows the calf. Join those landmarks as one coherent boot contour. Mirror the complete construction for the opposite view or define its front direction explicitly; do not reuse the right-facing transverse convention blindly.
 
 Inspect toe, heel, sole and shaft together. A recovery heel may rise above its toe and expose an upturned sole; that alone does not mean the boot is inverted. The cuff must still face and receive the calf. Check flat support, toe-off and swing separately, including the intermediate drawings between attractive key poses.
+
+Review rear-facing feet independently of their front/profile versions. Preserve both heel corners and explain the heel wall and upper forefoot plane. An incomplete projected sole can produce a pointed near corner that reads as a toe facing the wrong direction even when the underlying forward vector is correct. Verify the actual drawn heel-to-forefoot relationship in N/NE/NW and both half-strides; a coordinate assertion cannot settle that visual reading.
 
 Register the finished ink to the floor, not only a polygon's nominal sole vertices. An outside stroke can extend below the baseline. In an already ink-filled boot, dropping a redundant same-color outline can preserve the intended ground edge. Retain intentional outlines with their visible extent included in contact measurements. Recheck airborne clearance after correcting orientation: a formerly wrong boot angle may have hidden a ground intersection.
 

@@ -1,0 +1,3178 @@
+{
+  "version": 1,
+  "camera": "orthographic overhead: screen uses lateral and forward; height controls overlap only",
+  "canvas": {
+    "width": 384,
+    "height": 384
+  },
+  "clips": [
+    {
+      "id": "human-walk-S",
+      "model": "human",
+      "pose": "walk",
+      "direction": "S",
+      "kind": "clip",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "id": "human-walk-S-00",
+          "model": "human",
+          "pose": "walk",
+          "direction": "S",
+          "json": "projects/human-walk-S-00.json",
+          "svg": "svg/human-walk-S-00.svg",
+          "png": "png/human-walk-S-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "human-walk-S-01",
+          "model": "human",
+          "pose": "walk",
+          "direction": "S",
+          "json": "projects/human-walk-S-01.json",
+          "svg": "svg/human-walk-S-01.svg",
+          "png": "png/human-walk-S-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "human-walk-S-02",
+          "model": "human",
+          "pose": "walk",
+          "direction": "S",
+          "json": "projects/human-walk-S-02.json",
+          "svg": "svg/human-walk-S-02.svg",
+          "png": "png/human-walk-S-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "human-walk-S-03",
+          "model": "human",
+          "pose": "walk",
+          "direction": "S",
+          "json": "projects/human-walk-S-03.json",
+          "svg": "svg/human-walk-S-03.svg",
+          "png": "png/human-walk-S-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "human-walk-S-04",
+          "model": "human",
+          "pose": "walk",
+          "direction": "S",
+          "json": "projects/human-walk-S-04.json",
+          "svg": "svg/human-walk-S-04.svg",
+          "png": "png/human-walk-S-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "human-walk-S-05",
+          "model": "human",
+          "pose": "walk",
+          "direction": "S",
+          "json": "projects/human-walk-S-05.json",
+          "svg": "svg/human-walk-S-05.svg",
+          "png": "png/human-walk-S-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "human-walk-S-06",
+          "model": "human",
+          "pose": "walk",
+          "direction": "S",
+          "json": "projects/human-walk-S-06.json",
+          "svg": "svg/human-walk-S-06.svg",
+          "png": "png/human-walk-S-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "human-walk-S-07",
+          "model": "human",
+          "pose": "walk",
+          "direction": "S",
+          "json": "projects/human-walk-S-07.json",
+          "svg": "svg/human-walk-S-07.svg",
+          "png": "png/human-walk-S-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "human-run-S",
+      "model": "human",
+      "pose": "run",
+      "direction": "S",
+      "kind": "clip",
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "id": "human-run-S-00",
+          "model": "human",
+          "pose": "run",
+          "direction": "S",
+          "json": "projects/human-run-S-00.json",
+          "svg": "svg/human-run-S-00.svg",
+          "png": "png/human-run-S-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "human-run-S-01",
+          "model": "human",
+          "pose": "run",
+          "direction": "S",
+          "json": "projects/human-run-S-01.json",
+          "svg": "svg/human-run-S-01.svg",
+          "png": "png/human-run-S-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "human-run-S-02",
+          "model": "human",
+          "pose": "run",
+          "direction": "S",
+          "json": "projects/human-run-S-02.json",
+          "svg": "svg/human-run-S-02.svg",
+          "png": "png/human-run-S-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "human-run-S-03",
+          "model": "human",
+          "pose": "run",
+          "direction": "S",
+          "json": "projects/human-run-S-03.json",
+          "svg": "svg/human-run-S-03.svg",
+          "png": "png/human-run-S-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "human-run-S-04",
+          "model": "human",
+          "pose": "run",
+          "direction": "S",
+          "json": "projects/human-run-S-04.json",
+          "svg": "svg/human-run-S-04.svg",
+          "png": "png/human-run-S-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "human-run-S-05",
+          "model": "human",
+          "pose": "run",
+          "direction": "S",
+          "json": "projects/human-run-S-05.json",
+          "svg": "svg/human-run-S-05.svg",
+          "png": "png/human-run-S-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "human-run-S-06",
+          "model": "human",
+          "pose": "run",
+          "direction": "S",
+          "json": "projects/human-run-S-06.json",
+          "svg": "svg/human-run-S-06.svg",
+          "png": "png/human-run-S-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "human-run-S-07",
+          "model": "human",
+          "pose": "run",
+          "direction": "S",
+          "json": "projects/human-run-S-07.json",
+          "svg": "svg/human-run-S-07.svg",
+          "png": "png/human-run-S-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "human-walk-SE",
+      "model": "human",
+      "pose": "walk",
+      "direction": "SE",
+      "kind": "clip",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "id": "human-walk-SE-00",
+          "model": "human",
+          "pose": "walk",
+          "direction": "SE",
+          "json": "projects/human-walk-SE-00.json",
+          "svg": "svg/human-walk-SE-00.svg",
+          "png": "png/human-walk-SE-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "human-walk-SE-01",
+          "model": "human",
+          "pose": "walk",
+          "direction": "SE",
+          "json": "projects/human-walk-SE-01.json",
+          "svg": "svg/human-walk-SE-01.svg",
+          "png": "png/human-walk-SE-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "human-walk-SE-02",
+          "model": "human",
+          "pose": "walk",
+          "direction": "SE",
+          "json": "projects/human-walk-SE-02.json",
+          "svg": "svg/human-walk-SE-02.svg",
+          "png": "png/human-walk-SE-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "human-walk-SE-03",
+          "model": "human",
+          "pose": "walk",
+          "direction": "SE",
+          "json": "projects/human-walk-SE-03.json",
+          "svg": "svg/human-walk-SE-03.svg",
+          "png": "png/human-walk-SE-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "human-walk-SE-04",
+          "model": "human",
+          "pose": "walk",
+          "direction": "SE",
+          "json": "projects/human-walk-SE-04.json",
+          "svg": "svg/human-walk-SE-04.svg",
+          "png": "png/human-walk-SE-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "human-walk-SE-05",
+          "model": "human",
+          "pose": "walk",
+          "direction": "SE",
+          "json": "projects/human-walk-SE-05.json",
+          "svg": "svg/human-walk-SE-05.svg",
+          "png": "png/human-walk-SE-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "human-walk-SE-06",
+          "model": "human",
+          "pose": "walk",
+          "direction": "SE",
+          "json": "projects/human-walk-SE-06.json",
+          "svg": "svg/human-walk-SE-06.svg",
+          "png": "png/human-walk-SE-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "human-walk-SE-07",
+          "model": "human",
+          "pose": "walk",
+          "direction": "SE",
+          "json": "projects/human-walk-SE-07.json",
+          "svg": "svg/human-walk-SE-07.svg",
+          "png": "png/human-walk-SE-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "human-run-SE",
+      "model": "human",
+      "pose": "run",
+      "direction": "SE",
+      "kind": "clip",
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "id": "human-run-SE-00",
+          "model": "human",
+          "pose": "run",
+          "direction": "SE",
+          "json": "projects/human-run-SE-00.json",
+          "svg": "svg/human-run-SE-00.svg",
+          "png": "png/human-run-SE-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "human-run-SE-01",
+          "model": "human",
+          "pose": "run",
+          "direction": "SE",
+          "json": "projects/human-run-SE-01.json",
+          "svg": "svg/human-run-SE-01.svg",
+          "png": "png/human-run-SE-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "human-run-SE-02",
+          "model": "human",
+          "pose": "run",
+          "direction": "SE",
+          "json": "projects/human-run-SE-02.json",
+          "svg": "svg/human-run-SE-02.svg",
+          "png": "png/human-run-SE-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "human-run-SE-03",
+          "model": "human",
+          "pose": "run",
+          "direction": "SE",
+          "json": "projects/human-run-SE-03.json",
+          "svg": "svg/human-run-SE-03.svg",
+          "png": "png/human-run-SE-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "human-run-SE-04",
+          "model": "human",
+          "pose": "run",
+          "direction": "SE",
+          "json": "projects/human-run-SE-04.json",
+          "svg": "svg/human-run-SE-04.svg",
+          "png": "png/human-run-SE-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "human-run-SE-05",
+          "model": "human",
+          "pose": "run",
+          "direction": "SE",
+          "json": "projects/human-run-SE-05.json",
+          "svg": "svg/human-run-SE-05.svg",
+          "png": "png/human-run-SE-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "human-run-SE-06",
+          "model": "human",
+          "pose": "run",
+          "direction": "SE",
+          "json": "projects/human-run-SE-06.json",
+          "svg": "svg/human-run-SE-06.svg",
+          "png": "png/human-run-SE-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "human-run-SE-07",
+          "model": "human",
+          "pose": "run",
+          "direction": "SE",
+          "json": "projects/human-run-SE-07.json",
+          "svg": "svg/human-run-SE-07.svg",
+          "png": "png/human-run-SE-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "human-walk-E",
+      "model": "human",
+      "pose": "walk",
+      "direction": "E",
+      "kind": "clip",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "id": "human-walk-E-00",
+          "model": "human",
+          "pose": "walk",
+          "direction": "E",
+          "json": "projects/human-walk-E-00.json",
+          "svg": "svg/human-walk-E-00.svg",
+          "png": "png/human-walk-E-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "human-walk-E-01",
+          "model": "human",
+          "pose": "walk",
+          "direction": "E",
+          "json": "projects/human-walk-E-01.json",
+          "svg": "svg/human-walk-E-01.svg",
+          "png": "png/human-walk-E-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "human-walk-E-02",
+          "model": "human",
+          "pose": "walk",
+          "direction": "E",
+          "json": "projects/human-walk-E-02.json",
+          "svg": "svg/human-walk-E-02.svg",
+          "png": "png/human-walk-E-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "human-walk-E-03",
+          "model": "human",
+          "pose": "walk",
+          "direction": "E",
+          "json": "projects/human-walk-E-03.json",
+          "svg": "svg/human-walk-E-03.svg",
+          "png": "png/human-walk-E-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "human-walk-E-04",
+          "model": "human",
+          "pose": "walk",
+          "direction": "E",
+          "json": "projects/human-walk-E-04.json",
+          "svg": "svg/human-walk-E-04.svg",
+          "png": "png/human-walk-E-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "human-walk-E-05",
+          "model": "human",
+          "pose": "walk",
+          "direction": "E",
+          "json": "projects/human-walk-E-05.json",
+          "svg": "svg/human-walk-E-05.svg",
+          "png": "png/human-walk-E-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "human-walk-E-06",
+          "model": "human",
+          "pose": "walk",
+          "direction": "E",
+          "json": "projects/human-walk-E-06.json",
+          "svg": "svg/human-walk-E-06.svg",
+          "png": "png/human-walk-E-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "human-walk-E-07",
+          "model": "human",
+          "pose": "walk",
+          "direction": "E",
+          "json": "projects/human-walk-E-07.json",
+          "svg": "svg/human-walk-E-07.svg",
+          "png": "png/human-walk-E-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "human-run-E",
+      "model": "human",
+      "pose": "run",
+      "direction": "E",
+      "kind": "clip",
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "id": "human-run-E-00",
+          "model": "human",
+          "pose": "run",
+          "direction": "E",
+          "json": "projects/human-run-E-00.json",
+          "svg": "svg/human-run-E-00.svg",
+          "png": "png/human-run-E-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "human-run-E-01",
+          "model": "human",
+          "pose": "run",
+          "direction": "E",
+          "json": "projects/human-run-E-01.json",
+          "svg": "svg/human-run-E-01.svg",
+          "png": "png/human-run-E-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "human-run-E-02",
+          "model": "human",
+          "pose": "run",
+          "direction": "E",
+          "json": "projects/human-run-E-02.json",
+          "svg": "svg/human-run-E-02.svg",
+          "png": "png/human-run-E-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "human-run-E-03",
+          "model": "human",
+          "pose": "run",
+          "direction": "E",
+          "json": "projects/human-run-E-03.json",
+          "svg": "svg/human-run-E-03.svg",
+          "png": "png/human-run-E-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "human-run-E-04",
+          "model": "human",
+          "pose": "run",
+          "direction": "E",
+          "json": "projects/human-run-E-04.json",
+          "svg": "svg/human-run-E-04.svg",
+          "png": "png/human-run-E-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "human-run-E-05",
+          "model": "human",
+          "pose": "run",
+          "direction": "E",
+          "json": "projects/human-run-E-05.json",
+          "svg": "svg/human-run-E-05.svg",
+          "png": "png/human-run-E-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "human-run-E-06",
+          "model": "human",
+          "pose": "run",
+          "direction": "E",
+          "json": "projects/human-run-E-06.json",
+          "svg": "svg/human-run-E-06.svg",
+          "png": "png/human-run-E-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "human-run-E-07",
+          "model": "human",
+          "pose": "run",
+          "direction": "E",
+          "json": "projects/human-run-E-07.json",
+          "svg": "svg/human-run-E-07.svg",
+          "png": "png/human-run-E-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "human-walk-NE",
+      "model": "human",
+      "pose": "walk",
+      "direction": "NE",
+      "kind": "clip",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "id": "human-walk-NE-00",
+          "model": "human",
+          "pose": "walk",
+          "direction": "NE",
+          "json": "projects/human-walk-NE-00.json",
+          "svg": "svg/human-walk-NE-00.svg",
+          "png": "png/human-walk-NE-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "human-walk-NE-01",
+          "model": "human",
+          "pose": "walk",
+          "direction": "NE",
+          "json": "projects/human-walk-NE-01.json",
+          "svg": "svg/human-walk-NE-01.svg",
+          "png": "png/human-walk-NE-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "human-walk-NE-02",
+          "model": "human",
+          "pose": "walk",
+          "direction": "NE",
+          "json": "projects/human-walk-NE-02.json",
+          "svg": "svg/human-walk-NE-02.svg",
+          "png": "png/human-walk-NE-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "human-walk-NE-03",
+          "model": "human",
+          "pose": "walk",
+          "direction": "NE",
+          "json": "projects/human-walk-NE-03.json",
+          "svg": "svg/human-walk-NE-03.svg",
+          "png": "png/human-walk-NE-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "human-walk-NE-04",
+          "model": "human",
+          "pose": "walk",
+          "direction": "NE",
+          "json": "projects/human-walk-NE-04.json",
+          "svg": "svg/human-walk-NE-04.svg",
+          "png": "png/human-walk-NE-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "human-walk-NE-05",
+          "model": "human",
+          "pose": "walk",
+          "direction": "NE",
+          "json": "projects/human-walk-NE-05.json",
+          "svg": "svg/human-walk-NE-05.svg",
+          "png": "png/human-walk-NE-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "human-walk-NE-06",
+          "model": "human",
+          "pose": "walk",
+          "direction": "NE",
+          "json": "projects/human-walk-NE-06.json",
+          "svg": "svg/human-walk-NE-06.svg",
+          "png": "png/human-walk-NE-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "human-walk-NE-07",
+          "model": "human",
+          "pose": "walk",
+          "direction": "NE",
+          "json": "projects/human-walk-NE-07.json",
+          "svg": "svg/human-walk-NE-07.svg",
+          "png": "png/human-walk-NE-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "human-run-NE",
+      "model": "human",
+      "pose": "run",
+      "direction": "NE",
+      "kind": "clip",
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "id": "human-run-NE-00",
+          "model": "human",
+          "pose": "run",
+          "direction": "NE",
+          "json": "projects/human-run-NE-00.json",
+          "svg": "svg/human-run-NE-00.svg",
+          "png": "png/human-run-NE-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "human-run-NE-01",
+          "model": "human",
+          "pose": "run",
+          "direction": "NE",
+          "json": "projects/human-run-NE-01.json",
+          "svg": "svg/human-run-NE-01.svg",
+          "png": "png/human-run-NE-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "human-run-NE-02",
+          "model": "human",
+          "pose": "run",
+          "direction": "NE",
+          "json": "projects/human-run-NE-02.json",
+          "svg": "svg/human-run-NE-02.svg",
+          "png": "png/human-run-NE-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "human-run-NE-03",
+          "model": "human",
+          "pose": "run",
+          "direction": "NE",
+          "json": "projects/human-run-NE-03.json",
+          "svg": "svg/human-run-NE-03.svg",
+          "png": "png/human-run-NE-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "human-run-NE-04",
+          "model": "human",
+          "pose": "run",
+          "direction": "NE",
+          "json": "projects/human-run-NE-04.json",
+          "svg": "svg/human-run-NE-04.svg",
+          "png": "png/human-run-NE-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "human-run-NE-05",
+          "model": "human",
+          "pose": "run",
+          "direction": "NE",
+          "json": "projects/human-run-NE-05.json",
+          "svg": "svg/human-run-NE-05.svg",
+          "png": "png/human-run-NE-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "human-run-NE-06",
+          "model": "human",
+          "pose": "run",
+          "direction": "NE",
+          "json": "projects/human-run-NE-06.json",
+          "svg": "svg/human-run-NE-06.svg",
+          "png": "png/human-run-NE-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "human-run-NE-07",
+          "model": "human",
+          "pose": "run",
+          "direction": "NE",
+          "json": "projects/human-run-NE-07.json",
+          "svg": "svg/human-run-NE-07.svg",
+          "png": "png/human-run-NE-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "human-walk-N",
+      "model": "human",
+      "pose": "walk",
+      "direction": "N",
+      "kind": "clip",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "id": "human-walk-N-00",
+          "model": "human",
+          "pose": "walk",
+          "direction": "N",
+          "json": "projects/human-walk-N-00.json",
+          "svg": "svg/human-walk-N-00.svg",
+          "png": "png/human-walk-N-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "human-walk-N-01",
+          "model": "human",
+          "pose": "walk",
+          "direction": "N",
+          "json": "projects/human-walk-N-01.json",
+          "svg": "svg/human-walk-N-01.svg",
+          "png": "png/human-walk-N-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "human-walk-N-02",
+          "model": "human",
+          "pose": "walk",
+          "direction": "N",
+          "json": "projects/human-walk-N-02.json",
+          "svg": "svg/human-walk-N-02.svg",
+          "png": "png/human-walk-N-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "human-walk-N-03",
+          "model": "human",
+          "pose": "walk",
+          "direction": "N",
+          "json": "projects/human-walk-N-03.json",
+          "svg": "svg/human-walk-N-03.svg",
+          "png": "png/human-walk-N-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "human-walk-N-04",
+          "model": "human",
+          "pose": "walk",
+          "direction": "N",
+          "json": "projects/human-walk-N-04.json",
+          "svg": "svg/human-walk-N-04.svg",
+          "png": "png/human-walk-N-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "human-walk-N-05",
+          "model": "human",
+          "pose": "walk",
+          "direction": "N",
+          "json": "projects/human-walk-N-05.json",
+          "svg": "svg/human-walk-N-05.svg",
+          "png": "png/human-walk-N-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "human-walk-N-06",
+          "model": "human",
+          "pose": "walk",
+          "direction": "N",
+          "json": "projects/human-walk-N-06.json",
+          "svg": "svg/human-walk-N-06.svg",
+          "png": "png/human-walk-N-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "human-walk-N-07",
+          "model": "human",
+          "pose": "walk",
+          "direction": "N",
+          "json": "projects/human-walk-N-07.json",
+          "svg": "svg/human-walk-N-07.svg",
+          "png": "png/human-walk-N-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "human-run-N",
+      "model": "human",
+      "pose": "run",
+      "direction": "N",
+      "kind": "clip",
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "id": "human-run-N-00",
+          "model": "human",
+          "pose": "run",
+          "direction": "N",
+          "json": "projects/human-run-N-00.json",
+          "svg": "svg/human-run-N-00.svg",
+          "png": "png/human-run-N-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "human-run-N-01",
+          "model": "human",
+          "pose": "run",
+          "direction": "N",
+          "json": "projects/human-run-N-01.json",
+          "svg": "svg/human-run-N-01.svg",
+          "png": "png/human-run-N-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "human-run-N-02",
+          "model": "human",
+          "pose": "run",
+          "direction": "N",
+          "json": "projects/human-run-N-02.json",
+          "svg": "svg/human-run-N-02.svg",
+          "png": "png/human-run-N-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "human-run-N-03",
+          "model": "human",
+          "pose": "run",
+          "direction": "N",
+          "json": "projects/human-run-N-03.json",
+          "svg": "svg/human-run-N-03.svg",
+          "png": "png/human-run-N-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "human-run-N-04",
+          "model": "human",
+          "pose": "run",
+          "direction": "N",
+          "json": "projects/human-run-N-04.json",
+          "svg": "svg/human-run-N-04.svg",
+          "png": "png/human-run-N-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "human-run-N-05",
+          "model": "human",
+          "pose": "run",
+          "direction": "N",
+          "json": "projects/human-run-N-05.json",
+          "svg": "svg/human-run-N-05.svg",
+          "png": "png/human-run-N-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "human-run-N-06",
+          "model": "human",
+          "pose": "run",
+          "direction": "N",
+          "json": "projects/human-run-N-06.json",
+          "svg": "svg/human-run-N-06.svg",
+          "png": "png/human-run-N-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "human-run-N-07",
+          "model": "human",
+          "pose": "run",
+          "direction": "N",
+          "json": "projects/human-run-N-07.json",
+          "svg": "svg/human-run-N-07.svg",
+          "png": "png/human-run-N-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "human-walk-NW",
+      "model": "human",
+      "pose": "walk",
+      "direction": "NW",
+      "kind": "clip",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "id": "human-walk-NW-00",
+          "model": "human",
+          "pose": "walk",
+          "direction": "NW",
+          "json": "projects/human-walk-NW-00.json",
+          "svg": "svg/human-walk-NW-00.svg",
+          "png": "png/human-walk-NW-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "human-walk-NW-01",
+          "model": "human",
+          "pose": "walk",
+          "direction": "NW",
+          "json": "projects/human-walk-NW-01.json",
+          "svg": "svg/human-walk-NW-01.svg",
+          "png": "png/human-walk-NW-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "human-walk-NW-02",
+          "model": "human",
+          "pose": "walk",
+          "direction": "NW",
+          "json": "projects/human-walk-NW-02.json",
+          "svg": "svg/human-walk-NW-02.svg",
+          "png": "png/human-walk-NW-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "human-walk-NW-03",
+          "model": "human",
+          "pose": "walk",
+          "direction": "NW",
+          "json": "projects/human-walk-NW-03.json",
+          "svg": "svg/human-walk-NW-03.svg",
+          "png": "png/human-walk-NW-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "human-walk-NW-04",
+          "model": "human",
+          "pose": "walk",
+          "direction": "NW",
+          "json": "projects/human-walk-NW-04.json",
+          "svg": "svg/human-walk-NW-04.svg",
+          "png": "png/human-walk-NW-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "human-walk-NW-05",
+          "model": "human",
+          "pose": "walk",
+          "direction": "NW",
+          "json": "projects/human-walk-NW-05.json",
+          "svg": "svg/human-walk-NW-05.svg",
+          "png": "png/human-walk-NW-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "human-walk-NW-06",
+          "model": "human",
+          "pose": "walk",
+          "direction": "NW",
+          "json": "projects/human-walk-NW-06.json",
+          "svg": "svg/human-walk-NW-06.svg",
+          "png": "png/human-walk-NW-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "human-walk-NW-07",
+          "model": "human",
+          "pose": "walk",
+          "direction": "NW",
+          "json": "projects/human-walk-NW-07.json",
+          "svg": "svg/human-walk-NW-07.svg",
+          "png": "png/human-walk-NW-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "human-run-NW",
+      "model": "human",
+      "pose": "run",
+      "direction": "NW",
+      "kind": "clip",
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "id": "human-run-NW-00",
+          "model": "human",
+          "pose": "run",
+          "direction": "NW",
+          "json": "projects/human-run-NW-00.json",
+          "svg": "svg/human-run-NW-00.svg",
+          "png": "png/human-run-NW-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "human-run-NW-01",
+          "model": "human",
+          "pose": "run",
+          "direction": "NW",
+          "json": "projects/human-run-NW-01.json",
+          "svg": "svg/human-run-NW-01.svg",
+          "png": "png/human-run-NW-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "human-run-NW-02",
+          "model": "human",
+          "pose": "run",
+          "direction": "NW",
+          "json": "projects/human-run-NW-02.json",
+          "svg": "svg/human-run-NW-02.svg",
+          "png": "png/human-run-NW-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "human-run-NW-03",
+          "model": "human",
+          "pose": "run",
+          "direction": "NW",
+          "json": "projects/human-run-NW-03.json",
+          "svg": "svg/human-run-NW-03.svg",
+          "png": "png/human-run-NW-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "human-run-NW-04",
+          "model": "human",
+          "pose": "run",
+          "direction": "NW",
+          "json": "projects/human-run-NW-04.json",
+          "svg": "svg/human-run-NW-04.svg",
+          "png": "png/human-run-NW-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "human-run-NW-05",
+          "model": "human",
+          "pose": "run",
+          "direction": "NW",
+          "json": "projects/human-run-NW-05.json",
+          "svg": "svg/human-run-NW-05.svg",
+          "png": "png/human-run-NW-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "human-run-NW-06",
+          "model": "human",
+          "pose": "run",
+          "direction": "NW",
+          "json": "projects/human-run-NW-06.json",
+          "svg": "svg/human-run-NW-06.svg",
+          "png": "png/human-run-NW-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "human-run-NW-07",
+          "model": "human",
+          "pose": "run",
+          "direction": "NW",
+          "json": "projects/human-run-NW-07.json",
+          "svg": "svg/human-run-NW-07.svg",
+          "png": "png/human-run-NW-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "human-walk-W",
+      "model": "human",
+      "pose": "walk",
+      "direction": "W",
+      "kind": "clip",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "id": "human-walk-W-00",
+          "model": "human",
+          "pose": "walk",
+          "direction": "W",
+          "json": "projects/human-walk-W-00.json",
+          "svg": "svg/human-walk-W-00.svg",
+          "png": "png/human-walk-W-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "human-walk-W-01",
+          "model": "human",
+          "pose": "walk",
+          "direction": "W",
+          "json": "projects/human-walk-W-01.json",
+          "svg": "svg/human-walk-W-01.svg",
+          "png": "png/human-walk-W-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "human-walk-W-02",
+          "model": "human",
+          "pose": "walk",
+          "direction": "W",
+          "json": "projects/human-walk-W-02.json",
+          "svg": "svg/human-walk-W-02.svg",
+          "png": "png/human-walk-W-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "human-walk-W-03",
+          "model": "human",
+          "pose": "walk",
+          "direction": "W",
+          "json": "projects/human-walk-W-03.json",
+          "svg": "svg/human-walk-W-03.svg",
+          "png": "png/human-walk-W-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "human-walk-W-04",
+          "model": "human",
+          "pose": "walk",
+          "direction": "W",
+          "json": "projects/human-walk-W-04.json",
+          "svg": "svg/human-walk-W-04.svg",
+          "png": "png/human-walk-W-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "human-walk-W-05",
+          "model": "human",
+          "pose": "walk",
+          "direction": "W",
+          "json": "projects/human-walk-W-05.json",
+          "svg": "svg/human-walk-W-05.svg",
+          "png": "png/human-walk-W-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "human-walk-W-06",
+          "model": "human",
+          "pose": "walk",
+          "direction": "W",
+          "json": "projects/human-walk-W-06.json",
+          "svg": "svg/human-walk-W-06.svg",
+          "png": "png/human-walk-W-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "human-walk-W-07",
+          "model": "human",
+          "pose": "walk",
+          "direction": "W",
+          "json": "projects/human-walk-W-07.json",
+          "svg": "svg/human-walk-W-07.svg",
+          "png": "png/human-walk-W-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "human-run-W",
+      "model": "human",
+      "pose": "run",
+      "direction": "W",
+      "kind": "clip",
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "id": "human-run-W-00",
+          "model": "human",
+          "pose": "run",
+          "direction": "W",
+          "json": "projects/human-run-W-00.json",
+          "svg": "svg/human-run-W-00.svg",
+          "png": "png/human-run-W-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "human-run-W-01",
+          "model": "human",
+          "pose": "run",
+          "direction": "W",
+          "json": "projects/human-run-W-01.json",
+          "svg": "svg/human-run-W-01.svg",
+          "png": "png/human-run-W-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "human-run-W-02",
+          "model": "human",
+          "pose": "run",
+          "direction": "W",
+          "json": "projects/human-run-W-02.json",
+          "svg": "svg/human-run-W-02.svg",
+          "png": "png/human-run-W-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "human-run-W-03",
+          "model": "human",
+          "pose": "run",
+          "direction": "W",
+          "json": "projects/human-run-W-03.json",
+          "svg": "svg/human-run-W-03.svg",
+          "png": "png/human-run-W-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "human-run-W-04",
+          "model": "human",
+          "pose": "run",
+          "direction": "W",
+          "json": "projects/human-run-W-04.json",
+          "svg": "svg/human-run-W-04.svg",
+          "png": "png/human-run-W-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "human-run-W-05",
+          "model": "human",
+          "pose": "run",
+          "direction": "W",
+          "json": "projects/human-run-W-05.json",
+          "svg": "svg/human-run-W-05.svg",
+          "png": "png/human-run-W-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "human-run-W-06",
+          "model": "human",
+          "pose": "run",
+          "direction": "W",
+          "json": "projects/human-run-W-06.json",
+          "svg": "svg/human-run-W-06.svg",
+          "png": "png/human-run-W-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "human-run-W-07",
+          "model": "human",
+          "pose": "run",
+          "direction": "W",
+          "json": "projects/human-run-W-07.json",
+          "svg": "svg/human-run-W-07.svg",
+          "png": "png/human-run-W-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "human-walk-SW",
+      "model": "human",
+      "pose": "walk",
+      "direction": "SW",
+      "kind": "clip",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "id": "human-walk-SW-00",
+          "model": "human",
+          "pose": "walk",
+          "direction": "SW",
+          "json": "projects/human-walk-SW-00.json",
+          "svg": "svg/human-walk-SW-00.svg",
+          "png": "png/human-walk-SW-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "human-walk-SW-01",
+          "model": "human",
+          "pose": "walk",
+          "direction": "SW",
+          "json": "projects/human-walk-SW-01.json",
+          "svg": "svg/human-walk-SW-01.svg",
+          "png": "png/human-walk-SW-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "human-walk-SW-02",
+          "model": "human",
+          "pose": "walk",
+          "direction": "SW",
+          "json": "projects/human-walk-SW-02.json",
+          "svg": "svg/human-walk-SW-02.svg",
+          "png": "png/human-walk-SW-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "human-walk-SW-03",
+          "model": "human",
+          "pose": "walk",
+          "direction": "SW",
+          "json": "projects/human-walk-SW-03.json",
+          "svg": "svg/human-walk-SW-03.svg",
+          "png": "png/human-walk-SW-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "human-walk-SW-04",
+          "model": "human",
+          "pose": "walk",
+          "direction": "SW",
+          "json": "projects/human-walk-SW-04.json",
+          "svg": "svg/human-walk-SW-04.svg",
+          "png": "png/human-walk-SW-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "human-walk-SW-05",
+          "model": "human",
+          "pose": "walk",
+          "direction": "SW",
+          "json": "projects/human-walk-SW-05.json",
+          "svg": "svg/human-walk-SW-05.svg",
+          "png": "png/human-walk-SW-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "human-walk-SW-06",
+          "model": "human",
+          "pose": "walk",
+          "direction": "SW",
+          "json": "projects/human-walk-SW-06.json",
+          "svg": "svg/human-walk-SW-06.svg",
+          "png": "png/human-walk-SW-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "human-walk-SW-07",
+          "model": "human",
+          "pose": "walk",
+          "direction": "SW",
+          "json": "projects/human-walk-SW-07.json",
+          "svg": "svg/human-walk-SW-07.svg",
+          "png": "png/human-walk-SW-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "human-run-SW",
+      "model": "human",
+      "pose": "run",
+      "direction": "SW",
+      "kind": "clip",
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "id": "human-run-SW-00",
+          "model": "human",
+          "pose": "run",
+          "direction": "SW",
+          "json": "projects/human-run-SW-00.json",
+          "svg": "svg/human-run-SW-00.svg",
+          "png": "png/human-run-SW-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "human-run-SW-01",
+          "model": "human",
+          "pose": "run",
+          "direction": "SW",
+          "json": "projects/human-run-SW-01.json",
+          "svg": "svg/human-run-SW-01.svg",
+          "png": "png/human-run-SW-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "human-run-SW-02",
+          "model": "human",
+          "pose": "run",
+          "direction": "SW",
+          "json": "projects/human-run-SW-02.json",
+          "svg": "svg/human-run-SW-02.svg",
+          "png": "png/human-run-SW-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "human-run-SW-03",
+          "model": "human",
+          "pose": "run",
+          "direction": "SW",
+          "json": "projects/human-run-SW-03.json",
+          "svg": "svg/human-run-SW-03.svg",
+          "png": "png/human-run-SW-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "human-run-SW-04",
+          "model": "human",
+          "pose": "run",
+          "direction": "SW",
+          "json": "projects/human-run-SW-04.json",
+          "svg": "svg/human-run-SW-04.svg",
+          "png": "png/human-run-SW-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "human-run-SW-05",
+          "model": "human",
+          "pose": "run",
+          "direction": "SW",
+          "json": "projects/human-run-SW-05.json",
+          "svg": "svg/human-run-SW-05.svg",
+          "png": "png/human-run-SW-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "human-run-SW-06",
+          "model": "human",
+          "pose": "run",
+          "direction": "SW",
+          "json": "projects/human-run-SW-06.json",
+          "svg": "svg/human-run-SW-06.svg",
+          "png": "png/human-run-SW-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "human-run-SW-07",
+          "model": "human",
+          "pose": "run",
+          "direction": "SW",
+          "json": "projects/human-run-SW-07.json",
+          "svg": "svg/human-run-SW-07.svg",
+          "png": "png/human-run-SW-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "rpg-walk-S",
+      "model": "rpg",
+      "pose": "walk",
+      "direction": "S",
+      "kind": "clip",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "id": "rpg-walk-S-00",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "S",
+          "json": "projects/rpg-walk-S-00.json",
+          "svg": "svg/rpg-walk-S-00.svg",
+          "png": "png/rpg-walk-S-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "rpg-walk-S-01",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "S",
+          "json": "projects/rpg-walk-S-01.json",
+          "svg": "svg/rpg-walk-S-01.svg",
+          "png": "png/rpg-walk-S-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "rpg-walk-S-02",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "S",
+          "json": "projects/rpg-walk-S-02.json",
+          "svg": "svg/rpg-walk-S-02.svg",
+          "png": "png/rpg-walk-S-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "rpg-walk-S-03",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "S",
+          "json": "projects/rpg-walk-S-03.json",
+          "svg": "svg/rpg-walk-S-03.svg",
+          "png": "png/rpg-walk-S-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "rpg-walk-S-04",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "S",
+          "json": "projects/rpg-walk-S-04.json",
+          "svg": "svg/rpg-walk-S-04.svg",
+          "png": "png/rpg-walk-S-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "rpg-walk-S-05",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "S",
+          "json": "projects/rpg-walk-S-05.json",
+          "svg": "svg/rpg-walk-S-05.svg",
+          "png": "png/rpg-walk-S-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "rpg-walk-S-06",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "S",
+          "json": "projects/rpg-walk-S-06.json",
+          "svg": "svg/rpg-walk-S-06.svg",
+          "png": "png/rpg-walk-S-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "rpg-walk-S-07",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "S",
+          "json": "projects/rpg-walk-S-07.json",
+          "svg": "svg/rpg-walk-S-07.svg",
+          "png": "png/rpg-walk-S-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "rpg-run-S",
+      "model": "rpg",
+      "pose": "run",
+      "direction": "S",
+      "kind": "clip",
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "id": "rpg-run-S-00",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "S",
+          "json": "projects/rpg-run-S-00.json",
+          "svg": "svg/rpg-run-S-00.svg",
+          "png": "png/rpg-run-S-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "rpg-run-S-01",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "S",
+          "json": "projects/rpg-run-S-01.json",
+          "svg": "svg/rpg-run-S-01.svg",
+          "png": "png/rpg-run-S-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "rpg-run-S-02",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "S",
+          "json": "projects/rpg-run-S-02.json",
+          "svg": "svg/rpg-run-S-02.svg",
+          "png": "png/rpg-run-S-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "rpg-run-S-03",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "S",
+          "json": "projects/rpg-run-S-03.json",
+          "svg": "svg/rpg-run-S-03.svg",
+          "png": "png/rpg-run-S-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "rpg-run-S-04",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "S",
+          "json": "projects/rpg-run-S-04.json",
+          "svg": "svg/rpg-run-S-04.svg",
+          "png": "png/rpg-run-S-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "rpg-run-S-05",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "S",
+          "json": "projects/rpg-run-S-05.json",
+          "svg": "svg/rpg-run-S-05.svg",
+          "png": "png/rpg-run-S-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "rpg-run-S-06",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "S",
+          "json": "projects/rpg-run-S-06.json",
+          "svg": "svg/rpg-run-S-06.svg",
+          "png": "png/rpg-run-S-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "rpg-run-S-07",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "S",
+          "json": "projects/rpg-run-S-07.json",
+          "svg": "svg/rpg-run-S-07.svg",
+          "png": "png/rpg-run-S-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "rpg-walk-SE",
+      "model": "rpg",
+      "pose": "walk",
+      "direction": "SE",
+      "kind": "clip",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "id": "rpg-walk-SE-00",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "SE",
+          "json": "projects/rpg-walk-SE-00.json",
+          "svg": "svg/rpg-walk-SE-00.svg",
+          "png": "png/rpg-walk-SE-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "rpg-walk-SE-01",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "SE",
+          "json": "projects/rpg-walk-SE-01.json",
+          "svg": "svg/rpg-walk-SE-01.svg",
+          "png": "png/rpg-walk-SE-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "rpg-walk-SE-02",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "SE",
+          "json": "projects/rpg-walk-SE-02.json",
+          "svg": "svg/rpg-walk-SE-02.svg",
+          "png": "png/rpg-walk-SE-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "rpg-walk-SE-03",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "SE",
+          "json": "projects/rpg-walk-SE-03.json",
+          "svg": "svg/rpg-walk-SE-03.svg",
+          "png": "png/rpg-walk-SE-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "rpg-walk-SE-04",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "SE",
+          "json": "projects/rpg-walk-SE-04.json",
+          "svg": "svg/rpg-walk-SE-04.svg",
+          "png": "png/rpg-walk-SE-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "rpg-walk-SE-05",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "SE",
+          "json": "projects/rpg-walk-SE-05.json",
+          "svg": "svg/rpg-walk-SE-05.svg",
+          "png": "png/rpg-walk-SE-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "rpg-walk-SE-06",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "SE",
+          "json": "projects/rpg-walk-SE-06.json",
+          "svg": "svg/rpg-walk-SE-06.svg",
+          "png": "png/rpg-walk-SE-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "rpg-walk-SE-07",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "SE",
+          "json": "projects/rpg-walk-SE-07.json",
+          "svg": "svg/rpg-walk-SE-07.svg",
+          "png": "png/rpg-walk-SE-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "rpg-run-SE",
+      "model": "rpg",
+      "pose": "run",
+      "direction": "SE",
+      "kind": "clip",
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "id": "rpg-run-SE-00",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "SE",
+          "json": "projects/rpg-run-SE-00.json",
+          "svg": "svg/rpg-run-SE-00.svg",
+          "png": "png/rpg-run-SE-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "rpg-run-SE-01",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "SE",
+          "json": "projects/rpg-run-SE-01.json",
+          "svg": "svg/rpg-run-SE-01.svg",
+          "png": "png/rpg-run-SE-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "rpg-run-SE-02",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "SE",
+          "json": "projects/rpg-run-SE-02.json",
+          "svg": "svg/rpg-run-SE-02.svg",
+          "png": "png/rpg-run-SE-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "rpg-run-SE-03",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "SE",
+          "json": "projects/rpg-run-SE-03.json",
+          "svg": "svg/rpg-run-SE-03.svg",
+          "png": "png/rpg-run-SE-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "rpg-run-SE-04",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "SE",
+          "json": "projects/rpg-run-SE-04.json",
+          "svg": "svg/rpg-run-SE-04.svg",
+          "png": "png/rpg-run-SE-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "rpg-run-SE-05",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "SE",
+          "json": "projects/rpg-run-SE-05.json",
+          "svg": "svg/rpg-run-SE-05.svg",
+          "png": "png/rpg-run-SE-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "rpg-run-SE-06",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "SE",
+          "json": "projects/rpg-run-SE-06.json",
+          "svg": "svg/rpg-run-SE-06.svg",
+          "png": "png/rpg-run-SE-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "rpg-run-SE-07",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "SE",
+          "json": "projects/rpg-run-SE-07.json",
+          "svg": "svg/rpg-run-SE-07.svg",
+          "png": "png/rpg-run-SE-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "rpg-walk-E",
+      "model": "rpg",
+      "pose": "walk",
+      "direction": "E",
+      "kind": "clip",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "id": "rpg-walk-E-00",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "E",
+          "json": "projects/rpg-walk-E-00.json",
+          "svg": "svg/rpg-walk-E-00.svg",
+          "png": "png/rpg-walk-E-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "rpg-walk-E-01",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "E",
+          "json": "projects/rpg-walk-E-01.json",
+          "svg": "svg/rpg-walk-E-01.svg",
+          "png": "png/rpg-walk-E-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "rpg-walk-E-02",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "E",
+          "json": "projects/rpg-walk-E-02.json",
+          "svg": "svg/rpg-walk-E-02.svg",
+          "png": "png/rpg-walk-E-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "rpg-walk-E-03",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "E",
+          "json": "projects/rpg-walk-E-03.json",
+          "svg": "svg/rpg-walk-E-03.svg",
+          "png": "png/rpg-walk-E-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "rpg-walk-E-04",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "E",
+          "json": "projects/rpg-walk-E-04.json",
+          "svg": "svg/rpg-walk-E-04.svg",
+          "png": "png/rpg-walk-E-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "rpg-walk-E-05",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "E",
+          "json": "projects/rpg-walk-E-05.json",
+          "svg": "svg/rpg-walk-E-05.svg",
+          "png": "png/rpg-walk-E-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "rpg-walk-E-06",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "E",
+          "json": "projects/rpg-walk-E-06.json",
+          "svg": "svg/rpg-walk-E-06.svg",
+          "png": "png/rpg-walk-E-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "rpg-walk-E-07",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "E",
+          "json": "projects/rpg-walk-E-07.json",
+          "svg": "svg/rpg-walk-E-07.svg",
+          "png": "png/rpg-walk-E-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "rpg-run-E",
+      "model": "rpg",
+      "pose": "run",
+      "direction": "E",
+      "kind": "clip",
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "id": "rpg-run-E-00",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "E",
+          "json": "projects/rpg-run-E-00.json",
+          "svg": "svg/rpg-run-E-00.svg",
+          "png": "png/rpg-run-E-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "rpg-run-E-01",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "E",
+          "json": "projects/rpg-run-E-01.json",
+          "svg": "svg/rpg-run-E-01.svg",
+          "png": "png/rpg-run-E-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "rpg-run-E-02",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "E",
+          "json": "projects/rpg-run-E-02.json",
+          "svg": "svg/rpg-run-E-02.svg",
+          "png": "png/rpg-run-E-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "rpg-run-E-03",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "E",
+          "json": "projects/rpg-run-E-03.json",
+          "svg": "svg/rpg-run-E-03.svg",
+          "png": "png/rpg-run-E-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "rpg-run-E-04",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "E",
+          "json": "projects/rpg-run-E-04.json",
+          "svg": "svg/rpg-run-E-04.svg",
+          "png": "png/rpg-run-E-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "rpg-run-E-05",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "E",
+          "json": "projects/rpg-run-E-05.json",
+          "svg": "svg/rpg-run-E-05.svg",
+          "png": "png/rpg-run-E-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "rpg-run-E-06",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "E",
+          "json": "projects/rpg-run-E-06.json",
+          "svg": "svg/rpg-run-E-06.svg",
+          "png": "png/rpg-run-E-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "rpg-run-E-07",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "E",
+          "json": "projects/rpg-run-E-07.json",
+          "svg": "svg/rpg-run-E-07.svg",
+          "png": "png/rpg-run-E-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "rpg-walk-NE",
+      "model": "rpg",
+      "pose": "walk",
+      "direction": "NE",
+      "kind": "clip",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "id": "rpg-walk-NE-00",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "NE",
+          "json": "projects/rpg-walk-NE-00.json",
+          "svg": "svg/rpg-walk-NE-00.svg",
+          "png": "png/rpg-walk-NE-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "rpg-walk-NE-01",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "NE",
+          "json": "projects/rpg-walk-NE-01.json",
+          "svg": "svg/rpg-walk-NE-01.svg",
+          "png": "png/rpg-walk-NE-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "rpg-walk-NE-02",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "NE",
+          "json": "projects/rpg-walk-NE-02.json",
+          "svg": "svg/rpg-walk-NE-02.svg",
+          "png": "png/rpg-walk-NE-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "rpg-walk-NE-03",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "NE",
+          "json": "projects/rpg-walk-NE-03.json",
+          "svg": "svg/rpg-walk-NE-03.svg",
+          "png": "png/rpg-walk-NE-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "rpg-walk-NE-04",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "NE",
+          "json": "projects/rpg-walk-NE-04.json",
+          "svg": "svg/rpg-walk-NE-04.svg",
+          "png": "png/rpg-walk-NE-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "rpg-walk-NE-05",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "NE",
+          "json": "projects/rpg-walk-NE-05.json",
+          "svg": "svg/rpg-walk-NE-05.svg",
+          "png": "png/rpg-walk-NE-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "rpg-walk-NE-06",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "NE",
+          "json": "projects/rpg-walk-NE-06.json",
+          "svg": "svg/rpg-walk-NE-06.svg",
+          "png": "png/rpg-walk-NE-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "rpg-walk-NE-07",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "NE",
+          "json": "projects/rpg-walk-NE-07.json",
+          "svg": "svg/rpg-walk-NE-07.svg",
+          "png": "png/rpg-walk-NE-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "rpg-run-NE",
+      "model": "rpg",
+      "pose": "run",
+      "direction": "NE",
+      "kind": "clip",
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "id": "rpg-run-NE-00",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "NE",
+          "json": "projects/rpg-run-NE-00.json",
+          "svg": "svg/rpg-run-NE-00.svg",
+          "png": "png/rpg-run-NE-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "rpg-run-NE-01",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "NE",
+          "json": "projects/rpg-run-NE-01.json",
+          "svg": "svg/rpg-run-NE-01.svg",
+          "png": "png/rpg-run-NE-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "rpg-run-NE-02",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "NE",
+          "json": "projects/rpg-run-NE-02.json",
+          "svg": "svg/rpg-run-NE-02.svg",
+          "png": "png/rpg-run-NE-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "rpg-run-NE-03",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "NE",
+          "json": "projects/rpg-run-NE-03.json",
+          "svg": "svg/rpg-run-NE-03.svg",
+          "png": "png/rpg-run-NE-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "rpg-run-NE-04",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "NE",
+          "json": "projects/rpg-run-NE-04.json",
+          "svg": "svg/rpg-run-NE-04.svg",
+          "png": "png/rpg-run-NE-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "rpg-run-NE-05",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "NE",
+          "json": "projects/rpg-run-NE-05.json",
+          "svg": "svg/rpg-run-NE-05.svg",
+          "png": "png/rpg-run-NE-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "rpg-run-NE-06",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "NE",
+          "json": "projects/rpg-run-NE-06.json",
+          "svg": "svg/rpg-run-NE-06.svg",
+          "png": "png/rpg-run-NE-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "rpg-run-NE-07",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "NE",
+          "json": "projects/rpg-run-NE-07.json",
+          "svg": "svg/rpg-run-NE-07.svg",
+          "png": "png/rpg-run-NE-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "rpg-walk-N",
+      "model": "rpg",
+      "pose": "walk",
+      "direction": "N",
+      "kind": "clip",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "id": "rpg-walk-N-00",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "N",
+          "json": "projects/rpg-walk-N-00.json",
+          "svg": "svg/rpg-walk-N-00.svg",
+          "png": "png/rpg-walk-N-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "rpg-walk-N-01",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "N",
+          "json": "projects/rpg-walk-N-01.json",
+          "svg": "svg/rpg-walk-N-01.svg",
+          "png": "png/rpg-walk-N-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "rpg-walk-N-02",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "N",
+          "json": "projects/rpg-walk-N-02.json",
+          "svg": "svg/rpg-walk-N-02.svg",
+          "png": "png/rpg-walk-N-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "rpg-walk-N-03",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "N",
+          "json": "projects/rpg-walk-N-03.json",
+          "svg": "svg/rpg-walk-N-03.svg",
+          "png": "png/rpg-walk-N-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "rpg-walk-N-04",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "N",
+          "json": "projects/rpg-walk-N-04.json",
+          "svg": "svg/rpg-walk-N-04.svg",
+          "png": "png/rpg-walk-N-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "rpg-walk-N-05",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "N",
+          "json": "projects/rpg-walk-N-05.json",
+          "svg": "svg/rpg-walk-N-05.svg",
+          "png": "png/rpg-walk-N-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "rpg-walk-N-06",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "N",
+          "json": "projects/rpg-walk-N-06.json",
+          "svg": "svg/rpg-walk-N-06.svg",
+          "png": "png/rpg-walk-N-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "rpg-walk-N-07",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "N",
+          "json": "projects/rpg-walk-N-07.json",
+          "svg": "svg/rpg-walk-N-07.svg",
+          "png": "png/rpg-walk-N-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "rpg-run-N",
+      "model": "rpg",
+      "pose": "run",
+      "direction": "N",
+      "kind": "clip",
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "id": "rpg-run-N-00",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "N",
+          "json": "projects/rpg-run-N-00.json",
+          "svg": "svg/rpg-run-N-00.svg",
+          "png": "png/rpg-run-N-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "rpg-run-N-01",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "N",
+          "json": "projects/rpg-run-N-01.json",
+          "svg": "svg/rpg-run-N-01.svg",
+          "png": "png/rpg-run-N-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "rpg-run-N-02",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "N",
+          "json": "projects/rpg-run-N-02.json",
+          "svg": "svg/rpg-run-N-02.svg",
+          "png": "png/rpg-run-N-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "rpg-run-N-03",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "N",
+          "json": "projects/rpg-run-N-03.json",
+          "svg": "svg/rpg-run-N-03.svg",
+          "png": "png/rpg-run-N-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "rpg-run-N-04",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "N",
+          "json": "projects/rpg-run-N-04.json",
+          "svg": "svg/rpg-run-N-04.svg",
+          "png": "png/rpg-run-N-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "rpg-run-N-05",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "N",
+          "json": "projects/rpg-run-N-05.json",
+          "svg": "svg/rpg-run-N-05.svg",
+          "png": "png/rpg-run-N-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "rpg-run-N-06",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "N",
+          "json": "projects/rpg-run-N-06.json",
+          "svg": "svg/rpg-run-N-06.svg",
+          "png": "png/rpg-run-N-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "rpg-run-N-07",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "N",
+          "json": "projects/rpg-run-N-07.json",
+          "svg": "svg/rpg-run-N-07.svg",
+          "png": "png/rpg-run-N-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "rpg-walk-NW",
+      "model": "rpg",
+      "pose": "walk",
+      "direction": "NW",
+      "kind": "clip",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "id": "rpg-walk-NW-00",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "NW",
+          "json": "projects/rpg-walk-NW-00.json",
+          "svg": "svg/rpg-walk-NW-00.svg",
+          "png": "png/rpg-walk-NW-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "rpg-walk-NW-01",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "NW",
+          "json": "projects/rpg-walk-NW-01.json",
+          "svg": "svg/rpg-walk-NW-01.svg",
+          "png": "png/rpg-walk-NW-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "rpg-walk-NW-02",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "NW",
+          "json": "projects/rpg-walk-NW-02.json",
+          "svg": "svg/rpg-walk-NW-02.svg",
+          "png": "png/rpg-walk-NW-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "rpg-walk-NW-03",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "NW",
+          "json": "projects/rpg-walk-NW-03.json",
+          "svg": "svg/rpg-walk-NW-03.svg",
+          "png": "png/rpg-walk-NW-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "rpg-walk-NW-04",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "NW",
+          "json": "projects/rpg-walk-NW-04.json",
+          "svg": "svg/rpg-walk-NW-04.svg",
+          "png": "png/rpg-walk-NW-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "rpg-walk-NW-05",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "NW",
+          "json": "projects/rpg-walk-NW-05.json",
+          "svg": "svg/rpg-walk-NW-05.svg",
+          "png": "png/rpg-walk-NW-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "rpg-walk-NW-06",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "NW",
+          "json": "projects/rpg-walk-NW-06.json",
+          "svg": "svg/rpg-walk-NW-06.svg",
+          "png": "png/rpg-walk-NW-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "rpg-walk-NW-07",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "NW",
+          "json": "projects/rpg-walk-NW-07.json",
+          "svg": "svg/rpg-walk-NW-07.svg",
+          "png": "png/rpg-walk-NW-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "rpg-run-NW",
+      "model": "rpg",
+      "pose": "run",
+      "direction": "NW",
+      "kind": "clip",
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "id": "rpg-run-NW-00",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "NW",
+          "json": "projects/rpg-run-NW-00.json",
+          "svg": "svg/rpg-run-NW-00.svg",
+          "png": "png/rpg-run-NW-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "rpg-run-NW-01",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "NW",
+          "json": "projects/rpg-run-NW-01.json",
+          "svg": "svg/rpg-run-NW-01.svg",
+          "png": "png/rpg-run-NW-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "rpg-run-NW-02",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "NW",
+          "json": "projects/rpg-run-NW-02.json",
+          "svg": "svg/rpg-run-NW-02.svg",
+          "png": "png/rpg-run-NW-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "rpg-run-NW-03",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "NW",
+          "json": "projects/rpg-run-NW-03.json",
+          "svg": "svg/rpg-run-NW-03.svg",
+          "png": "png/rpg-run-NW-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "rpg-run-NW-04",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "NW",
+          "json": "projects/rpg-run-NW-04.json",
+          "svg": "svg/rpg-run-NW-04.svg",
+          "png": "png/rpg-run-NW-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "rpg-run-NW-05",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "NW",
+          "json": "projects/rpg-run-NW-05.json",
+          "svg": "svg/rpg-run-NW-05.svg",
+          "png": "png/rpg-run-NW-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "rpg-run-NW-06",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "NW",
+          "json": "projects/rpg-run-NW-06.json",
+          "svg": "svg/rpg-run-NW-06.svg",
+          "png": "png/rpg-run-NW-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "rpg-run-NW-07",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "NW",
+          "json": "projects/rpg-run-NW-07.json",
+          "svg": "svg/rpg-run-NW-07.svg",
+          "png": "png/rpg-run-NW-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "rpg-walk-W",
+      "model": "rpg",
+      "pose": "walk",
+      "direction": "W",
+      "kind": "clip",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "id": "rpg-walk-W-00",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "W",
+          "json": "projects/rpg-walk-W-00.json",
+          "svg": "svg/rpg-walk-W-00.svg",
+          "png": "png/rpg-walk-W-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "rpg-walk-W-01",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "W",
+          "json": "projects/rpg-walk-W-01.json",
+          "svg": "svg/rpg-walk-W-01.svg",
+          "png": "png/rpg-walk-W-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "rpg-walk-W-02",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "W",
+          "json": "projects/rpg-walk-W-02.json",
+          "svg": "svg/rpg-walk-W-02.svg",
+          "png": "png/rpg-walk-W-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "rpg-walk-W-03",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "W",
+          "json": "projects/rpg-walk-W-03.json",
+          "svg": "svg/rpg-walk-W-03.svg",
+          "png": "png/rpg-walk-W-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "rpg-walk-W-04",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "W",
+          "json": "projects/rpg-walk-W-04.json",
+          "svg": "svg/rpg-walk-W-04.svg",
+          "png": "png/rpg-walk-W-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "rpg-walk-W-05",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "W",
+          "json": "projects/rpg-walk-W-05.json",
+          "svg": "svg/rpg-walk-W-05.svg",
+          "png": "png/rpg-walk-W-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "rpg-walk-W-06",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "W",
+          "json": "projects/rpg-walk-W-06.json",
+          "svg": "svg/rpg-walk-W-06.svg",
+          "png": "png/rpg-walk-W-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "rpg-walk-W-07",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "W",
+          "json": "projects/rpg-walk-W-07.json",
+          "svg": "svg/rpg-walk-W-07.svg",
+          "png": "png/rpg-walk-W-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "rpg-run-W",
+      "model": "rpg",
+      "pose": "run",
+      "direction": "W",
+      "kind": "clip",
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "id": "rpg-run-W-00",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "W",
+          "json": "projects/rpg-run-W-00.json",
+          "svg": "svg/rpg-run-W-00.svg",
+          "png": "png/rpg-run-W-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "rpg-run-W-01",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "W",
+          "json": "projects/rpg-run-W-01.json",
+          "svg": "svg/rpg-run-W-01.svg",
+          "png": "png/rpg-run-W-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "rpg-run-W-02",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "W",
+          "json": "projects/rpg-run-W-02.json",
+          "svg": "svg/rpg-run-W-02.svg",
+          "png": "png/rpg-run-W-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "rpg-run-W-03",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "W",
+          "json": "projects/rpg-run-W-03.json",
+          "svg": "svg/rpg-run-W-03.svg",
+          "png": "png/rpg-run-W-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "rpg-run-W-04",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "W",
+          "json": "projects/rpg-run-W-04.json",
+          "svg": "svg/rpg-run-W-04.svg",
+          "png": "png/rpg-run-W-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "rpg-run-W-05",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "W",
+          "json": "projects/rpg-run-W-05.json",
+          "svg": "svg/rpg-run-W-05.svg",
+          "png": "png/rpg-run-W-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "rpg-run-W-06",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "W",
+          "json": "projects/rpg-run-W-06.json",
+          "svg": "svg/rpg-run-W-06.svg",
+          "png": "png/rpg-run-W-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "rpg-run-W-07",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "W",
+          "json": "projects/rpg-run-W-07.json",
+          "svg": "svg/rpg-run-W-07.svg",
+          "png": "png/rpg-run-W-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "rpg-walk-SW",
+      "model": "rpg",
+      "pose": "walk",
+      "direction": "SW",
+      "kind": "clip",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        {
+          "id": "rpg-walk-SW-00",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "SW",
+          "json": "projects/rpg-walk-SW-00.json",
+          "svg": "svg/rpg-walk-SW-00.svg",
+          "png": "png/rpg-walk-SW-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "rpg-walk-SW-01",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "SW",
+          "json": "projects/rpg-walk-SW-01.json",
+          "svg": "svg/rpg-walk-SW-01.svg",
+          "png": "png/rpg-walk-SW-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "rpg-walk-SW-02",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "SW",
+          "json": "projects/rpg-walk-SW-02.json",
+          "svg": "svg/rpg-walk-SW-02.svg",
+          "png": "png/rpg-walk-SW-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "rpg-walk-SW-03",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "SW",
+          "json": "projects/rpg-walk-SW-03.json",
+          "svg": "svg/rpg-walk-SW-03.svg",
+          "png": "png/rpg-walk-SW-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "rpg-walk-SW-04",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "SW",
+          "json": "projects/rpg-walk-SW-04.json",
+          "svg": "svg/rpg-walk-SW-04.svg",
+          "png": "png/rpg-walk-SW-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "rpg-walk-SW-05",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "SW",
+          "json": "projects/rpg-walk-SW-05.json",
+          "svg": "svg/rpg-walk-SW-05.svg",
+          "png": "png/rpg-walk-SW-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "rpg-walk-SW-06",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "SW",
+          "json": "projects/rpg-walk-SW-06.json",
+          "svg": "svg/rpg-walk-SW-06.svg",
+          "png": "png/rpg-walk-SW-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "rpg-walk-SW-07",
+          "model": "rpg",
+          "pose": "walk",
+          "direction": "SW",
+          "json": "projects/rpg-walk-SW-07.json",
+          "svg": "svg/rpg-walk-SW-07.svg",
+          "png": "png/rpg-walk-SW-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    },
+    {
+      "id": "rpg-run-SW",
+      "model": "rpg",
+      "pose": "run",
+      "direction": "SW",
+      "kind": "clip",
+      "fps": 12,
+      "loop": true,
+      "frames": [
+        {
+          "id": "rpg-run-SW-00",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "SW",
+          "json": "projects/rpg-run-SW-00.json",
+          "svg": "svg/rpg-run-SW-00.svg",
+          "png": "png/rpg-run-SW-00.png",
+          "frame": 0,
+          "phase": "contact"
+        },
+        {
+          "id": "rpg-run-SW-01",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "SW",
+          "json": "projects/rpg-run-SW-01.json",
+          "svg": "svg/rpg-run-SW-01.svg",
+          "png": "png/rpg-run-SW-01.png",
+          "frame": 1,
+          "phase": "reception"
+        },
+        {
+          "id": "rpg-run-SW-02",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "SW",
+          "json": "projects/rpg-run-SW-02.json",
+          "svg": "svg/rpg-run-SW-02.svg",
+          "png": "png/rpg-run-SW-02.png",
+          "frame": 2,
+          "phase": "passing"
+        },
+        {
+          "id": "rpg-run-SW-03",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "SW",
+          "json": "projects/rpg-run-SW-03.json",
+          "svg": "svg/rpg-run-SW-03.svg",
+          "png": "png/rpg-run-SW-03.png",
+          "frame": 3,
+          "phase": "lift"
+        },
+        {
+          "id": "rpg-run-SW-04",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "SW",
+          "json": "projects/rpg-run-SW-04.json",
+          "svg": "svg/rpg-run-SW-04.svg",
+          "png": "png/rpg-run-SW-04.png",
+          "frame": 4,
+          "phase": "opposite-contact"
+        },
+        {
+          "id": "rpg-run-SW-05",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "SW",
+          "json": "projects/rpg-run-SW-05.json",
+          "svg": "svg/rpg-run-SW-05.svg",
+          "png": "png/rpg-run-SW-05.png",
+          "frame": 5,
+          "phase": "opposite-reception"
+        },
+        {
+          "id": "rpg-run-SW-06",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "SW",
+          "json": "projects/rpg-run-SW-06.json",
+          "svg": "svg/rpg-run-SW-06.svg",
+          "png": "png/rpg-run-SW-06.png",
+          "frame": 6,
+          "phase": "opposite-passing"
+        },
+        {
+          "id": "rpg-run-SW-07",
+          "model": "rpg",
+          "pose": "run",
+          "direction": "SW",
+          "json": "projects/rpg-run-SW-07.json",
+          "svg": "svg/rpg-run-SW-07.svg",
+          "png": "png/rpg-run-SW-07.png",
+          "frame": 7,
+          "phase": "opposite-lift"
+        }
+      ]
+    }
+  ]
+}

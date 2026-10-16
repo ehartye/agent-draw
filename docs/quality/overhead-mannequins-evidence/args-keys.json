@@ -1,0 +1,51 @@
+{
+  "tasks": [
+    {
+      "id": "human-keys",
+      "images": [
+        {
+          "id": "human-neutral-keys",
+          "sha256": "521ed19f9ae6a4c634d7959d643230fb3eb14a57cb21a2620307d6689bf3ece0",
+          "path": "C:/Users/ehart/repos/agent-draw-worktrees/human-mannequins/docs/quality/overhead-mannequins-evidence/inputs-keys/human-neutral.png"
+        },
+        {
+          "id": "human-run-keys",
+          "sha256": "70c887e28442f2a781c4fa260fa54db1f37930bbb682964bc3976543648a5458",
+          "path": "C:/Users/ehart/repos/agent-draw-worktrees/human-mannequins/docs/quality/overhead-mannequins-evidence/inputs-keys/human-run.png"
+        }
+      ],
+      "label": "Inspect human overhead keys",
+      "scope": "KEY CHECKPOINT ONLY. Each supplied native page has four cells (2x2), not eight. Neutral page is S,E,N,W; run page is S,SE,N,NE at frame 2 only. Judge overhead connected anatomy on these keys; full strides/timing and other poses remain explicitly unverified until the final full-set round."
+    },
+    {
+      "id": "rpg-keys",
+      "images": [
+        {
+          "id": "rpg-neutral-keys",
+          "sha256": "e4ef2fbd240853430a956262bf045846c8131480f12f3ec4fe676e99a93ab98a",
+          "path": "C:/Users/ehart/repos/agent-draw-worktrees/human-mannequins/docs/quality/overhead-mannequins-evidence/inputs-keys/rpg-neutral.png"
+        },
+        {
+          "id": "rpg-run-keys",
+          "sha256": "10bd0e1a3d8307059bc1a512d3bb8fbde8c2b4b4ba314805e0bcf5167ca499d0",
+          "path": "C:/Users/ehart/repos/agent-draw-worktrees/human-mannequins/docs/quality/overhead-mannequins-evidence/inputs-keys/rpg-run.png"
+        }
+      ],
+      "label": "Inspect rpg overhead keys",
+      "scope": "KEY CHECKPOINT ONLY. Each supplied native page has four cells (2x2), not eight. Neutral page is S,E,N,W; run page is S,SE,N,NE at frame 2 only. Judge overhead connected anatomy on these keys; full strides/timing and other poses remain explicitly unverified until the final full-set round."
+    }
+  ],
+  "plan": {
+    "input": "snapshotted args-file, exact immutable image hashes",
+    "objective": "Accepted guide palette and complete overhead mannequin set",
+    "deadline": "timeoutMs null",
+    "toolsRequired": [],
+    "maxWorkers": 4,
+    "revision": 1,
+    "skillsRequired": [],
+    "owner": "root",
+    "output": "bounded JSON, no artifact writes",
+    "verification": "Root integration, native crop binding, actual browser playback and served-byte checks",
+    "scope": "Two read-only key reviewers, then two final full-set reviewers"
+  }
+}

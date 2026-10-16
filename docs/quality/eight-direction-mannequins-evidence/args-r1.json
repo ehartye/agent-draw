@@ -1,0 +1,348 @@
+{
+  "tasks": [
+    {
+      "id": "cardinals",
+      "label": "Review cardinals",
+      "scope": "cardinals",
+      "sideConvention": "Guide left/right keys are reference-left/right fixed from the S front view; reference-left is anatomical right.",
+      "images": [
+        {
+          "id": "human-crouch-cardinals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-crouch-cardinals.png",
+          "sha256": "48bbb87d71b478c7fa76f5a1cc81572122416084e1d89d1e4353707f291737b5"
+        },
+        {
+          "id": "human-jump-cardinals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-jump-cardinals.png",
+          "sha256": "7fc95d10995150d90517c61c01d804d3f17fed169435d5c5bd17cb955c0c1903"
+        },
+        {
+          "id": "human-neutral-cardinals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-neutral-cardinals.png",
+          "sha256": "2f394cb3c93fca7e92996f804230ae88d4c2d4a550d14655399c40ff6bc615b9"
+        },
+        {
+          "id": "human-reach-cardinals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-reach-cardinals.png",
+          "sha256": "d1b7a83ec8b1be43c69618db64e12facc8f20e5c15c35229840638f580777da3"
+        },
+        {
+          "id": "human-run-flight-cardinals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-run-flight-cardinals.png",
+          "sha256": "b455dd955536284790ef5a877f359b3d495e955a818c6865abe7e45a685505eb"
+        },
+        {
+          "id": "human-run-push-cardinals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-run-push-cardinals.png",
+          "sha256": "f7bb0a3b6bfeda210f52c2d75e507e5fe92a87217bb3e90bc9b1527f544dbdc4"
+        },
+        {
+          "id": "human-walk-contact-cardinals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-walk-contact-cardinals.png",
+          "sha256": "1822fe442303c70c8f9d793a0feb6b2934d422a6a8d432c60b7fbf00222e6f30"
+        },
+        {
+          "id": "human-walk-pass-cardinals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-walk-pass-cardinals.png",
+          "sha256": "f975a36187bec1b4dd34dcda8a123ab690475b2d0f3aee3a8a18ee55f6725128"
+        },
+        {
+          "id": "rpg-crouch-cardinals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-crouch-cardinals.png",
+          "sha256": "2eaea9dadbe6901a5b4904914dfa9739933ec65896cd85e7417c1dbd10647412"
+        },
+        {
+          "id": "rpg-jump-cardinals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-jump-cardinals.png",
+          "sha256": "866ea6819251da8a3f6db401c640fcd4a6e872cb97b22321c8b97f841d3770ac"
+        },
+        {
+          "id": "rpg-neutral-cardinals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-neutral-cardinals.png",
+          "sha256": "0859834940aabb0de99f911d3141899237afe61dfa08650a36bac31223d37d01"
+        },
+        {
+          "id": "rpg-reach-cardinals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-reach-cardinals.png",
+          "sha256": "390aa3648f1c868fa101468881e4005243cf4607197a8e792f37fe75661aa625"
+        },
+        {
+          "id": "rpg-run-flight-cardinals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-run-flight-cardinals.png",
+          "sha256": "4f9bf576e78e30016afb98379ae69eef2f33d63f885393538f19833e2943addd"
+        },
+        {
+          "id": "rpg-run-push-cardinals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-run-push-cardinals.png",
+          "sha256": "2c77aba5c52d12dd913c1f52bf2efaeee8c7a0ef91f9665955f8bf81de8f4177"
+        },
+        {
+          "id": "rpg-walk-contact-cardinals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-walk-contact-cardinals.png",
+          "sha256": "621a0200c082894231ecd185bac2c169d278c1da401333caae0b536fea2cf1d3"
+        },
+        {
+          "id": "rpg-walk-pass-cardinals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-walk-pass-cardinals.png",
+          "sha256": "acc0b9ed1ee62f781b153159a38f4debf87fb5e8086e6d51cb798aa535ebba75"
+        }
+      ]
+    },
+    {
+      "id": "diagonals",
+      "label": "Review diagonals",
+      "scope": "diagonals",
+      "sideConvention": "Guide left/right keys are reference-left/right fixed from the S front view; reference-left is anatomical right.",
+      "images": [
+        {
+          "id": "human-crouch-diagonals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-crouch-diagonals.png",
+          "sha256": "a9066c62baf0d1a8424445f29861414c71591cb26b7d29940a9f287e10ac8fb3"
+        },
+        {
+          "id": "human-jump-diagonals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-jump-diagonals.png",
+          "sha256": "10efad4670a8845a4218c815aef57c77cf5df9bb3a6afb36ed8ffd04df7c92b8"
+        },
+        {
+          "id": "human-neutral-diagonals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-neutral-diagonals.png",
+          "sha256": "3e9519389bb5130a703adbbe0bb8b6bf2805a403a9ce410dfb080e22e9c83152"
+        },
+        {
+          "id": "human-reach-diagonals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-reach-diagonals.png",
+          "sha256": "eb02af22d0c38be55d300a01fa212aa17dcd65c9210501c844e2cd1d79dda7bb"
+        },
+        {
+          "id": "human-run-flight-diagonals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-run-flight-diagonals.png",
+          "sha256": "91a10549ccd688899e0b7bb6465a3c7ff5a9ec8c3a80d2cb932e794fbafca867"
+        },
+        {
+          "id": "human-run-push-diagonals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-run-push-diagonals.png",
+          "sha256": "df3d96cd6bfe0644fb7e82c849bf4afc6b3d64d3eefc513d78d4426acc319b6e"
+        },
+        {
+          "id": "human-walk-contact-diagonals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-walk-contact-diagonals.png",
+          "sha256": "a40fcb79e54593249994f475250c22134875f5109efbe83b19109b11e96d84a7"
+        },
+        {
+          "id": "human-walk-pass-diagonals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-walk-pass-diagonals.png",
+          "sha256": "c584e296376fba0d7d24639ad770080eb01d8a712af310e28a87f600b57c50e2"
+        },
+        {
+          "id": "rpg-crouch-diagonals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-crouch-diagonals.png",
+          "sha256": "cac6596f27972a34c383b64e2869921d97e4941f2545cbed10c61aaa136731be"
+        },
+        {
+          "id": "rpg-jump-diagonals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-jump-diagonals.png",
+          "sha256": "107860fb37be6dc9ec90471a00b3b5a45e214d587dbfa7f51cf5ec05aca07a2c"
+        },
+        {
+          "id": "rpg-neutral-diagonals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-neutral-diagonals.png",
+          "sha256": "026ee586c2c3039bc7bbe89b78faeba7eef80df965c6d8cedbfb9510190c21c4"
+        },
+        {
+          "id": "rpg-reach-diagonals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-reach-diagonals.png",
+          "sha256": "904164c336985d38fae437312a2811cc722913e1d04681b0630eb26ef3324692"
+        },
+        {
+          "id": "rpg-run-flight-diagonals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-run-flight-diagonals.png",
+          "sha256": "95b559e38c94ca5fd6f0441926488e98b6a6856b2709f9bca9ad3903a534deea"
+        },
+        {
+          "id": "rpg-run-push-diagonals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-run-push-diagonals.png",
+          "sha256": "a7bdb0b01f476c394c404ea4aaf05dc0cd7dbbe905d17ec7e46dda70207992c4"
+        },
+        {
+          "id": "rpg-walk-contact-diagonals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-walk-contact-diagonals.png",
+          "sha256": "1c95db0b9acf45b672007281507bbb602bf7116f79ceb736558e76676a0b40c9"
+        },
+        {
+          "id": "rpg-walk-pass-diagonals",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-walk-pass-diagonals.png",
+          "sha256": "8485768f531032c58e1309f6911cc4f543e29683cae7578e9e6b792f0ba490b6"
+        }
+      ]
+    },
+    {
+      "id": "motion",
+      "label": "Review motion",
+      "scope": "motion",
+      "sideConvention": "Guide left/right keys are reference-left/right fixed from the S front view; reference-left is anatomical right.",
+      "images": [
+        {
+          "id": "human-run-E",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-run-E.png",
+          "sha256": "3f6f7e438455345b41ff27b9902d05007dfbed26d5a788b057dbc91e7e657da2"
+        },
+        {
+          "id": "human-run-N",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-run-N.png",
+          "sha256": "60c890839b8a92aed9f80c21c5c275a1b4fcd996e739b1916ca8a67c2a2d679b"
+        },
+        {
+          "id": "human-run-NE",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-run-NE.png",
+          "sha256": "3bfcab6c48473031586f884482afa336881c7bb429e0287c6cd5ae03bce1893b"
+        },
+        {
+          "id": "human-run-NW",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-run-NW.png",
+          "sha256": "35bee089a0bba8a0a1004857fbde9c20c7b01b2168dde1df5de9f8c8d05d4172"
+        },
+        {
+          "id": "human-run-S",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-run-S.png",
+          "sha256": "67b410993d911c0cf4c64de2f7c918cf5c4bfe08efd37af23aed7ba84315b332"
+        },
+        {
+          "id": "human-run-SE",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-run-SE.png",
+          "sha256": "27bc8a67ee9d78ca6a288a0558395d8b8e8d9a7556d09ee457d530b4c6cc3800"
+        },
+        {
+          "id": "human-run-SW",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-run-SW.png",
+          "sha256": "889b924a375491d47a98da41f141d43d831ce6da26cab70451e182ec093b42fb"
+        },
+        {
+          "id": "human-run-W",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-run-W.png",
+          "sha256": "0aee282d7b94f92650f0b64979787d6f19ff4af6a2533ba063629e04d38db0fd"
+        },
+        {
+          "id": "human-walk-E",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-walk-E.png",
+          "sha256": "11606d44dd98258c0daf90948e7cc14565d57231db5f4d2c3a34a638b2867f2f"
+        },
+        {
+          "id": "human-walk-N",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-walk-N.png",
+          "sha256": "c67d0df846a09e6e8fd92f8f89b83d95d196ac1d163bd7beb670572b08451e65"
+        },
+        {
+          "id": "human-walk-NE",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-walk-NE.png",
+          "sha256": "0bcd8de7d364ea7b0c4c5c61e1a0fd2479a6a4e7eef7274584d9082567b3c767"
+        },
+        {
+          "id": "human-walk-NW",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-walk-NW.png",
+          "sha256": "87fa6ac21f8e22b7941f33d2ebf1d64e5e1568087013d8494cc93ff0fbc7a989"
+        },
+        {
+          "id": "human-walk-S",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-walk-S.png",
+          "sha256": "ba857e07194920d7e5833ca9e671a75a56c11e08e44170912adcd6ca35a9cc84"
+        },
+        {
+          "id": "human-walk-SE",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-walk-SE.png",
+          "sha256": "c3562d10ba8103cc4b05d104470a33c7d11c27ad5167a41938ff81e8e1399387"
+        },
+        {
+          "id": "human-walk-SW",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-walk-SW.png",
+          "sha256": "1c022e78f699d9ea512c2be8ba711640fd88a2d85f4b2279b2196bee4f294129"
+        },
+        {
+          "id": "human-walk-W",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/human-walk-W.png",
+          "sha256": "c28fee82b9d4c5c65971350589a46f8816923752bf1bfb8f270e97b1d0c306ec"
+        },
+        {
+          "id": "rpg-run-E",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-run-E.png",
+          "sha256": "6aaee3e5cfcf3077cee0e304082b5572b125dc39599bd99c76a6d41afd042b0e"
+        },
+        {
+          "id": "rpg-run-N",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-run-N.png",
+          "sha256": "a8c0fbc7769c566ce42b3ec6242f764fe138a5116a792ec9bd56e8aa7283976a"
+        },
+        {
+          "id": "rpg-run-NE",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-run-NE.png",
+          "sha256": "775fd251d598d67cc3722ad80fc439d1c584dbf9320581f7ca0ffae5a4a0ccc7"
+        },
+        {
+          "id": "rpg-run-NW",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-run-NW.png",
+          "sha256": "61f704a6ae1ad5eceede31dced9d4bf4e6474b16e64ec210bf31d20b3317829e"
+        },
+        {
+          "id": "rpg-run-S",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-run-S.png",
+          "sha256": "1dc0cdac986c19b909109d7c8da66ed539675422915a4041c733b81fa2d7847e"
+        },
+        {
+          "id": "rpg-run-SE",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-run-SE.png",
+          "sha256": "e6c8e405a72d97a581ebc83ea587127281ab59bc88077f2f7b54b98b63f17ccf"
+        },
+        {
+          "id": "rpg-run-SW",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-run-SW.png",
+          "sha256": "01e4d5408f8bcd302e42d173a4b3529715890223e14e3df9791ecea3fbbe8d07"
+        },
+        {
+          "id": "rpg-run-W",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-run-W.png",
+          "sha256": "d89fe61a3aad4d582a8e0357ab5f78d08050cebf725fa7abbdc8166a8d557b75"
+        },
+        {
+          "id": "rpg-walk-E",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-walk-E.png",
+          "sha256": "ea63d8042651ee0b1a8ab841f2a9975ec9eeac09efa96209428df8ae55afa08b"
+        },
+        {
+          "id": "rpg-walk-N",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-walk-N.png",
+          "sha256": "acfdd614fee3b1b5c76137baa1ed867809b832eb951e306de07b94193e7d846b"
+        },
+        {
+          "id": "rpg-walk-NE",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-walk-NE.png",
+          "sha256": "93ecc8b6aea10da9a69ea26d32484eb4359a9fcda023c6b7c45a145471492d4c"
+        },
+        {
+          "id": "rpg-walk-NW",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-walk-NW.png",
+          "sha256": "e8f9171f3c8a2726c3c8bb463c08f28319c512480a8a190ce862040b241ba085"
+        },
+        {
+          "id": "rpg-walk-S",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-walk-S.png",
+          "sha256": "fa6618e69920e223fcf5b1a792f426dc126b08094a3c934161a5897219543b5b"
+        },
+        {
+          "id": "rpg-walk-SE",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-walk-SE.png",
+          "sha256": "b83bc70438c66cb8a031a966e39cac187a2330c19332b57d5c944e11189ffe1a"
+        },
+        {
+          "id": "rpg-walk-SW",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-walk-SW.png",
+          "sha256": "5223c2f930a5d50e99e03851c8af7bf72cb04f891ec7f9d0c15e525aa5e0f563"
+        },
+        {
+          "id": "rpg-walk-W",
+          "path": "docs/quality/eight-direction-mannequins-evidence/review-r1/rpg-walk-W.png",
+          "sha256": "c0b1d9297edcf562791b1ec856082e59f69a0aea4ed7f31bd36b50ebc37a5f00"
+        }
+      ]
+    }
+  ]
+}

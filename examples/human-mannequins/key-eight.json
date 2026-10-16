@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "name": "eight-direction-keys",
+  "fps": 8,
+  "loop": false,
+  "frames": [
+    "projects/human-neutral-S.json",
+    "projects/human-run-S-02.json",
+    "projects/human-neutral-SE.json",
+    "projects/human-run-SE-02.json",
+    "projects/human-neutral-NE.json",
+    "projects/human-run-NE-02.json",
+    "projects/human-neutral-N.json",
+    "projects/human-run-N-02.json",
+    "projects/rpg-neutral-S.json",
+    "projects/rpg-run-S-02.json",
+    "projects/rpg-neutral-SE.json",
+    "projects/rpg-run-SE-02.json",
+    "projects/rpg-neutral-NE.json",
+    "projects/rpg-run-NE-02.json",
+    "projects/rpg-neutral-N.json",
+    "projects/rpg-run-N-02.json"
+  ]
+}

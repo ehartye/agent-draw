@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Human figure starters · Agent Draw</title><link rel="stylesheet" href="gallery.css"></head>
+<body>
+<header class="intro">
+ <div class="brief"><a class="back" href="./README.md">← Usage guide</a><p class="eyebrow">AGENT DRAW / CONSTRUCTION LIBRARY</p><h1>Human figure <br>starters.</h1><p class="lead">Blank bodies for costumes, poses and characters. Two builds, eight facings, and walk and run cycles you can study one drawing at a time.</p><a class="bundle" href="human-mannequins.zip?rev=mannequins-20261015-r4" download>Download the whole set <span>↘</span></a><p class="small">128 poses + 32 movement loops · JSON + SVG + PNG</p></div>
+ <figure class="comparison"><img src="comparison.png?rev=mannequins-20261015-r1" alt="Human mannequin beside a shorter compact RPG mannequin, shown at the same canvas scale"><figcaption>Same canvas and ground line. Different proportions.</figcaption></figure>
+</header>
+<main>
+ <section class="desk" aria-label="Choose a mannequin">
+  <div class="filters"><label>Build<select id="model"><option value="all">Both builds</option><option value="human">Human</option><option value="rpg">Compact RPG</option></select></label><label>Pose / movement<select id="pose"><option value="all">All poses and loops</option></select></label><label>Facing<select id="direction"><option value="all">All eight facings</option></select></label><label class="check"><input type="checkbox" id="guides">Construction guides</label><output id="count" aria-live="polite"></output></div>
+  <p class="legend">S faces you · N faces away · E/W are profiles <span class="hint">Select a drawing or loop to inspect it.</span> · <a href="overhead/">Overhead set ↗</a></p><div id="palette-legend" class="palette-legend" aria-label="Construction guide palette"></div><p class="small">Left/right belongs to the character. Guide colors identify parts; limb shading is separate.</p>
+ </section>
+ <p id="status" role="status">Loading the drawing drawer…</p><div id="gallery" class="gallery"></div>
+ <section class="notes"><h2>Build a person from a sound base.</h2><div><p>Copy a project, then change the head, costume and silhouette. The named head, rib cage, pelvis, arms and legs remain editable. Construction guides are a separate hidden layer in each source.</p><p>Each movement uses eight complete drawings, with alternating support and opposing arms. Guide colors identify anatomical left/right, head, torso and pelvis through every turn. Finished costumes, equipment and secondary motion need their own drawing pass.</p><a href="README.md">Using these templates ↗</a> · <a href="landmarks.json" download>Joint coordinates ↘</a></div></section>
+</main>
+<dialog id="detail"><button id="close" class="close" aria-label="Close drawing">Close ×</button><h2 id="detail-title"></h2><label class="detail-guide"><input id="detail-guides" type="checkbox"> Construction guides</label><div id="detail-art"></div><div id="transport" hidden><div class="transport-buttons"><button id="previous" aria-label="Previous frame">←</button><button id="play" aria-pressed="false">Play</button><button id="next" aria-label="Next frame">→</button><label>Speed <select id="speed"><option value="1">Normal</option><option value="0.25">Quarter</option></select></label></div><input id="frame-range" aria-label="Animation frame" type="range" min="0" max="7" value="0" step="1"></div><output id="frame-label"></output><div id="detail-downloads"></div><p>Use construction guides to inspect the underlying joints.</p></dialog>
+<script type="module" src="gallery.js?rev=mannequins-20261015-r4"></script>
+</body></html>

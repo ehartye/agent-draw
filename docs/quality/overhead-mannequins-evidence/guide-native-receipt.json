@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "tool": "agent-draw",
+  "version": "0.4.1",
+  "ok": true,
+  "name": "overhead-guide-key",
+  "width": 384,
+  "height": 384,
+  "inkscape": "Inkscape 1.4.3 (0d15f75, 2025-12-25)",
+  "layersBottomToTop": [
+    "right-foot",
+    "left-foot",
+    "right-leg",
+    "left-leg",
+    "pelvis",
+    "left-arm",
+    "lower-back",
+    "right-arm",
+    "torso",
+    "head",
+    "construction-guides"
+  ],
+  "editable": "drawing.svg",
+  "source": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\overhead\\guide-key.json",
+  "sourceSha256": "0f0f4e1c62c7e774857df77d6c3dc2ea575a585897ebedcb033a40ae51bcb291",
+  "artifacts": [
+    {
+      "name": "drawing.svg",
+      "sha256": "03969121ecbc29dc92ea4db59303578155e7a493dea3d74882be07a38557640e"
+    },
+    {
+      "name": "drawing.png",
+      "sha256": "a67ccb24da059db80e859227f243495fb1fcd0e0bce5931d9d1127d97800c34c"
+    },
+    {
+      "name": "drawing.pdf",
+      "sha256": "64c99f0049b8d50a343b58230b49a426b4fdf9f70ffa2ff40bc30b19c7eb537c"
+    }
+  ],
+  "warnings": [
+    {
+      "format": "png",
+      "message": "(inkscape.com:37844): Gdk-CRITICAL **: 19:03:53.164: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:37844): Gdk-CRITICAL **: 19:03:53.421: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "format": "pdf",
+      "message": "(inkscape.com:30200): Gdk-CRITICAL **: 19:03:55.529: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:30200): Gdk-CRITICAL **: 19:03:55.661: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    }
+  ]
+}

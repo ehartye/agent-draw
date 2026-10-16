@@ -37,6 +37,12 @@ Inspect a 1× engine-size render first, then a larger view for contour quality. 
 
 The executable `examples/scale-material-study.json` places the drawn character and an 80-pixel doorway on the same baseline, with warm stone, blue/slate clothing, directional cast shadows and sparse material marks. It is a scale/material calibration illustration, not a substitute for the game's isometric scene QA.
 
+## Keep playable surfaces distinct from structure
+
+In a platform scene, decorative crossbars must not have the same bright weight as surfaces the player can land on. Reserve the strongest continuous tread edge and visible front face for actual support; dim, thin or interrupt rails behind it. Match each visible tread's top and endpoints to the engine's collision surface. Extreme converging architecture can surround that stable movement plane without inventing false ledges.
+
+Review one actual engine screenshot with the collision coordinates beside it. A reader should identify the next safe landing and the gap before studying fine detail. Noir's stairwell initially used bright background crossbars that resembled longer platforms; separating dim crossbars from bright, capped landing faces corrected the ambiguity. A successful jump route alone had not detected that visual problem.
+
 ## Done conditions
 
 A representative scene shows believable human/door/building ratios; the actor separates from its ground; multiple material/color families remain visible; light and cast shadows agree; texture follows construction and wear; pose-critical shapes survive at game size. Save that scene crop and the actual display dimensions with the source/export evidence. Export success and a high test count do not establish these visual outcomes.

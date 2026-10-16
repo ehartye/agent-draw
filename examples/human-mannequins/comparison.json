@@ -1,0 +1,1356 @@
+{
+  "version": 1,
+  "name": "human-and-compact-rpg-mannequins",
+  "width": 1280,
+  "height": 640,
+  "layers": [
+    {
+      "type": "group",
+      "id": "human-figure",
+      "name": "human-figure",
+      "children": [
+        {
+          "type": "group",
+          "id": "human-far-leg",
+          "name": "human-far-leg",
+          "children": [
+            {
+              "type": "polygon",
+              "name": "human-far-leg-mass",
+              "points": [
+                [
+                  310.5,
+                  351.1
+                ],
+                [
+                  309.2,
+                  397.4
+                ],
+                [
+                  322.7,
+                  450.7
+                ],
+                [
+                  309.7,
+                  486.1
+                ],
+                [
+                  300.2,
+                  544.4
+                ],
+                [
+                  311.8,
+                  547.6
+                ],
+                [
+                  332.8,
+                  492.3
+                ],
+                [
+                  340.2,
+                  452
+                ],
+                [
+                  341,
+                  393.8
+                ],
+                [
+                  329.5,
+                  348.9
+                ]
+              ],
+              "color": "#8F9CA0",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round"
+            },
+            {
+              "type": "polygon",
+              "name": "human-far-foot",
+              "points": [
+                [
+                  302.1,
+                  533.6
+                ],
+                [
+                  315.6,
+                  537.2
+                ],
+                [
+                  314,
+                  546
+                ],
+                [
+                  338,
+                  553
+                ],
+                [
+                  342,
+                  560
+                ],
+                [
+                  294,
+                  560
+                ]
+              ],
+              "color": "#293943",
+              "stroke": "#293943",
+              "strokeWidth": 0,
+              "strokeLinejoin": "round"
+            },
+            {
+              "type": "polygon",
+              "name": "human-far-foot-surface",
+              "points": [
+                [
+                  304.3,
+                  536.8
+                ],
+                [
+                  315.1,
+                  539.8
+                ],
+                [
+                  313.8,
+                  546.8
+                ],
+                [
+                  333,
+                  552.4
+                ],
+                [
+                  336.2,
+                  558
+                ],
+                [
+                  297.8,
+                  558
+                ]
+              ],
+              "color": "#8F9CA0",
+              "stroke": "#293943",
+              "strokeWidth": 0,
+              "strokeLinejoin": "round"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "human-far-arm",
+          "name": "human-far-arm",
+          "children": [
+            {
+              "type": "path",
+              "name": "human-far-arm-mass",
+              "d": "M 300.5 257.4 L 292.4 287.9 L 291.1 327.3 L 288.3 352.6 L 291.4 389.9 L 301.4 390.3 L 307.1 353.2 L 306.1 328.9 L 318.1 292.5 L 321 261 Q 313.2 245.1 300.5 257.4 Z",
+              "color": "#8F9CA0",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "human-far-hand",
+              "d": "M 302.5 386.3 Q 304.6 412.4 295.6 412.1 Q 286.6 411.8 290.5 385.9 Z",
+              "color": "#8F9CA0",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "human-near-leg",
+          "name": "human-near-leg",
+          "children": [
+            {
+              "type": "polygon",
+              "name": "human-near-leg-mass",
+              "points": [
+                [
+                  310.7,
+                  352.5
+                ],
+                [
+                  316.4,
+                  398.5
+                ],
+                [
+                  337.5,
+                  449.2
+                ],
+                [
+                  330.3,
+                  486.3
+                ],
+                [
+                  330,
+                  545.4
+                ],
+                [
+                  342,
+                  546.6
+                ],
+                [
+                  354.1,
+                  488.8
+                ],
+                [
+                  355.1,
+                  447.9
+                ],
+                [
+                  347.3,
+                  390.2
+                ],
+                [
+                  329.3,
+                  347.5
+                ]
+              ],
+              "color": "#D0B99B",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round"
+            },
+            {
+              "type": "polygon",
+              "name": "human-near-foot",
+              "points": [
+                [
+                  330.2,
+                  534.3
+                ],
+                [
+                  344.1,
+                  535.8
+                ],
+                [
+                  344,
+                  546
+                ],
+                [
+                  368,
+                  553
+                ],
+                [
+                  372,
+                  560
+                ],
+                [
+                  324,
+                  560
+                ]
+              ],
+              "color": "#293943",
+              "stroke": "#293943",
+              "strokeWidth": 0,
+              "strokeLinejoin": "round"
+            },
+            {
+              "type": "polygon",
+              "name": "human-near-foot-surface",
+              "points": [
+                [
+                  332.8,
+                  537.5
+                ],
+                [
+                  343.9,
+                  538.6
+                ],
+                [
+                  343.8,
+                  546.8
+                ],
+                [
+                  363,
+                  552.4
+                ],
+                [
+                  366.2,
+                  558
+                ],
+                [
+                  327.8,
+                  558
+                ]
+              ],
+              "color": "#D0B99B",
+              "stroke": "#293943",
+              "strokeWidth": 0,
+              "strokeLinejoin": "round"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "human-torso",
+          "name": "human-torso",
+          "children": [
+            {
+              "type": "path",
+              "name": "human-neck",
+              "d": "M 311 227 L 330 230 L 333 259 L 307 259 Z",
+              "color": "#D0B99B",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "human-abdomen",
+              "d": "M 298.3 288 Q 324 276 341.8 292 L 336.2 344 Q 320 368 298.4 344 Z",
+              "color": "#D0B99B",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "human-ribcage",
+              "d": "M 302.6 249 Q 337.4 240 349 267 Q 354 290 333.1 308 Q 301.2 314 291 286 Q 287 262 302.6 249 Z",
+              "color": "#DCC9AB",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "human-pelvis",
+              "d": "M 293 332 Q 320 322 347 335 L 341.6 369 Q 320 381 298.4 367 Z",
+              "color": "#DCC9AB",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "human-shoulder-girdle",
+              "d": "M 301.2 257 L 338.9 264",
+              "color": "#00000000",
+              "stroke": "#293943",
+              "strokeWidth": 2,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "human-pelvis-direction",
+              "d": "M 302.5 345 L 337.6 350",
+              "color": "#00000000",
+              "stroke": "#293943",
+              "strokeWidth": 1.5,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "human-head",
+          "name": "human-head",
+          "children": [
+            {
+              "type": "path",
+              "name": "human-skull-and-jaw",
+              "d": "M 299 193.9 Q 299 176 320 179 Q 341 179 341 207.4 L 350 212.2 L 336.8 216.3 L 333.7 229.5 Q 317.9 237.1 305.3 223.6 Z",
+              "color": "#DCC9AB",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "human-brow-plane",
+              "d": "M 326.3 203.3 L 341 203.8",
+              "color": "#00000000",
+              "stroke": "#293943",
+              "strokeWidth": 1.5,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "human-ear-plane",
+              "d": "M 315.8 207.4 Q 307.4 203.3 309.5 215.5",
+              "color": "#00000000",
+              "stroke": "#293943",
+              "strokeWidth": 1.5,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "human-near-arm",
+          "name": "human-near-arm",
+          "children": [
+            {
+              "type": "path",
+              "name": "human-near-arm-mass",
+              "d": "M 300.3 259.9 L 299.9 291.5 L 308.2 330.4 L 314.4 355.5 L 330 389.5 L 339.5 386.4 L 332.2 349.7 L 323 327.6 L 325.9 289.7 L 321.1 258.5 Q 309.7 244.9 300.3 259.9 Z",
+              "color": "#D0B99B",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "human-near-hand",
+              "d": "M 339.2 382.3 Q 350.1 406.1 341.6 408.9 Q 333 411.7 327.8 386 Z",
+              "color": "#D0B99B",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "human-construction-guides",
+          "name": "human-construction-guides",
+          "children": [
+            {
+              "type": "path",
+              "name": "human-guide-ground",
+              "d": "M 100 560 L 540 560",
+              "color": "#00000000",
+              "stroke": "#C26646",
+              "strokeWidth": 1,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "human-guide-torso",
+              "d": "M 320 350 L 320 250",
+              "color": "#00000000",
+              "stroke": "#237A96",
+              "strokeWidth": 1.5,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "human-guide-neck",
+              "d": "M 320 250 L 320 206",
+              "color": "#00000000",
+              "stroke": "#237A96",
+              "strokeWidth": 1.5,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "human-guide-head-axis",
+              "d": "M 320 233 L 320 179",
+              "color": "#00000000",
+              "stroke": "#237A96",
+              "strokeWidth": 1.5,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "human-guide-near-4",
+              "d": "M 320 350 L 346.3 448.5",
+              "color": "#00000000",
+              "stroke": "#237A96",
+              "strokeWidth": 2,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "human-guide-near-5",
+              "d": "M 346.3 448.5 L 336 546",
+              "color": "#00000000",
+              "stroke": "#237A96",
+              "strokeWidth": 2,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "human-guide-near-6",
+              "d": "M 310.7 259.2 L 315.6 329",
+              "color": "#00000000",
+              "stroke": "#237A96",
+              "strokeWidth": 2,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "human-guide-near-7",
+              "d": "M 315.6 329 L 334.8 388",
+              "color": "#00000000",
+              "stroke": "#237A96",
+              "strokeWidth": 2,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "human-guide-far-8",
+              "d": "M 320 350 L 331.4 451.4",
+              "color": "#00000000",
+              "stroke": "#B95137",
+              "strokeWidth": 2,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "human-guide-far-9",
+              "d": "M 331.4 451.4 L 306 546",
+              "color": "#00000000",
+              "stroke": "#B95137",
+              "strokeWidth": 2,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "human-guide-far-10",
+              "d": "M 310.7 259.2 L 298.6 328.1",
+              "color": "#00000000",
+              "stroke": "#B95137",
+              "strokeWidth": 2,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "human-guide-far-11",
+              "d": "M 298.6 328.1 L 296.4 390.1",
+              "color": "#00000000",
+              "stroke": "#B95137",
+              "strokeWidth": 2,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "ellipse",
+              "name": "human-landmark-hip",
+              "x": 317,
+              "y": 347,
+              "width": 6,
+              "height": 6,
+              "color": "#237A96"
+            },
+            {
+              "type": "ellipse",
+              "name": "human-landmark-chest",
+              "x": 317,
+              "y": 247,
+              "width": 6,
+              "height": 6,
+              "color": "#237A96"
+            },
+            {
+              "type": "ellipse",
+              "name": "human-landmark-shoulder",
+              "x": 308,
+              "y": 256,
+              "width": 6,
+              "height": 6,
+              "color": "#237A96"
+            },
+            {
+              "type": "ellipse",
+              "name": "human-landmark-head",
+              "x": 317,
+              "y": 203,
+              "width": 6,
+              "height": 6,
+              "color": "#237A96"
+            },
+            {
+              "type": "ellipse",
+              "name": "human-landmark-nearKnee",
+              "x": 343,
+              "y": 446,
+              "width": 6,
+              "height": 6,
+              "color": "#237A96"
+            },
+            {
+              "type": "ellipse",
+              "name": "human-landmark-nearAnkle",
+              "x": 333,
+              "y": 543,
+              "width": 6,
+              "height": 6,
+              "color": "#237A96"
+            },
+            {
+              "type": "ellipse",
+              "name": "human-landmark-farKnee",
+              "x": 328,
+              "y": 448,
+              "width": 6,
+              "height": 6,
+              "color": "#B95137"
+            },
+            {
+              "type": "ellipse",
+              "name": "human-landmark-farAnkle",
+              "x": 303,
+              "y": 543,
+              "width": 6,
+              "height": 6,
+              "color": "#B95137"
+            },
+            {
+              "type": "ellipse",
+              "name": "human-landmark-nearElbow",
+              "x": 313,
+              "y": 326,
+              "width": 6,
+              "height": 6,
+              "color": "#237A96"
+            },
+            {
+              "type": "ellipse",
+              "name": "human-landmark-nearWrist",
+              "x": 332,
+              "y": 385,
+              "width": 6,
+              "height": 6,
+              "color": "#237A96"
+            },
+            {
+              "type": "ellipse",
+              "name": "human-landmark-farElbow",
+              "x": 296,
+              "y": 325,
+              "width": 6,
+              "height": 6,
+              "color": "#B95137"
+            },
+            {
+              "type": "ellipse",
+              "name": "human-landmark-farWrist",
+              "x": 293,
+              "y": 387,
+              "width": 6,
+              "height": 6,
+              "color": "#B95137"
+            }
+          ],
+          "visible": false
+        }
+      ],
+      "transform": {
+        "x": 0
+      }
+    },
+    {
+      "type": "text",
+      "name": "human-label",
+      "x": 170,
+      "y": 70,
+      "text": "Human",
+      "font": "Segoe UI",
+      "size": 28,
+      "color": "#293943"
+    },
+    {
+      "type": "text",
+      "name": "human-caption",
+      "x": 170,
+      "y": 105,
+      "text": "Longer limbs / smaller head",
+      "font": "Segoe UI",
+      "size": 17,
+      "color": "#293943"
+    },
+    {
+      "type": "group",
+      "id": "rpg-figure",
+      "name": "rpg-figure",
+      "children": [
+        {
+          "type": "group",
+          "id": "rpg-far-leg",
+          "name": "rpg-far-leg",
+          "children": [
+            {
+              "type": "polygon",
+              "name": "rpg-far-leg-mass",
+              "points": [
+                [
+                  308.6,
+                  432.5
+                ],
+                [
+                  301.6,
+                  458.8
+                ],
+                [
+                  311,
+                  488.8
+                ],
+                [
+                  301.8,
+                  507
+                ],
+                [
+                  300.2,
+                  540.3
+                ],
+                [
+                  311.8,
+                  543.7
+                ],
+                [
+                  328.6,
+                  514.9
+                ],
+                [
+                  331.7,
+                  491.6
+                ],
+                [
+                  339.6,
+                  457.9
+                ],
+                [
+                  331.4,
+                  432
+                ]
+              ],
+              "color": "#8F9CA0",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round"
+            },
+            {
+              "type": "polygon",
+              "name": "rpg-far-foot",
+              "points": [
+                [
+                  302.4,
+                  529.5
+                ],
+                [
+                  315.8,
+                  533.4
+                ],
+                [
+                  314,
+                  542
+                ],
+                [
+                  342,
+                  553
+                ],
+                [
+                  346,
+                  560
+                ],
+                [
+                  294,
+                  560
+                ]
+              ],
+              "color": "#293943",
+              "stroke": "#293943",
+              "strokeWidth": 0,
+              "strokeLinejoin": "round"
+            },
+            {
+              "type": "polygon",
+              "name": "rpg-far-foot-surface",
+              "points": [
+                [
+                  304.5,
+                  532.8
+                ],
+                [
+                  315.3,
+                  536
+                ],
+                [
+                  313.8,
+                  542.8
+                ],
+                [
+                  336.2,
+                  551.6
+                ],
+                [
+                  339.4,
+                  557.2
+                ],
+                [
+                  297.8,
+                  557.2
+                ]
+              ],
+              "color": "#8F9CA0",
+              "stroke": "#293943",
+              "strokeWidth": 0,
+              "strokeLinejoin": "round"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "rpg-far-arm",
+          "name": "rpg-far-arm",
+          "children": [
+            {
+              "type": "path",
+              "name": "rpg-far-arm-mass",
+              "d": "M 297.6 368.1 L 291.1 387.9 L 292.8 414.6 L 290.1 431.1 L 295.1 455.3 L 305.1 455.6 L 311.7 431.8 L 310.1 416.4 L 320.6 393.2 L 321.3 372.2 Q 312.3 353.9 297.6 368.1 Z",
+              "color": "#8F9CA0",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "rpg-far-hand",
+              "d": "M 306.2 451.6 Q 308.4 475.7 299.4 475.4 Q 290.4 475.1 294.2 451.2 Z",
+              "color": "#8F9CA0",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "rpg-near-leg",
+          "name": "rpg-near-leg",
+          "children": [
+            {
+              "type": "polygon",
+              "name": "rpg-near-leg-mass",
+              "points": [
+                [
+                  309,
+                  435.4
+                ],
+                [
+                  308.9,
+                  462.6
+                ],
+                [
+                  325.6,
+                  489.5
+                ],
+                [
+                  322,
+                  509.6
+                ],
+                [
+                  330,
+                  542
+                ],
+                [
+                  342,
+                  542
+                ],
+                [
+                  350,
+                  509.6
+                ],
+                [
+                  346.3,
+                  486.5
+                ],
+                [
+                  345.4,
+                  452.1
+                ],
+                [
+                  331,
+                  429.1
+                ]
+              ],
+              "color": "#D0B99B",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round"
+            },
+            {
+              "type": "polygon",
+              "name": "rpg-near-foot",
+              "points": [
+                [
+                  329,
+                  531
+                ],
+                [
+                  343,
+                  531
+                ],
+                [
+                  344,
+                  542
+                ],
+                [
+                  372,
+                  553
+                ],
+                [
+                  376,
+                  560
+                ],
+                [
+                  324,
+                  560
+                ]
+              ],
+              "color": "#293943",
+              "stroke": "#293943",
+              "strokeWidth": 0,
+              "strokeLinejoin": "round"
+            },
+            {
+              "type": "polygon",
+              "name": "rpg-near-foot-surface",
+              "points": [
+                [
+                  331.8,
+                  534
+                ],
+                [
+                  343,
+                  534
+                ],
+                [
+                  343.8,
+                  542.8
+                ],
+                [
+                  366.2,
+                  551.6
+                ],
+                [
+                  369.4,
+                  557.2
+                ],
+                [
+                  327.8,
+                  557.2
+                ]
+              ],
+              "color": "#D0B99B",
+              "stroke": "#293943",
+              "strokeWidth": 0,
+              "strokeLinejoin": "round"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "rpg-torso",
+          "name": "rpg-torso",
+          "children": [
+            {
+              "type": "path",
+              "name": "rpg-neck",
+              "d": "M 311 338.2 L 330 341.2 L 333 366.2 L 307 366.2 Z",
+              "color": "#D0B99B",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "rpg-abdomen",
+              "d": "M 295.3 395.2 Q 324 383.2 344.8 399.2 L 339.2 426.2 Q 320 450.2 294.4 426.2 Z",
+              "color": "#D0B99B",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "rpg-ribcage",
+              "d": "M 300.2 356.2 Q 339.8 347.2 353 374.2 Q 358 397.2 334.9 415.2 Q 298.6 421.2 287 393.2 Q 283 369.2 300.2 356.2 Z",
+              "color": "#DCC9AB",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "rpg-pelvis",
+              "d": "M 288 414.2 Q 320 404.2 352 417.2 L 345.6 451.2 Q 320 463.2 294.4 449.2 Z",
+              "color": "#DCC9AB",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "rpg-shoulder-girdle",
+              "d": "M 298.6 364.2 L 341.5 371.2",
+              "color": "#00000000",
+              "stroke": "#293943",
+              "strokeWidth": 2,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "rpg-pelvis-direction",
+              "d": "M 299.2 427.2 L 340.8 432.2",
+              "color": "#00000000",
+              "stroke": "#293943",
+              "strokeWidth": 1.5,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "rpg-head",
+          "name": "rpg-head",
+          "children": [
+            {
+              "type": "path",
+              "name": "rpg-skull-and-jaw",
+              "d": "M 290 289.1 Q 290 265.2 320 268.2 Q 350 268.2 350 308.1 L 359 315 L 344 320.7 L 339.5 339.3 Q 317 349.9 299 330.9 Z",
+              "color": "#DCC9AB",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "rpg-brow-plane",
+              "d": "M 329 302.4 L 350 303.2",
+              "color": "#00000000",
+              "stroke": "#293943",
+              "strokeWidth": 1.5,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "rpg-ear-plane",
+              "d": "M 314 308.1 Q 302 302.4 305 319.5",
+              "color": "#00000000",
+              "stroke": "#293943",
+              "strokeWidth": 1.5,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "rpg-near-arm",
+          "name": "rpg-near-arm",
+          "children": [
+            {
+              "type": "path",
+              "name": "rpg-near-arm-mass",
+              "d": "M 297.5 371 L 295.9 391.9 L 304.1 417.7 L 307.3 434.6 L 320.3 455.6 L 329.8 452.5 L 327.9 427.9 L 321.2 414.4 L 325.8 389.8 L 321.4 369.3 Q 308.3 353.7 297.5 371 Z",
+              "color": "#D0B99B",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "rpg-near-hand",
+              "d": "M 329.5 448.4 Q 339.7 470.3 331.2 473.1 Q 322.6 475.9 318.1 452.1 Z",
+              "color": "#D0B99B",
+              "stroke": "#293943",
+              "strokeWidth": 3,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "id": "rpg-construction-guides",
+          "name": "rpg-construction-guides",
+          "children": [
+            {
+              "type": "path",
+              "name": "rpg-guide-ground",
+              "d": "M 100 560 L 540 560",
+              "color": "#00000000",
+              "stroke": "#C26646",
+              "strokeWidth": 1,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "rpg-guide-torso",
+              "d": "M 320 432.2 L 320 357.2",
+              "color": "#00000000",
+              "stroke": "#237A96",
+              "strokeWidth": 1.5,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "rpg-guide-neck",
+              "d": "M 320 357.2 L 320 306.2",
+              "color": "#00000000",
+              "stroke": "#237A96",
+              "strokeWidth": 1.5,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "rpg-guide-head-axis",
+              "d": "M 320 344.2 L 320 268.2",
+              "color": "#00000000",
+              "stroke": "#237A96",
+              "strokeWidth": 1.5,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "rpg-guide-near-4",
+              "d": "M 320 432.2 L 336 488",
+              "color": "#00000000",
+              "stroke": "#237A96",
+              "strokeWidth": 2,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "rpg-guide-near-5",
+              "d": "M 336 488 L 336 542",
+              "color": "#00000000",
+              "stroke": "#237A96",
+              "strokeWidth": 2,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "rpg-guide-near-6",
+              "d": "M 309.4 370.2 L 312.6 416",
+              "color": "#00000000",
+              "stroke": "#237A96",
+              "strokeWidth": 2,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "rpg-guide-near-7",
+              "d": "M 312.6 416 L 325 454.1",
+              "color": "#00000000",
+              "stroke": "#237A96",
+              "strokeWidth": 2,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "rpg-guide-far-8",
+              "d": "M 320 432.2 L 321.3 490.2",
+              "color": "#00000000",
+              "stroke": "#B95137",
+              "strokeWidth": 2,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "rpg-guide-far-9",
+              "d": "M 321.3 490.2 L 306 542",
+              "color": "#00000000",
+              "stroke": "#B95137",
+              "strokeWidth": 2,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "rpg-guide-far-10",
+              "d": "M 309.4 370.2 L 301.5 415.5",
+              "color": "#00000000",
+              "stroke": "#B95137",
+              "strokeWidth": 2,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "path",
+              "name": "rpg-guide-far-11",
+              "d": "M 301.5 415.5 L 300.1 455.4",
+              "color": "#00000000",
+              "stroke": "#B95137",
+              "strokeWidth": 2,
+              "strokeLinejoin": "round",
+              "strokeLinecap": "round"
+            },
+            {
+              "type": "ellipse",
+              "name": "rpg-landmark-hip",
+              "x": 317,
+              "y": 429,
+              "width": 6,
+              "height": 6,
+              "color": "#237A96"
+            },
+            {
+              "type": "ellipse",
+              "name": "rpg-landmark-chest",
+              "x": 317,
+              "y": 354,
+              "width": 6,
+              "height": 6,
+              "color": "#237A96"
+            },
+            {
+              "type": "ellipse",
+              "name": "rpg-landmark-shoulder",
+              "x": 306,
+              "y": 367,
+              "width": 6,
+              "height": 6,
+              "color": "#237A96"
+            },
+            {
+              "type": "ellipse",
+              "name": "rpg-landmark-head",
+              "x": 317,
+              "y": 303,
+              "width": 6,
+              "height": 6,
+              "color": "#237A96"
+            },
+            {
+              "type": "ellipse",
+              "name": "rpg-landmark-nearKnee",
+              "x": 333,
+              "y": 485,
+              "width": 6,
+              "height": 6,
+              "color": "#237A96"
+            },
+            {
+              "type": "ellipse",
+              "name": "rpg-landmark-nearAnkle",
+              "x": 333,
+              "y": 539,
+              "width": 6,
+              "height": 6,
+              "color": "#237A96"
+            },
+            {
+              "type": "ellipse",
+              "name": "rpg-landmark-farKnee",
+              "x": 318,
+              "y": 487,
+              "width": 6,
+              "height": 6,
+              "color": "#B95137"
+            },
+            {
+              "type": "ellipse",
+              "name": "rpg-landmark-farAnkle",
+              "x": 303,
+              "y": 539,
+              "width": 6,
+              "height": 6,
+              "color": "#B95137"
+            },
+            {
+              "type": "ellipse",
+              "name": "rpg-landmark-nearElbow",
+              "x": 310,
+              "y": 413,
+              "width": 6,
+              "height": 6,
+              "color": "#237A96"
+            },
+            {
+              "type": "ellipse",
+              "name": "rpg-landmark-nearWrist",
+              "x": 322,
+              "y": 451,
+              "width": 6,
+              "height": 6,
+              "color": "#237A96"
+            },
+            {
+              "type": "ellipse",
+              "name": "rpg-landmark-farElbow",
+              "x": 298,
+              "y": 412,
+              "width": 6,
+              "height": 6,
+              "color": "#B95137"
+            },
+            {
+              "type": "ellipse",
+              "name": "rpg-landmark-farWrist",
+              "x": 297,
+              "y": 452,
+              "width": 6,
+              "height": 6,
+              "color": "#B95137"
+            }
+          ],
+          "visible": false
+        }
+      ],
+      "transform": {
+        "x": 640
+      }
+    },
+    {
+      "type": "text",
+      "name": "rpg-label",
+      "x": 810,
+      "y": 70,
+      "text": "Compact RPG",
+      "font": "Segoe UI",
+      "size": 28,
+      "color": "#293943"
+    },
+    {
+      "type": "text",
+      "name": "rpg-caption",
+      "x": 810,
+      "y": 105,
+      "text": "Shorter limbs / broader body",
+      "font": "Segoe UI",
+      "size": 17,
+      "color": "#293943"
+    }
+  ]
+}

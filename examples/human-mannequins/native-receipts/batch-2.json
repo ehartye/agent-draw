@@ -1,0 +1,904 @@
+{
+  "version": 1,
+  "tool": "mannequin-recovery-validator",
+  "kind": "recovered-partial-sequence",
+  "ok": true,
+  "source": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\sequence-eight-2.json",
+  "sourceSha256": "277e29c37d36dcc858f6e04bc333840c240285162fef378cd3e6a3627364d63a",
+  "sourceFrames": [
+    {
+      "index": 0,
+      "path": "projects/rpg-neutral-S.json",
+      "project": "projects/frame-0000.json",
+      "svg": "frames/frame-0000.svg",
+      "png": "frames/frame-0000.png",
+      "sha256": "ee84a908b9d37ee6423c84cc6f760aea7fb5fa51e219aa4612949dbfdaee6081",
+      "svgSha256": "4bfc9bd151bf8f67d959a35b0df9b84ffc5340cec28aad31799cc61bfb97fa7c",
+      "pngSha256": "67e5c539544e52dee21960fdc91fab562365430f853798d3f4eab227494b2229"
+    },
+    {
+      "index": 1,
+      "path": "projects/rpg-walk-contact-S.json",
+      "project": "projects/frame-0001.json",
+      "svg": "frames/frame-0001.svg",
+      "png": "frames/frame-0001.png",
+      "sha256": "68ce7ee2dd6c1b66ed81e06f086fc6a70a5aa1c2d540150c728944799b309a4c",
+      "svgSha256": "c89c6b73b8ce342de3b47c200b2c6e718b83f532044ccee52be2fc6c74673df6",
+      "pngSha256": "2eb9caa2e82316a9fc629751dc8afc1df8cc5c1e009246dc946aba3bb47a15cf"
+    },
+    {
+      "index": 2,
+      "path": "projects/rpg-walk-pass-S.json",
+      "project": "projects/frame-0002.json",
+      "svg": "frames/frame-0002.svg",
+      "png": "frames/frame-0002.png",
+      "sha256": "32565c906e839f9f962f9a23d57db3f6f521b4ec693577e4f28c5dc21f4bdc98",
+      "svgSha256": "091e4bf05523856b98645a9eabaa8423b78e03edf0bab342892a525ae367f18b",
+      "pngSha256": "6183d8818bd4e14ff05ebd34ea70e2cd44cd907175b88112ee79161b5ac7892b"
+    },
+    {
+      "index": 3,
+      "path": "projects/rpg-run-push-S.json",
+      "project": "projects/frame-0003.json",
+      "svg": "frames/frame-0003.svg",
+      "png": "frames/frame-0003.png",
+      "sha256": "e09d086334266b0dcd6b030749df42fc17542ba7c1f0c131a1ceabc05bb3e1eb",
+      "svgSha256": "6b02a09aba4c78d6c0cecf2612d898d8774fb16c16c72ff83b2546102c24e434",
+      "pngSha256": "d2d1bef017096ace6ec79b3e06be1e07d24d8a4b368508cc6d4066da35010696"
+    },
+    {
+      "index": 4,
+      "path": "projects/rpg-run-flight-S.json",
+      "project": "projects/frame-0004.json",
+      "svg": "frames/frame-0004.svg",
+      "png": "frames/frame-0004.png",
+      "sha256": "721f239d78ed4f608152f901ce9afe697951e74896385eb0d46066034d83bf5e",
+      "svgSha256": "8df6e38d03421fa453df2a791fe4553d6c89219b0344509347041c38593b8e7d",
+      "pngSha256": "62966290a5b010bb9e4070657120ceb8d425e7ea82fa4535badd45302b59af79"
+    },
+    {
+      "index": 5,
+      "path": "projects/rpg-jump-S.json",
+      "project": "projects/frame-0005.json",
+      "svg": "frames/frame-0005.svg",
+      "png": "frames/frame-0005.png",
+      "sha256": "b7d0f6462a890c74a4f216fb65220c9df8086a5b130555fb76a117bb4eb99549",
+      "svgSha256": "4be9701717f5f0b89fd7fd6ad6784d46dd88e92c0445c8f6bbca0881b10eab45",
+      "pngSha256": "ce94114c28e3de649de27e2f49536e51ac3af7e8b4e8a55ce5b464606be24996"
+    },
+    {
+      "index": 6,
+      "path": "projects/rpg-crouch-S.json",
+      "project": "projects/frame-0006.json",
+      "svg": "frames/frame-0006.svg",
+      "png": "frames/frame-0006.png",
+      "sha256": "f6a5f2aa17df3838c7dc1174c078915e62fdea3f9efdf3a4465c7451412fef88",
+      "svgSha256": "e4fda7a9cdaef3015d6723630163afefb533c5984a5e16f19b23dd16fa46efe0",
+      "pngSha256": "abf13fa4bae8c53e6f6dfaff3c77078ab883e7a215865018bcc59a218c0d73eb"
+    },
+    {
+      "index": 7,
+      "path": "projects/rpg-reach-S.json",
+      "project": "projects/frame-0007.json",
+      "svg": "frames/frame-0007.svg",
+      "png": "frames/frame-0007.png",
+      "sha256": "02237f3d298362963ded7f0f052cb6b1e2de90d0f6237bfd1aebbb50d2261ea2",
+      "svgSha256": "2e56fbc2587c00bc1efd5aef64a830fd4b8400b8ea1006d65abb3f809e563370",
+      "pngSha256": "e1deb85e4be25f4194c7a1fad1f81bdc624eaed561bd48971f1bc5c9c018298c"
+    },
+    {
+      "index": 8,
+      "path": "projects/rpg-walk-S-00.json",
+      "project": "projects/frame-0008.json",
+      "svg": "frames/frame-0008.svg",
+      "png": "frames/frame-0008.png",
+      "sha256": "0dd96a8446cd3f583bf3fdb25c8b6623c85fb2df374b294a2904019605cac2c0",
+      "svgSha256": "50d3aee0becd8d950793c48cf21b23518e7b37dc69be89466a505a5c864f9d50",
+      "pngSha256": "4da5f4686b76b512faa81b6311938b196f642b5151afb8ef12cbd7942bcccfb1"
+    },
+    {
+      "index": 9,
+      "path": "projects/rpg-walk-S-01.json",
+      "project": "projects/frame-0009.json",
+      "svg": "frames/frame-0009.svg",
+      "png": "frames/frame-0009.png",
+      "sha256": "22c8976cbd891d01d62fb1bd8080f218a986e15736131c52d833fafc839a626f",
+      "svgSha256": "ce903b6a8c917480195992e65a1fe531b640f5192324ebf68b48c52f535ae5c0",
+      "pngSha256": "b3809d515dba82c67c34e393b8be41a4a542ffb2590813a0b3c752858ec2ac93"
+    },
+    {
+      "index": 10,
+      "path": "projects/rpg-walk-S-02.json",
+      "project": "projects/frame-0010.json",
+      "svg": "frames/frame-0010.svg",
+      "png": "frames/frame-0010.png",
+      "sha256": "6b91b5b55af2321e5d5e06e5e84abe78658ff80f22fd48ee96a20c537da14dfe",
+      "svgSha256": "82f8f23a58818a53cf63370b8aecbc9a15859b44c69cc9993fd15d7184c8b295",
+      "pngSha256": "05771c328119dfc65cba35e7cf7bd99ab258d9215395ab5887f6066cd26134ac"
+    },
+    {
+      "index": 11,
+      "path": "projects/rpg-walk-S-03.json",
+      "project": "projects/frame-0011.json",
+      "svg": "frames/frame-0011.svg",
+      "png": "frames/frame-0011.png",
+      "sha256": "d9dc560f6fb5b360110184dc855f768e6135e0924d4eaeaaf930fe48241f6650",
+      "svgSha256": "d4c2e3a5d3a74fc668d64b6ca77a2564097f34b06a37ff89c3e2fddaabb50ebf",
+      "pngSha256": "c735c85328991b2c0af019fbe26445542608981a885715423119fdd7015709d3"
+    },
+    {
+      "index": 12,
+      "path": "projects/rpg-walk-S-04.json",
+      "project": "projects/frame-0012.json",
+      "svg": "frames/frame-0012.svg",
+      "png": "frames/frame-0012.png",
+      "sha256": "5b01e859fb9567ba3050bde39bd9ffd1382bb758bb61571d741480bcc84e1508",
+      "svgSha256": "81c790a0ee45d982a69753d88f9a426c432dd4c48bed6b9bb760a766ed36632c",
+      "pngSha256": "54384dc72fe647e036ef3bf0582fde858654c248b38c0b4e5f3cc2e709dbed74"
+    },
+    {
+      "index": 13,
+      "path": "projects/rpg-walk-S-05.json",
+      "project": "projects/frame-0013.json",
+      "svg": "frames/frame-0013.svg",
+      "png": "frames/frame-0013.png",
+      "sha256": "36b72efb9a5bf55cbb9e3aeecf546519882276632624f59866d8c13014326f7c",
+      "svgSha256": "54148afbbfc788fc8829cba4ad1d8b73811bb6e5452b0334f2b7621aca191aa8",
+      "pngSha256": "9b9323ddba4b7e185c0934cbeea7a60ea86c6dcbb3a83331ff1e1f28f01e4548"
+    },
+    {
+      "index": 14,
+      "path": "projects/rpg-walk-S-06.json",
+      "project": "projects/frame-0014.json",
+      "svg": "frames/frame-0014.svg",
+      "png": "frames/frame-0014.png",
+      "sha256": "4f745614ae3a9ad9f3e6ca6287e0870860fd3c8955bdc4cd17b8f0e2a7bc0054",
+      "svgSha256": "0fff24d5aeaae91f88cd40e0066c57a0cc82911a0b1f26334e771b019f774667",
+      "pngSha256": "7de011a295f9955f4c936e77b470ce2adb75257d0b8b403fc248a1ae413796bd"
+    },
+    {
+      "index": 15,
+      "path": "projects/rpg-walk-S-07.json",
+      "project": "projects/frame-0015.json",
+      "svg": "frames/frame-0015.svg",
+      "png": "frames/frame-0015.png",
+      "sha256": "f235ee70d888255636d3c8ae819bdab758bb9cb17b8239bfb7f72912975b28bf",
+      "svgSha256": "f901efb2632f0e7da6e5bf6f45ba2bd0dca55e3cd857813b21076f6f5f461adc",
+      "pngSha256": "0fdbc7903b1c31f3ecafa2592510a3d61e12cd8448f48f540d795d096147ea03"
+    },
+    {
+      "index": 16,
+      "path": "projects/rpg-run-S-00.json",
+      "project": "projects/frame-0016.json",
+      "svg": "frames/frame-0016.svg",
+      "png": "frames/frame-0016.png",
+      "sha256": "81ac6b8dcab42888fdb8f575e26cb869ffb6afa8a916a7a74956d727422c5e76",
+      "svgSha256": "c8eadb1479e9e14c4a664da418449ce0bcb9851ad52dfcc901afbf67d0ca97e5",
+      "pngSha256": "af16e42bf9b4a27baf1bfa761beaa4d7d4203e80e0ed8a2e68fb85aae31009ea"
+    },
+    {
+      "index": 17,
+      "path": "projects/rpg-run-S-01.json",
+      "project": "projects/frame-0017.json",
+      "svg": "frames/frame-0017.svg",
+      "png": "frames/frame-0017.png",
+      "sha256": "14406d3a919d700fe79898e44316f60476177e42aa42e80d3793819bb60a76f7",
+      "svgSha256": "34015c35671bef6f8ecda1cc4b1120dfc4c59718e929e3f4427e6df830e343b7",
+      "pngSha256": "29e5977c2cb005a131582b277909bca06446b7c5ddd89d51dd242570c539d2ee"
+    },
+    {
+      "index": 18,
+      "path": "projects/rpg-run-S-02.json",
+      "project": "projects/frame-0018.json",
+      "svg": "frames/frame-0018.svg",
+      "png": "frames/frame-0018.png",
+      "sha256": "2c55da3b1183fd172a0d035e9ff63fe00859dc3ba2a85b5e8cf588e87af907e4",
+      "svgSha256": "9beba075befeed4e2f75b263ea743ad7d0e5b58892e7b00abffb94edaa9b711a",
+      "pngSha256": "4df3215c534a1460d39de4f7feedd76e2731d3ad839b1751e330a5c51545057b"
+    },
+    {
+      "index": 19,
+      "path": "projects/rpg-run-S-03.json",
+      "project": "projects/frame-0019.json",
+      "svg": "frames/frame-0019.svg",
+      "png": "frames/frame-0019.png",
+      "sha256": "dae5380fe5c5d1b75e6755fea4f2e4e157b813dd3f94ed50255d8a8887d0467f",
+      "svgSha256": "88ea2b45bfbae333e69487ecd36f3de8471ca9554228bccc93a9f7be4bc94ef4",
+      "pngSha256": "03c321d79233acf6287c92235d7a547fbc3197a45d386afbec2ebf50577d6568"
+    },
+    {
+      "index": 20,
+      "path": "projects/rpg-run-S-04.json",
+      "project": "projects/frame-0020.json",
+      "svg": "frames/frame-0020.svg",
+      "png": "frames/frame-0020.png",
+      "sha256": "54aa32d32dd3d44462b6b3cae70efbd3b6215a16fdcd864be326bfdfe02f945b",
+      "svgSha256": "0f361be183531ac1cf3f8999bee5afa56285fc2d49f2b073bc632ac34e4c97ad",
+      "pngSha256": "8d3eaf94acda0a045759cd2971f87e408c7ca836105da75deee02910fa6ae515"
+    },
+    {
+      "index": 21,
+      "path": "projects/rpg-run-S-05.json",
+      "project": "projects/frame-0021.json",
+      "svg": "frames/frame-0021.svg",
+      "png": "frames/frame-0021.png",
+      "sha256": "dcb86f865f6e194b9092313e23d0239c5bcd0f941f63ca13c8b71b2261438650",
+      "svgSha256": "6e11dd0ff87a7838207dea76bbbee4e1ac10f0612ba82e68a8e919a53713b3f2",
+      "pngSha256": "20702385d6a38963c7cafd30c0bc684b4159f001ed39c0ccb5cecbfa741ada0a"
+    },
+    {
+      "index": 22,
+      "path": "projects/rpg-run-S-06.json",
+      "project": "projects/frame-0022.json",
+      "svg": "frames/frame-0022.svg",
+      "png": "frames/frame-0022.png",
+      "sha256": "20a40d56812799f5a39878e9f3a8f2bb9be269bab87a90ad0c56cc19af624656",
+      "svgSha256": "5e4d86d0ef5078e2737c176cf4060a0aeb1e2c457f6a70ba60417d484c95874c",
+      "pngSha256": "a55fcd4ee5b4efbdcd19a46af93d4edce17d3b9112ec12dcbe02f4a5a714f9d4"
+    },
+    {
+      "index": 23,
+      "path": "projects/rpg-run-S-07.json",
+      "project": "projects/frame-0023.json",
+      "svg": "frames/frame-0023.svg",
+      "png": "frames/frame-0023.png",
+      "sha256": "e02108e7abcc164e25a92c3181e70a7ca89fee68dde62d3764bf8138685fafda",
+      "svgSha256": "a67847316a44441c56b240a8f7def464c0b08c75664f1ed28eae45e573b3fd4a",
+      "pngSha256": "f2824f513b141b0681ff110fdec9fd24d05733a1719091378ccf981fd1a68d57"
+    },
+    {
+      "index": 24,
+      "path": "projects/rpg-neutral-SE.json",
+      "project": "projects/frame-0024.json",
+      "svg": "frames/frame-0024.svg",
+      "png": "frames/frame-0024.png",
+      "sha256": "6c7c0b6f424489861f62d1f062f8e780047a544e385c1ca8ddb2a1516a54099a",
+      "svgSha256": "31592220b09c9e4c2f1b05b77e337b91f0b9bc218253b09640ae386497da0a05",
+      "pngSha256": "33ee37d4158985af3a155bda67a070fc9b52fde4e361083247893db5bd866bb9"
+    },
+    {
+      "index": 25,
+      "path": "projects/rpg-walk-contact-SE.json",
+      "project": "projects/frame-0025.json",
+      "svg": "frames/frame-0025.svg",
+      "png": "frames/frame-0025.png",
+      "sha256": "36defe1cb507e8f719ff23be37468f9dcce0a79979933ab10ea33cf557d44ee2",
+      "svgSha256": "af617c0820669c93e65477caa1eb5b4cc19e1b7b87cc256d73895d382e834106",
+      "pngSha256": "671f7cc4818298e8e6c1aed6525d5480a943836903098f49c48efc53862f32d1"
+    },
+    {
+      "index": 26,
+      "path": "projects/rpg-walk-pass-SE.json",
+      "project": "projects/frame-0026.json",
+      "svg": "frames/frame-0026.svg",
+      "png": "frames/frame-0026.png",
+      "sha256": "c82552d2f0340d929df26b3ff23bb6a7e3c201b650308fb8a9993354c2326abc",
+      "svgSha256": "086c80508b5400833a187c0f41d12b65e95dc5409de11e0656f11c0afb8a5bf8",
+      "pngSha256": "8a2cbf0a5b56ff4d516b9c684685073c454a72207e953c66d4106d4ff45d566a"
+    },
+    {
+      "index": 27,
+      "path": "projects/rpg-run-push-SE.json",
+      "project": "projects/frame-0027.json",
+      "svg": "frames/frame-0027.svg",
+      "png": "frames/frame-0027.png",
+      "sha256": "feca1becd4bdbe2f016060ddf82f2d32365f5b55d2dfa491b7dcc6206e10b889",
+      "svgSha256": "56da11cadf21d7093c18dffaa91a5ce3acbca9edc86e8e9f8f648dced124271f",
+      "pngSha256": "9c368dd7cd6f747e7ce4be684733d7e16269aa97dea21e9789f6aa4a85368a15"
+    },
+    {
+      "index": 28,
+      "path": "projects/rpg-run-flight-SE.json",
+      "project": "projects/frame-0028.json",
+      "svg": "frames/frame-0028.svg",
+      "png": "frames/frame-0028.png",
+      "sha256": "5d21e19a14a5e0c9f57d4e597ac81d7b359eeee03c976347fdeeaa8688888fea",
+      "svgSha256": "9df4faa055274d715e38faa4849443b56dd2b8af795c31a0d1645cd848a290d8",
+      "pngSha256": "44f573cac905d4152279fcd5f9429380ef8139987e66e7f7599fe15d8642b9c9"
+    },
+    {
+      "index": 29,
+      "path": "projects/rpg-jump-SE.json",
+      "project": "projects/frame-0029.json",
+      "svg": "frames/frame-0029.svg",
+      "png": "frames/frame-0029.png",
+      "sha256": "721c6fd6c70e7eb38b2914ee1b41f15de2517b294e5db3a5e9f01c8e4d6d2da9",
+      "svgSha256": "222b2565d34def187ed8b57922cb2c19c438fe8aecffe5665ae837cf774ad854",
+      "pngSha256": "258f4a6cfae18e00ba63001b56df35a0e6c00aea1e414c521d66bd99ed4b9570"
+    },
+    {
+      "index": 30,
+      "path": "projects/rpg-crouch-SE.json",
+      "project": "projects/frame-0030.json",
+      "svg": "frames/frame-0030.svg",
+      "png": "frames/frame-0030.png",
+      "sha256": "3c3613f44ccabc94a8a10119c1f4638eb090d356ea2e5fd489a9d1fcc04db886",
+      "svgSha256": "ededa2d32002976645204965c0dcfea8b167ec141815cbdadfdd7ee8c8d99163",
+      "pngSha256": "be33a4e7712f2f71594cd64d83aa79dc0608b415ef5b7de63bf76e2e6ec493e7"
+    },
+    {
+      "index": 31,
+      "path": "projects/rpg-reach-SE.json",
+      "project": "projects/frame-0031.json",
+      "svg": "frames/frame-0031.svg",
+      "png": "frames/frame-0031.png",
+      "sha256": "1936ef32d70fea5d78be8e010e4774a29260af682a9a0445a4eaf81e7901a12e",
+      "svgSha256": "c4e88deef564d33c1cb22db1a98a61863936b854b21e2173324f5e9476f99b8b",
+      "pngSha256": "59003e9ea2d5955af7ef4cd0ce6a72615554e434bec9f3d5e6cde4c807c3b710"
+    },
+    {
+      "index": 32,
+      "path": "projects/rpg-walk-SE-00.json",
+      "project": "projects/frame-0032.json",
+      "svg": "frames/frame-0032.svg",
+      "png": "frames/frame-0032.png",
+      "sha256": "d3a9e87a52fa8f5093ba04ca9f353bd15364935d5ea537ccb56707502412415f",
+      "svgSha256": "ed73a4165192e29c21f8222ca9b6ab0a2457df188aae11d0bf3bb2bdac2278e9",
+      "pngSha256": "b459ee5e236033d2a8765aa5484dcc162033fc3b331373f15feb3f63f01ea4a6"
+    },
+    {
+      "index": 33,
+      "path": "projects/rpg-walk-SE-01.json",
+      "project": "projects/frame-0033.json",
+      "svg": "frames/frame-0033.svg",
+      "png": "frames/frame-0033.png",
+      "sha256": "74ea7fb7cc00516129f74152740ea70d54cb84e73d61ec0fdda376e7580e7966",
+      "svgSha256": "9c14bac5456ec04d7ff77392d3bfb8b71f4ac20f21771d83dd47ed763cd13c45",
+      "pngSha256": "1b37ef8c86e34ded028f4043c613a4b73aea6ed97ea8b1526573c2a25f344675"
+    },
+    {
+      "index": 34,
+      "path": "projects/rpg-walk-SE-02.json",
+      "project": "projects/frame-0034.json",
+      "svg": "frames/frame-0034.svg",
+      "png": "frames/frame-0034.png",
+      "sha256": "ed898a9c57cec28edbe36f99a353f9ed69c5e79a93397a0df3dada2536b9caf1",
+      "svgSha256": "86b3c25634b0fcd53f84d1504942a4b245e2bd87e1c160c483fe523a943df5b8",
+      "pngSha256": "907148268168019d1c0b4910c75ced95ac0eb691bc9465d8c058e0d6db0b0496"
+    },
+    {
+      "index": 35,
+      "path": "projects/rpg-walk-SE-03.json",
+      "project": "projects/frame-0035.json",
+      "svg": "frames/frame-0035.svg",
+      "png": "frames/frame-0035.png",
+      "sha256": "38c0c091df7fb282673048aad34d6ea9c42551a32c12e24bb94a6f903d73de46",
+      "svgSha256": "13be38c80742cb75ab38cbb24e66bcee3f37ac8d8e441884e5375baed495c035",
+      "pngSha256": "ad3c9eb6a1372287e3cb793df835eadde9e14c139fcac23c0801bae7fb939e9e"
+    },
+    {
+      "index": 36,
+      "path": "projects/rpg-walk-SE-04.json",
+      "project": "projects/frame-0036.json",
+      "svg": "frames/frame-0036.svg",
+      "png": "frames/frame-0036.png",
+      "sha256": "5e5161d6a648c0c3e4289ecd675075a1160a1dfaf04fd9f03050e7f27c37987a",
+      "svgSha256": "91f882975cedf62a33bc0efd77a7adc1fb75d7ec3608bb330ad9cdca613515e6",
+      "pngSha256": "41192fad0d349493a7dded7631f0356607ea33a3e75d6f1617bad0ca64006719"
+    },
+    {
+      "index": 37,
+      "path": "projects/rpg-walk-SE-05.json",
+      "project": "projects/frame-0037.json",
+      "svg": "frames/frame-0037.svg",
+      "png": "frames/frame-0037.png",
+      "sha256": "8271df5101e029c8eb7b276fe118e46c7e3ef58d461287fdd2100ced54071ce7",
+      "svgSha256": "9445d5e3397de8b3da6eea8713dd67063af9ea795c3ad9f6529211d70ad079cd",
+      "pngSha256": "1667843f8de5d7680d84f03898158778e57d8d39795b8880cc88ab761cc06c2c"
+    },
+    {
+      "index": 38,
+      "path": "projects/rpg-walk-SE-06.json",
+      "project": "projects/frame-0038.json",
+      "svg": "frames/frame-0038.svg",
+      "png": "frames/frame-0038.png",
+      "sha256": "5f833cecc5a85d094eca9a454923bf650fe01c97a2b626ff266bf1b47ce6314c",
+      "svgSha256": "c2ab62249caa7a546800bdae65dba578f0a02e3941244c0eaa608f7afceb3c29",
+      "pngSha256": "f9f65e28e4c9b6255f93a820057d04bb8b13e1714ed8b44a47dacc023c8af38d"
+    },
+    {
+      "index": 39,
+      "path": "projects/rpg-walk-SE-07.json",
+      "project": "projects/frame-0039.json",
+      "svg": "frames/frame-0039.svg",
+      "png": "frames/frame-0039.png",
+      "sha256": "2786eb970aaff846b34768434ceee70256bfe19af6450ee18c17da2995421aea",
+      "svgSha256": "e587f243b00c3c3455b833ba2e97ab8a5f7b95d9fc35299b1d1228420f1f0f3c",
+      "pngSha256": "61196e6a095c79dd621d725af1ffb2a796b7a030eb680154a5275db0492bcf45"
+    },
+    {
+      "index": 40,
+      "path": "projects/rpg-run-SE-00.json",
+      "project": "projects/frame-0040.json",
+      "svg": "frames/frame-0040.svg",
+      "png": "frames/frame-0040.png",
+      "sha256": "f09adf96e8e826ef29a3869c0d8f4cac7c684dc4037bffccbba6365ccf30755e",
+      "svgSha256": "186eadc25b28733ac0b93bda90c5a53a2463fba5923f15dc3b87921fd28f7315",
+      "pngSha256": "871431ac8470a0f81a7ac274e10f3bb9a8f70161d145561283ad3e46f2e6d1bf"
+    },
+    {
+      "index": 41,
+      "path": "projects/rpg-run-SE-01.json",
+      "project": "projects/frame-0041.json",
+      "svg": "frames/frame-0041.svg",
+      "png": "frames/frame-0041.png",
+      "sha256": "2e012b14ef15b6e51a28cab9a58cdf79ed17be3f4b31ee4eb0bd66efe036e136",
+      "svgSha256": "fa59402ab3056bfe9e806d0af82fdb2f7cbf5466d13d34528a36fef8a0230b11",
+      "pngSha256": "2fc52850138f5d3beb4fec238ee03c39bb5e518e6aaed2594ccb0489bfc1abdd"
+    },
+    {
+      "index": 42,
+      "path": "projects/rpg-run-SE-02.json",
+      "project": "projects/frame-0042.json",
+      "svg": "frames/frame-0042.svg",
+      "png": "frames/frame-0042.png",
+      "sha256": "efcdea7466c7cb8de9fc3fb051a76f0f9e441af2356e1572170f1e2f01b5c160",
+      "svgSha256": "6ceeda4528bb87255c3e18d6f619592619112a2550644baac9a62940137cf7e8",
+      "pngSha256": "e2e3eb87f19a4cc58d5119ae7c8afebda8d84f4be14ca641e8f6dc9a847d7aaf"
+    },
+    {
+      "index": 43,
+      "path": "projects/rpg-run-SE-03.json",
+      "project": "projects/frame-0043.json",
+      "svg": "frames/frame-0043.svg",
+      "png": "frames/frame-0043.png",
+      "sha256": "53f4e1ce62a2883bb7ca6ed18dd2175fc74e33952668888d89395753684ec162",
+      "svgSha256": "96a03bbb57398d7f6526b4c7942787e6270a0a739b2f48000165e54b0b3c6982",
+      "pngSha256": "243f12a7464d7db8e5460b986f19f34e863ad44bc14bf651c661c905cc305b19"
+    },
+    {
+      "index": 44,
+      "path": "projects/rpg-run-SE-04.json",
+      "project": "projects/frame-0044.json",
+      "svg": "frames/frame-0044.svg",
+      "png": "frames/frame-0044.png",
+      "sha256": "3041dc31008b7828ec238054d23705ba469da0a7c6497dc3bb53e4c813c4d5da",
+      "svgSha256": "a803206c4450db616cb38622c5a45056b7e81db0ad8c216804a03f951a5161a0",
+      "pngSha256": "c5fccc525c6f92d9d751f3782a26ed43386a4bb43de989e5bc3c7940fcacb369"
+    },
+    {
+      "index": 45,
+      "path": "projects/rpg-run-SE-05.json",
+      "project": "projects/frame-0045.json",
+      "svg": "frames/frame-0045.svg",
+      "png": "frames/frame-0045.png",
+      "sha256": "8b73812229a0449410a6cf0e4fe2b6e689f5a340cb8c2053aebefeb415cd097b",
+      "svgSha256": "940cd949ce919b9c1a339f0cdc81940bda044e2decc036c83bbb79eb60f2099b",
+      "pngSha256": "4f51e2cc6e8bb518c3ad2c4b19b6eff1547f9c09188a488eda39c0d80e357ce4"
+    },
+    {
+      "index": 46,
+      "path": "projects/rpg-run-SE-06.json",
+      "project": "projects/frame-0046.json",
+      "svg": "frames/frame-0046.svg",
+      "png": "frames/frame-0046.png",
+      "sha256": "7cbbb80dd0024a6fbef78dfa39288fc22e027bbed1117f37d6a59e296940f8f5",
+      "svgSha256": "c8ad326b0b4ea1198ce1fa490ff71fea9029e006ca0574b45b299f005d72d599",
+      "pngSha256": "44ba0e75bdd0c51131d9799a18167724a19e31c6304147cecddba0053d187150"
+    },
+    {
+      "index": 47,
+      "path": "projects/rpg-run-SE-07.json",
+      "project": "projects/frame-0047.json",
+      "svg": "frames/frame-0047.svg",
+      "png": "frames/frame-0047.png",
+      "sha256": "4f904f70aadd289c76c7df0b4ceb6d61b9059e3a222ec5ff6cbdffd920cbbf45",
+      "svgSha256": "495a4c9b629ad1ae268c9f87691ab4e304b730544f1c3433471fdd25d10580c5",
+      "pngSha256": "d6df4c82a598ef9b51ff12988e6f2d935c45f6060f22386c82ed211a36f51632"
+    },
+    {
+      "index": 48,
+      "path": "projects/rpg-neutral-right.json",
+      "project": "projects/frame-0048.json",
+      "svg": "frames/frame-0048.svg",
+      "png": "frames/frame-0048.png",
+      "sha256": "28c48c0fac1b9c1fea0508d822ece343caef66071bb8beaba0e1babbcfdc5c60",
+      "svgSha256": "fdb372ea39709e880b2a5b7ec8d543f26dd756028bac656a31d9010f6b6a1249",
+      "pngSha256": "7a8c71a832d621aeea9f6f5283f4d479d0f6fe18021bdb99292046b95df9faf2"
+    },
+    {
+      "index": 49,
+      "path": "projects/rpg-walk-contact-right.json",
+      "project": "projects/frame-0049.json",
+      "svg": "frames/frame-0049.svg",
+      "png": "frames/frame-0049.png",
+      "sha256": "090e7261645990f0e8ef692d54e4d3c390ce646511852daf9469c0490ee5b31e",
+      "svgSha256": "e8d3c2ab8ecd5534fed29d92de973e37297ff13159c4cf1760760ca7f32faac3",
+      "pngSha256": "1d223262aa9868ef9b787b0917d6617d39b8b7429048d49c48d2c6073aea29be"
+    },
+    {
+      "index": 50,
+      "path": "projects/rpg-walk-pass-right.json",
+      "project": "projects/frame-0050.json",
+      "svg": "frames/frame-0050.svg",
+      "png": "frames/frame-0050.png",
+      "sha256": "9a80e597b79cb4f8c599f5061102e27d80a4e9be4608acbf5f0ae92565131a28",
+      "svgSha256": "007b875a338d169bdd391f463dca9a291765b58a0c3193c687cb165988a7d6de",
+      "pngSha256": "d6c2d9b1b6cd4bf96a48d965fcff5d81f0c952061c75ea5215dc9b0863c11d38"
+    },
+    {
+      "index": 51,
+      "path": "projects/rpg-run-push-right.json",
+      "project": "projects/frame-0051.json",
+      "svg": "frames/frame-0051.svg",
+      "png": "frames/frame-0051.png",
+      "sha256": "446319ac2118e8df33167bcc124f144c59dc5d51f1b9eff92a8ac139d9885ed7",
+      "svgSha256": "5d3a178f2818fbbe47862e4d0160df29c54d5cb2339f5069677df36cfaf2216a",
+      "pngSha256": "fbe254928a63f01cfa0963fe4293c08cf77fed89468a9c94bb297985e9232dc3"
+    },
+    {
+      "index": 52,
+      "path": "projects/rpg-run-flight-right.json",
+      "project": "projects/frame-0052.json",
+      "svg": "frames/frame-0052.svg",
+      "png": "frames/frame-0052.png",
+      "sha256": "0a5fc7509ab68ecf1901ee1515bbc7458fb5d99ab897070e8e104b6dad30b579",
+      "svgSha256": "cd017f7a97b590f4503f4df9e0c3cfcde10fd648259aac55a053e39a0b97fc57",
+      "pngSha256": "f2ff5767735d5e4027de87741f6e3da3aada32bfce25a326dd13d5daceefbb62"
+    },
+    {
+      "index": 53,
+      "path": "projects/rpg-jump-right.json",
+      "project": "projects/frame-0053.json",
+      "svg": "frames/frame-0053.svg",
+      "png": "frames/frame-0053.png",
+      "sha256": "7e29e2cd424f85a8dad3dd15d8ffc39cf6828c811de27159dddeb12b4d942490",
+      "svgSha256": "d98a77bbfe3479578c267ebc654818724d502479e15c330a6e957d23661bf682",
+      "pngSha256": "5adfb38a0f4a0831ef1cafacb31f9b8d5c40e47ed42ebfd31c13005e835b789d"
+    },
+    {
+      "index": 54,
+      "path": "projects/rpg-crouch-right.json",
+      "project": "projects/frame-0054.json",
+      "svg": "frames/frame-0054.svg",
+      "png": "frames/frame-0054.png",
+      "sha256": "35edf93f75539d89d8155fc5fc81bea4b24f44edcb9f227cf8e9b9a2fc74058a",
+      "svgSha256": "28b3c7b84cd23cff7a6e98bf0ff29b23e000acc2659875da516d19676b61cd2a",
+      "pngSha256": "60deff822002f7fd2a07b92c2e17a04e3154255af22b8692fd64f79ed3c6871d"
+    },
+    {
+      "index": 55,
+      "path": "projects/rpg-reach-right.json",
+      "project": "projects/frame-0055.json",
+      "svg": "frames/frame-0055.svg",
+      "png": "frames/frame-0055.png",
+      "sha256": "d053beeb86e8e40ed68f3124a26499bfe233cda958a1220534ee507bacae2ab3",
+      "svgSha256": "86987690277cf319ef068348d887fb003fdd579c4beceedcee54ca60d04ef048",
+      "pngSha256": "68ce62d6b07331ab33d449968b796af24fab2e3e4e2f9f0fe297c88245c1dc0b"
+    },
+    {
+      "index": 56,
+      "path": "projects/rpg-walk-E-00.json",
+      "project": "projects/frame-0056.json",
+      "svg": "frames/frame-0056.svg",
+      "png": "frames/frame-0056.png",
+      "sha256": "2c6914d8f0280f794ffa0e57d47c6e01b3006549f8e0527cda02e7b415b207c9",
+      "svgSha256": "2c94ae525bb0be8242b058a4ddaa58bb0a639994a3fd5afc2443396bfcb81e0b",
+      "pngSha256": "b0326e6066098688a1414e7c25c1c01e0f12fd9a040815a667c4897a93ea3eb0"
+    },
+    {
+      "index": 57,
+      "path": "projects/rpg-walk-E-01.json",
+      "project": "projects/frame-0057.json",
+      "svg": "frames/frame-0057.svg",
+      "png": "frames/frame-0057.png",
+      "sha256": "613f4f365b17775843b07e3a9841c828c4e0b394bfe9a93e7f7514ceafe1fb0f",
+      "svgSha256": "1e843106de564d249b36970e6b17441a5777be11f4b8e905f848ef908e357fb3",
+      "pngSha256": "98eef99fb0a91a1433ef72b2f7bbff0f136a2e305f7802b6120965e4bb7f5c86"
+    },
+    {
+      "index": 58,
+      "path": "projects/rpg-walk-E-02.json",
+      "project": "projects/frame-0058.json",
+      "svg": "frames/frame-0058.svg",
+      "png": "frames/frame-0058.png",
+      "sha256": "627570665a5fe73f3d44bae11889fb7dada819fe0eed971c063490f7e32a0bb0",
+      "svgSha256": "70406a6cd68c70dd678117bd7c5c4f3dce8e41b30c7a205851368f616a15f23c",
+      "pngSha256": "877735e3492a0559d0764edaeb9f9f72ff69d73918a28c5c150578eb251e2018"
+    },
+    {
+      "index": 59,
+      "path": "projects/rpg-walk-E-03.json",
+      "project": "projects/frame-0059.json",
+      "svg": "frames/frame-0059.svg",
+      "png": "frames/frame-0059.png",
+      "sha256": "fe195529ebf56595e46a7e61cd866e9953e06a1dbd0f010991ff59eba5663ba2",
+      "svgSha256": "225a628814ddd609c0b0a6293ba432dda50775cedcaad68c4a5ad151c678a306",
+      "pngSha256": "b52886ecec721a8cb4bf29b8fe210ca23dc9f3237a502f7a635368f6148d3439"
+    },
+    {
+      "index": 60,
+      "path": "projects/rpg-walk-E-04.json",
+      "project": "projects/frame-0060.json",
+      "svg": "frames/frame-0060.svg",
+      "png": "frames/frame-0060.png",
+      "sha256": "c143aba1cd8f85aaf10f637bf681da884a978b74e1fe2ae7feaa98504da9d606",
+      "svgSha256": "74334e9f6c3e50694f6bbbcd12b713f9f181be1c8c2bb26aa987a56f3f3e0726",
+      "pngSha256": "e72c33374ad877102ec3929b04f1cf1e8ad0604bcebb3f83f1e81df55bab92a3"
+    },
+    {
+      "index": 61,
+      "path": "projects/rpg-walk-E-05.json",
+      "project": "projects/frame-0061.json",
+      "svg": "frames/frame-0061.svg",
+      "png": "frames/frame-0061.png",
+      "sha256": "e8d7a5ff687a260450161ae8555fd2d5bf2af5a8f44ce57b9b28389c36e76e80",
+      "svgSha256": "6e8c146bf59e016cc56319488912d6ad604133f7c6273f6c6b71180f16b2a5c8",
+      "pngSha256": "c78676c9ece52b7714cf4901a85dbc5994c71da0453f2de88e1377ec24a48568"
+    },
+    {
+      "index": 62,
+      "path": "projects/rpg-walk-E-06.json",
+      "project": "projects/frame-0062.json",
+      "svg": "frames/frame-0062.svg",
+      "png": "frames/frame-0062.png",
+      "sha256": "b30d1fcb791155f707b2fa01580752c1936c95a664a1594562cab0f439bfc257",
+      "svgSha256": "a9f66ed874ee9de6373493a34ed4964cc968df0abfcdc0259d0bdc022308a1ef",
+      "pngSha256": "4274c75ff8ff0bd69263267eb7ce541ed02b3f1d8847a8495fec52c9fcfe1466"
+    },
+    {
+      "index": 63,
+      "path": "projects/rpg-walk-E-07.json",
+      "project": "projects/frame-0063.json",
+      "svg": "frames/frame-0063.svg",
+      "png": "frames/frame-0063.png",
+      "sha256": "a1bb1c882bb309d5833040d38d0b89bbfd610f94465d8f26c1eb3eec8f85e2d1",
+      "svgSha256": "d301058477c855eff551c6a7207d62917826b8a9b1c371709950f7c6a00f112c",
+      "pngSha256": "1feb2d958ca31113d3550510c9ede696f2f8e04b5da55bef774ceb6f2522c064"
+    },
+    {
+      "index": 64,
+      "path": "projects/rpg-run-E-00.json",
+      "project": "projects/frame-0064.json",
+      "svg": "frames/frame-0064.svg",
+      "png": "frames/frame-0064.png",
+      "sha256": "b575085b234c89657d9625066c0a67d5362e6d653e6b357c6fb10de86e8d0131",
+      "svgSha256": "1154e03b423f991e6b71fb9db210e8d76361d90df62a3a39a1dca7a1a240c9b8",
+      "pngSha256": "2f8abdc9f74e5126a9e8c5962c60069522cdf1cb4f193b5cf84e403f5e0e1782"
+    },
+    {
+      "index": 65,
+      "path": "projects/rpg-run-E-01.json",
+      "project": "projects/frame-0065.json",
+      "svg": "frames/frame-0065.svg",
+      "png": "frames/frame-0065.png",
+      "sha256": "1e51185ee50737df021bd613e362d4dae3fcd591c183de364f051e5373e0dc19",
+      "svgSha256": "6bcf384347121ef34fe92ad182c61b267fb4d9877e7c33ebcbfeea8e38d634d3",
+      "pngSha256": "8f647a73492a49a90bc0b030d50ddfda6e2fb26261e04549e2c4346178d64c03"
+    },
+    {
+      "index": 66,
+      "path": "projects/rpg-run-E-02.json",
+      "project": "projects/frame-0066.json",
+      "svg": "frames/frame-0066.svg",
+      "png": "frames/frame-0066.png",
+      "sha256": "f82090b52d53a390336f1d9b875da97e79ce0e7b3f9c5a50740cc6218f3e4bee",
+      "svgSha256": "7415e0ce0587e1a5cebc506416cf9375556d86aee74c381c563eed2220b0f8f3",
+      "pngSha256": "f2b8c40136bf4a60396361d79602b2f4242261421b5b6f7af937644dc4b4d0e2"
+    },
+    {
+      "index": 67,
+      "path": "projects/rpg-run-E-03.json",
+      "project": "projects/frame-0067.json",
+      "svg": "frames/frame-0067.svg",
+      "png": "frames/frame-0067.png",
+      "sha256": "33b339ae1b93c2c0dce733c92c3b2eda51760ccbda9e69cd75238b7625a7253b",
+      "svgSha256": "15c264546a8b3cf76f5e67e478a5f04812a5044ebe104ec07e67fd0a1a37ea92",
+      "pngSha256": "b6bf9aaf973b21f7af56cda65d373df5e86971f5f12f6356ed173356cd1c19b1"
+    },
+    {
+      "index": 68,
+      "path": "projects/rpg-run-E-04.json",
+      "project": "projects/frame-0068.json",
+      "svg": "frames/frame-0068.svg",
+      "png": "frames/frame-0068.png",
+      "sha256": "36996c236cf00dff7fd5a3b8971b5bd90eb06acb2043ae8a566cc3cbfc52a837",
+      "svgSha256": "436569effdac0ce4a98559124bc5a707605edb27a6de2f4ccc9a18e8575239f1",
+      "pngSha256": "bb2632ade56ddce1fc91986f8365157c3c8449ffe6546fdd2a35c86e9ec1bceb"
+    },
+    {
+      "index": 69,
+      "path": "projects/rpg-run-E-05.json",
+      "project": "projects/frame-0069.json",
+      "svg": "frames/frame-0069.svg",
+      "png": "frames/frame-0069.png",
+      "sha256": "25534cd9f30a2330d92fee08ddaf307832a858302d56d516a627b9c8484224b0",
+      "svgSha256": "1a033b9e87d70ac89c1646021c0e438259e5210090ca1c2a3fd21c6a79bee3e2",
+      "pngSha256": "2a411c34013607f6e2fdf460fd5e0c85c08f8adf9b798d0881695361829dc354"
+    },
+    {
+      "index": 70,
+      "path": "projects/rpg-run-E-06.json",
+      "project": "projects/frame-0070.json",
+      "svg": "frames/frame-0070.svg",
+      "png": "frames/frame-0070.png",
+      "sha256": "9623d64df2e092d2c9899912d930f42118515707a29d8734e8b41184370f2e44",
+      "svgSha256": "2b22758995412a621a6dd5c6f77ed140866b80160f4fa75af4bebaf9e45ef9f3",
+      "pngSha256": "5499f590daa94d3d4b28cd2852b55bcb7aef415f94d1a696a52f6a6298e3b4dc"
+    },
+    {
+      "index": 71,
+      "path": "projects/rpg-run-E-07.json",
+      "project": "projects/frame-0071.json",
+      "svg": "frames/frame-0071.svg",
+      "png": "frames/frame-0071.png",
+      "sha256": "169abf646d817fb6e195ef4eae25283723bbcdd63ca11cb6f0588e43e99d6756",
+      "svgSha256": "91d9f5b5265093bc701dccbdc5aac5db3168704daa3f56d30d8b054c1c53899d",
+      "pngSha256": "b332debe8a58626c1094f9b80ed1696638af237331c0c590809abc518b4be9f1"
+    },
+    {
+      "index": 72,
+      "path": "projects/rpg-neutral-NE.json",
+      "project": "projects/frame-0072.json",
+      "svg": "frames/frame-0072.svg",
+      "png": "frames/frame-0072.png",
+      "sha256": "798c8be459dd258301ec91526ec6bc934bd548236f4c672c7959da50435de2e0",
+      "svgSha256": "4ed231e8c254fa63ef4ceb44d9ae2fbe9924da5b50a6f1cf612f124324d14d86",
+      "pngSha256": "481cfb3cfb815600b85712801a1aab380f73d85af43d700ffd64f926f44815b4"
+    },
+    {
+      "index": 73,
+      "path": "projects/rpg-walk-contact-NE.json",
+      "project": "projects/frame-0073.json",
+      "svg": "frames/frame-0073.svg",
+      "png": "frames/frame-0073.png",
+      "sha256": "702550e8bcc85f0a2c083a329f4fd59b6cf41376123821760272378fe269774f",
+      "svgSha256": "53d9f6055388ffeb0b777d3bf63bf12cf7c823f274c4ebbc186ffcf977237c3d",
+      "pngSha256": "79741fa41f203e4cb1ba13a855548ad8499f69ffbed9530956a98d877fb06578"
+    },
+    {
+      "index": 74,
+      "path": "projects/rpg-walk-pass-NE.json",
+      "project": "projects/frame-0074.json",
+      "svg": "frames/frame-0074.svg",
+      "png": "frames/frame-0074.png",
+      "sha256": "57a4075469266e3c588b300268d8226ab4b0e4d9faaba492ae4103aceaaa942f",
+      "svgSha256": "a49d6917c54bf5c075a7dde83b083206551069cafa4599d95449f1919d5b8228",
+      "pngSha256": "f4a5a8318d87cd94e9800347ded2d0d8f94941ee2bad227e0e1bb043d28c5afb"
+    },
+    {
+      "index": 75,
+      "path": "projects/rpg-run-push-NE.json",
+      "project": "projects/frame-0075.json",
+      "svg": "frames/frame-0075.svg",
+      "png": "frames/frame-0075.png",
+      "sha256": "a851484dd467034011970cf197e238d116cb0ca1cee08625eeec9f1d60b11c5f",
+      "svgSha256": "c10aa3bf30694a0f94c61eaf8eb8a9fbc012476be16196b60797c0f171e94d2c",
+      "pngSha256": "755bb8b09a22d061bdb9c837b641ffcba08c09aa081434f23b5efd8c1fa695eb"
+    },
+    {
+      "index": 76,
+      "path": "projects/rpg-run-flight-NE.json",
+      "project": "projects/frame-0076.json",
+      "svg": "frames/frame-0076.svg",
+      "png": "frames/frame-0076.png",
+      "sha256": "976ef8bfc5ff6cf7504d6059bf830d4695bec82cda4149dc774b4305f675082e",
+      "svgSha256": "73a1c4412b60cd3b13eff54a77ff10280baba7ee5993481b4bf70542e4b8608c",
+      "pngSha256": "c978584f01f69d48d3f0c55f3ed2c6a63a0fc96c8cfe9c8943609d95c96e046f"
+    },
+    {
+      "index": 77,
+      "path": "projects/rpg-jump-NE.json",
+      "project": "projects/frame-0077.json",
+      "svg": "frames/frame-0077.svg",
+      "png": "frames/frame-0077.png",
+      "sha256": "c4bfcf0f4fa3658a783912392fb098395f9ddf0b64db108a94a6275abb675a5b",
+      "svgSha256": "e2e07265eda5acb60e0a055beb0fc281b3954c087d59da327f5c749978628614",
+      "pngSha256": "35821c453762ec04ce575c550faec04cd1f32dc16d41787cf0a4587b6cddce92"
+    },
+    {
+      "index": 78,
+      "path": "projects/rpg-crouch-NE.json",
+      "project": "projects/frame-0078.json",
+      "svg": "frames/frame-0078.svg",
+      "png": "frames/frame-0078.png",
+      "sha256": "7ed420e392b1d7edfcac8a4764fc30840b7ad2a960f687124ff6eb9be2de359b",
+      "svgSha256": "b9d796c3a4e273074e44d77f254ade17d820904c8d51ef98b569ce1813692c9c",
+      "pngSha256": "6cf20b788b99e5f41a48b57495fbd538955b5bca159c42f1194f71b4998e90c2"
+    },
+    {
+      "index": 79,
+      "path": "projects/rpg-reach-NE.json",
+      "project": "projects/frame-0079.json",
+      "svg": "frames/frame-0079.svg",
+      "png": "frames/frame-0079.png",
+      "sha256": "49912ff0cb61d0788fdd8b49ee52e8e085e3a7f35df5c2ea43a40c2b7cbe227c",
+      "svgSha256": "26a4396cb3467b177e0c5b5fdaf49335728c0ae07a445c8863e71f5e0baf9f3a",
+      "pngSha256": "aab3838a5f6636cdcccd3871e9a14f44516e2d9afd265cee1fbaf7abc6c2e62a"
+    },
+    {
+      "index": 80,
+      "path": "projects/rpg-walk-NE-00.json",
+      "project": "projects/frame-0080.json",
+      "svg": "frames/frame-0080.svg",
+      "png": "frames/frame-0080.png",
+      "sha256": "b0d42227c4b692a13993e6f8f53cdfe22c0fbbaf17f4637ff40f72488a52ad87",
+      "svgSha256": "ac3f990120122c68751ee59b302176b63381725940440f94c3f8f36d58685330",
+      "pngSha256": "a7cda13bdf7fe0673193daa135a0c469d7dea3d8490489c98d8f1f3d9307de4a"
+    },
+    {
+      "index": 81,
+      "path": "projects/rpg-walk-NE-01.json",
+      "project": "projects/frame-0081.json",
+      "svg": "frames/frame-0081.svg",
+      "png": "frames/frame-0081.png",
+      "sha256": "aa468bca6c453378a1fee17f54c7858b851d1922605e06b73b25408a2211947a",
+      "svgSha256": "e8f7cb06757dedb2d6653060166018572041d40057192b8c0f4638f51df4f8fb",
+      "pngSha256": "14cc8064ea13f6c47a832cce4d0ac828a343ba8cd69503a2ca9f059ec1b080d3"
+    },
+    {
+      "index": 82,
+      "path": "projects/rpg-walk-NE-02.json",
+      "project": "projects/frame-0082.json",
+      "svg": "frames/frame-0082.svg",
+      "png": "frames/frame-0082.png",
+      "sha256": "0c91b268a8a2570c0858d7ec2f75991d32498be5aa646539ac1aeb567929c7f9",
+      "svgSha256": "f1b800e338ce6fe1db186183e6bc0651d6a686c2cc9f70252155aaa317071db9",
+      "pngSha256": "ce8667549871e578130ce17cddf806e7700e1a12d77256829b2137a8e50839fd"
+    },
+    {
+      "index": 83,
+      "path": "projects/rpg-walk-NE-03.json",
+      "project": "projects/frame-0083.json",
+      "svg": "frames/frame-0083.svg",
+      "png": "frames/frame-0083.png",
+      "sha256": "864e64b90ed0816c8b1aeb8b5ab3adefcce0afa014f268eb3316a567efab6203",
+      "svgSha256": "cd187c640f19a20ca79fc323de1c6b672875662f5262ce1fcddee066ec4e2a7d",
+      "pngSha256": "f5191359e93aa5722b21a66d822d927168ca1ee720772584edd66f07c744ee26"
+    },
+    {
+      "index": 84,
+      "path": "projects/rpg-walk-NE-04.json",
+      "project": "projects/frame-0084.json",
+      "svg": "frames/frame-0084.svg",
+      "png": "frames/frame-0084.png",
+      "sha256": "99c0a29c3e33211cd88ddba45c486b30b35d1481e530decd83caf97f1fec6872",
+      "svgSha256": "9ef749b165411aed75baaeb5f3a037b4f0b30ec1c32f1734a58f3211d6f7e08a",
+      "pngSha256": "20cd74045a3c08913a5e5fc600ab174b162a31d772217c24e57d3f962244f541"
+    },
+    {
+      "index": 85,
+      "path": "projects/rpg-walk-NE-05.json",
+      "project": "projects/frame-0085.json",
+      "svg": "frames/frame-0085.svg",
+      "png": "frames/frame-0085.png",
+      "sha256": "2f91c57941219c6a4ad950028582cb43e12ea413aab7e22fe56905ac39f7cc9b",
+      "svgSha256": "ceda56375dde97ecdb984ae0a13f38f9023423ebf446e50ef9ee4dbf0f4de32c",
+      "pngSha256": "2851ce47c6eb3bef1b4bb779c1282dedbbbba27b4888cf5e333aba80874515ba"
+    },
+    {
+      "index": 86,
+      "path": "projects/rpg-walk-NE-06.json",
+      "project": "projects/frame-0086.json",
+      "svg": "frames/frame-0086.svg",
+      "png": "frames/frame-0086.png",
+      "sha256": "57a6b854686b44dc34a7351744d07576b81de6ed6cf7dfae69565cc373fdc731",
+      "svgSha256": "f6d5028d324db6ee4cef02a5ab5a245a5c51c960fb7ce7b9f7974519d3a52b65",
+      "pngSha256": "32262165dbb1fa1c2c3a553f04b518be36a6dc6797f2f124d8172499ef7cf0ac"
+    },
+    {
+      "index": 87,
+      "path": "projects/rpg-walk-NE-07.json",
+      "project": "projects/frame-0087.json",
+      "svg": "frames/frame-0087.svg",
+      "png": "frames/frame-0087.png",
+      "sha256": "3e534e8ca0c789fa9b223a642fc4d5a60d4ad7d675ab3a8a4ce570080db500b2",
+      "svgSha256": "97ccca2e85e498d71fd12a1293b08791bb21e990178caa8f0e31f33aae12d522",
+      "pngSha256": "8d357aca7d6518a3d1fa46df970dc5c08d931278213efa9f4e1ce420677f7656"
+    },
+    {
+      "index": 88,
+      "path": "projects/rpg-run-NE-00.json",
+      "project": "projects/frame-0088.json",
+      "svg": "frames/frame-0088.svg",
+      "png": "frames/frame-0088.png",
+      "sha256": "6b204159971bc57fd95e1277fa8ae90fc1db2b278c186a844aca8f4335da4e68",
+      "svgSha256": "10b844f5453c42701c4cf18605f3dbf94128b1bb320fd177252473523da654f0",
+      "pngSha256": "49a49ba5c31c7897f52601d9ea7ccec627d71c7f65954eeaf91d3682e3ab3231"
+    }
+  ],
+  "originalStage": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\output\\.agent-draw-sequence-apw60y",
+  "limitations": [
+    "Original process exit and native batch receipt were lost in the host crash. This is recovery/source binding, not a successful native sequence receipt. PNGs must additionally be decoded and checked by retain-eight.py."
+  ]
+}

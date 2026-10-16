@@ -1,0 +1,163 @@
+{
+  "status": "passed",
+  "inferenceRequests": 0,
+  "node": "v24.21.0",
+  "codex": "C:\\Users\\ehart\\AppData\\Local\\agent-workflow\\runtime-v2\\0.4.5-b4ef61d3ae030180-node24.21.0\\node_modules\\@openai\\codex-win32-x64\\vendor\\x86_64-pc-windows-msvc\\bin\\codex.exe",
+  "backend": "mxc",
+  "desktopCompatibility": {
+    "requested": "shared",
+    "applied": true
+  },
+  "hostContext": {
+    "node": "v24.21.0",
+    "osRelease": "10.0.26200",
+    "platform": "win32",
+    "arch": "x64",
+    "sshEnvironmentPresent": true,
+    "windows": {
+      "status": "observed",
+      "sessionId": 0,
+      "elevated": true,
+      "interactive": false,
+      "buildNumber": "26200",
+      "revision": 9711,
+      "displayVersion": "25H2"
+    }
+  },
+  "admission": {
+    "status": "passed",
+    "inferenceRequests": 0,
+    "stages": [
+      {
+        "name": "authentication",
+        "status": "passed",
+        "evidence": {
+          "mode": "chatgpt",
+          "provider": "openai"
+        }
+      },
+      {
+        "name": "windows-readiness",
+        "status": "passed",
+        "evidence": {
+          "status": "ready",
+          "commandProven": false
+        }
+      },
+      {
+        "name": "buffered-command",
+        "status": "passed",
+        "evidence": {
+          "exitCode": 0,
+          "markerObserved": true,
+          "policy": {
+            "type": "readOnly",
+            "networkAccess": false
+          },
+          "outputTruncated": false,
+          "marker": "FOUNDATION_OK"
+        }
+      },
+      {
+        "name": "streamed-command",
+        "status": "passed",
+        "evidence": {
+          "exitCode": 0,
+          "markerObserved": true,
+          "policy": {
+            "type": "readOnly",
+            "networkAccess": false
+          },
+          "outputTruncated": false,
+          "marker": "FOUNDATION_OK"
+        }
+      },
+      {
+        "name": "pty-command",
+        "status": "passed",
+        "evidence": {
+          "exitCode": 0,
+          "markerObserved": true,
+          "policy": {
+            "type": "readOnly",
+            "networkAccess": false
+          },
+          "outputTruncated": false,
+          "marker": "FOUNDATION_OK"
+        }
+      },
+      {
+        "name": "cancellation",
+        "status": "passed",
+        "evidence": {
+          "terminalResponse": true,
+          "exitCode": 1,
+          "descendants": "notVerified"
+        }
+      }
+    ],
+    "runnerEquivalence": "notVerified",
+    "cleanup": {
+      "serverExited": true,
+      "forced": false,
+      "descendants": "notVerified",
+      "jobEmpty": true,
+      "ownershipScope": "windows-job-members",
+      "desktopCompatibility": {
+        "requested": "shared",
+        "applied": true
+      }
+    }
+  },
+  "cleanup": {
+    "serverExited": true,
+    "forced": false,
+    "descendants": "notVerified",
+    "jobEmpty": true,
+    "ownershipScope": "windows-job-members",
+    "startup": [
+      {
+        "stage": "discovery",
+        "cleanup": {
+          "serverExited": true,
+          "forced": false,
+          "descendants": "notVerified",
+          "jobEmpty": true,
+          "ownershipScope": "windows-job-members",
+          "desktopCompatibility": {
+            "requested": "shared",
+            "applied": true
+          }
+        }
+      },
+      {
+        "stage": "admission",
+        "cleanup": {
+          "serverExited": true,
+          "forced": false,
+          "descendants": "notVerified",
+          "jobEmpty": true,
+          "ownershipScope": "windows-job-members",
+          "desktopCompatibility": {
+            "requested": "shared",
+            "applied": true
+          }
+        }
+      },
+      {
+        "stage": "setup",
+        "cleanup": {
+          "serverExited": true,
+          "forced": false,
+          "descendants": "notVerified",
+          "jobEmpty": true,
+          "ownershipScope": "windows-job-members",
+          "desktopCompatibility": {
+            "requested": "shared",
+            "applied": true
+          }
+        }
+      }
+    ]
+  }
+}

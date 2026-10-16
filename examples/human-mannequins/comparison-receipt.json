@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "tool": "agent-draw",
+  "version": "0.4.1",
+  "ok": true,
+  "name": "human-and-compact-rpg-mannequins",
+  "width": 1280,
+  "height": 640,
+  "inkscape": "Inkscape 1.4.3 (0d15f75, 2025-12-25)",
+  "layersBottomToTop": [
+    "human-figure",
+    "human-label",
+    "human-caption",
+    "rpg-figure",
+    "rpg-label",
+    "rpg-caption"
+  ],
+  "editable": "drawing.svg",
+  "source": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\comparison.json",
+  "sourceSha256": "9fb88628b520b22be3ad2d1062fb3739c41595bd84318311d1db325798076612",
+  "artifacts": [
+    {
+      "name": "drawing.svg",
+      "sha256": "7711dbd254d53a13c0d8dac9cd0d4fa584017581523a62b6b480b97a1ca9fd9c"
+    },
+    {
+      "name": "drawing.png",
+      "sha256": "c656930111d1ea8fb8ccb99f0646ef04ec7e4161531aaf9069fb2b67084dfaa6"
+    },
+    {
+      "name": "drawing.pdf",
+      "sha256": "faa0c70e982d43902803ca77d945ed70d142262cec7fd3ec8ddff086609609fc"
+    }
+  ],
+  "warnings": [
+    {
+      "format": "png",
+      "message": "(inkscape.com:14896): Gdk-CRITICAL **: 16:47:57.195: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:14896): Gdk-CRITICAL **: 16:48:04.397: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "format": "pdf",
+      "message": "(inkscape.com:35724): Gdk-CRITICAL **: 16:48:06.667: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:35724): Gdk-CRITICAL **: 16:48:06.810: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    }
+  ]
+}

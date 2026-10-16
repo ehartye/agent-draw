@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en" data-revision="overhead-20261015-r1">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Overhead mannequins · Agent Draw</title><link rel="stylesheet" href="../gallery.css?rev=mannequins-20261015-r4"><style>#detail-art svg{width:min(640px,100%);height:auto}</style></head>
+<body>
+<header class="intro">
+ <div class="brief"><a class="back" href="../">← Human figure starters</a><p class="eyebrow">AGENT DRAW / OVERHEAD CONSTRUCTION</p><h1>A view <br>from above.</h1><p class="lead">Human and compact RPG mannequins seen straight down. Eight compass facings, complete action drawings, and walk and run cycles.</p><a class="bundle" href="overhead-mannequins.zip?rev=overhead-20261015-r1" download>Download the overhead set <span>↘</span></a><p class="small">128 poses + 32 movement loops · JSON + SVG + PNG</p></div>
+ <figure class="comparison"><img src="comparison.png?rev=overhead-20261015-r1" alt="Human and compact RPG mannequins viewed directly from overhead"><figcaption>Longer-limbed Human / larger-headed Compact RPG. Same world scale.</figcaption></figure>
+</header>
+<main>
+ <section class="desk" aria-label="Choose an overhead mannequin">
+  <div class="filters"><label>Build<select id="model"><option value="all">Both builds</option><option value="human">Human</option><option value="rpg">Compact RPG</option></select></label><label>Pose / movement<select id="pose"><option value="all">All poses and loops</option></select></label><label>Facing<select id="direction"><option value="all">All eight facings</option></select></label><label class="check"><input type="checkbox" id="guides" checked>Construction guides</label><output id="count" aria-live="polite"></output></div>
+  <p class="legend">N points up · S down · E right · W left <span class="hint">Select a drawing or loop to inspect it.</span></p>
+  <div id="palette-legend" class="palette-legend" aria-label="Construction guide palette"></div><p class="small">Left/right belongs to the character, through every turn. L joints are circles; R joints are diamonds. Colors identify parts; shading is separate.</p>
+ </section>
+ <p id="status" role="status">Loading overhead drawings…</p><div id="gallery" class="gallery"></div>
+ <section class="notes"><h2>Construct for the camera.</h2><div><p>The crown and shoulders overlap the body beneath them. Upright limbs are strongly foreshortened; advancing knees and reaching hands become visible as their positions change.</p><p>These are bare construction references. Each movement contains eight complete drawings. Clothing, hair and equipment need their own overhead drawing pass.</p><a href="README.md">Using the overhead set ↗</a> · <a href="landmarks.json" download>Joint coordinates ↘</a></div></section>
+</main>
+<dialog id="detail"><button id="close" class="close" aria-label="Close drawing">Close ×</button><h2 id="detail-title"></h2><label class="detail-guide"><input id="detail-guides" type="checkbox"> Construction guides</label><div id="detail-art"></div><div id="transport" hidden><div class="transport-buttons"><button id="previous" aria-label="Previous frame">←</button><button id="play" aria-pressed="false">Play</button><button id="next" aria-label="Next frame">→</button><label>Speed <select id="speed"><option value="1">Normal</option><option value="0.25">Quarter</option></select></label></div><input id="frame-range" aria-label="Animation frame" type="range" min="0" max="7" value="0" step="1"></div><output id="frame-label"></output><div id="detail-downloads"></div><p>Guide colors and joint shapes preserve anatomical identity.</p></dialog>
+<script type="module" src="../gallery.js?rev=mannequins-20261015-r4"></script>
+</body></html>

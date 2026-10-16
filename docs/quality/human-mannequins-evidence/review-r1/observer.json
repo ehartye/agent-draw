@@ -1,0 +1,24 @@
+{
+  "runId": "ed28a389-325f-481e-b6c3-ba4107a65a21",
+  "generation": 1,
+  "attachedWhileRunning": true,
+  "exactReturnedWatchArgvUsed": true,
+  "lastConsumedSeq": 3,
+  "workerPositions": [
+    0,
+    1
+  ],
+  "status": "completed",
+  "idleWarning": {
+    "position": 1,
+    "idleMs": 60279,
+    "reportedToOwner": true,
+    "noRestart": true
+  },
+  "cleanup": {
+    "serverExited": true,
+    "jobEmpty": true,
+    "forced": false,
+    "descendants": "notVerified"
+  }
+}

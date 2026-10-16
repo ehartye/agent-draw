@@ -1,0 +1,4375 @@
+{
+  "loops": [
+    {
+      "clip": "human-walk-S",
+      "speed": "1",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "human-walk-S",
+          "frame": 1,
+          "id": "human-walk-S-01",
+          "time": 1352.2999999821186
+        },
+        {
+          "clip": "human-walk-S",
+          "frame": 2,
+          "id": "human-walk-S-02",
+          "time": 1485.4000000059605
+        },
+        {
+          "clip": "human-walk-S",
+          "frame": 3,
+          "id": "human-walk-S-03",
+          "time": 1602.2999999821186
+        },
+        {
+          "clip": "human-walk-S",
+          "frame": 4,
+          "id": "human-walk-S-04",
+          "time": 1735.199999988079
+        },
+        {
+          "clip": "human-walk-S",
+          "frame": 5,
+          "id": "human-walk-S-05",
+          "time": 1852
+        },
+        {
+          "clip": "human-walk-S",
+          "frame": 6,
+          "id": "human-walk-S-06",
+          "time": 1985.199999988079
+        },
+        {
+          "clip": "human-walk-S",
+          "frame": 7,
+          "id": "human-walk-S-07",
+          "time": 2102.5
+        },
+        {
+          "clip": "human-walk-S",
+          "frame": 0,
+          "id": "human-walk-S-00",
+          "time": 2235.4000000059605
+        },
+        {
+          "clip": "human-walk-S",
+          "frame": 1,
+          "id": "human-walk-S-01",
+          "time": 2352
+        },
+        {
+          "clip": "human-walk-S",
+          "frame": 2,
+          "id": "human-walk-S-02",
+          "time": 2485.7999999821186
+        }
+      ],
+      "averageIntervalMs": 125.94444444444444
+    },
+    {
+      "clip": "human-walk-S",
+      "speed": "0.25",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "human-walk-S",
+          "frame": 3,
+          "id": "human-walk-S-03",
+          "time": 3069
+        },
+        {
+          "clip": "human-walk-S",
+          "frame": 4,
+          "id": "human-walk-S-04",
+          "time": 3569.2999999821186
+        },
+        {
+          "clip": "human-walk-S",
+          "frame": 5,
+          "id": "human-walk-S-05",
+          "time": 4068.4000000059605
+        },
+        {
+          "clip": "human-walk-S",
+          "frame": 6,
+          "id": "human-walk-S-06",
+          "time": 4569.5999999940395
+        },
+        {
+          "clip": "human-walk-S",
+          "frame": 7,
+          "id": "human-walk-S-07",
+          "time": 5068.5999999940395
+        },
+        {
+          "clip": "human-walk-S",
+          "frame": 0,
+          "id": "human-walk-S-00",
+          "time": 5568.9000000059605
+        },
+        {
+          "clip": "human-walk-S",
+          "frame": 1,
+          "id": "human-walk-S-01",
+          "time": 6069
+        },
+        {
+          "clip": "human-walk-S",
+          "frame": 2,
+          "id": "human-walk-S-02",
+          "time": 6568.0999999940395
+        },
+        {
+          "clip": "human-walk-S",
+          "frame": 3,
+          "id": "human-walk-S-03",
+          "time": 7070.199999988079
+        },
+        {
+          "clip": "human-walk-S",
+          "frame": 4,
+          "id": "human-walk-S-04",
+          "time": 7568.699999988079
+        }
+      ],
+      "averageIntervalMs": 499.96666666534213
+    },
+    {
+      "clip": "human-run-S",
+      "speed": "1",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "human-run-S",
+          "frame": 1,
+          "id": "human-run-S-01",
+          "time": 7968.9000000059605
+        },
+        {
+          "clip": "human-run-S",
+          "frame": 2,
+          "id": "human-run-S-02",
+          "time": 8052.4000000059605
+        },
+        {
+          "clip": "human-run-S",
+          "frame": 3,
+          "id": "human-run-S-03",
+          "time": 8134.9000000059605
+        },
+        {
+          "clip": "human-run-S",
+          "frame": 4,
+          "id": "human-run-S-04",
+          "time": 8218.799999982119
+        },
+        {
+          "clip": "human-run-S",
+          "frame": 5,
+          "id": "human-run-S-05",
+          "time": 8301.59999999404
+        },
+        {
+          "clip": "human-run-S",
+          "frame": 6,
+          "id": "human-run-S-06",
+          "time": 8386.199999988079
+        },
+        {
+          "clip": "human-run-S",
+          "frame": 7,
+          "id": "human-run-S-07",
+          "time": 8469.90000000596
+        },
+        {
+          "clip": "human-run-S",
+          "frame": 0,
+          "id": "human-run-S-00",
+          "time": 8552.09999999404
+        },
+        {
+          "clip": "human-run-S",
+          "frame": 1,
+          "id": "human-run-S-01",
+          "time": 8635.40000000596
+        },
+        {
+          "clip": "human-run-S",
+          "frame": 2,
+          "id": "human-run-S-02",
+          "time": 8718.40000000596
+        }
+      ],
+      "averageIntervalMs": 83.27777777777777
+    },
+    {
+      "clip": "human-run-S",
+      "speed": "0.25",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "human-run-S",
+          "frame": 3,
+          "id": "human-run-S-03",
+          "time": 9135.199999988079
+        },
+        {
+          "clip": "human-run-S",
+          "frame": 4,
+          "id": "human-run-S-04",
+          "time": 9468.90000000596
+        },
+        {
+          "clip": "human-run-S",
+          "frame": 5,
+          "id": "human-run-S-05",
+          "time": 9802.09999999404
+        },
+        {
+          "clip": "human-run-S",
+          "frame": 6,
+          "id": "human-run-S-06",
+          "time": 10135.59999999404
+        },
+        {
+          "clip": "human-run-S",
+          "frame": 7,
+          "id": "human-run-S-07",
+          "time": 10468.199999988079
+        },
+        {
+          "clip": "human-run-S",
+          "frame": 0,
+          "id": "human-run-S-00",
+          "time": 10802.299999982119
+        },
+        {
+          "clip": "human-run-S",
+          "frame": 1,
+          "id": "human-run-S-01",
+          "time": 11135.40000000596
+        },
+        {
+          "clip": "human-run-S",
+          "frame": 2,
+          "id": "human-run-S-02",
+          "time": 11468.299999982119
+        },
+        {
+          "clip": "human-run-S",
+          "frame": 3,
+          "id": "human-run-S-03",
+          "time": 11802.199999988079
+        },
+        {
+          "clip": "human-run-S",
+          "frame": 4,
+          "id": "human-run-S-04",
+          "time": 12134.5
+        }
+      ],
+      "averageIntervalMs": 333.2555555568801
+    },
+    {
+      "clip": "human-walk-SE",
+      "speed": "1",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "human-walk-SE",
+          "frame": 1,
+          "id": "human-walk-SE-01",
+          "time": 12585.5
+        },
+        {
+          "clip": "human-walk-SE",
+          "frame": 2,
+          "id": "human-walk-SE-02",
+          "time": 12719.299999982119
+        },
+        {
+          "clip": "human-walk-SE",
+          "frame": 3,
+          "id": "human-walk-SE-03",
+          "time": 12835.799999982119
+        },
+        {
+          "clip": "human-walk-SE",
+          "frame": 4,
+          "id": "human-walk-SE-04",
+          "time": 12968.5
+        },
+        {
+          "clip": "human-walk-SE",
+          "frame": 5,
+          "id": "human-walk-SE-05",
+          "time": 13084.90000000596
+        },
+        {
+          "clip": "human-walk-SE",
+          "frame": 6,
+          "id": "human-walk-SE-06",
+          "time": 13219.299999982119
+        },
+        {
+          "clip": "human-walk-SE",
+          "frame": 7,
+          "id": "human-walk-SE-07",
+          "time": 13335.299999982119
+        },
+        {
+          "clip": "human-walk-SE",
+          "frame": 0,
+          "id": "human-walk-SE-00",
+          "time": 13467.799999982119
+        },
+        {
+          "clip": "human-walk-SE",
+          "frame": 1,
+          "id": "human-walk-SE-01",
+          "time": 13584.799999982119
+        },
+        {
+          "clip": "human-walk-SE",
+          "frame": 2,
+          "id": "human-walk-SE-02",
+          "time": 13718.59999999404
+        }
+      ],
+      "averageIntervalMs": 125.89999999933772
+    },
+    {
+      "clip": "human-walk-SE",
+      "speed": "0.25",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "human-walk-SE",
+          "frame": 3,
+          "id": "human-walk-SE-03",
+          "time": 14301.40000000596
+        },
+        {
+          "clip": "human-walk-SE",
+          "frame": 4,
+          "id": "human-walk-SE-04",
+          "time": 14801.59999999404
+        },
+        {
+          "clip": "human-walk-SE",
+          "frame": 5,
+          "id": "human-walk-SE-05",
+          "time": 15301.5
+        },
+        {
+          "clip": "human-walk-SE",
+          "frame": 6,
+          "id": "human-walk-SE-06",
+          "time": 15802.09999999404
+        },
+        {
+          "clip": "human-walk-SE",
+          "frame": 7,
+          "id": "human-walk-SE-07",
+          "time": 16302
+        },
+        {
+          "clip": "human-walk-SE",
+          "frame": 0,
+          "id": "human-walk-SE-00",
+          "time": 16801.90000000596
+        },
+        {
+          "clip": "human-walk-SE",
+          "frame": 1,
+          "id": "human-walk-SE-01",
+          "time": 17301.69999998808
+        },
+        {
+          "clip": "human-walk-SE",
+          "frame": 2,
+          "id": "human-walk-SE-02",
+          "time": 17801.09999999404
+        },
+        {
+          "clip": "human-walk-SE",
+          "frame": 3,
+          "id": "human-walk-SE-03",
+          "time": 18301.5
+        },
+        {
+          "clip": "human-walk-SE",
+          "frame": 4,
+          "id": "human-walk-SE-04",
+          "time": 18801.79999998212
+        }
+      ],
+      "averageIntervalMs": 500.04444444179535
+    },
+    {
+      "clip": "human-run-SE",
+      "speed": "1",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "human-run-SE",
+          "frame": 1,
+          "id": "human-run-SE-01",
+          "time": 19119
+        },
+        {
+          "clip": "human-run-SE",
+          "frame": 2,
+          "id": "human-run-SE-02",
+          "time": 19201.19999998808
+        },
+        {
+          "clip": "human-run-SE",
+          "frame": 3,
+          "id": "human-run-SE-03",
+          "time": 19285
+        },
+        {
+          "clip": "human-run-SE",
+          "frame": 4,
+          "id": "human-run-SE-04",
+          "time": 19368.90000000596
+        },
+        {
+          "clip": "human-run-SE",
+          "frame": 5,
+          "id": "human-run-SE-05",
+          "time": 19451.69999998808
+        },
+        {
+          "clip": "human-run-SE",
+          "frame": 6,
+          "id": "human-run-SE-06",
+          "time": 19534.79999998212
+        },
+        {
+          "clip": "human-run-SE",
+          "frame": 7,
+          "id": "human-run-SE-07",
+          "time": 19618.90000000596
+        },
+        {
+          "clip": "human-run-SE",
+          "frame": 0,
+          "id": "human-run-SE-00",
+          "time": 19701.5
+        },
+        {
+          "clip": "human-run-SE",
+          "frame": 1,
+          "id": "human-run-SE-01",
+          "time": 19784.69999998808
+        },
+        {
+          "clip": "human-run-SE",
+          "frame": 2,
+          "id": "human-run-SE-02",
+          "time": 19868.79999998212
+        }
+      ],
+      "averageIntervalMs": 83.31111110912428
+    },
+    {
+      "clip": "human-run-SE",
+      "speed": "0.25",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "human-run-SE",
+          "frame": 3,
+          "id": "human-run-SE-03",
+          "time": 20285
+        },
+        {
+          "clip": "human-run-SE",
+          "frame": 4,
+          "id": "human-run-SE-04",
+          "time": 20617.59999999404
+        },
+        {
+          "clip": "human-run-SE",
+          "frame": 5,
+          "id": "human-run-SE-05",
+          "time": 20951.5
+        },
+        {
+          "clip": "human-run-SE",
+          "frame": 6,
+          "id": "human-run-SE-06",
+          "time": 21284.59999999404
+        },
+        {
+          "clip": "human-run-SE",
+          "frame": 7,
+          "id": "human-run-SE-07",
+          "time": 21618.29999998212
+        },
+        {
+          "clip": "human-run-SE",
+          "frame": 0,
+          "id": "human-run-SE-00",
+          "time": 21951.69999998808
+        },
+        {
+          "clip": "human-run-SE",
+          "frame": 1,
+          "id": "human-run-SE-01",
+          "time": 22285.69999998808
+        },
+        {
+          "clip": "human-run-SE",
+          "frame": 2,
+          "id": "human-run-SE-02",
+          "time": 22618.5
+        },
+        {
+          "clip": "human-run-SE",
+          "frame": 3,
+          "id": "human-run-SE-03",
+          "time": 22951.5
+        },
+        {
+          "clip": "human-run-SE",
+          "frame": 4,
+          "id": "human-run-SE-04",
+          "time": 23284.69999998808
+        }
+      ],
+      "averageIntervalMs": 333.29999999867545
+    },
+    {
+      "clip": "human-walk-E",
+      "speed": "1",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "human-walk-E",
+          "frame": 1,
+          "id": "human-walk-E-01",
+          "time": 23634.40000000596
+        },
+        {
+          "clip": "human-walk-E",
+          "frame": 2,
+          "id": "human-walk-E-02",
+          "time": 23768.69999998808
+        },
+        {
+          "clip": "human-walk-E",
+          "frame": 3,
+          "id": "human-walk-E-03",
+          "time": 23884.69999998808
+        },
+        {
+          "clip": "human-walk-E",
+          "frame": 4,
+          "id": "human-walk-E-04",
+          "time": 24017.40000000596
+        },
+        {
+          "clip": "human-walk-E",
+          "frame": 5,
+          "id": "human-walk-E-05",
+          "time": 24135
+        },
+        {
+          "clip": "human-walk-E",
+          "frame": 6,
+          "id": "human-walk-E-06",
+          "time": 24268.29999998212
+        },
+        {
+          "clip": "human-walk-E",
+          "frame": 7,
+          "id": "human-walk-E-07",
+          "time": 24384.5
+        },
+        {
+          "clip": "human-walk-E",
+          "frame": 0,
+          "id": "human-walk-E-00",
+          "time": 24517.5
+        },
+        {
+          "clip": "human-walk-E",
+          "frame": 1,
+          "id": "human-walk-E-01",
+          "time": 24634.19999998808
+        },
+        {
+          "clip": "human-walk-E",
+          "frame": 2,
+          "id": "human-walk-E-02",
+          "time": 24767.59999999404
+        }
+      ],
+      "averageIntervalMs": 125.91111110978656
+    },
+    {
+      "clip": "human-walk-E",
+      "speed": "0.25",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "human-walk-E",
+          "frame": 3,
+          "id": "human-walk-E-03",
+          "time": 25351.29999998212
+        },
+        {
+          "clip": "human-walk-E",
+          "frame": 4,
+          "id": "human-walk-E-04",
+          "time": 25851
+        },
+        {
+          "clip": "human-walk-E",
+          "frame": 5,
+          "id": "human-walk-E-05",
+          "time": 26351.5
+        },
+        {
+          "clip": "human-walk-E",
+          "frame": 6,
+          "id": "human-walk-E-06",
+          "time": 26850.5
+        },
+        {
+          "clip": "human-walk-E",
+          "frame": 7,
+          "id": "human-walk-E-07",
+          "time": 27350.59999999404
+        },
+        {
+          "clip": "human-walk-E",
+          "frame": 0,
+          "id": "human-walk-E-00",
+          "time": 27850.69999998808
+        },
+        {
+          "clip": "human-walk-E",
+          "frame": 1,
+          "id": "human-walk-E-01",
+          "time": 28351.79999998212
+        },
+        {
+          "clip": "human-walk-E",
+          "frame": 2,
+          "id": "human-walk-E-02",
+          "time": 28851.19999998808
+        },
+        {
+          "clip": "human-walk-E",
+          "frame": 3,
+          "id": "human-walk-E-03",
+          "time": 29350.79999998212
+        },
+        {
+          "clip": "human-walk-E",
+          "frame": 4,
+          "id": "human-walk-E-04",
+          "time": 29851.5
+        }
+      ],
+      "averageIntervalMs": 500.02222222420903
+    },
+    {
+      "clip": "human-run-E",
+      "speed": "1",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "human-run-E",
+          "frame": 1,
+          "id": "human-run-E-01",
+          "time": 30201.5
+        },
+        {
+          "clip": "human-run-E",
+          "frame": 2,
+          "id": "human-run-E-02",
+          "time": 30284.19999998808
+        },
+        {
+          "clip": "human-run-E",
+          "frame": 3,
+          "id": "human-run-E-03",
+          "time": 30368.09999999404
+        },
+        {
+          "clip": "human-run-E",
+          "frame": 4,
+          "id": "human-run-E-04",
+          "time": 30451.19999998808
+        },
+        {
+          "clip": "human-run-E",
+          "frame": 5,
+          "id": "human-run-E-05",
+          "time": 30534.29999998212
+        },
+        {
+          "clip": "human-run-E",
+          "frame": 6,
+          "id": "human-run-E-06",
+          "time": 30617.69999998808
+        },
+        {
+          "clip": "human-run-E",
+          "frame": 7,
+          "id": "human-run-E-07",
+          "time": 30700.90000000596
+        },
+        {
+          "clip": "human-run-E",
+          "frame": 0,
+          "id": "human-run-E-00",
+          "time": 30784.5
+        },
+        {
+          "clip": "human-run-E",
+          "frame": 1,
+          "id": "human-run-E-01",
+          "time": 30867.90000000596
+        },
+        {
+          "clip": "human-run-E",
+          "frame": 2,
+          "id": "human-run-E-02",
+          "time": 30950.79999998212
+        }
+      ],
+      "averageIntervalMs": 83.25555555356874
+    },
+    {
+      "clip": "human-run-E",
+      "speed": "0.25",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "human-run-E",
+          "frame": 3,
+          "id": "human-run-E-03",
+          "time": 31367.69999998808
+        },
+        {
+          "clip": "human-run-E",
+          "frame": 4,
+          "id": "human-run-E-04",
+          "time": 31700.69999998808
+        },
+        {
+          "clip": "human-run-E",
+          "frame": 5,
+          "id": "human-run-E-05",
+          "time": 32034.59999999404
+        },
+        {
+          "clip": "human-run-E",
+          "frame": 6,
+          "id": "human-run-E-06",
+          "time": 32367.59999999404
+        },
+        {
+          "clip": "human-run-E",
+          "frame": 7,
+          "id": "human-run-E-07",
+          "time": 32700.90000000596
+        },
+        {
+          "clip": "human-run-E",
+          "frame": 0,
+          "id": "human-run-E-00",
+          "time": 33034.19999998808
+        },
+        {
+          "clip": "human-run-E",
+          "frame": 1,
+          "id": "human-run-E-01",
+          "time": 33368.09999999404
+        },
+        {
+          "clip": "human-run-E",
+          "frame": 2,
+          "id": "human-run-E-02",
+          "time": 33700.79999998212
+        },
+        {
+          "clip": "human-run-E",
+          "frame": 3,
+          "id": "human-run-E-03",
+          "time": 34034.59999999404
+        },
+        {
+          "clip": "human-run-E",
+          "frame": 4,
+          "id": "human-run-E-04",
+          "time": 34367.59999999404
+        }
+      ],
+      "averageIntervalMs": 333.3222222228845
+    },
+    {
+      "clip": "human-walk-NE",
+      "speed": "1",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "human-walk-NE",
+          "frame": 1,
+          "id": "human-walk-NE-01",
+          "time": 34717.40000000596
+        },
+        {
+          "clip": "human-walk-NE",
+          "frame": 2,
+          "id": "human-walk-NE-02",
+          "time": 34851.5
+        },
+        {
+          "clip": "human-walk-NE",
+          "frame": 3,
+          "id": "human-walk-NE-03",
+          "time": 34967.29999998212
+        },
+        {
+          "clip": "human-walk-NE",
+          "frame": 4,
+          "id": "human-walk-NE-04",
+          "time": 35101.69999998808
+        },
+        {
+          "clip": "human-walk-NE",
+          "frame": 5,
+          "id": "human-walk-NE-05",
+          "time": 35217.79999998212
+        },
+        {
+          "clip": "human-walk-NE",
+          "frame": 6,
+          "id": "human-walk-NE-06",
+          "time": 35350.5
+        },
+        {
+          "clip": "human-walk-NE",
+          "frame": 7,
+          "id": "human-walk-NE-07",
+          "time": 35468.09999999404
+        },
+        {
+          "clip": "human-walk-NE",
+          "frame": 0,
+          "id": "human-walk-NE-00",
+          "time": 35601.69999998808
+        },
+        {
+          "clip": "human-walk-NE",
+          "frame": 1,
+          "id": "human-walk-NE-01",
+          "time": 35717.79999998212
+        },
+        {
+          "clip": "human-walk-NE",
+          "frame": 2,
+          "id": "human-walk-NE-02",
+          "time": 35850.79999998212
+        }
+      ],
+      "averageIntervalMs": 125.93333333068423
+    },
+    {
+      "clip": "human-walk-NE",
+      "speed": "0.25",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "human-walk-NE",
+          "frame": 3,
+          "id": "human-walk-NE-03",
+          "time": 36434.09999999404
+        },
+        {
+          "clip": "human-walk-NE",
+          "frame": 4,
+          "id": "human-walk-NE-04",
+          "time": 36933.79999998212
+        },
+        {
+          "clip": "human-walk-NE",
+          "frame": 5,
+          "id": "human-walk-NE-05",
+          "time": 37434.19999998808
+        },
+        {
+          "clip": "human-walk-NE",
+          "frame": 6,
+          "id": "human-walk-NE-06",
+          "time": 37934.79999998212
+        },
+        {
+          "clip": "human-walk-NE",
+          "frame": 7,
+          "id": "human-walk-NE-07",
+          "time": 38433.90000000596
+        },
+        {
+          "clip": "human-walk-NE",
+          "frame": 0,
+          "id": "human-walk-NE-00",
+          "time": 38934.09999999404
+        },
+        {
+          "clip": "human-walk-NE",
+          "frame": 1,
+          "id": "human-walk-NE-01",
+          "time": 39433.79999998212
+        },
+        {
+          "clip": "human-walk-NE",
+          "frame": 2,
+          "id": "human-walk-NE-02",
+          "time": 39934.40000000596
+        },
+        {
+          "clip": "human-walk-NE",
+          "frame": 3,
+          "id": "human-walk-NE-03",
+          "time": 40433.79999998212
+        },
+        {
+          "clip": "human-walk-NE",
+          "frame": 4,
+          "id": "human-walk-NE-04",
+          "time": 40933.90000000596
+        }
+      ],
+      "averageIntervalMs": 499.9777777791023
+    },
+    {
+      "clip": "human-run-NE",
+      "speed": "1",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "human-run-NE",
+          "frame": 1,
+          "id": "human-run-NE-01",
+          "time": 41350.79999998212
+        },
+        {
+          "clip": "human-run-NE",
+          "frame": 2,
+          "id": "human-run-NE-02",
+          "time": 41433.79999998212
+        },
+        {
+          "clip": "human-run-NE",
+          "frame": 3,
+          "id": "human-run-NE-03",
+          "time": 41517.40000000596
+        },
+        {
+          "clip": "human-run-NE",
+          "frame": 4,
+          "id": "human-run-NE-04",
+          "time": 41600.79999998212
+        },
+        {
+          "clip": "human-run-NE",
+          "frame": 5,
+          "id": "human-run-NE-05",
+          "time": 41683.69999998808
+        },
+        {
+          "clip": "human-run-NE",
+          "frame": 6,
+          "id": "human-run-NE-06",
+          "time": 41766.69999998808
+        },
+        {
+          "clip": "human-run-NE",
+          "frame": 7,
+          "id": "human-run-NE-07",
+          "time": 41850.59999999404
+        },
+        {
+          "clip": "human-run-NE",
+          "frame": 0,
+          "id": "human-run-NE-00",
+          "time": 41933.59999999404
+        },
+        {
+          "clip": "human-run-NE",
+          "frame": 1,
+          "id": "human-run-NE-01",
+          "time": 42017.09999999404
+        },
+        {
+          "clip": "human-run-NE",
+          "frame": 2,
+          "id": "human-run-NE-02",
+          "time": 42101.09999999404
+        }
+      ],
+      "averageIntervalMs": 83.36666666799121
+    },
+    {
+      "clip": "human-run-NE",
+      "speed": "0.25",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "human-run-NE",
+          "frame": 3,
+          "id": "human-run-NE-03",
+          "time": 42517.69999998808
+        },
+        {
+          "clip": "human-run-NE",
+          "frame": 4,
+          "id": "human-run-NE-04",
+          "time": 42850.79999998212
+        },
+        {
+          "clip": "human-run-NE",
+          "frame": 5,
+          "id": "human-run-NE-05",
+          "time": 43184.40000000596
+        },
+        {
+          "clip": "human-run-NE",
+          "frame": 6,
+          "id": "human-run-NE-06",
+          "time": 43517.5
+        },
+        {
+          "clip": "human-run-NE",
+          "frame": 7,
+          "id": "human-run-NE-07",
+          "time": 43851.40000000596
+        },
+        {
+          "clip": "human-run-NE",
+          "frame": 0,
+          "id": "human-run-NE-00",
+          "time": 44183.79999998212
+        },
+        {
+          "clip": "human-run-NE",
+          "frame": 1,
+          "id": "human-run-NE-01",
+          "time": 44517.29999998212
+        },
+        {
+          "clip": "human-run-NE",
+          "frame": 2,
+          "id": "human-run-NE-02",
+          "time": 44850.90000000596
+        },
+        {
+          "clip": "human-run-NE",
+          "frame": 3,
+          "id": "human-run-NE-03",
+          "time": 45183.90000000596
+        },
+        {
+          "clip": "human-run-NE",
+          "frame": 4,
+          "id": "human-run-NE-04",
+          "time": 45518.19999998808
+        }
+      ],
+      "averageIntervalMs": 333.3888888888889
+    },
+    {
+      "clip": "human-walk-N",
+      "speed": "1",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "human-walk-N",
+          "frame": 1,
+          "id": "human-walk-N-01",
+          "time": 46017.40000000596
+        },
+        {
+          "clip": "human-walk-N",
+          "frame": 2,
+          "id": "human-walk-N-02",
+          "time": 46150.69999998808
+        },
+        {
+          "clip": "human-walk-N",
+          "frame": 3,
+          "id": "human-walk-N-03",
+          "time": 46267.19999998808
+        },
+        {
+          "clip": "human-walk-N",
+          "frame": 4,
+          "id": "human-walk-N-04",
+          "time": 46400.09999999404
+        },
+        {
+          "clip": "human-walk-N",
+          "frame": 5,
+          "id": "human-walk-N-05",
+          "time": 46517
+        },
+        {
+          "clip": "human-walk-N",
+          "frame": 6,
+          "id": "human-walk-N-06",
+          "time": 46650.69999998808
+        },
+        {
+          "clip": "human-walk-N",
+          "frame": 7,
+          "id": "human-walk-N-07",
+          "time": 46767
+        },
+        {
+          "clip": "human-walk-N",
+          "frame": 0,
+          "id": "human-walk-N-00",
+          "time": 46900.29999998212
+        },
+        {
+          "clip": "human-walk-N",
+          "frame": 1,
+          "id": "human-walk-N-01",
+          "time": 47017.19999998808
+        },
+        {
+          "clip": "human-walk-N",
+          "frame": 2,
+          "id": "human-walk-N-02",
+          "time": 47150.69999998808
+        }
+      ],
+      "averageIntervalMs": 125.9222222202354
+    },
+    {
+      "clip": "human-walk-N",
+      "speed": "0.25",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "human-walk-N",
+          "frame": 3,
+          "id": "human-walk-N-03",
+          "time": 47733.59999999404
+        },
+        {
+          "clip": "human-walk-N",
+          "frame": 4,
+          "id": "human-walk-N-04",
+          "time": 48233.40000000596
+        },
+        {
+          "clip": "human-walk-N",
+          "frame": 5,
+          "id": "human-walk-N-05",
+          "time": 48733.90000000596
+        },
+        {
+          "clip": "human-walk-N",
+          "frame": 6,
+          "id": "human-walk-N-06",
+          "time": 49233.79999998212
+        },
+        {
+          "clip": "human-walk-N",
+          "frame": 7,
+          "id": "human-walk-N-07",
+          "time": 49734.29999998212
+        },
+        {
+          "clip": "human-walk-N",
+          "frame": 0,
+          "id": "human-walk-N-00",
+          "time": 50234.19999998808
+        },
+        {
+          "clip": "human-walk-N",
+          "frame": 1,
+          "id": "human-walk-N-01",
+          "time": 50733.09999999404
+        },
+        {
+          "clip": "human-walk-N",
+          "frame": 2,
+          "id": "human-walk-N-02",
+          "time": 51233.90000000596
+        },
+        {
+          "clip": "human-walk-N",
+          "frame": 3,
+          "id": "human-walk-N-03",
+          "time": 51733.29999998212
+        },
+        {
+          "clip": "human-walk-N",
+          "frame": 4,
+          "id": "human-walk-N-04",
+          "time": 52234.19999998808
+        }
+      ],
+      "averageIntervalMs": 500.0666666660044
+    },
+    {
+      "clip": "human-run-N",
+      "speed": "1",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "human-run-N",
+          "frame": 1,
+          "id": "human-run-N-01",
+          "time": 52550.29999998212
+        },
+        {
+          "clip": "human-run-N",
+          "frame": 2,
+          "id": "human-run-N-02",
+          "time": 52633.40000000596
+        },
+        {
+          "clip": "human-run-N",
+          "frame": 3,
+          "id": "human-run-N-03",
+          "time": 52716.5
+        },
+        {
+          "clip": "human-run-N",
+          "frame": 4,
+          "id": "human-run-N-04",
+          "time": 52801
+        },
+        {
+          "clip": "human-run-N",
+          "frame": 5,
+          "id": "human-run-N-05",
+          "time": 52884.40000000596
+        },
+        {
+          "clip": "human-run-N",
+          "frame": 6,
+          "id": "human-run-N-06",
+          "time": 52967.29999998212
+        },
+        {
+          "clip": "human-run-N",
+          "frame": 7,
+          "id": "human-run-N-07",
+          "time": 53049.90000000596
+        },
+        {
+          "clip": "human-run-N",
+          "frame": 0,
+          "id": "human-run-N-00",
+          "time": 53133.69999998808
+        },
+        {
+          "clip": "human-run-N",
+          "frame": 1,
+          "id": "human-run-N-01",
+          "time": 53216.90000000596
+        },
+        {
+          "clip": "human-run-N",
+          "frame": 2,
+          "id": "human-run-N-02",
+          "time": 53300.09999999404
+        }
+      ],
+      "averageIntervalMs": 83.31111111243565
+    },
+    {
+      "clip": "human-run-N",
+      "speed": "0.25",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "human-run-N",
+          "frame": 3,
+          "id": "human-run-N-03",
+          "time": 53717
+        },
+        {
+          "clip": "human-run-N",
+          "frame": 4,
+          "id": "human-run-N-04",
+          "time": 54050.09999999404
+        },
+        {
+          "clip": "human-run-N",
+          "frame": 5,
+          "id": "human-run-N-05",
+          "time": 54383.09999999404
+        },
+        {
+          "clip": "human-run-N",
+          "frame": 6,
+          "id": "human-run-N-06",
+          "time": 54716.79999998212
+        },
+        {
+          "clip": "human-run-N",
+          "frame": 7,
+          "id": "human-run-N-07",
+          "time": 55050.79999998212
+        },
+        {
+          "clip": "human-run-N",
+          "frame": 0,
+          "id": "human-run-N-00",
+          "time": 55383.19999998808
+        },
+        {
+          "clip": "human-run-N",
+          "frame": 1,
+          "id": "human-run-N-01",
+          "time": 55717.5
+        },
+        {
+          "clip": "human-run-N",
+          "frame": 2,
+          "id": "human-run-N-02",
+          "time": 56049.69999998808
+        },
+        {
+          "clip": "human-run-N",
+          "frame": 3,
+          "id": "human-run-N-03",
+          "time": 56383.69999998808
+        },
+        {
+          "clip": "human-run-N",
+          "frame": 4,
+          "id": "human-run-N-04",
+          "time": 56716.19999998808
+        }
+      ],
+      "averageIntervalMs": 333.2444444431199
+    },
+    {
+      "clip": "human-walk-NW",
+      "speed": "1",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "human-walk-NW",
+          "frame": 1,
+          "id": "human-walk-NW-01",
+          "time": 57049.40000000596
+        },
+        {
+          "clip": "human-walk-NW",
+          "frame": 2,
+          "id": "human-walk-NW-02",
+          "time": 57183.09999999404
+        },
+        {
+          "clip": "human-walk-NW",
+          "frame": 3,
+          "id": "human-walk-NW-03",
+          "time": 57300.59999999404
+        },
+        {
+          "clip": "human-walk-NW",
+          "frame": 4,
+          "id": "human-walk-NW-04",
+          "time": 57433.69999998808
+        },
+        {
+          "clip": "human-walk-NW",
+          "frame": 5,
+          "id": "human-walk-NW-05",
+          "time": 57549.5
+        },
+        {
+          "clip": "human-walk-NW",
+          "frame": 6,
+          "id": "human-walk-NW-06",
+          "time": 57683.29999998212
+        },
+        {
+          "clip": "human-walk-NW",
+          "frame": 7,
+          "id": "human-walk-NW-07",
+          "time": 57800.19999998808
+        },
+        {
+          "clip": "human-walk-NW",
+          "frame": 0,
+          "id": "human-walk-NW-00",
+          "time": 57933.40000000596
+        },
+        {
+          "clip": "human-walk-NW",
+          "frame": 1,
+          "id": "human-walk-NW-01",
+          "time": 58050.19999998808
+        },
+        {
+          "clip": "human-walk-NW",
+          "frame": 2,
+          "id": "human-walk-NW-02",
+          "time": 58183.79999998212
+        }
+      ],
+      "averageIntervalMs": 126.04444444179535
+    },
+    {
+      "clip": "human-walk-NW",
+      "speed": "0.25",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "human-walk-NW",
+          "frame": 3,
+          "id": "human-walk-NW-03",
+          "time": 58767.19999998808
+        },
+        {
+          "clip": "human-walk-NW",
+          "frame": 4,
+          "id": "human-walk-NW-04",
+          "time": 59266.19999998808
+        },
+        {
+          "clip": "human-walk-NW",
+          "frame": 5,
+          "id": "human-walk-NW-05",
+          "time": 59767.19999998808
+        },
+        {
+          "clip": "human-walk-NW",
+          "frame": 6,
+          "id": "human-walk-NW-06",
+          "time": 60267.5
+        },
+        {
+          "clip": "human-walk-NW",
+          "frame": 7,
+          "id": "human-walk-NW-07",
+          "time": 60766.40000000596
+        },
+        {
+          "clip": "human-walk-NW",
+          "frame": 0,
+          "id": "human-walk-NW-00",
+          "time": 61267
+        },
+        {
+          "clip": "human-walk-NW",
+          "frame": 1,
+          "id": "human-walk-NW-01",
+          "time": 61767.09999999404
+        },
+        {
+          "clip": "human-walk-NW",
+          "frame": 2,
+          "id": "human-walk-NW-02",
+          "time": 62266.29999998212
+        },
+        {
+          "clip": "human-walk-NW",
+          "frame": 3,
+          "id": "human-walk-NW-03",
+          "time": 62766.59999999404
+        },
+        {
+          "clip": "human-walk-NW",
+          "frame": 4,
+          "id": "human-walk-NW-04",
+          "time": 63267.19999998808
+        },
+        {
+          "clip": "human-walk-NW",
+          "frame": 5,
+          "id": "human-walk-NW-05",
+          "time": 63766.19999998808
+        },
+        {
+          "clip": "human-walk-NW",
+          "frame": 6,
+          "id": "human-walk-NW-06",
+          "time": 64265.90000000596
+        },
+        {
+          "clip": "human-walk-NW",
+          "frame": 7,
+          "id": "human-walk-NW-07",
+          "time": 64766.5
+        }
+      ],
+      "averageIntervalMs": 499.94166666766006
+    },
+    {
+      "clip": "human-run-NW",
+      "speed": "1",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "human-run-NW",
+          "frame": 1,
+          "id": "human-run-NW-01",
+          "time": 66832.69999998808
+        },
+        {
+          "clip": "human-run-NW",
+          "frame": 2,
+          "id": "human-run-NW-02",
+          "time": 66917.59999999404
+        },
+        {
+          "clip": "human-run-NW",
+          "frame": 3,
+          "id": "human-run-NW-03",
+          "time": 66999.90000000596
+        },
+        {
+          "clip": "human-run-NW",
+          "frame": 4,
+          "id": "human-run-NW-04",
+          "time": 67082.69999998808
+        },
+        {
+          "clip": "human-run-NW",
+          "frame": 5,
+          "id": "human-run-NW-05",
+          "time": 67167.29999998212
+        },
+        {
+          "clip": "human-run-NW",
+          "frame": 6,
+          "id": "human-run-NW-06",
+          "time": 67249.90000000596
+        },
+        {
+          "clip": "human-run-NW",
+          "frame": 7,
+          "id": "human-run-NW-07",
+          "time": 67333.19999998808
+        },
+        {
+          "clip": "human-run-NW",
+          "frame": 0,
+          "id": "human-run-NW-00",
+          "time": 67416.59999999404
+        },
+        {
+          "clip": "human-run-NW",
+          "frame": 1,
+          "id": "human-run-NW-01",
+          "time": 67499.19999998808
+        },
+        {
+          "clip": "human-run-NW",
+          "frame": 2,
+          "id": "human-run-NW-02",
+          "time": 67582.90000000596
+        }
+      ],
+      "averageIntervalMs": 83.35555555754237
+    },
+    {
+      "clip": "human-run-NW",
+      "speed": "0.25",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "human-run-NW",
+          "frame": 3,
+          "id": "human-run-NW-03",
+          "time": 67999.79999998212
+        },
+        {
+          "clip": "human-run-NW",
+          "frame": 4,
+          "id": "human-run-NW-04",
+          "time": 68332.59999999404
+        },
+        {
+          "clip": "human-run-NW",
+          "frame": 5,
+          "id": "human-run-NW-05",
+          "time": 68665.90000000596
+        },
+        {
+          "clip": "human-run-NW",
+          "frame": 6,
+          "id": "human-run-NW-06",
+          "time": 68999.69999998808
+        },
+        {
+          "clip": "human-run-NW",
+          "frame": 7,
+          "id": "human-run-NW-07",
+          "time": 69333.29999998212
+        },
+        {
+          "clip": "human-run-NW",
+          "frame": 0,
+          "id": "human-run-NW-00",
+          "time": 69667.19999998808
+        },
+        {
+          "clip": "human-run-NW",
+          "frame": 1,
+          "id": "human-run-NW-01",
+          "time": 69999.40000000596
+        },
+        {
+          "clip": "human-run-NW",
+          "frame": 2,
+          "id": "human-run-NW-02",
+          "time": 70333.40000000596
+        },
+        {
+          "clip": "human-run-NW",
+          "frame": 3,
+          "id": "human-run-NW-03",
+          "time": 70666.79999998212
+        },
+        {
+          "clip": "human-run-NW",
+          "frame": 4,
+          "id": "human-run-NW-04",
+          "time": 70999.69999998808
+        }
+      ],
+      "averageIntervalMs": 333.3222222228845
+    },
+    {
+      "clip": "human-walk-W",
+      "speed": "1",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "human-walk-W",
+          "frame": 1,
+          "id": "human-walk-W-01",
+          "time": 71433.19999998808
+        },
+        {
+          "clip": "human-walk-W",
+          "frame": 2,
+          "id": "human-walk-W-02",
+          "time": 71566.69999998808
+        },
+        {
+          "clip": "human-walk-W",
+          "frame": 3,
+          "id": "human-walk-W-03",
+          "time": 71682.69999998808
+        },
+        {
+          "clip": "human-walk-W",
+          "frame": 4,
+          "id": "human-walk-W-04",
+          "time": 71816.5
+        },
+        {
+          "clip": "human-walk-W",
+          "frame": 5,
+          "id": "human-walk-W-05",
+          "time": 71933.5
+        },
+        {
+          "clip": "human-walk-W",
+          "frame": 6,
+          "id": "human-walk-W-06",
+          "time": 72067
+        },
+        {
+          "clip": "human-walk-W",
+          "frame": 7,
+          "id": "human-walk-W-07",
+          "time": 72182.40000000596
+        },
+        {
+          "clip": "human-walk-W",
+          "frame": 0,
+          "id": "human-walk-W-00",
+          "time": 72316.90000000596
+        },
+        {
+          "clip": "human-walk-W",
+          "frame": 1,
+          "id": "human-walk-W-01",
+          "time": 72433
+        },
+        {
+          "clip": "human-walk-W",
+          "frame": 2,
+          "id": "human-walk-W-02",
+          "time": 72565.79999998212
+        }
+      ],
+      "averageIntervalMs": 125.84444444378217
+    },
+    {
+      "clip": "human-walk-W",
+      "speed": "0.25",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "human-walk-W",
+          "frame": 3,
+          "id": "human-walk-W-03",
+          "time": 73149.59999999404
+        },
+        {
+          "clip": "human-walk-W",
+          "frame": 4,
+          "id": "human-walk-W-04",
+          "time": 73650
+        },
+        {
+          "clip": "human-walk-W",
+          "frame": 5,
+          "id": "human-walk-W-05",
+          "time": 74149.69999998808
+        },
+        {
+          "clip": "human-walk-W",
+          "frame": 6,
+          "id": "human-walk-W-06",
+          "time": 74649.5
+        },
+        {
+          "clip": "human-walk-W",
+          "frame": 7,
+          "id": "human-walk-W-07",
+          "time": 75148.90000000596
+        },
+        {
+          "clip": "human-walk-W",
+          "frame": 0,
+          "id": "human-walk-W-00",
+          "time": 75648.69999998808
+        },
+        {
+          "clip": "human-walk-W",
+          "frame": 1,
+          "id": "human-walk-W-01",
+          "time": 76149.19999998808
+        },
+        {
+          "clip": "human-walk-W",
+          "frame": 2,
+          "id": "human-walk-W-02",
+          "time": 76649.09999999404
+        },
+        {
+          "clip": "human-walk-W",
+          "frame": 3,
+          "id": "human-walk-W-03",
+          "time": 77149.59999999404
+        },
+        {
+          "clip": "human-walk-W",
+          "frame": 4,
+          "id": "human-walk-W-04",
+          "time": 77648.90000000596
+        }
+      ],
+      "averageIntervalMs": 499.9222222235468
+    },
+    {
+      "clip": "human-run-W",
+      "speed": "1",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "human-run-W",
+          "frame": 1,
+          "id": "human-run-W-01",
+          "time": 77965.69999998808
+        },
+        {
+          "clip": "human-run-W",
+          "frame": 2,
+          "id": "human-run-W-02",
+          "time": 78049.5
+        },
+        {
+          "clip": "human-run-W",
+          "frame": 3,
+          "id": "human-run-W-03",
+          "time": 78133.09999999404
+        },
+        {
+          "clip": "human-run-W",
+          "frame": 4,
+          "id": "human-run-W-04",
+          "time": 78216.69999998808
+        },
+        {
+          "clip": "human-run-W",
+          "frame": 5,
+          "id": "human-run-W-05",
+          "time": 78299.29999998212
+        },
+        {
+          "clip": "human-run-W",
+          "frame": 6,
+          "id": "human-run-W-06",
+          "time": 78382.59999999404
+        },
+        {
+          "clip": "human-run-W",
+          "frame": 7,
+          "id": "human-run-W-07",
+          "time": 78465.69999998808
+        },
+        {
+          "clip": "human-run-W",
+          "frame": 0,
+          "id": "human-run-W-00",
+          "time": 78548.90000000596
+        },
+        {
+          "clip": "human-run-W",
+          "frame": 1,
+          "id": "human-run-W-01",
+          "time": 78633.09999999404
+        },
+        {
+          "clip": "human-run-W",
+          "frame": 2,
+          "id": "human-run-W-02",
+          "time": 78715.29999998212
+        }
+      ],
+      "averageIntervalMs": 83.28888888822661
+    },
+    {
+      "clip": "human-run-W",
+      "speed": "0.25",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "human-run-W",
+          "frame": 3,
+          "id": "human-run-W-03",
+          "time": 79133
+        },
+        {
+          "clip": "human-run-W",
+          "frame": 4,
+          "id": "human-run-W-04",
+          "time": 79466.19999998808
+        },
+        {
+          "clip": "human-run-W",
+          "frame": 5,
+          "id": "human-run-W-05",
+          "time": 79799.19999998808
+        },
+        {
+          "clip": "human-run-W",
+          "frame": 6,
+          "id": "human-run-W-06",
+          "time": 80133.40000000596
+        },
+        {
+          "clip": "human-run-W",
+          "frame": 7,
+          "id": "human-run-W-07",
+          "time": 80465.69999998808
+        },
+        {
+          "clip": "human-run-W",
+          "frame": 0,
+          "id": "human-run-W-00",
+          "time": 80799.40000000596
+        },
+        {
+          "clip": "human-run-W",
+          "frame": 1,
+          "id": "human-run-W-01",
+          "time": 81132.09999999404
+        },
+        {
+          "clip": "human-run-W",
+          "frame": 2,
+          "id": "human-run-W-02",
+          "time": 81465.09999999404
+        },
+        {
+          "clip": "human-run-W",
+          "frame": 3,
+          "id": "human-run-W-03",
+          "time": 81799.40000000596
+        },
+        {
+          "clip": "human-run-W",
+          "frame": 4,
+          "id": "human-run-W-04",
+          "time": 82132.69999998808
+        }
+      ],
+      "averageIntervalMs": 333.29999999867545
+    },
+    {
+      "clip": "human-walk-SW",
+      "speed": "1",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "human-walk-SW",
+          "frame": 1,
+          "id": "human-walk-SW-01",
+          "time": 82515.40000000596
+        },
+        {
+          "clip": "human-walk-SW",
+          "frame": 2,
+          "id": "human-walk-SW-02",
+          "time": 82649.90000000596
+        },
+        {
+          "clip": "human-walk-SW",
+          "frame": 3,
+          "id": "human-walk-SW-03",
+          "time": 82765.09999999404
+        },
+        {
+          "clip": "human-walk-SW",
+          "frame": 4,
+          "id": "human-walk-SW-04",
+          "time": 82899.19999998808
+        },
+        {
+          "clip": "human-walk-SW",
+          "frame": 5,
+          "id": "human-walk-SW-05",
+          "time": 83016.79999998212
+        },
+        {
+          "clip": "human-walk-SW",
+          "frame": 6,
+          "id": "human-walk-SW-06",
+          "time": 83148.69999998808
+        },
+        {
+          "clip": "human-walk-SW",
+          "frame": 7,
+          "id": "human-walk-SW-07",
+          "time": 83265.79999998212
+        },
+        {
+          "clip": "human-walk-SW",
+          "frame": 0,
+          "id": "human-walk-SW-00",
+          "time": 83398.5
+        },
+        {
+          "clip": "human-walk-SW",
+          "frame": 1,
+          "id": "human-walk-SW-01",
+          "time": 83515.69999998808
+        },
+        {
+          "clip": "human-walk-SW",
+          "frame": 2,
+          "id": "human-walk-SW-02",
+          "time": 83648.79999998212
+        }
+      ],
+      "averageIntervalMs": 125.93333333068423
+    },
+    {
+      "clip": "human-walk-SW",
+      "speed": "0.25",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "human-walk-SW",
+          "frame": 3,
+          "id": "human-walk-SW-03",
+          "time": 84232.69999998808
+        },
+        {
+          "clip": "human-walk-SW",
+          "frame": 4,
+          "id": "human-walk-SW-04",
+          "time": 84732.69999998808
+        },
+        {
+          "clip": "human-walk-SW",
+          "frame": 5,
+          "id": "human-walk-SW-05",
+          "time": 85232
+        },
+        {
+          "clip": "human-walk-SW",
+          "frame": 6,
+          "id": "human-walk-SW-06",
+          "time": 85732.69999998808
+        },
+        {
+          "clip": "human-walk-SW",
+          "frame": 7,
+          "id": "human-walk-SW-07",
+          "time": 86232.40000000596
+        },
+        {
+          "clip": "human-walk-SW",
+          "frame": 0,
+          "id": "human-walk-SW-00",
+          "time": 86733.40000000596
+        },
+        {
+          "clip": "human-walk-SW",
+          "frame": 1,
+          "id": "human-walk-SW-01",
+          "time": 87232.69999998808
+        },
+        {
+          "clip": "human-walk-SW",
+          "frame": 2,
+          "id": "human-walk-SW-02",
+          "time": 87731.90000000596
+        },
+        {
+          "clip": "human-walk-SW",
+          "frame": 3,
+          "id": "human-walk-SW-03",
+          "time": 88232.79999998212
+        },
+        {
+          "clip": "human-walk-SW",
+          "frame": 4,
+          "id": "human-walk-SW-04",
+          "time": 88732.09999999404
+        }
+      ],
+      "averageIntervalMs": 499.9333333339956
+    },
+    {
+      "clip": "human-run-SW",
+      "speed": "1",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "human-run-SW",
+          "frame": 1,
+          "id": "human-run-SW-01",
+          "time": 89049.5
+        },
+        {
+          "clip": "human-run-SW",
+          "frame": 2,
+          "id": "human-run-SW-02",
+          "time": 89131.69999998808
+        },
+        {
+          "clip": "human-run-SW",
+          "frame": 3,
+          "id": "human-run-SW-03",
+          "time": 89215.29999998212
+        },
+        {
+          "clip": "human-run-SW",
+          "frame": 4,
+          "id": "human-run-SW-04",
+          "time": 89298.69999998808
+        },
+        {
+          "clip": "human-run-SW",
+          "frame": 5,
+          "id": "human-run-SW-05",
+          "time": 89381.59999999404
+        },
+        {
+          "clip": "human-run-SW",
+          "frame": 6,
+          "id": "human-run-SW-06",
+          "time": 89464.59999999404
+        },
+        {
+          "clip": "human-run-SW",
+          "frame": 7,
+          "id": "human-run-SW-07",
+          "time": 89548.29999998212
+        },
+        {
+          "clip": "human-run-SW",
+          "frame": 0,
+          "id": "human-run-SW-00",
+          "time": 89631.59999999404
+        },
+        {
+          "clip": "human-run-SW",
+          "frame": 1,
+          "id": "human-run-SW-01",
+          "time": 89716.09999999404
+        },
+        {
+          "clip": "human-run-SW",
+          "frame": 2,
+          "id": "human-run-SW-02",
+          "time": 89797.90000000596
+        }
+      ],
+      "averageIntervalMs": 83.15555555621783
+    },
+    {
+      "clip": "human-run-SW",
+      "speed": "0.25",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "human-run-SW",
+          "frame": 3,
+          "id": "human-run-SW-03",
+          "time": 90215.79999998212
+        },
+        {
+          "clip": "human-run-SW",
+          "frame": 4,
+          "id": "human-run-SW-04",
+          "time": 90548.90000000596
+        },
+        {
+          "clip": "human-run-SW",
+          "frame": 5,
+          "id": "human-run-SW-05",
+          "time": 90882.09999999404
+        },
+        {
+          "clip": "human-run-SW",
+          "frame": 6,
+          "id": "human-run-SW-06",
+          "time": 91214.90000000596
+        },
+        {
+          "clip": "human-run-SW",
+          "frame": 7,
+          "id": "human-run-SW-07",
+          "time": 91548.79999998212
+        },
+        {
+          "clip": "human-run-SW",
+          "frame": 0,
+          "id": "human-run-SW-00",
+          "time": 91882.90000000596
+        },
+        {
+          "clip": "human-run-SW",
+          "frame": 1,
+          "id": "human-run-SW-01",
+          "time": 92214.90000000596
+        },
+        {
+          "clip": "human-run-SW",
+          "frame": 2,
+          "id": "human-run-SW-02",
+          "time": 92548.19999998808
+        },
+        {
+          "clip": "human-run-SW",
+          "frame": 3,
+          "id": "human-run-SW-03",
+          "time": 92881.79999998212
+        },
+        {
+          "clip": "human-run-SW",
+          "frame": 4,
+          "id": "human-run-SW-04",
+          "time": 93215.40000000596
+        }
+      ],
+      "averageIntervalMs": 333.28888889153797
+    },
+    {
+      "clip": "rpg-walk-S",
+      "speed": "1",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "rpg-walk-S",
+          "frame": 1,
+          "id": "rpg-walk-S-01",
+          "time": 93565.5
+        },
+        {
+          "clip": "rpg-walk-S",
+          "frame": 2,
+          "id": "rpg-walk-S-02",
+          "time": 93698.5
+        },
+        {
+          "clip": "rpg-walk-S",
+          "frame": 3,
+          "id": "rpg-walk-S-03",
+          "time": 93815.09999999404
+        },
+        {
+          "clip": "rpg-walk-S",
+          "frame": 4,
+          "id": "rpg-walk-S-04",
+          "time": 93948.59999999404
+        },
+        {
+          "clip": "rpg-walk-S",
+          "frame": 5,
+          "id": "rpg-walk-S-05",
+          "time": 94065.59999999404
+        },
+        {
+          "clip": "rpg-walk-S",
+          "frame": 6,
+          "id": "rpg-walk-S-06",
+          "time": 94198.29999998212
+        },
+        {
+          "clip": "rpg-walk-S",
+          "frame": 7,
+          "id": "rpg-walk-S-07",
+          "time": 94314.69999998808
+        },
+        {
+          "clip": "rpg-walk-S",
+          "frame": 0,
+          "id": "rpg-walk-S-00",
+          "time": 94448.79999998212
+        },
+        {
+          "clip": "rpg-walk-S",
+          "frame": 1,
+          "id": "rpg-walk-S-01",
+          "time": 94565.09999999404
+        },
+        {
+          "clip": "rpg-walk-S",
+          "frame": 2,
+          "id": "rpg-walk-S-02",
+          "time": 94698.59999999404
+        }
+      ],
+      "averageIntervalMs": 125.89999999933772
+    },
+    {
+      "clip": "rpg-walk-S",
+      "speed": "0.25",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "rpg-walk-S",
+          "frame": 3,
+          "id": "rpg-walk-S-03",
+          "time": 95281.79999998212
+        },
+        {
+          "clip": "rpg-walk-S",
+          "frame": 4,
+          "id": "rpg-walk-S-04",
+          "time": 95781.29999998212
+        },
+        {
+          "clip": "rpg-walk-S",
+          "frame": 5,
+          "id": "rpg-walk-S-05",
+          "time": 96281.40000000596
+        },
+        {
+          "clip": "rpg-walk-S",
+          "frame": 6,
+          "id": "rpg-walk-S-06",
+          "time": 96782.09999999404
+        },
+        {
+          "clip": "rpg-walk-S",
+          "frame": 7,
+          "id": "rpg-walk-S-07",
+          "time": 97282.40000000596
+        },
+        {
+          "clip": "rpg-walk-S",
+          "frame": 0,
+          "id": "rpg-walk-S-00",
+          "time": 97782.5
+        },
+        {
+          "clip": "rpg-walk-S",
+          "frame": 1,
+          "id": "rpg-walk-S-01",
+          "time": 98281
+        },
+        {
+          "clip": "rpg-walk-S",
+          "frame": 2,
+          "id": "rpg-walk-S-02",
+          "time": 98781.29999998212
+        },
+        {
+          "clip": "rpg-walk-S",
+          "frame": 3,
+          "id": "rpg-walk-S-03",
+          "time": 99281.19999998808
+        },
+        {
+          "clip": "rpg-walk-S",
+          "frame": 4,
+          "id": "rpg-walk-S-04",
+          "time": 99781.69999998808
+        }
+      ],
+      "averageIntervalMs": 499.98888888955116
+    },
+    {
+      "clip": "rpg-run-S",
+      "speed": "1",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "rpg-run-S",
+          "frame": 1,
+          "id": "rpg-run-S-01",
+          "time": 100198.29999998212
+        },
+        {
+          "clip": "rpg-run-S",
+          "frame": 2,
+          "id": "rpg-run-S-02",
+          "time": 100281.29999998212
+        },
+        {
+          "clip": "rpg-run-S",
+          "frame": 3,
+          "id": "rpg-run-S-03",
+          "time": 100364.5
+        },
+        {
+          "clip": "rpg-run-S",
+          "frame": 4,
+          "id": "rpg-run-S-04",
+          "time": 100448.40000000596
+        },
+        {
+          "clip": "rpg-run-S",
+          "frame": 5,
+          "id": "rpg-run-S-05",
+          "time": 100531.09999999404
+        },
+        {
+          "clip": "rpg-run-S",
+          "frame": 6,
+          "id": "rpg-run-S-06",
+          "time": 100615.40000000596
+        },
+        {
+          "clip": "rpg-run-S",
+          "frame": 7,
+          "id": "rpg-run-S-07",
+          "time": 100698
+        },
+        {
+          "clip": "rpg-run-S",
+          "frame": 0,
+          "id": "rpg-run-S-00",
+          "time": 100781.09999999404
+        },
+        {
+          "clip": "rpg-run-S",
+          "frame": 1,
+          "id": "rpg-run-S-01",
+          "time": 100865
+        },
+        {
+          "clip": "rpg-run-S",
+          "frame": 2,
+          "id": "rpg-run-S-02",
+          "time": 100948.40000000596
+        }
+      ],
+      "averageIntervalMs": 83.34444444709354
+    },
+    {
+      "clip": "rpg-run-S",
+      "speed": "0.25",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "rpg-run-S",
+          "frame": 3,
+          "id": "rpg-run-S-03",
+          "time": 101365.40000000596
+        },
+        {
+          "clip": "rpg-run-S",
+          "frame": 4,
+          "id": "rpg-run-S-04",
+          "time": 101698.5
+        },
+        {
+          "clip": "rpg-run-S",
+          "frame": 5,
+          "id": "rpg-run-S-05",
+          "time": 102032.59999999404
+        },
+        {
+          "clip": "rpg-run-S",
+          "frame": 6,
+          "id": "rpg-run-S-06",
+          "time": 102365.09999999404
+        },
+        {
+          "clip": "rpg-run-S",
+          "frame": 7,
+          "id": "rpg-run-S-07",
+          "time": 102698.40000000596
+        },
+        {
+          "clip": "rpg-run-S",
+          "frame": 0,
+          "id": "rpg-run-S-00",
+          "time": 103031.19999998808
+        },
+        {
+          "clip": "rpg-run-S",
+          "frame": 1,
+          "id": "rpg-run-S-01",
+          "time": 103364.29999998212
+        },
+        {
+          "clip": "rpg-run-S",
+          "frame": 2,
+          "id": "rpg-run-S-02",
+          "time": 103697.69999998808
+        },
+        {
+          "clip": "rpg-run-S",
+          "frame": 3,
+          "id": "rpg-run-S-03",
+          "time": 104031.09999999404
+        },
+        {
+          "clip": "rpg-run-S",
+          "frame": 4,
+          "id": "rpg-run-S-04",
+          "time": 104365.69999998808
+        }
+      ],
+      "averageIntervalMs": 333.3666666646798
+    },
+    {
+      "clip": "rpg-walk-SE",
+      "speed": "1",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "rpg-walk-SE",
+          "frame": 1,
+          "id": "rpg-walk-SE-01",
+          "time": 104864.5
+        },
+        {
+          "clip": "rpg-walk-SE",
+          "frame": 2,
+          "id": "rpg-walk-SE-02",
+          "time": 104998.19999998808
+        },
+        {
+          "clip": "rpg-walk-SE",
+          "frame": 3,
+          "id": "rpg-walk-SE-03",
+          "time": 105114.79999998212
+        },
+        {
+          "clip": "rpg-walk-SE",
+          "frame": 4,
+          "id": "rpg-walk-SE-04",
+          "time": 105248.29999998212
+        },
+        {
+          "clip": "rpg-walk-SE",
+          "frame": 5,
+          "id": "rpg-walk-SE-05",
+          "time": 105365.29999998212
+        },
+        {
+          "clip": "rpg-walk-SE",
+          "frame": 6,
+          "id": "rpg-walk-SE-06",
+          "time": 105498
+        },
+        {
+          "clip": "rpg-walk-SE",
+          "frame": 7,
+          "id": "rpg-walk-SE-07",
+          "time": 105614.69999998808
+        },
+        {
+          "clip": "rpg-walk-SE",
+          "frame": 0,
+          "id": "rpg-walk-SE-00",
+          "time": 105748.19999998808
+        },
+        {
+          "clip": "rpg-walk-SE",
+          "frame": 1,
+          "id": "rpg-walk-SE-01",
+          "time": 105864.90000000596
+        },
+        {
+          "clip": "rpg-walk-SE",
+          "frame": 2,
+          "id": "rpg-walk-SE-02",
+          "time": 105998.69999998808
+        }
+      ],
+      "averageIntervalMs": 126.02222222089767
+    },
+    {
+      "clip": "rpg-walk-SE",
+      "speed": "0.25",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "rpg-walk-SE",
+          "frame": 3,
+          "id": "rpg-walk-SE-03",
+          "time": 106581.29999998212
+        },
+        {
+          "clip": "rpg-walk-SE",
+          "frame": 4,
+          "id": "rpg-walk-SE-04",
+          "time": 107081.5
+        },
+        {
+          "clip": "rpg-walk-SE",
+          "frame": 5,
+          "id": "rpg-walk-SE-05",
+          "time": 107580.79999998212
+        },
+        {
+          "clip": "rpg-walk-SE",
+          "frame": 6,
+          "id": "rpg-walk-SE-06",
+          "time": 108080.79999998212
+        },
+        {
+          "clip": "rpg-walk-SE",
+          "frame": 7,
+          "id": "rpg-walk-SE-07",
+          "time": 108582.19999998808
+        },
+        {
+          "clip": "rpg-walk-SE",
+          "frame": 0,
+          "id": "rpg-walk-SE-00",
+          "time": 109082.09999999404
+        },
+        {
+          "clip": "rpg-walk-SE",
+          "frame": 1,
+          "id": "rpg-walk-SE-01",
+          "time": 109580.90000000596
+        },
+        {
+          "clip": "rpg-walk-SE",
+          "frame": 2,
+          "id": "rpg-walk-SE-02",
+          "time": 110081.09999999404
+        },
+        {
+          "clip": "rpg-walk-SE",
+          "frame": 3,
+          "id": "rpg-walk-SE-03",
+          "time": 110580.79999998212
+        },
+        {
+          "clip": "rpg-walk-SE",
+          "frame": 4,
+          "id": "rpg-walk-SE-04",
+          "time": 111080.90000000596
+        }
+      ],
+      "averageIntervalMs": 499.95555555820465
+    },
+    {
+      "clip": "rpg-run-SE",
+      "speed": "1",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "rpg-run-SE",
+          "frame": 1,
+          "id": "rpg-run-SE-01",
+          "time": 111398.09999999404
+        },
+        {
+          "clip": "rpg-run-SE",
+          "frame": 2,
+          "id": "rpg-run-SE-02",
+          "time": 111481.69999998808
+        },
+        {
+          "clip": "rpg-run-SE",
+          "frame": 3,
+          "id": "rpg-run-SE-03",
+          "time": 111564.5
+        },
+        {
+          "clip": "rpg-run-SE",
+          "frame": 4,
+          "id": "rpg-run-SE-04",
+          "time": 111648.5
+        },
+        {
+          "clip": "rpg-run-SE",
+          "frame": 5,
+          "id": "rpg-run-SE-05",
+          "time": 111731
+        },
+        {
+          "clip": "rpg-run-SE",
+          "frame": 6,
+          "id": "rpg-run-SE-06",
+          "time": 111814.09999999404
+        },
+        {
+          "clip": "rpg-run-SE",
+          "frame": 7,
+          "id": "rpg-run-SE-07",
+          "time": 111897.5
+        },
+        {
+          "clip": "rpg-run-SE",
+          "frame": 0,
+          "id": "rpg-run-SE-00",
+          "time": 111981
+        },
+        {
+          "clip": "rpg-run-SE",
+          "frame": 1,
+          "id": "rpg-run-SE-01",
+          "time": 112064.59999999404
+        },
+        {
+          "clip": "rpg-run-SE",
+          "frame": 2,
+          "id": "rpg-run-SE-02",
+          "time": 112147.40000000596
+        }
+      ],
+      "averageIntervalMs": 83.2555555568801
+    },
+    {
+      "clip": "rpg-run-SE",
+      "speed": "0.25",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "rpg-run-SE",
+          "frame": 3,
+          "id": "rpg-run-SE-03",
+          "time": 112564.5
+        },
+        {
+          "clip": "rpg-run-SE",
+          "frame": 4,
+          "id": "rpg-run-SE-04",
+          "time": 112897.90000000596
+        },
+        {
+          "clip": "rpg-run-SE",
+          "frame": 5,
+          "id": "rpg-run-SE-05",
+          "time": 113230.69999998808
+        },
+        {
+          "clip": "rpg-run-SE",
+          "frame": 6,
+          "id": "rpg-run-SE-06",
+          "time": 113563.90000000596
+        },
+        {
+          "clip": "rpg-run-SE",
+          "frame": 7,
+          "id": "rpg-run-SE-07",
+          "time": 113897.29999998212
+        },
+        {
+          "clip": "rpg-run-SE",
+          "frame": 0,
+          "id": "rpg-run-SE-00",
+          "time": 114231.09999999404
+        },
+        {
+          "clip": "rpg-run-SE",
+          "frame": 1,
+          "id": "rpg-run-SE-01",
+          "time": 114564.5
+        },
+        {
+          "clip": "rpg-run-SE",
+          "frame": 2,
+          "id": "rpg-run-SE-02",
+          "time": 114898.09999999404
+        },
+        {
+          "clip": "rpg-run-SE",
+          "frame": 3,
+          "id": "rpg-run-SE-03",
+          "time": 115231.5
+        },
+        {
+          "clip": "rpg-run-SE",
+          "frame": 4,
+          "id": "rpg-run-SE-04",
+          "time": 115564.29999998212
+        }
+      ],
+      "averageIntervalMs": 333.3111111091243
+    },
+    {
+      "clip": "rpg-walk-E",
+      "speed": "1",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "rpg-walk-E",
+          "frame": 1,
+          "id": "rpg-walk-E-01",
+          "time": 115898
+        },
+        {
+          "clip": "rpg-walk-E",
+          "frame": 2,
+          "id": "rpg-walk-E-02",
+          "time": 116031.79999998212
+        },
+        {
+          "clip": "rpg-walk-E",
+          "frame": 3,
+          "id": "rpg-walk-E-03",
+          "time": 116147.5
+        },
+        {
+          "clip": "rpg-walk-E",
+          "frame": 4,
+          "id": "rpg-walk-E-04",
+          "time": 116281.09999999404
+        },
+        {
+          "clip": "rpg-walk-E",
+          "frame": 5,
+          "id": "rpg-walk-E-05",
+          "time": 116397.19999998808
+        },
+        {
+          "clip": "rpg-walk-E",
+          "frame": 6,
+          "id": "rpg-walk-E-06",
+          "time": 116530.79999998212
+        },
+        {
+          "clip": "rpg-walk-E",
+          "frame": 7,
+          "id": "rpg-walk-E-07",
+          "time": 116648
+        },
+        {
+          "clip": "rpg-walk-E",
+          "frame": 0,
+          "id": "rpg-walk-E-00",
+          "time": 116780.90000000596
+        },
+        {
+          "clip": "rpg-walk-E",
+          "frame": 1,
+          "id": "rpg-walk-E-01",
+          "time": 116897.40000000596
+        },
+        {
+          "clip": "rpg-walk-E",
+          "frame": 2,
+          "id": "rpg-walk-E-02",
+          "time": 117031.40000000596
+        }
+      ],
+      "averageIntervalMs": 125.9333333339956
+    },
+    {
+      "clip": "rpg-walk-E",
+      "speed": "0.25",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "rpg-walk-E",
+          "frame": 3,
+          "id": "rpg-walk-E-03",
+          "time": 117614.90000000596
+        },
+        {
+          "clip": "rpg-walk-E",
+          "frame": 4,
+          "id": "rpg-walk-E-04",
+          "time": 118113.90000000596
+        },
+        {
+          "clip": "rpg-walk-E",
+          "frame": 5,
+          "id": "rpg-walk-E-05",
+          "time": 118613.69999998808
+        },
+        {
+          "clip": "rpg-walk-E",
+          "frame": 6,
+          "id": "rpg-walk-E-06",
+          "time": 119114.19999998808
+        },
+        {
+          "clip": "rpg-walk-E",
+          "frame": 7,
+          "id": "rpg-walk-E-07",
+          "time": 119613.69999998808
+        },
+        {
+          "clip": "rpg-walk-E",
+          "frame": 0,
+          "id": "rpg-walk-E-00",
+          "time": 120114
+        },
+        {
+          "clip": "rpg-walk-E",
+          "frame": 1,
+          "id": "rpg-walk-E-01",
+          "time": 120613.90000000596
+        },
+        {
+          "clip": "rpg-walk-E",
+          "frame": 2,
+          "id": "rpg-walk-E-02",
+          "time": 121114.19999998808
+        },
+        {
+          "clip": "rpg-walk-E",
+          "frame": 3,
+          "id": "rpg-walk-E-03",
+          "time": 121613.90000000596
+        },
+        {
+          "clip": "rpg-walk-E",
+          "frame": 4,
+          "id": "rpg-walk-E-04",
+          "time": 122114
+        }
+      ],
+      "averageIntervalMs": 499.89999999933775
+    },
+    {
+      "clip": "rpg-run-E",
+      "speed": "1",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "rpg-run-E",
+          "frame": 1,
+          "id": "rpg-run-E-01",
+          "time": 122430.59999999404
+        },
+        {
+          "clip": "rpg-run-E",
+          "frame": 2,
+          "id": "rpg-run-E-02",
+          "time": 122514.59999999404
+        },
+        {
+          "clip": "rpg-run-E",
+          "frame": 3,
+          "id": "rpg-run-E-03",
+          "time": 122596.90000000596
+        },
+        {
+          "clip": "rpg-run-E",
+          "frame": 4,
+          "id": "rpg-run-E-04",
+          "time": 122680.19999998808
+        },
+        {
+          "clip": "rpg-run-E",
+          "frame": 5,
+          "id": "rpg-run-E-05",
+          "time": 122763.59999999404
+        },
+        {
+          "clip": "rpg-run-E",
+          "frame": 6,
+          "id": "rpg-run-E-06",
+          "time": 122847
+        },
+        {
+          "clip": "rpg-run-E",
+          "frame": 7,
+          "id": "rpg-run-E-07",
+          "time": 122930.29999998212
+        },
+        {
+          "clip": "rpg-run-E",
+          "frame": 0,
+          "id": "rpg-run-E-00",
+          "time": 123014
+        },
+        {
+          "clip": "rpg-run-E",
+          "frame": 1,
+          "id": "rpg-run-E-01",
+          "time": 123097
+        },
+        {
+          "clip": "rpg-run-E",
+          "frame": 2,
+          "id": "rpg-run-E-02",
+          "time": 123179.90000000596
+        }
+      ],
+      "averageIntervalMs": 83.2555555568801
+    },
+    {
+      "clip": "rpg-run-E",
+      "speed": "0.25",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "rpg-run-E",
+          "frame": 3,
+          "id": "rpg-run-E-03",
+          "time": 123597
+        },
+        {
+          "clip": "rpg-run-E",
+          "frame": 4,
+          "id": "rpg-run-E-04",
+          "time": 123931.5
+        },
+        {
+          "clip": "rpg-run-E",
+          "frame": 5,
+          "id": "rpg-run-E-05",
+          "time": 124264.09999999404
+        },
+        {
+          "clip": "rpg-run-E",
+          "frame": 6,
+          "id": "rpg-run-E-06",
+          "time": 124597.29999998212
+        },
+        {
+          "clip": "rpg-run-E",
+          "frame": 7,
+          "id": "rpg-run-E-07",
+          "time": 124930.19999998808
+        },
+        {
+          "clip": "rpg-run-E",
+          "frame": 0,
+          "id": "rpg-run-E-00",
+          "time": 125264.09999999404
+        },
+        {
+          "clip": "rpg-run-E",
+          "frame": 1,
+          "id": "rpg-run-E-01",
+          "time": 125597.59999999404
+        },
+        {
+          "clip": "rpg-run-E",
+          "frame": 2,
+          "id": "rpg-run-E-02",
+          "time": 125930.29999998212
+        },
+        {
+          "clip": "rpg-run-E",
+          "frame": 3,
+          "id": "rpg-run-E-03",
+          "time": 126264.09999999404
+        },
+        {
+          "clip": "rpg-run-E",
+          "frame": 4,
+          "id": "rpg-run-E-04",
+          "time": 126597.59999999404
+        }
+      ],
+      "averageIntervalMs": 333.39999999933775
+    },
+    {
+      "clip": "rpg-walk-NE",
+      "speed": "1",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "rpg-walk-NE",
+          "frame": 1,
+          "id": "rpg-walk-NE-01",
+          "time": 126946.5
+        },
+        {
+          "clip": "rpg-walk-NE",
+          "frame": 2,
+          "id": "rpg-walk-NE-02",
+          "time": 127081.5
+        },
+        {
+          "clip": "rpg-walk-NE",
+          "frame": 3,
+          "id": "rpg-walk-NE-03",
+          "time": 127196.79999998212
+        },
+        {
+          "clip": "rpg-walk-NE",
+          "frame": 4,
+          "id": "rpg-walk-NE-04",
+          "time": 127331.19999998808
+        },
+        {
+          "clip": "rpg-walk-NE",
+          "frame": 5,
+          "id": "rpg-walk-NE-05",
+          "time": 127448
+        },
+        {
+          "clip": "rpg-walk-NE",
+          "frame": 6,
+          "id": "rpg-walk-NE-06",
+          "time": 127580.79999998212
+        },
+        {
+          "clip": "rpg-walk-NE",
+          "frame": 7,
+          "id": "rpg-walk-NE-07",
+          "time": 127697.09999999404
+        },
+        {
+          "clip": "rpg-walk-NE",
+          "frame": 0,
+          "id": "rpg-walk-NE-00",
+          "time": 127830.69999998808
+        },
+        {
+          "clip": "rpg-walk-NE",
+          "frame": 1,
+          "id": "rpg-walk-NE-01",
+          "time": 127946.5
+        },
+        {
+          "clip": "rpg-walk-NE",
+          "frame": 2,
+          "id": "rpg-walk-NE-02",
+          "time": 128080.90000000596
+        }
+      ],
+      "averageIntervalMs": 126.04444444510672
+    },
+    {
+      "clip": "rpg-walk-NE",
+      "speed": "0.25",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "rpg-walk-NE",
+          "frame": 3,
+          "id": "rpg-walk-NE-03",
+          "time": 128664
+        },
+        {
+          "clip": "rpg-walk-NE",
+          "frame": 4,
+          "id": "rpg-walk-NE-04",
+          "time": 129164.5
+        },
+        {
+          "clip": "rpg-walk-NE",
+          "frame": 5,
+          "id": "rpg-walk-NE-05",
+          "time": 129663.59999999404
+        },
+        {
+          "clip": "rpg-walk-NE",
+          "frame": 6,
+          "id": "rpg-walk-NE-06",
+          "time": 130163.59999999404
+        },
+        {
+          "clip": "rpg-walk-NE",
+          "frame": 7,
+          "id": "rpg-walk-NE-07",
+          "time": 130663.40000000596
+        },
+        {
+          "clip": "rpg-walk-NE",
+          "frame": 0,
+          "id": "rpg-walk-NE-00",
+          "time": 131163.90000000596
+        },
+        {
+          "clip": "rpg-walk-NE",
+          "frame": 1,
+          "id": "rpg-walk-NE-01",
+          "time": 131663.5
+        },
+        {
+          "clip": "rpg-walk-NE",
+          "frame": 2,
+          "id": "rpg-walk-NE-02",
+          "time": 132163.29999998212
+        },
+        {
+          "clip": "rpg-walk-NE",
+          "frame": 3,
+          "id": "rpg-walk-NE-03",
+          "time": 132663.69999998808
+        },
+        {
+          "clip": "rpg-walk-NE",
+          "frame": 4,
+          "id": "rpg-walk-NE-04",
+          "time": 133163.19999998808
+        }
+      ],
+      "averageIntervalMs": 499.9111111097866
+    },
+    {
+      "clip": "rpg-run-NE",
+      "speed": "1",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "rpg-run-NE",
+          "frame": 1,
+          "id": "rpg-run-NE-01",
+          "time": 133563.29999998212
+        },
+        {
+          "clip": "rpg-run-NE",
+          "frame": 2,
+          "id": "rpg-run-NE-02",
+          "time": 133646.59999999404
+        },
+        {
+          "clip": "rpg-run-NE",
+          "frame": 3,
+          "id": "rpg-run-NE-03",
+          "time": 133730.40000000596
+        },
+        {
+          "clip": "rpg-run-NE",
+          "frame": 4,
+          "id": "rpg-run-NE-04",
+          "time": 133813.09999999404
+        },
+        {
+          "clip": "rpg-run-NE",
+          "frame": 5,
+          "id": "rpg-run-NE-05",
+          "time": 133897
+        },
+        {
+          "clip": "rpg-run-NE",
+          "frame": 6,
+          "id": "rpg-run-NE-06",
+          "time": 133979.90000000596
+        },
+        {
+          "clip": "rpg-run-NE",
+          "frame": 7,
+          "id": "rpg-run-NE-07",
+          "time": 134063.40000000596
+        },
+        {
+          "clip": "rpg-run-NE",
+          "frame": 0,
+          "id": "rpg-run-NE-00",
+          "time": 134146.19999998808
+        },
+        {
+          "clip": "rpg-run-NE",
+          "frame": 1,
+          "id": "rpg-run-NE-01",
+          "time": 134229.5
+        },
+        {
+          "clip": "rpg-run-NE",
+          "frame": 2,
+          "id": "rpg-run-NE-02",
+          "time": 134312.90000000596
+        }
+      ],
+      "averageIntervalMs": 83.28888889153798
+    },
+    {
+      "clip": "rpg-run-NE",
+      "speed": "0.25",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "rpg-run-NE",
+          "frame": 3,
+          "id": "rpg-run-NE-03",
+          "time": 134730.40000000596
+        },
+        {
+          "clip": "rpg-run-NE",
+          "frame": 4,
+          "id": "rpg-run-NE-04",
+          "time": 135063.19999998808
+        },
+        {
+          "clip": "rpg-run-NE",
+          "frame": 5,
+          "id": "rpg-run-NE-05",
+          "time": 135396.5
+        },
+        {
+          "clip": "rpg-run-NE",
+          "frame": 6,
+          "id": "rpg-run-NE-06",
+          "time": 135729.5
+        },
+        {
+          "clip": "rpg-run-NE",
+          "frame": 7,
+          "id": "rpg-run-NE-07",
+          "time": 136063.19999998808
+        },
+        {
+          "clip": "rpg-run-NE",
+          "frame": 0,
+          "id": "rpg-run-NE-00",
+          "time": 136397.59999999404
+        },
+        {
+          "clip": "rpg-run-NE",
+          "frame": 1,
+          "id": "rpg-run-NE-01",
+          "time": 136729.79999998212
+        },
+        {
+          "clip": "rpg-run-NE",
+          "frame": 2,
+          "id": "rpg-run-NE-02",
+          "time": 137063.69999998808
+        },
+        {
+          "clip": "rpg-run-NE",
+          "frame": 3,
+          "id": "rpg-run-NE-03",
+          "time": 137396.40000000596
+        },
+        {
+          "clip": "rpg-run-NE",
+          "frame": 4,
+          "id": "rpg-run-NE-04",
+          "time": 137730.40000000596
+        }
+      ],
+      "averageIntervalMs": 333.3333333333333
+    },
+    {
+      "clip": "rpg-walk-N",
+      "speed": "1",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "rpg-walk-N",
+          "frame": 1,
+          "id": "rpg-walk-N-01",
+          "time": 138229.69999998808
+        },
+        {
+          "clip": "rpg-walk-N",
+          "frame": 2,
+          "id": "rpg-walk-N-02",
+          "time": 138363.69999998808
+        },
+        {
+          "clip": "rpg-walk-N",
+          "frame": 3,
+          "id": "rpg-walk-N-03",
+          "time": 138480.29999998212
+        },
+        {
+          "clip": "rpg-walk-N",
+          "frame": 4,
+          "id": "rpg-walk-N-04",
+          "time": 138613.69999998808
+        },
+        {
+          "clip": "rpg-walk-N",
+          "frame": 5,
+          "id": "rpg-walk-N-05",
+          "time": 138730.79999998212
+        },
+        {
+          "clip": "rpg-walk-N",
+          "frame": 6,
+          "id": "rpg-walk-N-06",
+          "time": 138864.19999998808
+        },
+        {
+          "clip": "rpg-walk-N",
+          "frame": 7,
+          "id": "rpg-walk-N-07",
+          "time": 138979.40000000596
+        },
+        {
+          "clip": "rpg-walk-N",
+          "frame": 0,
+          "id": "rpg-walk-N-00",
+          "time": 139112.90000000596
+        },
+        {
+          "clip": "rpg-walk-N",
+          "frame": 1,
+          "id": "rpg-walk-N-01",
+          "time": 139230
+        },
+        {
+          "clip": "rpg-walk-N",
+          "frame": 2,
+          "id": "rpg-walk-N-02",
+          "time": 139363.09999999404
+        }
+      ],
+      "averageIntervalMs": 125.9333333339956
+    },
+    {
+      "clip": "rpg-walk-N",
+      "speed": "0.25",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "rpg-walk-N",
+          "frame": 3,
+          "id": "rpg-walk-N-03",
+          "time": 139946.29999998212
+        },
+        {
+          "clip": "rpg-walk-N",
+          "frame": 4,
+          "id": "rpg-walk-N-04",
+          "time": 140446.69999998808
+        },
+        {
+          "clip": "rpg-walk-N",
+          "frame": 5,
+          "id": "rpg-walk-N-05",
+          "time": 140947
+        },
+        {
+          "clip": "rpg-walk-N",
+          "frame": 6,
+          "id": "rpg-walk-N-06",
+          "time": 141446.69999998808
+        },
+        {
+          "clip": "rpg-walk-N",
+          "frame": 7,
+          "id": "rpg-walk-N-07",
+          "time": 141946.69999998808
+        },
+        {
+          "clip": "rpg-walk-N",
+          "frame": 0,
+          "id": "rpg-walk-N-00",
+          "time": 142446.69999998808
+        },
+        {
+          "clip": "rpg-walk-N",
+          "frame": 1,
+          "id": "rpg-walk-N-01",
+          "time": 142946.09999999404
+        },
+        {
+          "clip": "rpg-walk-N",
+          "frame": 2,
+          "id": "rpg-walk-N-02",
+          "time": 143446.69999998808
+        },
+        {
+          "clip": "rpg-walk-N",
+          "frame": 3,
+          "id": "rpg-walk-N-03",
+          "time": 143946.40000000596
+        },
+        {
+          "clip": "rpg-walk-N",
+          "frame": 4,
+          "id": "rpg-walk-N-04",
+          "time": 144447.29999998212
+        }
+      ],
+      "averageIntervalMs": 500.1111111111111
+    },
+    {
+      "clip": "rpg-run-N",
+      "speed": "1",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "rpg-run-N",
+          "frame": 1,
+          "id": "rpg-run-N-01",
+          "time": 144762.79999998212
+        },
+        {
+          "clip": "rpg-run-N",
+          "frame": 2,
+          "id": "rpg-run-N-02",
+          "time": 144846.90000000596
+        },
+        {
+          "clip": "rpg-run-N",
+          "frame": 3,
+          "id": "rpg-run-N-03",
+          "time": 144929.69999998808
+        },
+        {
+          "clip": "rpg-run-N",
+          "frame": 4,
+          "id": "rpg-run-N-04",
+          "time": 145013.40000000596
+        },
+        {
+          "clip": "rpg-run-N",
+          "frame": 5,
+          "id": "rpg-run-N-05",
+          "time": 145096
+        },
+        {
+          "clip": "rpg-run-N",
+          "frame": 6,
+          "id": "rpg-run-N-06",
+          "time": 145180
+        },
+        {
+          "clip": "rpg-run-N",
+          "frame": 7,
+          "id": "rpg-run-N-07",
+          "time": 145263.29999998212
+        },
+        {
+          "clip": "rpg-run-N",
+          "frame": 0,
+          "id": "rpg-run-N-00",
+          "time": 145346
+        },
+        {
+          "clip": "rpg-run-N",
+          "frame": 1,
+          "id": "rpg-run-N-01",
+          "time": 145430.40000000596
+        },
+        {
+          "clip": "rpg-run-N",
+          "frame": 2,
+          "id": "rpg-run-N-02",
+          "time": 145513
+        }
+      ],
+      "averageIntervalMs": 83.35555555754237
+    },
+    {
+      "clip": "rpg-run-N",
+      "speed": "0.25",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "rpg-run-N",
+          "frame": 3,
+          "id": "rpg-run-N-03",
+          "time": 145930.09999999404
+        },
+        {
+          "clip": "rpg-run-N",
+          "frame": 4,
+          "id": "rpg-run-N-04",
+          "time": 146262.79999998212
+        },
+        {
+          "clip": "rpg-run-N",
+          "frame": 5,
+          "id": "rpg-run-N-05",
+          "time": 146597.59999999404
+        },
+        {
+          "clip": "rpg-run-N",
+          "frame": 6,
+          "id": "rpg-run-N-06",
+          "time": 146930
+        },
+        {
+          "clip": "rpg-run-N",
+          "frame": 7,
+          "id": "rpg-run-N-07",
+          "time": 147263
+        },
+        {
+          "clip": "rpg-run-N",
+          "frame": 0,
+          "id": "rpg-run-N-00",
+          "time": 147596.90000000596
+        },
+        {
+          "clip": "rpg-run-N",
+          "frame": 1,
+          "id": "rpg-run-N-01",
+          "time": 147929.29999998212
+        },
+        {
+          "clip": "rpg-run-N",
+          "frame": 2,
+          "id": "rpg-run-N-02",
+          "time": 148262.79999998212
+        },
+        {
+          "clip": "rpg-run-N",
+          "frame": 3,
+          "id": "rpg-run-N-03",
+          "time": 148596.29999998212
+        },
+        {
+          "clip": "rpg-run-N",
+          "frame": 4,
+          "id": "rpg-run-N-04",
+          "time": 148929.79999998212
+        }
+      ],
+      "averageIntervalMs": 333.29999999867545
+    },
+    {
+      "clip": "rpg-walk-NW",
+      "speed": "1",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "rpg-walk-NW",
+          "frame": 1,
+          "id": "rpg-walk-NW-01",
+          "time": 149279.29999998212
+        },
+        {
+          "clip": "rpg-walk-NW",
+          "frame": 2,
+          "id": "rpg-walk-NW-02",
+          "time": 149413.29999998212
+        },
+        {
+          "clip": "rpg-walk-NW",
+          "frame": 3,
+          "id": "rpg-walk-NW-03",
+          "time": 149529.59999999404
+        },
+        {
+          "clip": "rpg-walk-NW",
+          "frame": 4,
+          "id": "rpg-walk-NW-04",
+          "time": 149663.59999999404
+        },
+        {
+          "clip": "rpg-walk-NW",
+          "frame": 5,
+          "id": "rpg-walk-NW-05",
+          "time": 149780.59999999404
+        },
+        {
+          "clip": "rpg-walk-NW",
+          "frame": 6,
+          "id": "rpg-walk-NW-06",
+          "time": 149912.40000000596
+        },
+        {
+          "clip": "rpg-walk-NW",
+          "frame": 7,
+          "id": "rpg-walk-NW-07",
+          "time": 150029.29999998212
+        },
+        {
+          "clip": "rpg-walk-NW",
+          "frame": 0,
+          "id": "rpg-walk-NW-00",
+          "time": 150163.19999998808
+        },
+        {
+          "clip": "rpg-walk-NW",
+          "frame": 1,
+          "id": "rpg-walk-NW-01",
+          "time": 150280.40000000596
+        },
+        {
+          "clip": "rpg-walk-NW",
+          "frame": 2,
+          "id": "rpg-walk-NW-02",
+          "time": 150412.90000000596
+        }
+      ],
+      "averageIntervalMs": 125.95555555820465
+    },
+    {
+      "clip": "rpg-walk-NW",
+      "speed": "0.25",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "rpg-walk-NW",
+          "frame": 3,
+          "id": "rpg-walk-NW-03",
+          "time": 150996.09999999404
+        },
+        {
+          "clip": "rpg-walk-NW",
+          "frame": 4,
+          "id": "rpg-walk-NW-04",
+          "time": 151496.5
+        },
+        {
+          "clip": "rpg-walk-NW",
+          "frame": 5,
+          "id": "rpg-walk-NW-05",
+          "time": 151995.69999998808
+        },
+        {
+          "clip": "rpg-walk-NW",
+          "frame": 6,
+          "id": "rpg-walk-NW-06",
+          "time": 152496.40000000596
+        },
+        {
+          "clip": "rpg-walk-NW",
+          "frame": 7,
+          "id": "rpg-walk-NW-07",
+          "time": 152996.5
+        },
+        {
+          "clip": "rpg-walk-NW",
+          "frame": 0,
+          "id": "rpg-walk-NW-00",
+          "time": 153496.19999998808
+        },
+        {
+          "clip": "rpg-walk-NW",
+          "frame": 1,
+          "id": "rpg-walk-NW-01",
+          "time": 153997.09999999404
+        },
+        {
+          "clip": "rpg-walk-NW",
+          "frame": 2,
+          "id": "rpg-walk-NW-02",
+          "time": 154495.59999999404
+        },
+        {
+          "clip": "rpg-walk-NW",
+          "frame": 3,
+          "id": "rpg-walk-NW-03",
+          "time": 154996.5
+        },
+        {
+          "clip": "rpg-walk-NW",
+          "frame": 4,
+          "id": "rpg-walk-NW-04",
+          "time": 155497
+        }
+      ],
+      "averageIntervalMs": 500.10000000066225
+    },
+    {
+      "clip": "rpg-run-NW",
+      "speed": "1",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "rpg-run-NW",
+          "frame": 1,
+          "id": "rpg-run-NW-01",
+          "time": 155796.29999998212
+        },
+        {
+          "clip": "rpg-run-NW",
+          "frame": 2,
+          "id": "rpg-run-NW-02",
+          "time": 155879.5
+        },
+        {
+          "clip": "rpg-run-NW",
+          "frame": 3,
+          "id": "rpg-run-NW-03",
+          "time": 155962.79999998212
+        },
+        {
+          "clip": "rpg-run-NW",
+          "frame": 4,
+          "id": "rpg-run-NW-04",
+          "time": 156046.40000000596
+        },
+        {
+          "clip": "rpg-run-NW",
+          "frame": 5,
+          "id": "rpg-run-NW-05",
+          "time": 156128.90000000596
+        },
+        {
+          "clip": "rpg-run-NW",
+          "frame": 6,
+          "id": "rpg-run-NW-06",
+          "time": 156213.09999999404
+        },
+        {
+          "clip": "rpg-run-NW",
+          "frame": 7,
+          "id": "rpg-run-NW-07",
+          "time": 156295.5
+        },
+        {
+          "clip": "rpg-run-NW",
+          "frame": 0,
+          "id": "rpg-run-NW-00",
+          "time": 156378.90000000596
+        },
+        {
+          "clip": "rpg-run-NW",
+          "frame": 1,
+          "id": "rpg-run-NW-01",
+          "time": 156462
+        },
+        {
+          "clip": "rpg-run-NW",
+          "frame": 2,
+          "id": "rpg-run-NW-02",
+          "time": 156546.40000000596
+        }
+      ],
+      "averageIntervalMs": 83.34444444709354
+    },
+    {
+      "clip": "rpg-run-NW",
+      "speed": "0.25",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "rpg-run-NW",
+          "frame": 3,
+          "id": "rpg-run-NW-03",
+          "time": 156962.90000000596
+        },
+        {
+          "clip": "rpg-run-NW",
+          "frame": 4,
+          "id": "rpg-run-NW-04",
+          "time": 157296.5
+        },
+        {
+          "clip": "rpg-run-NW",
+          "frame": 5,
+          "id": "rpg-run-NW-05",
+          "time": 157629.09999999404
+        },
+        {
+          "clip": "rpg-run-NW",
+          "frame": 6,
+          "id": "rpg-run-NW-06",
+          "time": 157962.5
+        },
+        {
+          "clip": "rpg-run-NW",
+          "frame": 7,
+          "id": "rpg-run-NW-07",
+          "time": 158295.69999998808
+        },
+        {
+          "clip": "rpg-run-NW",
+          "frame": 0,
+          "id": "rpg-run-NW-00",
+          "time": 158629.19999998808
+        },
+        {
+          "clip": "rpg-run-NW",
+          "frame": 1,
+          "id": "rpg-run-NW-01",
+          "time": 158963.19999998808
+        },
+        {
+          "clip": "rpg-run-NW",
+          "frame": 2,
+          "id": "rpg-run-NW-02",
+          "time": 159295.79999998212
+        },
+        {
+          "clip": "rpg-run-NW",
+          "frame": 3,
+          "id": "rpg-run-NW-03",
+          "time": 159629.09999999404
+        },
+        {
+          "clip": "rpg-run-NW",
+          "frame": 4,
+          "id": "rpg-run-NW-04",
+          "time": 159962.79999998212
+        }
+      ],
+      "averageIntervalMs": 333.3222222195731
+    },
+    {
+      "clip": "rpg-walk-W",
+      "speed": "1",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "rpg-walk-W",
+          "frame": 1,
+          "id": "rpg-walk-W-01",
+          "time": 160312.29999998212
+        },
+        {
+          "clip": "rpg-walk-W",
+          "frame": 2,
+          "id": "rpg-walk-W-02",
+          "time": 160446.29999998212
+        },
+        {
+          "clip": "rpg-walk-W",
+          "frame": 3,
+          "id": "rpg-walk-W-03",
+          "time": 160562.40000000596
+        },
+        {
+          "clip": "rpg-walk-W",
+          "frame": 4,
+          "id": "rpg-walk-W-04",
+          "time": 160695.79999998212
+        },
+        {
+          "clip": "rpg-walk-W",
+          "frame": 5,
+          "id": "rpg-walk-W-05",
+          "time": 160812.79999998212
+        },
+        {
+          "clip": "rpg-walk-W",
+          "frame": 6,
+          "id": "rpg-walk-W-06",
+          "time": 160946.79999998212
+        },
+        {
+          "clip": "rpg-walk-W",
+          "frame": 7,
+          "id": "rpg-walk-W-07",
+          "time": 161063.59999999404
+        },
+        {
+          "clip": "rpg-walk-W",
+          "frame": 0,
+          "id": "rpg-walk-W-00",
+          "time": 161195.90000000596
+        },
+        {
+          "clip": "rpg-walk-W",
+          "frame": 1,
+          "id": "rpg-walk-W-01",
+          "time": 161312.40000000596
+        },
+        {
+          "clip": "rpg-walk-W",
+          "frame": 2,
+          "id": "rpg-walk-W-02",
+          "time": 161445.5
+        }
+      ],
+      "averageIntervalMs": 125.91111111309793
+    },
+    {
+      "clip": "rpg-walk-W",
+      "speed": "0.25",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "rpg-walk-W",
+          "frame": 3,
+          "id": "rpg-walk-W-03",
+          "time": 162031.5
+        },
+        {
+          "clip": "rpg-walk-W",
+          "frame": 4,
+          "id": "rpg-walk-W-04",
+          "time": 162529.19999998808
+        },
+        {
+          "clip": "rpg-walk-W",
+          "frame": 5,
+          "id": "rpg-walk-W-05",
+          "time": 163030.40000000596
+        },
+        {
+          "clip": "rpg-walk-W",
+          "frame": 6,
+          "id": "rpg-walk-W-06",
+          "time": 163529.5
+        },
+        {
+          "clip": "rpg-walk-W",
+          "frame": 7,
+          "id": "rpg-walk-W-07",
+          "time": 164029.79999998212
+        },
+        {
+          "clip": "rpg-walk-W",
+          "frame": 0,
+          "id": "rpg-walk-W-00",
+          "time": 164528.79999998212
+        },
+        {
+          "clip": "rpg-walk-W",
+          "frame": 1,
+          "id": "rpg-walk-W-01",
+          "time": 165028.79999998212
+        },
+        {
+          "clip": "rpg-walk-W",
+          "frame": 2,
+          "id": "rpg-walk-W-02",
+          "time": 165528.69999998808
+        },
+        {
+          "clip": "rpg-walk-W",
+          "frame": 3,
+          "id": "rpg-walk-W-03",
+          "time": 166028.79999998212
+        },
+        {
+          "clip": "rpg-walk-W",
+          "frame": 4,
+          "id": "rpg-walk-W-04",
+          "time": 166528.69999998808
+        }
+      ],
+      "averageIntervalMs": 499.68888888756436
+    },
+    {
+      "clip": "rpg-run-W",
+      "speed": "1",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "rpg-run-W",
+          "frame": 1,
+          "id": "rpg-run-W-01",
+          "time": 166878.69999998808
+        },
+        {
+          "clip": "rpg-run-W",
+          "frame": 2,
+          "id": "rpg-run-W-02",
+          "time": 166963.29999998212
+        },
+        {
+          "clip": "rpg-run-W",
+          "frame": 3,
+          "id": "rpg-run-W-03",
+          "time": 167045.29999998212
+        },
+        {
+          "clip": "rpg-run-W",
+          "frame": 4,
+          "id": "rpg-run-W-04",
+          "time": 167129
+        },
+        {
+          "clip": "rpg-run-W",
+          "frame": 5,
+          "id": "rpg-run-W-05",
+          "time": 167212.29999998212
+        },
+        {
+          "clip": "rpg-run-W",
+          "frame": 6,
+          "id": "rpg-run-W-06",
+          "time": 167296
+        },
+        {
+          "clip": "rpg-run-W",
+          "frame": 7,
+          "id": "rpg-run-W-07",
+          "time": 167379.5
+        },
+        {
+          "clip": "rpg-run-W",
+          "frame": 0,
+          "id": "rpg-run-W-00",
+          "time": 167463.29999998212
+        },
+        {
+          "clip": "rpg-run-W",
+          "frame": 1,
+          "id": "rpg-run-W-01",
+          "time": 167545.40000000596
+        },
+        {
+          "clip": "rpg-run-W",
+          "frame": 2,
+          "id": "rpg-run-W-02",
+          "time": 167629
+        }
+      ],
+      "averageIntervalMs": 83.36666666799121
+    },
+    {
+      "clip": "rpg-run-W",
+      "speed": "0.25",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "rpg-run-W",
+          "frame": 3,
+          "id": "rpg-run-W-03",
+          "time": 168046.40000000596
+        },
+        {
+          "clip": "rpg-run-W",
+          "frame": 4,
+          "id": "rpg-run-W-04",
+          "time": 168379.29999998212
+        },
+        {
+          "clip": "rpg-run-W",
+          "frame": 5,
+          "id": "rpg-run-W-05",
+          "time": 168712.5
+        },
+        {
+          "clip": "rpg-run-W",
+          "frame": 6,
+          "id": "rpg-run-W-06",
+          "time": 169045.19999998808
+        },
+        {
+          "clip": "rpg-run-W",
+          "frame": 7,
+          "id": "rpg-run-W-07",
+          "time": 169378.69999998808
+        },
+        {
+          "clip": "rpg-run-W",
+          "frame": 0,
+          "id": "rpg-run-W-00",
+          "time": 169712.69999998808
+        },
+        {
+          "clip": "rpg-run-W",
+          "frame": 1,
+          "id": "rpg-run-W-01",
+          "time": 170046.09999999404
+        },
+        {
+          "clip": "rpg-run-W",
+          "frame": 2,
+          "id": "rpg-run-W-02",
+          "time": 170379
+        },
+        {
+          "clip": "rpg-run-W",
+          "frame": 3,
+          "id": "rpg-run-W-03",
+          "time": 170713.19999998808
+        },
+        {
+          "clip": "rpg-run-W",
+          "frame": 4,
+          "id": "rpg-run-W-04",
+          "time": 171046
+        }
+      ],
+      "averageIntervalMs": 333.2888888882266
+    },
+    {
+      "clip": "rpg-walk-SW",
+      "speed": "1",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "rpg-walk-SW",
+          "frame": 1,
+          "id": "rpg-walk-SW-01",
+          "time": 171379.19999998808
+        },
+        {
+          "clip": "rpg-walk-SW",
+          "frame": 2,
+          "id": "rpg-walk-SW-02",
+          "time": 171512.19999998808
+        },
+        {
+          "clip": "rpg-walk-SW",
+          "frame": 3,
+          "id": "rpg-walk-SW-03",
+          "time": 171629.19999998808
+        },
+        {
+          "clip": "rpg-walk-SW",
+          "frame": 4,
+          "id": "rpg-walk-SW-04",
+          "time": 171762.5
+        },
+        {
+          "clip": "rpg-walk-SW",
+          "frame": 5,
+          "id": "rpg-walk-SW-05",
+          "time": 171879.40000000596
+        },
+        {
+          "clip": "rpg-walk-SW",
+          "frame": 6,
+          "id": "rpg-walk-SW-06",
+          "time": 172011.40000000596
+        },
+        {
+          "clip": "rpg-walk-SW",
+          "frame": 7,
+          "id": "rpg-walk-SW-07",
+          "time": 172128.90000000596
+        },
+        {
+          "clip": "rpg-walk-SW",
+          "frame": 0,
+          "id": "rpg-walk-SW-00",
+          "time": 172261.90000000596
+        },
+        {
+          "clip": "rpg-walk-SW",
+          "frame": 1,
+          "id": "rpg-walk-SW-01",
+          "time": 172378.59999999404
+        },
+        {
+          "clip": "rpg-walk-SW",
+          "frame": 2,
+          "id": "rpg-walk-SW-02",
+          "time": 172511.69999998808
+        }
+      ],
+      "averageIntervalMs": 125.83333333333333
+    },
+    {
+      "clip": "rpg-walk-SW",
+      "speed": "0.25",
+      "fps": 8,
+      "trace": [
+        {
+          "clip": "rpg-walk-SW",
+          "frame": 3,
+          "id": "rpg-walk-SW-03",
+          "time": 173095.40000000596
+        },
+        {
+          "clip": "rpg-walk-SW",
+          "frame": 4,
+          "id": "rpg-walk-SW-04",
+          "time": 173594.69999998808
+        },
+        {
+          "clip": "rpg-walk-SW",
+          "frame": 5,
+          "id": "rpg-walk-SW-05",
+          "time": 174095.69999998808
+        },
+        {
+          "clip": "rpg-walk-SW",
+          "frame": 6,
+          "id": "rpg-walk-SW-06",
+          "time": 174595.19999998808
+        },
+        {
+          "clip": "rpg-walk-SW",
+          "frame": 7,
+          "id": "rpg-walk-SW-07",
+          "time": 175094.79999998212
+        },
+        {
+          "clip": "rpg-walk-SW",
+          "frame": 0,
+          "id": "rpg-walk-SW-00",
+          "time": 175595.5
+        },
+        {
+          "clip": "rpg-walk-SW",
+          "frame": 1,
+          "id": "rpg-walk-SW-01",
+          "time": 176094.59999999404
+        },
+        {
+          "clip": "rpg-walk-SW",
+          "frame": 2,
+          "id": "rpg-walk-SW-02",
+          "time": 176594.90000000596
+        },
+        {
+          "clip": "rpg-walk-SW",
+          "frame": 3,
+          "id": "rpg-walk-SW-03",
+          "time": 177095.5
+        },
+        {
+          "clip": "rpg-walk-SW",
+          "frame": 4,
+          "id": "rpg-walk-SW-04",
+          "time": 177595.09999999404
+        }
+      ],
+      "averageIntervalMs": 499.96666666534213
+    },
+    {
+      "clip": "rpg-run-SW",
+      "speed": "1",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "rpg-run-SW",
+          "frame": 1,
+          "id": "rpg-run-SW-01",
+          "time": 177944.79999998212
+        },
+        {
+          "clip": "rpg-run-SW",
+          "frame": 2,
+          "id": "rpg-run-SW-02",
+          "time": 178028.40000000596
+        },
+        {
+          "clip": "rpg-run-SW",
+          "frame": 3,
+          "id": "rpg-run-SW-03",
+          "time": 178112
+        },
+        {
+          "clip": "rpg-run-SW",
+          "frame": 4,
+          "id": "rpg-run-SW-04",
+          "time": 178195.29999998212
+        },
+        {
+          "clip": "rpg-run-SW",
+          "frame": 5,
+          "id": "rpg-run-SW-05",
+          "time": 178278
+        },
+        {
+          "clip": "rpg-run-SW",
+          "frame": 6,
+          "id": "rpg-run-SW-06",
+          "time": 178361.69999998808
+        },
+        {
+          "clip": "rpg-run-SW",
+          "frame": 7,
+          "id": "rpg-run-SW-07",
+          "time": 178445
+        },
+        {
+          "clip": "rpg-run-SW",
+          "frame": 0,
+          "id": "rpg-run-SW-00",
+          "time": 178528.5
+        },
+        {
+          "clip": "rpg-run-SW",
+          "frame": 1,
+          "id": "rpg-run-SW-01",
+          "time": 178611.79999998212
+        },
+        {
+          "clip": "rpg-run-SW",
+          "frame": 2,
+          "id": "rpg-run-SW-02",
+          "time": 178695.09999999404
+        }
+      ],
+      "averageIntervalMs": 83.36666666799121
+    },
+    {
+      "clip": "rpg-run-SW",
+      "speed": "0.25",
+      "fps": 12,
+      "trace": [
+        {
+          "clip": "rpg-run-SW",
+          "frame": 3,
+          "id": "rpg-run-SW-03",
+          "time": 179112.09999999404
+        },
+        {
+          "clip": "rpg-run-SW",
+          "frame": 4,
+          "id": "rpg-run-SW-04",
+          "time": 179444.69999998808
+        },
+        {
+          "clip": "rpg-run-SW",
+          "frame": 5,
+          "id": "rpg-run-SW-05",
+          "time": 179778.59999999404
+        },
+        {
+          "clip": "rpg-run-SW",
+          "frame": 6,
+          "id": "rpg-run-SW-06",
+          "time": 180111.69999998808
+        },
+        {
+          "clip": "rpg-run-SW",
+          "frame": 7,
+          "id": "rpg-run-SW-07",
+          "time": 180445.19999998808
+        },
+        {
+          "clip": "rpg-run-SW",
+          "frame": 0,
+          "id": "rpg-run-SW-00",
+          "time": 180778.19999998808
+        },
+        {
+          "clip": "rpg-run-SW",
+          "frame": 1,
+          "id": "rpg-run-SW-01",
+          "time": 181111.69999998808
+        },
+        {
+          "clip": "rpg-run-SW",
+          "frame": 2,
+          "id": "rpg-run-SW-02",
+          "time": 181444.69999998808
+        },
+        {
+          "clip": "rpg-run-SW",
+          "frame": 3,
+          "id": "rpg-run-SW-03",
+          "time": 181778.69999998808
+        },
+        {
+          "clip": "rpg-run-SW",
+          "frame": 4,
+          "id": "rpg-run-SW-04",
+          "time": 182111.79999998212
+        }
+      ],
+      "averageIntervalMs": 333.29999999867545
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "tool": "agent-draw",
+  "version": "0.4.1",
+  "kind": "sequence",
+  "ok": true,
+  "name": "rear-heel-and-forefoot-check",
+  "width": 640,
+  "height": 640,
+  "fps": 8,
+  "frames": 6,
+  "durationSeconds": 0.75,
+  "loop": false,
+  "seam": {
+    "closed": null,
+    "method": "not automatically proven for independently drawn poses",
+    "requiresVisualReview": true
+  },
+  "formats": [
+    "svg",
+    "png"
+  ],
+  "source": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\key-rear-feet.json",
+  "sourceSha256": "960a6d38e713741e075bc0c8d7e27253ec4a1c05934b590a9a95ddb2acff5743",
+  "sourceFrames": [
+    {
+      "index": 0,
+      "path": "projects/human-run-NE-00.json",
+      "project": "projects/frame-0000.json",
+      "svg": "frames/frame-0000.svg",
+      "png": "frames/frame-0000.png",
+      "sha256": "a15645a9c5d70d26e81c9466afccc211f35f86d4ab5d06df68938070c4f38dd8",
+      "bytes": 18767
+    },
+    {
+      "index": 1,
+      "path": "projects/human-run-N-00.json",
+      "project": "projects/frame-0001.json",
+      "svg": "frames/frame-0001.svg",
+      "png": "frames/frame-0001.png",
+      "sha256": "2b774f884615b760da6973d9b2339db003a0fac8b221f0e622c5d8c83de26570",
+      "bytes": 19485
+    },
+    {
+      "index": 2,
+      "path": "projects/human-run-NW-00.json",
+      "project": "projects/frame-0002.json",
+      "svg": "frames/frame-0002.svg",
+      "png": "frames/frame-0002.png",
+      "sha256": "962bec4a1e26965f74f6dc594d8b18d41ce92e5b637523e6ad58fc0a83ea7cdc",
+      "bytes": 18828
+    },
+    {
+      "index": 3,
+      "path": "projects/rpg-run-NE-00.json",
+      "project": "projects/frame-0003.json",
+      "svg": "frames/frame-0003.svg",
+      "png": "frames/frame-0003.png",
+      "sha256": "5c74087dba1aac66a1453c4f45b0c1b8bc75418ce28c618fdea97d191516bfd6",
+      "bytes": 18754
+    },
+    {
+      "index": 4,
+      "path": "projects/rpg-run-N-00.json",
+      "project": "projects/frame-0004.json",
+      "svg": "frames/frame-0004.svg",
+      "png": "frames/frame-0004.png",
+      "sha256": "52eb38f38429e82dd1c742ea11338f35a17a40b77b86b9a95be96882a6be9a54",
+      "bytes": 19488
+    },
+    {
+      "index": 5,
+      "path": "projects/rpg-run-NW-00.json",
+      "project": "projects/frame-0005.json",
+      "svg": "frames/frame-0005.svg",
+      "png": "frames/frame-0005.png",
+      "sha256": "c41112f3836758b16dc233e2c38846b409de58391a4782a7f85f60913114dc04",
+      "bytes": 18765
+    }
+  ],
+  "manifest": "manifest.json",
+  "sourceManifest": "source-manifest.json",
+  "inputBytes": 114409,
+  "contactSheetFrames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "contactSheet": {
+    "width": 1236,
+    "height": 240,
+    "columns": 6,
+    "rows": 1
+  },
+  "inkscape": "Inkscape 1.4.3 (0d15f75, 2025-12-25)",
+  "limitations": [
+    "Each frame uses its authored geometry. No interpolation, generated in-betweens, or automatic pose/foot registration.",
+    "Loop is playback intent; review the last-to-first transition visually. Matching first and last drawings is not required."
+  ],
+  "artifacts": [
+    {
+      "name": "projects/frame-0000.json",
+      "sha256": "a15645a9c5d70d26e81c9466afccc211f35f86d4ab5d06df68938070c4f38dd8"
+    },
+    {
+      "name": "frames/frame-0000.svg",
+      "sha256": "5b5264e8e2300ea3b7db87c13ce73619d0c1a54aa0336afde63950e4db82e3c1"
+    },
+    {
+      "name": "frames/frame-0000.png",
+      "sha256": "c34fd11e36e2c38ee4407a4902fa2bf0bce1a048edf4149b0ea0674ad54d2ff5"
+    },
+    {
+      "name": "projects/frame-0001.json",
+      "sha256": "2b774f884615b760da6973d9b2339db003a0fac8b221f0e622c5d8c83de26570"
+    },
+    {
+      "name": "frames/frame-0001.svg",
+      "sha256": "11c67dd3af7e00d0e7dc0fb4fbbbca19be4dbf61bc80f28d3dc5205351246b54"
+    },
+    {
+      "name": "frames/frame-0001.png",
+      "sha256": "8c0740874861b79c204764a3e17f449d9d4c25985a230e2b4ae01b9ab5f2c7ec"
+    },
+    {
+      "name": "projects/frame-0002.json",
+      "sha256": "962bec4a1e26965f74f6dc594d8b18d41ce92e5b637523e6ad58fc0a83ea7cdc"
+    },
+    {
+      "name": "frames/frame-0002.svg",
+      "sha256": "623a17d62d9651cb6aa4257ac21e5384d2dfb5663328648c6b33a2c4c12860b4"
+    },
+    {
+      "name": "frames/frame-0002.png",
+      "sha256": "84555614e46b721b3dc439e41d3bbfb4643822ee8a2c50b22ceca6d5c9d50fda"
+    },
+    {
+      "name": "projects/frame-0003.json",
+      "sha256": "5c74087dba1aac66a1453c4f45b0c1b8bc75418ce28c618fdea97d191516bfd6"
+    },
+    {
+      "name": "frames/frame-0003.svg",
+      "sha256": "a333d9e958a71687d049c200cee83826ddbc3fdae22d016e868cb1f6108898ba"
+    },
+    {
+      "name": "frames/frame-0003.png",
+      "sha256": "c11a375dd56e61ddbf0cfd8f05d7718aa2d0ac9015c7137d22a5c5eb6278c1fa"
+    },
+    {
+      "name": "projects/frame-0004.json",
+      "sha256": "52eb38f38429e82dd1c742ea11338f35a17a40b77b86b9a95be96882a6be9a54"
+    },
+    {
+      "name": "frames/frame-0004.svg",
+      "sha256": "7253a5c3b626efb80e2946414b499a0358291611b8fc386053bd353d1d2960b7"
+    },
+    {
+      "name": "frames/frame-0004.png",
+      "sha256": "ec10355cb0551ce2ccfa66f7e03f4ed0afd846407f89a4f65a09e657de5042b7"
+    },
+    {
+      "name": "projects/frame-0005.json",
+      "sha256": "c41112f3836758b16dc233e2c38846b409de58391a4782a7f85f60913114dc04"
+    },
+    {
+      "name": "frames/frame-0005.svg",
+      "sha256": "b4395a79e531f29e4624edff566cdac868e28c2b996d4874f35cd2ce07cca087"
+    },
+    {
+      "name": "frames/frame-0005.png",
+      "sha256": "1f77de92a4594ae1bc68dae7fd66fe1b68e6c23ce9e2a7e2eb0851ef6c5bfbeb"
+    },
+    {
+      "name": "source-manifest.json",
+      "sha256": "960a6d38e713741e075bc0c8d7e27253ec4a1c05934b590a9a95ddb2acff5743"
+    },
+    {
+      "name": "manifest.json",
+      "sha256": "832c3508446dfd65a23bd5a92239fb8d755b9c59a9d0349e3b62d94a50a02101"
+    },
+    {
+      "name": "contact-sheet.svg",
+      "sha256": "f5adb46f8b141851579343e551ea5eb664eaba76d6c482f65ae1775542f9d8a1"
+    },
+    {
+      "name": "contact-sheet.png",
+      "sha256": "ef362d528038c373d1a43601d7c99f5770ab3f0f1af9ba9a34e1083bb407e817"
+    }
+  ],
+  "warnings": [
+    {
+      "file": "frames/frame-0000.svg",
+      "message": "(inkscape.com:30428): Gdk-CRITICAL **: 17:53:32.787: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:30428): Gdk-CRITICAL **: 17:53:32.917: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0001.svg",
+      "message": "(inkscape.com:36316): Gdk-CRITICAL **: 17:53:35.040: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:36316): Gdk-CRITICAL **: 17:53:35.174: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0002.svg",
+      "message": "(inkscape.com:37668): Gdk-CRITICAL **: 17:53:37.279: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:37668): Gdk-CRITICAL **: 17:53:37.408: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0003.svg",
+      "message": "(inkscape.com:10404): Gdk-CRITICAL **: 17:53:39.529: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:10404): Gdk-CRITICAL **: 17:53:39.660: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0004.svg",
+      "message": "(inkscape.com:18388): Gdk-CRITICAL **: 17:53:41.768: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:18388): Gdk-CRITICAL **: 17:53:41.899: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0005.svg",
+      "message": "(inkscape.com:19840): Gdk-CRITICAL **: 17:53:44.008: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:19840): Gdk-CRITICAL **: 17:53:44.139: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "contact-sheet.svg",
+      "message": "(inkscape.com:36916): Gdk-CRITICAL **: 17:53:46.259: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:36916): Gdk-CRITICAL **: 17:53:46.390: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    }
+  ]
+}

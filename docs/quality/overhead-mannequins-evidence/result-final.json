@@ -1,0 +1,346 @@
+{
+  "result": {
+    "tasks": [
+      {
+        "id": "human-full",
+        "result": {
+          "verdict": "PASS",
+          "imagesViewed": [
+            "guide-key",
+            "human-crouch",
+            "human-jump",
+            "human-neutral",
+            "human-reach",
+            "human-run-E",
+            "human-run-flight",
+            "human-run-N",
+            "human-run-NE",
+            "human-run-NW",
+            "human-run-push",
+            "human-run-S",
+            "human-run-SE",
+            "human-run-SW",
+            "human-run-W",
+            "human-walk-contact",
+            "human-walk-E",
+            "human-walk-N",
+            "human-walk-NE",
+            "human-walk-NW",
+            "human-walk-pass",
+            "human-walk-S",
+            "human-walk-SE",
+            "human-walk-SW",
+            "human-walk-W"
+          ],
+          "coverage": [
+            {
+              "id": "guide-key",
+              "verdict": "PASS",
+              "observation": "Blue anatomical left and red anatomical right match the stated convention; opposing limbs remain identifiable."
+            },
+            {
+              "id": "human-crouch",
+              "verdict": "PASS",
+              "observation": "All eight facings retain coherent shoulder attachments, forward lean and overlapping folded legs."
+            },
+            {
+              "id": "human-jump",
+              "verdict": "PASS",
+              "observation": "All eight facings show attached, tapered limbs and consistent extended/tucked leg silhouettes."
+            },
+            {
+              "id": "human-neutral",
+              "verdict": "PASS",
+              "observation": "All eight facings read overhead; crown, nose, shoulders and end-on limbs remain coherent."
+            },
+            {
+              "id": "human-reach",
+              "verdict": "PASS",
+              "observation": "The same anatomical arm reaches through all eight turns with consistent shoulder attachment."
+            },
+            {
+              "id": "human-run-E",
+              "verdict": "PASS",
+              "observation": "Frames 0–7 show alternating legs and opposing arms; 7→0 drawing adjacency is plausible."
+            },
+            {
+              "id": "human-run-flight",
+              "verdict": "PASS",
+              "observation": "All eight facings preserve the extended rear leg, tucked opposite leg and opposing arms."
+            },
+            {
+              "id": "human-run-N",
+              "verdict": "PASS",
+              "observation": "Both half-strides retain coherent hip overlap and opposition; 7→0 drawing adjacency is plausible."
+            },
+            {
+              "id": "human-run-NE",
+              "verdict": "PASS",
+              "observation": "Both half-strides retain attached diagonal silhouettes and opposition; 7→0 drawing adjacency is plausible."
+            },
+            {
+              "id": "human-run-NW",
+              "verdict": "PASS",
+              "observation": "Both half-strides preserve limb sides and readable extremities; 7→0 drawing adjacency is plausible."
+            },
+            {
+              "id": "human-run-push",
+              "verdict": "PASS",
+              "observation": "All eight facings maintain forward lean, attached hips and opposing arm/leg placement."
+            },
+            {
+              "id": "human-run-S",
+              "verdict": "PASS",
+              "observation": "Both half-strides exchange leading legs and opposing arms; 7→0 drawing adjacency is plausible."
+            },
+            {
+              "id": "human-run-SE",
+              "verdict": "PASS",
+              "observation": "Both half-strides preserve coherent diagonal attachments and overlap; 7→0 drawing adjacency is plausible."
+            },
+            {
+              "id": "human-run-SW",
+              "verdict": "PASS",
+              "observation": "Both half-strides preserve alternating silhouettes and limb orientation; 7→0 drawing adjacency is plausible."
+            },
+            {
+              "id": "human-run-W",
+              "verdict": "PASS",
+              "observation": "Both half-strides show opposing limbs and coherent rear-foot emergence; 7→0 adjacency is plausible."
+            },
+            {
+              "id": "human-walk-contact",
+              "verdict": "PASS",
+              "observation": "All eight facings retain separated contact legs and the opposing arm arrangement."
+            },
+            {
+              "id": "human-walk-E",
+              "verdict": "PASS",
+              "observation": "Both half-strides alternate legs beneath the crown and shoulders; 7→0 adjacency is plausible."
+            },
+            {
+              "id": "human-walk-N",
+              "verdict": "PASS",
+              "observation": "Both half-strides retain coherent passing occlusion and opposition; 7→0 drawing adjacency is plausible."
+            },
+            {
+              "id": "human-walk-NE",
+              "verdict": "PASS",
+              "observation": "Both half-strides preserve attached diagonal limbs and readable feet; 7→0 adjacency is plausible."
+            },
+            {
+              "id": "human-walk-NW",
+              "verdict": "PASS",
+              "observation": "Both half-strides maintain anatomical sides and opposing swing; 7→0 drawing adjacency is plausible."
+            },
+            {
+              "id": "human-walk-pass",
+              "verdict": "PASS",
+              "observation": "All eight facings show coherent shortened leg projections and attached shoulder silhouettes."
+            },
+            {
+              "id": "human-walk-S",
+              "verdict": "PASS",
+              "observation": "Both half-strides alternate leading legs with opposing arms; 7→0 drawing adjacency is plausible."
+            },
+            {
+              "id": "human-walk-SE",
+              "verdict": "PASS",
+              "observation": "Both half-strides retain consistent attachments, taper and opposition; 7→0 drawing adjacency is plausible."
+            },
+            {
+              "id": "human-walk-SW",
+              "verdict": "PASS",
+              "observation": "Both half-strides preserve coherent passing overlap and extremities; 7→0 drawing adjacency is plausible."
+            },
+            {
+              "id": "human-walk-W",
+              "verdict": "PASS",
+              "observation": "Both half-strides retain opposing arms and alternating feet; 7→0 drawing adjacency is plausible."
+            }
+          ],
+          "findings": [
+            "All 25 supplied SHA-256 hashes match verification performed with exec login:false.",
+            "Opened every assigned PNG and inspected all 64 static facings and 128 movement frames. No concrete visible defect identified."
+          ],
+          "limitations": [
+            "Assessment covers the supplied static drawings. Continuous playback, timing, engine movement and integration remain unverified."
+          ]
+        },
+        "missing": false
+      },
+      {
+        "id": "rpg-full",
+        "result": {
+          "verdict": "PASS",
+          "imagesViewed": [
+            "guide-key",
+            "rpg-crouch",
+            "rpg-jump",
+            "rpg-neutral",
+            "rpg-reach",
+            "rpg-run-E",
+            "rpg-run-flight",
+            "rpg-run-N",
+            "rpg-run-NE",
+            "rpg-run-NW",
+            "rpg-run-push",
+            "rpg-run-S",
+            "rpg-run-SE",
+            "rpg-run-SW",
+            "rpg-run-W",
+            "rpg-walk-contact",
+            "rpg-walk-E",
+            "rpg-walk-N",
+            "rpg-walk-NE",
+            "rpg-walk-NW",
+            "rpg-walk-pass",
+            "rpg-walk-S",
+            "rpg-walk-SE",
+            "rpg-walk-SW",
+            "rpg-walk-W"
+          ],
+          "coverage": [
+            {
+              "id": "guide-key",
+              "verdict": "PASS",
+              "observation": "Crown-first head; anatomical left blue circles on screen-right, right red diamonds on screen-left; gold, teal and purple body guides distinguish attachments."
+            },
+            {
+              "id": "rpg-crouch",
+              "verdict": "PASS",
+              "observation": "All eight facings inspected; compact folded silhouette, attached shoulders and coherent hand orientation rotate consistently."
+            },
+            {
+              "id": "rpg-jump",
+              "verdict": "PASS",
+              "observation": "All eight facings inspected; extended and tucked legs remain distinguishable, with coherent shoulder overlap and tapered reaching arms."
+            },
+            {
+              "id": "rpg-neutral",
+              "verdict": "PASS",
+              "observation": "All eight facings inspected; large crown, small directional nose and shoulders beneath read consistently; hanging limbs are appropriately foreshortened."
+            },
+            {
+              "id": "rpg-reach",
+              "verdict": "PASS",
+              "observation": "All eight facings inspected; the same anatomical arm reaches through turns with a connected shoulder and readable hand tip."
+            },
+            {
+              "id": "rpg-run-E",
+              "verdict": "PASS",
+              "observation": "Frames 0–7 inspected; opposing arm/leg extension reverses across half-strides; tucked legs remain plausibly occluded; 7-to-0 adjacency is coherent."
+            },
+            {
+              "id": "rpg-run-flight",
+              "verdict": "PASS",
+              "observation": "All eight facings inspected; rear extended leg, forward tucked foot and opposing arms retain coherent attachments and overlap."
+            },
+            {
+              "id": "rpg-run-N",
+              "verdict": "PASS",
+              "observation": "Frames 0–7 inspected; arms exchange forward reach while visible feet exchange sides; both half-strides and 7-to-0 adjacency are coherent."
+            },
+            {
+              "id": "rpg-run-NE",
+              "verdict": "PASS",
+              "observation": "Frames 0–7 inspected; diagonal arm swings oppose alternating feet, with consistent crown and shoulder layering through both halves and wraparound."
+            },
+            {
+              "id": "rpg-run-NW",
+              "verdict": "PASS",
+              "observation": "Frames 0–7 inspected; alternating diagonal limbs remain attached and tapered; both half-strides and 7-to-0 adjacency are coherent."
+            },
+            {
+              "id": "rpg-run-push",
+              "verdict": "PASS",
+              "observation": "All eight facings inspected; compact pushing pose preserves shoulder attachment, bent-arm structure and consistent foot direction."
+            },
+            {
+              "id": "rpg-run-S",
+              "verdict": "PASS",
+              "observation": "Frames 0–7 inspected; forward arms alternate against opposite feet; central leg occlusion fits the overhead view; half-strides and wraparound are coherent."
+            },
+            {
+              "id": "rpg-run-SE",
+              "verdict": "PASS",
+              "observation": "Frames 0–7 inspected; opposing diagonal arm/leg silhouettes exchange across the halves without visible attachment breaks or a wraparound discontinuity."
+            },
+            {
+              "id": "rpg-run-SW",
+              "verdict": "PASS",
+              "observation": "Frames 0–7 inspected; alternating extended and folded arms accompany opposite feet; both half-strides and 7-to-0 adjacency remain coherent."
+            },
+            {
+              "id": "rpg-run-W",
+              "verdict": "PASS",
+              "observation": "Frames 0–7 inspected; westward hands and feet preserve orientation while opposing limbs exchange roles; both halves and wraparound are coherent."
+            },
+            {
+              "id": "rpg-walk-contact",
+              "verdict": "PASS",
+              "observation": "All eight facings inspected; separated contact feet and opposing arms rotate consistently with readable foot tips."
+            },
+            {
+              "id": "rpg-walk-E",
+              "verdict": "PASS",
+              "observation": "Frames 0–7 inspected; forward feet alternate between body sides with opposite arm swing; passing occlusion and 7-to-0 adjacency are coherent."
+            },
+            {
+              "id": "rpg-walk-N",
+              "verdict": "PASS",
+              "observation": "Frames 0–7 inspected; visible contact feet and forward hands exchange sides across half-strides; shoulder layering and wraparound remain coherent."
+            },
+            {
+              "id": "rpg-walk-NE",
+              "verdict": "PASS",
+              "observation": "Frames 0–7 inspected; diagonal contact-to-pass changes preserve opposing limbs and readable foot orientation in both halves and across 7-to-0."
+            },
+            {
+              "id": "rpg-walk-NW",
+              "verdict": "PASS",
+              "observation": "Frames 0–7 inspected; alternating diagonal feet remain consistent with opposite hands; attachments, both half-strides and wraparound are coherent."
+            },
+            {
+              "id": "rpg-walk-pass",
+              "verdict": "PASS",
+              "observation": "All eight facings inspected; compact passing feet and asymmetric arm swing remain consistent through turns with plausible overhead occlusion."
+            },
+            {
+              "id": "rpg-walk-S",
+              "verdict": "PASS",
+              "observation": "Frames 0–7 inspected; contact feet alternate beneath the crown with opposing hand extension; both half-strides and 7-to-0 adjacency are coherent."
+            },
+            {
+              "id": "rpg-walk-SE",
+              "verdict": "PASS",
+              "observation": "Frames 0–7 inspected; diagonal contact feet exchange sides with opposing arms; passing silhouettes and wraparound retain coherent overlap."
+            },
+            {
+              "id": "rpg-walk-SW",
+              "verdict": "PASS",
+              "observation": "Frames 0–7 inspected; alternating contact/pass silhouettes preserve shoulder attachment, foot orientation and opposing swing through both halves and wraparound."
+            },
+            {
+              "id": "rpg-walk-W",
+              "verdict": "PASS",
+              "observation": "Frames 0–7 inspected; westward feet alternate with opposite hands; compact passing poses and 7-to-0 adjacency are coherent."
+            }
+          ],
+          "findings": [
+            "All 25 supplied PNGs were opened; all SHA-256 hashes matched using PowerShell with exec login:false.",
+            "No concrete visible silhouette, attachment, overlap, orientation or stride-opposition defect identified in the assigned set."
+          ],
+          "limitations": [
+            "Assessment covers static drawings and frame adjacency only; continuous playback, engine movement and acceptance remain with root.",
+            "Fully occluded anatomy cannot be inspected directly."
+          ]
+        },
+        "missing": false
+      }
+    ],
+    "rootAcceptanceRequired": true,
+    "ownerAcceptanceNotInferred": true
+  },
+  "error": null
+}

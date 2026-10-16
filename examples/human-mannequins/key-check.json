@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "name": "mannequin-key-check",
+  "fps": 8,
+  "loop": false,
+  "frames": [
+    "projects/human-neutral-right.json",
+    "projects/human-run-flight-right.json",
+    "projects/human-crouch-right.json",
+    "projects/rpg-neutral-right.json",
+    "projects/rpg-run-flight-right.json",
+    "projects/rpg-crouch-right.json"
+  ]
+}

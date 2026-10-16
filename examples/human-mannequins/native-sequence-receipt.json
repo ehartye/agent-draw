@@ -1,0 +1,807 @@
+{
+  "schemaVersion": 1,
+  "tool": "agent-draw",
+  "version": "0.4.1",
+  "kind": "sequence",
+  "ok": true,
+  "name": "human-mannequin-starters",
+  "width": 640,
+  "height": 640,
+  "fps": 8,
+  "frames": 32,
+  "durationSeconds": 4,
+  "loop": false,
+  "seam": {
+    "closed": null,
+    "method": "not automatically proven for independently drawn poses",
+    "requiresVisualReview": true
+  },
+  "formats": [
+    "svg",
+    "png"
+  ],
+  "source": "C:\\Users\\ehart\\repos\\agent-draw-worktrees\\human-mannequins\\examples\\human-mannequins\\sequence.json",
+  "sourceSha256": "4f9584cd5a270a4e228d69dd0199d0dd829b4522edb2c721464a823d5c5e8026",
+  "sourceFrames": [
+    {
+      "index": 0,
+      "path": "projects/human-neutral-right.json",
+      "project": "projects/frame-0000.json",
+      "svg": "frames/frame-0000.svg",
+      "png": "frames/frame-0000.png",
+      "sha256": "fcf83231d0cb2ff925ef26ff4c735a5f4cf3a103c441980b4bffd1e2e1719f63",
+      "bytes": 15590
+    },
+    {
+      "index": 1,
+      "path": "projects/human-neutral-left.json",
+      "project": "projects/frame-0001.json",
+      "svg": "frames/frame-0001.svg",
+      "png": "frames/frame-0001.png",
+      "sha256": "32a3ddff3578e1d47a21a393b77050931cfc61c9e079047442f916b0fb4adb17",
+      "bytes": 15589
+    },
+    {
+      "index": 2,
+      "path": "projects/human-walk-contact-right.json",
+      "project": "projects/frame-0002.json",
+      "svg": "frames/frame-0002.svg",
+      "png": "frames/frame-0002.png",
+      "sha256": "6ec0261c927d21fd9fc425fda7e1f825bf4b62df81629260c07e73437fd09f3f",
+      "bytes": 15691
+    },
+    {
+      "index": 3,
+      "path": "projects/human-walk-contact-left.json",
+      "project": "projects/frame-0003.json",
+      "svg": "frames/frame-0003.svg",
+      "png": "frames/frame-0003.png",
+      "sha256": "d47360f923ecabe9674f58fd791ad0e5a9769ba62d7ed602899e754e6d103eeb",
+      "bytes": 15690
+    },
+    {
+      "index": 4,
+      "path": "projects/human-walk-pass-right.json",
+      "project": "projects/frame-0004.json",
+      "svg": "frames/frame-0004.svg",
+      "png": "frames/frame-0004.png",
+      "sha256": "0cb1beca5645a957e0ddba905d051e6523c2ba3e621e8e42a288ca358e3af982",
+      "bytes": 15716
+    },
+    {
+      "index": 5,
+      "path": "projects/human-walk-pass-left.json",
+      "project": "projects/frame-0005.json",
+      "svg": "frames/frame-0005.svg",
+      "png": "frames/frame-0005.png",
+      "sha256": "b6e58ce5bc3f6010b0832518d97c8ff0ba24e82cbb4cf2c55e827c66cd5c2454",
+      "bytes": 15715
+    },
+    {
+      "index": 6,
+      "path": "projects/human-run-push-right.json",
+      "project": "projects/frame-0006.json",
+      "svg": "frames/frame-0006.svg",
+      "png": "frames/frame-0006.png",
+      "sha256": "519f3946036eb515d4185a40370b3c23a9c430a4b6bf5b88197e84f8a889494c",
+      "bytes": 15711
+    },
+    {
+      "index": 7,
+      "path": "projects/human-run-push-left.json",
+      "project": "projects/frame-0007.json",
+      "svg": "frames/frame-0007.svg",
+      "png": "frames/frame-0007.png",
+      "sha256": "2c830d0c495e243ab1782769da6a248064d3484bbd4174a903710758d872c457",
+      "bytes": 15710
+    },
+    {
+      "index": 8,
+      "path": "projects/human-run-flight-right.json",
+      "project": "projects/frame-0008.json",
+      "svg": "frames/frame-0008.svg",
+      "png": "frames/frame-0008.png",
+      "sha256": "d8c4c97fc4a73be6e3cec28ea3e11528554b03b106236508b2674e00a94c6824",
+      "bytes": 15753
+    },
+    {
+      "index": 9,
+      "path": "projects/human-run-flight-left.json",
+      "project": "projects/frame-0009.json",
+      "svg": "frames/frame-0009.svg",
+      "png": "frames/frame-0009.png",
+      "sha256": "963464a9bde32bbb0da28bfa4dfc497729eef392ca48ec75f2b2623c8b81532e",
+      "bytes": 15752
+    },
+    {
+      "index": 10,
+      "path": "projects/human-jump-right.json",
+      "project": "projects/frame-0010.json",
+      "svg": "frames/frame-0010.svg",
+      "png": "frames/frame-0010.png",
+      "sha256": "ee04b07a84fbbabed454bbb7b3aee589c36fe94bbd29a4fba9f442020ef380c1",
+      "bytes": 15753
+    },
+    {
+      "index": 11,
+      "path": "projects/human-jump-left.json",
+      "project": "projects/frame-0011.json",
+      "svg": "frames/frame-0011.svg",
+      "png": "frames/frame-0011.png",
+      "sha256": "629e2029c39a44fc32720fc5e4d3d2cba2a5c21c0064815cd48ff118f84ad467",
+      "bytes": 15752
+    },
+    {
+      "index": 12,
+      "path": "projects/human-crouch-right.json",
+      "project": "projects/frame-0012.json",
+      "svg": "frames/frame-0012.svg",
+      "png": "frames/frame-0012.png",
+      "sha256": "76fa3dbf3ed9e8fcbc7671ac2d1ff31c676b1b23d8b67f379c8817d377771f91",
+      "bytes": 15685
+    },
+    {
+      "index": 13,
+      "path": "projects/human-crouch-left.json",
+      "project": "projects/frame-0013.json",
+      "svg": "frames/frame-0013.svg",
+      "png": "frames/frame-0013.png",
+      "sha256": "624fac39cb8819363b55ff76ab857b7add6fab1b6e4ff8e966abadbd7295f051",
+      "bytes": 15684
+    },
+    {
+      "index": 14,
+      "path": "projects/human-reach-right.json",
+      "project": "projects/frame-0014.json",
+      "svg": "frames/frame-0014.svg",
+      "png": "frames/frame-0014.png",
+      "sha256": "64578da40284a82d15149efb1f4da78cc1720ed585d4128f2cee31690845b310",
+      "bytes": 15692
+    },
+    {
+      "index": 15,
+      "path": "projects/human-reach-left.json",
+      "project": "projects/frame-0015.json",
+      "svg": "frames/frame-0015.svg",
+      "png": "frames/frame-0015.png",
+      "sha256": "f6600b764af785d93f6de98c858cbf7128102ee97af319197748c1653b12a158",
+      "bytes": 15691
+    },
+    {
+      "index": 16,
+      "path": "projects/rpg-neutral-right.json",
+      "project": "projects/frame-0016.json",
+      "svg": "frames/frame-0016.svg",
+      "png": "frames/frame-0016.png",
+      "sha256": "28c48c0fac1b9c1fea0508d822ece343caef66071bb8beaba0e1babbcfdc5c60",
+      "bytes": 15634
+    },
+    {
+      "index": 17,
+      "path": "projects/rpg-neutral-left.json",
+      "project": "projects/frame-0017.json",
+      "svg": "frames/frame-0017.svg",
+      "png": "frames/frame-0017.png",
+      "sha256": "1a3bcbaa6597318a15f851b4956f0a9548a3ee54b7d528516c20dca2dd5d3c29",
+      "bytes": 15633
+    },
+    {
+      "index": 18,
+      "path": "projects/rpg-walk-contact-right.json",
+      "project": "projects/frame-0018.json",
+      "svg": "frames/frame-0018.svg",
+      "png": "frames/frame-0018.png",
+      "sha256": "090e7261645990f0e8ef692d54e4d3c390ce646511852daf9469c0490ee5b31e",
+      "bytes": 15725
+    },
+    {
+      "index": 19,
+      "path": "projects/rpg-walk-contact-left.json",
+      "project": "projects/frame-0019.json",
+      "svg": "frames/frame-0019.svg",
+      "png": "frames/frame-0019.png",
+      "sha256": "9b144915a583d1ef49188ed9517ef14dfe266beaf3a2b273f6e1845f561191c9",
+      "bytes": 15724
+    },
+    {
+      "index": 20,
+      "path": "projects/rpg-walk-pass-right.json",
+      "project": "projects/frame-0020.json",
+      "svg": "frames/frame-0020.svg",
+      "png": "frames/frame-0020.png",
+      "sha256": "9a80e597b79cb4f8c599f5061102e27d80a4e9be4608acbf5f0ae92565131a28",
+      "bytes": 15716
+    },
+    {
+      "index": 21,
+      "path": "projects/rpg-walk-pass-left.json",
+      "project": "projects/frame-0021.json",
+      "svg": "frames/frame-0021.svg",
+      "png": "frames/frame-0021.png",
+      "sha256": "f01414fc7aa6bad2c19708cf914f60cd7e6992f7415f80059d0d1f60f49f3f51",
+      "bytes": 15715
+    },
+    {
+      "index": 22,
+      "path": "projects/rpg-run-push-right.json",
+      "project": "projects/frame-0022.json",
+      "svg": "frames/frame-0022.svg",
+      "png": "frames/frame-0022.png",
+      "sha256": "446319ac2118e8df33167bcc124f144c59dc5d51f1b9eff92a8ac139d9885ed7",
+      "bytes": 15737
+    },
+    {
+      "index": 23,
+      "path": "projects/rpg-run-push-left.json",
+      "project": "projects/frame-0023.json",
+      "svg": "frames/frame-0023.svg",
+      "png": "frames/frame-0023.png",
+      "sha256": "6763499829018e0d1a55a63bd23fc2edafd18a6696c62d1a3b74ede635c15b6d",
+      "bytes": 15736
+    },
+    {
+      "index": 24,
+      "path": "projects/rpg-run-flight-right.json",
+      "project": "projects/frame-0024.json",
+      "svg": "frames/frame-0024.svg",
+      "png": "frames/frame-0024.png",
+      "sha256": "0a5fc7509ab68ecf1901ee1515bbc7458fb5d99ab897070e8e104b6dad30b579",
+      "bytes": 15749
+    },
+    {
+      "index": 25,
+      "path": "projects/rpg-run-flight-left.json",
+      "project": "projects/frame-0025.json",
+      "svg": "frames/frame-0025.svg",
+      "png": "frames/frame-0025.png",
+      "sha256": "e9ad1308e82f5b0b64bdcd9efac23fa89cb3bf8ee9597d4b3577e97950da4517",
+      "bytes": 15748
+    },
+    {
+      "index": 26,
+      "path": "projects/rpg-jump-right.json",
+      "project": "projects/frame-0026.json",
+      "svg": "frames/frame-0026.svg",
+      "png": "frames/frame-0026.png",
+      "sha256": "7e29e2cd424f85a8dad3dd15d8ffc39cf6828c811de27159dddeb12b4d942490",
+      "bytes": 15723
+    },
+    {
+      "index": 27,
+      "path": "projects/rpg-jump-left.json",
+      "project": "projects/frame-0027.json",
+      "svg": "frames/frame-0027.svg",
+      "png": "frames/frame-0027.png",
+      "sha256": "b1512801ac4c571dfa0e88d17f04316e10b2e8a43772bd98dd03bd8b57126087",
+      "bytes": 15722
+    },
+    {
+      "index": 28,
+      "path": "projects/rpg-crouch-right.json",
+      "project": "projects/frame-0028.json",
+      "svg": "frames/frame-0028.svg",
+      "png": "frames/frame-0028.png",
+      "sha256": "35edf93f75539d89d8155fc5fc81bea4b24f44edcb9f227cf8e9b9a2fc74058a",
+      "bytes": 15697
+    },
+    {
+      "index": 29,
+      "path": "projects/rpg-crouch-left.json",
+      "project": "projects/frame-0029.json",
+      "svg": "frames/frame-0029.svg",
+      "png": "frames/frame-0029.png",
+      "sha256": "98d56b94eb8a6e0575bc573290b9e44d50b6d02d94ba7352c7dd2080c5e7bbe4",
+      "bytes": 15696
+    },
+    {
+      "index": 30,
+      "path": "projects/rpg-reach-right.json",
+      "project": "projects/frame-0030.json",
+      "svg": "frames/frame-0030.svg",
+      "png": "frames/frame-0030.png",
+      "sha256": "d053beeb86e8e40ed68f3124a26499bfe233cda958a1220534ee507bacae2ab3",
+      "bytes": 15684
+    },
+    {
+      "index": 31,
+      "path": "projects/rpg-reach-left.json",
+      "project": "projects/frame-0031.json",
+      "svg": "frames/frame-0031.svg",
+      "png": "frames/frame-0031.png",
+      "sha256": "0e9464dc6b78133799c149e198490ae1f2bff6dadadb88fda65bc1ff4a5909de",
+      "bytes": 15683
+    }
+  ],
+  "manifest": "manifest.json",
+  "sourceManifest": "source-manifest.json",
+  "inputBytes": 503884,
+  "contactSheetFrames": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+  ],
+  "contactSheet": {
+    "width": 1644,
+    "height": 924,
+    "columns": 8,
+    "rows": 4
+  },
+  "inkscape": "Inkscape 1.4.3 (0d15f75, 2025-12-25)",
+  "limitations": [
+    "Each frame uses its authored geometry. No interpolation, generated in-betweens, or automatic pose/foot registration.",
+    "Loop is playback intent; review the last-to-first transition visually. Matching first and last drawings is not required."
+  ],
+  "artifacts": [
+    {
+      "name": "projects/frame-0000.json",
+      "sha256": "fcf83231d0cb2ff925ef26ff4c735a5f4cf3a103c441980b4bffd1e2e1719f63"
+    },
+    {
+      "name": "frames/frame-0000.svg",
+      "sha256": "1a5f05a23b30700f4e6b9a601ca23e51103e06ab7f019f3ea9f2ff1166d479f2"
+    },
+    {
+      "name": "frames/frame-0000.png",
+      "sha256": "990c82eb8b872fa79edc0c5fb96ff23e04b831f3812dc05ad7032f6444703720"
+    },
+    {
+      "name": "projects/frame-0001.json",
+      "sha256": "32a3ddff3578e1d47a21a393b77050931cfc61c9e079047442f916b0fb4adb17"
+    },
+    {
+      "name": "frames/frame-0001.svg",
+      "sha256": "ddaf4e639f0f0c0234d132cdaed01c86f1788fe70cf1422448ab6770df5a7e75"
+    },
+    {
+      "name": "frames/frame-0001.png",
+      "sha256": "3507e931e87b27f09af3ed5161a68c6ec0945fbe96b66ecc977688b8f39e8745"
+    },
+    {
+      "name": "projects/frame-0002.json",
+      "sha256": "6ec0261c927d21fd9fc425fda7e1f825bf4b62df81629260c07e73437fd09f3f"
+    },
+    {
+      "name": "frames/frame-0002.svg",
+      "sha256": "58d5d30adb983a1a73952ad87af228572cd8484cf8d1f8fb0e4993473c8c0bf5"
+    },
+    {
+      "name": "frames/frame-0002.png",
+      "sha256": "33ddde9fc03bfab45b1da514f64f7876d9711aacb987b7b22b84406a35c632be"
+    },
+    {
+      "name": "projects/frame-0003.json",
+      "sha256": "d47360f923ecabe9674f58fd791ad0e5a9769ba62d7ed602899e754e6d103eeb"
+    },
+    {
+      "name": "frames/frame-0003.svg",
+      "sha256": "ba6f019a499fe1a6e7997cfd716d4bb4077e14189c92436f1764f1cbf32ce7ba"
+    },
+    {
+      "name": "frames/frame-0003.png",
+      "sha256": "91f9827dd37400b3f716b2cdd54dc5f2f4035aaf484a1ed2890bf109bf7ff834"
+    },
+    {
+      "name": "projects/frame-0004.json",
+      "sha256": "0cb1beca5645a957e0ddba905d051e6523c2ba3e621e8e42a288ca358e3af982"
+    },
+    {
+      "name": "frames/frame-0004.svg",
+      "sha256": "729e1614d3ac9accfc175ea1a98fddd93c879fe1993ef152af4a64441928015e"
+    },
+    {
+      "name": "frames/frame-0004.png",
+      "sha256": "01198fd793d4f897a1aed3d9bbafac77030c96cc57eb96345231b6e8e97fd9fd"
+    },
+    {
+      "name": "projects/frame-0005.json",
+      "sha256": "b6e58ce5bc3f6010b0832518d97c8ff0ba24e82cbb4cf2c55e827c66cd5c2454"
+    },
+    {
+      "name": "frames/frame-0005.svg",
+      "sha256": "0c5956b5f5fb4b86f7adafcfc0fa73afde5682c8686089988382e67e2cec43b7"
+    },
+    {
+      "name": "frames/frame-0005.png",
+      "sha256": "984847dad95b2a89b3fac654253ca3ca74ffc1dfa080e57fa5cbbf70bc132281"
+    },
+    {
+      "name": "projects/frame-0006.json",
+      "sha256": "519f3946036eb515d4185a40370b3c23a9c430a4b6bf5b88197e84f8a889494c"
+    },
+    {
+      "name": "frames/frame-0006.svg",
+      "sha256": "2559383f57f0ca838b1172310e87603db29dd64dfe2e0c8b236a5713d0e569ee"
+    },
+    {
+      "name": "frames/frame-0006.png",
+      "sha256": "b88dce2d6b951b407f76f6063040e9dc910aaf7d6307b38dcab39d62a56de120"
+    },
+    {
+      "name": "projects/frame-0007.json",
+      "sha256": "2c830d0c495e243ab1782769da6a248064d3484bbd4174a903710758d872c457"
+    },
+    {
+      "name": "frames/frame-0007.svg",
+      "sha256": "704fb6414e893ae8659a66dee1ae18b6d4d39418eb2be824e862bcc7a6fb095b"
+    },
+    {
+      "name": "frames/frame-0007.png",
+      "sha256": "49fa855ce96984291165e42dc395ce6e451d07fe2c9eb13147337d92c2cecfa9"
+    },
+    {
+      "name": "projects/frame-0008.json",
+      "sha256": "d8c4c97fc4a73be6e3cec28ea3e11528554b03b106236508b2674e00a94c6824"
+    },
+    {
+      "name": "frames/frame-0008.svg",
+      "sha256": "71bc68a3c82df781c5b66a7416f9be2734d14466ce575fef003bb3ca2a1eba51"
+    },
+    {
+      "name": "frames/frame-0008.png",
+      "sha256": "6c9addfc0912d5447844162b175a0e35a93c3451ea8604b0d9d7737ba12b550f"
+    },
+    {
+      "name": "projects/frame-0009.json",
+      "sha256": "963464a9bde32bbb0da28bfa4dfc497729eef392ca48ec75f2b2623c8b81532e"
+    },
+    {
+      "name": "frames/frame-0009.svg",
+      "sha256": "7405ff0b23abddf83d290c1274eccc5f8e1616877b6aef2c9e5f9fafb84d562e"
+    },
+    {
+      "name": "frames/frame-0009.png",
+      "sha256": "4435bcd4a05c9fab88122028540c738b0c520786a35065bac3ec2aab7978ff95"
+    },
+    {
+      "name": "projects/frame-0010.json",
+      "sha256": "ee04b07a84fbbabed454bbb7b3aee589c36fe94bbd29a4fba9f442020ef380c1"
+    },
+    {
+      "name": "frames/frame-0010.svg",
+      "sha256": "1c80ac8d85b14657d4601a91a04da5be7ac7c446d77d1f5ca8d7296bf0437d0a"
+    },
+    {
+      "name": "frames/frame-0010.png",
+      "sha256": "beb27c5e06aa7702cd368db1f7c5a0348f8eb903f7308f850915d5a4ece495e0"
+    },
+    {
+      "name": "projects/frame-0011.json",
+      "sha256": "629e2029c39a44fc32720fc5e4d3d2cba2a5c21c0064815cd48ff118f84ad467"
+    },
+    {
+      "name": "frames/frame-0011.svg",
+      "sha256": "194cb72387936ca159b3abc0bbef89d829f4a54d5bdf77dfe37213ba7ee85821"
+    },
+    {
+      "name": "frames/frame-0011.png",
+      "sha256": "26c40e253106e1653a84688c3644ecb4d2efb5b954fe54c912d591aeacd9a9f1"
+    },
+    {
+      "name": "projects/frame-0012.json",
+      "sha256": "76fa3dbf3ed9e8fcbc7671ac2d1ff31c676b1b23d8b67f379c8817d377771f91"
+    },
+    {
+      "name": "frames/frame-0012.svg",
+      "sha256": "cb97c1b200f157e668f9a7293ec9effe0d0f61d45ddc203d32088c78cf33d131"
+    },
+    {
+      "name": "frames/frame-0012.png",
+      "sha256": "41c1a654ee47ced1f67760b4762990a957dac5a1a1feadf614b0f70daab21914"
+    },
+    {
+      "name": "projects/frame-0013.json",
+      "sha256": "624fac39cb8819363b55ff76ab857b7add6fab1b6e4ff8e966abadbd7295f051"
+    },
+    {
+      "name": "frames/frame-0013.svg",
+      "sha256": "b58a5f64df8b8484a9239e7a0de460539d359f12a0d8612de32df649b1851447"
+    },
+    {
+      "name": "frames/frame-0013.png",
+      "sha256": "176788da526624f30c9546507bee5c0958ddf049d249826ce26d8824605d3fab"
+    },
+    {
+      "name": "projects/frame-0014.json",
+      "sha256": "64578da40284a82d15149efb1f4da78cc1720ed585d4128f2cee31690845b310"
+    },
+    {
+      "name": "frames/frame-0014.svg",
+      "sha256": "85a6d8b424106e214a002ac946ec40175291fc0b9e440ec937060bcae9947f55"
+    },
+    {
+      "name": "frames/frame-0014.png",
+      "sha256": "aad27e5e25366b6138b231aec3624ce6c7ceb8ff2107f91cf91836613142ae2c"
+    },
+    {
+      "name": "projects/frame-0015.json",
+      "sha256": "f6600b764af785d93f6de98c858cbf7128102ee97af319197748c1653b12a158"
+    },
+    {
+      "name": "frames/frame-0015.svg",
+      "sha256": "9e85fa143132a5cdd7a6166d554b676f21a3fb4e402faebb66fe0e439c853fb9"
+    },
+    {
+      "name": "frames/frame-0015.png",
+      "sha256": "a4ba10038ff924ea239e16bc0ba729f600db57353b5a8dda9a4af9b1821e34e3"
+    },
+    {
+      "name": "projects/frame-0016.json",
+      "sha256": "28c48c0fac1b9c1fea0508d822ece343caef66071bb8beaba0e1babbcfdc5c60"
+    },
+    {
+      "name": "frames/frame-0016.svg",
+      "sha256": "fdb372ea39709e880b2a5b7ec8d543f26dd756028bac656a31d9010f6b6a1249"
+    },
+    {
+      "name": "frames/frame-0016.png",
+      "sha256": "7a8c71a832d621aeea9f6f5283f4d479d0f6fe18021bdb99292046b95df9faf2"
+    },
+    {
+      "name": "projects/frame-0017.json",
+      "sha256": "1a3bcbaa6597318a15f851b4956f0a9548a3ee54b7d528516c20dca2dd5d3c29"
+    },
+    {
+      "name": "frames/frame-0017.svg",
+      "sha256": "6b9bc3b0ddf92cbe7e53c8b1ccd1439639ac5e61d32e9323147dc95ab4861488"
+    },
+    {
+      "name": "frames/frame-0017.png",
+      "sha256": "4fdd9dda55a916ec14a36bb5c7842dc88d218d8e6167431abfffae3bc3745d39"
+    },
+    {
+      "name": "projects/frame-0018.json",
+      "sha256": "090e7261645990f0e8ef692d54e4d3c390ce646511852daf9469c0490ee5b31e"
+    },
+    {
+      "name": "frames/frame-0018.svg",
+      "sha256": "e8d3c2ab8ecd5534fed29d92de973e37297ff13159c4cf1760760ca7f32faac3"
+    },
+    {
+      "name": "frames/frame-0018.png",
+      "sha256": "1d223262aa9868ef9b787b0917d6617d39b8b7429048d49c48d2c6073aea29be"
+    },
+    {
+      "name": "projects/frame-0019.json",
+      "sha256": "9b144915a583d1ef49188ed9517ef14dfe266beaf3a2b273f6e1845f561191c9"
+    },
+    {
+      "name": "frames/frame-0019.svg",
+      "sha256": "77af562837e9b9744ad7a978cd4163df2d5219047229c5f7ac17afa9e77689d5"
+    },
+    {
+      "name": "frames/frame-0019.png",
+      "sha256": "c118ed05a9a34bb59e10d6b00cef15362482f90fa503b08ae1195c5eaeafcdea"
+    },
+    {
+      "name": "projects/frame-0020.json",
+      "sha256": "9a80e597b79cb4f8c599f5061102e27d80a4e9be4608acbf5f0ae92565131a28"
+    },
+    {
+      "name": "frames/frame-0020.svg",
+      "sha256": "007b875a338d169bdd391f463dca9a291765b58a0c3193c687cb165988a7d6de"
+    },
+    {
+      "name": "frames/frame-0020.png",
+      "sha256": "d6c2d9b1b6cd4bf96a48d965fcff5d81f0c952061c75ea5215dc9b0863c11d38"
+    },
+    {
+      "name": "projects/frame-0021.json",
+      "sha256": "f01414fc7aa6bad2c19708cf914f60cd7e6992f7415f80059d0d1f60f49f3f51"
+    },
+    {
+      "name": "frames/frame-0021.svg",
+      "sha256": "9509575880bcae0201e24166e3619cc66823072dd1c6e26d591e9007708b7751"
+    },
+    {
+      "name": "frames/frame-0021.png",
+      "sha256": "1f5c3614bc42aa9b8d0c06ec907ba967d3f39542ff9cd22641333d0d50a5dec8"
+    },
+    {
+      "name": "projects/frame-0022.json",
+      "sha256": "446319ac2118e8df33167bcc124f144c59dc5d51f1b9eff92a8ac139d9885ed7"
+    },
+    {
+      "name": "frames/frame-0022.svg",
+      "sha256": "5d3a178f2818fbbe47862e4d0160df29c54d5cb2339f5069677df36cfaf2216a"
+    },
+    {
+      "name": "frames/frame-0022.png",
+      "sha256": "fbe254928a63f01cfa0963fe4293c08cf77fed89468a9c94bb297985e9232dc3"
+    },
+    {
+      "name": "projects/frame-0023.json",
+      "sha256": "6763499829018e0d1a55a63bd23fc2edafd18a6696c62d1a3b74ede635c15b6d"
+    },
+    {
+      "name": "frames/frame-0023.svg",
+      "sha256": "f7cb2e1d89e0a54e0797d2478b10ec3f62327b7b2de25af1bc7ce9b08f6646a2"
+    },
+    {
+      "name": "frames/frame-0023.png",
+      "sha256": "bcf919ee53eefb98a0093b5ba4c44a9627dfe402ec738b27abee2d1ce3a67a5d"
+    },
+    {
+      "name": "projects/frame-0024.json",
+      "sha256": "0a5fc7509ab68ecf1901ee1515bbc7458fb5d99ab897070e8e104b6dad30b579"
+    },
+    {
+      "name": "frames/frame-0024.svg",
+      "sha256": "cd017f7a97b590f4503f4df9e0c3cfcde10fd648259aac55a053e39a0b97fc57"
+    },
+    {
+      "name": "frames/frame-0024.png",
+      "sha256": "f2ff5767735d5e4027de87741f6e3da3aada32bfce25a326dd13d5daceefbb62"
+    },
+    {
+      "name": "projects/frame-0025.json",
+      "sha256": "e9ad1308e82f5b0b64bdcd9efac23fa89cb3bf8ee9597d4b3577e97950da4517"
+    },
+    {
+      "name": "frames/frame-0025.svg",
+      "sha256": "e61979ac7c96b9097ebc636016464d0c2c309d26ad820ff2dc55e690c6f30b40"
+    },
+    {
+      "name": "frames/frame-0025.png",
+      "sha256": "f48dc94cc5b44571101e79eace992802a502d6eeec3ac6951ed82a05f4a581b0"
+    },
+    {
+      "name": "projects/frame-0026.json",
+      "sha256": "7e29e2cd424f85a8dad3dd15d8ffc39cf6828c811de27159dddeb12b4d942490"
+    },
+    {
+      "name": "frames/frame-0026.svg",
+      "sha256": "d98a77bbfe3479578c267ebc654818724d502479e15c330a6e957d23661bf682"
+    },
+    {
+      "name": "frames/frame-0026.png",
+      "sha256": "5adfb38a0f4a0831ef1cafacb31f9b8d5c40e47ed42ebfd31c13005e835b789d"
+    },
+    {
+      "name": "projects/frame-0027.json",
+      "sha256": "b1512801ac4c571dfa0e88d17f04316e10b2e8a43772bd98dd03bd8b57126087"
+    },
+    {
+      "name": "frames/frame-0027.svg",
+      "sha256": "4cbd7597ab48d708cada3095592d4e9ea6e2862efeadb6b6ab56c280c10c13ed"
+    },
+    {
+      "name": "frames/frame-0027.png",
+      "sha256": "86b0ac7cd78b332a4d736876bc7b772133679c1237437398ead9c7f01058f15b"
+    },
+    {
+      "name": "projects/frame-0028.json",
+      "sha256": "35edf93f75539d89d8155fc5fc81bea4b24f44edcb9f227cf8e9b9a2fc74058a"
+    },
+    {
+      "name": "frames/frame-0028.svg",
+      "sha256": "28b3c7b84cd23cff7a6e98bf0ff29b23e000acc2659875da516d19676b61cd2a"
+    },
+    {
+      "name": "frames/frame-0028.png",
+      "sha256": "60deff822002f7fd2a07b92c2e17a04e3154255af22b8692fd64f79ed3c6871d"
+    },
+    {
+      "name": "projects/frame-0029.json",
+      "sha256": "98d56b94eb8a6e0575bc573290b9e44d50b6d02d94ba7352c7dd2080c5e7bbe4"
+    },
+    {
+      "name": "frames/frame-0029.svg",
+      "sha256": "cb026819be468a22a6a75b05ce711ceb2f29c8f853c4a8daa28ea23df3792c86"
+    },
+    {
+      "name": "frames/frame-0029.png",
+      "sha256": "e2e92e21d235874a0be9f6c51ba7ad533698faa50825a61ff78eadfa36386e90"
+    },
+    {
+      "name": "projects/frame-0030.json",
+      "sha256": "d053beeb86e8e40ed68f3124a26499bfe233cda958a1220534ee507bacae2ab3"
+    },
+    {
+      "name": "frames/frame-0030.svg",
+      "sha256": "86987690277cf319ef068348d887fb003fdd579c4beceedcee54ca60d04ef048"
+    },
+    {
+      "name": "frames/frame-0030.png",
+      "sha256": "68ce62d6b07331ab33d449968b796af24fab2e3e4e2f9f0fe297c88245c1dc0b"
+    },
+    {
+      "name": "projects/frame-0031.json",
+      "sha256": "0e9464dc6b78133799c149e198490ae1f2bff6dadadb88fda65bc1ff4a5909de"
+    },
+    {
+      "name": "frames/frame-0031.svg",
+      "sha256": "210775584ed5136a83990bce50dfc4b4145ffa300e53479536ca066812e7a489"
+    },
+    {
+      "name": "frames/frame-0031.png",
+      "sha256": "14ceeeb4ddfe2f54efdcbf438634201709406182ec28a19147d379b959b74f47"
+    },
+    {
+      "name": "source-manifest.json",
+      "sha256": "4f9584cd5a270a4e228d69dd0199d0dd829b4522edb2c721464a823d5c5e8026"
+    },
+    {
+      "name": "manifest.json",
+      "sha256": "8aea66a42a1721ba9b922e1a8d7e2b27681ccc70845140d95b0d632166f1dd49"
+    },
+    {
+      "name": "contact-sheet.svg",
+      "sha256": "b68d015ba9705f7d9a1a39e6bc682c646d451211986b718b427e6ef55b4b796b"
+    },
+    {
+      "name": "contact-sheet.png",
+      "sha256": "c4ab9a0397cb761e7aa885c31efc3fd85384d0f6714866e1d54ec859c5f81b11"
+    }
+  ],
+  "warnings": [
+    {
+      "file": "frames/frame-0000.svg",
+      "message": "(inkscape.com:17340): Gdk-CRITICAL **: 16:45:46.624: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:17340): Gdk-CRITICAL **: 16:45:46.758: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0001.svg",
+      "message": "(inkscape.com:15096): Gdk-CRITICAL **: 16:45:48.868: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:15096): Gdk-CRITICAL **: 16:45:48.998: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0002.svg",
+      "message": "(inkscape.com:16976): Gdk-CRITICAL **: 16:45:51.104: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:16976): Gdk-CRITICAL **: 16:45:51.236: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0003.svg",
+      "message": "(inkscape.com:29764): Gdk-CRITICAL **: 16:45:53.351: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:29764): Gdk-CRITICAL **: 16:45:53.485: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0004.svg",
+      "message": "(inkscape.com:29456): Gdk-CRITICAL **: 16:45:55.600: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:29456): Gdk-CRITICAL **: 16:45:55.731: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0005.svg",
+      "message": "(inkscape.com:4076): Gdk-CRITICAL **: 16:45:57.826: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:4076): Gdk-CRITICAL **: 16:45:57.959: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0006.svg",
+      "message": "(inkscape.com:19968): Gdk-CRITICAL **: 16:46:00.088: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:19968): Gdk-CRITICAL **: 16:46:00.218: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0007.svg",
+      "message": "(inkscape.com:35548): Gdk-CRITICAL **: 16:46:02.323: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:35548): Gdk-CRITICAL **: 16:46:02.455: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0008.svg",
+      "message": "(inkscape.com:2576): Gdk-CRITICAL **: 16:46:04.565: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:2576): Gdk-CRITICAL **: 16:46:04.695: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    },
+    {
+      "file": "frames/frame-0009.svg",
+      "message": "(inkscape.com:28000): Gdk-CRITICAL **: 16:46:06.794: gdk_monitor_get_geometry: assertion 'GDK_IS_MONITOR (monitor)' failed\r\n\r\n(org.inkscape.Inkscape:28000): Gdk-CRITICAL **: 16:46:06.925: _gdk_win32_monitor_get_pixel_structure: assertion 'monitor != NULL' failed"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "name": "Bitmap lettering starter",
+  "font": "monospace",
+  "size": 24,
+  "characters": " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~",
+  "columns": 16,
+  "cellWidth": 32,
+  "cellHeight": 48
+}

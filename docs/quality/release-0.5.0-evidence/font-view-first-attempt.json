@@ -1,0 +1,7 @@
+{
+  "result": "failed",
+  "stage": "Chrome Page.captureScreenshot",
+  "error": "Unable to capture screenshot",
+  "nativePNGAndGlyphChecks": "passed; viewer capture failed separately",
+  "changeForNextCapture": "Use the established ANGLE D3D11 review browser and allow a painted frame before screenshot"
+}

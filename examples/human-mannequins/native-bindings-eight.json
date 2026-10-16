@@ -1,0 +1,5766 @@
+{
+  "version": 1,
+  "frames": [
+    {
+      "id": "human-neutral-S",
+      "jsonSha256": "233234329f50c6ca678ba73af01c3253a4d835f05c6bfb958219af26f7f73588",
+      "svgSha256": "f53485cabd3d8571dc1f3530bf87e7b5d029edb19235923869f52eb2cfe2d214",
+      "pngSha256": "195dfe640d7c111776be29393792e26477a82e95871551efe50cb62f0c629dc1",
+      "bounds": [
+        269,
+        177,
+        371,
+        571
+      ],
+      "batch": 0,
+      "sourceIndex": 0,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-contact-S",
+      "jsonSha256": "8ba2a6a56343434ef2b196a3666642b813ce9cc3a0a80941820bf6ce8b39ebd8",
+      "svgSha256": "3c12da5bf84a4346710a85b8f731d3a4b75c974e67161e7a91c12b63f7447e64",
+      "pngSha256": "87d87c05c701ace29e6cb116e707768b273d694dec34a17185fd379ceecab147",
+      "bounds": [
+        269,
+        195,
+        371,
+        579
+      ],
+      "batch": 0,
+      "sourceIndex": 1,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-pass-S",
+      "jsonSha256": "c11808d8845c8e4f54afcd4009f67b0705b4f4fd3ea4937163e350d6907d967b",
+      "svgSha256": "de8a8c556a0be9291f271a8726ad23d567c5c30a67598921ba7f42430a286a6b",
+      "pngSha256": "4f7d1c79b9aa7181ef1cf4a2be9af690ea7f93dc03ffd5f7287b7b8bd140dccd",
+      "bounds": [
+        269,
+        183,
+        371,
+        568
+      ],
+      "batch": 0,
+      "sourceIndex": 2,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-S-00",
+      "jsonSha256": "d351e1cfd4b6f398e11c7ecfc4c694a0cb535ee01d51380ac02d70428ea54a68",
+      "svgSha256": "15bcf14b82767a6f3bf4061907abcdf9cad44621d2c68818d159226cddf88815",
+      "pngSha256": "6edee73cab17f80d3f68e08bd05c446e846b1a768455d2cfa5ba9b690a23d46b",
+      "bounds": [
+        269,
+        196,
+        371,
+        579
+      ],
+      "batch": 0,
+      "sourceIndex": 8,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-S-01",
+      "jsonSha256": "5e1a3188d5ea57be5fea7a0c126ab520d3054f9906cd9de0f91ec09ccbf54e01",
+      "svgSha256": "2803505fde9cb234f234a5b56e4b4124848ec1fb2ab1e2e9c00e46ce9aeac611",
+      "pngSha256": "c5031f5df33fbaa3e4f6630530c6d2fb917b531f2948e4a13c6591ca542c550a",
+      "bounds": [
+        269,
+        191,
+        371,
+        574
+      ],
+      "batch": 0,
+      "sourceIndex": 9,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-S-02",
+      "jsonSha256": "8c838266f923d2dcd70132027e7b8fa8bb1ed6501c3fd3be02547cec0d14694b",
+      "svgSha256": "38ff520fed06e6177ad677121fb5bfee76bd8683780dddfd47a0ac3dfc71d56e",
+      "pngSha256": "dea961a3799816c7e428ab9dc8c3b953a66c693233edc45dabb5d42c4a76c89c",
+      "bounds": [
+        269,
+        186,
+        371,
+        570
+      ],
+      "batch": 0,
+      "sourceIndex": 10,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-S-03",
+      "jsonSha256": "9f119ca2bad22b2c7757561f3c1173b1dc1b5c46f8888335cd197b6885ec77f7",
+      "svgSha256": "0dacd942b3c1f938ef5ac8955bcadd1312ae3ebbf41e3f1b4aed289b6de69da2",
+      "pngSha256": "7d1d7e9637b36d6b7e77cf2427b872e71401f9fa205371fed0924f99cbd57f1a",
+      "bounds": [
+        269,
+        191,
+        371,
+        566
+      ],
+      "batch": 0,
+      "sourceIndex": 11,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-S-04",
+      "jsonSha256": "b84eb6af10d29fc7f6896317af15a12ae5ef002308c2135e672df2b2e985856a",
+      "svgSha256": "cba87dc78fa34714d51e00e1a720f803db24a0ffb827abb8d11f71f4444f4e0b",
+      "pngSha256": "69a5d2cc9e8766139a051999324da33b9c1ca070c194379a0e4af9801b59e35b",
+      "bounds": [
+        269,
+        196,
+        371,
+        579
+      ],
+      "batch": 0,
+      "sourceIndex": 12,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-S-05",
+      "jsonSha256": "606f7516a0701b8b8ee362228af2d56629607af1892b48a91d80ab7c471a5e22",
+      "svgSha256": "02263a0f32d09cda18f12c270ad05e89cce44d87b9e094a81a66f77255d35b8b",
+      "pngSha256": "a8d514260eadfc4d2fc2962314858f7709ef1d33f0a8ee2f9322bb0c78c2f2bc",
+      "bounds": [
+        269,
+        191,
+        371,
+        574
+      ],
+      "batch": 0,
+      "sourceIndex": 13,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-S-06",
+      "jsonSha256": "559822a7061496dc2661b4226b3cc4c9793fa160a1e7f2e43f3eec15228f1416",
+      "svgSha256": "2fed1f718a02f809e3f44e16b5e544e4ee754dfa2ebef143a196f79ad242d816",
+      "pngSha256": "66f437e1ffe9c5bdeddc97a94c3df08983e5b6a99ea3bb7b878a886438df6d3a",
+      "bounds": [
+        269,
+        186,
+        371,
+        570
+      ],
+      "batch": 0,
+      "sourceIndex": 14,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-S-07",
+      "jsonSha256": "aa79a7aa9fd1ba30cb71803a59c8c79d934e5392c61845b859cd777a857bbd7a",
+      "svgSha256": "c4dc04af81d4ec3e0b92ee8d0dee5f9d6e9ef8ad47a98837918fe222bd2021c1",
+      "pngSha256": "266da3e88566c54084ce977839b8771c3fdea6d42b53ced0f867f7088c09af7c",
+      "bounds": [
+        269,
+        191,
+        371,
+        566
+      ],
+      "batch": 0,
+      "sourceIndex": 15,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-S-02",
+      "jsonSha256": "9bfc88e85cd64520414ffef3264af8413a48252934009f8101cbd76706fabb08",
+      "svgSha256": "5b8e27b50d36b51c17269ee472d07d0d0498bc5470dc4081eb627d6474468962",
+      "pngSha256": "14ce755615c58a65b22f1db022387df5be37d5ab6ae2fa198b004005b904dcc1",
+      "bounds": [
+        269,
+        198,
+        371,
+        564
+      ],
+      "batch": 0,
+      "sourceIndex": 18,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-S-06",
+      "jsonSha256": "864c96d911b06a48241906182106212fd6b968dc01565da5e75be9ee1a1cbdf4",
+      "svgSha256": "afae31c420426080ae4bec1a68f09fe3f75976b982c2458d9fe6a1c7489c10cc",
+      "pngSha256": "1e7b135e8d60bb64e2c1edd295286ee0943ab4648c79a726abce68ae7d3f9f91",
+      "bounds": [
+        269,
+        198,
+        371,
+        564
+      ],
+      "batch": 0,
+      "sourceIndex": 22,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-neutral-SE",
+      "jsonSha256": "97a1655d958045493d78118586abf73bf8c864b4f4c920cb6508499798f6db32",
+      "svgSha256": "417bc0409beb87990b2f55deec2003c4770c968ff11adcada7295af0b76018f0",
+      "pngSha256": "33b5e1b8eeababc369fec1127428ed2f7aab0cf798ee71b184033ae4f54ade1f",
+      "bounds": [
+        279,
+        177,
+        355,
+        571
+      ],
+      "batch": 0,
+      "sourceIndex": 24,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-contact-SE",
+      "jsonSha256": "0fc3a87de664c6af9288747dff550461eeb84c471bc2c466c3dbd9d99cbae294",
+      "svgSha256": "217269887f15818c4c0ad42d431b4222953a9bf0ace3fcbae90943554aa342b0",
+      "pngSha256": "57077b3f2e31137fff9164a8b327cf708f8f7f4dbd3bb54142a9c4e05a522267",
+      "bounds": [
+        266,
+        195,
+        423,
+        577
+      ],
+      "batch": 0,
+      "sourceIndex": 25,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-pass-SE",
+      "jsonSha256": "b737560bde9bf7cb576721d8a3fb67c84c902d136c57eec165cdc818ad23975a",
+      "svgSha256": "b1541a8ddf41f5ba995c2340b72daf70d79f04247ee685bfc31b9bc958fbe323",
+      "pngSha256": "ae7214aeb18e9c5408c6c4bfb94eb2288a3a0c9952ceb9e49cc80ffb80717883",
+      "bounds": [
+        285,
+        182,
+        392,
+        569
+      ],
+      "batch": 0,
+      "sourceIndex": 26,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-push-SE",
+      "jsonSha256": "e24ca7c682c849229b94526d5577541c9deb31c0e52a67b147e41dcc77bc189d",
+      "svgSha256": "c46eacde6690a6c027e0b5f76d7f7e8fde564769cca7ad233f74ad1d898b910a",
+      "pngSha256": "bab7f3947e672eb452884bd3e8db6712b3d4d271ee67df9d66428b98c51cd8f8",
+      "bounds": [
+        266,
+        212,
+        408,
+        564
+      ],
+      "batch": 0,
+      "sourceIndex": 27,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-flight-SE",
+      "jsonSha256": "26fc29f8d5c5cd475868f22b667001db3138dd9b8335de4118169c01ca9b5ca3",
+      "svgSha256": "699e3dfa940a13e355e2a266b64053cb657d6798cb034554a35164c240901172",
+      "pngSha256": "8ad800c87616e709b414b945fd74c9acf926c5782d855b0c9860b49bc1d1dbb9",
+      "bounds": [
+        217,
+        171,
+        453,
+        496
+      ],
+      "batch": 0,
+      "sourceIndex": 28,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-jump-SE",
+      "jsonSha256": "5a24fb8bb68b35d2f8692c1d84d3d84d447ebb4c98e41b87bdfde633ab18e905",
+      "svgSha256": "ccb2dedf4094033c4168b1ae307a5ee261590d83b0e56c7eb94124c6cbbb2db4",
+      "pngSha256": "734293c8290541c198a279bbec810a37f5c1fe2e4676a42853b0f2d0b559267a",
+      "bounds": [
+        216,
+        134,
+        449,
+        515
+      ],
+      "batch": 0,
+      "sourceIndex": 29,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-crouch-SE",
+      "jsonSha256": "8213a019f27ca046f6cc2b2b13061698142cc802543e7d2be8fd31db82770b6d",
+      "svgSha256": "33720ec8318431c828c5cdd11e04903059178a75c1af612d0c58681cd94bc686",
+      "pngSha256": "b1bf01e0359daddf53b3f981639c126a32c20ce6604e30ccf5d58d3ef97ffbed",
+      "bounds": [
+        287,
+        294,
+        423,
+        576
+      ],
+      "batch": 0,
+      "sourceIndex": 30,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-reach-SE",
+      "jsonSha256": "78bb999aeb0d57ae8a13f3c1ffad32a23200e3498b563f93c99ff553a128cf0f",
+      "svgSha256": "86b5d0eadf63027a1f4c4f7779bcd48fc849ddfd94605d1816803bb05fe164b4",
+      "pngSha256": "cff55780eba1ce34e107fa4e2c915e5ba368c3c4b0a3c9bde4c70b4fa99a0122",
+      "bounds": [
+        288,
+        179,
+        389,
+        571
+      ],
+      "batch": 0,
+      "sourceIndex": 31,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-SE-00",
+      "jsonSha256": "9059dd87108e92625baec52c4a8fea6fd386da5ce8137cceff39957eee2e083a",
+      "svgSha256": "9b4c20d6b7f2a9fb69b2022fd4589163edcb3f03a2b85ba86d29109a8eb19558",
+      "pngSha256": "08d702400d809c912a2e250d8b8cb784a2854f190b4503cfa0dc448c904d2b3d",
+      "bounds": [
+        263,
+        196,
+        419,
+        577
+      ],
+      "batch": 0,
+      "sourceIndex": 32,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-SE-01",
+      "jsonSha256": "003298bcf890cdddc794769fe33ec8c6736995836465e31e788fc132f8417ae9",
+      "svgSha256": "be0604d8278571078cb3bffcbaff6e3c66b21b9cdd313262a9d1fe4cd1ab6579",
+      "pngSha256": "3f0aeb9ed4f0fa687e166c46e1594e2f9f9685f5c210c3740f10d06e60c5439c",
+      "bounds": [
+        271,
+        191,
+        408,
+        574
+      ],
+      "batch": 0,
+      "sourceIndex": 33,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-SE-02",
+      "jsonSha256": "0ce240f6cd1f0415e2cd63548e32f79214313af2eb18cd4aa05cb0840f4fdea4",
+      "svgSha256": "4dca3607f66adac76463e88678e00a11ef586ac637e082c6804d5ead3075eab5",
+      "pngSha256": "16baac8fef4f3f015729e03a2574997a7258200e403c7d5df23d37f64f3d69b4",
+      "bounds": [
+        282,
+        186,
+        380,
+        571
+      ],
+      "batch": 0,
+      "sourceIndex": 34,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-SE-03",
+      "jsonSha256": "ee7145d74e16e0a6329d60876d2b5a20887d9c6c4ce2a30bcf9d41f6594fe680",
+      "svgSha256": "52f6d1ec4fad626b629306bc2ded2be6a7cf82e80e9f99447e1c1963d35b6d6f",
+      "pngSha256": "7b333c4610a7995983251c437f4897094c1b58e3d5640b02057185bb65a4c812",
+      "bounds": [
+        286,
+        191,
+        396,
+        568
+      ],
+      "batch": 0,
+      "sourceIndex": 35,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-SE-04",
+      "jsonSha256": "f0d3aa84056b7dfb894752b71a7f77cfd86d2544ed034c7a94f56dc4e0d75f0c",
+      "svgSha256": "7ebcc7a6a066e9f25ea90641a02197221b812bbde52659111e2b50f5b86a050e",
+      "pngSha256": "e886724b7dad5bbc0c4d2cef80850ba0fe0cd5a4f7f99a27aec7fbfb4b5c2aa1",
+      "bounds": [
+        270,
+        196,
+        404,
+        573
+      ],
+      "batch": 0,
+      "sourceIndex": 36,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-SE-05",
+      "jsonSha256": "894e1ac74f92371de68df4a6bc322b38fbdebfe6ceba547fbaeb2c50b951e38c",
+      "svgSha256": "ef830f48fa3f264f4495ae6e6d2534377ce5b565c8bf0835006cbf07fb3bdcc8",
+      "pngSha256": "d4b7186e3470d6a829f5edae9181bc407cabbbb26f436f3974e4ddc1d3081c5b",
+      "bounds": [
+        254,
+        191,
+        388,
+        570
+      ],
+      "batch": 0,
+      "sourceIndex": 37,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-SE-06",
+      "jsonSha256": "495d30f8de3f415147970b4273828143fd497355893b9a607e141c00b9496bb5",
+      "svgSha256": "488dd7d7240280f66606e0f9646de05520b33151cf490687113d42652a03aa74",
+      "pngSha256": "49189eeb9bf2705c8b00ff59f3c6731e9dd3ffc429139740fda37021d0848b1d",
+      "bounds": [
+        281,
+        186,
+        376,
+        567
+      ],
+      "batch": 0,
+      "sourceIndex": 38,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-SE-07",
+      "jsonSha256": "9cd4fe705dbf343cad5db97734de69ce11eb251570fb953762e72cfc7d04245e",
+      "svgSha256": "de74935958c2cb1783d9e2fa8f16f3d44e60b08d5e9347ee8fb28cd9b34b639a",
+      "pngSha256": "122879a755b38f947b3c83d3bdc9219b042fc6fc2388864f5f1559880c0c16a3",
+      "bounds": [
+        271,
+        191,
+        408,
+        564
+      ],
+      "batch": 0,
+      "sourceIndex": 39,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-SE-00",
+      "jsonSha256": "8ee3364f8f7d47146f14ee47076a426ea8cecb2b63043e5ef57812133414f939",
+      "svgSha256": "6294bdc9e3a1f7ecfdaf4b6ecea440e514ce587aa19da5ec5e76beee975f04e8",
+      "pngSha256": "473f02aec553438ebafc99fc3fc99ab0dc059c005e6dd8b08491283cd57f394a",
+      "bounds": [
+        261,
+        218,
+        448,
+        577
+      ],
+      "batch": 0,
+      "sourceIndex": 40,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-SE-01",
+      "jsonSha256": "b0697ad870011cab738a5e084d2aab4ed8cd78011b77d2009e4fde1507233e13",
+      "svgSha256": "481f129abb13e02b16470e4dd3f9c3cacc75e08ae4177f85df27cddd2e9362e8",
+      "pngSha256": "2b101be360271e2fae3377750a008df71f559d9a0f79c93af7d298efe613a2ac",
+      "bounds": [
+        270,
+        207,
+        444,
+        572
+      ],
+      "batch": 0,
+      "sourceIndex": 41,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-SE-02",
+      "jsonSha256": "9e77123cbfb8717b3e6bfc58e78a3c6bd9bafe6fb09c8b27197da674c3001091",
+      "svgSha256": "e178530adac7e9eb25318f0f109d7a1d9d055296660be118dba4dd368b71e7ad",
+      "pngSha256": "6e2935019e6ecdfabc8965af09ecbd475275b45e1a5d004d8110163ebeae94cb",
+      "bounds": [
+        280,
+        196,
+        420,
+        566
+      ],
+      "batch": 0,
+      "sourceIndex": 42,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-SE-03",
+      "jsonSha256": "7c1e0bd421098e246f2c92571474f503657bb13feaceba7a6324480e199e2fe7",
+      "svgSha256": "c4c3b22a94ceafddac64b824245f5ec8d56a990ed342cff5cbfeaa396fd3c06e",
+      "pngSha256": "87a87ae4b1204d227de7c4c87775b4e3669c276dc6424732ba8dc3e30598b353",
+      "bounds": [
+        250,
+        207,
+        408,
+        557
+      ],
+      "batch": 0,
+      "sourceIndex": 43,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-SE-04",
+      "jsonSha256": "18cb1503807484accf619c036cbd37a985b3adff4c5bf66ff20732fa6ab4b1f2",
+      "svgSha256": "878464d9f61d096ea7dc7164584754662b9f69249731b50973f1c8ed278b640c",
+      "pngSha256": "679a554ac48c10fc6633f4dc421869d802381ae0802d31321aea5a4c5f9e19c0",
+      "bounds": [
+        268,
+        218,
+        408,
+        573
+      ],
+      "batch": 0,
+      "sourceIndex": 44,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-SE-05",
+      "jsonSha256": "661838a6c39c7eac0836e01dc7386e7dddc1b73551593d6bc1773b3d1ba81362",
+      "svgSha256": "b4b9b31e2a08bef8ef295e6d7aa9ad3bcce4d62ebd4765418aeba2b6b2fdbb69",
+      "pngSha256": "c49971991698c6e2b3ce59bdb4232da89643c99099b0eb3c5b2a6f558b5fb035",
+      "bounds": [
+        286,
+        207,
+        392,
+        568
+      ],
+      "batch": 0,
+      "sourceIndex": 45,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-SE-06",
+      "jsonSha256": "2b6ea0519b486d58a3ef3d7bf44fcf95753efb18d4908d7ec630ce8fad0dd3da",
+      "svgSha256": "dbd7a95805b891fcbb11861a4460f1ccdf9d87398d56d77cbeab6f24d7cece68",
+      "pngSha256": "3619c1edd5b9a36aab4936ac82839ed8a6edada7d64fe55ed0e38d40e6431b05",
+      "bounds": [
+        289,
+        196,
+        420,
+        563
+      ],
+      "batch": 0,
+      "sourceIndex": 46,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-SE-07",
+      "jsonSha256": "411dc931f7a08403bfcdd9d9c8fbce6f7577f380be63074745f554b12ea2866e",
+      "svgSha256": "15d26e3c141599defd89d8ffa64c6db796289d2e1285028db7e64d564c77bda3",
+      "pngSha256": "02dee86fae7a5301f49a4dbf39c64ee1cede44576110a0c0b6222ad2cc1920cf",
+      "bounds": [
+        270,
+        207,
+        444,
+        554
+      ],
+      "batch": 0,
+      "sourceIndex": 47,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-neutral-right",
+      "jsonSha256": "fcf83231d0cb2ff925ef26ff4c735a5f4cf3a103c441980b4bffd1e2e1719f63",
+      "svgSha256": "1a5f05a23b30700f4e6b9a601ca23e51103e06ab7f019f3ea9f2ff1166d479f2",
+      "pngSha256": "990c82eb8b872fa79edc0c5fb96ff23e04b831f3812dc05ad7032f6444703720",
+      "bounds": [
+        286,
+        177,
+        372,
+        560
+      ],
+      "batch": 0,
+      "sourceIndex": 48,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-contact-right",
+      "jsonSha256": "6ec0261c927d21fd9fc425fda7e1f825bf4b62df81629260c07e73437fd09f3f",
+      "svgSha256": "58d5d30adb983a1a73952ad87af228572cd8484cf8d1f8fb0e4993473c8c0bf5",
+      "pngSha256": "33ddde9fc03bfab45b1da514f64f7876d9711aacb987b7b22b84406a35c632be",
+      "bounds": [
+        253,
+        193,
+        418,
+        560
+      ],
+      "batch": 0,
+      "sourceIndex": 49,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-pass-right",
+      "jsonSha256": "0cb1beca5645a957e0ddba905d051e6523c2ba3e621e8e42a288ca358e3af982",
+      "svgSha256": "729e1614d3ac9accfc175ea1a98fddd93c879fe1993ef152af4a64441928015e",
+      "pngSha256": "01198fd793d4f897a1aed3d9bbafac77030c96cc57eb96345231b6e8e97fd9fd",
+      "bounds": [
+        288,
+        180,
+        403,
+        560
+      ],
+      "batch": 0,
+      "sourceIndex": 50,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-push-right",
+      "jsonSha256": "519f3946036eb515d4185a40370b3c23a9c430a4b6bf5b88197e84f8a889494c",
+      "svgSha256": "2559383f57f0ca838b1172310e87603db29dd64dfe2e0c8b236a5713d0e569ee",
+      "pngSha256": "b88dce2d6b951b407f76f6063040e9dc910aaf7d6307b38dcab39d62a56de120",
+      "bounds": [
+        268,
+        196,
+        473,
+        560
+      ],
+      "batch": 0,
+      "sourceIndex": 51,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-flight-right",
+      "jsonSha256": "d8c4c97fc4a73be6e3cec28ea3e11528554b03b106236508b2674e00a94c6824",
+      "svgSha256": "71bc68a3c82df781c5b66a7416f9be2734d14466ce575fef003bb3ca2a1eba51",
+      "pngSha256": "6c9addfc0912d5447844162b175a0e35a93c3451ea8604b0d9d7737ba12b550f",
+      "bounds": [
+        153,
+        156,
+        463,
+        482
+      ],
+      "batch": 0,
+      "sourceIndex": 52,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-jump-right",
+      "jsonSha256": "ee04b07a84fbbabed454bbb7b3aee589c36fe94bbd29a4fba9f442020ef380c1",
+      "svgSha256": "1c80ac8d85b14657d4601a91a04da5be7ac7c446d77d1f5ca8d7296bf0437d0a",
+      "pngSha256": "beb27c5e06aa7702cd368db1f7c5a0348f8eb903f7308f850915d5a4ece495e0",
+      "bounds": [
+        164,
+        111,
+        457,
+        503
+      ],
+      "batch": 0,
+      "sourceIndex": 53,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-crouch-right",
+      "jsonSha256": "76fa3dbf3ed9e8fcbc7671ac2d1ff31c676b1b23d8b67f379c8817d377771f91",
+      "svgSha256": "cb97c1b200f157e668f9a7293ec9effe0d0f61d45ddc203d32088c78cf33d131",
+      "pngSha256": "41c1a654ee47ced1f67760b4762990a957dac5a1a1feadf614b0f70daab21914",
+      "bounds": [
+        291,
+        281,
+        472,
+        560
+      ],
+      "batch": 0,
+      "sourceIndex": 54,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-reach-right",
+      "jsonSha256": "64578da40284a82d15149efb1f4da78cc1720ed585d4128f2cee31690845b310",
+      "svgSha256": "85a6d8b424106e214a002ac946ec40175291fc0b9e440ec937060bcae9947f55",
+      "pngSha256": "aad27e5e25366b6138b231aec3624ce6c7ceb8ff2107f91cf91836613142ae2c",
+      "bounds": [
+        293,
+        177,
+        445,
+        560
+      ],
+      "batch": 0,
+      "sourceIndex": 55,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-E-00",
+      "jsonSha256": "18fb0f74a490c6ec9727cd456fa076e5ccd4f5ef86a73cdc2f14cc0b396b6af6",
+      "svgSha256": "00b0ef5a40494df67c5136a3043e6324ce0ff034833b078571dabf260bf7a5af",
+      "pngSha256": "b577745725c97fc0454bf0a2c969c3554c52f546b7e163b4891639e5ad9f5a09",
+      "bounds": [
+        272,
+        195,
+        421,
+        566
+      ],
+      "batch": 0,
+      "sourceIndex": 56,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-E-01",
+      "jsonSha256": "85a196be2b927a6716823565491f14aee46997685d07fed9213f10bb60fc9b72",
+      "svgSha256": "e99fd365bb2ae955bbfa81cf55749422c33d6d020e06e1db9d1868c742e20a20",
+      "pngSha256": "08ce9c35b43cd71857389e7e4fbaa976c70e803ab665664aad7dd16bfdde2d52",
+      "bounds": [
+        249,
+        190,
+        405,
+        566
+      ],
+      "batch": 0,
+      "sourceIndex": 57,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-E-02",
+      "jsonSha256": "a4cc8ec50fdc457c73022c079ac9ea6352419d60a7bab94a92acb3a31f52cbae",
+      "svgSha256": "8069cafcf6e7269f0b9962eefc437eeadac8a96366d7e2c4f779193ffb15c412",
+      "pngSha256": "fb534ce6a7678ba974ecd169cbb8d261c77729b0badb7656da934b5add1381c7",
+      "bounds": [
+        288,
+        185,
+        386,
+        566
+      ],
+      "batch": 0,
+      "sourceIndex": 58,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-E-03",
+      "jsonSha256": "05451e85426b17c418c0c895e4fc81f897a7c569a79a5a1c0759169770406422",
+      "svgSha256": "fee3cdde1fec3c8a6f799e79f95b14f41f21ce1c8fc8d73e37485b15a316c5b0",
+      "pngSha256": "44b7ffc4157c807d72971e8ec110f690bed4e1e64437aa369b8d19d938fb310e",
+      "bounds": [
+        292,
+        190,
+        409,
+        566
+      ],
+      "batch": 0,
+      "sourceIndex": 59,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-E-04",
+      "jsonSha256": "8ecbb3fe733bf1a044d8d4584f251467abddaebd8cf692b9da2652284dca6584",
+      "svgSha256": "9177f62fc53d53f34212ae018e86f4d08451edd6dd2fafdae80a6b76b504c3c1",
+      "pngSha256": "71000181420d3d2151de88907740c0aa354ff0aa01e6ea62a115042bf2086370",
+      "bounds": [
+        272,
+        195,
+        421,
+        566
+      ],
+      "batch": 0,
+      "sourceIndex": 60,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-E-05",
+      "jsonSha256": "e949400ae1bb5bbd0dda7febce95528a937fff2a9b60b22f52ac874c5b2a15f0",
+      "svgSha256": "8567ed3ba1f7ae6545c0ee1e7eada0c0ddfb93a8dea5c6aabaa78553c64bd239",
+      "pngSha256": "94470245ee0207e88a7157d4da339e338516b99c71330c8343d63459fe971639",
+      "bounds": [
+        249,
+        190,
+        405,
+        568
+      ],
+      "batch": 0,
+      "sourceIndex": 61,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-E-06",
+      "jsonSha256": "cff4f8503a08418622cf659f5528fdfd2662d097a1b9181eaf94aa5dce0d9d30",
+      "svgSha256": "615a42cadbc9ed77694153f3ea978a9810748fd798984bf5e58a5e87a136b3c1",
+      "pngSha256": "d783b650920bed43ce10c3e1d8d2d22d38f62b62cbadeafb9f3fe91cdc71e563",
+      "bounds": [
+        288,
+        185,
+        386,
+        561
+      ],
+      "batch": 0,
+      "sourceIndex": 62,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-E-07",
+      "jsonSha256": "9b8bd9209a95537c7d0aeccf99ca0625ca2cb0785b316ef732aa53cfacca8ace",
+      "svgSha256": "d477a8a4a354168d142e5841c9173b50044f8c283c0c76e2d19c1eb9c76ab2bc",
+      "pngSha256": "b82185181a5adb5e775b5e70a0c2cf0c336d29ca4936571a8e67bd84a5b1fcba",
+      "bounds": [
+        292,
+        190,
+        409,
+        561
+      ],
+      "batch": 0,
+      "sourceIndex": 63,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-E-00",
+      "jsonSha256": "1dfb1d0704239b99ea907940621c1ea0564722950cf5497577410e2ecd10eea1",
+      "svgSha256": "49732fa4f7e1228e46c6478fb47b96180d9846bb862cd47c28f68d443281a4f4",
+      "pngSha256": "a5399bc467d2a480558bf8194a69865b3822f8ce72f6bc28c16d2c2315c6c14b",
+      "bounds": [
+        269,
+        214,
+        462,
+        566
+      ],
+      "batch": 0,
+      "sourceIndex": 64,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-E-01",
+      "jsonSha256": "e9d1d9c2e5dc5de0a1a363565120127ab69646ee63fff80f0d38eab716c54cdb",
+      "svgSha256": "6fa75eed3b79db08302ea35cbcfb9c8cdf1a36b4f46a7a4a4bec014c3e98d249",
+      "pngSha256": "924041f3c8163cfab90489a108e36d0d7dd8e9ea0522cb94c731a1b7597a0f0c",
+      "bounds": [
+        290,
+        203,
+        458,
+        566
+      ],
+      "batch": 0,
+      "sourceIndex": 65,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-E-02",
+      "jsonSha256": "40a32e4386e1d2e4744df5dd086d1fad4cb14db8de40609a9b57e1f497aac44d",
+      "svgSha256": "7f804c715166d07c71bddf289626943b8927b35a882fb2c3fdc129a3f49d8009",
+      "pngSha256": "665ff07155744c116c2b7ca21821a63688920ecc9a57d15608ccc12f55703115",
+      "bounds": [
+        286,
+        192,
+        425,
+        566
+      ],
+      "batch": 0,
+      "sourceIndex": 66,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-E-03",
+      "jsonSha256": "a0acbd1714fc463719c1805251b84e8d7741bd78533eb7261a2979b0c1a1cb59",
+      "svgSha256": "f26d01a875e258f4e2a08a50a53a1e2eb4da809b4f029c9337c78ace351ce002",
+      "pngSha256": "15edd5acc30efed0670c46e29ce13c53c1040fb44b9e637dafb1071267a34d3e",
+      "bounds": [
+        244,
+        203,
+        458,
+        568
+      ],
+      "batch": 0,
+      "sourceIndex": 67,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-E-04",
+      "jsonSha256": "2b4f4750834b3e0cf461de5324794f97213980be13782252f968e0d269dabc03",
+      "svgSha256": "01a8b5b45d127a1b0d4e3a8cd71da7dfe04f3454aef10e2cf799c778323cb56a",
+      "pngSha256": "1f30988ef33f28c59e81bcb6b6e02c01773b1d2fdb32951badf09478563c9ace",
+      "bounds": [
+        269,
+        214,
+        462,
+        561
+      ],
+      "batch": 0,
+      "sourceIndex": 68,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-E-05",
+      "jsonSha256": "7f01ac583c0bbda2a5a430a5430042ec70822c8e59fce72b641e19e952e29c8a",
+      "svgSha256": "9fd5380a02a70fd750e762ab1e736979a58148444293958017ab0a02cad04eb3",
+      "pngSha256": "bd27c1d6e01136bbe39ada42c504526584a216d1512cc6c48d63cd53fd475c20",
+      "bounds": [
+        290,
+        203,
+        458,
+        561
+      ],
+      "batch": 0,
+      "sourceIndex": 69,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-E-06",
+      "jsonSha256": "7f88ceab8a8b158bdbf449318bc7f8adf95f1c53f98ef1613d98e92acaec2cd7",
+      "svgSha256": "6d9e3c91d87fda935bd91613908b7797baab31625f57d266839b6934e4e1da45",
+      "pngSha256": "33f2b24353642cd57334c09036d6a5eef3462433df824bcd8c251d4b728fd856",
+      "bounds": [
+        286,
+        192,
+        425,
+        561
+      ],
+      "batch": 0,
+      "sourceIndex": 70,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-E-07",
+      "jsonSha256": "c76ab1eb22f4542e04664a83874607448f1a7f3ec489cc7a1d5c9987f51ec5b8",
+      "svgSha256": "2e5ef41585511ea8236cf48beb425458ef3ecd4d004b2cebbfb1a278ee855047",
+      "pngSha256": "987512bb02ca0bf4c95923101c9b456902e028642ff1d00aef903329155f6811",
+      "bounds": [
+        244,
+        203,
+        458,
+        563
+      ],
+      "batch": 0,
+      "sourceIndex": 71,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-neutral-left",
+      "jsonSha256": "32a3ddff3578e1d47a21a393b77050931cfc61c9e079047442f916b0fb4adb17",
+      "svgSha256": "ddaf4e639f0f0c0234d132cdaed01c86f1788fe70cf1422448ab6770df5a7e75",
+      "pngSha256": "3507e931e87b27f09af3ed5161a68c6ec0945fbe96b66ecc977688b8f39e8745",
+      "bounds": [
+        268,
+        177,
+        354,
+        560
+      ],
+      "batch": 1,
+      "sourceIndex": 48,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-contact-left",
+      "jsonSha256": "d47360f923ecabe9674f58fd791ad0e5a9769ba62d7ed602899e754e6d103eeb",
+      "svgSha256": "ba6f019a499fe1a6e7997cfd716d4bb4077e14189c92436f1764f1cbf32ce7ba",
+      "pngSha256": "91f9827dd37400b3f716b2cdd54dc5f2f4035aaf484a1ed2890bf109bf7ff834",
+      "bounds": [
+        222,
+        193,
+        387,
+        560
+      ],
+      "batch": 1,
+      "sourceIndex": 49,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-pass-left",
+      "jsonSha256": "b6e58ce5bc3f6010b0832518d97c8ff0ba24e82cbb4cf2c55e827c66cd5c2454",
+      "svgSha256": "0c5956b5f5fb4b86f7adafcfc0fa73afde5682c8686089988382e67e2cec43b7",
+      "pngSha256": "984847dad95b2a89b3fac654253ca3ca74ffc1dfa080e57fa5cbbf70bc132281",
+      "bounds": [
+        237,
+        180,
+        352,
+        560
+      ],
+      "batch": 1,
+      "sourceIndex": 50,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-push-left",
+      "jsonSha256": "2c830d0c495e243ab1782769da6a248064d3484bbd4174a903710758d872c457",
+      "svgSha256": "704fb6414e893ae8659a66dee1ae18b6d4d39418eb2be824e862bcc7a6fb095b",
+      "pngSha256": "49fa855ce96984291165e42dc395ce6e451d07fe2c9eb13147337d92c2cecfa9",
+      "bounds": [
+        167,
+        196,
+        372,
+        560
+      ],
+      "batch": 1,
+      "sourceIndex": 51,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-flight-left",
+      "jsonSha256": "963464a9bde32bbb0da28bfa4dfc497729eef392ca48ec75f2b2623c8b81532e",
+      "svgSha256": "7405ff0b23abddf83d290c1274eccc5f8e1616877b6aef2c9e5f9fafb84d562e",
+      "pngSha256": "4435bcd4a05c9fab88122028540c738b0c520786a35065bac3ec2aab7978ff95",
+      "bounds": [
+        177,
+        156,
+        487,
+        482
+      ],
+      "batch": 1,
+      "sourceIndex": 52,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-jump-left",
+      "jsonSha256": "629e2029c39a44fc32720fc5e4d3d2cba2a5c21c0064815cd48ff118f84ad467",
+      "svgSha256": "194cb72387936ca159b3abc0bbef89d829f4a54d5bdf77dfe37213ba7ee85821",
+      "pngSha256": "26c40e253106e1653a84688c3644ecb4d2efb5b954fe54c912d591aeacd9a9f1",
+      "bounds": [
+        183,
+        111,
+        476,
+        503
+      ],
+      "batch": 1,
+      "sourceIndex": 53,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-crouch-left",
+      "jsonSha256": "624fac39cb8819363b55ff76ab857b7add6fab1b6e4ff8e966abadbd7295f051",
+      "svgSha256": "b58a5f64df8b8484a9239e7a0de460539d359f12a0d8612de32df649b1851447",
+      "pngSha256": "176788da526624f30c9546507bee5c0958ddf049d249826ce26d8824605d3fab",
+      "bounds": [
+        168,
+        281,
+        349,
+        560
+      ],
+      "batch": 1,
+      "sourceIndex": 54,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-reach-left",
+      "jsonSha256": "f6600b764af785d93f6de98c858cbf7128102ee97af319197748c1653b12a158",
+      "svgSha256": "9e85fa143132a5cdd7a6166d554b676f21a3fb4e402faebb66fe0e439c853fb9",
+      "pngSha256": "a4ba10038ff924ea239e16bc0ba729f600db57353b5a8dda9a4af9b1821e34e3",
+      "bounds": [
+        195,
+        177,
+        347,
+        560
+      ],
+      "batch": 1,
+      "sourceIndex": 55,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-W-00",
+      "jsonSha256": "513a67b73d6e9db2434d7cf9c79ad1b13406aa306d46b726531c991e5e2d433f",
+      "svgSha256": "325ca7652baa71279532fbca6acd6a4f138b2478a5b0a810d3e048ae6fe25763",
+      "pngSha256": "87aa3caa5c20b2d28f16439ebaf9ee0727fe9b58d07763dda03bc9e25640060e",
+      "bounds": [
+        219,
+        195,
+        368,
+        566
+      ],
+      "batch": 1,
+      "sourceIndex": 56,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-W-01",
+      "jsonSha256": "57d8014ac24f9d17ce4c30665c6593a3b6281da085dbc5da8e0fdea872698cc2",
+      "svgSha256": "17751b865494e4dac4808e4b007760cea4eddb3fbf6855e30800be4e7568567f",
+      "pngSha256": "a39f628ed9bc94ec67c5fc7ee6d94bee21bad1347043e81f6146d2ac57d611a7",
+      "bounds": [
+        235,
+        190,
+        391,
+        565
+      ],
+      "batch": 1,
+      "sourceIndex": 57,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-W-02",
+      "jsonSha256": "008b658b7cd4e1839db9396aa389c3e5cdd16f4c99ef826e3084861e2862a38c",
+      "svgSha256": "7fd981b2f228caf28714731d2350608438cf7e8e6a2b9814f2d0bbea55ca7dd8",
+      "pngSha256": "9125b121b88d09f8877c0125d252c53784bb7507abf9c9dc99292dd6ddfa7d99",
+      "bounds": [
+        254,
+        185,
+        352,
+        561
+      ],
+      "batch": 1,
+      "sourceIndex": 58,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-W-03",
+      "jsonSha256": "7fd1e17dc8a440789a2279539a24a0122ecf69ba9e8f41235f1b45c03249ec85",
+      "svgSha256": "c65a5d61ac39896d662e1f1c248d2fc31281529b098e8a488db9d1798692b3c6",
+      "pngSha256": "81d9d71f68444d51906444d47020f74109d14bca43232f5c6e983655b64f1e40",
+      "bounds": [
+        231,
+        190,
+        348,
+        561
+      ],
+      "batch": 1,
+      "sourceIndex": 59,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-W-04",
+      "jsonSha256": "0e0f5e6c1e0f0c53e2611b65afc81e72cbe20d493e9acefbb6001ec79c2dd5e9",
+      "svgSha256": "4ff738ad5d712347e368e90471352924c5e723db3a6a44e7f8560a000cd01552",
+      "pngSha256": "0762c0189801d53d1c4fa23eb5a33fe78d95ed3a124aaaa17b1e5ca1c2441303",
+      "bounds": [
+        219,
+        195,
+        368,
+        566
+      ],
+      "batch": 1,
+      "sourceIndex": 60,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-W-05",
+      "jsonSha256": "e02822bf28b591dc90086e3b374e1052ec5dbbcb36e87f9fdb6161c60c03b492",
+      "svgSha256": "4a2660ccb5b8c8aa14ac7ee05e901ff84ed5eccf0196c92e3cf1af4777974a41",
+      "pngSha256": "0c14f2a38d90c8f8d2cb0a46520539db7004fff3f4cdabbd36fc553301a965a2",
+      "bounds": [
+        235,
+        190,
+        391,
+        566
+      ],
+      "batch": 1,
+      "sourceIndex": 61,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-W-06",
+      "jsonSha256": "e899f2675a9441ead77184d9d522cb2b69d99f86aff26196724bc4e014fcf8a5",
+      "svgSha256": "b1e1a33478fce81d09452df8b034d6261c5e701a2e789827de0f3553f8adefec",
+      "pngSha256": "b7774a8f9db262da9705137918f89cf675e92feecf17123443a7b58849c38f24",
+      "bounds": [
+        254,
+        185,
+        352,
+        566
+      ],
+      "batch": 1,
+      "sourceIndex": 62,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-W-07",
+      "jsonSha256": "563577680a67d2ecc4ea81e0877f22142b023bca280cd09aa6a1bdbed3988153",
+      "svgSha256": "e35f671dd0882d8806a5b0aa635f7fc6f7d91269927dbc6f2b0de4834044d11e",
+      "pngSha256": "70ebba9ba559bd1fce6b6b641a168b365b5affecf26ec162b14c6ed753bb12b5",
+      "bounds": [
+        231,
+        190,
+        348,
+        566
+      ],
+      "batch": 1,
+      "sourceIndex": 63,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-W-00",
+      "jsonSha256": "eaf371ce46db98233900e063d9a62be7ac2dcf6d1042445943d6bf16ef467d33",
+      "svgSha256": "c37b1fe40e400a807280e4abe5b8f7c926902a864ddab73c4e8f0d2f86fdd108",
+      "pngSha256": "44353b03da5c63b700a22866462113ccc61e1bdf285865e3531bb67c48b1e832",
+      "bounds": [
+        178,
+        214,
+        371,
+        561
+      ],
+      "batch": 1,
+      "sourceIndex": 64,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-W-01",
+      "jsonSha256": "35926990c4ff41cfa56e91952e7ab6d757573e406ff44e00915e17c70e68f2d2",
+      "svgSha256": "54ca147a48b606bbf1ff34b26092458df87a9fb7a4c47ef20742c4e6f95cc01b",
+      "pngSha256": "d45d7f2fb203a6a875c6c71df24c6647fb6053e6621d9c50f8c9429bbcc0aee3",
+      "bounds": [
+        182,
+        203,
+        350,
+        561
+      ],
+      "batch": 1,
+      "sourceIndex": 65,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-W-02",
+      "jsonSha256": "7b469c52e33157fa3b07da72711e81a58381e081d8f5be9f111a94737ecc8765",
+      "svgSha256": "7b3bde62c77a11da11f65517faeb0745531ea8d9f7943da55d22470b8676171b",
+      "pngSha256": "f5cfdaf0053b2b05a0c6f8ad4c8fc4a1006394c2c82c097a59d8a3789590d91e",
+      "bounds": [
+        215,
+        192,
+        354,
+        561
+      ],
+      "batch": 1,
+      "sourceIndex": 66,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-W-03",
+      "jsonSha256": "147aaefe701c92731ab37ab6f453696dac9aea144d635edbc06d9a314a8526e8",
+      "svgSha256": "bcb10b708b7ba61d89fff2bc855a670d80e5c3ac0c69ac2e6738ad8c7a69b3f2",
+      "pngSha256": "222348aff8baf1b1651142ec6dd617d727ed76bf70527977b12c6a5ebe573de7",
+      "bounds": [
+        182,
+        203,
+        396,
+        560
+      ],
+      "batch": 1,
+      "sourceIndex": 67,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-W-04",
+      "jsonSha256": "d8297bb91f91653cf65c87ef7aa6613310e0dd0afadee939bfe4d38e0b3ba168",
+      "svgSha256": "8bf01a20f782969a86d10476de6a36b9e874ae242cfbf38c6697bd883e14b804",
+      "pngSha256": "af0743ca29ef5883d091669f35b7955a12a05b61f83fb390bb332b72e36372da",
+      "bounds": [
+        178,
+        214,
+        371,
+        566
+      ],
+      "batch": 1,
+      "sourceIndex": 68,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-W-05",
+      "jsonSha256": "ae27fa7a39809b91195e219e0b50ddca77c63bbcb79a9c2a1b8c28ab69ead63d",
+      "svgSha256": "0d728909af4ba71b19e96164de4026f6dc76936c0c35eec8e3c614f009be1dff",
+      "pngSha256": "e852ac2443c5fbe004348e6a2163ef58bf7a951bcd251c7d2b9e96cad2ed8e8d",
+      "bounds": [
+        182,
+        203,
+        350,
+        566
+      ],
+      "batch": 1,
+      "sourceIndex": 69,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-W-06",
+      "jsonSha256": "2a7217cbdd73b39f197d9c4c4573b18ef3916d21fae06ec2cfbc1f5c536d0cb4",
+      "svgSha256": "995cac858544e078baf23070285eb152c5005aff8e2d77096f32bd2af9734ee1",
+      "pngSha256": "228f4828ac50c2d947c5e737d914d1d1c1ff7c2821ec60954f8f3617d87cc992",
+      "bounds": [
+        215,
+        192,
+        354,
+        566
+      ],
+      "batch": 1,
+      "sourceIndex": 70,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-W-07",
+      "jsonSha256": "97803ac78d51c6370d0dcf4b6b5e193f7de71d591a03c0b9392bc0b7bcc1f837",
+      "svgSha256": "9beb18ed9e8e566dc60e0315e6f229bc812197c27d0ddefe93c0c398d139fb00",
+      "pngSha256": "8cc7805042454f80fc924d7554ccd985b79bc47630e22488665c52d68304201f",
+      "bounds": [
+        182,
+        203,
+        396,
+        565
+      ],
+      "batch": 1,
+      "sourceIndex": 71,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-neutral-SW",
+      "jsonSha256": "396b455f04e6dce6bccfd12095d755b4d5822273234864f690962d196a15bb1e",
+      "svgSha256": "3182017ed8730e8cad8d001adb9c99d14d7321284aa914371185c35445d00aa1",
+      "pngSha256": "adb5fe044574643bb769d426a3af6951b613c36c551ea43245465491dd11cd74",
+      "bounds": [
+        266,
+        177,
+        368,
+        567
+      ],
+      "batch": 1,
+      "sourceIndex": 72,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-contact-SW",
+      "jsonSha256": "8ef3eb90c6075127cce555cddbc2c6dff1ef9bb83815eabaa00a5141ddc4c869",
+      "svgSha256": "b9e156dc2f5f392afbf5b61f8d745b19af85018379f8c69dee7170b5ed9321ee",
+      "pngSha256": "e88aa00053fa28c5fdbba9b4602d6e8542ed087c9346eb75baeefc960bb83535",
+      "bounds": [
+        236,
+        195,
+        381,
+        573
+      ],
+      "batch": 1,
+      "sourceIndex": 73,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-pass-SW",
+      "jsonSha256": "b137fd3aa8126c4eb163d9ac806387d09a0bdb23bdd7b8490dc5ea7b1b79dbcd",
+      "svgSha256": "b9da6576a735233767ea2ce5edd3ec143eab524698b0206eda34d5db218c1905",
+      "pngSha256": "fe85c01b76b83d25fe9f99a20aa11bf35547fd450944b889b0806655ab0ae662",
+      "bounds": [
+        233,
+        182,
+        366,
+        565
+      ],
+      "batch": 1,
+      "sourceIndex": 74,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-push-SW",
+      "jsonSha256": "653206bcb286807f261da1ff6494a7ed306f411a1843c03badf9956a7fbad4a4",
+      "svgSha256": "636d3d749c9fdfcc71ee2ac45d822c3837248de32db4d9e9a9adeaa1d23a8d58",
+      "pngSha256": "92ee65d815623193dbdcb0d1f60e27ebb5d282dfed9a2c607557d35c9130096d",
+      "bounds": [
+        180,
+        212,
+        369,
+        560
+      ],
+      "batch": 1,
+      "sourceIndex": 75,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-flight-SW",
+      "jsonSha256": "bc8056526870a5bf7581d1b3725287785c30cc188ccbefc7d8f761ff0928ec41",
+      "svgSha256": "50c5261dd65b973d127cd11b52f42443a5ea3a4d87e144fda8b2694dc9669f0e",
+      "pngSha256": "d0f4975e6f82f6968587f9b791fca03f879a89920edea84c282c51d38307fdc8",
+      "bounds": [
+        234,
+        171,
+        440,
+        492
+      ],
+      "batch": 1,
+      "sourceIndex": 76,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-jump-SW",
+      "jsonSha256": "c4bc7216b03062da11d4017b7b703dcdf655a84a69b5984c3038c34eaaaf9abd",
+      "svgSha256": "a5686981864bdcec7e2b197f9de3c522251e454991647ee1d3b4b7921cfa7cc4",
+      "pngSha256": "e135a129b5c64fc0ad25f6dbe1ab89a128c43046fdb7df9f71193f18ebb8d637",
+      "bounds": [
+        218,
+        125,
+        441,
+        511
+      ],
+      "batch": 1,
+      "sourceIndex": 77,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-crouch-SW",
+      "jsonSha256": "55847bd8b8ad5a29838f46e48e69a5a4a4ae6a254afea30fa3cbb8c12248b645",
+      "svgSha256": "0f2ef3096ac289640bc1ed400fb4b2de6b0b6d129f1331ed234cecc4060bd2ca",
+      "pngSha256": "765181513b2be1fb6978eae8d93f9ef28586e3d94187cd063e6861afbfc6ecf7",
+      "bounds": [
+        182,
+        294,
+        353,
+        572
+      ],
+      "batch": 1,
+      "sourceIndex": 78,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-reach-SW",
+      "jsonSha256": "bdd806778cb0b9a67a7875fce2099ac8f06f075dfdc36b235c44b29f3577d957",
+      "svgSha256": "61f6de61a87b73afc2c7a0373055d590b0f1dce2ccc86b0fbc3f7c401f45509f",
+      "pngSha256": "5e55ff250a874141868fd9256c541d677c90c29cfb187b0c24b86e6bfa854ff6",
+      "bounds": [
+        199,
+        179,
+        359,
+        567
+      ],
+      "batch": 1,
+      "sourceIndex": 79,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-SW-00",
+      "jsonSha256": "c3d91f55d5b7bf96c18b2c36b73d586d73a2f78bfade8e57615f247c2fbf905d",
+      "svgSha256": "61efe27a968f5b090f43e94c2267c2f7f78fb990d08f34316b17f2d7ded0af43",
+      "pngSha256": "dbf1914d85acdbb463630d67c51087187a2271831f6129bd345e345e61a20515",
+      "bounds": [
+        236,
+        196,
+        367,
+        573
+      ],
+      "batch": 1,
+      "sourceIndex": 80,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-SW-01",
+      "jsonSha256": "acc9d3150fccc4d35106787d7e869651ce5941a0e8979403a5655aa429672974",
+      "svgSha256": "6f23484fe6b0ae1952ef731191905aed5680348945f868ff89c8a8f2a96d6242",
+      "pngSha256": "1a249da7a3b276304ccf6b6a840ca08005e886207f46c3ae72de63313ee782a7",
+      "bounds": [
+        252,
+        191,
+        383,
+        570
+      ],
+      "batch": 1,
+      "sourceIndex": 81,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-SW-02",
+      "jsonSha256": "e8e390e58578302c6b77088c9fee39a20a842024e794c2c15d297277fa44af63",
+      "svgSha256": "e35977e9e604300eacb5e5a72c33094bc3271994b300422ed4df4bdbd3febb78",
+      "pngSha256": "c6a5493f5e424e2d315b27edb2b177df1f95db15bb0d3150aaf7e86a39f88174",
+      "bounds": [
+        264,
+        186,
+        358,
+        567
+      ],
+      "batch": 1,
+      "sourceIndex": 82,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-SW-03",
+      "jsonSha256": "ad94bcfe556d914c49f4ef981e59e40b1807175eb6acf502b1b9f547e682d8e5",
+      "svgSha256": "70d58d09ef581842c6b5571b23eed44bb36875898213d8028a2acf460bf09bd8",
+      "pngSha256": "3409cb7d14462981929665ad8c0f71875bcd399024401c55dd362f29a44558eb",
+      "bounds": [
+        232,
+        191,
+        369,
+        564
+      ],
+      "batch": 1,
+      "sourceIndex": 83,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-SW-04",
+      "jsonSha256": "6a9f3bfee8c959e410407d365cce66aa1af3f3d9aa8792ddb89656d511168cdf",
+      "svgSha256": "ff8b281547473c2fd1700e8979aac85eb1e5f3a199e43b2d22244f49ffa21a21",
+      "pngSha256": "2a6e21187c20ed0e7d799b414bde04a3cde0c9c4caa9c345dddacee6315cd905",
+      "bounds": [
+        221,
+        196,
+        377,
+        577
+      ],
+      "batch": 1,
+      "sourceIndex": 84,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-SW-05",
+      "jsonSha256": "42de314ea913bfa8327f51d12c03768dd0562d6fc52fec565dc42172d4a908d6",
+      "svgSha256": "677050abc1b5c9c5e24ffc442ecbcfe4ce498f8b9307663b18f9e186b9cba258",
+      "pngSha256": "9a103f7209516f7ff6833ca2c6da0d3362bf4fbea4ce8bdd8203f24d67b01b8b",
+      "bounds": [
+        232,
+        191,
+        369,
+        574
+      ],
+      "batch": 1,
+      "sourceIndex": 85,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-SW-06",
+      "jsonSha256": "c3d3c3d86083d706747a0c5bd9ef3d73876516d0551d44ef83ebdc3e2638e166",
+      "svgSha256": "af1ac7ff50988857833a77bb8cf2643ed66680d81c67af2bfce5b01d62b035f8",
+      "pngSha256": "471ec4e521d755c6806d9c145a376f8b5fa934221ab51ab8909576d4275e22fc",
+      "bounds": [
+        260,
+        186,
+        358,
+        571
+      ],
+      "batch": 1,
+      "sourceIndex": 86,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-SW-07",
+      "jsonSha256": "114848c173d8dfc9e1804e1274f8b96e87d497364c62958e939538bf16f63354",
+      "svgSha256": "d4279ec6af5d84a97984667c3f6cdb62fa1c32cfeadce3b3ee5eeb42128e6f62",
+      "pngSha256": "5bb0afe3b9c3ea376b3effa977892472a7e7bb8aa511c5f5ee09fedd0aa46464",
+      "bounds": [
+        244,
+        191,
+        353,
+        568
+      ],
+      "batch": 1,
+      "sourceIndex": 87,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-SW-00",
+      "jsonSha256": "848b2fb9071bd6792498e5050f4898d9c2a404733918eea36a45eb07feed0d68",
+      "svgSha256": "5cd9bb03bb3a17287214733a20e1a62e95a37791b3aef77c7794138855d1c0b9",
+      "pngSha256": "7fef220b82d704bee25a8992426bb6d6fd052a6090b177d7a0894cf50f528d78",
+      "bounds": [
+        232,
+        218,
+        369,
+        573
+      ],
+      "batch": 1,
+      "sourceIndex": 88,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-SW-01",
+      "jsonSha256": "9e668ca8403f7bd8e7849b4379eaa7c6fb16f8a28e7a635fd7b67cad608c3ca2",
+      "svgSha256": "e91c056bdf14dca9978b09f2e92d39bc921d807c19c1fca91cf80e6b89f69738",
+      "pngSha256": "43da752f15719705c0d9f15783c7f162429dc543fda99a8649073e7d621b7dd7",
+      "bounds": [
+        248,
+        207,
+        351,
+        568
+      ],
+      "batch": 1,
+      "sourceIndex": 89,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-SW-02",
+      "jsonSha256": "1fec8fd700c9a2ea4e98f84f682b506e1b5089da68d3502afb103b3dd516054b",
+      "svgSha256": "993d63c140cf62330008b899c7476fc89bddfe07fb2cc2cecbbcd27d512a652b",
+      "pngSha256": "213a71b67f413d8b7179102ae717dc6f1107e867044d38ad9ce0a185850cdc80",
+      "bounds": [
+        220,
+        196,
+        351,
+        563
+      ],
+      "batch": 1,
+      "sourceIndex": 90,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-SW-03",
+      "jsonSha256": "89de0a8083cb93f37645a55c52f42f037ab0b4a491050adc3ffe5c4f56073ce4",
+      "svgSha256": "5431a871db05c7bdea153cab531f1c3aa399a2724d279d64bcf7c57f71b4d580",
+      "pngSha256": "c0754cc35daced48fc1a3768d26a8378f91574b9440a0979af68e620f4650e15",
+      "bounds": [
+        196,
+        207,
+        370,
+        552
+      ],
+      "batch": 1,
+      "sourceIndex": 91,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-SW-04",
+      "jsonSha256": "26b175f559e879fc493be55f7d264aee002dc5e44e0d1a94776446da174eeb1d",
+      "svgSha256": "15e720327c1b7b71336196d8fe0209ca22ee4c4e7a0b286b0c6215869c9c329a",
+      "pngSha256": "baefd5d2094782439d80bfc4451cad8a2f85be8c12a6b6a7ecf9d3fac35e06a6",
+      "bounds": [
+        192,
+        218,
+        379,
+        577
+      ],
+      "batch": 1,
+      "sourceIndex": 92,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-SW-05",
+      "jsonSha256": "f19b1e3e9bb1e7183260bb9dba7ee3ae5a8907d6297edf4f1791778598402207",
+      "svgSha256": "b5db1d649544211063ae0cf8c8ae3a87118ae70b079e612125fcf0477906aa52",
+      "pngSha256": "8f3927f41760bee3c037d584c363814ab1857edc8b4ea09c8b1615acb5753d82",
+      "bounds": [
+        196,
+        207,
+        370,
+        572
+      ],
+      "batch": 1,
+      "sourceIndex": 93,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-SW-06",
+      "jsonSha256": "248f528cd63bc3b0f7f4b12564534729f7085eb127d2200b3d7acce8d9b95c2d",
+      "svgSha256": "7e79689b953eeed04f55f9408260ad51dba5e1dca5e0ea31569ec651a4662a07",
+      "pngSha256": "bacd32beb8f8a44395a8e4b0b66c83cbb49bf761834ed437cf1b72d07908d93a",
+      "bounds": [
+        220,
+        196,
+        357,
+        566
+      ],
+      "batch": 1,
+      "sourceIndex": 94,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-SW-07",
+      "jsonSha256": "4a2cf5e2ed7056abd2e828994f11ad27c742252256dc539b3cfb1884cc11ae5d",
+      "svgSha256": "b6f0b0e9619c95e8e5be0bd52deadc68ff0f708ea6c2894464c8e3703adcad21",
+      "pngSha256": "33706d0f20480f411ca3d014d7dedcce501793cbfb9f915ef37a5fc2c4d3fa4e",
+      "bounds": [
+        232,
+        207,
+        386,
+        555
+      ],
+      "batch": 1,
+      "sourceIndex": 95,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-neutral-S",
+      "jsonSha256": "ee84a908b9d37ee6423c84cc6f760aea7fb5fa51e219aa4612949dbfdaee6081",
+      "svgSha256": "4bfc9bd151bf8f67d959a35b0df9b84ffc5340cec28aad31799cc61bfb97fa7c",
+      "pngSha256": "67e5c539544e52dee21960fdc91fab562365430f853798d3f4eab227494b2229",
+      "bounds": [
+        262,
+        267,
+        378,
+        572
+      ],
+      "batch": 2,
+      "sourceIndex": 0,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-contact-S",
+      "jsonSha256": "68ce7ee2dd6c1b66ed81e06f086fc6a70a5aa1c2d540150c728944799b309a4c",
+      "svgSha256": "c89c6b73b8ce342de3b47c200b2c6e718b83f532044ccee52be2fc6c74673df6",
+      "pngSha256": "2eb9caa2e82316a9fc629751dc8afc1df8cc5c1e009246dc946aba3bb47a15cf",
+      "bounds": [
+        262,
+        277,
+        378,
+        575
+      ],
+      "batch": 2,
+      "sourceIndex": 1,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-pass-S",
+      "jsonSha256": "32565c906e839f9f962f9a23d57db3f6f521b4ec693577e4f28c5dc21f4bdc98",
+      "svgSha256": "091e4bf05523856b98645a9eabaa8423b78e03edf0bab342892a525ae367f18b",
+      "pngSha256": "6183d8818bd4e14ff05ebd34ea70e2cd44cd907175b88112ee79161b5ac7892b",
+      "bounds": [
+        262,
+        270,
+        378,
+        569
+      ],
+      "batch": 2,
+      "sourceIndex": 2,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-S-00",
+      "jsonSha256": "0dd96a8446cd3f583bf3fdb25c8b6623c85fb2df374b294a2904019605cac2c0",
+      "svgSha256": "50d3aee0becd8d950793c48cf21b23518e7b37dc69be89466a505a5c864f9d50",
+      "pngSha256": "4da5f4686b76b512faa81b6311938b196f642b5151afb8ef12cbd7942bcccfb1",
+      "bounds": [
+        262,
+        278,
+        378,
+        575
+      ],
+      "batch": 2,
+      "sourceIndex": 8,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-S-01",
+      "jsonSha256": "22c8976cbd891d01d62fb1bd8080f218a986e15736131c52d833fafc839a626f",
+      "svgSha256": "ce903b6a8c917480195992e65a1fe531b640f5192324ebf68b48c52f535ae5c0",
+      "pngSha256": "b3809d515dba82c67c34e393b8be41a4a542ffb2590813a0b3c752858ec2ac93",
+      "bounds": [
+        262,
+        275,
+        378,
+        572
+      ],
+      "batch": 2,
+      "sourceIndex": 9,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-S-02",
+      "jsonSha256": "6b91b5b55af2321e5d5e06e5e84abe78658ff80f22fd48ee96a20c537da14dfe",
+      "svgSha256": "82f8f23a58818a53cf63370b8aecbc9a15859b44c69cc9993fd15d7184c8b295",
+      "pngSha256": "05771c328119dfc65cba35e7cf7bd99ab258d9215395ab5887f6066cd26134ac",
+      "bounds": [
+        262,
+        272,
+        378,
+        570
+      ],
+      "batch": 2,
+      "sourceIndex": 10,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-S-03",
+      "jsonSha256": "d9dc560f6fb5b360110184dc855f768e6135e0924d4eaeaaf930fe48241f6650",
+      "svgSha256": "d4c2e3a5d3a74fc668d64b6ca77a2564097f34b06a37ff89c3e2fddaabb50ebf",
+      "pngSha256": "c735c85328991b2c0af019fbe26445542608981a885715423119fdd7015709d3",
+      "bounds": [
+        262,
+        275,
+        378,
+        568
+      ],
+      "batch": 2,
+      "sourceIndex": 11,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-S-04",
+      "jsonSha256": "5b01e859fb9567ba3050bde39bd9ffd1382bb758bb61571d741480bcc84e1508",
+      "svgSha256": "81c790a0ee45d982a69753d88f9a426c432dd4c48bed6b9bb760a766ed36632c",
+      "pngSha256": "54384dc72fe647e036ef3bf0582fde858654c248b38c0b4e5f3cc2e709dbed74",
+      "bounds": [
+        262,
+        278,
+        378,
+        575
+      ],
+      "batch": 2,
+      "sourceIndex": 12,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-S-05",
+      "jsonSha256": "36b72efb9a5bf55cbb9e3aeecf546519882276632624f59866d8c13014326f7c",
+      "svgSha256": "54148afbbfc788fc8829cba4ad1d8b73811bb6e5452b0334f2b7621aca191aa8",
+      "pngSha256": "9b9323ddba4b7e185c0934cbeea7a60ea86c6dcbb3a83331ff1e1f28f01e4548",
+      "bounds": [
+        262,
+        275,
+        378,
+        572
+      ],
+      "batch": 2,
+      "sourceIndex": 13,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-S-06",
+      "jsonSha256": "4f745614ae3a9ad9f3e6ca6287e0870860fd3c8955bdc4cd17b8f0e2a7bc0054",
+      "svgSha256": "0fff24d5aeaae91f88cd40e0066c57a0cc82911a0b1f26334e771b019f774667",
+      "pngSha256": "7de011a295f9955f4c936e77b470ce2adb75257d0b8b403fc248a1ae413796bd",
+      "bounds": [
+        262,
+        272,
+        378,
+        570
+      ],
+      "batch": 2,
+      "sourceIndex": 14,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-S-07",
+      "jsonSha256": "f235ee70d888255636d3c8ae819bdab758bb9cb17b8239bfb7f72912975b28bf",
+      "svgSha256": "f901efb2632f0e7da6e5bf6f45ba2bd0dca55e3cd857813b21076f6f5f461adc",
+      "pngSha256": "0fdbc7903b1c31f3ecafa2592510a3d61e12cd8448f48f540d795d096147ea03",
+      "bounds": [
+        262,
+        275,
+        378,
+        568
+      ],
+      "batch": 2,
+      "sourceIndex": 15,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-S-02",
+      "jsonSha256": "2c55da3b1183fd172a0d035e9ff63fe00859dc3ba2a85b5e8cf588e87af907e4",
+      "svgSha256": "9beba075befeed4e2f75b263ea743ad7d0e5b58892e7b00abffb94edaa9b711a",
+      "pngSha256": "4df3215c534a1460d39de4f7feedd76e2731d3ad839b1751e330a5c51545057b",
+      "bounds": [
+        262,
+        281,
+        378,
+        567
+      ],
+      "batch": 2,
+      "sourceIndex": 18,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-S-06",
+      "jsonSha256": "20a40d56812799f5a39878e9f3a8f2bb9be269bab87a90ad0c56cc19af624656",
+      "svgSha256": "5e4d86d0ef5078e2737c176cf4060a0aeb1e2c457f6a70ba60417d484c95874c",
+      "pngSha256": "a55fcd4ee5b4efbdcd19a46af93d4edce17d3b9112ec12dcbe02f4a5a714f9d4",
+      "bounds": [
+        262,
+        281,
+        378,
+        567
+      ],
+      "batch": 2,
+      "sourceIndex": 22,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-neutral-SE",
+      "jsonSha256": "6c7c0b6f424489861f62d1f062f8e780047a544e385c1ca8ddb2a1516a54099a",
+      "svgSha256": "31592220b09c9e4c2f1b05b77e337b91f0b9bc218253b09640ae386497da0a05",
+      "pngSha256": "33ee37d4158985af3a155bda67a070fc9b52fde4e361083247893db5bd866bb9",
+      "bounds": [
+        273,
+        267,
+        361,
+        572
+      ],
+      "batch": 2,
+      "sourceIndex": 24,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-contact-SE",
+      "jsonSha256": "36defe1cb507e8f719ff23be37468f9dcce0a79979933ab10ea33cf557d44ee2",
+      "svgSha256": "af617c0820669c93e65477caa1eb5b4cc19e1b7b87cc256d73895d382e834106",
+      "pngSha256": "671f7cc4818298e8e6c1aed6525d5480a943836903098f49c48efc53862f32d1",
+      "bounds": [
+        267,
+        277,
+        403,
+        574
+      ],
+      "batch": 2,
+      "sourceIndex": 25,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-pass-SE",
+      "jsonSha256": "c82552d2f0340d929df26b3ff23bb6a7e3c201b650308fb8a9993354c2326abc",
+      "svgSha256": "086c80508b5400833a187c0f41d12b65e95dc5409de11e0656f11c0afb8a5bf8",
+      "pngSha256": "8a2cbf0a5b56ff4d516b9c684685073c454a72207e953c66d4106d4ff45d566a",
+      "bounds": [
+        278,
+        270,
+        375,
+        570
+      ],
+      "batch": 2,
+      "sourceIndex": 26,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-push-SE",
+      "jsonSha256": "feca1becd4bdbe2f016060ddf82f2d32365f5b55d2dfa491b7dcc6206e10b889",
+      "svgSha256": "56da11cadf21d7093c18dffaa91a5ce3acbca9edc86e8e9f8f648dced124271f",
+      "pngSha256": "9c368dd7cd6f747e7ce4be684733d7e16269aa97dea21e9789f6aa4a85368a15",
+      "bounds": [
+        277,
+        291,
+        383,
+        567
+      ],
+      "batch": 2,
+      "sourceIndex": 27,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-flight-SE",
+      "jsonSha256": "5d21e19a14a5e0c9f57d4e597ac81d7b359eeee03c976347fdeeaa8688888fea",
+      "svgSha256": "9df4faa055274d715e38faa4849443b56dd2b8af795c31a0d1645cd848a290d8",
+      "pngSha256": "44f573cac905d4152279fcd5f9429380ef8139987e66e7f7599fe15d8642b9c9",
+      "bounds": [
+        262,
+        266,
+        424,
+        527
+      ],
+      "batch": 2,
+      "sourceIndex": 28,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-jump-SE",
+      "jsonSha256": "721c6fd6c70e7eb38b2914ee1b41f15de2517b294e5db3a5e9f01c8e4d6d2da9",
+      "svgSha256": "222b2565d34def187ed8b57922cb2c19c438fe8aecffe5665ae837cf774ad854",
+      "pngSha256": "258f4a6cfae18e00ba63001b56df35a0e6c00aea1e414c521d66bd99ed4b9570",
+      "bounds": [
+        262,
+        257,
+        421,
+        537
+      ],
+      "batch": 2,
+      "sourceIndex": 29,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-crouch-SE",
+      "jsonSha256": "3c3613f44ccabc94a8a10119c1f4638eb090d356ea2e5fd489a9d1fcc04db886",
+      "svgSha256": "ededa2d32002976645204965c0dcfea8b167ec141815cbdadfdd7ee8c8d99163",
+      "pngSha256": "be33a4e7712f2f71594cd64d83aa79dc0608b415ef5b7de63bf76e2e6ec493e7",
+      "bounds": [
+        282,
+        343,
+        405,
+        574
+      ],
+      "batch": 2,
+      "sourceIndex": 30,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-reach-SE",
+      "jsonSha256": "1936ef32d70fea5d78be8e010e4774a29260af682a9a0445a4eaf81e7901a12e",
+      "svgSha256": "c4e88deef564d33c1cb22db1a98a61863936b854b21e2173324f5e9476f99b8b",
+      "pngSha256": "59003e9ea2d5955af7ef4cd0ce6a72615554e434bec9f3d5e6cde4c807c3b710",
+      "bounds": [
+        282,
+        268,
+        367,
+        572
+      ],
+      "batch": 2,
+      "sourceIndex": 31,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-SE-00",
+      "jsonSha256": "d3a9e87a52fa8f5093ba04ca9f353bd15364935d5ea537ccb56707502412415f",
+      "svgSha256": "ed73a4165192e29c21f8222ca9b6ab0a2457df188aae11d0bf3bb2bdac2278e9",
+      "pngSha256": "b459ee5e236033d2a8765aa5484dcc162033fc3b331373f15feb3f63f01ea4a6",
+      "bounds": [
+        264,
+        277,
+        401,
+        574
+      ],
+      "batch": 2,
+      "sourceIndex": 32,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-SE-01",
+      "jsonSha256": "74ea7fb7cc00516129f74152740ea70d54cb84e73d61ec0fdda376e7580e7966",
+      "svgSha256": "9c14bac5456ec04d7ff77392d3bfb8b71f4ac20f21771d83dd47ed763cd13c45",
+      "pngSha256": "1b37ef8c86e34ded028f4043c613a4b73aea6ed97ea8b1526573c2a25f344675",
+      "bounds": [
+        270,
+        275,
+        393,
+        572
+      ],
+      "batch": 2,
+      "sourceIndex": 33,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-SE-02",
+      "jsonSha256": "ed898a9c57cec28edbe36f99a353f9ed69c5e79a93397a0df3dada2536b9caf1",
+      "svgSha256": "86b3c25634b0fcd53f84d1504942a4b245e2bd87e1c160c483fe523a943df5b8",
+      "pngSha256": "907148268168019d1c0b4910c75ced95ac0eb691bc9465d8c058e0d6db0b0496",
+      "bounds": [
+        275,
+        272,
+        372,
+        571
+      ],
+      "batch": 2,
+      "sourceIndex": 34,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-SE-03",
+      "jsonSha256": "38c0c091df7fb282673048aad34d6ea9c42551a32c12e24bb94a6f903d73de46",
+      "svgSha256": "13be38c80742cb75ab38cbb24e66bcee3f37ac8d8e441884e5375baed495c035",
+      "pngSha256": "ad3c9eb6a1372287e3cb793df835eadde9e14c139fcac23c0801bae7fb939e9e",
+      "bounds": [
+        280,
+        275,
+        376,
+        569
+      ],
+      "batch": 2,
+      "sourceIndex": 35,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-SE-04",
+      "jsonSha256": "5e5161d6a648c0c3e4289ecd675075a1160a1dfaf04fd9f03050e7f27c37987a",
+      "svgSha256": "91f882975cedf62a33bc0efd77a7adc1fb75d7ec3608bb330ad9cdca613515e6",
+      "pngSha256": "41192fad0d349493a7dded7631f0356607ea33a3e75d6f1617bad0ca64006719",
+      "bounds": [
+        279,
+        277,
+        391,
+        570
+      ],
+      "batch": 2,
+      "sourceIndex": 36,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-SE-05",
+      "jsonSha256": "8271df5101e029c8eb7b276fe118e46c7e3ef58d461287fdd2100ced54071ce7",
+      "svgSha256": "9445d5e3397de8b3da6eea8713dd67063af9ea795c3ad9f6529211d70ad079cd",
+      "pngSha256": "1667843f8de5d7680d84f03898158778e57d8d39795b8880cc88ab761cc06c2c",
+      "bounds": [
+        270,
+        275,
+        382,
+        568
+      ],
+      "batch": 2,
+      "sourceIndex": 37,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-SE-06",
+      "jsonSha256": "5f833cecc5a85d094eca9a454923bf650fe01c97a2b626ff266bf1b47ce6314c",
+      "svgSha256": "c2ab62249caa7a546800bdae65dba578f0a02e3941244c0eaa608f7afceb3c29",
+      "pngSha256": "f9f65e28e4c9b6255f93a820057d04bb8b13e1714ed8b44a47dacc023c8af38d",
+      "bounds": [
+        275,
+        272,
+        372,
+        566
+      ],
+      "batch": 2,
+      "sourceIndex": 38,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-SE-07",
+      "jsonSha256": "2786eb970aaff846b34768434ceee70256bfe19af6450ee18c17da2995421aea",
+      "svgSha256": "e587f243b00c3c3455b833ba2e97ab8a5f7b95d9fc35299b1d1228420f1f0f3c",
+      "pngSha256": "61196e6a095c79dd621d725af1ffb2a796b7a030eb680154a5275db0492bcf45",
+      "bounds": [
+        270,
+        275,
+        393,
+        565
+      ],
+      "batch": 2,
+      "sourceIndex": 39,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-SE-00",
+      "jsonSha256": "f09adf96e8e826ef29a3869c0d8f4cac7c684dc4037bffccbba6365ccf30755e",
+      "svgSha256": "186eadc25b28733ac0b93bda90c5a53a2463fba5923f15dc3b87921fd28f7315",
+      "pngSha256": "871431ac8470a0f81a7ac274e10f3bb9a8f70161d145561283ad3e46f2e6d1bf",
+      "bounds": [
+        265,
+        292,
+        420,
+        574
+      ],
+      "batch": 2,
+      "sourceIndex": 40,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-SE-01",
+      "jsonSha256": "2e012b14ef15b6e51a28cab9a58cdf79ed17be3f4b31ee4eb0bd66efe036e136",
+      "svgSha256": "fa59402ab3056bfe9e806d0af82fdb2f7cbf5466d13d34528a36fef8a0230b11",
+      "pngSha256": "2fc52850138f5d3beb4fec238ee03c39bb5e518e6aaed2594ccb0489bfc1abdd",
+      "bounds": [
+        271,
+        286,
+        418,
+        572
+      ],
+      "batch": 2,
+      "sourceIndex": 41,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-SE-02",
+      "jsonSha256": "efcdea7466c7cb8de9fc3fb051a76f0f9e441af2356e1572170f1e2f01b5c160",
+      "svgSha256": "6ceeda4528bb87255c3e18d6f619592619112a2550644baac9a62940137cf7e8",
+      "pngSha256": "e2e3eb87f19a4cc58d5119ae7c8afebda8d84f4be14ca641e8f6dc9a847d7aaf",
+      "bounds": [
+        282,
+        280,
+        402,
+        569
+      ],
+      "batch": 2,
+      "sourceIndex": 42,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-SE-03",
+      "jsonSha256": "53f4e1ce62a2883bb7ca6ed18dd2175fc74e33952668888d89395753684ec162",
+      "svgSha256": "96a03bbb57398d7f6526b4c7942787e6270a0a739b2f48000165e54b0b3c6982",
+      "pngSha256": "243f12a7464d7db8e5460b986f19f34e863ad44bc14bf651c661c905cc305b19",
+      "bounds": [
+        268,
+        286,
+        383,
+        561
+      ],
+      "batch": 2,
+      "sourceIndex": 43,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-SE-04",
+      "jsonSha256": "3041dc31008b7828ec238054d23705ba469da0a7c6497dc3bb53e4c813c4d5da",
+      "svgSha256": "a803206c4450db616cb38622c5a45056b7e81db0ad8c216804a03f951a5161a0",
+      "pngSha256": "c5fccc525c6f92d9d751f3782a26ed43386a4bb43de989e5bc3c7940fcacb369",
+      "bounds": [
+        278,
+        292,
+        393,
+        570
+      ],
+      "batch": 2,
+      "sourceIndex": 44,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-SE-05",
+      "jsonSha256": "8b73812229a0449410a6cf0e4fe2b6e689f5a340cb8c2053aebefeb415cd097b",
+      "svgSha256": "940cd949ce919b9c1a339f0cdc81940bda044e2decc036c83bbb79eb60f2099b",
+      "pngSha256": "4f51e2cc6e8bb518c3ad2c4b19b6eff1547f9c09188a488eda39c0d80e357ce4",
+      "bounds": [
+        284,
+        286,
+        376,
+        567
+      ],
+      "batch": 2,
+      "sourceIndex": 45,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-SE-06",
+      "jsonSha256": "7cbbb80dd0024a6fbef78dfa39288fc22e027bbed1117f37d6a59e296940f8f5",
+      "svgSha256": "c8ad326b0b4ea1198ce1fa490ff71fea9029e006ca0574b45b299f005d72d599",
+      "pngSha256": "44ba0e75bdd0c51131d9799a18167724a19e31c6304147cecddba0053d187150",
+      "bounds": [
+        282,
+        280,
+        402,
+        564
+      ],
+      "batch": 2,
+      "sourceIndex": 46,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-SE-07",
+      "jsonSha256": "4f904f70aadd289c76c7df0b4ceb6d61b9059e3a222ec5ff6cbdffd920cbbf45",
+      "svgSha256": "495a4c9b629ad1ae268c9f87691ab4e304b730544f1c3433471fdd25d10580c5",
+      "pngSha256": "d6df4c82a598ef9b51ff12988e6f2d935c45f6060f22386c82ed211a36f51632",
+      "bounds": [
+        271,
+        286,
+        418,
+        557
+      ],
+      "batch": 2,
+      "sourceIndex": 47,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-neutral-right",
+      "jsonSha256": "28c48c0fac1b9c1fea0508d822ece343caef66071bb8beaba0e1babbcfdc5c60",
+      "svgSha256": "fdb372ea39709e880b2a5b7ec8d543f26dd756028bac656a31d9010f6b6a1249",
+      "pngSha256": "7a8c71a832d621aeea9f6f5283f4d479d0f6fe18021bdb99292046b95df9faf2",
+      "bounds": [
+        284,
+        266,
+        376,
+        560
+      ],
+      "batch": 2,
+      "sourceIndex": 48,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-contact-right",
+      "jsonSha256": "090e7261645990f0e8ef692d54e4d3c390ce646511852daf9469c0490ee5b31e",
+      "svgSha256": "e8d3c2ab8ecd5534fed29d92de973e37297ff13159c4cf1760760ca7f32faac3",
+      "pngSha256": "1d223262aa9868ef9b787b0917d6617d39b8b7429048d49c48d2c6073aea29be",
+      "bounds": [
+        277,
+        275,
+        393,
+        560
+      ],
+      "batch": 2,
+      "sourceIndex": 49,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-pass-right",
+      "jsonSha256": "9a80e597b79cb4f8c599f5061102e27d80a4e9be4608acbf5f0ae92565131a28",
+      "svgSha256": "007b875a338d169bdd391f463dca9a291765b58a0c3193c687cb165988a7d6de",
+      "pngSha256": "d6c2d9b1b6cd4bf96a48d965fcff5d81f0c952061c75ea5215dc9b0863c11d38",
+      "bounds": [
+        287,
+        268,
+        373,
+        560
+      ],
+      "batch": 2,
+      "sourceIndex": 50,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-push-right",
+      "jsonSha256": "446319ac2118e8df33167bcc124f144c59dc5d51f1b9eff92a8ac139d9885ed7",
+      "svgSha256": "5d3a178f2818fbbe47862e4d0160df29c54d5cb2339f5069677df36cfaf2216a",
+      "pngSha256": "fbe254928a63f01cfa0963fe4293c08cf77fed89468a9c94bb297985e9232dc3",
+      "bounds": [
+        285,
+        278,
+        423,
+        560
+      ],
+      "batch": 2,
+      "sourceIndex": 51,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-flight-right",
+      "jsonSha256": "0a5fc7509ab68ecf1901ee1515bbc7458fb5d99ab897070e8e104b6dad30b579",
+      "svgSha256": "cd017f7a97b590f4503f4df9e0c3cfcde10fd648259aac55a053e39a0b97fc57",
+      "pngSha256": "f2ff5767735d5e4027de87741f6e3da3aada32bfce25a326dd13d5daceefbb62",
+      "bounds": [
+        209,
+        244,
+        415,
+        509
+      ],
+      "batch": 2,
+      "sourceIndex": 52,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-jump-right",
+      "jsonSha256": "7e29e2cd424f85a8dad3dd15d8ffc39cf6828c811de27159dddeb12b4d942490",
+      "svgSha256": "d98a77bbfe3479578c267ebc654818724d502479e15c330a6e957d23661bf682",
+      "pngSha256": "5adfb38a0f4a0831ef1cafacb31f9b8d5c40e47ed42ebfd31c13005e835b789d",
+      "bounds": [
+        222,
+        234,
+        411,
+        517
+      ],
+      "batch": 2,
+      "sourceIndex": 53,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-crouch-right",
+      "jsonSha256": "35edf93f75539d89d8155fc5fc81bea4b24f44edcb9f227cf8e9b9a2fc74058a",
+      "svgSha256": "28b3c7b84cd23cff7a6e98bf0ff29b23e000acc2659875da516d19676b61cd2a",
+      "pngSha256": "60deff822002f7fd2a07b92c2e17a04e3154255af22b8692fd64f79ed3c6871d",
+      "bounds": [
+        287,
+        331,
+        429,
+        560
+      ],
+      "batch": 2,
+      "sourceIndex": 54,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-reach-right",
+      "jsonSha256": "d053beeb86e8e40ed68f3124a26499bfe233cda958a1220534ee507bacae2ab3",
+      "svgSha256": "86987690277cf319ef068348d887fb003fdd579c4beceedcee54ca60d04ef048",
+      "pngSha256": "68ce62d6b07331ab33d449968b796af24fab2e3e4e2f9f0fe297c88245c1dc0b",
+      "bounds": [
+        288,
+        266,
+        403,
+        560
+      ],
+      "batch": 2,
+      "sourceIndex": 55,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-E-00",
+      "jsonSha256": "2c6914d8f0280f794ffa0e57d47c6e01b3006549f8e0527cda02e7b415b207c9",
+      "svgSha256": "2c94ae525bb0be8242b058a4ddaa58bb0a639994a3fd5afc2443396bfcb81e0b",
+      "pngSha256": "b0326e6066098688a1414e7c25c1c01e0f12fd9a040815a667c4897a93ea3eb0",
+      "bounds": [
+        287,
+        276,
+        394,
+        566
+      ],
+      "batch": 2,
+      "sourceIndex": 56,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-E-01",
+      "jsonSha256": "613f4f365b17775843b07e3a9841c828c4e0b394bfe9a93e7f7514ceafe1fb0f",
+      "svgSha256": "1e843106de564d249b36970e6b17441a5777be11f4b8e905f848ef908e357fb3",
+      "pngSha256": "98eef99fb0a91a1433ef72b2f7bbff0f136a2e305f7802b6120965e4bb7f5c86",
+      "bounds": [
+        275,
+        274,
+        381,
+        566
+      ],
+      "batch": 2,
+      "sourceIndex": 57,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-E-02",
+      "jsonSha256": "627570665a5fe73f3d44bae11889fb7dada819fe0eed971c063490f7e32a0bb0",
+      "svgSha256": "70406a6cd68c70dd678117bd7c5c4f3dce8e41b30c7a205851368f616a15f23c",
+      "pngSha256": "877735e3492a0559d0764edaeb9f9f72ff69d73918a28c5c150578eb251e2018",
+      "bounds": [
+        287,
+        271,
+        368,
+        566
+      ],
+      "batch": 2,
+      "sourceIndex": 58,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-E-03",
+      "jsonSha256": "fe195529ebf56595e46a7e61cd866e9953e06a1dbd0f010991ff59eba5663ba2",
+      "svgSha256": "225a628814ddd609c0b0a6293ba432dda50775cedcaad68c4a5ad151c678a306",
+      "pngSha256": "b52886ecec721a8cb4bf29b8fe210ca23dc9f3237a502f7a635368f6148d3439",
+      "bounds": [
+        287,
+        274,
+        380,
+        566
+      ],
+      "batch": 2,
+      "sourceIndex": 59,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-E-04",
+      "jsonSha256": "c143aba1cd8f85aaf10f637bf681da884a978b74e1fe2ae7feaa98504da9d606",
+      "svgSha256": "74334e9f6c3e50694f6bbbcd12b713f9f181be1c8c2bb26aa987a56f3f3e0726",
+      "pngSha256": "e72c33374ad877102ec3929b04f1cf1e8ad0604bcebb3f83f1e81df55bab92a3",
+      "bounds": [
+        287,
+        276,
+        394,
+        566
+      ],
+      "batch": 2,
+      "sourceIndex": 60,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-E-05",
+      "jsonSha256": "e8d7a5ff687a260450161ae8555fd2d5bf2af5a8f44ce57b9b28389c36e76e80",
+      "svgSha256": "6e8c146bf59e016cc56319488912d6ad604133f7c6273f6c6b71180f16b2a5c8",
+      "pngSha256": "c78676c9ece52b7714cf4901a85dbc5994c71da0453f2de88e1377ec24a48568",
+      "bounds": [
+        275,
+        274,
+        381,
+        568
+      ],
+      "batch": 2,
+      "sourceIndex": 61,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-E-06",
+      "jsonSha256": "b30d1fcb791155f707b2fa01580752c1936c95a664a1594562cab0f439bfc257",
+      "svgSha256": "a9f66ed874ee9de6373493a34ed4964cc968df0abfcdc0259d0bdc022308a1ef",
+      "pngSha256": "4274c75ff8ff0bd69263267eb7ce541ed02b3f1d8847a8495fec52c9fcfe1466",
+      "bounds": [
+        287,
+        271,
+        368,
+        560
+      ],
+      "batch": 2,
+      "sourceIndex": 62,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-walk-E-07",
+      "jsonSha256": "a1bb1c882bb309d5833040d38d0b89bbfd610f94465d8f26c1eb3eec8f85e2d1",
+      "svgSha256": "d301058477c855eff551c6a7207d62917826b8a9b1c371709950f7c6a00f112c",
+      "pngSha256": "1feb2d958ca31113d3550510c9ede696f2f8e04b5da55bef774ceb6f2522c064",
+      "bounds": [
+        287,
+        274,
+        380,
+        560
+      ],
+      "batch": 2,
+      "sourceIndex": 63,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-E-00",
+      "jsonSha256": "b575085b234c89657d9625066c0a67d5362e6d653e6b357c6fb10de86e8d0131",
+      "svgSha256": "1154e03b423f991e6b71fb9db210e8d76361d90df62a3a39a1dca7a1a240c9b8",
+      "pngSha256": "2f8abdc9f74e5126a9e8c5962c60069522cdf1cb4f193b5cf84e403f5e0e1782",
+      "bounds": [
+        286,
+        288,
+        418,
+        566
+      ],
+      "batch": 2,
+      "sourceIndex": 64,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-E-01",
+      "jsonSha256": "1e51185ee50737df021bd613e362d4dae3fcd591c183de364f051e5373e0dc19",
+      "svgSha256": "6bcf384347121ef34fe92ad182c61b267fb4d9877e7c33ebcbfeea8e38d634d3",
+      "pngSha256": "8f647a73492a49a90bc0b030d50ddfda6e2fb26261e04549e2c4346178d64c03",
+      "bounds": [
+        290,
+        282,
+        416,
+        566
+      ],
+      "batch": 2,
+      "sourceIndex": 65,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-E-02",
+      "jsonSha256": "f82090b52d53a390336f1d9b875da97e79ce0e7b3f9c5a50740cc6218f3e4bee",
+      "svgSha256": "7415e0ce0587e1a5cebc506416cf9375556d86aee74c381c563eed2220b0f8f3",
+      "pngSha256": "f2b8c40136bf4a60396361d79602b2f4242261421b5b6f7af937644dc4b4d0e2",
+      "bounds": [
+        290,
+        276,
+        393,
+        566
+      ],
+      "batch": 2,
+      "sourceIndex": 66,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-E-03",
+      "jsonSha256": "33b339ae1b93c2c0dce733c92c3b2eda51760ccbda9e69cd75238b7625a7253b",
+      "svgSha256": "15c264546a8b3cf76f5e67e478a5f04812a5044ebe104ec07e67fd0a1a37ea92",
+      "pngSha256": "b6bf9aaf973b21f7af56cda65d373df5e86971f5f12f6356ed173356cd1c19b1",
+      "bounds": [
+        272,
+        282,
+        416,
+        569
+      ],
+      "batch": 2,
+      "sourceIndex": 67,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-E-04",
+      "jsonSha256": "36996c236cf00dff7fd5a3b8971b5bd90eb06acb2043ae8a566cc3cbfc52a837",
+      "svgSha256": "436569effdac0ce4a98559124bc5a707605edb27a6de2f4ccc9a18e8575239f1",
+      "pngSha256": "bb2632ade56ddce1fc91986f8365157c3c8449ffe6546fdd2a35c86e9ec1bceb",
+      "bounds": [
+        286,
+        288,
+        418,
+        560
+      ],
+      "batch": 2,
+      "sourceIndex": 68,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-E-05",
+      "jsonSha256": "25534cd9f30a2330d92fee08ddaf307832a858302d56d516a627b9c8484224b0",
+      "svgSha256": "1a033b9e87d70ac89c1646021c0e438259e5210090ca1c2a3fd21c6a79bee3e2",
+      "pngSha256": "2a411c34013607f6e2fdf460fd5e0c85c08f8adf9b798d0881695361829dc354",
+      "bounds": [
+        290,
+        282,
+        416,
+        560
+      ],
+      "batch": 2,
+      "sourceIndex": 69,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-E-06",
+      "jsonSha256": "9623d64df2e092d2c9899912d930f42118515707a29d8734e8b41184370f2e44",
+      "svgSha256": "2b22758995412a621a6dd5c6f77ed140866b80160f4fa75af4bebaf9e45ef9f3",
+      "pngSha256": "5499f590daa94d3d4b28cd2852b55bcb7aef415f94d1a696a52f6a6298e3b4dc",
+      "bounds": [
+        290,
+        276,
+        393,
+        560
+      ],
+      "batch": 2,
+      "sourceIndex": 70,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-run-E-07",
+      "jsonSha256": "169abf646d817fb6e195ef4eae25283723bbcdd63ca11cb6f0588e43e99d6756",
+      "svgSha256": "91d9f5b5265093bc701dccbdc5aac5db3168704daa3f56d30d8b054c1c53899d",
+      "pngSha256": "b332debe8a58626c1094f9b80ed1696638af237331c0c590809abc518b4be9f1",
+      "bounds": [
+        272,
+        282,
+        416,
+        562
+      ],
+      "batch": 2,
+      "sourceIndex": 71,
+      "provenance": "recovered-partial-sequence"
+    },
+    {
+      "id": "rpg-neutral-left",
+      "jsonSha256": "1a3bcbaa6597318a15f851b4956f0a9548a3ee54b7d528516c20dca2dd5d3c29",
+      "svgSha256": "6b9bc3b0ddf92cbe7e53c8b1ccd1439639ac5e61d32e9323147dc95ab4861488",
+      "pngSha256": "4fdd9dda55a916ec14a36bb5c7842dc88d218d8e6167431abfffae3bc3745d39",
+      "bounds": [
+        264,
+        266,
+        356,
+        560
+      ],
+      "batch": 4,
+      "sourceIndex": 48,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-contact-left",
+      "jsonSha256": "9b144915a583d1ef49188ed9517ef14dfe266beaf3a2b273f6e1845f561191c9",
+      "svgSha256": "77af562837e9b9744ad7a978cd4163df2d5219047229c5f7ac17afa9e77689d5",
+      "pngSha256": "c118ed05a9a34bb59e10d6b00cef15362482f90fa503b08ae1195c5eaeafcdea",
+      "bounds": [
+        247,
+        275,
+        363,
+        560
+      ],
+      "batch": 4,
+      "sourceIndex": 49,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-pass-left",
+      "jsonSha256": "f01414fc7aa6bad2c19708cf914f60cd7e6992f7415f80059d0d1f60f49f3f51",
+      "svgSha256": "9509575880bcae0201e24166e3619cc66823072dd1c6e26d591e9007708b7751",
+      "pngSha256": "1f5c3614bc42aa9b8d0c06ec907ba967d3f39542ff9cd22641333d0d50a5dec8",
+      "bounds": [
+        267,
+        268,
+        353,
+        560
+      ],
+      "batch": 4,
+      "sourceIndex": 50,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-push-left",
+      "jsonSha256": "6763499829018e0d1a55a63bd23fc2edafd18a6696c62d1a3b74ede635c15b6d",
+      "svgSha256": "f7cb2e1d89e0a54e0797d2478b10ec3f62327b7b2de25af1bc7ce9b08f6646a2",
+      "pngSha256": "bcf919ee53eefb98a0093b5ba4c44a9627dfe402ec738b27abee2d1ce3a67a5d",
+      "bounds": [
+        217,
+        278,
+        355,
+        560
+      ],
+      "batch": 4,
+      "sourceIndex": 51,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-flight-left",
+      "jsonSha256": "e9ad1308e82f5b0b64bdcd9efac23fa89cb3bf8ee9597d4b3577e97950da4517",
+      "svgSha256": "e61979ac7c96b9097ebc636016464d0c2c309d26ad820ff2dc55e690c6f30b40",
+      "pngSha256": "f48dc94cc5b44571101e79eace992802a502d6eeec3ac6951ed82a05f4a581b0",
+      "bounds": [
+        225,
+        244,
+        431,
+        509
+      ],
+      "batch": 4,
+      "sourceIndex": 52,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-jump-left",
+      "jsonSha256": "b1512801ac4c571dfa0e88d17f04316e10b2e8a43772bd98dd03bd8b57126087",
+      "svgSha256": "4cbd7597ab48d708cada3095592d4e9ea6e2862efeadb6b6ab56c280c10c13ed",
+      "pngSha256": "86b0ac7cd78b332a4d736876bc7b772133679c1237437398ead9c7f01058f15b",
+      "bounds": [
+        229,
+        234,
+        418,
+        517
+      ],
+      "batch": 4,
+      "sourceIndex": 53,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-crouch-left",
+      "jsonSha256": "98d56b94eb8a6e0575bc573290b9e44d50b6d02d94ba7352c7dd2080c5e7bbe4",
+      "svgSha256": "cb026819be468a22a6a75b05ce711ceb2f29c8f853c4a8daa28ea23df3792c86",
+      "pngSha256": "e2e92e21d235874a0be9f6c51ba7ad533698faa50825a61ff78eadfa36386e90",
+      "bounds": [
+        211,
+        331,
+        353,
+        560
+      ],
+      "batch": 4,
+      "sourceIndex": 54,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-reach-left",
+      "jsonSha256": "0e9464dc6b78133799c149e198490ae1f2bff6dadadb88fda65bc1ff4a5909de",
+      "svgSha256": "210775584ed5136a83990bce50dfc4b4145ffa300e53479536ca066812e7a489",
+      "pngSha256": "14ceeeb4ddfe2f54efdcbf438634201709406182ec28a19147d379b959b74f47",
+      "bounds": [
+        237,
+        266,
+        352,
+        560
+      ],
+      "batch": 4,
+      "sourceIndex": 55,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-W-00",
+      "jsonSha256": "1d01035d87783638f42fae8dbee69fcb9bc5e6764dff6a778c873470ea3aa4d4",
+      "svgSha256": "87c06a9aac107448eb5882c1f4f1be5ad54f64639071a9adbe7e0c15d362af66",
+      "pngSha256": "d2b2a5c8f393098aec1602b9101635e40211301fef5cfde33ac4a8a1efa89f15",
+      "bounds": [
+        246,
+        276,
+        353,
+        566
+      ],
+      "batch": 4,
+      "sourceIndex": 56,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-W-01",
+      "jsonSha256": "572f7d435c6004a5270b7793dc4cbf440e4cf2933c3d5b4d7180e5ba83fe9757",
+      "svgSha256": "6138bc1bd4467106c4070d908bb10b54dccaff781f7fd0f6dc0d795cc6020515",
+      "pngSha256": "8b9243547e4bfcff22dd6fd62deb535bd5ef34b0fb99a778589a73e0cca71ffd",
+      "bounds": [
+        259,
+        274,
+        365,
+        565
+      ],
+      "batch": 4,
+      "sourceIndex": 57,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-W-02",
+      "jsonSha256": "4489fb8153bfb7b61a13aa16db1279daaf11cc230a40ab1802b6103b55e5a169",
+      "svgSha256": "35e1902676753010c8ddeaa6e300709a4716b7db30e8e7af2c0129c9bae8734c",
+      "pngSha256": "b622959250947b75a6f6dfdf382a2dec3abae9c62690fa2379e505990df38dc0",
+      "bounds": [
+        272,
+        271,
+        353,
+        560
+      ],
+      "batch": 4,
+      "sourceIndex": 58,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-W-03",
+      "jsonSha256": "74f38b16b43b83651f9cd18865a2445578ffb6d6e8d6b86bf5742805e2c6ce3b",
+      "svgSha256": "8ef1af34eec9b0ba801fec811fcb4dff21d20be5148f0f13c67987b711e9d79e",
+      "pngSha256": "0345b83d25081fe729ec410c4fd31b90e836cdd531fafb64210bf3d54a7287c3",
+      "bounds": [
+        260,
+        274,
+        353,
+        560
+      ],
+      "batch": 4,
+      "sourceIndex": 59,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-W-04",
+      "jsonSha256": "3002208e9099e63ac46c591e1b71a17c85831f89322659d0d2d4026b82c358ac",
+      "svgSha256": "4f003a1124f0c71e1b789ea96501d6fe3609742d4da21f4799e7b30b84be3533",
+      "pngSha256": "c4d9d29f61adc59a7f486698f8ff8a5fb0fe0038e3ab8e7225f179dadaee0705",
+      "bounds": [
+        246,
+        276,
+        353,
+        566
+      ],
+      "batch": 4,
+      "sourceIndex": 60,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-W-05",
+      "jsonSha256": "056ad05a6b39887391c85d4a55355a082088e8b4d427cf0b0c31116c484ab728",
+      "svgSha256": "de3c57a21eb1b48f5ed2f18c4530d554c736fe4d2794fe09e0c42edc18c69f1b",
+      "pngSha256": "945251daabfd1e508e96ab5bce6b3ae0c1b1644a4404f668b6e1cad8e086589c",
+      "bounds": [
+        259,
+        274,
+        365,
+        566
+      ],
+      "batch": 4,
+      "sourceIndex": 61,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-W-06",
+      "jsonSha256": "8e6c18e0922c08cf71a6dbce6478fb6b879968dcd7faef2c7ba2d64e6e9e5011",
+      "svgSha256": "0b314b13e81784b6fa7a558dca91563412f2f7b3bfda4afb91422b300d419b93",
+      "pngSha256": "1474a7fb6816bf49797787d2d701f2ea2e9f85897ab21a6abba67106dd9f167d",
+      "bounds": [
+        272,
+        271,
+        353,
+        566
+      ],
+      "batch": 4,
+      "sourceIndex": 62,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-W-07",
+      "jsonSha256": "5da661c25b9d14d38ff714f4363d706c8334dd6f8b4a67ce7d8314e0404817b6",
+      "svgSha256": "6ba0665b6f99b68b9104584b18ba354024e4c4f167a76cee292acf6e41c768fb",
+      "pngSha256": "2f517967f3fbefbe709ed3d06456305d2087f10e7ef3c4f7c6bf4defdb2a5091",
+      "bounds": [
+        260,
+        274,
+        353,
+        566
+      ],
+      "batch": 4,
+      "sourceIndex": 63,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-W-00",
+      "jsonSha256": "02458b5feaeaffa684a48866c87d5bd485255eb6fe9b60278e41b3d097351004",
+      "svgSha256": "903c1ba64f4fa11137bf7c8d38d4f07c254017e52fde667fdc5e113c38b1fad3",
+      "pngSha256": "b586d0d5626471f354a49c668e3d1db43225f9ab468c17c29ec3d38c27e0dfe6",
+      "bounds": [
+        222,
+        288,
+        354,
+        560
+      ],
+      "batch": 4,
+      "sourceIndex": 64,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-W-01",
+      "jsonSha256": "9f39daffecbc3dbe1ff921241fab66ddd0dc63df8246b834695af23ecdeb804e",
+      "svgSha256": "98723ba993c0a5ed0eafbbe0935b9fbb0280ae4ce317dd02710b43ec4ca6904b",
+      "pngSha256": "8a0dccda1b2998d82997865b6e7b4094b151ebd3157d53ac383950ff60e5b18b",
+      "bounds": [
+        224,
+        282,
+        350,
+        560
+      ],
+      "batch": 4,
+      "sourceIndex": 65,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-W-02",
+      "jsonSha256": "2a1402b1aa674a5a206d8f145012a5570245cf1cba6c643a9d6818dd5fc81b70",
+      "svgSha256": "975608a2aa13a7b6c8e0307394739d5968f38c61b1ddd5b0b5b2f26eb5f404ac",
+      "pngSha256": "cc6a6a002f58d4d371da583d29ec877f90cd2d87f1c073ec134358591951c791",
+      "bounds": [
+        247,
+        276,
+        350,
+        560
+      ],
+      "batch": 4,
+      "sourceIndex": 66,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-W-03",
+      "jsonSha256": "57c04b5fd81d2e0a03fb8aa8b25dcf7e18c9dd49fde75cf43ff82862d68ebc2e",
+      "svgSha256": "1cc6d3dd1bfef591c46e230723bd5eed6215d4acad79eb107cb5046132c36e31",
+      "pngSha256": "814c0ffe244420dacbf1012eb9dac640bbef4374942814956730ceb22ebeb149",
+      "bounds": [
+        224,
+        282,
+        368,
+        559
+      ],
+      "batch": 4,
+      "sourceIndex": 67,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-W-04",
+      "jsonSha256": "4118358cefdbf57dc828bc574f3ccb80dc8f4978864abb83a0c1239959de4690",
+      "svgSha256": "80c627d72a6fd8a8e81e55f8c076d88659366616ce8c7d0a3de106f65f564879",
+      "pngSha256": "244e47a3c7f64a3405bf57bd667c50350e13c3c74023f1998e51387b9441d97a",
+      "bounds": [
+        222,
+        288,
+        354,
+        566
+      ],
+      "batch": 4,
+      "sourceIndex": 68,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-W-05",
+      "jsonSha256": "462c6c50581fda70d377e9f22ed819828c83a6cc578073a9cf7c7287bde48754",
+      "svgSha256": "6b0598a1a9be0b8b1016671e3045a2f9e32fc57b7e3d03f1eee4573808d294d3",
+      "pngSha256": "e4c0aa32c970d315756027c4453952794055b8c14a8a2c83a811ca4a162d3d1f",
+      "bounds": [
+        224,
+        282,
+        350,
+        566
+      ],
+      "batch": 4,
+      "sourceIndex": 69,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-W-06",
+      "jsonSha256": "04e7d067c4c8889e69e1bf7d8ce40617ea785883f1430a069a17472a0f578fc5",
+      "svgSha256": "be04e4af6b74b9eb409a39a1212a36a00ee6942c054c2d3925715f8f02e77319",
+      "pngSha256": "735d45de43ca8708abc79833c1b0330cac16c61db42d26a89fbf8c2b5a449d91",
+      "bounds": [
+        247,
+        276,
+        350,
+        566
+      ],
+      "batch": 4,
+      "sourceIndex": 70,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-W-07",
+      "jsonSha256": "88353e820efbe3ca06e3c581f88ba436faa96b3854aa0f612bd9cebb29e5925c",
+      "svgSha256": "6a183579ec84db60208a31f67791eec06a8bed2716e8656bac170fdb18edc64e",
+      "pngSha256": "ee7dcc5fbb8b2b90b9d55229c636f32e9b8bd2bf46377ed8367b9e34e0afe910",
+      "bounds": [
+        224,
+        282,
+        368,
+        566
+      ],
+      "batch": 4,
+      "sourceIndex": 71,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-neutral-SW",
+      "jsonSha256": "2817305404acaa84dae2a98ac845d90c608b818f15ba02d09bbe6712b281b3c4",
+      "svgSha256": "132abff92f6fd21b17cb3e76b798c460fc11da281de9e53c103b9a237ea3a45f",
+      "pngSha256": "452886d1911b85d3a3e07202813d13cec38b8b7bb3cdb890155850e0a51e1038",
+      "bounds": [
+        261,
+        267,
+        371,
+        568
+      ],
+      "batch": 4,
+      "sourceIndex": 72,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-contact-SW",
+      "jsonSha256": "719a581161cad42e10601f9324e3f415cd590457df7692590f621d0a33c1ea1b",
+      "svgSha256": "9e24b3d6990cb66453d4c62b76304f6dd4d2e338e5e57957c0f9776af1deafdd",
+      "pngSha256": "653223afcd559df6c6bc71def694f5b94b5cfb6c2385b97bfc9bd0ceaf6c3670",
+      "bounds": [
+        249,
+        277,
+        366,
+        570
+      ],
+      "batch": 4,
+      "sourceIndex": 73,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-pass-SW",
+      "jsonSha256": "47ef5c92063aaac14bf062becc5351e8bb0a609d8933a164632dbcc1761a9bce",
+      "svgSha256": "bf15d0ecccbfc4faa69eb942a24cee64a12311012b59cf3c8054b479c93a06b7",
+      "pngSha256": "4f78dd1e52d4b62cfe5e0436c6d9b73da9a5e2e4dee774ab2ff0117dc2c5777b",
+      "bounds": [
+        247,
+        270,
+        369,
+        566
+      ],
+      "batch": 4,
+      "sourceIndex": 74,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-push-SW",
+      "jsonSha256": "36b6086ac2322a49148025a8f68985b29f9c32e2c684985cf7454e2e0e3a3aba",
+      "svgSha256": "2d48a24fe9a1c1374e03a7116d123648d62a2bbd495a313150cf1fde92e8c02e",
+      "pngSha256": "f784637e981b486c7568ce369cd6df19827b66f9977c19f482fa58422f705310",
+      "bounds": [
+        211,
+        291,
+        368,
+        563
+      ],
+      "batch": 4,
+      "sourceIndex": 75,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-flight-SW",
+      "jsonSha256": "3e0e50671e4a67e2b3be8194ba44836ec169f04a3b5f7b69db4b3ac2d787ae07",
+      "svgSha256": "17785b8b84496aa405bda7b59717ea2dba22d8b5cdf33d509ada43edb09f47e2",
+      "pngSha256": "59b501b1a961e8b8ed6a3aa15d772d45bf04a53ad3135e560dfc8d4e6d705657",
+      "bounds": [
+        248,
+        266,
+        399,
+        522
+      ],
+      "batch": 4,
+      "sourceIndex": 76,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-jump-SW",
+      "jsonSha256": "1ee7fe08bb56df14e3594cb5a3fded9101db51fbe28fe4bf5b01b888fb22bbdf",
+      "svgSha256": "b45a848da902b3eea7c60c8226c7ee24e27694348c400fdec8354b49062f6d4b",
+      "pngSha256": "e9ac514570032d6226bc3389152991a70f10f5f9753d87f4df4987567be2307c",
+      "bounds": [
+        238,
+        257,
+        399,
+        533
+      ],
+      "batch": 4,
+      "sourceIndex": 77,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-crouch-SW",
+      "jsonSha256": "24a922359878d6a3fbca58ef8181f3ea726191f115981754ab18edff32701a7b",
+      "svgSha256": "4d35ca63c5471cb56b62c9fd66a521dca38f32dc926a9b0e6eeac8c05e32f8ad",
+      "pngSha256": "5c593d8f1c517ff9ec02a173a69048a865567d5890812c3d6008aed0c1c238ef",
+      "bounds": [
+        212,
+        343,
+        358,
+        569
+      ],
+      "batch": 4,
+      "sourceIndex": 78,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-reach-SW",
+      "jsonSha256": "8580947448732037afeb60724f8239b3b92ae2c03e2d780260569b5d341c4e1d",
+      "svgSha256": "cf42a26e7ce13c04ccb7a4c33e69f022f40e1a7be24648352daa639628b9f14c",
+      "pngSha256": "28d11bd695625353f7ad7ab7b0703054114fbb5a16c85b962114ef2f4607939e",
+      "bounds": [
+        225,
+        268,
+        365,
+        568
+      ],
+      "batch": 4,
+      "sourceIndex": 79,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-SW-00",
+      "jsonSha256": "c496d605abe6616a054f08606fd6f283a010a77d36b420ae01ed6fa96a80721e",
+      "svgSha256": "553c7915c67f0458bdd746a768d96f7a3aa3a5449a27b824efebd1ad55270cb5",
+      "pngSha256": "8c877d9648514547657d9dce2f115d3ffa43d14ae8d3751684d43085f4cfee08",
+      "bounds": [
+        249,
+        277,
+        359,
+        570
+      ],
+      "batch": 4,
+      "sourceIndex": 80,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-SW-01",
+      "jsonSha256": "7ac091bfa79080845f665d70697ba0b73d31dbf2b648f904c800dd6a9e3efa26",
+      "svgSha256": "756757fed0a32ddfdffe24111a15f17918baddc0fe8768b37d63e0e55f21fca4",
+      "pngSha256": "5176680739db62dac40e5b2df541a5cd3c3765f80197c51a760ac6c374016931",
+      "bounds": [
+        258,
+        275,
+        367,
+        568
+      ],
+      "batch": 4,
+      "sourceIndex": 81,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-SW-02",
+      "jsonSha256": "c2fe9f04583c5e75c11b56e99014fd809f7e19c57999b6441f14fef6b511b131",
+      "svgSha256": "bbd30b8df865bc3dbfe4316731c9caab427586dcec6a11696f13a5cdd14cb790",
+      "pngSha256": "71ace48afe0a07696c46bd51da7eb89fe5de868bc04c4cf5f772d693500f9f0d",
+      "bounds": [
+        268,
+        272,
+        365,
+        566
+      ],
+      "batch": 4,
+      "sourceIndex": 82,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-SW-03",
+      "jsonSha256": "93cb64ac8bacc253bc83ee798c2e15b7a4be398fe70e3b911d624f6cca873005",
+      "svgSha256": "d08c1e046ea847dcaf931b1c842302e37ec100ba6d300064193ee8c71f1fd4fa",
+      "pngSha256": "d86d64cd825dd67f64a5e152e75d6925678641af15db5df60d408d45edddb002",
+      "bounds": [
+        247,
+        275,
+        370,
+        565
+      ],
+      "batch": 4,
+      "sourceIndex": 83,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-SW-04",
+      "jsonSha256": "42097d533cc4bdcaa32b52e6ad606321012a7070e9c051b1186831c67bc7385c",
+      "svgSha256": "9cde3cf8ff517943f186ddb886b7256a736da260e4848f6a5004d3ce5fcc06f8",
+      "pngSha256": "6595250f1c6874b80308898bbeee539fabea37261f0decdf01d4b2dcfe73a2de",
+      "bounds": [
+        239,
+        277,
+        376,
+        574
+      ],
+      "batch": 4,
+      "sourceIndex": 84,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-SW-05",
+      "jsonSha256": "3b0291a60950964631992cd7118dde02db131aaa7b91f63a6aef111fbf311b6d",
+      "svgSha256": "faa630db4d292adff47c5ff91eadafdd8fbfa5095d4758ffc64e4bfc41bc8b6a",
+      "pngSha256": "01ef8514495f1121dcacf7c71bb587b9162e302df3157d8dc288417fc3f8d749",
+      "bounds": [
+        247,
+        275,
+        370,
+        572
+      ],
+      "batch": 4,
+      "sourceIndex": 85,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-SW-06",
+      "jsonSha256": "af979bf7a6c037524e5b9c9a66ec33288c01fdb7b6f00655355c324ff557a835",
+      "svgSha256": "157a273f780f95655afc6341866d38a98992bf42eb2809dde2886f07082f1ca2",
+      "pngSha256": "1fb7a5d21df3f091b63801a52e5f4810d30b7b5f718bf23fef2cb6d9757a04a1",
+      "bounds": [
+        268,
+        272,
+        365,
+        571
+      ],
+      "batch": 4,
+      "sourceIndex": 86,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-SW-07",
+      "jsonSha256": "e25a01d981b5c11a7b69f8aaf3bcfe8158e169376e7bf49d0db073be268674b3",
+      "svgSha256": "04659941d94736a2575987f20f87dfa8df85a02fda11961e9aebbaeb08b37743",
+      "pngSha256": "044bd6749964d613d532e6e051d18f21944d7856ea2fcbd8bf8ea070f38d9c74",
+      "bounds": [
+        264,
+        275,
+        360,
+        569
+      ],
+      "batch": 4,
+      "sourceIndex": 87,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-SW-00",
+      "jsonSha256": "36e83fab76f2b1366aa04eaa480eeaeed7b4b0a71034aec32aadae1fdb20b92e",
+      "svgSha256": "1be2048dfd499b14bb0309738925d58dc45727b7fa0738ec0cea112ddbd25d46",
+      "pngSha256": "2cfaa0a65415223db4458e00ddd27d071aa48aa2fa4817b752777c44bf991c49",
+      "bounds": [
+        247,
+        292,
+        359,
+        570
+      ],
+      "batch": 4,
+      "sourceIndex": 88,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-SW-01",
+      "jsonSha256": "8071ea0b6f95e7bceadb43c9e191c2d21029789b153cf2fc71f0b522dd50bed4",
+      "svgSha256": "d1ee9587f1f1825a9deb67bebbeef866c9f8de3d45b649de4dc82c048f588fbc",
+      "pngSha256": "3e4c13679a1818c654f5b3a5339c86e6ca40b46b3174b5d11e8561fcaf6c41d9",
+      "bounds": [
+        264,
+        286,
+        356,
+        567
+      ],
+      "batch": 4,
+      "sourceIndex": 89,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-SW-02",
+      "jsonSha256": "0c4aa3e4855a47f76a59318feb769deec3f8992c01fe315dfa6c6666fd2300c9",
+      "svgSha256": "e8f44a9aff17f483b4ad83cb4fd8d450bf46360d52f4bfefbf4ec443a65b3f0a",
+      "pngSha256": "cd4369efa573a96bfe0b1ca6ee58c2b246c043db74f1897521c67889221a4eb2",
+      "bounds": [
+        238,
+        280,
+        358,
+        564
+      ],
+      "batch": 4,
+      "sourceIndex": 90,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-SW-03",
+      "jsonSha256": "ced2b19e927c5cb177c0b296050ee6fcc0bfa0b7d706e001afe49c4d0d957215",
+      "svgSha256": "15555f768fbf0a18667b4be1d937408654f1b3c1b0b47103d833cdd5f187dc11",
+      "pngSha256": "e480db7427ed7d421756a5bfb3f09a24ffa208ea825d363dec61d0095a03ea28",
+      "bounds": [
+        222,
+        286,
+        369,
+        555
+      ],
+      "batch": 4,
+      "sourceIndex": 91,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-SW-04",
+      "jsonSha256": "49f9bdad6095381c9e5e372f506319c13de745683dc5b3a678d43eb4bc8b8fbf",
+      "svgSha256": "46ba477a19f1ce42cca2e90267ad50d31e26f5541815e60330e9877e4872cd3e",
+      "pngSha256": "e9b18f51307531bd3a3c7357d14ccce2b9f0d196d43db9edf0b4202db6c1bd11",
+      "bounds": [
+        220,
+        292,
+        375,
+        574
+      ],
+      "batch": 4,
+      "sourceIndex": 92,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-SW-05",
+      "jsonSha256": "e48c4109d044c191d69342215e0e0d7ca3da52443b48a980b5cfaf623cf8e93b",
+      "svgSha256": "0ac0330e19fec35962ed5cac8321396043dfc4cf2045ea2e21ab68e778bbb284",
+      "pngSha256": "b153ba0533b9efed52380ec788fc101271c072e0975e477367a51dd38dd3e073",
+      "bounds": [
+        222,
+        286,
+        369,
+        572
+      ],
+      "batch": 4,
+      "sourceIndex": 93,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-SW-06",
+      "jsonSha256": "d220e5741e3ded68ce921e0050eb286ccc68642b3f69d3a06d1e9e7e5c84411b",
+      "svgSha256": "79cfc5490fd377445520daba544a49efb5a69228b0d298729ff4d4a4ded634fa",
+      "pngSha256": "c7a4ccb5a29b60261b8cc811e69d942f642284dcb4e1cda5ea524e4a8e3baa4e",
+      "bounds": [
+        238,
+        280,
+        358,
+        569
+      ],
+      "batch": 4,
+      "sourceIndex": 94,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-SW-07",
+      "jsonSha256": "a770d9992718c688e80a9ccd5ebc9d31c91d9da42da1727b9473471c5bde0968",
+      "svgSha256": "d5a63e8afb7425acf99e09bd2a87dad67dd214b435e7d18fbeb1e1bb1c752b64",
+      "pngSha256": "27993fe1edf6b5974c1f0d9c85ab1521d43602b455db10dd430de08f8d71494b",
+      "bounds": [
+        257,
+        286,
+        369,
+        559
+      ],
+      "batch": 4,
+      "sourceIndex": 95,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-push-S",
+      "jsonSha256": "80deff6413c6dec2bd91440935b7faeef002b6ce6eab8b9805f8305892d52564",
+      "svgSha256": "279ac2516f6a7fbe2f2b5ef0dc5a5eba8de4202523391f1e1ecdb51687c5c92b",
+      "pngSha256": "f3d1381ae9d8f55e4059ebb8d286a44945301673f504a35963951ee08719e625",
+      "bounds": [
+        269,
+        215,
+        371,
+        561
+      ],
+      "batch": 5,
+      "sourceIndex": 0,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-flight-S",
+      "jsonSha256": "5a128ebc7e649b69965f33287947fdd323a36bc421378fc11a9df4793021b665",
+      "svgSha256": "c10853eb69bbc1d14aa88882b427c61aa40e25877a6b6391035141ba2884c61b",
+      "pngSha256": "dfd370ef635115a158f69e6045e65850c5457c40d1bbb4a639ac4ace4714f85d",
+      "bounds": [
+        269,
+        173,
+        371,
+        498
+      ],
+      "batch": 5,
+      "sourceIndex": 1,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-jump-S",
+      "jsonSha256": "6d5680b267663b3128fc8e49643822ba151dd5bc64a140ae3e64e13275f0c1b0",
+      "svgSha256": "e358df0ac3fbe57e01c6295581609d476fc9d4a5ea3d61c75eb2acb78c4cf2f1",
+      "pngSha256": "34e06068ee2642e3de8e2e742f81eee1d05c423424df35caff881733bef45390",
+      "bounds": [
+        269,
+        136,
+        371,
+        516
+      ],
+      "batch": 5,
+      "sourceIndex": 2,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-crouch-S",
+      "jsonSha256": "b3a785fc9f8b16c1ca91bcc55568f41fbd3a7598a5ba52b4989642f65b93c36d",
+      "svgSha256": "efe3b94171f9c907dc0a78a7d66fdb4e07dac3ed97f897841ff12c1ecc21cbf3",
+      "pngSha256": "b22af5329fd34fa5985eaf4f231de078cfcea89c4942aac6ea9533e6a897c2c1",
+      "bounds": [
+        269,
+        298,
+        371,
+        577
+      ],
+      "batch": 5,
+      "sourceIndex": 3,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-reach-S",
+      "jsonSha256": "e234480923d84270540333554f6554921c457031f4e28c06accf075945a30b70",
+      "svgSha256": "ead47ca7377517119b94463cff093c5bb5227e494eab15d3ead9e3472d0c6bec",
+      "pngSha256": "4cea49b31d74c5e27d06aa6b2c307f8a3fa875f997edbdca76c9c50d9085b757",
+      "bounds": [
+        269,
+        180,
+        371,
+        571
+      ],
+      "batch": 5,
+      "sourceIndex": 4,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-S-00",
+      "jsonSha256": "12ab67a1baa80e88d92bdbd66ec08ad522efe653c919d4c8943ad3fe6104e94e",
+      "svgSha256": "14367786b4ce8e207c73b5016c5409130783243f08cf0c607c05aab298eb5d44",
+      "pngSha256": "741709effc0a99d7fd5183f54a54c58c76eb292fcfa190fdf98ec0e5637442a8",
+      "bounds": [
+        269,
+        220,
+        371,
+        580
+      ],
+      "batch": 5,
+      "sourceIndex": 5,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-S-01",
+      "jsonSha256": "e2aafb6ba534eb70dc62efb35d7f350bbf282c1efd9fb42648cf0ccc6122aee6",
+      "svgSha256": "8e84ff6d233acd55a3d1eb9fb7576c70545fb91e31470615e73622aae51d7cb2",
+      "pngSha256": "a279113bbd32779d1b187d02d19c620a53ca87fe1eaff460ba717839e7bb3c09",
+      "bounds": [
+        269,
+        209,
+        371,
+        572
+      ],
+      "batch": 5,
+      "sourceIndex": 6,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-S-03",
+      "jsonSha256": "e2502e478b278a1301d8f624b6b238ca33cb98755fbbed4e93b6a462a3d6e4fb",
+      "svgSha256": "63e260da79c2b00890a2abae3aa108488f0f5323724b6a28392714a013da61d7",
+      "pngSha256": "73b4c1582a1b78e59cb26cf20ee969cfc3ea8c5d971d2990c8fba71b57ad55aa",
+      "bounds": [
+        269,
+        209,
+        371,
+        551
+      ],
+      "batch": 5,
+      "sourceIndex": 7,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-S-04",
+      "jsonSha256": "6c316af8184e7a97fa4305fc23ae5f3432c28ff863fc82b45479a5391b2acaf9",
+      "svgSha256": "02ca9786432e2fab5b6cd921e55fcb7f3e639c7c8c2a532d04a4f5cbf9d0ed33",
+      "pngSha256": "d8c1a8b044a0765140f79a23afd38302ef2e5203652ba13a71dcac4a5f4088c5",
+      "bounds": [
+        269,
+        220,
+        371,
+        580
+      ],
+      "batch": 5,
+      "sourceIndex": 8,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-S-05",
+      "jsonSha256": "52b5c66b4af3700a47339ff1ccc5d45b4e7ceadf9448c5baae505f5142f00382",
+      "svgSha256": "7037fc245ff1fed77eec15e616982e335399901b66c522dc844c5220d51bbc15",
+      "pngSha256": "9b63480b97413d2f5fa39157ce1a281b92e3b0a16d61c535da38861393582dd5",
+      "bounds": [
+        269,
+        209,
+        371,
+        572
+      ],
+      "batch": 5,
+      "sourceIndex": 9,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-S-07",
+      "jsonSha256": "826042493a1ff89056653d8fc9d4b2fd267c4b55c5ed6454cdde8f6c51ada872",
+      "svgSha256": "607e118e26df20086fd1ec874564a24a9f4c38ffad8d1927ac1c2016487f7872",
+      "pngSha256": "d60edb868c19279e1aef6d1aaa9fcaffaf567abfee6ae30afa0040f77c5fa3bc",
+      "bounds": [
+        269,
+        209,
+        371,
+        551
+      ],
+      "batch": 5,
+      "sourceIndex": 10,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-push-S",
+      "jsonSha256": "bb5c22f92bd2fe20650c3eb08ea079f2ae8d2de8a7061bedf0edd69a50b7f0cc",
+      "svgSha256": "3526c96caff1fc7cbce7daa727fa9912457f4a4d756986266e0bae22e481912a",
+      "pngSha256": "1c6ec5d7e8b2c354776c2311aefb613715f1f60ac10e22faacba6c0263af3b19",
+      "bounds": [
+        262,
+        293,
+        378,
+        565
+      ],
+      "batch": 5,
+      "sourceIndex": 21,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-flight-S",
+      "jsonSha256": "e2ffe0ee3186539827924251a137a883cc42d5651b8f6c2ba951c0da26bd7965",
+      "svgSha256": "20db99d9312b640a4b94b7aa9f5cfef5099a33bb8271c989cfd749572e94c7c0",
+      "pngSha256": "2f9134a180048c98e608f12a579e63ab7c370f0dfb1017608a3e61db7453d4c4",
+      "bounds": [
+        262,
+        268,
+        378,
+        527
+      ],
+      "batch": 5,
+      "sourceIndex": 22,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-jump-S",
+      "jsonSha256": "46006dc2ecd7f5fe13257b9ad12a863f9ded407e901948271f937d4fddcb1e17",
+      "svgSha256": "563abfc57a0fef5c69545d070c3a7cd5762c7d3d9c1948a4a159318725554149",
+      "pngSha256": "17e526010edfc857816cf9eefdb3901a074e2b79f871c78564d78b65eb8f5f8a",
+      "bounds": [
+        262,
+        257,
+        378,
+        537
+      ],
+      "batch": 5,
+      "sourceIndex": 23,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-crouch-S",
+      "jsonSha256": "37dde74aebd9df308e7b83c217bc4b5f47c86598d9257e3d0ff0e63e63cabff4",
+      "svgSha256": "f4692c34af9c9cd8a8bcceb816b8f303a47320aa72ad70cbc1c10d00edc26bef",
+      "pngSha256": "ca0f38d445e59e09308df395ef6d274db49515ee68b9abf1c0ad4496591536b9",
+      "bounds": [
+        262,
+        347,
+        378,
+        574
+      ],
+      "batch": 5,
+      "sourceIndex": 24,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-reach-S",
+      "jsonSha256": "ae96c9bf29918e193148e39546f5a37ab54064e55d0b9c4354286861055e8c54",
+      "svgSha256": "c4fc392bbe4623b620ed43398c3ca136876168bca62b8c3c66ce26bd9c0ea013",
+      "pngSha256": "d42ea4e860c06149623cbf5102c5b79f9c87a5ad0482fa777c464c6b82427532",
+      "bounds": [
+        262,
+        269,
+        378,
+        572
+      ],
+      "batch": 5,
+      "sourceIndex": 25,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-S-00",
+      "jsonSha256": "4e50666bf28c9041db5343898ac92278f7834e418cdda1b167fafc28abdfe122",
+      "svgSha256": "b657e534694206fd6dcbada6d1fdc0ac6b9a8588765bf1803d08cacfe563238b",
+      "pngSha256": "5aaed85a0adcabfcf713e41804acec516601c760dcf8b3634d4e41d11dd3de3d",
+      "bounds": [
+        262,
+        293,
+        378,
+        575
+      ],
+      "batch": 5,
+      "sourceIndex": 26,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-S-01",
+      "jsonSha256": "b7aa3d7cc0f6ed53b7ee735bc22ea034ed5c63018536467cfa8251477a0b2cf5",
+      "svgSha256": "5e24117c68596104a8c85bd07934cdf2baec0e6b02414c25c21f1785a1820cfe",
+      "pngSha256": "6cf022236a3f5985a2baf8deed7b4d0816677f0e1da6f4c42c738331d19371a6",
+      "bounds": [
+        262,
+        287,
+        378,
+        571
+      ],
+      "batch": 5,
+      "sourceIndex": 27,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-S-03",
+      "jsonSha256": "a8ca8485926144e51a09a15e518c8d2f1274ffad602a6038c7fe4fb8008dee2d",
+      "svgSha256": "e4c6dcb74dd394e9e42ba6591da8c666b326daf2f2d2908b19700c7c735c8d35",
+      "pngSha256": "d5e631c599116ac70b83804ed87f8ed6fec931864d837818ae6a8e47b0ddf93b",
+      "bounds": [
+        262,
+        287,
+        378,
+        556
+      ],
+      "batch": 5,
+      "sourceIndex": 28,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-S-04",
+      "jsonSha256": "d194e28443e5c9b7f824511cb67c1437bbddcdc289c9d604b5652830b9b7385f",
+      "svgSha256": "318e85953dca9384d691542739621e8cc0d71d31f6cc2a0225b7fd7a27e36215",
+      "pngSha256": "1969bc51dde22514c01c7956d90a18df0a8faa97be4e5e144ca6bd25a1151e31",
+      "bounds": [
+        262,
+        293,
+        378,
+        575
+      ],
+      "batch": 5,
+      "sourceIndex": 29,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-S-05",
+      "jsonSha256": "4f124fdc100cd73f9422aeca9fc9fc34f56247eb7f36b1eb94b5d2727766baca",
+      "svgSha256": "4e4a2ce0cea101b73e314645fa330b90b6bc789e2cc1a9229cffc9eb172e27af",
+      "pngSha256": "d7ce98c892bd2db58cdea30d8083a7ef0dd64b183370598dd0726267e96205e7",
+      "bounds": [
+        262,
+        287,
+        378,
+        571
+      ],
+      "batch": 5,
+      "sourceIndex": 30,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-S-07",
+      "jsonSha256": "a5d2a4c3f7b11bcd28ec59985bccf9a07d1397f55a147b684f3f306eeabd3da4",
+      "svgSha256": "d0b18bc3b109433b9b22ecef94583e332a5cbdc07e67d607bed2b938fbaf4e2c",
+      "pngSha256": "484f1b593f377b7a85aa9122284b240b016a9fe9d57f09819b31838c5cfcafba",
+      "bounds": [
+        262,
+        287,
+        378,
+        556
+      ],
+      "batch": 5,
+      "sourceIndex": 31,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-NE-00",
+      "jsonSha256": "a15645a9c5d70d26e81c9466afccc211f35f86d4ab5d06df68938070c4f38dd8",
+      "svgSha256": "5b5264e8e2300ea3b7db87c13ce73619d0c1a54aa0336afde63950e4db82e3c1",
+      "pngSha256": "c34fd11e36e2c38ee4407a4902fa2bf0bce1a048edf4149b0ea0674ad54d2ff5",
+      "bounds": [
+        268,
+        210,
+        408,
+        558
+      ],
+      "batch": 6,
+      "sourceIndex": 0,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-N-00",
+      "jsonSha256": "2b774f884615b760da6973d9b2339db003a0fac8b221f0e622c5d8c83de26570",
+      "svgSha256": "11c67dd3af7e00d0e7dc0fb4fbbbca19be4dbf61bc80f28d3dc5205351246b54",
+      "pngSha256": "8c0740874861b79c204764a3e17f449d9d4c25985a230e2b4ae01b9ab5f2c7ec",
+      "bounds": [
+        269,
+        208,
+        371,
+        552
+      ],
+      "batch": 6,
+      "sourceIndex": 1,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-NW-00",
+      "jsonSha256": "962bec4a1e26965f74f6dc594d8b18d41ce92e5b637523e6ad58fc0a83ea7cdc",
+      "svgSha256": "623a17d62d9651cb6aa4257ac21e5384d2dfb5663328648c6b33a2c4c12860b4",
+      "pngSha256": "84555614e46b721b3dc439e41d3bbfb4643822ee8a2c50b22ceca6d5c9d50fda",
+      "bounds": [
+        192,
+        210,
+        379,
+        554
+      ],
+      "batch": 6,
+      "sourceIndex": 2,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-NE-00",
+      "jsonSha256": "5c74087dba1aac66a1453c4f45b0c1b8bc75418ce28c618fdea97d191516bfd6",
+      "svgSha256": "a333d9e958a71687d049c200cee83826ddbc3fdae22d016e868cb1f6108898ba",
+      "pngSha256": "c11a375dd56e61ddbf0cfd8f05d7718aa2d0ac9015c7137d22a5c5eb6278c1fa",
+      "bounds": [
+        278,
+        285,
+        393,
+        562
+      ],
+      "batch": 6,
+      "sourceIndex": 3,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-N-00",
+      "jsonSha256": "52eb38f38429e82dd1c742ea11338f35a17a40b77b86b9a95be96882a6be9a54",
+      "svgSha256": "7253a5c3b626efb80e2946414b499a0358291611b8fc386053bd353d1d2960b7",
+      "pngSha256": "ec10355cb0551ce2ccfa66f7e03f4ed0afd846407f89a4f65a09e657de5042b7",
+      "bounds": [
+        262,
+        283,
+        378,
+        557
+      ],
+      "batch": 6,
+      "sourceIndex": 4,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-NW-00",
+      "jsonSha256": "c41112f3836758b16dc233e2c38846b409de58391a4782a7f85f60913114dc04",
+      "svgSha256": "b4395a79e531f29e4624edff566cdac868e28c2b996d4874f35cd2ce07cca087",
+      "pngSha256": "1f77de92a4594ae1bc68dae7fd66fe1b68e6c23ce9e2a7e2eb0851ef6c5bfbeb",
+      "bounds": [
+        219,
+        285,
+        375,
+        557
+      ],
+      "batch": 6,
+      "sourceIndex": 5,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-neutral-NE",
+      "jsonSha256": "e1b1567a992c0a8f587dd3790f89c423c1cb225a38e5849e7a54d62e52e5a301",
+      "svgSha256": "3994638f61ecc30b5b78a626f384f347a9e713ca4185fcc2d53d58360b6a1f37",
+      "pngSha256": "2bf3d7ebddb9281a865ce3b68a2816d9e56e95aad3dae03e795f705206e4b3cf",
+      "bounds": [
+        272,
+        177,
+        374,
+        564
+      ],
+      "batch": 7,
+      "sourceIndex": 0,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-contact-NE",
+      "jsonSha256": "2c08910657fa995e7e770fe1f973d4c3cb60e3736e28b5da47988267e39fc94e",
+      "svgSha256": "aaf464c4c4510800efaf0beaf7b20f459a68bcb6cf2659304f2d4d3b4264d263",
+      "pngSha256": "b7b0867536556d3e9e7874bbf85763e6d34b39164249aff4187b7bf08995ecc9",
+      "bounds": [
+        256,
+        192,
+        404,
+        569
+      ],
+      "batch": 7,
+      "sourceIndex": 1,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-pass-NE",
+      "jsonSha256": "bcc09d1a8bf13ee8ce5820dd2ec8c48854ef2c65a28dac9a436ef995388b3d23",
+      "svgSha256": "e4edb3a0d803674a7ca0c30cf05fae4e8a85a818252ebc0a69738b724bb9260e",
+      "pngSha256": "ca3e62f052540981503d3cd59cae25dfd12119342b63e26dfbf168e9044536cd",
+      "bounds": [
+        274,
+        181,
+        407,
+        566
+      ],
+      "batch": 7,
+      "sourceIndex": 2,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-push-NE",
+      "jsonSha256": "661d29a350f2abc371978d392d61580aad3cde714ccc14697cc8d20fbd621828",
+      "svgSha256": "093b87b9f1e4b0400ea39b361993e79577f8b57275e024cddbf273cf9e145528",
+      "pngSha256": "35302618ca252faacf2508a60a7c77f97024a56cf4e77ee41d3da7df179c22b9",
+      "bounds": [
+        271,
+        200,
+        461,
+        571
+      ],
+      "batch": 7,
+      "sourceIndex": 3,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-flight-NE",
+      "jsonSha256": "e044d2f0e916986be76b1a8200d25bd9255df65bb4db9112214599102e5d3b44",
+      "svgSha256": "a0b1326e7f60f584c31684e99e6b7ca300d9a063e763bee7d0004d86bb75bb71",
+      "pngSha256": "b96da1d885ed4c3c0b0888731a5f95da10b2ae6ab6f48e0fc6508bba200fdf07",
+      "bounds": [
+        196,
+        161,
+        405,
+        483
+      ],
+      "batch": 7,
+      "sourceIndex": 4,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-jump-NE",
+      "jsonSha256": "e5402fd528110f07cf4dace50e0b921e73208355b18a07e623de7823cea37fbc",
+      "svgSha256": "919645390ff8a34095bc1fb6c7988897760eb90d0ab5a5ad5dc8c6ab7b85cc67",
+      "pngSha256": "b68d995cade7305e6439aba22bcd800a5238d666f68864fcad2a279ca8dc9128",
+      "bounds": [
+        195,
+        109,
+        422,
+        506
+      ],
+      "batch": 7,
+      "sourceIndex": 5,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-crouch-NE",
+      "jsonSha256": "51bad0a723dfca8db0458290f09dec503b241e4469f3553322019ba9211cc4ce",
+      "svgSha256": "9b153859ccec351e417d78d8619c3a36ba72d4e49562f248be7d9e3f6b295a8a",
+      "pngSha256": "ab4b5d9791fe72b0f528ceaac0718a33a17cf0bc1014d4953319388453d4d9e1",
+      "bounds": [
+        287,
+        273,
+        459,
+        564
+      ],
+      "batch": 7,
+      "sourceIndex": 6,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-reach-NE",
+      "jsonSha256": "7b5e1b30595f9bceb20aeface6ee9926bfb2d17814f195c4404dabd07cdf3602",
+      "svgSha256": "8f2ba5f1cdfc102f1c81f26bcb292a7c440e92aa9558e05faf5479bcb12967dc",
+      "pngSha256": "29b6c5a1ad0670196a2319cea3ada841eaa6b8cc28155be307052c6651c5a156",
+      "bounds": [
+        281,
+        165,
+        442,
+        564
+      ],
+      "batch": 7,
+      "sourceIndex": 7,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-NE-00",
+      "jsonSha256": "9cab51905f841c8065e9fd4f9c6599e97449e779ce96145a75ddce9d1adf4ace",
+      "svgSha256": "ee5b8a9eeea2f98458608ea6ac3640241592acdf8a50e90e591cce81a2e7a356",
+      "pngSha256": "cd3def1ef369e204f43602f0d38454c9228953378b228b48fafa0b5a2c0f1c85",
+      "bounds": [
+        270,
+        193,
+        404,
+        567
+      ],
+      "batch": 7,
+      "sourceIndex": 8,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-NE-01",
+      "jsonSha256": "65b0c0b45a7297db4197b7ba86b0752edc913ee7dc1cc88ad7bcb8fad912504f",
+      "svgSha256": "f914ca1c24b14bb43f8bc3ddc2012e96f3a63349efb823a5e578114ec56dbcc5",
+      "pngSha256": "4283019c2297a9a1d3c3aefa8af5583f39d03e78eb18b799aa6d6d23c2aed22a",
+      "bounds": [
+        253,
+        188,
+        388,
+        571
+      ],
+      "batch": 7,
+      "sourceIndex": 9,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-NE-02",
+      "jsonSha256": "6c8df1fbed243e9c66795cb54960e658ce0464401ed242ec22c61e608d8b916e",
+      "svgSha256": "15b166958cf274d228e0654c83d0e9864674427d711cf1e606870a8b0089f9b6",
+      "pngSha256": "56838ae3a21f54eab0a0f75c7621df034d0c4648d881079f2ba77b3f39e57697",
+      "bounds": [
+        281,
+        183,
+        376,
+        564
+      ],
+      "batch": 7,
+      "sourceIndex": 10,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-NE-03",
+      "jsonSha256": "a09b09ac3805e8efd1ab944ef6108bf64fb13bac6142f568f7b7a82f55dc70ea",
+      "svgSha256": "70aa7064d76eb129642f5c390bbe1d6ba2260e8f370bfdf250bf30a0426c338f",
+      "pngSha256": "48750bfed46cd6b5ba937fdf9ce58586353e41c3127be82c2042c25ee986e3bc",
+      "bounds": [
+        271,
+        188,
+        407,
+        567
+      ],
+      "batch": 7,
+      "sourceIndex": 11,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-NE-04",
+      "jsonSha256": "c6756342e6cd1958fa56cdf0ce31f6ff831daa8422685a2e6b512086ce7d9aaf",
+      "svgSha256": "e5cd72825e3a930f7c39f656ccd45577ba06f096d0262f1def6cc63f067c0fea",
+      "pngSha256": "1a94993902e30dae94e1c2802fbdc28386d03abcba361ef6fb7f59844c7a5ba3",
+      "bounds": [
+        263,
+        193,
+        419,
+        570
+      ],
+      "batch": 7,
+      "sourceIndex": 12,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-NE-05",
+      "jsonSha256": "3160387149ad153822e288a63f4532891e1fddc497688eff9595215488eab47b",
+      "svgSha256": "88e40f7096285d6beb71b8b8dd1729c028f4198a0eba5955140676b9052bb26f",
+      "pngSha256": "530ca5680eb06474d55bd6be34dab9b7acbf9d0e6da9b26e475119a79c864ad5",
+      "bounds": [
+        271,
+        188,
+        407,
+        575
+      ],
+      "batch": 7,
+      "sourceIndex": 13,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-NE-06",
+      "jsonSha256": "922e1e74c88c4cd27e6853567b4be88b893cea2b482f1b358e79f789e52b081b",
+      "svgSha256": "4af193f8f454265424c0a662982017ebdf9660a18bbb91f50bbd50fe07b5f81d",
+      "pngSha256": "830b1ced4bd5232c26e0c8534e278a131e7084effbdf3458a27ce229ca780f68",
+      "bounds": [
+        282,
+        183,
+        380,
+        561
+      ],
+      "batch": 7,
+      "sourceIndex": 14,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-NE-07",
+      "jsonSha256": "f467c42c7bb4f3ef4c91eb18316fc7926e29ac010fccdef5ea7730fb078bb1b4",
+      "svgSha256": "39c2aa6d46fb85ba6583b766340d36ee0b6519e9d80243ab1f6f1e589e45becd",
+      "pngSha256": "20cebe62ef90cf693f2a188d5643a59d51c901a3320f0024348c079ed6d84b20",
+      "bounds": [
+        286,
+        188,
+        396,
+        564
+      ],
+      "batch": 7,
+      "sourceIndex": 15,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-NE-01",
+      "jsonSha256": "1cc0b22ecbf99e89a9de869f37b947cdb696c06c155622d4e4a8aefb72dc39fe",
+      "svgSha256": "7346f37ce74e29962f4d11364234a3ace64f9d77572a0bf77c238f9be6507223",
+      "pngSha256": "28a979f5e37ac88708aec1b8c211a463a4c479e0265b502b0f8c2776deaddd25",
+      "bounds": [
+        286,
+        199,
+        393,
+        563
+      ],
+      "batch": 7,
+      "sourceIndex": 16,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-NE-02",
+      "jsonSha256": "cb55f0f50c2233f51b85a827f0dda922598a3eaa2466ed035c3cfe7a903cdb28",
+      "svgSha256": "dbb1b9d78a28e9098beb8fe0afb74fc0f04ad8e263e1e13ae5e3399bec52545c",
+      "pngSha256": "e5b29bdd0a6940d633b4660f4769e34a50a80519b6d07c1cf126509a7b387f3d",
+      "bounds": [
+        289,
+        188,
+        419,
+        569
+      ],
+      "batch": 7,
+      "sourceIndex": 17,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-NE-03",
+      "jsonSha256": "11d1723d47de11ef0b8839dbfcf222ff2d1130c823fd82da6f10e2a312ed4d7d",
+      "svgSha256": "634676ca25f886fb933dcab8f855cdd62baca46dabebd8d13be02d7305f4bba1",
+      "pngSha256": "9bba1e9e7b0248a1f3e352feed9fee58e47eada101bfe2ac958f2bd98e2916a9",
+      "bounds": [
+        270,
+        199,
+        445,
+        576
+      ],
+      "batch": 7,
+      "sourceIndex": 18,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-NE-04",
+      "jsonSha256": "a6769f72de6e9cf7df1064c1297bb5431896e0fb865013be2c1cbc9df44fac52",
+      "svgSha256": "4773e5fed68ed851f83ebd1435ba03dd8142e929238f9f8f177d88a091c6eda1",
+      "pngSha256": "35eadfb247cd6bc8cb3577d2589bb6b89de1e8fbf5874a3cb1638294959a709f",
+      "bounds": [
+        261,
+        210,
+        448,
+        554
+      ],
+      "batch": 7,
+      "sourceIndex": 19,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-NE-05",
+      "jsonSha256": "e7c93f965622238232bc2a90f319ca016aa89b797e49b5040a078ee5806d22b4",
+      "svgSha256": "ddae91c7db9931f509f29542620e5383b4d28702d7425d73a1861d5a35086883",
+      "pngSha256": "226e06e636af28b730d59a1272506eaf5bcffb6f3e65ff587b08f3b8ed3abd94",
+      "bounds": [
+        270,
+        199,
+        445,
+        560
+      ],
+      "batch": 7,
+      "sourceIndex": 20,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-NE-06",
+      "jsonSha256": "7e1567920c045c99c5ed721e40ca804993fdc2997d57e82b2fe2005d11b3ac7d",
+      "svgSha256": "9c5cba14cc8ced5e602149a35656d9035715f55733ef542c46a30f1520e74c01",
+      "pngSha256": "11cbc78f4b8fba5d44dcf178543e425a9d52d6fbd4dc67f8619f0eaec40d44f2",
+      "bounds": [
+        280,
+        188,
+        419,
+        565
+      ],
+      "batch": 7,
+      "sourceIndex": 21,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-NE-07",
+      "jsonSha256": "bbae5c3c1c9354fcfaf7c4e473231af047888e8dd6781ebcd466bd78fb2e5eab",
+      "svgSha256": "cab89f946972fcbbb258e03efe5ccc1132f47e456c7f981b627db4e0286c1682",
+      "pngSha256": "51cb08ef3183f01fdd36365d6115b16c740d13b1fcb95699d41ff4b421b8da56",
+      "bounds": [
+        250,
+        199,
+        407,
+        573
+      ],
+      "batch": 7,
+      "sourceIndex": 22,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-neutral-N",
+      "jsonSha256": "30529089da45fbc62b67c4c86ad9c4caf8ab0e2a9d823affe6bc7ab8866b9974",
+      "svgSha256": "70c2a49d0176cbba4beea58463ee2e2128abe59faed760b4b6dc159166616826",
+      "pngSha256": "787959453abcaa29551aa7b83d333336798a08ccfa25a17538141364ab197f8b",
+      "bounds": [
+        269,
+        177,
+        371,
+        566
+      ],
+      "batch": 7,
+      "sourceIndex": 23,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-contact-N",
+      "jsonSha256": "e10967aacc9123c4b88971b96497bb212ddfaf4f1c9ab0c874b8c7109276932d",
+      "svgSha256": "20c31d10c60f3f7dcda53adf37dbe369a848c0d9d62cc61df0d4f4af002ff49c",
+      "pngSha256": "55fad4b3ad02a7d424f6d8d711d3c78649c83b8f4f336d70fd3a147b3e318843",
+      "bounds": [
+        269,
+        192,
+        371,
+        574
+      ],
+      "batch": 7,
+      "sourceIndex": 24,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-pass-N",
+      "jsonSha256": "9d883d372ed44fae3dc048b69f9593e839d7f99baa619273e764f90162b36578",
+      "svgSha256": "0b7a2ea995b7930df7703ca38abe322b3e7d462f1d95c7a256c9703e5d9c02be",
+      "pngSha256": "c8c649fbec2693112c98c9de76bc6a3b79783a56b3fb7ffb6d91911e7c4ae6a9",
+      "bounds": [
+        269,
+        180,
+        371,
+        564
+      ],
+      "batch": 7,
+      "sourceIndex": 25,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-push-N",
+      "jsonSha256": "6ee78de832be5fee6dcbbcbb26901fbbdb279f81a95cf2cfaf31e53b16b0ca04",
+      "svgSha256": "b2f14c9f3255242e3ba54ae2926303eeace61d23426551f0f0e54a58effd9022",
+      "pngSha256": "61c8c1515b09aa2f0cde09014b198efc8d1b34dbbd00a3a6fc6820ea23049ff8",
+      "bounds": [
+        269,
+        197,
+        371,
+        571
+      ],
+      "batch": 7,
+      "sourceIndex": 26,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-flight-N",
+      "jsonSha256": "d31df7845ac4e75891d955e7d380bd4e9dde195d2b617266fc000d5107e8ad7b",
+      "svgSha256": "4d2812f53e69db961b89c748b5783621aa75d4497fdcba05d202c350d4de783f",
+      "pngSha256": "e9d352006c800e4e331ee47d081a8e6093b74ca7a0a978cd240fa11a9c54a438",
+      "bounds": [
+        269,
+        159,
+        371,
+        477
+      ],
+      "batch": 7,
+      "sourceIndex": 27,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-jump-N",
+      "jsonSha256": "2bea3fe5e9d9a61c69cca1b9ae3466d4c0a9676ca714ff4e95726ce74e9fa37d",
+      "svgSha256": "7f68f803a91b8398a412533b3c0d45820f0db02fba35daea910add87634e2b64",
+      "pngSha256": "849f7fc9b1a9519fdc0b63c002d1e90dcd5662b9c6a38153c42ea3e11b50fefe",
+      "bounds": [
+        269,
+        100,
+        371,
+        502
+      ],
+      "batch": 7,
+      "sourceIndex": 28,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-crouch-N",
+      "jsonSha256": "e8d43ae9305181c1bdac2272deb36c518265089e7f7f4e49b08c3e419cc42828",
+      "svgSha256": "53e626fd72a9598aefca97152f6eb2a46e3f4f3c8e5c2f0ca38ed1b112532106",
+      "pngSha256": "7d28983a3511d3dbbfcd4ebe7cc248b26d1568e6c7569a9966e61e2f6cebaf09",
+      "bounds": [
+        269,
+        268,
+        371,
+        565
+      ],
+      "batch": 7,
+      "sourceIndex": 29,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-reach-N",
+      "jsonSha256": "0ffbf432c1dfbf826fc7771276495ee192a2504251b9bfaa5c140e61703f51b3",
+      "svgSha256": "6b69fc1b30152b7b91506993bcd2ded9ab60e2bf92ee4dc8005b9a4458b60bfd",
+      "pngSha256": "c9ec516d217218fb07e25918bbf799bcb9532bfb844a44fd1fdfab1728172535",
+      "bounds": [
+        269,
+        156,
+        371,
+        566
+      ],
+      "batch": 7,
+      "sourceIndex": 30,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-N-00",
+      "jsonSha256": "27c20ac1b6a590dc25a693d19f19e0af56bf303d2445a9b62b8b82da7f14768b",
+      "svgSha256": "98f6e2b6ab378c3c5f7bcb52ea9ddfe23d0f5adcbf7fb1982cc8c7bae4f1ec21",
+      "pngSha256": "2966f79d84018cf70bb1e63fc9a0238116ac5c90434940a4c23b604a9031e453",
+      "bounds": [
+        269,
+        193,
+        371,
+        570
+      ],
+      "batch": 7,
+      "sourceIndex": 31,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-N-01",
+      "jsonSha256": "de92da9356c6a12b1cfaf8b5c1807dda123f98054b31de61002f9d1c601180ca",
+      "svgSha256": "3e89f36f727baacb54bceaa1b29f67cb7591164676849dc9aad109cdec6a888c",
+      "pngSha256": "aa57eb991d353c7337e191a7f69f94d29875cd26a176934c398822d0aab85e28",
+      "bounds": [
+        269,
+        188,
+        371,
+        576
+      ],
+      "batch": 7,
+      "sourceIndex": 32,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-N-02",
+      "jsonSha256": "b4f94e58a0aa620235a5dcf90c3c4df4a39fc14311506791dfc1fb724d616a5e",
+      "svgSha256": "2a8fd95edb2991ea4088c5a6a8a9f00a48229ac4e7774f1619111c1929ff8357",
+      "pngSha256": "21b8592eb8428927b6bafa3e5baf25fb841173e99e496567c5f29c71a8bcf748",
+      "bounds": [
+        269,
+        183,
+        371,
+        562
+      ],
+      "batch": 7,
+      "sourceIndex": 33,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-N-03",
+      "jsonSha256": "325aaff2c98dc15343522178d3b462c5f24bcbec054561e830796b21f22767d3",
+      "svgSha256": "f0554b439238124775412c38104f6df8533f319089d39ec3fbdd294904ae276e",
+      "pngSha256": "eb5f0f9f0a5cf21aaa6deab98aa8de0bdec8d8d85a8043e94d2987537efe054c",
+      "bounds": [
+        269,
+        188,
+        371,
+        566
+      ],
+      "batch": 7,
+      "sourceIndex": 34,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-N-04",
+      "jsonSha256": "b577875b75a48ad11a25992feaaa8f5afb3b9a979e907bfee0981060e93c8ee6",
+      "svgSha256": "7ac5e06d2faab6100fd70cad86666c7cef06bdd368decb31e3ee389655f4171e",
+      "pngSha256": "14590069cadf3094a353bfe4fa0098a0ec6c817b8d566de7a0c36d4d8378b320",
+      "bounds": [
+        269,
+        193,
+        371,
+        570
+      ],
+      "batch": 7,
+      "sourceIndex": 35,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-N-05",
+      "jsonSha256": "a73b4bfcc45d4bdb9807ac10f4f882d898149743baa8039e5f1adfbdcc8d29b2",
+      "svgSha256": "6944ea7c14c6268b6c5a2d14c2082310d20ba34aa6e981a55ce75c845568f2f6",
+      "pngSha256": "39891dfb36f4d8382dfac36bb553175f563339805cb8bcce4aa5c3d9aedc326c",
+      "bounds": [
+        269,
+        188,
+        371,
+        576
+      ],
+      "batch": 7,
+      "sourceIndex": 36,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-N-06",
+      "jsonSha256": "2af024d2baf53ade41064e66534029b97d79445793b309433dadf0027825bea3",
+      "svgSha256": "2f36ce2280c41ac390641d0fcc239b44105a8bdfbedecccd3a26e323ca6f1528",
+      "pngSha256": "a39f06742e8944825dba8b4d63f4d30f8db61c65b53b8fe92c91092c836cb438",
+      "bounds": [
+        269,
+        183,
+        371,
+        562
+      ],
+      "batch": 7,
+      "sourceIndex": 37,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-N-07",
+      "jsonSha256": "62f0b2463f40e697841026dce906a0b6d519a616e250bc418a5707563131101d",
+      "svgSha256": "d6bd473deb417972b31f860d872380c52a58567e199ed33f3141e0f7f7fdf168",
+      "pngSha256": "96338c7a3de5d4c0305859abaed41b5d5442c0d3525d75742a2cfba5d3742034",
+      "bounds": [
+        269,
+        188,
+        371,
+        566
+      ],
+      "batch": 7,
+      "sourceIndex": 38,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-N-01",
+      "jsonSha256": "89afc49734d39f694bda18aeb83fd0a57bec299ae023b0c2142b662db849c6fd",
+      "svgSha256": "59546d0c58b0cdbfb57abf236a557e345130642ed9b03e71df6cd34dddad9f07",
+      "pngSha256": "dcbd7df9bc9b316c2c52868489895ef49207e97495c34d86c4b5142f5acbb44a",
+      "bounds": [
+        269,
+        197,
+        371,
+        560
+      ],
+      "batch": 7,
+      "sourceIndex": 39,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-N-02",
+      "jsonSha256": "cc06bfe20bda3ddade081b7c0ee73eb6964c93d486a05e809d67c0ab0db0c3ed",
+      "svgSha256": "72b5f0e1036f3103a1e739765027fd5337f05794ffffbb0abd93d28e4b217ba7",
+      "pngSha256": "7d85f70b4046a40e357dad82f88a329379c93eab03e73061fdd86168063829c1",
+      "bounds": [
+        269,
+        186,
+        371,
+        567
+      ],
+      "batch": 7,
+      "sourceIndex": 40,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-N-03",
+      "jsonSha256": "e4b07b5c7f832cd617edb4a3f9a1788ed7443b5d22d8e9bb4c1387fad704c256",
+      "svgSha256": "1a9d38c9c8593bfce42a70ee2dde9456cee2cb6a7721b7c07ac4a0fcf7d890b3",
+      "pngSha256": "c5eb787bd5ceb712de66e7b9a13bb1ec9317b7c03635cc1b528c10b7eac600af",
+      "bounds": [
+        269,
+        197,
+        371,
+        577
+      ],
+      "batch": 7,
+      "sourceIndex": 41,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-N-04",
+      "jsonSha256": "b049361e0a49f10025a2e00bd83f75ead7d6e4e786833ab1f787e8cb0e6b02e8",
+      "svgSha256": "9c083799f73c8180887588b59d1932b952b6daee4fcafb2dcf10319198a8830a",
+      "pngSha256": "9653d21f2cc186d9273320b28600a16675ec52bda7609c4cc6fc0b674113fcd1",
+      "bounds": [
+        269,
+        208,
+        371,
+        552
+      ],
+      "batch": 7,
+      "sourceIndex": 42,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-N-05",
+      "jsonSha256": "1c3a5725968ad92cbf970feefe8026cd62482b4154e6645761584128ac76744a",
+      "svgSha256": "3e14b1d169f20b97f59685967ab1ebcd6d89f2504655ee0040b937d73345edb7",
+      "pngSha256": "da4c41c91470f0408782e780fb45005ad4de715606e177f407bc470b66462c68",
+      "bounds": [
+        269,
+        197,
+        371,
+        560
+      ],
+      "batch": 7,
+      "sourceIndex": 43,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-N-06",
+      "jsonSha256": "6ab8ea9d032edeb5f6bafcf769f194f8002c91b303bb7f83127a7845807a5740",
+      "svgSha256": "dbcc8f6e094964ea56388ab6c99d8e3dc7fc397c4390be033e9755e88b11b3ff",
+      "pngSha256": "7605d63c65352c48f4ce781efb9eec2cc7be1ec475b6fe474b1faf4cac0130ad",
+      "bounds": [
+        269,
+        186,
+        371,
+        567
+      ],
+      "batch": 7,
+      "sourceIndex": 44,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-N-07",
+      "jsonSha256": "f47cdc372f0d840238985c49fe8254bdedc3010b76afddefcd1d7ef4d2438135",
+      "svgSha256": "3b56754e7c3025c8d857f7af6f7ac2d119d550e2934cb1094ea802cbc7149a38",
+      "pngSha256": "7959d0dce834be3ebaf835389143df94fa28798b01b664a695fc6a0b2e30ba33",
+      "bounds": [
+        269,
+        197,
+        371,
+        577
+      ],
+      "batch": 7,
+      "sourceIndex": 45,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-neutral-NW",
+      "jsonSha256": "ff32d1cc442c8aaca8fbd3ec6311fc4f38bf2dbbf1c19f368a87161c817cd026",
+      "svgSha256": "864355579f280b599fff0acfa573aad67c813e276e59f7f8c439ddeb6ba0325e",
+      "pngSha256": "0d71538093326b5808a0dbaf0c8ed9a3bd1041a698f939e848c856212bfdccf8",
+      "bounds": [
+        285,
+        177,
+        361,
+        568
+      ],
+      "batch": 7,
+      "sourceIndex": 46,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-contact-NW",
+      "jsonSha256": "d7335a043eed67fda1f3a6c867e2b5f215b5dd30389867f6c8e8beb93eafdc5c",
+      "svgSha256": "610aeb266d0535a663cfc217d3515bae532828d525437b7e144d58a2a1d25cb0",
+      "pngSha256": "4ad469a157b33104c0c757a44d7ef63b629c36126bc6b582e284a4b6f2fd8ac9",
+      "bounds": [
+        218,
+        192,
+        374,
+        573
+      ],
+      "batch": 7,
+      "sourceIndex": 47,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-pass-NW",
+      "jsonSha256": "4580647b896facdb4571c8cab462b5022f0e37f4d2b83a54db1be67dc7c76fbb",
+      "svgSha256": "e514417cccf35a9f3bffeee79e140e82c687ae169d85abb16617e59c6aa2bb42",
+      "pngSha256": "9448e35f4cf6f2596df910ae98061f6816dc9541c4a2526e182d26544a13c1c9",
+      "bounds": [
+        248,
+        181,
+        355,
+        562
+      ],
+      "batch": 7,
+      "sourceIndex": 48,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-push-NW",
+      "jsonSha256": "ee77acf2d1d4c42da189d2cc13c9f3509750b10377c210069a9cbb10c368a574",
+      "svgSha256": "ab6cc855c06455826517ab5006e2a5c3abbdb2c4b16208c6cae3323ddb24228c",
+      "pngSha256": "653877d1642b1628e7654855f770417568f2077213d67b5e4c1199cecda3385f",
+      "bounds": [
+        231,
+        200,
+        374,
+        567
+      ],
+      "batch": 7,
+      "sourceIndex": 49,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-flight-NW",
+      "jsonSha256": "8177915ea4d7a46e1bc6c8903e8b62048a7f9adaad2f170a0007e5178f42dcc4",
+      "svgSha256": "964fa0c0755749feb9f1835eaacc37391136bd5734b88f84ee6f31ce6ccb6179",
+      "pngSha256": "f87e536ec460fa1d036a4b97b635895b33fda0c1057a54aee35990899ad8440b",
+      "bounds": [
+        186,
+        161,
+        423,
+        479
+      ],
+      "batch": 7,
+      "sourceIndex": 50,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-jump-NW",
+      "jsonSha256": "9d5db0f841e9b119e8ed430c87179749928116eda6d60fb3a71765c1a6482a7c",
+      "svgSha256": "5b69f57cc0f356292364db61764f16982fb32ec4f0b652d9e53770b3164102ac",
+      "pngSha256": "fb3cbcd87a376b97ab8ae2e956d7a17852423d1a4828fd7bd66f2704d7bbdffc",
+      "bounds": [
+        190,
+        100,
+        424,
+        503
+      ],
+      "batch": 7,
+      "sourceIndex": 51,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-crouch-NW",
+      "jsonSha256": "ce565c7552bd26fb3c8c5b85e4a8c4972ad72e2a0cf99d8cbe391af54499880a",
+      "svgSha256": "7f291cc4a8e8551bceebac754739b115ef3277e377576582585644b18b8dda1c",
+      "pngSha256": "7f7be0b529290d5cbef0cdc442d1672e0f896c67aafab1bba881a7d18feb97d9",
+      "bounds": [
+        218,
+        273,
+        353,
+        567
+      ],
+      "batch": 7,
+      "sourceIndex": 52,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-reach-NW",
+      "jsonSha256": "cd7cb17ce74a76dfb75e62afdbc2c7db0ffc259df30890bc128fef013e8f6a75",
+      "svgSha256": "ea8239380481d06c31afff9498a29be370bf81b95d8ff4ac92d0aabd32daecc1",
+      "pngSha256": "1877aaaecf7b287d76ca617e5ceb6622e585987cc0a2afe339beb32a2e6e04e5",
+      "bounds": [
+        250,
+        156,
+        352,
+        568
+      ],
+      "batch": 7,
+      "sourceIndex": 53,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-NW-00",
+      "jsonSha256": "b025ad066a6a9f4a6aad55665ddd35f047ba2479ec9618c77431edda986e1b4e",
+      "svgSha256": "2a5e12622ab92709fc05143a550aeed86479f61440de37155cca82da603225ef",
+      "pngSha256": "0c39a081c1a848cabb5fdea2d63d156bc5b697b1d89fa6d0b427902551caee7c",
+      "bounds": [
+        221,
+        193,
+        377,
+        570
+      ],
+      "batch": 7,
+      "sourceIndex": 54,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-NW-01",
+      "jsonSha256": "acdf49efb94279af661993b7ef22f7217151df4acdace504fc389332a6df9226",
+      "svgSha256": "d73acb6cbc8d682d39082a032aaa6fb85180f2524bb71fd3f8f127a11331830d",
+      "pngSha256": "792fa4ae255070ba83cc8b3bb0493d2b57f8a756458a657b97a2370ba45a31fc",
+      "bounds": [
+        233,
+        188,
+        369,
+        575
+      ],
+      "batch": 7,
+      "sourceIndex": 55,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-NW-02",
+      "jsonSha256": "de673c47fe1d738541160ba9087ff3727a160317311b9e22ebcbef9041d70b63",
+      "svgSha256": "628ef819c0e5ef796d3d0b43fa4291e7828b44c7b1a94727b124362a7f905f51",
+      "pngSha256": "26eb31aa1fe2875ee2b08fd8a430a628df6df161f3b5679f055536bdcd6d0d16",
+      "bounds": [
+        260,
+        183,
+        358,
+        561
+      ],
+      "batch": 7,
+      "sourceIndex": 56,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-NW-03",
+      "jsonSha256": "99fac4d803aa252c2613360ca4da153bbc8df9570cf4c83abc9823d2211f18e3",
+      "svgSha256": "63854a5eb8a0c2dd9fa3780143a491a5d3b2d91e19b0205798c55f485a53db51",
+      "pngSha256": "2434e169adde321b619c54d2dfb79407d17f2de4db0e5303c73cf12b1f138843",
+      "bounds": [
+        244,
+        188,
+        354,
+        564
+      ],
+      "batch": 7,
+      "sourceIndex": 57,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-NW-04",
+      "jsonSha256": "f779e9f3030150c793b07ee391111bbac0d332118292e5b2ae18dbbbc2d76061",
+      "svgSha256": "427d63d2ce511487cfb7526d407a57f74c788dc43071e40176a58ef4a090cf2b",
+      "pngSha256": "20ca21d9a6e9cb3bcab32c3440afc38c2c3276cf86e13f057080d915ff6585b6",
+      "bounds": [
+        236,
+        193,
+        370,
+        567
+      ],
+      "batch": 7,
+      "sourceIndex": 58,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-NW-05",
+      "jsonSha256": "677bd50d104903169c95f6152cfa38d2f6353c5da8e9a596dbb9e91ce54c2688",
+      "svgSha256": "acc86cbcbc5fa6048cfc7a0641595c2ac9469e636e92e9e6f9e53e98251114d1",
+      "pngSha256": "df30cc67479ef60cf81dda7571a2b7309993e3e4594eed9e5a550e98ba86a019",
+      "bounds": [
+        252,
+        188,
+        387,
+        571
+      ],
+      "batch": 7,
+      "sourceIndex": 59,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-NW-06",
+      "jsonSha256": "1f718c50f12113ce4187016dc891de8db8793bac3568d40074b8a7b691f6b4db",
+      "svgSha256": "1b54a8650da08ea140ad763e679d06b341a399a02010d8097e80fe0b48a7c64d",
+      "pngSha256": "87c2f46b5182fac073399d1781feeb274b0062a7740f0287b5cdfd6cc19b41cf",
+      "bounds": [
+        264,
+        183,
+        359,
+        564
+      ],
+      "batch": 7,
+      "sourceIndex": 60,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-walk-NW-07",
+      "jsonSha256": "ac9ff33af9605c5f72b8dc3ce18a9d6a92f6e479577ac1a2b479a00800fb38ec",
+      "svgSha256": "833ab7896418083e0ef63a02a0dfeba3bbc84cb6a5a8f977eaa159f3e6be7342",
+      "pngSha256": "8d431a97462b76da7fc0df1471728fa75e1daa4b7907cde72b313c6f56c75620",
+      "bounds": [
+        233,
+        188,
+        369,
+        567
+      ],
+      "batch": 7,
+      "sourceIndex": 61,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-NW-01",
+      "jsonSha256": "906b64d76d8dd0fe19ad9810ac834b66fea5cfbe20823271c256cd828f424019",
+      "svgSha256": "0f142de10ee9ad9116b77efa9b33b79c6b92ad2f27fa523d30f38e776a5d92db",
+      "pngSha256": "993de43acfd4482f4c5eed477e49c6f653e6fa9041706fc52c83b2d8d8148a6d",
+      "bounds": [
+        195,
+        199,
+        370,
+        560
+      ],
+      "batch": 7,
+      "sourceIndex": 62,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-NW-02",
+      "jsonSha256": "e59a5c6151732b89f6acfb1fff626779688043e46b5b6fc1940f5a540981dfb7",
+      "svgSha256": "440550198e272def3391195f740985e07fcfeeb11cf1e82557635fcb984d3515",
+      "pngSha256": "fe52d98840b2d3bf9442d9f6b5eadad92d2ee7d92f5c9f88cd9e10f3136f30e2",
+      "bounds": [
+        221,
+        188,
+        360,
+        565
+      ],
+      "batch": 7,
+      "sourceIndex": 63,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-NW-03",
+      "jsonSha256": "70880aaf3aea76fbb12885d0cefd953f9494c750b2d54c83b44b9c963a426ea2",
+      "svgSha256": "8d449ff49c8b547c0e6fe52cf8b949c43bfd535699d13f25b1dca0e871b65fd6",
+      "pngSha256": "4b47688b5a2a6d40658a78b23e45d08215d08f2265afb35189a792625704c6f4",
+      "bounds": [
+        233,
+        199,
+        390,
+        573
+      ],
+      "batch": 7,
+      "sourceIndex": 64,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-NW-04",
+      "jsonSha256": "986a71b05d8d414c9e7f4d918c62516b1e31a132285c0494ded506a3cc34040b",
+      "svgSha256": "97aa9d4720c37aa305ef85eb2c0f99268f86c77f5f8033e3306e129d6fee7a8c",
+      "pngSha256": "dc0829788a8a641f94ca81f4568c8a5ce03420a851206fa27f22ba9427e5b9fa",
+      "bounds": [
+        232,
+        210,
+        372,
+        558
+      ],
+      "batch": 7,
+      "sourceIndex": 65,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-NW-05",
+      "jsonSha256": "7e47c62f15448e2d1dd7f03be057e593799e03ac20591f9f097ff2c6296fbb51",
+      "svgSha256": "0e8de551b6a2131ed1380120809076620258647ae213c76404b2f1dd52577826",
+      "pngSha256": "a3d118fa123be84b7528f480187574fec095b8a17682d5e10912b42ba9fbea7b",
+      "bounds": [
+        247,
+        199,
+        354,
+        563
+      ],
+      "batch": 7,
+      "sourceIndex": 66,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-NW-06",
+      "jsonSha256": "1fbc71038fcef1f7a53c94fd0922b6f18cdf5197aacea5cf0c9545c80d2ff561",
+      "svgSha256": "560fa48852d4f4884c0ba9a6150c371c6fdd11dc6572b1fe5653130a4e3a1615",
+      "pngSha256": "747364bc212e2e2e4c7ba9d2582b5739eacf3ae1a0a1524e1a9a8e7a8a26521c",
+      "bounds": [
+        221,
+        188,
+        351,
+        569
+      ],
+      "batch": 7,
+      "sourceIndex": 67,
+      "provenance": "sequence"
+    },
+    {
+      "id": "human-run-NW-07",
+      "jsonSha256": "12d3dc2fe85ef702d940cbe8e9ad6c372792efbbdf5e47684086ead36c8d6bba",
+      "svgSha256": "dab94efa8b11577d5ada67fc21b988f49367244b5e08c9eb8fa1cfd2c7332d99",
+      "pngSha256": "ca37db0a4e3a606605acaa1b398eeae0e15747f0530aa49aa4cf9189d0101ca6",
+      "bounds": [
+        195,
+        199,
+        370,
+        576
+      ],
+      "batch": 7,
+      "sourceIndex": 68,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-neutral-NE",
+      "jsonSha256": "4cf1f9b6872a6ead04b3e52dd89a845f83839af17729985ceb88451528a61990",
+      "svgSha256": "36bab52dfd4cb35bda0b9a378ed732cc9914706b53a1d893e596275474aef49b",
+      "pngSha256": "8493859121c57431fa07de4d37ae75b94557d0a07d98938676241f1417f609f4",
+      "bounds": [
+        269,
+        267,
+        379,
+        564
+      ],
+      "batch": 8,
+      "sourceIndex": 0,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-contact-NE",
+      "jsonSha256": "508da8b779a57c001ceccd37b6c6d5f0dcd5ba7397006cea677376c6cd3b6307",
+      "svgSha256": "1a400e0d522eff42d4f83e1ede6d42de78dbb46990e4a0513503bd768736b58a",
+      "pngSha256": "3bdc69e216f6f009235d0b4b0f3bf6c4b7ff7a087b2fbd3200b3d71246fa34af",
+      "bounds": [
+        271,
+        275,
+        391,
+        566
+      ],
+      "batch": 8,
+      "sourceIndex": 1,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-pass-NE",
+      "jsonSha256": "5776f10ceeccc75dfdd61f6d56a533a6758468b59ebeb50aeb8c0dfb3e68a6a4",
+      "svgSha256": "b9c3c90b74e5c5b54324610e8e8b6f5ae91e80a9f5b568bce817a52bcf937c50",
+      "pngSha256": "8101048184a209eaaa8e1ab55eb895a147639ff05d2f4a161a1a75852d3c1351",
+      "bounds": [
+        271,
+        268,
+        393,
+        566
+      ],
+      "batch": 8,
+      "sourceIndex": 2,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-push-NE",
+      "jsonSha256": "a20fc6c6bdbf835cc9ce2f760a33db114d1270abf99a0f8dcb2b58bd46a1298c",
+      "svgSha256": "6ae47dda98d35ba10dc6788f2ccae8f939df1c01c6e8c8797f4499d370aa591f",
+      "pngSha256": "5ed78ff6b96cd890fa32c1a17feaddc437be21d07d10c792619f5d993cf1f639",
+      "bounds": [
+        272,
+        280,
+        430,
+        569
+      ],
+      "batch": 8,
+      "sourceIndex": 3,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-flight-NE",
+      "jsonSha256": "881865e22377fa32aaf578b7adde49a38df241b3e7ca45f2bb68e1223a0016a3",
+      "svgSha256": "cc704d813fc6786102e3c64f8bbc5b51a2199d1550679be908169397dd19c009",
+      "pngSha256": "54414a60cf1c92a992cc191d6df81008f4254e56f5fd665d134af9082fa1c994",
+      "bounds": [
+        238,
+        258,
+        392,
+        520
+      ],
+      "batch": 8,
+      "sourceIndex": 4,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-jump-NE",
+      "jsonSha256": "e5e15aeff0e213307f5f8fbcf800a103eb3af87b2e071501e2834d3d20c4737a",
+      "svgSha256": "aa557735003caa30c34cdba53de104c0993c99f2a4b047d12e96340c5dd7fb2c",
+      "pngSha256": "c12c66b40fde378117930ab252563b95e47f8320816d5fe222cd5e9d1bf870bb",
+      "bounds": [
+        237,
+        252,
+        402,
+        533
+      ],
+      "batch": 8,
+      "sourceIndex": 5,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-crouch-NE",
+      "jsonSha256": "209a83ccd7fed5dd7d4865aea8168e1d2d6e95293561598d3063afab74267443",
+      "svgSha256": "561e09e3dd219dfcd9dd5ae836cfad40208faede27018892e4b422a034e100aa",
+      "pngSha256": "67e8fcdeef3fb8d053b8f280f12656c7ed9e10039352a2cef554a1b57c3d3f18",
+      "bounds": [
+        282,
+        325,
+        429,
+        563
+      ],
+      "batch": 8,
+      "sourceIndex": 6,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-reach-NE",
+      "jsonSha256": "1ecad50d32121caa396559734c115a6a9a3b2fed6246ec156aad29bb400aba87",
+      "svgSha256": "008edba33d11e2fb12bf4ae99d774213d793995560467e4c8288db12376d06f1",
+      "pngSha256": "c1d949e3943a97da5f53d20ba13e61ad2d89c86d55138ea356e5d034301cd201",
+      "bounds": [
+        275,
+        266,
+        415,
+        564
+      ],
+      "batch": 8,
+      "sourceIndex": 7,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-NE-00",
+      "jsonSha256": "9acacc092c145c47fe31c37f17ab374da87e6a1047e1a24f28e691acd5eb8e23",
+      "svgSha256": "20835fb2b326c30ec091f05e58aa495664e131f746eab8f428e9e755e1f6c9e6",
+      "pngSha256": "36cfabfacd9d2d272bc4066a81dbfc42d548297a63d41c4566ae22cb55aa9136",
+      "bounds": [
+        279,
+        275,
+        391,
+        564
+      ],
+      "batch": 8,
+      "sourceIndex": 8,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-NE-01",
+      "jsonSha256": "5e39d9e31f273a9490e83b6e626c329b711dfc2d27008bb36f385a0b0c48a5a3",
+      "svgSha256": "f9a537e1ae8b7c50b7f2a14e102f7d613dbb704abaec9aa73075fe1557551c15",
+      "pngSha256": "8b8201f7c41ae2b1755db48c0fe55dfe4f6e9130f0fbaaecae3a0ea999bf7fb3",
+      "bounds": [
+        270,
+        272,
+        382,
+        568
+      ],
+      "batch": 8,
+      "sourceIndex": 9,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-NE-02",
+      "jsonSha256": "59525209880fdd84033d60c277d3e61dca19f384fd14dd29c9df69dff2293bc2",
+      "svgSha256": "d287d18797dad858b25dc95db603ecacbf0449da2de5c633ef72fe571d657091",
+      "pngSha256": "f7d0c394b70d757caa7bb30f855fb575ae027b4c9002ba58ae86a2968eaa2c7f",
+      "bounds": [
+        275,
+        270,
+        372,
+        565
+      ],
+      "batch": 8,
+      "sourceIndex": 10,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-NE-03",
+      "jsonSha256": "c7c271c57cbf10d14dbb3336d072e718f7651d3d9c29024059a08ccc2d24f7fe",
+      "svgSha256": "7e78cad53473bd885692a36334d67b1d8085cc3a842cfbc9c416d66777bdc6b5",
+      "pngSha256": "cf8b449aaae97a2844f8fcdbaf7d542dbfa06d028541d335a954d056a5b5fead",
+      "bounds": [
+        270,
+        272,
+        393,
+        567
+      ],
+      "batch": 8,
+      "sourceIndex": 11,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-NE-04",
+      "jsonSha256": "e56a029bceaedd88988b3ca9ceed9ffe25068b9e13d55c71e1fa1bc15a5acd5e",
+      "svgSha256": "1e3381f4a28dd7c463c2aa8b29d1a4fb14d4cea6f74fe8001a15fbb1c50532ab",
+      "pngSha256": "c95956548d11a8d566694ced3871e291c19717fc384fb1daed69940cfef3d25f",
+      "bounds": [
+        264,
+        275,
+        401,
+        569
+      ],
+      "batch": 8,
+      "sourceIndex": 12,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-NE-05",
+      "jsonSha256": "98edb71cf7ea06a5ccc4a71bf3e6845422341c36702a3394076ce32c0f46d7eb",
+      "svgSha256": "f4d1551564906b24cf8abc4b52a76af9e76a8ede3551c587f9db5545f6459e7b",
+      "pngSha256": "692f4c472f03bd606ae2b6044bcfdb010ad7d8af43011eca39d919dea2016dd2",
+      "bounds": [
+        270,
+        272,
+        393,
+        572
+      ],
+      "batch": 8,
+      "sourceIndex": 13,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-NE-06",
+      "jsonSha256": "1bf88232b86598a68d6e6225d35289b7d59bff5bf1d7075c41285689150472ce",
+      "svgSha256": "13eed06ccad57ea9f27a59fd9fc4b2e5a22108baeb4c208d979e7c8cea75c27d",
+      "pngSha256": "9c53fcf677682127570a007685360afd51cb77ac7a3956fa90005e5b33587115",
+      "bounds": [
+        275,
+        270,
+        372,
+        561
+      ],
+      "batch": 8,
+      "sourceIndex": 14,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-NE-07",
+      "jsonSha256": "6069c81a0152db3fa3c04b9f85c101b92a6c46c1e431d460fc386de1899faa87",
+      "svgSha256": "dcb9f27f953c0d4f19b12b339f8cb854c1b0c955c3c3e44b268b42428a59b3a1",
+      "pngSha256": "ed4a521e8385cee958f4504d063fbd683194cd7c641b53d5dbee28621ae1dc0c",
+      "bounds": [
+        280,
+        272,
+        376,
+        563
+      ],
+      "batch": 8,
+      "sourceIndex": 15,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-NE-01",
+      "jsonSha256": "bfe83fa78b04a5f54271155baa8c8e2c0e7f237a31c60c18ee2006f833651a0a",
+      "svgSha256": "806a5cd26d0cff2d387d84b36942ce5b93be5a368a288845da423f71aa70f097",
+      "pngSha256": "9f4d2f06f135560f85c2cd72f173cc01555a78160f6b49204a4f62b0da983ae2",
+      "bounds": [
+        283,
+        278,
+        376,
+        565
+      ],
+      "batch": 8,
+      "sourceIndex": 16,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-NE-02",
+      "jsonSha256": "b467eaed2b490ef488b2258d22dbcd8a606adc5d73d4e347837b0bffc23c454a",
+      "svgSha256": "7ae94eaf69813387447df93aebd1247e4793959451f8170c036185500484340a",
+      "pngSha256": "8837aaff6d588dc64b6017f4cfeaa3d72fded61745a6e35d4a4771a79f223b74",
+      "bounds": [
+        282,
+        272,
+        401,
+        568
+      ],
+      "batch": 8,
+      "sourceIndex": 17,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-NE-03",
+      "jsonSha256": "f7871f2659c5d3971a06031b27fa0d34971a2e75ea2b99bfb0c8f994995b5b66",
+      "svgSha256": "66b6718276b9b85dae1409c506686ebdd8ccdd2f0b309a7c6a6e2296e9974c2a",
+      "pngSha256": "f31ccabdf45f2b689a060a4b3cf5aa6a764de43ff52d7112630d7965141a8f12",
+      "bounds": [
+        271,
+        278,
+        419,
+        573
+      ],
+      "batch": 8,
+      "sourceIndex": 18,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-NE-04",
+      "jsonSha256": "504f6fb3074cc4ef017c3f196aecfe561f1f645ad63135eb42eef01352f39503",
+      "svgSha256": "e436d9d8d2a884eadb76355591ded181b575e4d80c57293a005e85f8363a5b69",
+      "pngSha256": "759fc9face9ae495ff611ce39e308e5e89baa308a1900272ba7853656cdf449f",
+      "bounds": [
+        265,
+        285,
+        421,
+        557
+      ],
+      "batch": 8,
+      "sourceIndex": 19,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-NE-05",
+      "jsonSha256": "ed3773254f86f9908271e0e37a200a72143c1504207147b2b5fcb81de16f8a64",
+      "svgSha256": "bfac527d6915efec2423ad1396bada6a64088feb1ae0dc88c34daa70f29614df",
+      "pngSha256": "8d35733be9fe0b52a291185416f0b44e07ff24750b4f4aaf6e6f7897db51590e",
+      "bounds": [
+        271,
+        278,
+        419,
+        560
+      ],
+      "batch": 8,
+      "sourceIndex": 20,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-NE-06",
+      "jsonSha256": "392bae11c06bdf102c3e2bbe6fdf79c3d228087c9f7a9a05dcfce338dcc2d957",
+      "svgSha256": "638e27cede4bce8c9dc23eb64418c1bc2c63d7232ce06a0a4ae9aa3170ee9136",
+      "pngSha256": "756e98a1f63b011f951338f26ba8a372d0142d975b9585cff3e8b6853e87691c",
+      "bounds": [
+        282,
+        272,
+        401,
+        563
+      ],
+      "batch": 8,
+      "sourceIndex": 21,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-NE-07",
+      "jsonSha256": "52332b1ea2cfd7b7e9078432370435f2b6367781c92fdc74d8370af203ef01fd",
+      "svgSha256": "d57132cf62383b0ef27f521e32fd87b612d7bd066500268f43ed35b1e863b75d",
+      "pngSha256": "3ec212f3b474d8d05df19de77eb1d9a24da4c4d95433d14f5f8b9216bb1e18c1",
+      "bounds": [
+        268,
+        278,
+        383,
+        569
+      ],
+      "batch": 8,
+      "sourceIndex": 22,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-neutral-N",
+      "jsonSha256": "9aa2258bec79deab21b004073337325bba5ec3c3e6ea781dfb0a9a250d6208b3",
+      "svgSha256": "91180794779c0d1be41c760424a1c8fef8ab1d21cee1aba955135684a843e5a9",
+      "pngSha256": "b883667c642a145a517c821b303d4b1c678710057ae1693fd881dbb25aa8b8ab",
+      "bounds": [
+        262,
+        267,
+        378,
+        566
+      ],
+      "batch": 8,
+      "sourceIndex": 23,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-contact-N",
+      "jsonSha256": "324b233965c1e9affcfba127641a0773940b3b46a92ceda8087e18acb4439117",
+      "svgSha256": "82097ed535a5e77432ffaccfb2a201feb6b86821ee5a91ac66d3f99a1ddd9e20",
+      "pngSha256": "10efeb9cb11f94dc07a973b6cbcefc8d5feedc9151c5e46b206f3390bf9e559e",
+      "bounds": [
+        262,
+        274,
+        378,
+        569
+      ],
+      "batch": 8,
+      "sourceIndex": 24,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-pass-N",
+      "jsonSha256": "be4003f9a9cb23151476626e88efb732960502bccaac68435ac1dbb92f61586d",
+      "svgSha256": "0b3c080952ca656f7721340cda9b49c1fc54d613f32ec59bbc0dceec823cc84a",
+      "pngSha256": "2b9ab7e1b809759c5a21a3df645043e29c0f21fd5a7e360d2ab5eec44e3f5425",
+      "bounds": [
+        262,
+        268,
+        378,
+        564
+      ],
+      "batch": 8,
+      "sourceIndex": 25,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-push-N",
+      "jsonSha256": "0ce89d37a551197270ceacf697276ab9b19a6d0efcfec18bca89c3bb30234e0f",
+      "svgSha256": "1eedb3d2f9b199a77cff15120133b8661f7e77e3aeda3d02a5e6e77265c82e1e",
+      "pngSha256": "d952a897b2bff9dfa473ed33b6f90bca77d8ea61ce94c97571fb79b1f5808c19",
+      "bounds": [
+        262,
+        278,
+        378,
+        568
+      ],
+      "batch": 8,
+      "sourceIndex": 26,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-flight-N",
+      "jsonSha256": "390d26eccde79fb6034fec11e480413fa66356bc777aebaa96d78d87d9968e04",
+      "svgSha256": "1359c58a5a2d0f99f332576454907ed26b799b459c086099554e183b4a6cde2d",
+      "pngSha256": "948b46439ab3186e29b1b2e6d09d4e7360de46a506c5f137061a67d9b128de78",
+      "bounds": [
+        262,
+        256,
+        378,
+        515
+      ],
+      "batch": 8,
+      "sourceIndex": 27,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-jump-N",
+      "jsonSha256": "78e8563dfd1d224444e34e2e372e9b14419cfc90eb6a259305bef8042723d191",
+      "svgSha256": "5f6e3b2ef8049cb1eaf2ebb959295975e13f518c87ecb31aa4ba27e4a4ff45e0",
+      "pngSha256": "255350c557d1bb7ab0ecc20abb9175b8a13018883e399155e249ae56e75599f8",
+      "bounds": [
+        262,
+        251,
+        378,
+        529
+      ],
+      "batch": 8,
+      "sourceIndex": 28,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-crouch-N",
+      "jsonSha256": "4e09781a5915669aff7af1f60fcb6955c71ef89e222b4cab846220435e7e95af",
+      "svgSha256": "d9f9996041202e80ad724ade4de42bf7e916c221cf7d8bf9697f2d617e3f4bcf",
+      "pngSha256": "8b41afdb482afb4120fe5ee076529a0a5d792aaa415c067d9d32fdb64e7c6bce",
+      "bounds": [
+        262,
+        321,
+        378,
+        565
+      ],
+      "batch": 8,
+      "sourceIndex": 29,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-reach-N",
+      "jsonSha256": "23da47bfba01e83540fbdde714bd800baf1ade2810322df70dc58396702e473b",
+      "svgSha256": "0884d6ca2c071c53647b398a82f6deded8a483788a9bb054ceccfdfe1b4bb496",
+      "pngSha256": "414666bc655bf22b2e3da3c6014a5b2bc8630d08d309c826e0ebb08b1c930967",
+      "bounds": [
+        262,
+        265,
+        378,
+        566
+      ],
+      "batch": 8,
+      "sourceIndex": 30,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-N-00",
+      "jsonSha256": "20f5f0b781af0715a2723c1eaef3d85c454c7a79299fdd988281ca02a30c0c55",
+      "svgSha256": "c70a3ee37df3151f1c8a97fbbc87a99edc4d659860471c68cd5baafb4a4a2a7a",
+      "pngSha256": "2688bacf9c6aab87f001f9e0587bd1f94fb27af8f1948726786ed438bb402acb",
+      "bounds": [
+        262,
+        275,
+        378,
+        567
+      ],
+      "batch": 8,
+      "sourceIndex": 31,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-N-01",
+      "jsonSha256": "07e902ba3f9a64f3c2eac28614dca9fd2888e96fc4b693e112631aa1a4f25cdf",
+      "svgSha256": "9e8e21a92cdc8722c894f91d3d246df8c63a7ce6dfed461d83f69cafedc19760",
+      "pngSha256": "bc86491d337e345c79e369eb299124c7c87ac39e093f24fd1456c8995e5736d5",
+      "bounds": [
+        262,
+        272,
+        378,
+        571
+      ],
+      "batch": 8,
+      "sourceIndex": 32,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-N-02",
+      "jsonSha256": "d42b6cc8411a8897c11b126fdb4d56f577a20f7820349b49d1c459efab48ffd3",
+      "svgSha256": "1e16df10f0bcee9e01cf891f4b5f2381258bc1dae669c70e917a605c37f39d47",
+      "pngSha256": "d34ee680ecfb1161d95509cd18aab5f556bc46b216a4113e2f3e47370acbd18f",
+      "bounds": [
+        262,
+        269,
+        378,
+        563
+      ],
+      "batch": 8,
+      "sourceIndex": 33,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-N-03",
+      "jsonSha256": "f54994dda739bd1eb543e17cdf98a76618d30d1a49d57f60fc58ff923362d3ae",
+      "svgSha256": "32220db37aa7f3889b97132f2330a864b21437be4b23a175f1fefdd259ccb3e5",
+      "pngSha256": "74b7a393c31613c9ceda90d40e35e65b7c7c7d2528e769ae461f1c0ae888acef",
+      "bounds": [
+        262,
+        272,
+        378,
+        565
+      ],
+      "batch": 8,
+      "sourceIndex": 34,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-N-04",
+      "jsonSha256": "df8a2ece2bfce314416fde13266fd0f12452413758e9927ebe75eddf074cb862",
+      "svgSha256": "cd82788bfab14310751b449cbc0b66af18116d6c023c747d924ea9344273ac54",
+      "pngSha256": "e38077ba0a25760967d87169e3d6813bb24f459ba14a22ad2ed15506000553a1",
+      "bounds": [
+        262,
+        275,
+        378,
+        567
+      ],
+      "batch": 8,
+      "sourceIndex": 35,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-N-05",
+      "jsonSha256": "e851fb3c6ca4c3717da15f87c76401389d1d14b1fde2dd3fb6250095a4f1f7d4",
+      "svgSha256": "7248482207ce2305a0ad028d0669803eddd2b462f2aa4b198af5709a85c1b3f0",
+      "pngSha256": "7145043ad2880812aed9f333ea220472be2460348fe3a8fcc7566512ea7a01e7",
+      "bounds": [
+        262,
+        272,
+        378,
+        571
+      ],
+      "batch": 8,
+      "sourceIndex": 36,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-N-06",
+      "jsonSha256": "b265c386fedf6573f4476d2ae5cfa111f1494d1e6f23749e6d2a3faad3420436",
+      "svgSha256": "26b6984485d787c902a88f206ede2efd9286d6303dfd087e8db1bb63a245670f",
+      "pngSha256": "ce012280b9e3b15f1683397988baf39841854ecea853ff345eaa0e2bbc1f0ddc",
+      "bounds": [
+        262,
+        269,
+        378,
+        563
+      ],
+      "batch": 8,
+      "sourceIndex": 37,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-N-07",
+      "jsonSha256": "c33a6e4dc0d3dc40982492842dcb8ed266340df3fe96fd771e7793f2ea381dd8",
+      "svgSha256": "2f0050b8b9a762524b32bfc7c561da38a49e6ccb402b0a793f389dd753a3f1e2",
+      "pngSha256": "b78ba298affbd8aa905227a6e1af793e2bb2fe17c3ec7e344f97b0a5bacc5696",
+      "bounds": [
+        262,
+        272,
+        378,
+        565
+      ],
+      "batch": 8,
+      "sourceIndex": 38,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-N-01",
+      "jsonSha256": "e06b1739a300006a061d20a2cd3a14c4f6557d4e79350f8cf4bc9d0203392cd0",
+      "svgSha256": "713a17bee3c9fbcc5ae6d7fc0e0c67a8788dad373972ffe1d8c111f024ccf3e9",
+      "pngSha256": "dc61d81cfdd7b6082ad6fc9c957a3d779b3e312c2a8ac1889c21bb0ff104c5e0",
+      "bounds": [
+        262,
+        277,
+        378,
+        562
+      ],
+      "batch": 8,
+      "sourceIndex": 39,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-N-02",
+      "jsonSha256": "a2466d5cc2cabdfbc16fc273978be5f1b64e151c4874fc069d2342400c3bd6ae",
+      "svgSha256": "b366a178f97a1a9e6c42c326541ff9bc99e346a5ecbee39f25e0af061f3ca932",
+      "pngSha256": "d5a30f0d19dc10a897f4cffebfe3876c146745ebc4e48f807b4d01107cdac756",
+      "bounds": [
+        262,
+        271,
+        378,
+        566
+      ],
+      "batch": 8,
+      "sourceIndex": 40,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-N-03",
+      "jsonSha256": "090c796853b97a6dee3bdf062cf813bd019867561911a97f1ef4a95c5ef47f21",
+      "svgSha256": "3a605bf6b456211b192e57979d86a086815e9a48f640c41546971b15a3104632",
+      "pngSha256": "48ca8c2650a74158c1f9a9d5cc9127f763bf8cecc04f60463d12714426a075a8",
+      "bounds": [
+        262,
+        277,
+        378,
+        572
+      ],
+      "batch": 8,
+      "sourceIndex": 41,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-N-04",
+      "jsonSha256": "4be453589d5dbd5abe72159b3dd9140c6b20f4eb6c87bb829783a57516aca6bb",
+      "svgSha256": "1b910022f4ffafd7649ac79558eac2934cebaee789305aea2bfeb755338d4add",
+      "pngSha256": "b5679c60b700b9b029ec83548b4d2bc00300d3c94ec5909c7ca3633bc6eccaa7",
+      "bounds": [
+        262,
+        283,
+        378,
+        557
+      ],
+      "batch": 8,
+      "sourceIndex": 42,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-N-05",
+      "jsonSha256": "8592e16bb049f229096edf0d5e7f8e2c6e1da9e0d1637697a535998f21ac4d5e",
+      "svgSha256": "05534da11d73b4ececefeb8efdf21903b04d14594a709c3cda344e8c59b786ce",
+      "pngSha256": "675ad1cc50b5b24886a09b4e10d51303a67617d372ece9e35d2e77e4f59f58ec",
+      "bounds": [
+        262,
+        277,
+        378,
+        562
+      ],
+      "batch": 8,
+      "sourceIndex": 43,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-N-06",
+      "jsonSha256": "9b480837d8dfff65fa0817233b958cd1d7db81e85e6e8ee5bb9aa9abaa0b8b06",
+      "svgSha256": "436364c5db121d01441a5d7e7bd8765252e8dacf0796fd0730a676db71bd76b2",
+      "pngSha256": "e53d198f83dd03fddb59225fc5f2e3ecce6549574731d97c33596bfc0a177ecf",
+      "bounds": [
+        262,
+        271,
+        378,
+        566
+      ],
+      "batch": 8,
+      "sourceIndex": 44,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-N-07",
+      "jsonSha256": "742d0e17cce6a161754b137f16efee0cc9580ef075518c756986635a6b050092",
+      "svgSha256": "d38f6a49db3aaab51a1f49294ba78545a7e6da5acbe550efef5738195e22100d",
+      "pngSha256": "df93b8e91bbb1693bacbe48360a0fa0f5155cf068c165c6e71322ca9730bfd34",
+      "bounds": [
+        262,
+        277,
+        378,
+        572
+      ],
+      "batch": 8,
+      "sourceIndex": 45,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-neutral-NW",
+      "jsonSha256": "fef42e455231bbf8dc39f6d0312d0ba0b2c0200c075b4db9b0973162b8d036e7",
+      "svgSha256": "182569dbd018e641b688febb17b894c60bb3a94243402828a5b3e8e9c7919245",
+      "pngSha256": "8ac1215bd790f400045f414a87f1e937e3347b9d7fdcd1e55f4486711f2911d1",
+      "bounds": [
+        279,
+        267,
+        367,
+        568
+      ],
+      "batch": 8,
+      "sourceIndex": 46,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-contact-NW",
+      "jsonSha256": "62e3e109f3713402d633ca352a1a9dbc6c0c18712c49d238ec53cc3195228da1",
+      "svgSha256": "5b98812c576b385edb8a498693d1f4776fe0b41ac5ee60242fcaddf8d127aa8e",
+      "pngSha256": "777345d8976710772526b7e193e1f218d82a0d6e3876458e92634e54c85b308a",
+      "bounds": [
+        237,
+        275,
+        373,
+        570
+      ],
+      "batch": 8,
+      "sourceIndex": 47,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-pass-NW",
+      "jsonSha256": "f8f4bb7aa7f983a2c93fe0ee81f7e2b4d2f9311bf0a062cb7dddcaa43de106e2",
+      "svgSha256": "64528f9f4df69b0a83b77e4b410855ce2405769d9daa2c80d17fea52f1d9eddb",
+      "pngSha256": "dfe961650cbac5a8f2a76e35d152336e5703a8ab868b501f5ba22207452d78b2",
+      "bounds": [
+        265,
+        268,
+        362,
+        562
+      ],
+      "batch": 8,
+      "sourceIndex": 48,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-push-NW",
+      "jsonSha256": "1da46ed4ac2c8ddc23393a926410ec9645681a01b74e4f72fcf5a02a2af90fc5",
+      "svgSha256": "9010c0923018518bca66dbb43855830c0e37ce4b3b04341a7bd2155968c4995c",
+      "pngSha256": "83821e6ae9f171d069a625ec2c3125f04f872f1b78a00fac1b15c7bb4baee271",
+      "bounds": [
+        257,
+        280,
+        363,
+        565
+      ],
+      "batch": 8,
+      "sourceIndex": 49,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-flight-NW",
+      "jsonSha256": "3741c3264488f8d639edc2289d4ab696cac177ec437bae9f8823a6f7922b970a",
+      "svgSha256": "205dbfd87a75128f672f779958cb07f38ebba4f42f8c677003b073bccdc22c3c",
+      "pngSha256": "69dc4ffc669fb3220e194b4157419c3e6fcd19f507ecc589a9ee25f09380ac0d",
+      "bounds": [
+        215,
+        258,
+        378,
+        515
+      ],
+      "batch": 8,
+      "sourceIndex": 50,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-jump-NW",
+      "jsonSha256": "25e5a31f6a2ba6af543f58273c389658dbde46049163188c01c2cd21f66408a4",
+      "svgSha256": "3b74d77b9a8745a5b41ac53015a8a7dbd6a639dbbd565067bcd92a50dd6b4899",
+      "pngSha256": "b8b53ef0a34ac50e8c6b5010eda4a7c36c4f9732c50cc28038c52542231f72c8",
+      "bounds": [
+        219,
+        252,
+        378,
+        529
+      ],
+      "batch": 8,
+      "sourceIndex": 51,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-crouch-NW",
+      "jsonSha256": "d19d32a393863446dd136699d00500aec65b674226a3f56317cff073694fac47",
+      "svgSha256": "c43621214bcc0eff64ad128bf4a36328cd0e0ea5adb493102ba69247d56fa2d3",
+      "pngSha256": "137e7226ae895ff7f98577a629d4741be46b8c828fcffc2ff4d5514dd664faf0",
+      "bounds": [
+        236,
+        325,
+        358,
+        567
+      ],
+      "batch": 8,
+      "sourceIndex": 52,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-reach-NW",
+      "jsonSha256": "50c32c0608bcb9bf0a26d916701f25878e2d8817adcc90964147175881e7f66c",
+      "svgSha256": "a450156aafed1430c1bef60d65e40313abbd9eb66ff83607bb484596a49686fa",
+      "pngSha256": "8caed012ffe46db4f6816138fd544c90cce39599de07b539aa985701015e0098",
+      "bounds": [
+        273,
+        266,
+        358,
+        568
+      ],
+      "batch": 8,
+      "sourceIndex": 53,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-NW-00",
+      "jsonSha256": "e0c748307c0bc91e5ea606868cdf25c9df2aebf02576d137b94b7e832cd4ad7d",
+      "svgSha256": "2242a13e46cd44ac08dc4c8fb9de9ddbc9dc2ce31fe62f6b9b15abede3d38d43",
+      "pngSha256": "6b2b57ea9e3364daffff38c4c6f8ee44993b4f92fb0b7418764469f7c8aa508d",
+      "bounds": [
+        239,
+        275,
+        376,
+        569
+      ],
+      "batch": 8,
+      "sourceIndex": 54,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-NW-01",
+      "jsonSha256": "6325a13a24dfc7879189b8098e595960d43ed4e8be129a15591e16c62cc19de3",
+      "svgSha256": "365b482f06142e82b7d5b49e265eafab938458a292cb3d7d70ea5b53d8e001e9",
+      "pngSha256": "e0d5b6790eaef611af90f8473fdf519a0ddcbb4658acda357f4fd137107b1ec4",
+      "bounds": [
+        247,
+        272,
+        370,
+        572
+      ],
+      "batch": 8,
+      "sourceIndex": 55,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-NW-02",
+      "jsonSha256": "d6439d27615547d859b9f08de3fd82cd0a6b83141971ba173165375461c15ac8",
+      "svgSha256": "5ce4186f2cb9ff5f9cca0a0e2b52b0cd530e1e9667ad4b019fbe786069db499a",
+      "pngSha256": "d5a6ebe18cca4f74542519551027f8ea4a9804b44d972ec6819bdb0aaee4999f",
+      "bounds": [
+        268,
+        270,
+        365,
+        561
+      ],
+      "batch": 8,
+      "sourceIndex": 56,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-NW-03",
+      "jsonSha256": "c7592573c27addc08367a82709bcc574f7bbeecc394e327f8dce330d620c567b",
+      "svgSha256": "7428be04318517b1a3d3acfcc3f7970fba14e1767ea4296c41711ac8128ffd59",
+      "pngSha256": "87c21ef400ab1f2cea8caa796f22bf929010a6913eab39b9beaa24c3575b57f0",
+      "bounds": [
+        264,
+        272,
+        360,
+        563
+      ],
+      "batch": 8,
+      "sourceIndex": 57,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-NW-04",
+      "jsonSha256": "4c8ff6b854e83cdea5a498d9f7d9bcafdd7ec3fab7cf332f8670263dace132dd",
+      "svgSha256": "bfc099f0e918d06af831e17051b50ce8b42cf16a94ccf18b2e5da25a2b66ed22",
+      "pngSha256": "6c628d209a8226add311b680f4d552059d31e3ffc294f7052690276d54e30e0e",
+      "bounds": [
+        249,
+        275,
+        361,
+        564
+      ],
+      "batch": 8,
+      "sourceIndex": 58,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-NW-05",
+      "jsonSha256": "7d12ba8775c98f104717e01cdc301e9bb0cfd4e09ea7ece23fd18ee452b67187",
+      "svgSha256": "165db667e7654787dc56c5da170d25081cfc97aacfafbc8b7c5f4887df873450",
+      "pngSha256": "5ed6db2b1fbcdd457ed1130450888672dad04b1d50f7db34cd8301d640b86535",
+      "bounds": [
+        258,
+        272,
+        370,
+        568
+      ],
+      "batch": 8,
+      "sourceIndex": 59,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-NW-06",
+      "jsonSha256": "9e6ab789a1436bd69d258dccfb73dccecdbdc4d9085bb4550fab9fa150e2a548",
+      "svgSha256": "a1517033b9f05a83e7559e8c6632f3cd12b352c2374d70f85beb51fe6418e38f",
+      "pngSha256": "fc67fbf388f0adecb4b32a000e21b03c008b0481771f1c23f50c924beb32513c",
+      "bounds": [
+        268,
+        270,
+        365,
+        565
+      ],
+      "batch": 8,
+      "sourceIndex": 60,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-walk-NW-07",
+      "jsonSha256": "890e6a75cfcdf345d1d237012789cbfdffed52c8ddf0ff6665879876b9e2cb85",
+      "svgSha256": "12b00dcce0425d28ef718c5a639b1110f5a8fe617d7b289d55003db99c1cee7f",
+      "pngSha256": "716645803d20006d90e339c73157d93ae54a8bb9ad8ff41abf11c0da1bd50039",
+      "bounds": [
+        247,
+        272,
+        370,
+        567
+      ],
+      "batch": 8,
+      "sourceIndex": 61,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-NW-01",
+      "jsonSha256": "a55cbc9891500d7aa07ab9a49093df98ca0a64be27d58cb4c73489fa341f0ea3",
+      "svgSha256": "d7e992f9d86d730d61de6d6f924f345d4b56109041cd649e6d0678307249e721",
+      "pngSha256": "61d107a6990e537bdbbecf0e06211d7ae84c99a6798404f47ebef6ae12dd3fed",
+      "bounds": [
+        221,
+        278,
+        369,
+        560
+      ],
+      "batch": 8,
+      "sourceIndex": 62,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-NW-02",
+      "jsonSha256": "ac37a5074cb0d834580d5fede4845e8c72f38ea0e56a06cbd99da4613b10a9ad",
+      "svgSha256": "f54b796b2f1bc30fd45aede0afb9925764602ffdd92fa914e64bb66a99faecdd",
+      "pngSha256": "21dfcf4165ef0f8aa4df1a84626f07a9fa4d2eb65972f98b7937a98867fda323",
+      "bounds": [
+        239,
+        272,
+        358,
+        563
+      ],
+      "batch": 8,
+      "sourceIndex": 63,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-NW-03",
+      "jsonSha256": "da6ecc69fd5734b2928c7502ee76f143ed6a4310b9595c9122adefbc38426c47",
+      "svgSha256": "85032aa5ca954ed67d9897464d12abc9b937e5b607fa98d7af5abc127510db40",
+      "pngSha256": "0f104d84547dbff06e7f2b2f53b0523cb0163fdb36d3ebb78f577b35a51112f3",
+      "bounds": [
+        257,
+        278,
+        372,
+        569
+      ],
+      "batch": 8,
+      "sourceIndex": 64,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-NW-04",
+      "jsonSha256": "37db3230645097608b3e9d0453f2fd51bb5771795f0715724054b8533410ca76",
+      "svgSha256": "48dd7d4729e2022b5b2320700f143c72b898972d5453a90080fb787644a8a5d9",
+      "pngSha256": "498dfb84fe5ded51f01edd32383f2abc5a58ab601fdaf4a7ca6d37edd284c9e5",
+      "bounds": [
+        247,
+        285,
+        362,
+        562
+      ],
+      "batch": 8,
+      "sourceIndex": 65,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-NW-05",
+      "jsonSha256": "4ffe27d2d4c9fba4ea0c26ccf7262de5bf630241ea161bf01552e03bc48c7a5b",
+      "svgSha256": "2af21091ebcc1699bef785ade5e515a63f8a505ccba4b0a477a6f8b1ddd8cae1",
+      "pngSha256": "aafb55ea4a4cbc7d0ced80e46f4ec41622c883427fd240288ad2447a225f9482",
+      "bounds": [
+        264,
+        278,
+        357,
+        565
+      ],
+      "batch": 8,
+      "sourceIndex": 66,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-NW-06",
+      "jsonSha256": "3fa5fb96e002ab5423847906b27fe01155550e62072f6d727a6f38443474e127",
+      "svgSha256": "e9f41cf95e8a55154687c40d9820c1c7fcc61faab57bf396749dedf946aad0ef",
+      "pngSha256": "efcce8fe0c21c05129ce129bf087aeacdcca9413438dfc59d5f0c0b2db13a4e3",
+      "bounds": [
+        239,
+        272,
+        358,
+        568
+      ],
+      "batch": 8,
+      "sourceIndex": 67,
+      "provenance": "sequence"
+    },
+    {
+      "id": "rpg-run-NW-07",
+      "jsonSha256": "d7418e7cc5fbc79ee8ecf5d4c1b1b85b6622689e35a72f56bc0693da1596cbf9",
+      "svgSha256": "179aa5cd024ecaa623d6f82d16930a5df71660c0639c961499c3ecd286e3bd51",
+      "pngSha256": "771cfd9a862510cda02c0119f507ad373634f767b3101bd249285e3c14a9ee0f",
+      "bounds": [
+        221,
+        278,
+        369,
+        573
+      ],
+      "batch": 8,
+      "sourceIndex": 68,
+      "provenance": "sequence"
+    }
+  ],
+  "scope": "Exact native/source bytes, transparency, bounds. Art and motion require separate review."
+}
