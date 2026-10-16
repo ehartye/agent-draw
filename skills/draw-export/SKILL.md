@@ -1,11 +1,13 @@
 ---
 name: draw-export
-description: Build and review agent-draw vector projects as editable layered SVG plus PNG and PDF exports, with receipts and safe output handling. Use to render, export, verify, or deliver an existing drawing project, drawn pose sequences, animation frames, contact sheets, GIF, MP4, game sprite atlases, bitmap lettering or BMFont fonts for Phaser.
+description: Build and review agent-draw vector projects as editable layered SVG plus PNG and PDF exports, with receipts and safe output handling. Use to render, export, verify, or deliver an existing drawing project, drawn pose sequences, animation frames, contact sheets, GIF, MP4, game sprite atlases, bitmap lettering or BMFont fonts for Phaser, or use native Inkscape CLI actions, queries and Python inkex APIs.
 ---
 
 # Draw export
 
 Load `draw-setup` and validate the project before building. Use the managed launcher resolved from the plugin root, not a guessed PATH binary.
+
+For native SVG exports, object queries, batch actions, shell processing or Python `inkex` development, read the [Inkscape CLI and API quick reference](references/inkscape-automation.md). Use its correct command recipes and bundled examples.
 
 For bitmap lettering or Phaser bitmap fonts, read [font-atlas](../../docs/font-atlas.md) and use `font-atlas`, not sprite `atlas`. Run `node "<plugin-root>/scripts/run-managed.js" font-atlas /absolute/path/manifest.json --out /absolute/path/output/font`. Require its receipt and six hashed artifacts, then inspect actual glyph ink, transparency and cell fit. It exports fixed-cell printable ASCII with no measured bearings or kerning; requested family names do not prove which installed font Inkscape selected.
 

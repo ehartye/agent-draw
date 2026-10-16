@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.1
+
+- Add a curated Inkscape CLI and Python inkex API quick reference, linked directly from setup, authoring and export skills.
+- Include runnable SVG export/query/action/shell recipes, Python SVG editing and rendering examples, and a minimal EffectExtension/INX pair.
+- Verify native recipes against installed Inkscape 1.4.3 and its bundled inkex 1.4.0; retain current authoritative API links and a concise interface map.
+- Align the package lock metadata with the plugin version.
+
 ## 0.5.0
 
 - Add native `font-atlas`: validated printable-ASCII manifests, editable SVG/Draw source, transparent PNG, BMFont XML, hash receipts and staged overwrite safeguards.

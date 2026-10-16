@@ -2,7 +2,7 @@
 
 Layered 2D authoring for coding agents, backed by **Inkscape**. Describe a drawing in a small, validated JSON project; build an editable SVG, transparent PNG, and PDF using Inkscape's headless export interface.
 
-Version 0.5.0 adds native bitmap lettering, human figure starters and expanded character/perspective craft. Authoring and export require no browser, MCP server or npm dependencies: use Node.js 22+ and an existing Inkscape 1.2+ installation. Linux is the CI verification platform. Native Windows exports have been checked with an explicit Inkscape executable; automatic Windows discovery and macOS support remain unverified.
+Version 0.5.1 adds a skill-linked [Inkscape CLI and Python API quick reference](skills/draw-export/references/inkscape-automation.md), with runnable native export, query, action, shell and inkex examples. Bitmap lettering, human figure starters and character/perspective craft remain included. Authoring and export require no browser, MCP server or npm dependencies: use Node.js 22+ and an existing Inkscape 1.2+ installation. Linux is the CI verification platform. Native Windows exports have been checked with an explicit Inkscape executable; automatic Windows discovery and macOS support remain unverified.
 
 ## What it does
 

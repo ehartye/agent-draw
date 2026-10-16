@@ -1,0 +1,83 @@
+{
+  "ok": true,
+  "renderer": "Inkscape 1.4.3 (0d15f75, 2025-12-25)",
+  "inkex": "1.4.0",
+  "powershellRecipeBlocks": 7,
+  "nativeCommandsExitCode": 0,
+  "pathsWithSpaces": true,
+  "checks": {
+    "page.png": {
+      "size": [
+        256,
+        192
+      ],
+      "sha256": "e0be522dec5ecfe08a3aa18217599060a9bc9b784820fe675fa89ee1d326e33c"
+    },
+    "half-size.png": {
+      "size": [
+        128,
+        96
+      ],
+      "sha256": "4656ca8bedfd494f36b98fc431990dd6db8b9aed553d129b36be9f3ea590139e"
+    },
+    "hero.png": {
+      "size": [
+        64,
+        80
+      ],
+      "sha256": "82920267ab9d0f92eaf48890e93ccf642a93cec6d95ab749366c24a015e17799"
+    },
+    "action-hero.png": {
+      "size": [
+        64,
+        80
+      ],
+      "sha256": "82920267ab9d0f92eaf48890e93ccf642a93cec6d95ab749366c24a015e17799"
+    },
+    "shell-page.png": {
+      "size": [
+        256,
+        192
+      ],
+      "sha256": "e0be522dec5ecfe08a3aa18217599060a9bc9b784820fe675fa89ee1d326e33c"
+    },
+    "python-page.png": {
+      "size": [
+        256,
+        192
+      ],
+      "sha256": "e0be522dec5ecfe08a3aa18217599060a9bc9b784820fe675fa89ee1d326e33c"
+    },
+    "recolored.svg": {
+      "heroGreen": true,
+      "occluderUnchanged": true,
+      "sha256": "fc20033cbc5f1802572716cc6eb18b53051c6b934e5c9986d2e01c8d53aa5fc7"
+    },
+    "extension.svg": {
+      "heroGreen": true,
+      "occluderUnchanged": true,
+      "sha256": "c55a7eacae308e9907b01441f41ba226ed27c3e77f279fd7c5a56ba11e224b5c"
+    }
+  },
+  "pdfHeader": true,
+  "plainSvgParsed": true,
+  "queryInventoryAndOrderedWidths": true,
+  "pageTransparencyAndOcclusion": true,
+  "isolatedHeroPixel": true,
+  "apiAndShellMatchPageBytes": true,
+  "actionsMatchObjectBytes": true,
+  "outputs": {
+    "action-hero.png": "82920267ab9d0f92eaf48890e93ccf642a93cec6d95ab749366c24a015e17799",
+    "export.actions": "d53422dea379a0498b542bb1dab6953d9f3b71ae17e20023bac18183c43cdd66",
+    "extension.svg": "c55a7eacae308e9907b01441f41ba226ed27c3e77f279fd7c5a56ba11e224b5c",
+    "half-size.png": "4656ca8bedfd494f36b98fc431990dd6db8b9aed553d129b36be9f3ea590139e",
+    "hero.png": "82920267ab9d0f92eaf48890e93ccf642a93cec6d95ab749366c24a015e17799",
+    "page.pdf": "61d5797be0905e7f264c8e06e004b57cea831dc0bf162728bfa7f7bcd60c3434",
+    "page.png": "e0be522dec5ecfe08a3aa18217599060a9bc9b784820fe675fa89ee1d326e33c",
+    "plain.svg": "a7da00616d506f9785c2742807fad84a372f4fca5e688c0c5daa7e29ee230311",
+    "python-page.png": "e0be522dec5ecfe08a3aa18217599060a9bc9b784820fe675fa89ee1d326e33c",
+    "recolored.svg": "fc20033cbc5f1802572716cc6eb18b53051c6b934e5c9986d2e01c8d53aa5fc7",
+    "shell-page.png": "e0be522dec5ecfe08a3aa18217599060a9bc9b784820fe675fa89ee1d326e33c"
+  },
+  "inputSha256": "5b257369fb4205d1f6a03baa97222591da6e740136d7f9db60c5c703abf659f6"
+}
