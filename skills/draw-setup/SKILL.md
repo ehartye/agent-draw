@@ -20,6 +20,8 @@ Requirements: Node.js 22 or newer and an existing Inkscape 1.2 or newer installa
 
 Read the structured status and attempted executable, not just whether an app icon exists:
 
+On Windows, discovery tries `inkscape.com` then `inkscape.exe` through PATH. Only missing candidates permit fallback to `Inkscape/bin` under `ProgramW6432`, `ProgramFiles`, then `ProgramFiles(x86)` (deduplicated, console executable first). Missing Program Files variables use the conventional `C:\Program Files` / `C:\Program Files (x86)` roots. Relative and network roots are excluded. There is no directory/registry scan or automatic renderer download. The report lists every attempted path; a failed, unrecognized, or too-old probe stops selection. Explicit `AGENT_DRAW_INKSCAPE`, including an empty or broken value, bypasses all discovery.
+
 - `missing`: no executable was found. Point to [official stable downloads](https://inkscape.org/release/) and the [platform installation guide](https://wiki.inkscape.org/wiki/Installing_Inkscape), or ask the user for their existing executable location.
 - `too-old`: report detected and minimum versions; advise an official upgrade to 1.2 or newer.
 - `probe-failed` or `unrecognized-version`: report the actual executable and error/output. Do not claim a working renderer or silently try a different binary after an explicit override.

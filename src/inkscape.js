@@ -1,4 +1,21 @@
 import { spawnSync } from 'node:child_process';
+import { existsSync } from 'node:fs';
+import { win32 } from 'node:path';
+
+// Fixed machine-install locations only; no registry, user-directory or filesystem scan.
+export function windowsInkscapeCandidates(env) {
+  const value = name => Object.entries(env).find(([key]) => key.toLowerCase() === name.toLowerCase())?.[1];
+  const roots = [value('ProgramW6432'), value('ProgramFiles') ?? 'C:\\Program Files', value('ProgramFiles(x86)') ?? 'C:\\Program Files (x86)'];
+  const seen = new Set(), result = [];
+  for (const root of roots) {
+    if (typeof root !== 'string' || !/^[a-z]:[\\/]/i.test(root)) continue;
+    const normalized = win32.normalize(root);
+    if (seen.has(normalized.toLowerCase())) continue;
+    seen.add(normalized.toLowerCase());
+    for (const name of ['inkscape.com', 'inkscape.exe']) result.push(win32.join(normalized, 'Inkscape', 'bin', name));
+  }
+  return result;
+}
 
 export const INKSCAPE_INSTALL_URL = 'https://inkscape.org/release/';
 export const INKSCAPE_INSTALL_GUIDE = 'https://wiki.inkscape.org/wiki/Installing_Inkscape';
@@ -11,22 +28,22 @@ export function installAdvice(platform = process.platform) {
 }
 
 // An explicit override is authoritative: a broken override is never silently ignored.
-export function inspectInkscape({ platform = process.platform, env = process.env, timeoutMs = 10000 } = {}) {
+export function inspectInkscape({ platform = process.platform, env = process.env, timeoutMs = 10000, spawn = spawnSync } = {}) {
   const override = env.AGENT_DRAW_INKSCAPE;
   const candidates = override !== undefined ? [override] : platform === 'win32'
-    ? ['inkscape.com', 'inkscape.exe']
+    ? ['inkscape.com', 'inkscape.exe', ...windowsInkscapeCandidates(env)]
     : platform === 'darwin'
       ? ['inkscape', '/Applications/Inkscape.app/Contents/MacOS/inkscape']
       : ['inkscape'];
   const attempts = [];
   for (const command of candidates) {
     let result;
-    try { result = spawnSync(command, ['--version'], { env, encoding: 'utf8', timeout: timeoutMs, killSignal: 'SIGKILL', maxBuffer: 1048576 }); }
+    try { result = spawn(command, ['--version'], { env, encoding: 'utf8', timeout: timeoutMs, killSignal: 'SIGKILL', maxBuffer: 1048576 }); }
     catch (error) { result = { error }; }
     const output = (result.stdout || '').trim();
     const match = /^Inkscape (\d+)\.(\d+)(?:\.(\d+))?\b/.exec(output);
     let status;
-    if (result.error?.code === 'ENOENT') status = 'missing';
+    if (result.error?.code === 'ENOENT' && !existsSync(command)) status = 'missing';
     else if (result.error || result.status !== 0) status = 'probe-failed';
     else if (!match) status = 'unrecognized-version';
     else if (Number(match[1]) < 1 || (Number(match[1]) === 1 && Number(match[2]) < 2)) status = 'too-old';
@@ -45,7 +62,9 @@ export function inspectInkscape({ platform = process.platform, env = process.env
       ? 'CLI version probe passed. Run doctor --smoke to verify real SVG, PNG, and PDF export.'
       : override !== undefined && chosen.status !== 'too-old'
         ? `The explicit AGENT_DRAW_INKSCAPE selection ${JSON.stringify(chosen.command)} did not pass its probe. Check that selected path and its executable permissions first; an existing installation may already be available elsewhere. Do not silently change or ignore the selection. Ask before updating it, then rerun setup and doctor --smoke. Install Inkscape only if no suitable existing installation is available. No automatic installation was attempted.`
-        : installAdvice(platform) };
+        : chosen.status !== 'missing' && chosen.status !== 'too-old'
+          ? `The selected Inkscape executable ${JSON.stringify(chosen.command)} failed its probe (${chosen.status}). Inspect its error/output and permissions before changing the selection or reinstalling. No fallback after a failed probe and no automatic installation was attempted.`
+          : installAdvice(platform) };
 }
 
 export function findInkscape(options) {
