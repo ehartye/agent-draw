@@ -14,6 +14,8 @@ The SVG keeps real vector geometry and live text. PNG is the raster preview/expo
 
 ## Build boundaries
 
+Windows renderer selection is bounded: PATH console/GUI names first, then the fixed `Inkscape/bin` paths under the machine Program Files roots. Environment root names are case-insensitive, duplicate roots are removed, and relative/UNC roots are ignored. Missing Program Files variables use conventional C-drive roots; custom installations can use an explicit executable override. Only missing probes permit the next candidate; failed, old or unrecognized executables are diagnosed in place. `AGENT_DRAW_INKSCAPE` always selects exactly one candidate. Each probe uses an argument array without a shell, a 1 MiB output cap and a default 10-second timeout; there are at most eight candidates. This is discovery of conventional locations, not signature verification or a recursive/registry search. It never installs software.
+
 Each build uses a separate Inkscape profile and bounded execution time. The output directory must be absent unless replacement is requested with `--overwrite`; input files must not be destroyed by output replacement. Keep the project JSON outside the output directory.
 
 The serializer treats names, colors, font names, and text as data. Text is escaped for XML, and path data is restricted to SVG path commands and numeric coordinates. Gradient fills generate internal IDs in a controlled defs block; projects cannot choose a URL or paint-server ID. Fill rules and stroke cap/join controls are enumerated. There are no fields for raw SVG markup, scripts, URLs, arbitrary shell commands, or Inkscape extension calls. Unknown fields are rejected.

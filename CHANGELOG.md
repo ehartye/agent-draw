@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.5.2
+
+- Discover conventional machine-installed Windows Inkscape executables after PATH misses, including paths with spaces; retain authoritative override precedence and stop on failed probes.
+- Report every attempted path and distinguish a missing installation from an existing executable that cannot launch. Keep bounded candidates, per-probe timeout/output limits and shell-free invocation; no renderer download or broad filesystem scan.
+- Add portable discovery regressions and document targeted Windows managed smoke/sequence acceptance separately from full platform qualification.
+
 ## 0.5.1
 
 - Add a curated Inkscape CLI and Python inkex API quick reference, linked directly from setup, authoring and export skills.
